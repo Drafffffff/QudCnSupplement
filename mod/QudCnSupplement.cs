@@ -59,16 +59,17 @@ public static class QudCnSupplement
         foreach (string typeName in new[] { "XRL.World.Text.Delegates.GameObjectReplacers", "XRL.World.Text.Delegates.GenderedNounReplacers" })
             count += Patch(harmony, typeName, delegate(MethodInfo m) {
                 return m.ReturnType == typeof(string) && (m.Name == "Subjective" || m.Name == "Objective" ||
-                    m.Name == "Possessive" || m.Name == "SubstantivePossessive" || m.Name == "Reflexive");
+                    m.Name == "Possessive" || m.Name == "SubstantivePossessive" || m.Name == "Reflexive" || m.Name == "FormalAddressTerm");
             }, null, "TemplatePronounPostfix");
+        count += Patch(harmony,"XRL.World.GetDisplayNameEvent",m => m.Name=="AddTag" && m.GetParameters().Length>0 && m.GetParameters()[0].ParameterType==typeof(string),"PostureTagPrefix",null);
         // Effect labels are translated at their semantic source. Character and place names
         // never pass through this hook, unlike global display-name word substitutions.
         foreach (var type in typeof(XRL.World.Effect).Assembly.GetTypes())
         {
-            if (type.ContainsGenericParameters || !type.IsSubclassOf(typeof(XRL.World.Effect))) continue;
+            if (type.ContainsGenericParameters || (type != typeof(XRL.World.Effect) && !type.IsSubclassOf(typeof(XRL.World.Effect)))) continue;
             foreach (var method in AccessTools.GetDeclaredMethods(type))
             {
-                if (method.IsAbstract || method.ContainsGenericParameters || method.Name != "GetDescription" || method.ReturnType != typeof(string) || method.GetParameters().Length != 0) continue;
+                if (method.IsAbstract || method.ContainsGenericParameters || (method.Name != "GetDescription" && method.Name != "GetStateDescription") || method.ReturnType != typeof(string) || method.GetParameters().Length != 0) continue;
                 try { harmony.Patch(method, postfix: new HarmonyMethod(typeof(QudCnSupplement), "EffectPostfix")); count++; }
                 catch (Exception e) { Diagnostic("HOOK_ERROR", method.ToString() + " " + e.Message); }
             }
@@ -117,6 +118,7 @@ public static class QudCnSupplement
             case "i": case "me": case "my": case "mine": result = "我"; break;
             case "we": case "us": case "our": case "ours": result = "我们"; break;
             case "herself": return "她自己";
+            case "human friend": return "人类朋友";
             case "himself": return "他自己";
             case "itself": return "它自己";
             case "themselves": case "themself": return "他们自己";
@@ -129,9 +131,24 @@ public static class QudCnSupplement
         return possessive ? result + "的" : result;
     }
 
+    public static string TranslatePosture(string text)
+    {
+        if(!IsChinese || string.IsNullOrEmpty(text))return text;
+        if(text.StartsWith("[")&&text.EndsWith("]"))return "["+TranslatePosture(text.Substring(1,text.Length-2))+"]";
+        var outer=Outer.Match(text);
+        if(outer.Success)return "{{"+outer.Groups[1].Value+"|"+TranslatePosture(outer.Groups[2].Value)+"}}";
+        if(string.Equals(text,"sitting",StringComparison.OrdinalIgnoreCase))return "坐着";
+        if(string.Equals(text,"lying",StringComparison.OrdinalIgnoreCase))return "躺着";
+        var posture=Regex.Match(text,@"^(lying|sitting) on (?:a |an |the )?(.+)$",RegexOptions.IgnoreCase);
+        return posture.Success?(posture.Groups[1].Value.ToLowerInvariant()=="lying"?"躺在":"坐在")+posture.Groups[2].Value+"上":text;
+    }
+
+    public static void PostureTagPrefix(ref string __0) { if(IsChinese)__0=TranslatePosture(__0); }
+
     public static void EffectPostfix(ref string __result)
     {
         if (!IsChinese || string.IsNullOrEmpty(__result)) return;
+        __result = TranslatePosture(__result);
         string value;
         if (QudCnSupplementData.Effects.TryGetValue(__result, out value)) { __result = value; return; }
         var outer = Outer.Match(__result);
@@ -215,6 +232,7 @@ public static class QudCnSupplement
     private static string TranslateMessage(string text, int depth)
     {
         if (string.IsNullOrEmpty(text) || text.Length > 16384 || depth > 16) return text;
+        text = QudCnHud.NormalizeDate(QudCnHud.NormalizeUnits(text));
         // Do not operate on unresolved templates. The engine must resolve them first.
         if (text.IndexOf('=') >= 0 && Regex.IsMatch(text, @"=[A-Za-z][^=\r\n]*=")) return text;
         string exact = TranslateExact(text);

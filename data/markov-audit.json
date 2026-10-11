@@ -1,6 +1,6 @@
 {
   "input": "data/audit-fields.json",
-  "input_sha256": "2588ffea791115e71bf51119f9012b33c8ba71e1cd09ce33f5039a0ee5184ce9",
+  "input_sha256": "9d3ffc00edf325ed4f89f26d3fb4d48adfe37e0a496ef249cc06138ff6e44136",
   "output": "mod/LibraryCorpus.CN.json",
   "language": "CN",
   "order": 2,
@@ -12,13 +12,13 @@
     "Furniture.example.xml",
     "Items.example.xml"
   ],
-  "accepted_sentences": 4419,
-  "lexical_tokens": 51710,
-  "opening_words": 4419,
-  "chain_states": 29384,
+  "accepted_sentences": 4418,
+  "lexical_tokens": 51706,
+  "opening_words": 4418,
+  "chain_states": 29382,
   "excluded_sentences": {
     "dynamic_template": 586,
-    "fewer_than_four_tokens": 653,
+    "fewer_than_four_tokens": 654,
     "no_chinese_prose": 95,
     "residual_latin_or_identifier": 267
   },
@@ -436,7 +436,7 @@
     {
       "file": "Books.example.xml",
       "path": "((('book', (('ID', 'Quotes'),), 1), ('page', (), 6)), '#text')",
-      "sentences": 3
+      "sentences": 2
     },
     {
       "file": "Books.example.xml",
@@ -8011,6 +8011,6 @@
   ],
   "runtime_selection_required": true,
   "rewrites_existing_saved_titles": false,
-  "output_sha256": "4cecffb6bf54ee7703fb3668b74d5e6dcbd2cd531eac19415c2c0bbc58713e22",
+  "output_sha256": "e760ecc9898c90592387b146c831bd1c579b1449aadadd2c948a5e68a2b5c53c",
   "segmenter_dictionary_sha256": "7197c3211ddd98962b036cdf40324d1ea2bfaa12bd028e68faa70111a88e12a8"
 }

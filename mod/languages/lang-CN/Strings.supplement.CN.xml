@@ -6,7 +6,9 @@
   <string Context="Tutorial ExploreJoppa odd event" ID="Oh! it looks like Warden Yrame killed Mehmet. Why, you ask?&#10;&#10;Well, named creatures who you can perform the water ritual with, like Mehmet, generate with dynamic faction relationships. In your game, Mehmet must have been hated by the Fellowship of Wardens for some reason." Value="哦！看起来守望者 伊拉梅 杀死了 梅赫梅特。你问为什么？&#10;&#10;嗯，像 梅赫梅特 这样可以和你举行饮水仪式的具名生物，会带着动态派系关系生成。在你的游戏里，梅赫梅特 一定因为某种原因被守望者兄弟会憎恨了。" />
   <string Context="Tutorial ExploreJoppa odd event" ID="And so Warden Yrame took her revenge. In Qud, sometimes even our best efforts at providing a safe starter village are foiled by the simulation!&#10;&#10;What a charmed run! It's quite rare for this to happen, but now you get to see this hidden section of the tutorial. Good job." Value="于是守望者 伊拉梅 完成了复仇。在卡德，有时即使我们尽力提供一个安全的新手村，也会被模拟系统搅乱！&#10;&#10;真是受祝福的一局！这种情况相当罕见，但现在你能看到教程的隐藏片段了。干得好。" />
   <string Context="Tutorial ExploreJoppa odd event" ID="You have a few options now. You can roll with it and continue in this world where Mehmet's been revenge-slain. The early game will be a bit harder, but the main quest is not impacted.&#10;&#10;You can start over and play the tutorial again, for the &quot;normal&quot; ending, which you were about to reach.&#10;&#10;Or, since you were near the end anyway, you can start a new game and begin your journey proper!" Value="现在你有几个选择。你可以顺着这个结果继续，在 梅赫梅特 被复仇杀死的世界里玩下去。前期会稍微难一点，但主线任务不会受影响。&#10;&#10;你也可以重来一次教程，走向你本来快要抵达的那个“正常”结局。&#10;&#10;或者，反正你已经接近结尾，也可以直接开始新游戏，正式踏上旅程！" />
+  <string Context="Tutorial ExploreJoppa end" ID="Whatever you choose, good luck, and feel free to return here for a refresher.&#10;&#10;Live and drink." Value="无论你怎么选，祝你好运；需要复习时，随时可以回到这里。&#10;&#10;长存，畅饮。" />
   <string Context="Tutorial ExploreJoppa info" ID="Quetzal! That's all for the tutorial, friend.&#10;&#10;We just scratched the very tip of the surface. Quests, secrets, leveling up, physics, reputation, limbs... we leave that for you to discover." Value="羽蛇祝福！教程到这里就结束了，朋友。&#10;&#10;我们只是轻轻碰了碰表面。任务、秘密、升级、物理、声望、肢体……这些就留给你自己去发现。" />
+  <string Context="Tutorial ExploreJoppa end" ID="Live and drink.">长存，畅饮。</string>
   <string Context="Tutorial MakeCamp info" ID="The beetle's inventory is on the left, and your inventory is on the right.&#10;&#10;The beetle has some witchwood bark. That's useful -- it heals you when you eat it. Let's trade for it." Value="甲虫的物品栏在左边，你的在右边。&#10;&#10;甲虫有一些巫木树皮。它很有用——吃下可以恢复生命。来交换一点吧。" />
   <string Context="Tutorial MakeCamp instruction (gamepad)" ID="The beetle has some witchwood bark. That's useful -- it heals you when you eat it. Let's trade for it.&#10;&#10;Press =commandKey:CmdTradeAdd=" Value="甲虫有一些巫木树皮。它很有用——吃下可以恢复生命。来交换一点吧。&#10;&#10;按 =commandKey:CmdTradeAdd=" />
   <string Context="Tutorial MakeCamp instruction" ID="The beetle has some witchwood bark. That's useful -- it heals you when you eat it. Let's trade for it.&#10;&#10;Press =commandKey:CmdTradeAdd= or =commandKey:AdventureMouseContextAction=" Value="甲虫有一些巫木树皮。它很有用——吃下可以恢复生命。来交换一点吧。&#10;&#10;按 =commandKey:CmdTradeAdd= 或 =commandKey:AdventureMouseContextAction=" />
@@ -101,6 +103,7 @@
   <string Context="HistoricEvent InitializeRegion newName 35%" ID="=generatedName|title= =functionType|title=">=generatedName|title= =functionType|title=</string>
   <string Context="QudHistoryFactory article chance" ID="the" />
   <string Context="Resheph Gospel (rebuffs Girsh)" ID="In %=year=%, the Gyre widened, and the final plague afflicted the land. The Girsh Nephilim rose from their cradles on the Moon Stair and slouched toward Qud to eat its young. Resheph rose to meet them in battle and cast them back.">在 %=year=% 年，轮回扩大，最终瘟疫降临大地。吉尔什拿非利从月阶上的摇篮中升起，佝偻着走向库德，欲吞食其幼子。瑞谢夫挺身迎战，将他们击退。</string>
+  <string Context="HistoricEvent VillageProverb proverb" ID="Live and drink.">长存，畅饮。</string>
   <string Context="MakeAndList Final And" ID="and">和</string>
   <string Context="MakeOrList Default two-word join" ID=" or " Value="或" />
   <string Context="MakeOrList Default Separator" ID=", " Value="、" />
@@ -209,6 +212,9 @@
   <string Context="BuyRandomMutation IrritableGenome picked for you" ID="=subject.The.name's= irritable genome acts up. =spentPointsReport.join: =">=subject.The.name=的 易激基因组开始发作。=spentPointsReport.join: =</string>
   <string Context="QudAPISaves InfoTotalSize" ID="Total size: =size=mb">总大小：=size=兆字节</string>
   <string Context="QudAPISaves DirectoryError WillExit" ID="Caves of Qud will exit now since we cannot save games. Please check your directory's permissions.">因为不能保存游戏，《库德洞窟》现在将退出。请检查目录权限。</string>
+  <string Context="DynamicQuestConversationHelper reward choice choice" ID="Live and drink.">长存，畅饮。</string>
+  <string Context="DynamicQuestConversationHelper village zero main quest choice deny" ID="I must pass on this offer, for now. Live and drink.">这份提议我暂且谢绝。长存，畅饮。</string>
+  <string Context="DynamicQuestSignpostConversation choice" ID="Live and drink.">长存，畅饮。</string>
   <string Context="FindASpecificItemDynamicQuestTemplate mural text" ID="While exploring =player.zone.name=, =player.name= recovered the fabled artifact called =item.refname:withDefiniteArticle=.">在探索 =player.zone.name= 时，=player.name= 找回了传说中的神器：=item.refname:withDefiniteArticle=。</string>
   <string Context="FindASpecificItemDynamicQuestTemplate gospel text" ID="While visiting an obscure =spice:professions.$profession.guildhall=, =player.name= met with a group of =spice:professions.$profession.plural= and commissioned what came to be known as =item.refname:withDefiniteArticle=.">在造访一座隐蔽的 =spice:professions.$profession.guildhall= 时，=player.name= 与一群 =spice:professions.$profession.plural= 会面，并委托制作了后来被称为 =item.refname:withDefiniteArticle= 的物品。</string>
   <string Context="DimensionManager Journal Observation" ID="There exists a pocket dimension known as {{O|Tzimtzlum}}.">存在一个名为 {{O|齐姆兹卢姆}} 的袖珍维度。</string>
@@ -556,6 +562,7 @@
   <string Context="spotmessage" ID="=subject.Does#verb= =object.an:withTitles= =subject.generalDirection:noHere#object= and stop =autoActDescription=.">=subject.Does#verb= =object.an:withTitles= =subject.generalDirection:noHere#object=，停止 =autoActDescription=。</string>
   <string Context="spotmessage" ID="=subject.Does#verb= =object.an:withTitles:notvisible= =subject.generalDirection:noHere#object=, so you refrain from =autoActDescription=.">=subject.Does#verb= =object.an:withTitles:notvisible= =subject.generalDirection:noHere#object=，因此你放弃 =autoActDescription=。</string>
   <string Context="spotmessage" ID="=subject.Does#verb= =object.an:withTitles:notvisible= =subject.generalDirection:noHere#object= and stop =autoActDescription=.">=subject.Does#verb= =object.an:withTitles:notvisible= =subject.generalDirection:noHere#object=，停止 =autoActDescription=。</string>
+  <string Context="Tutorial Death" ID="Whatever you choose next, feel free to return to the tutorial if you need a refresher.&#10;&#10;Live and drink, friend!" Value="无论你接下来怎么选择，如果需要复习，随时可以回到教程。&#10;&#10;长存，畅饮，朋友！" />
   <string Context="ConfirmMoveInto LiquidPool Up or Down" ID="There =pool.is= a dangerous-looking =pool.short= that way. Do you want to go =direction.toward= and start swimming?">那边 有 一片看起来危险的 =pool.short=。你要向 =direction.toward= 前进并开始游泳吗？</string>
   <string Context="ConfirmMoveInto LiquidPool Up or Down" ID="There =pool.is= =pool.a.name= that way. Do you want to go =direction.toward= and start swimming?">那边 有 =pool.a.name=。你要向 =direction.toward= 前进并开始游泳吗？</string>
   <string Context="ConfirmMoveInto LiquidPool" ID="There =pool.is= a dangerous-looking =pool.short= that way. Move =direction.expandedDirection= again to enter =pool.them= and start swimming.">那边 有 一片看起来危险的 =pool.short=。再次向 =direction.expandedDirection= 移动以进入 =pool.them= 并开始游泳。</string>
@@ -1606,6 +1613,13 @@
   <string Context="Replacer =number.bytes= megabytes" ID="=mb:0.00= MB">=mb:0.00= 兆字节</string>
   <string Context="Replacer =number.bytes= kilobytes" ID="=kb:0= KB">=kb:0= 千字节</string>
   <string Context="Replacer WithCognomen" ID=", =cognomen=">, =cognomen=</string>
+  <string Context="Village Warden Conversation response" ID="Live and drink.">长存，畅饮。</string>
+  <string Context="Village Mayor conversation prompt" ID="Live and drink, =pronouns.formalAddressTerm=.">长存，畅饮，=pronouns.formalAddressTerm=。</string>
+  <string Context="Village merchant conversation prompt" ID="Live and drink, =pronouns.formalAddressTerm=.">长存，畅饮，=pronouns.formalAddressTerm=。</string>
+  <string Context="Village apothecary conversation prompt" ID="Live and drink.">长存，畅饮。</string>
+  <string Context="Village tinker conversation prompt" ID="Live and drink, tinker.">长存，畅饮，修补匠。</string>
+  <string Context="Village pet conversation prompt" ID="Live and drink.">长存，畅饮。</string>
+  <string Context="VillageBase AddVillagerConversation default response" ID="Live and drink.">长存，畅饮。</string>
   <string Context="ScriptCallToArms Power Fail" ID="[{{R|!!! ERROR: POWER SYSTEMS HAVE FAILED !!!}}]">[{{R|！！！错误：供电系统已失效！！！}}]</string>
   <string Context="ScriptCallToArms Power Insufficient" ID="[{{W|!!! WARNING: INSUFFICIENT POWER !!!}}]">[{{W|！！！警告：电力不足！！！}}]</string>
   <string Context="ScriptCallToArms Power Available" ID=" Available power: =available= amps " Value="可用电力：=available= 安培" />

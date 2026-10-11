@@ -1067,7 +1067,7 @@
     "file": "Strings.Conversations.example.xml",
     "path": "((('string', (('ID', '{{emote|*reeeeeps joyfully*}}\\n\\nGreetings, =name=! Live and drink, friend.'), ('Context', 'Conversation Goek.Greetings.Text')), 1),), '#text')",
     "source": "\n{{emote|*reeeeeps joyfully*}}\n\nGreetings, =name=! Live and drink, friend.\n  ",
-    "translation": "\n{{emote|*欢快地 reeeeeps*}}\n\n问候你，=name=！生而饮水，朋友。\n  ",
+    "translation": "\n{{emote|*欢快地 reeeeeps*}}\n\n问候你，=name=！长存，畅饮，朋友。\n  ",
     "retained_type": "proper_name_coinage_or_literal_needs_context_review"
   },
   {

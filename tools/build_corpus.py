@@ -149,6 +149,9 @@ def main():
             if repair:
                 if repair['source']!=source or translated not in {repair['before'],repair['after']}:raise ValueError('Template repair baseline changed: '+path.name+' '+repr(k))
                 translated=repair['after'];status='reviewed_template_grammar';applied_repairs.add((path.name,repr(k)))
+            if re.search(r'live and drink',source,re.I) and '生而饮水' in translated:
+                translated=translated.replace('生而饮水','长存，畅饮')
+                if status=='existing_cn':status='reviewed_farewell'
             if current is None or translated!=current:chosen[k]=translated
             if latin(translated):mixed.append({'file':path.name,'path':repr(k),'source':source,'translation':translated})
             if translated!=source and tokens(source)!=tokens(translated):token_warnings.append({'file':path.name,'status':status,'path':repr(k),'source':source,'translation':translated})

@@ -56,7 +56,18 @@ public static class QudCnGrammar
   foreach(var m in AccessTools.GetDeclaredMethods(grammar))if(m.Name=="Pluralize"&&m.ReturnType==typeof(string)&&m.GetParameters().Length>0&&m.GetParameters()[0].ParameterType==typeof(string)) {
    h.Patch(m,prefix:new HarmonyMethod(typeof(QudCnGrammar),"PluralWordPrefix"));count++;
   }
+  var post=AccessTools.TypeByName("XRL.World.Text.Delegates.PostProcessors");
+  foreach(var m in AccessTools.GetDeclaredMethods(post))if(m.Name=="Article"&&m.GetParameters().Length==1) {
+   h.Patch(m,prefix:new HarmonyMethod(typeof(QudCnGrammar),"ArticlePrefix"));count++;
+  }
   return count;
+ }
+ // |article runs after a HistorySpice ingredient/adjective expands. Chinese
+ // has no a/an; skip the English operation only when its value starts in CJK.
+ public static bool ArticlePrefix(object __0) {
+  if(!QudCnSupplement.IsChinese||__0==null)return true;
+  var value=AccessTools.Field(__0.GetType(),"Value").GetValue(__0);
+  return value==null||!Regex.IsMatch(value.ToString(),@"^\s*(?:\{\{[^{}|]*\||&[A-Za-z])*[\u3400-\u9fff]");
  }
  public static string Anatomy(string text) {
   if(string.IsNullOrEmpty(text))return text;

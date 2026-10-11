@@ -33,6 +33,7 @@ for k,v in sorted(phrases.items()):
 lines.extend(['};','public static readonly Tuple<Regex,string>[] Patterns = new Tuple<Regex,string>[] {'])
 # Known mixed-language screenshot structures must run before more general patterns.
 extra = [
+(r'^(你在日志的\s+(?:\{\{[^{}|]+\|)?)Sultan Histories(\s*>.*?\s+区段中记下这项资讯[。.]?)$', '$1苏丹历史$2'),
 (r'^你\s+take\s+(?:the |a |an )?(.+?)[。.]$', '你拿取了$1。'),
 (r'^你\s+miss\s+使用\s+(.+?)\s+未命中[！!。.]?$', '你用$1攻击，但未命中！'),
 # Already-localized physics messages still receive English object articles at runtime.

@@ -80,5 +80,20 @@
   "Visibility": "可见性",
   "In Use": "使用中",
   "Creating World": "正在创建世界",
-  "Opening Chest": "正在打开箱子"
+  "Opening Chest": "正在打开箱子",
+  "Food": "食物",
+  "Books": "书籍",
+  "Meds": "药品",
+  "Energy Cells": "能量电池",
+  "Resources": "资源",
+  "Melee Weapons": "近战武器",
+  "Missile Weapons": "远程武器",
+  "Water Containers": "水容器",
+  "Armor": "护甲",
+  "Shields": "盾牌",
+  "Tools": "工具",
+  "Full": "充满",
+  "Empty": "空",
+  "打兰": "德拉姆",
+  "打蓝": "德拉姆"
 }

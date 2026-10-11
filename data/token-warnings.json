@@ -1753,10 +1753,10 @@
   },
   {
     "file": "Strings.Conversations.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_farewell",
     "path": "((('string', (('ID', 'Welcome, =factionaddress:Mopango=. Live and drink. =ifplayerplural:Need ye:Needest thou= a place to rest and sup? =ifplayerplural:Would ye:Wouldst= trade?'), ('Context', 'Conversation Doyoba.Start3.Text')), 1),), '#text')",
     "source": "\nWelcome, =factionaddress:Mopango=. Live and drink. =ifplayerplural:Need ye:Needest thou= a place to rest and sup? =ifplayerplural:Would ye:Wouldst= trade?\n  ",
-    "translation": "\n欢迎，=factionaddress:Mopango=。生而饮水。=ifplayerplural:尔等需要:汝需要=休息和用餐的地方吗？=ifplayerplural:尔等愿意:汝愿意=交易吗？\n  ",
+    "translation": "\n欢迎，=factionaddress:Mopango=。长存，畅饮。=ifplayerplural:尔等需要:汝需要=休息和用餐的地方吗？=ifplayerplural:尔等愿意:汝愿意=交易吗？\n  ",
     "classification": "same_variable_heads_translated_parameters_or_filters"
   },
   {

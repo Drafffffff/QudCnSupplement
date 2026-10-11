@@ -1,5 +1,11 @@
 # Bazzite 实机验证记录
 
+## 0.1.3：烹饪、交易与祝语
+
+`analysis/cooking-build.log` / `analysis/cooking-runtime.log`：正式 7 个 C# 文件、隔离 QA 6 个文件编译成功；烹饪/单位/分类 318/318，HUD 109/109，真实字符串 10,211/10,211（零差异），语法 12/12、动态动词 25/25、书籍 17 组。`analysis/cooking-tests.log` 离线 37 项全部通过。截图中的三种食材实际组成“声誉良好的杏子、好奇的一根草和大刺叶”，不再出现 a。新增三张 Steam 截图专项 17/17（姿态说明及 AddTag、称呼、日志分类、日期、英文守卫）。详见 data/COOKING_TRADE.md。
+
+正式配置已安装 v0.1.3，38 个文件哈希一致、无 QA 探针、CN 初始化 210 个钩子成功，未见正式启动异常。安装前后存档哈希一致；证据见 analysis/cooking-installed-verification.json、cooking-installed-player.log、cooking-saves-before.json、cooking-saves-after.json。没有进入用户角色或确认其交易。
+
 ## 0.1.2：2026-10-11
 
 目标是实际安装的 Caves of Qud 2.0.212.31 lang-experimental，与创意工坊 QudSimplifiedChinese 0.1.0 共同加载。补充 Mod 依赖原包并在其后加载。

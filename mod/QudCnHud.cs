@@ -34,9 +34,21 @@ public static class QudCnHud
         }
         return n;
     }
+    // Display-only numeric capacity/money units; never rename stored objects.
+    public static string NormalizeUnits(string text)
+    {
+        if(!QudCnSupplement.IsChinese || string.IsNullOrEmpty(text))return text;
+        return Regex.Replace(text,@"([0-9]+(?:\.[0-9]+)?(?:\}\})?\s*)(?:打兰|打蓝)","$1德拉姆");
+    }
+    public static string NormalizeDate(string text)
+    {
+        if(!QudCnSupplement.IsChinese || string.IsNullOrEmpty(text))return text;
+        return Regex.Replace(text,@"(?<=[0-9])(?:st|nd|rd|th)(?=\s*日(?:\s|$))", "",RegexOptions.IgnoreCase);
+    }
     public static string Translate(string text)
     {
         if(string.IsNullOrEmpty(text))return text;
+        text=NormalizeDate(NormalizeUnits(text));
         string translated;
         string trimmed=text.Trim();
         if(QudCnHudData.Labels.TryGetValue(trimmed,out translated))
@@ -44,6 +56,13 @@ public static class QudCnHud
             int first=text.IndexOf(trimmed,StringComparison.Ordinal);
             return text.Substring(0,first)+translated+text.Substring(first+trimmed.Length);
         }
+        var header=Regex.Match(trimmed,@"^(\[-\]\s*|\[\+\]\s*)(.+)$");
+        if(header.Success&&QudCnHudData.Labels.TryGetValue(header.Groups[2].Value,out translated))
+            return text.Replace(trimmed,header.Groups[1].Value+translated);
+        var quantity=Regex.Match(trimmed,@"^([^|]+?)(\s*\|.*)$");
+        if(quantity.Success&&QudCnHudData.Labels.TryGetValue(quantity.Groups[1].Value,out translated))
+            return text.Replace(trimmed,translated+quantity.Groups[2].Value);
+        if(text.Contains("电池"))text=text.Replace("(Full)","(充满)").Replace("(Empty)","(空)");
         var outer=Markup.Match(text);
         if(outer.Success){var value=Translate(outer.Groups[2].Value);if(value!=outer.Groups[2].Value)return "{{"+outer.Groups[1].Value+"|"+value+"}}";}
         var color=Color.Match(text);

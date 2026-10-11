@@ -806,6 +806,7 @@ Tuple.Create(new Regex(@"^(?:You|你)\s+(?:take|受到)\s+(\d+)\s+damage\s+from\
 Tuple.Create(new Regex(@"^(?:The )?(.+?)\s+(?:takes?|受到)\s+(\d+)\s+damage\s+from\s+(?:the )?cold[.!]?(?: ?(\[[^\]]*\]))?$", RegexOptions.IgnoreCase), "$1因寒冷受到$2伤害$3。"),
 Tuple.Create(new Regex(@"^(?:You|你)\s+(?:take|受到)\s+(\d+)\s+damage\s+from\s+(?:the )?freezing[.!]?(?: ?(\[[^\]]*\]))?$", RegexOptions.IgnoreCase), "你因冰冻受到$1伤害$2。"),
 Tuple.Create(new Regex(@"^(?:The )?(.+?)\s+(?:takes?|受到)\s+(\d+)\s+damage\s+from\s+(?:the )?freezing[.!]?(?: ?(\[[^\]]*\]))?$", RegexOptions.IgnoreCase), "$1因冰冻受到$2伤害$3。"),
+Tuple.Create(new Regex(@"^(你在日志的\s+(?:\{\{[^{}|]+\|)?)Sultan Histories(\s*>.*?\s+区段中记下这项资讯[。.]?)$", RegexOptions.IgnoreCase), "$1苏丹历史$2"),
 Tuple.Create(new Regex(@"^你\s+take\s+(?:the |a |an )?(.+?)[。.]$", RegexOptions.IgnoreCase), "你拿取了$1。"),
 Tuple.Create(new Regex(@"^你\s+miss\s+使用\s+(.+?)\s+未命中[！!。.]?$", RegexOptions.IgnoreCase), "你用$1攻击，但未命中！"),
 Tuple.Create(new Regex(@"^你经过了\s+(?:the |a |an )?(.+?)[。.]$", RegexOptions.IgnoreCase), "你经过了$1。"),

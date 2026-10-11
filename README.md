@@ -1,6 +1,6 @@
 # Caves of Qud 简体中文补充 Mod
 
-当前补充包版本 **0.1.2**。针对 Bazzite 上的 **2.0.212.31 / lang-experimental**，依赖创意工坊简中补丁 **3746335636 / QudSimplifiedChinese**。本项目是独立本地 Mod，不覆盖创意工坊文件；加载顺序为原简中包 → QudCnSupplement。
+当前补充包版本 **0.1.3**。针对 Bazzite 上的 **2.0.212.31 / lang-experimental**，依赖创意工坊简中补丁 **3746335636 / QudSimplifiedChinese**。本项目是独立本地 Mod，不覆盖创意工坊文件；加载顺序为原简中包 → QudCnSupplement。
 
 ## 覆盖范围与限制
 
@@ -69,3 +69,11 @@ python3 -m venv .venv
 实机测试和剩余边界见 TESTING.md，以及 `data/HUD_RENDERING.md`、`data/TEMPLATE_GRAMMAR.md`、`data/RUNTIME_GRAMMAR.md`、`data/PROCEDURAL_TITLES.md`。这些结果仍不能证明全游戏任意场景绝无漏译。
 
 真实引擎验证：10,211 条字符串查询零差异、95 项界面/悬停、12 项语法、25 项动态动词、17 组程序书籍与线索检查；离线 37 项测试通过。正常配置安装 38 个文件哈希一致、原存档哈希不变。完整证据与未证明的覆盖边界见 [TESTING.md](TESTING.md)。
+
+## 0.1.3 烹饪冠词与交易用语
+
+烹饪随机语料中的 `|article` 在中文食材和形容词生成后仍调用英文 Grammar.A。补充在 PostProcessors.Article 出口识别已展开的中文开头，跳过英文冠词，保留英文词和英文模式的原生行为；不改食材 ID、储存名称或已经写入存档的历史消息。
+
+交易显示中的数字容量“打兰／打蓝”统一为“德拉姆”，保留数值和计算；清水是交易媒介，德拉姆是水量单位，不是另一种货币。补全交易分类及电池 Full/Empty 的中文显示。标准祝语 Live and drink 从“生而饮水”改为“长存，畅饮”；有意变体和粗话维持其上下文。验证见 `data/COOKING_TRADE.md`。
+
+同版纳入三张 Steam 截图的后续修复：称呼“人类朋友”、坐着／躺在床上状态、苏丹历史日志分类及中文日期序数。所有修改在显示/模板语义出口进行，原存档数据不改。

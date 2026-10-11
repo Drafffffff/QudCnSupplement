@@ -1,10 +1,26 @@
 <?xml version='1.0' encoding='utf-8'?>
 <strings Lang="CN" Encoding="utf-8">
+  <string ID="Live and drink.">长存，畅饮。</string>
+  <string Context="Conversation Barathrum.Z-Ascended3.Text" ID="Farewell, now, meyvn. =name=. Live and drink.">
+现在，告别了，明识者。=name=。长存，畅饮。
+  </string>
+  <string Context="Conversation Barathrum.GolemAcquaint.EndChoice.Text" ID="I will, Barathrum. Live and drink.">
+我会的，巴拉瑟姆。长存，畅饮。
+  </string>
   <string Context="Conversation Barathrum.Welcome.GolemChoice.Text" ID="The magnetic field has been disabled and the Spindle is free to ascend. What now?">磁场已被关闭，纺锤可以自由升空了。接下来怎么办？</string>
+  <string Context="Conversation Barathrum.Welcome.EndChoice.Text" ID="Live and drink, eldest Barathrum.">
+长存，畅饮，最年长的巴拉瑟姆。
+  </string>
+  <string Context="Conversation Barathrum.TombComplete.EndChoice.Text" ID="Live and drink, Barathrum.">
+长存，畅饮，巴拉瑟姆。
+  </string>
   <string Context="Conversation Barathrum.WhatNow.Text" ID="I intend to ascend the Spindle and answer the call, =factionaddress:Barathrumites=.&#10;&#10;My protege {{m|Q Girl}} has designed a climber for the ascent. We intended to construct it piecewise at the enclave and the site itself, but the engineering feat exceeds even our capacity. With time, I am confident we could accomplish it, but the Putus Templar rob us of our patience. We need to act now, and so as loath as I am to admit it, we need Pax Klanq.">
 我打算攀上纺锤，回应那道呼唤，=factionaddress:Barathrumites=。
 
 我的门生 {{m|Q女孩}} 已经为攀升设计了一台攀升器。我们原本打算在飞地和现场分段建造它，但这项工程壮举甚至超出了我们的能力。若有时间，我相信我们能完成，可普图斯圣殿骑士夺走了我们的耐心。我们现在就必须行动，所以尽管我不愿承认，我们需要帕克斯·克兰克。
+  </string>
+  <string Context="Conversation Barathrum.Accept.EndChoice.Text" ID="Live and drink, Barathrum.">
+长存，畅饮，巴拉瑟姆。
   </string>
   <string Context="Conversation Resheph.Wakes4.Text" ID=".............................">
 .............................
@@ -22,46 +38,422 @@
   <string Context="Conversation Resheph.ReshephMoved.Text" ID=".............................................">
 .............................................</string>
   <string Context="Conversation BaseConversation.WaterRitualChoice..Text7" ID="????">？？？？</string>
+  <string Context="Conversation BaseConversation.WaterRitual.Text" ID="Live and drink, =subject.waterRitualLiquid=-=player.siblingTerm=.">
+长存，畅饮，=subject.waterRitualLiquid=-=player.siblingTerm=。
+  </string>
+  <string Context="Conversation BaseConversation.WaterRitual.EndChoice.Text" ID="Live and drink, =subject.waterRitualLiquid=-=pronouns.siblingTerm=.">
+长存，畅饮，=subject.waterRitualLiquid=-=pronouns.siblingTerm=。
+  </string>
+  <string Context="Conversation JoppaFarmerConvert.SpeakNoMore2.Text" ID="=name=! Live and drink, pilgrim.">
+=name=！长存，畅饮，朝圣者。
+  </string>
+  <string Context="Conversation JoppaFarmerConvert.FinishedPilgrimageQuest.Text" ID="=name=! Live and drink, pilgrim.">
+=name=！长存，畅饮，朝圣者。
+  </string>
+  <string Context="Conversation JoppaFarmerConvert.LosingIt.Text" ID="Ah, a pit opens under my stomach!&#10;&#10;Let us speak no more, I beg you. You scuff me. Live and drink.">
+啊，我胃下裂开一座深坑！
+
+我们不要再说了，我求你。你刮伤了我。长存，畅饮。
+  </string>
+  <string Context="Conversation JoppaFarmerConvert.HasPilgrimageQuest.EndChoice.Text" ID="Not yet, friend. Live and drink.">
+还没有，朋友。长存，畅饮。
+  </string>
+  <string Context="Conversation JoppaFarmerConvert.Stilt.EndChoice.Text" ID="I cannot commit to this. Live and drink.">
+我不能承诺此事。长存，畅饮。
+  </string>
+  <string Context="Conversation JoppaFarmerConvert.Bauble.EndChoice.Text" ID="I cannot commit to this. Live and drink.">
+我不能承诺此事。长存，畅饮。
+  </string>
+  <string Context="Conversation JoppaFarmerConvert.Fathers.EndChoice.Text" ID="I cannot commit to this. Live and drink.">
+我不能承诺此事。长存，畅饮。
+  </string>
+  <string Context="Conversation JoppaFarmerConvert.Why.EndChoice.Text" ID="I cannot commit to this. Live and drink.">
+我不能承诺此事。长存，畅饮。
+  </string>
+  <string Context="Conversation JoppaFarmerConvert.WhyNot.EndChoice.Text" ID="I cannot commit to this. Live and drink.">
+我不能承诺此事。长存，畅饮。
+  </string>
+  <string Context="Conversation JoppaFarmerConvert.Agree.Text" ID="Moon and sun, =pronouns.formalAddressTerm=! You have my deep and many-sided thanks. Here, take the trinket now. And if you're to ever return, let us visit again.&#10;&#10;Live and drink!">
+月与日，=pronouns.formalAddressTerm=！请收下我深切而多面的感谢。来，现在拿上这件小饰物。若你日后归来，让我们再相见。
+
+长存，畅饮！
+  </string>
+  <string Context="Conversation Irudad.Start.Text.Text4" ID="{{emote|*Elder Irudad smiles.*}}&#10;&#10;Live and drink, =name=. Come, sit with me.">
+{{emote|*长老伊鲁达德微笑。*}}
+
+长存，畅饮，=name=。来，陪我坐坐。
+  </string>
+  <string Context="Conversation Irudad.Welcome.Text" ID="-mm. Mmm? =player.FormalAddressTerm=?&#10;&#10;{{emote|*Elder Irudad smiles.*}}&#10;&#10;Live and drink. Come in- come sit 'neath the cool shade, 'cross a pillow there. And welcome to Joppa.&#10;&#10;You may drink of our freshwater, too, and quench your thirst.">
+——嗯。嗯？=player.FormalAddressTerm=？
+
+{{emote|*长老伊鲁达德微笑。*}}
+
+长存，畅饮。进来——来坐在清凉阴影下，那边的垫子上。欢迎来到约帕。
+
+你也可以饮用我们的淡水，解解渴。
+  </string>
+  <string Context="Conversation Mehmet.RedrockNews.Text" ID="Live and drink, =name=. Any news from Red Rock?">
+长存，畅饮，=name=。红岩有什么消息吗？
+  </string>
+  <string Context="Conversation Mehmet.Welcome..Text" ID="Live and drink, =name=.">
+长存，畅饮，=name=。
+  </string>
+  <string Context="Conversation Mehmet.Welcome..Text5" ID="Aye, the pest-vanquisher! Live and drink, =name=.">
+是啊，害虫征服者！长存，畅饮，=name=。
+  </string>
+  <string Context="Conversation Mehmet.Welcome.2" ID="A waterhand? Aye. Live and drink, traveller.">
+水佣？是啊。长存，畅饮，旅人。
+  </string>
+  <string Context="Conversation Mehmet.Name" ID="Mehmet, the tongue says. Live and drink, =name=.">
+舌头说，是穆罕默德。长存，畅饮，=name=。
+  </string>
   <string Context="Conversation SimpleGeneric.Start.Text" ID="=generic=">
 =generic=</string>
+  <string Context="Conversation Tam.Welcome.EndChoice.Text" ID="I desire nothing. Live and drink.">
+我什么也不想要。长存，畅饮。
+  </string>
+  <string Context="Conversation DromadTrader.Start.EndChoice.Text" ID="I desire nothing. Live and drink.">
+我什么也不想要。长存，畅饮。
+  </string>
   <string Context="Conversation ConsortiumGlowpad.Start.EndChoice.Text" ID="!!!!?">
 !!!!?</string>
+  <string Context="Conversation WardenYrame.Start.Text.Text3" ID="Live and drink, yonderling.">
+长存，畅饮，远方人。
+  </string>
+  <string Context="Conversation Nima Ruda.Start.Text.Text2" ID="Live and drink, wayfarer.">
+长存，畅饮，旅人。
+  </string>
+  <string Context="Conversation Nima Ruda.Leadership.EndChoice.Text" ID="Fair enough. Live and drink.">
+有道理。长存，畅饮。
+  </string>
+  <string Context="Conversation StarappleFarmer.Start.Text.Text" ID="Live and drink, traveler. Moist starapples for the road?">
+长存，畅饮，旅人。路上要些多汁星苹果吗？
+  </string>
+  <string Context="Conversation PigFarmer.Start.Text.Text" ID="Live and drink, traveler. Are you hungry?">
+长存，畅饮，旅人。饿了吗？
+  </string>
+  <string Context="Conversation SapientBear.Start.Text.Text3" ID="Live and drink, little friend.">
+长存，畅饮，小朋友。
+  </string>
+  <string Context="Conversation SapientBear.Start.Text.Text16" ID="Oh. Live and drink, not-bear.">
+噢。长存，畅饮，非熊。
+  </string>
+  <string Context="Conversation Arconaut.Start.EndChoice.Text" ID="Live and drink, wayfarer.">
+长存，畅饮，旅人。
+  </string>
+  <string Context="Conversation Snapjaw.Start.Text.Text17" ID="live and drink, ehehe.">
+长存，畅饮，诶嘿嘿。
+  </string>
+  <string Context="Conversation Snapjaw.Start.Text.Text18" ID="gnaa! live and drink!">
+嘎啊！长存，畅饮！
+  </string>
   <string Context="Conversation Snapjaw.Start.Text.Text24" ID="rrrrrr...">
 咕噜噜……
+  </string>
+  <string Context="Conversation Snapjaw.Start.EndChoice.Text" ID="...live and drink.">
+……长存，畅饮。
+  </string>
+  <string Context="Conversation MechanimistPilgrim.Start.Text.Text3" ID="Live and drink, traveler. Show mercy to a weary pilgrim.">
+长存，畅饮，旅人。怜悯一位疲惫的朝圣者吧。
+  </string>
+  <string Context="Conversation GenericMerchant.Start.Text.Text" ID="Live and drink, traveler.">
+长存，畅饮，旅人。
+  </string>
+  <string Context="Conversation GenericMerchant.Start.Text.Text2" ID="Live and drink, wayfarer.">
+长存，畅饮，旅人。
+  </string>
+  <string Context="Conversation GenericMerchant.Start.Text.Text5" ID="Live and drink, =player.formalAddressTerm=.">
+长存，畅饮，=player.formalAddressTerm=。
+  </string>
+  <string Context="Conversation WardenEsthers.Welcome.Text" ID="Live and drink, traveler. Welcome to the Stilt.">
+长存，畅饮，旅人。欢迎来到高跷。
+  </string>
+  <string Context="Conversation WardenEsthers.Welcome.EndChoice.Text" ID="Live and drink, wardens.">
+长存，畅饮，守卫们。
+  </string>
+  <string Context="Conversation MechanimistLibrarian.Start.EndChoice.Text" ID="Not today. Live and drink, chronicler.">
+今天不了。长存，畅饮，编年者。
+  </string>
+  <string Context="Conversation MechanimistLibrarian.Where.EndChoice.Text" ID="Live and drink, chronicler.">
+长存，畅饮，编年者。
+  </string>
+  <string Context="Conversation MechanimistLibrarian.What.EndChoice.Text" ID="Live and drink, chronicler.">
+长存，畅饮，编年者。
+  </string>
+  <string Context="Conversation Tszappur.Start.EndChoice.Text" ID="Live and drink, priest.">
+长存，畅饮，祭司。
+  </string>
+  <string Context="Conversation Tszappur.Resheph.EndChoice.Text" ID="Live and drink, priest.">
+长存，畅饮，祭司。
+  </string>
+  <string Context="Conversation Tszappur.Inside.EndChoice.Text" ID="Live and drink, priest.">
+长存，畅饮，祭司。
+  </string>
+  <string Context="Conversation bookbinder.Start.Text.Text2" ID="Live and drink, but please do it elsewhere. I fear spills.">
+长存，畅饮，但请到别处去饮。我怕泼洒。
+  </string>
+  <string Context="Conversation scribe.Start.Text.Text7" ID="Live and drink, reader.">
+长存，畅饮，读者。
   </string>
   <string Context="Conversation apothecary.Start.Text" ID="Got a fungal infection? You'll want one of my spray bottles to apply the cure.">
 得了真菌感染？你会需要一个我的喷雾瓶来涂抹治疗药剂。</string>
   <string Context="Conversation apothecary.Start.Text.2" ID="Get your hands on the Corpus Choliys for disease and fungus cures.">
 去弄到 科普斯·乔利斯(病典 乔利斯)，用来治疗疾病和真菌。</string>
+  <string Context="Conversation herbalist.Start.Text.Text6" ID="Live and drink. Keeping well, I hope?">
+长存，畅饮。希望你身体还好？
+  </string>
+  <string Context="Conversation chef.Start.Text.Text9" ID="Live and drink, =player.formalAddressTerm=.">
+长存，畅饮，=player.formalAddressTerm=。
+  </string>
+  <string Context="Conversation ichormerchant.Start.Text.Text3" ID="Live and drink, but not everything. Some things you don't drink.">
+长存，畅饮，但不是什么都能喝。有些东西不能喝。
+  </string>
+  <string Context="Conversation ichormerchant.Start.Text.Text9" ID="Live and drink, and collect, and combine...">
+长存，畅饮，收集，结合……
+  </string>
+  <string Context="Conversation gutsmonger.Start.Text.Text11" ID="Live and drink, Aristocrat.">
+长存，畅饮，贵胄。
+  </string>
+  <string Context="Conversation hatter.Start.Text.Text7" ID="Live and drink, =player.formalAddressTerm=.">
+长存，畅饮，=player.formalAddressTerm=。
+  </string>
+  <string Context="Conversation shoemaker.Start.Text.Text9" ID="Live and drink, =player.formalAddressTerm=.">
+长存，畅饮，=player.formalAddressTerm=。
+  </string>
+  <string Context="Conversation haberdasher.Start.Text.Text8" ID="Live and drink, =player.formalAddressTerm=.">
+长存，畅饮，=player.formalAddressTerm=。
+  </string>
+  <string Context="Conversation armorer.Start.Text.Text10" ID="=player.FormalAddressTerm=. Live and drink.">
+=player.FormalAddressTerm=。长存，畅饮。
+  </string>
+  <string Context="Conversation glover.Start.Text.Text8" ID="Live and drink, =player.formalAddressTerm=.">
+长存，畅饮，=player.formalAddressTerm=。
+  </string>
+  <string Context="Conversation grenadier.Start.Text.Text11" ID="Live and drink, =player.formalAddressTerm=.">
+长存，畅饮，=player.formalAddressTerm=。
+  </string>
   <string Context="Conversation Otho.Signal.Text" ID="The signal is a repeat transmission being broadcast from an unknown source. =V0tinkeraddendum= One of our tinkers, {{m|Q Girl}}, discovered it while rigging a long wave detector. Unfortunately, it's encrypted, and we do not have the means here to decrypt it. You may be of some help in this matter, however.&#10;&#10;We've long known the location of a fully functioning {{W|baetyl}} within the bowels of the great hall {{C|Bethesda Susa}}. The Mechanimists have consecrated the site around it and built a temple there. Q Girl claims to have developed a means to decrypt the signal, but she needs the computing power of the baetyl. If you can infiltrate the Mechanimist compound, you may be able to engage the baetyl and decode the signal.">这个信号是来自未知源头的重复广播。=V0tinkeraddendum= 我们的一位工匠，{{m|Q 女孩}}，在装配长波探测器时发现了它。可惜信号经过加密，我们这里没有解密手段。不过，你或许能帮上忙。
 
 我们早已知道，{{C|贝塞斯达苏萨}}大厅深处有一座功能完好的{{W|圣像}}。机械教徒将周围奉为圣地，并在那里修建了一座神殿。Q 女孩声称已经想出解密信号的办法，但需要借助圣像的计算能力。如果你能潜入机械教徒的据点，或许就能与圣像交互，解开信号。</string>
+  <string Context="Conversation Otho.Start18.EndChoice.Text" ID="Live and drink, Otho.">
+长存，畅饮，奥托。
+  </string>
+  <string Context="Conversation Otho.Start22.EndChoice.Text" ID="Live and drink, steward.">
+长存，畅饮，管事。
+  </string>
+  <string Context="Conversation Otho.SlynthSettled.Text" ID="Live and drink, disciple.&#10;&#10;You will be pleased to know that the slynth have proven themselves worthy of apprentice status. They will reside here for as long as they uphold and serve the tenets of our order.">
+长存，畅饮，门徒。
+
+你会高兴地知道，斯林斯已经证明自己配得上学徒身份。只要他们维护并服务于我们教团的信条，他们就会在这里居住。
+  </string>
   <string Context="Conversation Otho.SlynthSettled.StartChoice.Text" ID="My thanks again, Otho.">再次感谢你，奥索。</string>
+  <string Context="Conversation Q Girl.Start3.EndChoice.Text" ID="Live and drink, tinker.">
+长存，畅饮，修补匠。
+  </string>
+  <string Context="Conversation Q Girl.Rumbling.EndChoice.Text" ID="Live and drink, tinker.">
+长存，畅饮，修补匠。
+  </string>
+  <string Context="Conversation Q Girl.Quetzal.EndChoice.Text" ID="Live and drink, tinker.">
+长存，畅饮，修补匠。
+  </string>
+  <string Context="Conversation Q Girl.Hair.EndChoice.Text" ID="Live and drink, tinker.">
+长存，畅饮，修补匠。
+  </string>
+  <string Context="Conversation Q Girl.Goggles.EndChoice.Text" ID="Live and drink, tinker.">
+长存，畅饮，修补匠。
+  </string>
+  <string Context="Conversation Q Girl.Tinker.EndChoice.Text" ID="Live and drink, tinker.">
+长存，畅饮，修补匠。
+  </string>
+  <string Context="Conversation Sparafucile.SilentGreeting.FarewellSpara.Text" ID="Live and drink, harm-artisan.">
+长存，畅饮，伤害艺匠。
+  </string>
+  <string Context="Conversation Iseppa.GuestKlanq.EndChoice.Text" ID="Well, I should go. Live and drink.">
+好吧，我该走了。长存，畅饮。
+  </string>
+  <string Context="Conversation Iseppa.Post Arms.EndChoice.Text" ID="It will. Live and drink.">
+会的。长存，畅饮。
+  </string>
+  <string Context="Conversation Iseppa.TombQuest.EndChoice.Text" ID="Very well, Iseppa. Live and drink.">
+好吧，伊塞帕。长存，畅饮。
+  </string>
+  <string Context="Conversation Iseppa.Project.EndChoice.Text" ID="I shall leave you to it. Live and drink, contemplatrix.">
+我就不打扰你了。长存，畅饮，沉思女士。
+  </string>
+  <string Context="Conversation Dardi.GuestKlanq.EndChoice.Text" ID="Well, I should go. Live and drink.">
+好了，我该走了。长存，畅饮。
+  </string>
+  <string Context="Conversation Dardi.Greetings.EndChoice.Text" ID="Live and drink, food-tinkerer.">
+长存，畅饮，食物修匠。
+  </string>
+  <string Context="Conversation Dardi.Bethesda.EndChoice.Text" ID="Live and drink, food-tinkerer.">
+长存，畅饮，食物修匠。
+  </string>
   <string Context="Conversation Dardi.Omonporch.Text" ID="Omonporch is a fine source of bananas, but I have little to say about self-appointed nobility.&#10;&#10;Claimed authority has a heady aroma, but no broth beneath it. Let us simply appease Asphodel and leave xem to xyr fantasies.">
 奥蒙廊是香蕉的上佳来源，但关于自封的贵族，我没什么可说的。
 
 宣称而来的权威香气浓烈，却没有底汤。我们就安抚阿斯福德尔，让 其 留在 其 的幻想里吧。
+  </string>
+  <string Context="Conversation Dardi.Omonporch.EndChoice.Text" ID="Live and drink, food-tinkerer.">
+长存，畅饮，食物修匠。
+  </string>
+  <string Context="Conversation Dardi.Rumbling.EndChoice.Text" ID="Live and drink, food-tinkerer.">
+长存，畅饮，食物修匠。
+  </string>
+  <string Context="Conversation Dardi.Klanq.EndChoice.Text" ID="Live and drink, food-tinkerer.">
+长存，畅饮，食物修匠。
+  </string>
+  <string Context="Conversation Dardi.Porridge.EndChoice.Text" ID="Live and drink, food-tinkerer.">
+长存，畅饮，食物修匠。
+  </string>
+  <string Context="Conversation Dardi.VaporAndSalt.EndChoice.Text" ID="I will leave you to it. Live and drink.">
+我就不打扰你了。长存，畅饮。
+  </string>
+  <string Context="Conversation Dardi.LuckyPlate.EndChoice.Text" ID="Live and drink, food-tinkerer.">
+长存，畅饮，食物修匠。
+  </string>
+  <string Context="Conversation Dardi.Kitchen2.EndChoice.Text" ID="*mutter 'live and drink' while backing away*">
+*一边后退一边咕哝“长存，畅饮”*
+  </string>
+  <string Context="Conversation Dardi.Kitchen3.EndChoice.Text" ID="Live and drink, food-tinkerer.">
+长存，畅饮，食物修匠。
+  </string>
+  <string Context="Conversation Aloysius.GuestKlanq.EndChoice.Text" ID="We will miss you too, Aloysius. Live and drink.">
+我们也会想念你的，阿洛伊修斯。长存，畅饮。
+  </string>
+  <string Context="Conversation Hortensa.Start2.EndChoice.Text" ID="Live and drink, Hortensa.">
+长存，畅饮，霍滕西娅。
+  </string>
+  <string Context="Conversation Hortensa.IHavent.EndChoice.Text" ID="Very well. Live and drink.">
+好吧。长存，畅饮。
+  </string>
+  <string Context="Conversation Hortensa.IHave.EndChoice.Text" ID="I will exercise my best judgement. Live and drink.">
+我会尽力作出最好的判断。长存，畅饮。
+  </string>
+  <string Context="Conversation Hortensa.Post Arms.EndChoice.Text" ID="You too. Live and drink.">
+你也是。长存，畅饮。
   </string>
   <string Context="Conversation Jacobo.Recame.Text" ID="Why, =name=, Brightsheol treated you well. There is a new gravity about you; your proverbial boots ring louder in the Annals with each step.&#10;&#10;I imagine you're off to Teach's study? They're already at work down there.">
 哎呀，=name=，明灼阴府待你不错。你身上多了一种新的重量；你那双传说中的靴子每迈一步，都在《编年史》中响得更亮。
 
 我想你要去 师者 的书房？他们已经在下面忙起来了。
   </string>
+  <string Context="Conversation Jacobo.GuestKlanq.EndChoice.Text" ID="So they do. Live and drink, Jacobo.">
+确实如此。长存，畅饮，雅各博。
+  </string>
+  <string Context="Conversation Jacobo.Post Arms.EndChoice.Text" ID="No. Live and drink.">
+不用。长存，畅饮。
+  </string>
+  <string Context="Conversation Jacobo.TombQuest.EndChoice.Text" ID="I thank you. Live and drink.">
+谢谢你。长存，畅饮。
+  </string>
   <string Context="Conversation Neek.Start3.Text" ID="..............................................">
 ..............................................</string>
+  <string Context="Conversation Neek.Joke.EndChoice.Text" ID="Live and drink, friend.">
+长存，畅饮，朋友。
+  </string>
+  <string Context="Conversation Neek.Bethesda.EndChoice.Text" ID="Live and drink, friend.">
+长存，畅饮，朋友。
+  </string>
   <string Context="Conversation Neek.Omonporch.Text" ID="Asphodel!! I like xem. I get it. It's sort of like you don't want to be here, you don't want to there, you want to be somewhere else. Your own earldom, maybe.">
 阿斯福德尔！！我喜欢 其。我懂。就像你不想在这里，也不想在那里，你想在别的某个地方。也许是你自己的伯爵领。
+  </string>
+  <string Context="Conversation Neek.Omonporch.EndChoice.Text" ID="Live and drink, friend.">
+长存，畅饮，朋友。
+  </string>
+  <string Context="Conversation Neek.Rumbling.EndChoice.Text" ID="Live and drink, friend.">
+长存，畅饮，朋友。
+  </string>
+  <string Context="Conversation Neek.Klanq.EndChoice.Text" ID="Live and drink, friend.">
+长存，畅饮，朋友。
   </string>
   <string Context="Conversation Neek.GoingOn.Text" ID="Klanq. Klanq. Klanq. Klanq. Pax Klanq.&#10;&#10;I would ask to go downstairs but there is not mush room there. Or there is but that's why there's not. It's like, &quot;Neek doesn't need to hear about it.&quot;">克朗克。克朗克。克朗克。克朗克。帕克斯·克朗克。
 
 我本想去楼下看看，可那里没多少空间，全是蘑菇。或许正因为蘑菇太多才没空间。就像他们会说：“尼克没必要听这些。”</string>
+  <string Context="Conversation Neek.GoingOn.EndChoice.Text" ID="Live and drink, friend.">
+长存，畅饮，朋友。
+  </string>
+  <string Context="Conversation Neek.Jidding.EndChoice.Text" ID="Live and drink, Neek.">
+长存，畅饮，尼克。
+  </string>
+  <string Context="Conversation Neek.Do.EndChoice.Text" ID="Live and drink, Neek.">
+长存，畅饮，尼克。
+  </string>
+  <string Context="Conversation Neek.GritGate2.Text" ID="You go and run at Q Girl and tap all the gadgets and tap her on the head.&#10;Then you sneak by Otho's office.&#10;Then you hug Shem -1 and you drag them to the library and read to them. Sometimes Barathrum and Hortensa are in there, and they smile at you.&#10;Then you get hungry and you roll toward the kitchen. You slurp honey from the vase and Dardi glares at you. You say, &quot;I'm just 'jidding'.&quot;&#10;Then you climb the pipes and whisper to Aloysius, &quot;Live and drink, live and drink, live and drink.&quot;&#10;Then you pat the chromelings on their heads. You say to Ereshkigal, &quot;boom boom boom boom boom I love you.&quot;&#10;Then you sneak into storage and pat all the chromelings on their heads.&#10;You take a nap in the peptic chair.&#10;Then you get a bright idea and go back to your room to write it in your notebook.">
+你跑向 Q 女孩，拍拍所有小装置，再拍拍她的头。
+然后你悄悄经过奥托的办公室。
+然后你抱抱舍姆 -1，把他们拖去图书馆，读书给他们听。有时巴拉瑟姆和霍滕西娅也在那里，他们会对你微笑。
+然后你饿了，就朝厨房滚过去。你从花瓶里吸蜜，达迪瞪着你。你说：“我只是在‘尼开玩笑’。”
+然后你爬上管道，对阿洛伊修斯低声说：“长存，畅饮，长存，畅饮，长存，畅饮。”
+然后你拍拍铬灵的头。你对埃列什基伽勒说：“砰砰砰砰砰我爱你。”
+然后你偷偷溜进储藏室，拍拍所有铬灵的头。
+你在消化椅上打个盹。
+然后你有了一个明亮的点子，就回到房间，把它写进笔记本。
+  </string>
+  <string Context="Conversation Neek.GritGate2.EndChoice.Text" ID="Live and drink, Neek.">
+长存，畅饮，尼克。
+  </string>
+  <string Context="Conversation Mafeo.Post Arms.EndChoice.Text" ID="Not at this time. Live and drink.">
+现在不用。长存，畅饮。
+  </string>
   <string Context="Conversation Mafeo.GuestKlanq.Text" ID="What novelty, to shelter the mysterious Klanq! I have heard no stories of this tinker-fungus that could be described as dull, though 'calamitous' could apply to more than one.&#10;&#10;My mind tells tales of what might be brewing in the basement, but I am quite relieved to be out here rather than down there.">收留神秘的克朗克，真是新鲜事！我听过的关于这位工匠真菌的故事，没一个称得上无聊，不过不少都可以用“灾难”来形容。
 
 我不禁想象地下室里在酝酿什么，但能待在外面而不是下面，着实让我松了一口气。</string>
+  <string Context="Conversation Mafeo.GuestKlanq.EndChoice.Text" ID="So they do. Live and drink, Mafeo.">
+确实如此。长存，畅饮，马费奥。
+  </string>
+  <string Context="Conversation Mafeo.TombQuest.EndChoice.Text" ID="I thank you. Live and drink.">
+多谢你。长存，畅饮。
+  </string>
+  <string Context="Conversation Mafeo.Start2.EndChoice.Text" ID="Live and drink, =pronouns.formalAddressTerm=.">
+长存，畅饮，=pronouns.formalAddressTerm=。
+  </string>
+  <string Context="Conversation Mafeo.Golgotha.EndChoice.Text" ID="Live and drink, Mafeo.">
+长存，畅饮，马费奥。
+  </string>
+  <string Context="Conversation Mafeo.Bethesda.EndChoice.Text" ID="Live and drink, Mafeo.">
+长存，畅饮，马费奥。
+  </string>
+  <string Context="Conversation Mafeo.Omonporch.EndChoice.Text" ID="Live and drink, Mafeo.">
+长存，畅饮，马费奥。
+  </string>
+  <string Context="Conversation Mafeo.Rumbling.EndChoice.Text" ID="Live and drink, Mafeo.">
+长存，畅饮，马费奥。
+  </string>
+  <string Context="Conversation Mafeo.Klanq.EndChoice.Text" ID="Live and drink, Mafeo.">
+长存，畅饮，马费奥。
+  </string>
+  <string Context="Conversation Mafeo.WhatWares.EndChoice.Text" ID="Live and drink, Mafeo.">
+长存，畅饮，马费奥。
+  </string>
+  <string Context="Conversation Mafeo.GritGate.EndChoice.Text" ID="Live and drink, Mafeo.">
+长存，畅饮，马费奥。
+  </string>
+  <string Context="Conversation Mafeo.AboutTheQuillbear.EndChoice.Text" ID="Live and drink, Mafeo.">
+长存，畅饮，马费奥。
+  </string>
+  <string Context="Conversation OmonporchBarathrumites.Start.Text.Text3" ID="Live and drink, =player.formalAddressTerm=.">
+长存，畅饮，=player.formalAddressTerm=。
+  </string>
+  <string Context="Conversation OmonporchBarathrumites.Spindle.EndChoice.Text" ID="Live and drink, friend.">
+长存，畅饮，朋友。
+  </string>
   <string Context="Conversation Crowsong.Dots.Text" ID="......">
 ......</string>
   <string Context="Conversation Crowsong.Dots.WelcomeChoice.Text" ID="......">
 ......</string>
+  <string Context="Conversation Yurl.Fungi2.Text" ID="{{emote|*Yurl flicks several of their leaves.*}}&#10;&#10;No.&#10;&#10;Shop's closed. Live and drink.">
+{{emote|*尤尔弹动了几片叶子。*}}
+
+没有。
+
+店关了。长存，畅饮。
+  </string>
+  <string Context="Conversation Yurl.But.Text" ID="I am a gentleplant, -friend-. Uncross your roots and figure it out.&#10;&#10;Live and DRINK.">
+我是个文雅植物，-朋友-。把你的根解开，自己想明白。
+
+长存，畅饮。
+  </string>
   <string Context="Conversation Yurl.Asphodel.Text" ID="Asphodel the socialite? Asphodel the scoundrel? You can hate xym -- and I do -- but you have to admire xym (I don't).&#10;&#10;The truth of it is that Plysago had the idea first, to lay claim to the Spindle per some precedent of law established in Abram's time. Of course, Plysago isn't around to make their case, are they?">
 阿斯福德尔，那个社交名流？阿斯福德尔，那个无赖？你可以憎恨 其，而我确实憎恨，但你不得不佩服 其（我不佩服）。
 
@@ -76,28 +468,637 @@
 
 {{emote|*尤尔用一片叶子眨了眨眼。*}}
   </string>
+  <string Context="Conversation Yurl.Lease.EndChoice.Text" ID="I see. Live and drink, Yurl.">
+我明白了。长存，畅饮，尤尔。
+  </string>
+  <string Context="Conversation Erah.Start.EndChoice.Text" ID="Live and drink, cider-friend.">
+长存，畅饮，苹果酒朋友。
+  </string>
+  <string Context="Conversation Erah.Memories.EndChoice.Text" ID="Live and drink, ciderer.">
+长存，畅饮，酿酒人。
+  </string>
+  <string Context="Conversation PaxKlanq.Welcome.EndChoice2.Text" ID="No, thanks. Live and drink.">
+不了，谢谢。长存，畅饮。
+  </string>
+  <string Context="Conversation PaxKlanq.What.EndChoice.Text" ID="Live and drink, mushroom.">
+长存，畅饮，蘑菇。
+  </string>
+  <string Context="Conversation PaxKlanq.Place.EndChoice.Text" ID="Live and drink, mushroom.">
+长存，畅饮，蘑菇。
+  </string>
+  <string Context="Conversation Indrix.Start2.EndChoice.Text" ID="Live and drink, warden.">
+长存，畅饮，守卫。
+  </string>
+  <string Context="Conversation Indrix.Start4.Text" ID="Live and drink, traveler.">
+长存，畅饮，旅人。
+  </string>
+  <string Context="Conversation Indrix.Start4.EndChoice.Text" ID="Live and drink, warden.">
+长存，畅饮，守卫。
+  </string>
+  <string Context="Conversation Indrix.PariahA.EndChoice.Text" ID="Live and drink, warden.">
+长存，畅饮，守卫。
+  </string>
+  <string Context="Conversation Indrix.PariahB.EndChoice.Text" ID="Live and drink, warden.">
+长存，畅饮，守卫。
+  </string>
+  <string Context="Conversation SusaAlchemist.Start.EndChoice.Text" ID="Live and drink, hermit.">
+长存，畅饮，隐士。
+  </string>
+  <string Context="Conversation SusaAlchemist.Liquids.EndChoice.Text" ID="Live and drink, hermit.">
+长存，畅饮，隐士。
+  </string>
+  <string Context="Conversation Asphodel.Start.ByeAsphodel.Text" ID="Live and drink, Earl.">
+长存，畅饮，伯爵。
+  </string>
+  <string Context="Conversation Asphodel.Council.EndChoice2.Text" ID="Not today, Asphodel. Live and drink.">
+今天不行，阿斯福德尔。长存，畅饮。
+  </string>
+  <string Context="Conversation Asphodel.Start2.EndChoice.Text" ID="Live and drink, Earl.">
+长存，畅饮，伯爵。
+  </string>
+  <string Context="Conversation Asphodel.Viceroy.EndChoice.Text" ID="Live and drink, Earl.">
+长存，畅饮，伯爵。
+  </string>
+  <string Context="Conversation AsphodelChaos.Start.EndChoice.Text" ID="I am a servant of chaos. Live and drink.">
+我是混沌的仆人。长存，畅饮。
+  </string>
+  <string Context="Conversation AsphodelDone.Start.EndChoice.Text" ID="Live and drink, Earl.">
+长存，畅饮，伯爵。
+  </string>
+  <string Context="Conversation AsphodelWaiting.Start.EndChoice.Text" ID="Live and drink, Earl.">
+长存，畅饮，伯爵。
+  </string>
+  <string Context="Conversation Humanoids.Start.Text.Text3" ID="Live and drink, =player.formalAddressTerm=.">
+长存，畅饮，=player.formalAddressTerm=。
+  </string>
+  <string Context="Conversation JoppaFarmer.Start.Text.Text6" ID="Live and drink, waterhand.">
+长存，畅饮，水佣。
+  </string>
+  <string Context="Conversation WatervineFarmers.Start.Text.Text" ID="Live and drink, wayfarer.">
+长存，畅饮，旅人。
+  </string>
+  <string Context="Conversation WatervineFarmers.Start.Text.Text2" ID="Live and drink, =player.formalAddressTerm=.">
+长存，畅饮，=player.formalAddressTerm=。
+  </string>
+  <string Context="Conversation Fish.Start.EndChoice.Text" ID="Live and drink, aqua=pronouns.formalAddressTerm=.">
+长存，畅饮，水中=pronouns.formalAddressTerm=。
+  </string>
+  <string Context="Conversation Birds.Start.EndChoice.Text" ID="Live and drink, nonsense bird.">
+长存，畅饮，胡言鸟。
+  </string>
+  <string Context="Conversation WaterBirds.Start.EndChoice.Text" ID="Live and drink, nonsense bird.">
+长存，畅饮，胡言鸟。
+  </string>
+  <string Context="Conversation SapientPlants.Start.Text.Text3" ID="Live and drink, heterotroph.">
+长存，畅饮，异养生物。
+  </string>
+  <string Context="Conversation SapientPlants.Start.Text.Text4" ID="Live and drink, =player.formalAddressTerm=.">
+长存，畅饮，=player.formalAddressTerm=。
+  </string>
+  <string Context="Conversation SapientFungi.Start.Text.Text3" ID="Live and drink, metazoon.">
+长存，畅饮，后生动物。
+  </string>
+  <string Context="Conversation SapientFungi.Start.Text.Text4" ID="Live and drink, =player.formalAddressTerm=.">
+长存，畅饮，=player.formalAddressTerm=。
+  </string>
+  <string Context="Conversation Goatfolk.Start.Text.Text" ID="Graah! Live and drink.">
+嘎啊！长存，畅饮。
+  </string>
+  <string Context="Conversation Keh.Start.Text" ID="Live and drink, kendren. I am Hindriarch Keh; welcome to Bey Lah.&#10;&#10;It's nearly unprecedented for one such as you to pass by our scouts unaccosted, but these are unprecedented circumstances. I have a task for you. Are you interested?">
+长存，畅饮，肯德伦。我是欣德族女族长凯；欢迎来到贝拉。
+
+像你这样的人能不受阻拦地经过我们的斥候，几乎没有先例，但现在也是前所未有的情势。我有一件任务交给你。你有兴趣吗？
+  </string>
+  <string Context="Conversation Keh.No..EndChoice.Text" ID="As you say. Live and drink.">
+如你所言。长存，畅饮。
+  </string>
+  <string Context="Conversation Keh.KindrishReturnBefore.EndChoice.Text" ID="Live and drink, Hindriarch.">
+长存，畅饮，欣德族女族长。
+  </string>
+  <string Context="Conversation Keh.KindrishReturnAfter.EndChoice.Text" ID="Live and drink, Hindriarch.">
+长存，畅饮，欣德族女族长。
+  </string>
+  <string Context="Conversation Keh.I have not..EndChoice.Text" ID="As you say. Live and drink.">
+如你所言。长存，畅饮。
+  </string>
+  <string Context="Conversation Keh.Dead.EndChoice.Text" ID="Understandable. Live and drink.">
+可以理解。长存，畅饮。
+  </string>
+  <string Context="Conversation Keh.Proof.Text" ID="Fine! Go to the Warden, then, and have her solve this mystery.&#10;&#10;But know this: until a thief is found and Kindrish is recovered, I cannot reward you. You get nothing. Live and drink, =player.formalAddressTerm=.">
+好！那就去找守卫，让她解开这个谜。
+
+但你要明白：在找到窃贼并取回金德里什之前，我不能奖赏你。你什么都得不到。长存，畅饮，=player.formalAddressTerm=。
+  </string>
+  <string Context="Conversation Keh.Proof.EndChoice.Text" ID="...live and drink.">
+……长存，畅饮。
+  </string>
+  <string Context="Conversation Keh.Kehstions.EndChoice.Text" ID="That's all. Live and drink.">
+就这些。长存，畅饮。
+  </string>
+  <string Context="Conversation Keh.Eskxile.EndChoice.Text" ID="I see. Live and drink.">
+我明白了。长存，畅饮。
+  </string>
+  <string Context="Conversation Keh.Kesehind you.EndChoice.Text" ID="I see. Live and drink.">
+我明白了。长存，畅饮。
+  </string>
+  <string Context="Conversation Keh.Neel before me.EndChoice.Text" ID="I see. Live and drink.">
+我明白了。长存，畅饮。
+  </string>
+  <string Context="Conversation Keh.No brother.EndChoice.Text" ID="I... see. Live and drink.">
+我……明白了。长存，畅饮。
+  </string>
+  <string Context="Conversation Keh.ShowSonnet.EndChoice.Text" ID="I see. Live and drink.">
+我明白了。长存，畅饮。
+  </string>
+  <string Context="Conversation Keh.Start6.EndChoice.Text" ID="If you say so. Live and drink.">
+既然你这么说。长存，畅饮。
+  </string>
+  <string Context="Conversation Keh.Start7.EndChoice.Text" ID="You will find a way. Live and drink.">
+你会找到办法的。长存，畅饮。
+  </string>
+  <string Context="Conversation Keh.Start8.EndChoice.Text" ID="You will find a way. Live and drink.">
+你会找到办法的。长存，畅饮。
+  </string>
+  <string Context="Conversation Keh.Start9.EndChoice.Text" ID="Fine. Live and drink.">
+好吧。长存，畅饮。
+  </string>
+  <string Context="Conversation Keh.MocksFate.EndChoice.Text" ID="You will find a way. Live and drink.">
+你会找到办法的。长存，畅饮。
+  </string>
+  <string Context="Conversation Keh.Start11.EndChoice.Text" ID="You will find a way. Live and drink.">
+你会找到办法的。长存，畅饮。
+  </string>
+  <string Context="Conversation Keh.Start12.EndChoice.Text" ID="No. Live and drink.">
+不会。长存，畅饮。
+  </string>
+  <string Context="Conversation Keh.Start13.EndChoice.Text" ID="Fine. Live and drink.">
+好吧。长存，畅饮。
+  </string>
+  <string Context="Conversation Neelahind.Warden Neelahind?.Text" ID="Ah! Yes. My apologies, kendren. Live and drink. I am Neelahind, Warden of Bey Lah. How... may I help you?">
+啊！是。抱歉，肯德伦。长存，畅饮。我是尼拉欣德，贝拉的守卫。我……能帮你什么？
+  </string>
+  <string Context="Conversation Neelahind.No. I'm sorry..EndChoice.Text" ID="I will leave you to your grief. Live and drink.">
+我让你独自哀悼。长存，畅饮。
+  </string>
+  <string Context="Conversation Neelahind.KindrishReturn.EndChoice.Text" ID="Understood. Live and drink.">
+明白。长存，畅饮。
+  </string>
+  <string Context="Conversation Neelahind.Fate.Text" ID="Ah, =name=, live and drink!&#10;&#10;Has your investigation reached a conclusion? Our fate is in your hands.">
+啊，=name=，长存，畅饮！
+
+你的调查有结论了吗？我们的命运在你手中。
+  </string>
+  <string Context="Conversation Neelahind.Neelahind is giddy.EndChoice.Text" ID="May your journeys favor you. Live and drink.">
+愿旅途眷顾你们。长存，畅饮。
+  </string>
+  <string Context="Conversation Neelahind.Start4.Text" ID="Live and drink, kendren. Have you... come to a conclusion?">
+长存，畅饮，肯德伦。你……得出结论了吗？
+  </string>
+  <string Context="Conversation Neelahind.KithAndKinFinale.EskProsperousLove" ID="The evidence is clear. In violation of sacred law and the will of her people, Eskhind stole the artifact called Kindrish from Bey Lah. She will be stripped of honor, stripped of water, and stripped from our oral histories. Never will her name be spoken here again, and she will never return... on pain of death.&#10;&#10;And I... I will go with her. May my property be payment for the harm she has done to our people, and I will gladly pay it for the privilege of walking by her side.&#10;&#10;I have no doubt that Bey Lah will thrive in my absence as it did before I became warden. Live and drink, my kin. Long may Hindriarch Keh lead you.">
+证据清楚。埃斯欣德违背神圣律法和族人的意志，从贝拉偷走了名为金德里什的神器。她将被剥夺荣誉，剥夺饮水权，并从我们的口述史中剥除。她的名字永远不会再在这里被提起，她也永远不得回来……违者处死。
+
+而我……我会和她一起走。愿我的财产作为她伤害我们族人的赔偿，而我会欣然付出这一切，只为获得走在她身旁的资格。
+
+我毫不怀疑，贝拉会像我成为守卫之前那样，在我缺席时继续兴盛。长存，畅饮，我的亲族。愿欣德族女族长凯长久引领你们。
+  </string>
+  <string Context="Conversation Neelahind.KithAndKinFinale.EskMixedLove" ID="The evidence is clear. In violation of sacred law and the will of her people, Eskhind stole the artifact called Kindrish from Bey Lah. She will be stripped of honor, stripped of water, and stripped from our oral histories. Never will her name be spoken here again, and she will never return... on pain of death.&#10;&#10;And I... I will go with her. May my property be payment for the harm she has done to our people, and I will gladly pay it for the privilege of walking by her side.&#10;&#10;I have no doubt that Bey Lah will thrive in my absence as it did before I became warden. Live and drink, my kin. Long may Hindriarch Keh lead you.">
+证据清楚。埃斯欣德违背神圣律法和族人的意志，从贝拉偷走了名为金德里什的神器。她将被剥夺荣誉，剥夺饮水权，并从我们的口述史中剥除。她的名字永远不会再在这里被提起，她也永远不得回来……违者处死。
+
+而我……我会和她一起走。愿我的财产作为她伤害我们族人的赔偿，而我会欣然付出这一切，只为获得走在她身旁的资格。
+
+我毫不怀疑，贝拉会像我成为守卫之前那样，在我缺席时继续兴盛。长存，畅饮，我的亲族。愿欣德族女族长凯长久引领你们。
+  </string>
+  <string Context="Conversation Neelahind.KithAndKinFinale.KendrenProsperousLove" ID="The evidence is clear: Eskhind did not steal Kindrish. In fact, I believe that no hindren was responsible for its theft, but one of the kendren who permeated our borders well before our investigator arrived. Any of them could have committed the theft.&#10;&#10;Eskhind is free to go, and I'm... I'm going with her. I cannot serve under Hindriarch Keh while my beloved returns to exile.&#10;&#10;I have no doubt that Bey Lah will thrive in my absence as it did before I became warden. Live and drink, my kin. Long may Hindriarch Keh lead you.">
+证据清楚：埃斯欣德没有偷走金德里什。事实上，我相信没有任何欣德伦对它的失窃负责，而是某个早在调查者到来之前就穿过我们边界的肯德伦所为。他们任何一个都可能犯下盗窃。
+
+埃斯欣德可以自由离开，而我……我会和她一起走。当我的挚爱重返流放时，我无法继续在欣德族女族长凯麾下效劳。
+
+我毫不怀疑，贝拉会像我成为守卫之前那样，在我缺席时继续兴盛。长存，畅饮，我的亲族。愿欣德族女族长凯长久引领你们。
+  </string>
+  <string Context="Conversation Neelahind.KithAndKinFinale.KendrenMixedLove" ID="The evidence is clear: Eskhind did not steal Kindrish. In fact, I believe that no hindren was responsible for its theft, but one of the kendren who permeated our borders well before our investigator arrived. Any of them could have committed the theft.&#10;&#10;Eskhind is free to go, and I'm... I'm going with her. I cannot serve under Hindriarch Keh while my beloved returns to exile.&#10;&#10;I have no doubt that Bey Lah will thrive in my absence as it did before I became warden. Live and drink, my kin. Long may Hindriarch Keh lead you.">
+证据清楚：埃斯欣德没有偷走金德里什。事实上，我相信没有任何欣德伦对它的失窃负责，而是某个早在调查者到来之前就穿过我们边界的肯德伦所为。他们任何一个都可能犯下盗窃。
+
+埃斯欣德可以自由离开，而我……我会和她一起走。当我的挚爱重返流放时，我无法继续在欣德族女族长凯麾下效劳。
+
+我毫不怀疑，贝拉会像我成为守卫之前那样，在我缺席时继续兴盛。长存，畅饮，我的亲族。愿欣德族女族长凯长久引领你们。
+  </string>
+  <string Context="Conversation Neelahind.KithAndKinFinale.EndChoice.Text" ID="My job here is done. Live and drink.">
+我在这里的事完成了。长存，畅饮。
+  </string>
+  <string Context="Conversation Neelahind.SonnetOffer.EndChoice.Text" ID="Perhaps I'm mistaken. Live and drink.">
+也许是我弄错了。长存，畅饮。
+  </string>
+  <string Context="Conversation Neelahind.SonnetDelivered.EndChoice.Text" ID="It is. Live and drink.">
+是真的。长存，畅饮。
+  </string>
+  <string Context="Conversation Neelahind.NeelaLovesEsk.EndChoice.Text" ID="Live and drink, Neelahind.">
+长存，畅饮，尼拉欣德。
+  </string>
+  <string Context="Conversation Neelahind.Questioning Neelahind.EndChoice.Text" ID="I should return to my investigation. Live and drink.">
+我该回去调查了。长存，畅饮。
+  </string>
+  <string Context="Conversation Neelahind.Neelahind on Keh.EndChoice.Text" ID="Thank you, that will do. Live and drink.">
+谢谢，这就够了。长存，畅饮。
+  </string>
+  <string Context="Conversation Neelahind.Neelahind on Eskhind.EndChoice.Text" ID="Thank you, that will do. Live and drink.">
+谢谢，这就够了。长存，畅饮。
+  </string>
+  <string Context="Conversation Neelahind.Neelahind on Kesehind.EndChoice.Text" ID="Thank you, that will do. Live and drink.">
+谢谢，这就够了。长存，畅饮。
+  </string>
+  <string Context="Conversation Neelahind.Neelahind on kendren.EndChoice.Text" ID="Thank you, that will do. Live and drink.">
+谢谢，这就够了。长存，畅饮。
+  </string>
+  <string Context="Conversation Neelahind.Start5.Text" ID="Live and drink, kendren.&#10;&#10;Please forgive me; I am grateful that you opened my eyes, but the sight of you is yet a bitter leaf. Let me grieve my people in peace.">
+长存，畅饮，肯德伦。
+
+请原谅我；我感激你让我睁开眼睛，但看见你仍像一片苦叶。让我平静地哀悼我的族人吧。
+  </string>
+  <string Context="Conversation Neelahind.KindrishReturnAfter.EndChoice.Text" ID="Live and drink, warden.">
+长存，畅饮，守卫。
+  </string>
+  <string Context="Conversation Neelahind.Doomed.EndChoice.Text" ID="Fine. Live and drink.">
+好吧。长存，畅饮。
+  </string>
+  <string Context="Conversation Neelahind.Start6.EndChoice.Text" ID="You're welcome. Live and drink.">
+不客气。长存，畅饮。
+  </string>
+  <string Context="Conversation Neelahind.Start7.Text" ID="Ah! Kendren! =name=! I'm so happy! Live and drink.">
+啊！肯德伦！=name=！我太高兴了！长存，畅饮。
+  </string>
+  <string Context="Conversation Neelahind.Start7.EndChoice.Text" ID="Live and drink, warden.">
+长存，畅饮，守卫。
+  </string>
+  <string Context="Conversation Neelahind.Start8.EndChoice.Text" ID="Live and drink, warden.">
+长存，畅饮，守卫。
+  </string>
+  <string Context="Conversation Neelahind.BetterLate.EndChoice.Text" ID="You're welcome. Live and drink.">
+不客气。长存，畅饮。
+  </string>
+  <string Context="Conversation Neelahind.Start10.EndChoice.Text" ID="My condolences. Live and drink.">
+请节哀。长存，畅饮。
+  </string>
+  <string Context="Conversation Neelahind.LateSonnet.EndChoice.Text" ID="I must be mistaken. Live and drink.">
+一定是我弄错了。长存，畅饮。
+  </string>
+  <string Context="Conversation Neelahind.Start14.Text" ID="Live and drink, kendren.">
+长存，畅饮，肯德伦。
+  </string>
+  <string Context="Conversation Eskhind.Start2.EndChoice2.Text" ID="Nothing. Live and drink.">
+没什么。长存，畅饮。
+  </string>
+  <string Context="Conversation Eskhind.What should I do?.EndChoice2.Text" ID="I will. Live and drink.">
+我会的。长存，畅饮。
+  </string>
+  <string Context="Conversation Eskhind.Start3.EndChoice.Text" ID="Very well. Live and drink.">
+很好。长存，畅饮。
+  </string>
+  <string Context="Conversation Eskhind.EskHappyEnd.EndChoice.Text" ID="May it brighten even further. Live and drink.">
+愿它更加明亮。长存，畅饮。
+  </string>
+  <string Context="Conversation Eskhind.Start5.EndChoice.Text" ID="Nothing. Live and drink.">
+没什么。长存，畅饮。
+  </string>
+  <string Context="Conversation Eskhind.Questions.EndChoice.Text" ID="Nothing for now. Live and drink.">
+暂时没有了。长存，畅饮。
+  </string>
+  <string Context="Conversation Eskhind.Why.EndChoice.Text" ID="Nothing for now. Live and drink.">
+暂时没有了。长存，畅饮。
+  </string>
+  <string Context="Conversation Eskhind.Who.EndChoice.Text" ID="Nothing for now. Live and drink.">
+暂时没有了。长存，畅饮。
+  </string>
+  <string Context="Conversation Eskhind.What.EndChoice.Text" ID="Nothing for now. Live and drink.">
+暂时没有了。长存，畅饮。
+  </string>
+  <string Context="Conversation Eskhind.Neelahind.EndChoice.Text" ID="Nothing for now. Live and drink.">
+暂时没有了。长存，畅饮。
+  </string>
+  <string Context="Conversation Eskhind.Brother.EndChoice.Text" ID="Nothing for now. Live and drink.">
+暂时没有了。长存，畅饮。
+  </string>
+  <string Context="Conversation Eskhind.Keh believes.EndChoice.Text" ID="Understood. Live and drink.">
+明白。长存，畅饮。
+  </string>
+  <string Context="Conversation Eskhind.SonnetNo.EndChoice.Text" ID="It shall quail a bit longer. Live and drink.">
+那就让它再颤抖一会儿吧。长存，畅饮。
+  </string>
+  <string Context="Conversation Eskhind.SonnetBurn.EndChoice.Text" ID="This got a bit intense. Live and drink.">
+这有点太激烈了。长存，畅饮。
+  </string>
+  <string Context="Conversation Eskhind.SonnetGiven.Text" ID="Kendren... =name=. I will try.&#10;&#10;I... thank you. Live and drink.">
+肯德伦……=name=。我会试试。
+
+我……谢谢你。长存，畅饮。
+  </string>
+  <string Context="Conversation Eskhind.SonnetGiven.EndChoice.Text" ID="Live and drink, Eskhind.">
+长存，畅饮，埃斯欣德。
+  </string>
+  <string Context="Conversation Eskhind.SonnetDelivery.EndChoice.Text" ID="Then perhaps it will. Live and drink.">
+那也许它会的。长存，畅饮。
+  </string>
+  <string Context="Conversation Eskhind.Start6.EndChoice.Text" ID="Condolences. Live and drink.">
+请节哀。长存，畅饮。
+  </string>
+  <string Context="Conversation Eskhind.StayLong.EndChoice.Text" ID="You're welcome. Live and drink.">
+不客气。长存，畅饮。
+  </string>
+  <string Context="Conversation Eskhind.Start8.EndChoice.Text" ID="Live and drink, Hindriarch.">
+长存，畅饮，欣德族女族长。
+  </string>
+  <string Context="Conversation Eskhind.Start9.EndChoice.Text" ID="Live and drink, Hindriarch.">
+长存，畅饮，欣德族女族长。
+  </string>
+  <string Context="Conversation Eskhind.MessageReceived.EndChoice.Text" ID="You're welcome. Live and drink.">
+不客气。长存，畅饮。
+  </string>
+  <string Context="Conversation Eskhind.Start11.EndChoice.Text" ID="Of course. Live and drink.">
+当然。长存，畅饮。
+  </string>
+  <string Context="Conversation Eskhind.Start13.Text" ID="Oh, it's you. Need to rest by the fire?&#10;&#10;It's fine, my wrath has clarified. You were never the problem. Live and drink.">
+哦，是你。需要在火边休息吗？
+
+没关系，我的愤怒已经澄清。你从来不是问题所在。长存，畅饮。
+  </string>
   <string Context="Conversation Eskhind.SlynthArrived.Text" ID="Never greater has been my desire to be voted out of office.&#10;&#10;Oh, not because of the slynth! Well, yes, because of the slynth, but it's because I'd rather be out there with them -- scouting, guarding, even tending to lah would be better than all this dry supervisory work.&#10;&#10;Room, board, assignments... it never occurred to me that immigration would require such intensive logistics.">我从未如此希望自己被投票赶下台。
 
 哦，不是因为斯林斯！好吧，确实因为他们，但那是因为我宁愿出去陪他们——侦察、守卫，甚至照料拉赫，都比这些枯燥的监督工作强。
 
 住房、伙食、分工……我从没想过迁入新居民竟需要如此繁重的后勤安排。</string>
+  <string Context="Conversation Eskhind.SlynthSettled.Text" ID="Live and drink, =name=!&#10;&#10;At long last I bear a lighter load of work coordinating our new family members. I won't claim that all of my people are fully comfortable with the slynth, but the faundren love them.">
+长存，畅饮，=name=！
+
+终于，协调我们新家庭成员的工作负担轻了一些。我不会声称我的族人全都完全适应了斯林斯，但幼欣德伦很喜欢他们。
+  </string>
+  <string Context="Conversation Eskhind.KindrishReturn.EndChoice.Text" ID="Live and drink, Hindriarch.">
+长存，畅饮，欣德族女族长。
+  </string>
+  <string Context="Conversation Eskhind.EskHindriarch.EndChoice.Text" ID="May fortune favor you. Live and drink.">
+愿幸运眷顾你。长存，畅饮。
+  </string>
+  <string Context="Conversation Meyehind.Start3.Text" ID="Live and drink, =name=.">
+长存，畅饮，=name=。
+  </string>
+  <string Context="Conversation Meyehind.Start8.EndChoice.Text" ID="Very well. Live and drink.">
+很好。长存，畅饮。
+  </string>
+  <string Context="Conversation Meyehind.Meyequeries.EndChoice.Text" ID="Never mind. Live and drink.">
+算了。长存，畅饮。
+  </string>
+  <string Context="Conversation Meyehind.Culprit.EndChoice.Text" ID="That's all for now. Live and drink.">
+暂时就这些。长存，畅饮。
+  </string>
+  <string Context="Conversation Meyehind.Correct.EndChoice.Text" ID="That's all for now. Live and drink.">
+暂时就这些。长存，畅饮。
+  </string>
+  <string Context="Conversation Meyehind.Family.EndChoice.Text" ID="That's all for now. Live and drink.">
+暂时就这些。长存，畅饮。
+  </string>
+  <string Context="Conversation Meyehind.ShowSonnet.EndChoice.Text" ID="Thank you. Live and drink.">
+谢谢。长存，畅饮。
+  </string>
   <string Context="Conversation Liihart.Start.Text" ID="................................">
 ................................</string>
   <string Context="Conversation Liihart.Start2.Text" ID="....">
 ....</string>
+  <string Context="Conversation Liihart.Start3.Text" ID="Hey, =name=. Live and drink.">
+嘿，=name=。长存，畅饮。
+  </string>
   <string Context="Conversation Liihart.Start5.Text" ID="..................">
 .................</string>
+  <string Context="Conversation Liihart.Start8.Text" ID="Um... thank you.&#10;&#10;Live and drink.">
+呃……谢谢你。
+
+长存，畅饮。
+  </string>
+  <string Context="Conversation Liihart.Start9.Text" ID="{{emote|*Liihart stares at you for several quiet seconds.*}}&#10;&#10;Live and drink.">
+{{emote|*利哈特安静地盯着你看了好几秒。*}}
+
+长存，畅饮。
+  </string>
+  <string Context="Conversation Liihart.Start9.EndChoice.Text" ID="Live and drink, reticent one.">
+长存，畅饮，沉默者。
+  </string>
   <string Context="Conversation Liihart.StoneQuery.Text" ID=".....">
 .....</string>
+  <string Context="Conversation Liihart.StoneQuery.EndChoice.Text" ID="Well then. Live and drink.">
+那好吧。长存，畅饮。
+  </string>
+  <string Context="Conversation Liihart.StonePush.EndChoice.Text" ID="Never mind. Live and drink.">
+算了。长存，畅饮。
+  </string>
+  <string Context="Conversation Liihart.StoneSilence.EndChoice.Text" ID="Never mind. Live and drink.">
+算了。长存，畅饮。
+  </string>
+  <string Context="Conversation Liihart.GentlePush.EndChoice.Text" ID="Fair enough. Live and drink.">
+有道理。长存，畅饮。
+  </string>
+  <string Context="Conversation Liihart.ShowSonnet.EndChoice.Text" ID="Thank you. Live and drink.">
+谢谢。长存，畅饮。
+  </string>
+  <string Context="Conversation Liihart.NotEsk.EndChoice.Text" ID="I see, thank you. Live and drink.">
+我明白了，谢谢。长存，畅饮。
+  </string>
+  <string Context="Conversation Isahind.Start6.Text" ID="Oh! A real live kendren, here in our village! Live and drink, lovely friend!&#10;&#10;If you'd care to trade, I have a modest amount of local goods I can offer.">
+哦！一个活生生的肯德伦，就在我们的村庄里！长存，畅饮，可爱的朋友！
+
+如果你想交易，我可以提供少量本地货物。
+  </string>
+  <string Context="Conversation Isahind.Start6.EndChoice.Text" ID="I have all I need. Live and drink.">
+我需要的都有了。长存，畅饮。
+  </string>
+  <string Context="Conversation Isahind.ShowSonnet.EndChoice.Text" ID="I see. Live and drink.">
+我明白了。长存，畅饮。
+  </string>
+  <string Context="Conversation Kesehind.ShowSonnet.EndChoice.Text" ID="I suppose not. Live and drink.">
+我想不像。长存，畅饮。
+  </string>
+  <string Context="Conversation Kesehind.Who are you?.EndChoice.Text" ID="I see. Live and drink.">
+我明白了。长存，畅饮。
+  </string>
+  <string Context="Conversation AgateSeveranceStar.Start.EndChoice.Text" ID="Nothing. Live and drink.">
+没什么。长存，畅饮。
+  </string>
+  <string Context="Conversation Lulihart.SlynthSettled.Text" ID="Live and drink, =name=.&#10;&#10;Have you seen your slynth out there? My sources tell me that they are, for the most part, traveling well enough with others. They stop by my tent from time to time to visit and smoke with me, as you do.&#10;&#10;One might assume they were born for this kind of life.">
+长存，畅饮，=name=。
+
+你见过外面的那些斯林斯了吗？我的消息源告诉我，他们大体上已经能和别人一起顺利旅行。他们时不时会来我的帐篷拜访，和我一起抽烟，就像你一样。
+
+有人或许会以为他们天生就适合这种生活。
+  </string>
+  <string Context="Conversation Lulihart.Refuse.EndChoice.Text" ID="Perhaps. Live and drink.">
+也许吧。长存，畅饮。
+  </string>
+  <string Context="Conversation Lulihart.Very Well.EndChoice.Text" ID="Thank you, Lulihart. Live and drink.">
+谢谢你，卢利哈特。长存，畅饮。
+  </string>
+  <string Context="Conversation Angohind.Start.EndChoice.Text" ID="I don't have time for this. Live and drink.">
+我没时间管这个。长存，畅饮。
+  </string>
+  <string Context="Conversation Angohind.ShowSonnet.EndChoice.Text" ID="Thank you. Live and drink.">
+谢谢。长存，畅饮。
+  </string>
+  <string Context="Conversation Angohind.How did you know?.EndChoice.Text" ID="I should... go. Live and drink.">
+我该……走了。长存，畅饮。
+  </string>
+  <string Context="Conversation Angohind.Introductions.EndChoice.Text" ID="No thank you. Live and drink.">
+不了，谢谢。长存，畅饮。
+  </string>
+  <string Context="Conversation Angohind.Finding evidence.EndChoice.Text" ID="Thank you for your help, Angohind. Live and drink.">
+谢谢你的帮助，安戈欣德。长存，畅饮。
+  </string>
+  <string Context="Conversation Angohind.Implicating evidence.EndChoice.Text" ID="Thank you for your help, Angohind. Live and drink.">
+谢谢你的帮助，安戈欣德。长存，畅饮。
+  </string>
+  <string Context="Conversation Angohind.Supporting evidence.EndChoice.Text" ID="Thank you for your help, Angohind. Live and drink.">
+谢谢你的帮助，安戈欣德。长存，畅饮。
+  </string>
+  <string Context="Conversation Angohind.Evidence exceptions.EndChoice.Text" ID="Thank you for the help, Angohind. Live and drink.">
+谢谢你的帮助，安戈欣德。长存，畅饮。
+  </string>
+  <string Context="Conversation Angohind.Gaming the system.EndChoice.Text" ID="Well, I should get going. Live and drink.">
+好吧，我该走了。长存，畅饮。
+  </string>
+  <string Context="Conversation Angohind.Evidence is not created equal.EndChoice.Text" ID="Thank you for your help, Angohind. Live and drink.">
+谢谢你的帮助，安戈欣德。长存，畅饮。
+  </string>
+  <string Context="Conversation Angohind.Questions.EndChoice.Text" ID="That is all. Live and drink, faundren.">
+就这些。长存，畅饮，幼欣德伦。
+  </string>
+  <string Context="Conversation HindrenPariah.Start.Text.Text2" ID="Live and drink, wanderer.">
+长存，畅饮，旅人。
+  </string>
+  <string Context="Conversation HindrenPariah.Start.Text.Text3" ID="Live and drink, kendren.">
+长存，畅饮，肯德伦。
+  </string>
   <string Context="Conversation HindrenAfflicted.Start.Text" ID="hhhhhhhhhhhhhh.">
 哈哈哈哈哈哈。</string>
+  <string Context="Conversation HindrenAfflicted.Start.EndChoice.Text" ID="My condolences. Live and drink.">
+请节哀。长存，畅饮。
+  </string>
+  <string Context="Conversation HindrenScout.Start2.Text.Text3" ID="Live and drink, kendren.">
+长存，畅饮，肯德伦。
+  </string>
+  <string Context="Conversation HindrenScout.Start3.Text.Text3" ID="Live and drink, kendren.">
+长存，畅饮，肯德伦。
+  </string>
+  <string Context="Conversation HindrenScout.Start4.Text.Text" ID="Live and drink, kendren.">
+长存，畅饮，肯德伦。
+  </string>
+  <string Context="Conversation HindrenVillager.Start2.Text.Text3" ID="Live and drink, kendren.">
+长存，畅饮，肯德伦。
+  </string>
+  <string Context="Conversation HindrenVillager.Start4.Text.Text" ID="Ah, l-live and drink.">
+啊，生、长存，畅饮。
+  </string>
+  <string Context="Conversation HindrenVillager.Start4.Text.Text2" ID="Live and drink...">
+长存，畅饮……
+  </string>
+  <string Context="Conversation HindrenVillager.Start4.Text.Text3" ID="Live... live and drink, kendren.">
+生……长存，畅饮，肯德伦。
+  </string>
+  <string Context="Conversation HindrenVillager.Start4.Text.Text8" ID="Live and drink. Will you be staying long?">
+长存，畅饮。你会久留吗？
+  </string>
+  <string Context="Conversation HindrenVillager.Start4.Text.Text10" ID="Live and drink, kendren. I am very busy.">
+长存，畅饮，肯德伦。我很忙。
+  </string>
+  <string Context="Conversation FaundrenVillager.Start.Text.Text2" ID="Um. Live and drink, kendren.">
+呃。长存，畅饮，肯德伦。
+  </string>
   <string Context="Conversation FaundrenVillager.Start.Text.Text28" ID="Um, kendren, does the yempuris phi really exist? Is it really coming to get us?">
 呃，肯德伦，耶姆普里斯斐 真的存在吗？它真的会来抓我们吗？
+  </string>
+  <string Context="Conversation FaundrenVillager.Start.EndChoice.Text" ID="I am busy. Live and drink, little one.">
+我很忙。长存，畅饮，小家伙。
+  </string>
+  <string Context="Conversation YlaHaj.Start.EndChoice.Text" ID="Live and drink, tinker.">
+长存，畅饮，修匠。
+  </string>
+  <string Context="Conversation Zothom.Start.Text" ID="Live and drink, wayfarer.&#10;&#10;Cause no strife here and we will have no quarrel.">
+长存，畅饮，路客。
+
+不要在这里挑起纷争，我们便不会争执。
+  </string>
+  <string Context="Conversation Zothom.ZothomThePenitent.EndChoice.Text" ID="Live and drink, Penitent One.">
+长存，畅饮，忏悔者。
+  </string>
+  <string Context="Conversation Zothom.ZothomJust.EndChoice.Text" ID="I will. Live and drink.">
+我会的。长存，畅饮。
+  </string>
+  <string Context="Conversation Zothom.ZothomUnjust.EndChoice.Text" ID="We'll see. Live and drink.">
+再看吧。长存，畅饮。
+  </string>
+  <string Context="Conversation Zothom.ZothomLovesMopango.EndChoice.Text" ID="Live and drink, Penitent One.">
+长存，畅饮，忏悔者。
+  </string>
+  <string Context="Conversation Zothom.PangoQuest.EndChoice.Text" ID="Speak to a... turret? I suppose I will; live and drink.">
+和一座……炮塔说话？我想我会的；长存，畅饮。
+  </string>
+  <string Context="Conversation Zothom.PangoQuest.EndChoice2.Text" ID="Speak to a... turret? No thank you; live and drink.">
+和一座……炮塔说话？不了，谢谢；长存，畅饮。
+  </string>
+  <string Context="Conversation Zothom.ZothomKnowsRebekah.EndChoice.Text" ID="Live and drink, Penitent One.">
+长存，畅饮，忏悔者。
+  </string>
+  <string Context="Conversation Haddas.Start.EndChoice.Text" ID="Live and drink, tall friend.">
+长存，畅饮，高个朋友。
   </string>
   <string Context="Conversation Sixshrew.Introduction.Text" ID="I am Sixshrew, a merchant from the Consortium of Phyta disinclined to waste xyr time on talkative strangers.&#10;&#10;I sell things, and you can buy them. I would in fact strongly encourage you to buy them, or be on your way.">
 我是六鼩，来自植群商会的商人，不愿把 其 的时间浪费在话多的陌生人身上。
 
 我卖东西，而你可以买。事实上，我强烈鼓励你买，或者赶紧上路。
+  </string>
+  <string Context="Conversation Sixshrew.Introduction.EndChoice.Text" ID="I'll be on my way. Live and drink.">
+我这就上路。长存，畅饮。
+  </string>
+  <string Context="Conversation Sixshrew.NotPest.EndChoice.Text" ID="I'm all set. Live and drink, rude one.">
+我不用了。长存，畅饮，失礼的家伙。
+  </string>
+  <string Context="Conversation Sixshrew.Pest.EndChoice.Text" ID="I'm all set. Live and drink, rude one.">
+我不用了。长存，畅饮，失礼的家伙。
+  </string>
+  <string Context="Conversation Sixshrew.Impolite.EndChoice.Text" ID="I'll skip to the last part. Live and drink, rude one.">
+我直接跳到最后一部分吧。长存，畅饮，失礼的家伙。
+  </string>
+  <string Context="Conversation Sixshrew.CrankyPlant.EndChoice.Text" ID="I'll be on my way. Live and drink.">
+我这就上路。长存，畅饮。
+  </string>
+  <string Context="Conversation MopangoStranger.Start.Text.Text11" ID="Live and drink by Her Light.">
+沐于祂光，长存，畅饮。
+  </string>
+  <string Context="Conversation Agyra.Start.EndChoice.Text" ID="Thank you, Agyra. Live and drink.">
+谢谢你，阿吉拉。长存，畅饮。
+  </string>
+  <string Context="Conversation Agyra.Start2.EndChoice.Text" ID="Thank you, Agyra. Live and drink.">
+谢谢你，阿吉拉。长存，畅饮。
+  </string>
+  <string Context="Conversation Agyra.Start3.EndChoice.Text" ID="Thank you, Agyra. Live and drink.">
+谢谢你，阿吉拉。长存，畅饮。
+  </string>
+  <string Context="Conversation Agyra.Start4.EndChoice.Text" ID="Thank you, Agyra. Live and drink.">
+谢谢你，阿吉拉。长存，畅饮。
+  </string>
+  <string Context="Conversation Agyra.Start5.EndChoice.Text" ID="Live and drink, plated one.">
+长存，畅饮，披甲者。
+  </string>
+  <string Context="Conversation Agyra.AgyraDevice.EndChoice.Text" ID="Understood. Live and drink, Agyra.">
+明白了。长存，畅饮，阿吉拉。
+  </string>
+  <string Context="Conversation Agyra.Agoninon.EndChoice.Text" ID="I will be careful. Live and drink.">
+我会小心。长存，畅饮。
+  </string>
+  <string Context="Conversation Agyra.AgyraGreet.EndChoice.Text" ID="Live and drink, Agyra.">
+长存，畅饮，阿吉拉。
+  </string>
+  <string Context="Conversation Agyra.AgyraWelcome.EndChoice.Text" ID="Thank you. Live and drink.">
+谢谢。长存，畅饮。
+  </string>
+  <string Context="Conversation Agyra.AgyraLeader.EndChoice.Text" ID="Live and drink, Agyra.">
+长存，畅饮，阿吉拉。
+  </string>
+  <string Context="Conversation Agyra.AgyraAssent.EndChoice.Text" ID="I should take my leave. Live and drink.">
+我该告辞了。长存，畅饮。
   </string>
   <string Context="Conversation Agyra.AgyraMopango.Text" ID="We are mopango: witnesses of the past and shepherds of the future. The Sacred Light of the Kasaphescence shineth within us, and we commune with relics of antiquity to maintain our humility and grow our wisdom.&#10;&#10;We believe that one day, with enough knowledge, anyone who seeketh the Light shalt find it within emself. In the meantime, we work to become better and brighter as each one of us findeth a personal credo by which to live.">
 我们是莫潘戈：过去的见证者，未来的牧者。卡萨辉体的圣光在我们之内闪耀，我们与古代遗物交流，以维持谦卑并增长智慧。
@@ -112,10 +1113,166 @@
 
 生理性别是私事，泛泛之交不必知晓。社会性别则是一种社会遗物，我们认为它如今已没有实际用途。
   </string>
+  <string Context="Conversation Agyra.AgyraGender.EndChoice.Text" ID="Oh. Live and drink.">
+哦。长存，畅饮。
+  </string>
+  <string Context="Conversation Agyra.AgyraTomb.EndChoice.Text" ID="I thank you. Live and drink.">
+谢谢你。长存，畅饮。
+  </string>
+  <string Context="Conversation Agyra.AgyraCredo.EndChoice.Text" ID="I will ponder this. Live and drink.">
+我会思考这句话。长存，畅饮。
+  </string>
+  <string Context="Conversation Agyra.AgyraTaboo.EndChoice.Text" ID="Thank you. Live and drink.">
+谢谢。长存，畅饮。
+  </string>
+  <string Context="Conversation Agyra.AgyraDialect.EndChoice.Text" ID="I see. Live and drink.">
+我明白了。长存，畅饮。
+  </string>
+  <string Context="Conversation Agyra.AgyraWheels.EndChoice.Text" ID="I see. Live and drink.">
+我明白了。长存，畅饮。
+  </string>
+  <string Context="Conversation Agyra.AgyraQuestions.EndChoice.Text" ID="Never mind. Live and drink.">
+算了。长存，畅饮。
+  </string>
+  <string Context="Conversation Agyra.AskLebah.EndChoice.Text" ID="I will. Live and drink.">
+我会的。长存，畅饮。
+  </string>
+  <string Context="Conversation Lebah.Start.EndChoice.Text" ID="Live and drink, quiet one.">
+长存，畅饮，安静者。
+  </string>
+  <string Context="Conversation Lebah.HelloLebah.EndChoice.Text" ID="Live and drink, quiet one.">
+长存，畅饮，安静者。
+  </string>
+  <string Context="Conversation Lebah.Indignant.EndChoice.Text" ID="Fair enough. Live and drink.">
+好吧。长存，畅饮。
+  </string>
+  <string Context="Conversation Lebah.CheckinOut.EndChoice.Text" ID="Fine. Live and drink.">
+好吧。长存，畅饮。
+  </string>
+  <string Context="Conversation Lebah.LebahGreet.EndChoice.Text" ID="Live and drink, Lebah.">
+长存，畅饮，利巴。
+  </string>
+  <string Context="Conversation Lebah.LebahMeaning.EndChoice.Text" ID="I... see. Live and drink.">
+我……明白了。长存，畅饮。
+  </string>
   <string Context="Conversation Lebah.OozeThat.Text" ID="An elder ooze. My communion so disturbed me that I allowed them too close.&#10;&#10;k-Goninon consumed the device, but I escaped.">
 一只年长的软泥怪。那次交流太令我不安，以至于我让 其 靠得太近。
 
 k-戈尼农吞掉了装置，但我逃脱了。
+  </string>
+  <string Context="Conversation Lebah.Curl.EndChoice.Text" ID="Live and drink, little seer.">
+长存，畅饮，小先知。
+  </string>
+  <string Context="Conversation Doyoba.Start.EndChoice.Text" ID="You're welcome. Live and drink.">
+不用谢。长存，畅饮。
+  </string>
+  <string Context="Conversation Doyoba.Start2.EndChoice.Text" ID="Live and drink, Doyoba.">
+长存，畅饮，多约巴。
+  </string>
+  <string Context="Conversation Doyoba.Start3.Text" ID="Welcome, =factionaddress:Mopango=. Live and drink. =ifplayerplural:Need ye:Needest thou= a place to rest and sup? =ifplayerplural:Would ye:Wouldst= trade?">
+欢迎，=factionaddress:Mopango=。长存，畅饮。=ifplayerplural:尔等需要:汝需要=休息和用餐的地方吗？=ifplayerplural:尔等愿意:汝愿意=交易吗？
+  </string>
+  <string Context="Conversation Doyoba.Start3.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Doyoba.WhoAreYou.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Doyoba.WhyAreYouHere.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Doyoba.YourCredo.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Doyoba.Apologize.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Doyoba.Deny.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Doyoba.Commune.EndChoice.Text" ID="Perhaps we will find out. Live and drink.">
+也许我们会知道的。长存，畅饮。
+  </string>
+  <string Context="Conversation Dadogom.Start.EndChoice.Text" ID="You're welcome. Live and drink.">
+不用谢。长存，畅饮。
+  </string>
+  <string Context="Conversation Dadogom.Start2.EndChoice.Text" ID="Thank you. Live and drink, Dadogom.">
+谢谢。长存，畅饮，达多戈姆。
+  </string>
+  <string Context="Conversation Dadogom.Start3.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Dadogom.WhoAreYou.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Dadogom.WhyAreYouHere.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Dadogom.YourCredo.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Dadogom.Apologize.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Dadogom.Deny.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Dadogom.Commune.EndChoice.Text" ID="Perhaps we will find out. Live and drink.">
+也许我们会知道的。长存，畅饮。
+  </string>
+  <string Context="Conversation Gyamyo.Start.EndChoice.Text" ID="You're welcome, Gyamyo. Live and drink.">
+不用谢，伽米约。长存，畅饮。
+  </string>
+  <string Context="Conversation Gyamyo.Start2.EndChoice.Text" ID="Live and drink, Gyamyo.">
+长存，畅饮，伽米约。
+  </string>
+  <string Context="Conversation Gyamyo.Start3.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Gyamyo.WhoAreYou.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Gyamyo.WhyAreYouHere.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Gyamyo.YourCredo.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Gyamyo.Apologize.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Gyamyo.Deny.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Gyamyo.Commune.EndChoice.Text" ID="We'll see. Live and drink.">
+我们会看到的。长存，畅饮。
+  </string>
+  <string Context="Conversation Yona.Start.EndChoice.Text" ID="Thank you, Yona. Live and drink.">
+谢谢你，约娜。长存，畅饮。
+  </string>
+  <string Context="Conversation Yona.Start2.EndChoice.Text" ID="Live and drink, Yona.">
+长存，畅饮，约娜。
+  </string>
+  <string Context="Conversation Yona.Start3.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Yona.WhoAreYou.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Yona.WhyAreYouHere.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Yona.YourCredo.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Yona.Apologize.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Yona.Deny.EndChoice.Text" ID="Live and drink, watcher.">
+长存，畅饮，守望者。
+  </string>
+  <string Context="Conversation Yona.Commune.EndChoice.Text" ID="We'll see. Live and drink.">
+我们会看到的。长存，畅饮。
   </string>
   <string Context="Conversation Shomer.Start.Text" ID="Saad, welcom.&#10;Saad, from thyn heres shaken the wet and olde lif.&#10;Saad, in-to a smal vessel pouren hit.&#10;Saad, to thyn sash attachen the vessel.&#10;Saad, crossen nou thrugh the heigh gate and in-to Brightsheol.">
 萨阿德，欢迎。
@@ -204,7 +1361,7 @@ k-戈尼农吞掉了装置，但我逃脱了。
   <string Context="Conversation ImperialBiographer.DoThat6Resheph.Text" ID="...................................">
 ...................................</string>
   <string Context="Conversation Goek.Start.Text" ID="Live and drink, friend. rrk come to the Yd, shared together. Feel safe and free as woodsmoke.">
-生而饮水，朋友。呱 来到伊德，共同分享。感到安全又自由，像木烟一样。
+长存，畅饮，朋友。呱 来到伊德，共同分享。感到安全又自由，像木烟一样。
   </string>
   <string Context="Conversation Goek.SlynthRequest.Text" ID="rrk knows of the glow-hats! Yd-friends see glimpses at night, about the reef.">
 呱 知道发光帽！伊德朋友夜里在礁中瞥见过。
@@ -225,6 +1382,11 @@ k-戈尼农吞掉了装置，但我逃脱了。
 一切都好，=name=！试炼生来就是要被克服，而且要一起克服。
 
 呱 能分辨天黑，却也不知。来访并见证！发光帽让夜晚活起来，安全又自由。斯林思之家就是伊德。
+  </string>
+  <string Context="Conversation Goek.Greetings.Text" ID="{{emote|*reeeeeps joyfully*}}&#10;&#10;Greetings, =name=! Live and drink, friend.">
+{{emote|*欢快地 reeeeeps*}}
+
+问候你，=name=！长存，畅饮，朋友。
   </string>
   <string Context="Conversation Goek.Who.Text" ID="rrk is called by dwellers Goek. rrk is a dweller here, too, and before then, a builder of place. Goek, Geeub, Mak and Many Eyes build a new Yd in the reef, hundreds of years.">
 居民叫 呱 戈埃克。呱 也是这里的居民，在那之前，是地方的建造者。戈埃克、吉厄布、马克和多眼在礁中建造新伊德，数百年。
@@ -257,6 +1419,9 @@ k-戈尼农吞掉了装置，但我逃脱了。
   </string>
   <string Context="Conversation Mak.Croak.Text" ID="{{emote|*crrrk*}}">
 {{emote|*嘎吱声*}}</string>
+  <string Context="Conversation Geeub.Familiar.EndChoice.Text" ID="Oh, very funny. Live and drink.">
+哦，真有趣。长存，畅饮。
+  </string>
   <string Context="Conversation Geeub.Founder.Text" ID="'Founder' the query. 'Founder' is water-taking, no? To be breached and sink. How cruel the judgment.&#10;&#10;{{emote|*rrrrroak*}}&#10;&#10;Hoh hoh. This voice japes -- we, witness to the birth of Yd. The query, no?">
 “创立者”是问题。“奠基者”也是进水，不是吗？被破开，然后沉没。多么残酷的判定。
 
@@ -266,6 +1431,9 @@ k-戈尼农吞掉了装置，但我逃脱了。
   </string>
   <string Context="Conversation Geeub.Founder2.Text" ID="Yes, we were present, if less active than other-bodies. But we saw, and rattle with memory-artifacts as a Consortium lockbox rattles with jewels; shards of an eon-old data disk, bits of stories and places. Kin-fleeing, louse-meals, ghastly boredom. But Fate's caprice brought us through history's footsteps. There was a machine-speaker, and her ursine apprentice with his little plant, and the Sower with a tetrad of chubby whelps, and then, at last, Many-Eyes. Our dear galgal. So many.">
 是，我们在场，虽然没有其他身体那样活跃。但我们看见了，也因记忆遗物而作响，像商会锁箱因珠宝而作响；一片亿年旧数据盘的碎片，故事与地点的零星残片。亲族逃离，虱子餐食，骇人的无聊。但命运的反复无常带我们走过历史的足迹。曾有机器言说者，还有她的熊形学徒和他的小植物，播种者带着四个胖墩墩的小崽子，然后，最后，多眼。我们亲爱的 加尔加尔。太多了。
+  </string>
+  <string Context="Conversation Krka.Start.KrkaEndChoice.Text" ID="Live and drink, Krka.">
+长存，畅饮，克尔卡。
   </string>
   <string Context="Conversation Bep.Start.Text" ID="bep see widget? Or bep see widget.">
 贝普 看小玩意？或者 贝普 看见小玩意。
@@ -284,6 +1452,12 @@ k-戈尼农吞掉了装置，但我逃脱了。
   </string>
   <string Context="Conversation Bep.Freehold.Text" ID="bep make all and anys. bep too lounge in green-gold cubby, smoke pillow and Krka and Tilli.">
 贝普 做所有和任何。贝普 也躺绿金小窝，抽枕头，和克尔卡、蒂利。
+  </string>
+  <string Context="Conversation Tillifergaewicz.Start.TilliBye.Text" ID="I'm fine, thank you. Live and drink.">
+我没事，谢谢。长存，畅饮。
+  </string>
+  <string Context="Conversation Rokhas.Greet.RokhasBye.Text" ID="Live and drink, Rokhas.">
+长存，畅饮，罗克哈斯。
   </string>
   <string Context="Conversation ManyEyes.Non.Text" ID="NON MOLOCH HER AT HOM. NON MOLOCH IN MAQQOM YD.">
 非摩洛此处在家。非摩洛在 马科姆 伊德。
@@ -307,6 +1481,21 @@ k-戈尼农吞掉了装置，但我逃脱了。
   </string>
   <string Context="Conversation ManyEyes.NonMoloch.Text" ID="YOU. YOU REGNEN NON HER. NON MOLOCH IN MAQQOM YD.">
 你。你此处不统治。非摩洛在 马科姆 伊德。
+  </string>
+  <string Context="Conversation Thah.Start.Bye.Text" ID="Live and drink, Thah.">
+长存，畅饮，塔赫。
+  </string>
+  <string Context="Conversation Thah.Helping.EndChoice.Text" ID="I have changed my mind. Live and drink.">
+我改变主意了。长存，畅饮。
+  </string>
+  <string Context="Conversation Thah.Helping4.EndChoice.Text" ID="I decline. Live and drink.">
+我拒绝。长存，畅饮。
+  </string>
+  <string Context="Conversation Thah.Accept.EndChoice.Text" ID="Live and drink. I will return with news.">
+长存，畅饮。我会带消息回来。
+  </string>
+  <string Context="Conversation Thah.Start3.EndChoice.Text" ID="None yet. Live and drink, Thah.">
+还没有。长存，畅饮，塔赫。
   </string>
   <string Context="Conversation Thah.LandingPadsCommentary.4" ID="Did you say Barathrumites? So that's how it's pronounced.&#10;&#10;Grit Gate is, ah... that's where Q Girl resides, isn't it? She wrote my favorite book, {{W|Disquisition on the Malady of the Mimic}}. I imagine such a home would have a positive effect on my kin. I will speak to them.">
 你说的是巴拉瑟姆派？原来是这么发音的。
@@ -356,6 +1545,9 @@ k-戈尼农吞掉了装置，但我逃脱了。
   <string Context="Conversation Thah.LandingPadsCommentary.Hindren.Text" ID="The village of Bey Lah has agreed to accept the slynth as their own.">
 贝拉赫 村已经同意接纳斯林思为自己人。
   </string>
+  <string Context="Conversation Thah.GiveStar.EndChoice.Text" ID="I will cherish it. Live and drink.">
+我会珍视它。长存，畅饮。
+  </string>
   <string Context="Conversation Thah.SlynthDecision.4" ID="After some discussion and deliberation, we have come to consensus: Kyakukya shall be the new home of the slynth. There are many ways to grow when one is planted in the very heart of Qud.&#10;&#10;Our emigration party departs for the river in the morning.">
 经过一番讨论和斟酌，我们达成了共识：基亚库亚 将成为斯林思的新家。当一个人被栽在库德正中心时，会有许多成长的方式。
 
@@ -387,16 +1579,31 @@ k-戈尼农吞掉了装置，但我逃脱了。
   <string Context="Conversation Thah.SlynthDecision.SlynthResolutionChoice.5" ID="Mayest thou rest ever in the Light of the Kasaphescence.">
 愿汝永息于 卡萨辉体 之光。
   </string>
+  <string Context="Conversation Thah.SlynthResolution.EndChoice.Text" ID="I will. Live and drink.">
+我会的。长存，畅饮。
+  </string>
   <string Context="Conversation Thah.SlynthLeave.9" ID="Yes, I've decided to stay. The flower fields sound beautiful, and no doubt there is much to learn from the hindren. But the thought of leaving the cradle after decades of watching it... I couldn't.&#10;&#10;The hydropon is even less a village now, but you're welcome to rest here whenever you like.">
 是的，我决定留下。花田听起来很美，而且毫无疑问，兴德伦 身上有许多值得学习的东西。但一想到守望摇篮数十年后要离开它……我做不到。
 
 这座水培舱如今更不像村庄了，但你随时都欢迎来这里休息。
+  </string>
+  <string Context="Conversation Slynth.Start.Text2" ID="New creature. Live and drink.">
+新生物。长存，畅饮。
+  </string>
+  <string Context="Conversation SlynthWanderer.Who.Iseebye.Text" ID="I see. Live and drink.">
+我明白了。长存，畅饮。
+  </string>
+  <string Context="Conversation SlynthWanderer.Location.EndChoice.Text" ID="Perhaps I shall visit. Live and drink.">
+也许我会去拜访。长存，畅饮。
   </string>
   <string Context="Conversation ChavvahPrime.WelcomeNoPhysiology.ChimeChoice.Text" ID="The entity I spoke with at Eyn Roj mentioned a chiming rock...">
 我在 恩罗伊 交谈过的实体提到了一块鸣响之石……
   </string>
   <string Context="Conversation ChavvahPrime.Chavvah.Text" ID="This keter roams above my trunk at Eyn Roj, traveler =name=, and across the Stair I dream. You found me, this keter where I chime in dozens.">
 旅人 =name=，这片冠层在我位于 恩罗伊 的树干上方漫游，而我的梦越过长阶。你找到了我，也找到了冠层中这数十道共同鸣响的声音。
+  </string>
+  <string Context="Conversation ChavvahPrime.BarathrumChavvahDone2.EndChoice.Text" ID="Thank you, Dyvvrach. Live and drink.">
+谢谢你，迪夫拉赫。长存，畅饮。
   </string>
   <string Context="Conversation ChavvahPrime.SlynthRequest.Text" ID="Again I must be calmed, but the startling gives way to a curiosity. You speak of the glowfolk, belimbed and free. You asking that they join us, like our Sant?">
 这又使我一惊，但平静下来后，好奇随之而来。你说的是那些拥有肢体、能够自由行动的发光族民。你希望他们像我们的 桑特 一样加入我们吗？
@@ -418,11 +1625,95 @@ k-戈尼农吞掉了装置，但我逃脱了。
 
 又或者，你是最稀有的那一种，走在明亮拱门之下，却声称不曾付出这种代价？即便如此，{{M|你}} 为了来到这里又承受了什么损失，旅人？你必须舍弃哪些曾经可能成为的自己？对我们而言，那些也是逝去的生命，我同样为它们哀悼。
   </string>
+  <string Context="Conversation Tzedech.Lover.EndChoice.Text" ID="I should go. Live and drink.">
+我该走了。长存，畅饮。
+  </string>
+  <string Context="Conversation Dreamer.Meaning.EndChoice.Text" ID="I will think on this... live and drink.">
+我会思考这件事……长存，畅饮。
+  </string>
+  <string Context="Conversation TauNoLonger.Uncaring.Text" ID="Ah.&#10;&#10;Well. You have my thanks for your help in -elseing, but by blocking my path you create fresh problems. Yes?&#10;&#10;I do not wish to know you.&#10;&#10;Live and drink.">
+啊。
+
+好吧。感谢你帮助我完成离枝，可你又阻断了我的道路，制造出新的问题。对吗？
+
+我不想认识你。
+
+长存，畅饮。
+  </string>
+  <string Context="Conversation TauNoLonger.Sorry.Text" ID="I resent what has befallen me, but I am yet embodied. You have still helped me live, yes?&#10;&#10;I forgive you, but I don't wish to know you. Live and drink.">
+我怨恨降临在我身上的事，但我仍有形体。你仍然帮助我活了下来，对吗？
+
+我宽恕你，但我不想认识你。长存，畅饮。
+  </string>
+  <string Context="Conversation TauNoLonger.Happier.Text" ID="Perhaps. My future is hazy. My future twists in the chill wind of the Gyre. I can have no faith in your vision. You understand this, yes?&#10;&#10;I do not wish to know you.&#10;&#10;Live and drink.">
+也许吧。我的未来朦胧。我的未来在轮回的寒风中扭曲。我无法相信你的预言。你明白这一点，对吗？
+
+我不想认识你。
+
+长存，畅饮。
+  </string>
+  <string Context="Conversation TauNoLonger.Favor.Text" ID="I wish the same for you, =name=. Live and drink.">
+我也愿你如此，=name=。长存，畅饮。
+  </string>
+  <string Context="Conversation TauNoLonger.FavorGift.Text" ID="I wish the same for you, =name=.&#10;&#10;Before you go, take this, a piece of my bodystuff, as thanks for completing the -elseing.&#10;&#10;Then live and drink.">
+我也愿你如此，=name=。
+
+拿着这个——我在离枝时蜕下的一块身体物质，就当作完成仪式的谢礼。
+
+那么，长存，畅饮。
+  </string>
+  <string Context="Conversation TauNoLonger.Leave.Text" ID="As I you to yours, =name=. Live and drink.">
+我也把你交还给自己的命运，=name=。长存，畅饮。
+  </string>
+  <string Context="Conversation TauNoLonger.LeaveGift.Text" ID="As I you to yours, =name=. &#10;&#10;But before you go, take this, a piece of my bodystuff, as thanks for completing the -elseing.&#10;&#10;Then live and drink.">
+我也把你交还给自己的命运，=name=。
+
+但在你离开前，拿着这个——我在离枝时蜕下的一块身体物质，就当作完成仪式的谢礼。
+
+那么，长存，畅饮。
+  </string>
+  <string Context="Conversation TauNoLonger.EndGift.Text" ID="Before you go, take this, a piece of my bodystuff, as thanks for completing the -elseing.&#10;&#10;Then live and drink, =name=.">
+拿着这个——我在离枝时蜕下的一块身体物质，就当作完成仪式的谢礼。
+
+那么，=name=，长存，畅饮。
+  </string>
+  <string Context="Conversation WanderingTau.Orphaned.EndGiftChoice.Text" ID="Live and drink, Wandering Tau.">
+长存，畅饮，游荡的陶。
+  </string>
+  <string Context="Conversation WanderingTau.Orphaned.EndChoice.Text" ID="Live and drink, Wandering Tau.">
+长存，畅饮，游荡的陶。
+  </string>
+  <string Context="Conversation WanderingTau.Free.Text" ID="And yet, I find my choices undermined, yes? You have my thanks for your help in -elseing, but do not convince yourself that you have 'freed' me from my own choices.&#10;&#10;Live and drink.">
+然而，我的选择仍遭到破坏，对吗？感谢你帮助我完成离枝，但别自欺欺人地说，你把我从自己的选择中“解放”了。
+
+长存，畅饮。
+  </string>
+  <string Context="Conversation WanderingTau.Sorry.Text" ID="I resent what has befallen me, but I am yet embodied. You have still helped me live.&#10;&#10;My future is free. My future is murky, and I am freshly tender from the burn of your hand. I feel I had rather not encounter you for a time. Live and drink, =player.formalAddressTerm=.">
+我怨恨降临在我身上的事，但我仍有形体。你仍然帮助我活了下来。
+
+我的未来自由，却也晦暗。你的手留下的灼伤仍然鲜痛。我想，暂时还是不要再见到你为好。长存，畅饮，=player.formalAddressTerm=。
+  </string>
+  <string Context="Conversation WanderingTau.Happier.Text" ID="Will I?&#10;&#10;Your prediction warms little against the chill wind of the Gyre. My future is free. My future is murky. I am freshly tender from the burn of your hand.&#10;&#10;I feel I had rather not encounter you for a time. Live and drink, =player.formalAddressTerm=.">
+我会吗？
+
+你的预言抵不过轮回的寒风，给不了我多少暖意。我的未来自由，却也晦暗。你的手留下的灼伤仍然鲜痛。
+
+我想，暂时还是不要再见到你为好。长存，畅饮，=player.formalAddressTerm=。
+  </string>
+  <string Context="Conversation WanderingTau.EndGift.EndChoice.Text" ID="Live and drink, Wandering Tau.">
+长存，畅饮，游荡的陶。
+  </string>
   <string Context="Conversation Santalalotze.Name.Text" ID="I am Santalalotze.&#10;&#10;... of ... the Consortium of Phyta. Some call me 'Sant', I think, in&#10;fantasy or memory.">
 我是桑塔拉洛采。
 
 ……属于……植群商会。我想，有些人曾叫我“桑特”。也许是在
 幻想里，也许是在记忆里。
+  </string>
+  <string Context="Conversation Santalalotze.Tree.EndChoice.Text" ID="I see. Live and drink.">
+我明白了。长存，畅饮。
+  </string>
+  <string Context="Conversation Santalalotze.Parasite.EndChoice.Text" ID="Fair enough. Live and drink.">
+也好。长存，畅饮。
   </string>
   <string Context="Conversation GyreWightAgolgot.Start.Text.Text8" ID="Girsh Agolgot! Red dusts in my nails and burning hot bubbles swell in my glands! Now I point to the future.">
 吉尔什 阿戈尔戈特！红尘在我的指甲里，灼热气泡在我的腺体中膨胀！现在我指向未来。

@@ -1,0 +1,42 @@
+test_export_scope_and_missing (test_corpus.CorpusTests.test_export_scope_and_missing) ... ok
+test_literal_unit_operation_audit (test_corpus.CorpusTests.test_literal_unit_operation_audit) ... ok
+test_new_translation_tokens (test_corpus.CorpusTests.test_new_translation_tokens) ... ok
+test_no_chinese_single_noun_pluralization (test_corpus.CorpusTests.test_no_chinese_single_noun_pluralization) ... ok
+test_unchanged_input_snapshots (test_corpus.CorpusTests.test_unchanged_input_snapshots) ... ok
+test_xml_and_export_markers (test_corpus.CorpusTests.test_xml_and_export_markers) ... ok
+test_combinations_and_idempotence (test_dynamic.DynamicTests.test_combinations_and_idempotence) ... ok
+test_guards_and_bounds (test_dynamic.DynamicTests.test_guards_and_bounds) ... ok
+test_live_log_mixed_grammar (test_dynamic.DynamicTests.test_live_log_mixed_grammar) ... ok
+test_live_running_and_source_effects (test_dynamic.DynamicTests.test_live_running_and_source_effects) ... ok
+test_mixed_ray_anatomy (test_dynamic.DynamicTests.test_mixed_ray_anatomy) ... ok
+test_names_and_markup (test_dynamic.DynamicTests.test_names_and_markup) ... ok
+test_patterns_are_anchored (test_dynamic.DynamicTests.test_patterns_are_anchored) ... ok
+test_physics_articles (test_dynamic.DynamicTests.test_physics_articles) ... ok
+test_pronouns_are_template_scoped (test_dynamic.DynamicTests.test_pronouns_are_template_scoped) ... ok
+test_screenshots (test_dynamic.DynamicTests.test_screenshots) ... ok
+test_typed_damage_ability_and_death (test_dynamic.DynamicTests.test_typed_damage_ability_and_death) ... ok
+test_unknown_name_fragments_not_guessed (test_dynamic.DynamicTests.test_unknown_name_fragments_not_guessed) ... ok
+test_code_and_weights (test_history.HistoryTests.test_code_and_weights) ... ok
+test_language_and_coverage (test_history.HistoryTests.test_language_and_coverage) ... ok
+test_no_visible_latin_fragments (test_history.HistoryTests.test_no_visible_latin_fragments) ... ok
+test_replacement_semantics (test_history.HistoryTests.test_replacement_semantics) ... ok
+test_upstream_placeholder_repairs (test_history.HistoryTests.test_upstream_placeholder_repairs) ... ok
+test_artifact_is_reproducible (test_markov.ChineseMarkovTests.test_artifact_is_reproducible) ... ok
+test_graph_has_terminating_transitions (test_markov.ChineseMarkovTests.test_graph_has_terminating_transitions) ... ok
+test_language_and_lexical_segmentation (test_markov.ChineseMarkovTests.test_language_and_lexical_segmentation) ... ok
+test_native_json_shape (test_markov.ChineseMarkovTests.test_native_json_shape) ... ok
+test_reference_chain_sampling (test_markov.ChineseMarkovTests.test_reference_chain_sampling) ... ok
+test_templates_excluded_and_colours_unwrapped (test_markov.ChineseMarkovTests.test_templates_excluded_and_colours_unwrapped) ... ok
+test_all_static_english_verbs_repaired (test_template_repairs.TemplateRepairsTests.test_all_static_english_verbs_repaired) ... ok
+test_context_sensitive_idioms (test_template_repairs.TemplateRepairsTests.test_context_sensitive_idioms) ... ok
+test_idempotence_and_exact_apply (test_template_repairs.TemplateRepairsTests.test_idempotence_and_exact_apply) ... ok
+test_only_explicit_tokens_change (test_template_repairs.TemplateRepairsTests.test_only_explicit_tokens_change) ... ok
+test_pronoun_verb_only_and_possessive_semantics (test_template_repairs.TemplateRepairsTests.test_pronoun_verb_only_and_possessive_semantics) ... ok
+test_proper_names_colors_and_player_input_preserved (test_template_repairs.TemplateRepairsTests.test_proper_names_colors_and_player_input_preserved) ... ok
+test_unique_fields_and_exact_baseline (test_template_repairs.TemplateRepairsTests.test_unique_fields_and_exact_baseline) ... ok
+test_untouched_numeric_and_object_variables (test_template_repairs.TemplateRepairsTests.test_untouched_numeric_and_object_variables) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 4.061s
+
+OK

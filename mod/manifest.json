@@ -2,7 +2,7 @@
   "ID": "QudCnSupplement",
   "Title": "Caves of Qud 简体中文补充",
   "Description": "基于 QudSimplifiedChinese 的当前版本语料与动态显示文本补充。",
-  "Version": "0.1.2",
+  "Version": "0.1.3",
   "Author": "Local translation project",
   "LoadAfter": [
     "QudSimplifiedChinese"

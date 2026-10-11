@@ -3,9 +3,10 @@
   "mode": "Incremental XML with Lang=CN; requires original CN pack and later load order.",
   "total_source_fields": 25090,
   "statuses": {
-    "existing_cn": 18596,
+    "existing_cn": 18184,
     "reviewed_glossary": 294,
     "template_or_symbol": 690,
+    "reviewed_farewell": 412,
     "tw_converted": 3260,
     "reviewed_override": 254,
     "manual": 585,
@@ -16,7 +17,7 @@
     "procedural_name_syllable": 6,
     "reviewed_unit_literal": 64
   },
-  "emitted_fields": 5993,
+  "emitted_fields": 6405,
   "unresolved_fields": 0,
   "existing_mixed_latin_fields": 216,
   "residual_latin_fields_all_final_values": 216,
