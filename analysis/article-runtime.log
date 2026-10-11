@@ -1,0 +1,298 @@
+build_log.txt
+[2026-10-11T21:05:17] BuildLogger initialized...
+[2026-10-11T21:05:17] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T21:05:17] ==== BUILDING MODS ====
+[2026-10-11T21:05:17] Defined symbol: VERSION_1_1
+[2026-10-11T21:05:17] Defined symbol: BUILD_2_0_212
+[2026-10-11T21:05:17] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T21:05:17] Loading path: /
+[2026-10-11T21:05:17] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T21:05:17] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T21:05:17] Loading path: /
+[2026-10-11T21:05:17] Compiling 2 files...
+[2026-10-11T21:05:18] Success :)
+[2026-10-11T21:05:18] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T21:05:18] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T21:05:18] ==== FINAL LOAD ORDER ====
+[2026-10-11T21:05:18] 1: QudSimplifiedChinese
+[2026-10-11T21:05:18] 2: QudCnSupplement
+[2026-10-11T21:08:32] BuildLogger initialized...
+[2026-10-11T21:08:33] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T21:08:33] ==== BUILDING MODS ====
+[2026-10-11T21:08:33] Defined symbol: VERSION_1_1
+[2026-10-11T21:08:33] Defined symbol: BUILD_2_0_212
+[2026-10-11T21:08:33] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T21:08:33] Loading path: /
+[2026-10-11T21:08:33] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T21:08:33] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T21:08:33] Loading path: /
+[2026-10-11T21:08:33] Compiling 2 files...
+[2026-10-11T21:08:34] Success :)
+[2026-10-11T21:08:34] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T21:08:34] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T21:08:34] === CN RUNTIME QA PROBE ===
+[2026-10-11T21:08:34] Loading path: /
+[2026-10-11T21:08:34] Compiling 1 file...
+[2026-10-11T21:08:36] Success :)
+[2026-10-11T21:08:36] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T21:08:36] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T21:08:36] ==== FINAL LOAD ORDER ====
+[2026-10-11T21:08:36] 1: QudSimplifiedChinese
+[2026-10-11T21:08:36] 2: QudCnSupplement
+[2026-10-11T21:08:36] 3: QudCnTestProbe
+[2026-10-11T21:10:31] BuildLogger initialized...
+[2026-10-11T21:10:31] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T21:10:31] ==== BUILDING MODS ====
+[2026-10-11T21:10:31] Defined symbol: VERSION_1_1
+[2026-10-11T21:10:31] Defined symbol: BUILD_2_0_212
+[2026-10-11T21:10:31] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T21:10:31] Loading path: /
+[2026-10-11T21:10:31] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T21:10:31] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T21:10:31] Loading path: /
+[2026-10-11T21:10:31] Compiling 2 files...
+[2026-10-11T21:10:32] Success :)
+[2026-10-11T21:10:32] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T21:10:32] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T21:10:32] === CN RUNTIME QA PROBE ===
+[2026-10-11T21:10:32] Loading path: /
+[2026-10-11T21:10:32] Compiling 1 file...
+[2026-10-11T21:10:35] Success :)
+[2026-10-11T21:10:35] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T21:10:35] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T21:10:35] ==== FINAL LOAD ORDER ====
+[2026-10-11T21:10:35] 1: QudSimplifiedChinese
+[2026-10-11T21:10:35] 2: QudCnSupplement
+[2026-10-11T21:10:35] 3: QudCnTestProbe
+[2026-10-11T21:21:48] BuildLogger initialized...
+[2026-10-11T21:21:48] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T21:21:48] ==== BUILDING MODS ====
+[2026-10-11T21:21:48] Defined symbol: VERSION_1_1
+[2026-10-11T21:21:48] Defined symbol: BUILD_2_0_212
+[2026-10-11T21:21:48] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T21:21:48] Loading path: /
+[2026-10-11T21:21:48] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T21:21:48] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T21:21:48] Loading path: /
+[2026-10-11T21:21:48] Compiling 2 files...
+[2026-10-11T21:21:50] Success :)
+[2026-10-11T21:21:50] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T21:21:50] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T21:21:50] === CN RUNTIME QA PROBE ===
+[2026-10-11T21:21:50] Loading path: /
+[2026-10-11T21:21:50] Compiling 1 file...
+[2026-10-11T21:21:52] Success :)
+[2026-10-11T21:21:52] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T21:21:52] == COMPILER WARNINGS ==
+[2026-10-11T21:21:52] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,318): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T21:21:52] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T21:21:52] ==== FINAL LOAD ORDER ====
+[2026-10-11T21:21:52] 1: QudSimplifiedChinese
+[2026-10-11T21:21:52] 2: QudCnSupplement
+[2026-10-11T21:21:52] 3: QudCnTestProbe
+[2026-10-11T21:25:35] BuildLogger initialized...
+[2026-10-11T21:25:35] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T21:25:35] ==== BUILDING MODS ====
+[2026-10-11T21:25:36] Defined symbol: VERSION_1_1
+[2026-10-11T21:25:36] Defined symbol: BUILD_2_0_212
+[2026-10-11T21:25:36] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T21:25:36] Loading path: /
+[2026-10-11T21:25:36] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T21:25:36] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T21:25:36] Loading path: /
+[2026-10-11T21:25:36] Compiling 2 files...
+[2026-10-11T21:25:36] Success :)
+[2026-10-11T21:25:36] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T21:25:36] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T21:25:36] === CN RUNTIME QA PROBE ===
+[2026-10-11T21:25:36] Loading path: /
+[2026-10-11T21:25:36] Compiling 1 file...
+[2026-10-11T21:25:39] Success :)
+[2026-10-11T21:25:39] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T21:25:39] == COMPILER WARNINGS ==
+[2026-10-11T21:25:39] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,318): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T21:25:39] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10542,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T21:25:39] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T21:25:39] ==== FINAL LOAD ORDER ====
+[2026-10-11T21:25:39] 1: QudSimplifiedChinese
+[2026-10-11T21:25:39] 2: QudCnSupplement
+[2026-10-11T21:25:39] 3: QudCnTestProbe
+[2026-10-11T21:26:28] BuildLogger initialized...
+[2026-10-11T21:26:28] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T21:26:28] ==== BUILDING MODS ====
+[2026-10-11T21:26:28] Defined symbol: VERSION_1_1
+[2026-10-11T21:26:28] Defined symbol: BUILD_2_0_212
+[2026-10-11T21:26:28] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T21:26:28] Loading path: /
+[2026-10-11T21:26:28] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T21:26:28] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T21:26:28] Loading path: /
+[2026-10-11T21:26:28] Compiling 2 files...
+[2026-10-11T21:26:29] Success :)
+[2026-10-11T21:26:29] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T21:26:29] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T21:26:29] === CN RUNTIME QA PROBE ===
+[2026-10-11T21:26:29] Loading path: /
+[2026-10-11T21:26:29] Compiling 1 file...
+[2026-10-11T21:26:31] Success :)
+[2026-10-11T21:26:31] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T21:26:31] == COMPILER WARNINGS ==
+[2026-10-11T21:26:31] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,318): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T21:26:31] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10542,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T21:26:31] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T21:26:31] ==== FINAL LOAD ORDER ====
+[2026-10-11T21:26:31] 1: QudSimplifiedChinese
+[2026-10-11T21:26:31] 2: QudCnSupplement
+[2026-10-11T21:26:31] 3: QudCnTestProbe
+[2026-10-11T21:45:26] BuildLogger initialized...
+[2026-10-11T21:45:26] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T21:45:26] ==== BUILDING MODS ====
+[2026-10-11T21:45:26] Defined symbol: VERSION_1_1
+[2026-10-11T21:45:26] Defined symbol: BUILD_2_0_212
+[2026-10-11T21:45:26] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T21:45:26] Loading path: /
+[2026-10-11T21:45:26] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T21:45:26] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T21:45:26] Loading path: /
+[2026-10-11T21:45:26] Compiling 2 files...
+[2026-10-11T21:45:27] Success :)
+[2026-10-11T21:45:27] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T21:45:27] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T21:45:27] === CN RUNTIME QA PROBE ===
+[2026-10-11T21:45:27] Loading path: /
+[2026-10-11T21:45:27] Compiling 1 file...
+[2026-10-11T21:45:30] Success :)
+[2026-10-11T21:45:30] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T21:45:30] == COMPILER WARNINGS ==
+[2026-10-11T21:45:30] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,459): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T21:45:30] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10542,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T21:45:30] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T21:45:30] ==== FINAL LOAD ORDER ====
+[2026-10-11T21:45:30] 1: QudSimplifiedChinese
+[2026-10-11T21:45:30] 2: QudCnSupplement
+[2026-10-11T21:45:30] 3: QudCnTestProbe
+[2026-10-11T21:48:42] BuildLogger initialized...
+[2026-10-11T21:48:42] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T21:48:42] ==== BUILDING MODS ====
+[2026-10-11T21:48:42] Defined symbol: VERSION_1_1
+[2026-10-11T21:48:42] Defined symbol: BUILD_2_0_212
+[2026-10-11T21:48:42] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T21:48:42] Loading path: /
+[2026-10-11T21:48:42] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T21:48:42] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T21:48:42] Loading path: /
+[2026-10-11T21:48:42] Compiling 2 files...
+[2026-10-11T21:48:43] Success :)
+[2026-10-11T21:48:43] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T21:48:43] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T21:48:43] === CN RUNTIME QA PROBE ===
+[2026-10-11T21:48:43] Loading path: /
+[2026-10-11T21:48:43] Compiling 1 file...
+[2026-10-11T21:48:46] Success :)
+[2026-10-11T21:48:46] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T21:48:46] == COMPILER WARNINGS ==
+[2026-10-11T21:48:46] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,459): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T21:48:46] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10542,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T21:48:46] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T21:48:46] ==== FINAL LOAD ORDER ====
+[2026-10-11T21:48:46] 1: QudSimplifiedChinese
+[2026-10-11T21:48:46] 2: QudCnSupplement
+[2026-10-11T21:48:46] 3: QudCnTestProbe
+[2026-10-11T21:50:18] BuildLogger initialized...
+[2026-10-11T21:50:18] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T21:50:18] ==== BUILDING MODS ====
+[2026-10-11T21:50:18] Defined symbol: VERSION_1_1
+[2026-10-11T21:50:18] Defined symbol: BUILD_2_0_212
+[2026-10-11T21:50:18] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T21:50:18] Loading path: /
+[2026-10-11T21:50:18] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T21:50:18] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T21:50:18] Loading path: /
+[2026-10-11T21:50:18] Compiling 2 files...
+[2026-10-11T21:50:19] Success :)
+[2026-10-11T21:50:19] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T21:50:19] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T21:50:19] === CN RUNTIME QA PROBE ===
+[2026-10-11T21:50:19] Loading path: /
+[2026-10-11T21:50:19] Compiling 1 file...
+[2026-10-11T21:50:22] Success :)
+[2026-10-11T21:50:22] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T21:50:22] == COMPILER WARNINGS ==
+[2026-10-11T21:50:22] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,459): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T21:50:22] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10542,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T21:50:22] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T21:50:22] ==== FINAL LOAD ORDER ====
+[2026-10-11T21:50:22] 1: QudSimplifiedChinese
+[2026-10-11T21:50:22] 2: QudCnSupplement
+[2026-10-11T21:50:22] 3: QudCnTestProbe
+Player.log
+[QudCnSupplement] pronouns=8/8
+[QudCnSupplement] diagnostics=8/8
+[QudCnSupplement] matrix=36/36
+[QudCnSupplement] selftest=27/27
+[QudCnSupplement] initialized; hooks=108; exact UI=774; patterns=211; language=CN
+[QudCnSupplement] STRING_REVIEW: Conversation DefaultTrader.Start.Text | [Press tab or T to open trade] => [按 Tab 或 T 打开交易]
+[QudCnSupplement] STRING_REVIEW: Conversation Goek.Greetings.Text | {{emote|*reeeeeps joyfully*}}\n\nGreetings, =name=! Live and drink, friend. => {{emote|*欢快地 reeeeeps*}}\n\n问候你，=name=！生而饮水，朋友。
+[QudCnSupplement] STRING_REVIEW: Conversation Goek.Freehold.Text | {{emote|*reeeeeps joyfully*}}\n\nYd shared together. rrk walk and feel safe and free as woodsmoke. Here, there through the corals. Under the pipes.\n\nGreat pond and reef air, eat starapple and drink, see pattern on the bright slugs. => {{emote|*欢快地 reeeeeps*}}\n\n伊德共同分享。呱 行走，感到安全又自由，像木烟一样。这里，那里，穿过珊瑚。在管道下方。\n\n大池塘和礁中空气，吃星苹果并饮水，看明亮蛞蝓身上的图案。
+[QudCnSupplement] STRING_REVIEW: Conversation Geeub.Query.Text | {{emote|*grrrk*}}\nWe ask, we answer.\n\nWe call, we respond. => {{emote|*grrrk*}}\n我们问，我们答。\n\n我们呼唤，我们回应。
+[QudCnSupplement] STRING_REVIEW: Conversation Geeub.Whomst.Text | Over time, Geeub. Good as any.\n\n{{emote|*roooak*}}\n\nNames, ehh. => 久而久之，吉厄布。和别的名字一样好。\n\n{{emote|*roooak*}}\n\n名字，呃。
+[QudCnSupplement] STRING_REVIEW: Conversation Geeub.Laughing.Text | Hoh hoh hoh hoh.\n\n{{emote|*grrrrrk*}}\n\nWe have fun. => 呵呵呵呵。\n\n{{emote|*grrrrrk*}}\n\n我们有乐趣。
+[QudCnSupplement] STRING_REVIEW: Conversation Geeub.Founder.Text | 'Founder' the query. 'Founder' is water-taking, no? To be breached and sink. How cruel the judgment.\n\n{{emote|*rrrrroak*}}\n\nHoh hoh. This voice japes -- we, witness to the birth of Yd. The query, no? => “创立者”是问题。“奠基者”也是进水，不是吗？被破开，然后沉没。多么残酷的判定。\n\n{{emote|*rrrrroak*}}\n\n呵呵。这个声音在玩笑——我们，见证了伊德的诞生。问题如此，不是吗？
+[QudCnSupplement] STRING_REVIEW: Conversation Krka.Start.Text | Live and =player.formalAddressTerm=!\n\n{{emote|*self-conscious rkkk*}}\n\nDr... drink and =player.formalAddressTerm=!\n\nKrka, me. Krka. => 生而 =player.formalAddressTerm=！\n\n{{emote|*不自在地 rkkk*}}\n\n饮……饮水而 =player.formalAddressTerm=！\n\n克尔卡，我。克尔卡。
+[QudCnSupplement] STRING_REVIEW: Conversation Krka.Krka.Text | {{emote|*gweep!*}}\n\nKrka, me! => {{emote|*gweep!*}}\n\n克尔卡，我！
+[QudCnSupplement] STRING_REVIEW: Conversation Krka.Apothecary2.Text | Krka poth!\n\n{{emote|*affirmative rrk!*}}\n\nEel woon a-banjage. Wikky wood, orsh room, jector! All sale, wants? => 克尔卡药罐！\n\n{{emote|*肯定地 rrk！*}}\n\n鳗伤要绷带。维基木，奥什菇，注射器！全卖，想要？
+[QudCnSupplement] STRING_REVIEW: Conversation Krka.Freehold2.Text | V-very good?\n\n{{emote|*deflates with a long reeeeeep.*}}\n\nKrka not very. Words. => 非、非常好？\n\n{{emote|*伴随长长一声 reeeeeep 泄了气。*}}\n\n克尔卡不太会。词。
+[QudCnSupplement] STRING_REVIEW: Conversation Krka.Freehold3.Text | {{emote|*krka!*}}\n\nYes! To like! But... never home else. So {{emote|*reep?*}}. => {{emote|*krka!*}}\n\n是！喜欢！但是……从没有别的家。所以 {{emote|*reep?*}}。
+[QudCnSupplement] STRING_REVIEW: Conversation DynamicVillageMayor.Welcome.Text | Welcome to the village of *villageName*, =spice.commonPhrases.adventurer.!random= => 欢迎来到 *villageName* 村，=spice.commonPhrases.adventurer.!random=
+[QudCnSupplement] STRING_REVIEW: Tutorial BattleRemains instruction (kbm) | Mouse over the battle axe and hover or press {{W|Alt}} to view the tooltip. => 把鼠标移到战斧上悬停，或按 {{W|Alt}} 查看工具提示。
+[QudCnSupplement] STRING_REVIEW: Tutorial MoveToChest instruction (kbm) | Looks like there's a chest over at the end of the room. Let's walk over to it.\n\nYou can click =commandKey:AdventureNavMouseLeftClick= the square you want to move to, or use the {{hotkey|arrow keys}} or {{hotkey|numpad.}}\n\nWith arrow keys, you can press {{hotkey|shift+arrow keys}} to move diagonally. => 房间尽头好像有个箱子。走过去吧。\n\n你可以用 =commandKey:AdventureNavMouseLeftClick= 点击想移动到的格子，或使用 {{hotkey|arrow keys}}、{{hotkey|numpad.}}。\n\n使用方向键时，可以按 {{hotkey|shift+arrow keys}} 斜向移动。
+[QudCnSupplement] STRING_REVIEW:  | current set [{{=widgetColor=|=currentLoadoutName=}}] | [{{hotkey|~CmdDelete}}] manage sets => 当前方案 [{{=widgetColor=|=currentLoadoutName=}}] | [{{hotkey|~CmdDelete}}] 管理方案
+[QudCnSupplement] STRING_REVIEW: ModManagerUI EnableMod Keyboard | {{W|[space]}} {{y|Enable mod}} => {{W|[space]}} {{y|启用模组}}
+[QudCnSupplement] STRING_REVIEW: ModManagerUI MissingDependency Keyboard | {{W|[space]}} {{y|View dependencies}} => {{W|[space]}} {{y|查看依赖}}
+[QudCnSupplement] STRING_REVIEW: ModManagerUI DisableMod Keyboard | {{W|[space]}} {{y|Disable mod}} => {{W|[space]}} {{y|禁用模组}}
+[QudCnSupplement] STRING_REVIEW: ModManagerUI RecompileMod Keyboard | {{W|[space]}} {{y|Recompile mod}} => {{W|[space]}} {{y|重新编译模组}}
+[QudCnSupplement] STRING_REVIEW: ModManagerUI SetBackButtonText Standard | {{W|[Esc]}} {{y|=text=}} => {{W|[Esc]}} {{y|=text=}}
+[QudCnSupplement] STRING_REVIEW: ModManagerUI Update PressButton | {{W|[space]}} {{y|Press Button}} => {{W|[space]}} {{y|按下按钮}}
+[QudCnSupplement] STRING_REVIEW: ModMenuLine HarmonyPatches | {{W|# HARMONY PATCHES}} => {{W|# Harmony 补丁}}
+[QudCnSupplement] STRING_REVIEW: ModToolkit menu item text | Write Mods.csproj File => 写入 Mods.csproj 文件
+[QudCnSupplement] STRING_REVIEW: GameMain save file corrupt | That save file appears to be corrupt, you can try to restore the backup in your save directory (=path=.sav.gz.bak) by removing the 'bak' file extension. => 这个存档似乎已损坏。你可以尝试移除存档目录中备份文件（=path=.sav.gz.bak）的“bak”扩展名来恢复它。
+[QudCnSupplement] STRING_REVIEW: GameMain fatal exception while saving | There was a fatal exception attempting to save your game. Caves of Qud attempted to recover your prior save. You probably want to close the game and reload your most recent save. It'd be helpful to send the save and logs to support@freeholdgames.com => 尝试保存游戏时发生致命异常。《库德洞窟》已尝试恢复你之前的存档。你最好关闭游戏并重新加载最近的存档。将存档和日志发送至 support@freeholdgames.com 会很有帮助。
+[QudCnSupplement] STRING_REVIEW: PsychicHunterSystem GlimmerDescription | =fragments.join:\n\n= => =fragments.join:\n\n=
+[QudCnSupplement] STRING_REVIEW: PickTarget Pick Line Top Bar Cant Start | {{K|[Space]/[5]}} Start =what= - =number= =number.pluralize:square= left - {{W|Escape}}-Cancel => {{K|[Space]/[5]}} 开始 =what= - 剩余 =number= 格 - {{W|Escape}}-取消
+[QudCnSupplement] STRING_REVIEW: PickTarget Pick Line Top Bar Can Start | {{W|[Space]/[5]}} Start =what= - =number|color:C= =number.pluralize:square= left - {{W|Escape}}-Cancel => {{W|[Space]/[5]}} 开始 =what= - 剩余 =number|color:C= 格 - {{W|Escape}}-取消
+[QudCnSupplement] STRING_REVIEW: PickTarget Pick Line Top Bar Started | {{W|[Space]/[5]}} End =what= - =number|color:C= =number.pluralize:square= left - {{W|Escape}}-Clear => {{W|[Space]/[5]}} 结束 =what= - 剩余 =number|color:C= 格 - {{W|Escape}}-清除
+[QudCnSupplement] STRING_REVIEW: Popup AskNumber ConsoleUI BottomLineNoFormatting | [↑↓→← adjust,Enter or space to confirm] => [↑↓→← 调整，Enter 或空格确认]
+[QudCnSupplement] STRING_REVIEW: Popup AskNumber ConsoleUI BottomLineWithFormatting | [{{W|↑↓→←}} adjust, {{W|Enter}} or space to confirm] => [{{W|↑↓→←}} 调整，{{W|Enter}} 或空格确认]
+[QudCnSupplement] STRING_REVIEW: Popup ConsoleUI AskString EnterToConfirm NoFormatting | [Enter to confirm] => [Enter 确认]
+[QudCnSupplement] STRING_REVIEW: Popup ConsoleUI AskString EnterToConfirm WithFormatting | [{{W|Enter}} to confirm] => [{{W|Enter}} 确认]
+[QudCnSupplement] STRING_REVIEW: Popup ConsoleUI ShowYesNoCancel NoFormatting | [Yes] [No] [ESC-Cancel] => [是] [否] [ESC-取消]
+[QudCnSupplement] STRING_REVIEW: Popup ConsoleUI ShowYesNoCancel WithFormatting | [{{W|Y}}es] [{{W|N}}o] [{{W|ESC}}-Cancel] => [{{W|是}}] [{{W|否}}] [{{W|ESC}}-取消]
+[QudCnSupplement] STRING_REVIEW: Popup DisplayLoadError DoYouWantToExamineErrors | Do you want to examine these errors in the Player.log? => 要在 Player.log 中查看这些错误吗？
+[QudCnSupplement] STRING_REVIEW: ModInfo ErrorList | =errors.join:\n= => =errors.join:\n=
+[QudCnSupplement] STRING_REVIEW: Faction Secret Description (pre-extra) | =fragments.join:\n\n= => =fragments.join:\n\n=
+[QudCnSupplement] STRING_REVIEW: FactionInterest (should never be used except mods, and river is untranslated) | locations along the River =@river|capitalize= => =@river|capitalize= 河沿岸的地点
+[QudCnSupplement] STRING_REVIEW: FactionInterest (should never be used except mods, and river is untranslated) | locations in the River =@river|capitalize='s duskwaters => =@river|capitalize= 河暮水中的地点
+[QudCnSupplement] STRING_REVIEW: FactionInterest (should never be used except mods, and tagList is untranslated) | the locations of other =@tagList.join: |pluralize= => 其他 =@tagList.join: |pluralize= 的位置
+[QudCnSupplement] STRING_REVIEW: FactionInterest (should never be used except mods, and tagList is untranslated) | the locations of =@tagList.join: |pluralize= => =@tagList.join: |pluralize= 的位置
+[QudCnSupplement] STRING_REVIEW: Inventory CommandEquipObject Error | Error dropping object, removing to graveyard zone! (Inventory.cs:CommandEquipObject) => 丢弃物体出错，正在移入墓地区域！（Inventory.cs:CommandEquipObject）
+[QudCnSupplement] STRING_REVIEW: Inventory CommandEquipObject Error | =subject.T=] Error dropping object, removing to graveyard zone! (Inventory.cs:CommandEquipObject) => =subject.T=] 丢弃物体出错，正在移入墓地区域！（Inventory.cs:CommandEquipObject）
+[QudCnSupplement] STRING_REVIEW: Campfire Preserve final message | You preserved:\n\n=items.join:.\n=. => 你保存了：\n\n=items.join:.\n=。
+[QudCnSupplement] STRING_REVIEW: CookingRecipe ApplyEffects Popup | You start to metabolize the meal, gaining the following effect for the rest of the day:\n\n{{W|=messages.join:\n=}} => 你开始代谢这顿饭，并在今天余下时间获得以下效果：\n\n{{W|=messages.join:\n=}}
+[QudCnSupplement] STRING_REVIEW: LocationFinder Location =locName= | =location.text|titleCaseWithArticle => =location.text|titleCaseWithArticle
+[QudCnSupplement] STRING_REVIEW: SultanRegion RegionName | =newName|title => =newName|title
+[QudCnSupplement] STRING_REVIEW: VillageTerrain ProperName | name|title => name|title
+[QudCnSupplement] STRING_REVIEW: keybind | {{W|Alt}} => {{W|Alt}}
+[QudCnSupplement] STRING_REVIEW: VillageBase generatePreacherBook book text | {{w|This book recounts a tale from the history of the village =villageName=.}}\n\n=stories.join:\n= => {{w|本书讲述了 =villageName= 村历史中的一个故事。}}\n\n=stories.join:\n=
+[CN-QA] runtime strings=10211/10211; mismatches=0
+[CN-QA] MessageQueue: 你用 你的 青铜匕首 击中(x2)，造成 3 伤害[7]
+[CN-QA] MessageQueue: &y你装备了 &W火把&y。
+[CN-QA] MessageQueue: 你经过了铁门。
+[CN-QA] MessageQueue: 道路被熟铁栅栏挡住了。
+[CN-QA] MessageQueue: 你拿取了皮甲。
+[CN-QA] MessageQueue: &r你用你的 &w青铜&r匕首攻击，但未命中！&y [2 对 5]
+[CN-QA] Chinese pluralize=打兰s
+[CN-QA] English guard=True
+[CN-QA] history=3/3; glass=玻璃; dice==spice:numbers.!random=面骰子; redirect=spice.friendOrFoe.default
+[CN-QA] history expansion=PASS; value=玻璃
+[CN-QA] template pronouns=4/4; CN=她; possessive=她的; raw=she; EN=she
+ERROR  - XRL.World.Text.CompositedTextBuilder leaked and was not disposed, enable Text Builder leak analyzation in Options->Mods to get stack traces.

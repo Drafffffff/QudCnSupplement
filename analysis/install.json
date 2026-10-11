@@ -1,12 +1,12 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "destination": "/home/bazzite/.config/unity3d/Freehold Games/CavesOfQud/Mods/QudCnSupplement",
-  "backup": "/home/bazzite/.config/unity3d/Freehold Games/CavesOfQud/cn-supplement-backups/20261011-212706",
+  "backup": "/home/bazzite/.config/unity3d/Freehold Games/CavesOfQud/cn-supplement-backups/20261011-215052",
   "original_options_existed": true,
   "previous_allow_scripts": null,
   "files": {
-    "QudCnSupplement.cs": "4440f217c0c658ba3a8fa185a0e0cd6db9f0b1de0e491142a9fd7b9e0cebce28",
-    "QudCnSupplementData.cs": "fc846a3ecde2834940e680ecee09830db2e887d0635f375709455de3a8a129fb",
+    "QudCnSupplement.cs": "893000064aa54df41b8f260b7941c805eddc53e9918fb0f40c0c261e72693654",
+    "QudCnSupplementData.cs": "2f7fb73409530a5a5da94301bd340fd194b9a1f7f04566c09cb0cd98f721c1ed",
     "historyspice.CN.json": "84829bfcefe854df3fbf72da8d5608a537e67d02f91311264ff19b4a54c305ce",
     "languages/lang-CN/Books.supplement.CN.xml": "c7fba797f9ff3ea31820bcdb24cebb1194b3388eb1007b42e57499eb0ea1f94b",
     "languages/lang-CN/ChiliadFactions.supplement.CN.xml": "88d16f4845be30b0cff82a50145e02a3b95b0855e0caa3f65204dc221912121b",
@@ -36,6 +36,6 @@
     "languages/lang-CN/WorldTerrain.supplement.CN.xml": "5e48467e6882a888d0a0ef778978a27979f2607d8f65c056f67853d3742248a0",
     "languages/lang-CN/Worlds.supplement.CN.xml": "e68a1bc076c3c018bfb648e15b8b3077889bd6714c0ed148505ee94343f2245b",
     "languages/lang-CN/ZoneTerrain.supplement.CN.xml": "e3fff94af575b64797db5567a852dc196b0d578826d97466bc48dfe1e3dc4f13",
-    "manifest.json": "fc799fada6d056daa0ad3ab52fa11431005085979537be8603341be3967f8485"
+    "manifest.json": "60608fe4c272c40808b7f997ef70c792bd15923c15881507650f5505a49aa63b"
   }
 }

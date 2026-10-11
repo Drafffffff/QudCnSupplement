@@ -1,6 +1,6 @@
 # Caves of Qud 简体中文补充 Mod
 
-针对 Bazzite 上的 **2.0.212.31 / lang-experimental**，依赖创意工坊简中补丁 **3746335636 / QudSimplifiedChinese**。本项目是独立本地 Mod，不覆盖创意工坊文件；加载顺序为原简中包 → QudCnSupplement。
+当前补充包版本 **0.1.1**。针对 Bazzite 上的 **2.0.212.31 / lang-experimental**，依赖创意工坊简中补丁 **3746335636 / QudSimplifiedChinese**。本项目是独立本地 Mod，不覆盖创意工坊文件；加载顺序为原简中包 → QudCnSupplement。
 
 ## 覆盖范围与限制
 
@@ -52,3 +52,7 @@ python3 -m venv .venv
 ## 来源
 
 简中：Mao Shengzi 的 QudSimplifiedChinese。繁中与动态翻译参考：AosakiReiya（见 THIRD_PARTY_NOTICES.md）。部分译文由繁中转简体，再结合当前版本修订。原游戏资源属于 Freehold Games。本地补充不表示获得上游再许可，未上传或发布创意工坊。
+
+## 0.1.1 动态语法修复
+
+针对实机发现的冠词、拿取和未命中混合文本，修复短词筛选和颜色框外骰点后缀；在模板渲染专用的代词函数上区分主格、宾格、所有格及反身代词，不改游戏对象的代词数据或姓名。见 `data/DYNAMIC_GRAMMAR.md`。历史消息已存下的文本不追溯重写，新消息使用新规则。

@@ -58,7 +58,7 @@ else:
 def main():
  p=argparse.ArgumentParser();p.add_argument('--host',default='bazzite');p.add_argument('--uninstall',action='store_true');args=p.parse_args()
  files={str(p.relative_to(ROOT/'mod')):p.read_bytes() for p in sorted((ROOT/'mod').rglob('*')) if p.is_file()}
- payload={'action':'uninstall' if args.uninstall else 'install','version':'0.1.0','target':json.loads((ROOT/'data/build-target.json').read_text()),'hashes':{n:hashlib.sha256(b).hexdigest() for n,b in files.items()},'data':{n:base64.b64encode(b).decode() for n,b in files.items()}}
+ payload={'action':'uninstall' if args.uninstall else 'install','version':json.loads((ROOT/'mod/manifest.json').read_text())['Version'],'target':json.loads((ROOT/'data/build-target.json').read_text()),'hashes':{n:hashlib.sha256(b).hexdigest() for n,b in files.items()},'data':{n:base64.b64encode(b).decode() for n,b in files.items()}}
  code='payload='+repr(payload)+'\n'+REMOTE
  r=subprocess.run(['ssh',args.host,'python3','-'],input=code,text=True,capture_output=True)
  if r.returncode:raise SystemExit(r.stdout+r.stderr)

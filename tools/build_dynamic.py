@@ -33,6 +33,11 @@ for k,v in sorted(phrases.items()):
 lines.extend(['};','public static readonly Tuple<Regex,string>[] Patterns = new Tuple<Regex,string>[] {'])
 # Known mixed-language screenshot structures must run before more general patterns.
 extra = [
+(r'^你\s+take\s+(?:the |a |an )?(.+?)[。.]$', '你拿取了$1。'),
+(r'^你\s+miss\s+使用\s+(.+?)\s+未命中[！!。.]?$', '你用$1攻击，但未命中！'),
+# Already-localized physics messages still receive English object articles at runtime.
+(r'^你经过了\s+(?:the |a |an )?(.+?)[。.]$', '你经过了$1。'),
+(r'^道路被\s+(?:the |a |an )?(.+?)\s+挡住了[。.]$', '道路被$1挡住了。'),
 (r'^(?:The )?(.+?) misses 使用 (?:his |her |its |their )?(.+?) 未命中你[.!]?(?: ?(\[[^\]]*\]))?$', '$1用$2攻击你，但未命中！$3'),
 (r'^你将 (?:the |a |an )?(.+?) 识别为 (?:the |a |an )?(.+?)[.!。]?$', '你将$1识别为$2。'),
 (r'^(?:You|你) identify (?:the |a |an )?(.+?) as (?:the |a |an )?(.+?)[.!]?$', '你将$1识别为$2。'),

@@ -18,6 +18,7 @@ public static class QudCnSupplement
     private static readonly Regex English = new Regex(@"[A-Za-z]{3,}");
     private static readonly Regex Article = new Regex(@"\b(?:the|a|an)\s+(?=(?:\{\{[^{}|]+\|)*[\u3400-\u9fff])", RegexOptions.IgnoreCase);
     private static readonly Regex Pronoun = new Regex(@"\b(his|her|its|their|your)\s+(?=(?:\{\{[^{}|]+\|)*[\u3400-\u9fff])", RegexOptions.IgnoreCase);
+    private static readonly Regex OuterWithSuffix = new Regex(@"^\{\{([^{}|]+)\|(.*)\}\}(\s*\[[^\]]*\])$", RegexOptions.Singleline);
     private static readonly Regex Outer = new Regex(@"^\{\{([^{}|]+)\|(.*)\}\}$", RegexOptions.Singleline);
 
     // Evaluate on every invocation: changing language takes effect without restarting.
@@ -51,6 +52,11 @@ public static class QudCnSupplement
         count += Patch(harmony, "TMPro.TMP_Text", delegate(MethodInfo m) {
             return m.Name == "set_text";
         }, "DisplayPrefix", null);
+        // These delegates generate pronouns for rendered templates, not object names or saved data.
+        count += Patch(harmony, "XRL.World.Text.Delegates.GameObjectReplacers", delegate(MethodInfo m) {
+            return m.ReturnType == typeof(string) && (m.Name == "Subjective" || m.Name == "Objective" ||
+                m.Name == "Possessive" || m.Name == "SubstantivePossessive" || m.Name == "Reflexive");
+        }, null, "TemplatePronounPostfix");
         // Effect labels are translated at their semantic source. Character and place names
         // never pass through this hook, unlike global display-name word substitutions.
         foreach (var type in typeof(XRL.World.Effect).Assembly.GetTypes())
@@ -85,6 +91,38 @@ public static class QudCnSupplement
         }
         if (count == 0) Diagnostic("HOOK_MISSING", typeName + " (no matching methods)");
         return count;
+    }
+
+    public static void TemplatePronounPostfix(MethodBase __originalMethod, ref string __result)
+    {
+        if (!IsChinese || string.IsNullOrEmpty(__result)) return;
+        __result = TranslateTemplatePronoun(__originalMethod.Name, __result);
+    }
+    public static string TranslateTemplatePronoun(string operation, string value)
+    {
+        if (value == null) return value;
+        bool possessive = operation == "Possessive" || operation == "SubstantivePossessive";
+        string result;
+        switch (value.ToLowerInvariant())
+        {
+            case "she": case "her": case "hers": result = "她"; break;
+            case "he": case "him": case "his": result = "他"; break;
+            case "it": case "its": result = "它"; break;
+            case "they": case "them": case "their": case "theirs": result = "他们"; break;
+            case "you": case "your": case "yours": result = "你"; break;
+            case "i": case "me": case "my": case "mine": result = "我"; break;
+            case "we": case "us": case "our": case "ours": result = "我们"; break;
+            case "herself": return "她自己";
+            case "himself": return "他自己";
+            case "itself": return "它自己";
+            case "themselves": case "themself": return "他们自己";
+            case "yourself": return "你自己";
+            case "yourselves": return "你们自己";
+            case "myself": return "我自己";
+            case "ourselves": return "我们自己";
+            default: return value; // Preserve custom pronouns, names and unrecognized forms.
+        }
+        return possessive ? result + "的" : result;
     }
 
     public static void EffectPostfix(ref string __result)
@@ -177,7 +215,16 @@ public static class QudCnSupplement
         if (text.IndexOf('=') >= 0 && Regex.IsMatch(text, @"=[A-Za-z][^=\r\n]*=")) return text;
         string exact = TranslateExact(text);
         if (exact != text) return exact;
-        if (!English.IsMatch(text)) return text;
+        // A lone a/an in a localized sentence is meaningful even without a long Latin word.
+        if (!English.IsMatch(text) && !Article.IsMatch(text)) return text;
+        // Combat wraps the sentence in a color span and appends dice outside the span.
+        var frame = OuterWithSuffix.Match(text);
+        if (frame.Success)
+        {
+            string inner = TranslateMessage(frame.Groups[2].Value, depth + 1);
+            if (inner != frame.Groups[2].Value)
+                return "{{" + frame.Groups[1].Value + "|" + inner + "}}" + frame.Groups[3].Value;
+        }
         var outer = Outer.Match(text);
         string body = outer.Success ? outer.Groups[2].Value : text;
         if (outer.Success && body.StartsWith("{{", StringComparison.Ordinal))
@@ -205,7 +252,27 @@ public static class QudCnSupplement
 
     private static void SelfTest()
     {
+        int pronounsPassed = 0;
+        string[][] pronouns = {
+            new string[] { "Subjective", "she", "她" },
+            new string[] { "Objective", "her", "她" },
+            new string[] { "Possessive", "her", "她的" },
+            new string[] { "SubstantivePossessive", "hers", "她的" },
+            new string[] { "Reflexive", "herself", "她自己" },
+            new string[] { "Subjective", "She", "她" },
+            new string[] { "Subjective", "Will", "Will" },
+            new string[] { "Subjective", "xe", "xe" }
+        };
+        foreach (var item in pronouns) if (TranslateTemplatePronoun(item[0], item[1]) == item[2]) pronounsPassed++;
+        UnityEngine.Debug.Log("[QudCnSupplement] pronouns=" + pronounsPassed + "/" + pronouns.Length);
         string[][] cases = new string[][] {
+            new string[] { "你 take the 皮甲。", "你拿取了皮甲。" },
+            new string[] { "{{r|你 miss 使用 你的 {{w|青铜}}匕首 未命中！}} [2 对 5]", "{{r|你用你的 {{w|青铜}}匕首攻击，但未命中！}} [2 对 5]" },
+            new string[] { "你经过了 a 铁门。", "你经过了铁门。" },
+            new string[] { "道路被 a 熟铁栅栏 挡住了。", "道路被熟铁栅栏挡住了。" },
+            new string[] { "你经过了 {{W|a 铁门}}。", "你经过了{{W|铁门}}。" },
+            new string[] { "道路被 an {{W|铁门}} 挡住了。", "道路被{{W|铁门}}挡住了。" },
+            new string[] { "a 铁门", "a 铁门" },
             new string[] { "你 equip the 火把", "你装备了火把。" },
             new string[] { "You hit (x2) for 3 damage with 你的 青铜匕首! [7]", "你用 你的 青铜匕首 击中(x2)，造成 3 伤害[7]" },
             new string[] { "The 熊 misses 使用 his 撕咬 未命中你! [2 对 7]", "熊用撕咬攻击你，但未命中！[2 对 7]" },
@@ -272,7 +339,7 @@ public static class QudCnSupplement
         visible = Regex.Replace(visible, @"(?:https?://|[A-Za-z]:[\\/]|/)[^\s<>]+", "");
         visible = Regex.Replace(visible, @"\b(?:AV|DV|MA|PV|XP|HP|SP|MP|FPS|CPU|GPU|UI|ID|CN|TRUE|FALSE|NULL)\b", "");
         visible = Regex.Replace(visible, @"\b[xX]\d+\b", "");
-        return English.IsMatch(visible);
+        return English.IsMatch(visible) || Article.IsMatch(visible);
     }
 
     // At most 256 unique lines per process, at most 1200 characters each. Review candidates
