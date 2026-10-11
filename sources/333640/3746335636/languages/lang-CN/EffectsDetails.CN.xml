@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud - Generated Localizable XML 2.0.212.26
+
+<templates>
+
+  <template ID="Key">
+
+  <statDefaultUnit Name="Key" Unit="DisplayText">
+
+-->
+<templates Lang="CN" Encoding="utf-8">
+  <template ID="Effect.AdrenalControl2Boosted.Details">
+        <p>+<stat Name="QuicknessBonus" /> 迅捷</p>
+        <p>物理突变 +<stat Name="MutationBonus" Unit="阶" /></p>
+    </template>
+  <template ID="Effect.AnemoneEffect.Details">
+        <switch Name="DamageBonus">
+            <case Value="0" />
+            <default><p>每回合额外造成 <stat Name="DamageBonus" /> 流血伤害。</p></default>
+        </switch>
+        <saveline Name="BleedingSave" HideValue="0" />
+    </template>
+  <template ID="Effect.AshPoison.Details">
+        <p>每回合 <stat Name="Damage" /> 伤害。</p>
+    </template>
+  <template ID="Effect.Asleep.Details">
+        <switch Name="UsesSleepMode">
+            <case Value="true"><p>处于节能模式。</p></case>
+            <default><p>失去意识。</p></default>
+        </switch>
+        <p>-12 DV.</p>
+        <p>攻击者的穿透掷骰 +4。</p>
+        <switch Name="UsesSleepMode">
+            <case Value="true"><p>受到伤害后会以眩晕状态恢复正常运作。</p></case>
+            <default><p>受到伤害后会以眩晕状态醒来。</p></default>
+        </switch>
+    </template>
+  <template ID="Effect.AxonsDeflated.Details">
+        <p><stat Name="QuicknessPenalty" Filters="signed" /> 迅捷</p>
+    </template>
+  <template ID="Effect.AxonsInflated.Details">
+        <p><stat Name="QuicknessBonus" Filters="signed" /> 迅捷</p>
+        <p>很快会变得迟缓。</p>
+    </template>
+  <template ID="Effect.BasiliskPoison.Details">
+        <p>每回合 -1d6 移动速度，持续 14-18 回合。</p>
+        <p>[总计：<stat Name="MovementDebuff" Filters="signed" /> 移动速度]</p>
+    </template>
+  <template ID="Effect.Beguiled.Details">
+        <p>被另一生物魅惑而跟随对方。</p>
+        <switch Name="HitpointBonus">
+            <case Value="0" />
+            <default><p><stat Name="HitpointBonus" Filters="signed" /> 生命值。</p></default>
+        </switch>
+    </template>
+  <template ID="Effect.Berserk.Details">
+        <p>使用斧类时 100% 几率肢解。</p>
+    </template>
+  <template ID="Effect.Blaze_Tonic.Details">
+        <p>+100 热抗性</p>
+        <p>不会被冻结。</p>
+        <p>造成的热伤害 +25%。</p>
+        <p>-50 冷抗性</p>
+        <switch Name="IsTrueKin">
+            <case Value="true"><p>+20 迅捷</p></case>
+            <default><p>+10 迅捷</p></default>
+        </switch>
+        <p>温度不会被外部热源提高。</p>
+        <p>必须四处移动，否则会燃烧并失去这剂药剂的效果。</p>
+    </template>
+  <template ID="Effect.Blind.Details">
+        <p>看不见。</p>
+    </template>
+  <template ID="Effect.BlinkingTicSickness.Details">
+        <p>战斗中每轮都有小几率随机传送到附近位置。</p>
+    </template>
+  <template ID="Effect.BoostStatistic.Details">
+        <p><stat Name="Bonus" Filters="signed" /> <gametext>=stat.title=</gametext></p>
+    </template>
+  <template ID="Effect.BoostedImmunity.Details">
+        <saveline Name="DiseaseOnsetSave" Type="Disease Onset" />
+    </template>
+  <template ID="Effect.Broken.Details">
+        <p>不能装备或使用。</p>
+    </template>
+  <template ID="Effect.Budding.Details">
+        <p>很快会生成一个克隆体。</p>
+    </template>
+  <template ID="Effect.Burning.Details">
+        <p>每回合 <stat Name="BurningDamage" /> 伤害。</p>
+    </template>
+  <template ID="Effect.Burrowed.Details">
+        <p>正在地下移动。</p>
+    </template>
+  <template ID="Effect.Disguised.Details">
+        <switch Name="Appearance">
+            <case Value=""><p>具有另一种生物的外观。</p></case>
+            <default><p>具有 <stat Name="Appearance" /> 的外观。</p></default>
+        </switch>
+    </template>
+  <template ID="Effect.Inspired.Details">
+        <p>下次你通过选择食材烹饪餐食时，可以从三个动态生成的效果中选择一个应用。你会为所选效果创造一份食谱。</p>
+    </template>
+  <template ID="Effect.Lovesick.Details">
+        <p>-6 智力</p>
+        <p>-6 意志力</p>
+        <p>-5 移动速度</p>
+    </template>
+  <template ID="Effect.MemberOfPsychicBattle.Details">
+        <p>正在与一名敌人进行灵能战斗。（剩余 <stat Name="Turns" Unit="回合" />）</p>
+        <switch Name="BloodyNose"><case Value="true"><p>正在流鼻血。</p></case></switch>
+    </template>
+  <template ID="Effect.Metamorphed.Details">
+        <p>正在呈现另一种生物的形态。</p>
+    </template>
+  <template ID="Effect.Phased.Details">
+        <p>只能与同样处于相位状态的生物和物体发生物理互动。</p>
+        <p>可以穿过固体。</p>
+    </template>
+  <template ID="Effect.Rebuked.Details">
+        <p>被另一生物斥责而服从。</p>
+    </template>
+  <template ID="Effect.WakingDream.Details">
+        <p>以这个生物的身份提升一级，即可愉快醒来。</p>
+        <p>死亡或放弃角色，则会不安地醒来。</p>
+    </template>
+</templates>

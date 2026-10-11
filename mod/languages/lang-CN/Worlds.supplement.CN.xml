@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='utf-8'?>
+<worlds Lang="CN" Encoding="utf-8">
+  <world Name="Tzimtzlum" Load="Merge" DisplayName="齐姆楚姆" />
+  <world Name="Interior" Load="Merge">
+    <cell Name="ShevaStarship" Load="Merge">
+      <zone Level="10" x="1" y="1" Load="Merge" ProperName="真理" />
+    </cell>
+    <cell Name="ShevaStarCarousel" Load="Merge">
+      <zone Level="10" x="1" y="1" Load="Merge" ProperName="真理" />
+    </cell>
+  </world>
+  <world Name="JoppaWorld" Load="Merge" DisplayName="卡德(库德)">
+    <cell Name="DefaultJoppaCell" Load="Merge">
+      <zone Level="0-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+    <cell Name="WaterCell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+    <cell Name="LakeHinnomCell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+    <cell Name="PalladiumReefCell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+    <cell Name="YdFreeholdCell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="伊德 自由领上方的天空" IndefiniteArticle="" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" NameContext="伊德 自由领" IndefiniteArticle="一些" />
+      <zone Level="10" x="1" y="1" Load="Merge" ProperName="真理" Name="伊德 自由领" IndefiniteArticle="" />
+      <zone Level="11" x="1" y="1" Load="Merge" ProperName="真理" Name="伊德 自由领" />
+    </cell>
+    <cell Name="MoonStairCell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+    <cell Name="EynRojCell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="恩罗伊 上方的天空" IndefiniteArticle="" />
+      <zone Level="10" x="1" y="1" Load="Merge" ProperName="真理" Name="恩罗杰" />
+      <zone Level="11-15" x="1" y="1" Load="Merge" ProperName="否" />
+      <zone Level="16-40" x="1" y="1" Load="Merge" ProperName="否" />
+      <zone Level="41-48" x="1" y="1" Load="Merge" ProperName="否" />
+      <zone Level="49" x="1" y="1" Load="Merge" ProperName="否" />
+    </cell>
+    <cell Name="FlowerfieldCell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+    <cell Name="WatervineCell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+    <cell Name="SaltMarsh" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+    <cell Name="Jungle" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+    <cell Name="DeepJungle" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+    <cell Name="Fungal" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" ProperName="真理" IndefiniteArticle="" />
+    </cell>
+    <cell Name="Fungal Outskirts" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" ProperName="真理" IndefiniteArticle="" />
+    </cell>
+    <cell Name="DesertCanyon" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+    <cell Name="Hills" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+    <cell Name="Mountains" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+    <cell Name="SaltDesertCell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+    <cell Name="SixDayStilt" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+      <zone Level="10" x="1" y="1" Load="Merge" ProperName="真理" />
+    </cell>
+    <cell Name="Kyakukya" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" Name="基亚库亚 上方的天空" IndefiniteArticle="" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" NameContext="克亚库克亚" IndefiniteArticle="一些" />
+      <zone Level="10" x="1" y="1" Load="Merge" ProperName="真理" Name="克亚库克亚" />
+    </cell>
+    <cell Name="Joppa" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="一些" />
+      <zone Level="10" x="1" y="1" Load="Merge" ProperName="真理" />
+    </cell>
+    <cell Name="JoppaRuins" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="一些" />
+      <zone Level="10" x="1" y="1" Load="Merge" ProperName="真理" />
+    </cell>
+    <cell Name="Rustwell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+    <cell Name="Gritgate" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="一些" />
+      <zone Level="13" x="2" y="0" Load="Merge" ProperName="真理" />
+      <zone Level="13" x="1" y="0" Load="Merge" ProperName="真理" />
+      <zone Level="14" x="1" y="0" Load="Merge" ProperName="真理" />
+    </cell>
+    <cell Name="Golgotha" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+      <zone Level="15" x="1" y="1" Load="Merge" ProperName="真理" />
+    </cell>
+    <cell Name="rusted archway" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+    <cell Name="Asphalt Mines" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+      <zone Level="23-27" x="0-2" y="0-2" Load="Merge" ProperName="真理" />
+      <zone Level="28" x="0-2" y="0-2" Load="Merge" ProperName="真理" />
+      <zone Level="29" x="0-2" y="0-2" Load="Merge" ProperName="真理" />
+      <zone Level="30-35" x="0-2" y="0-2" Load="Merge" ProperName="真理" />
+      <zone Level="36-40" x="0-2" y="0-2" Load="Merge" ProperName="真理" />
+      <zone Level="40" x="1" y="1" Load="Merge" ProperName="真理" />
+    </cell>
+    <cell Name="Bethesda Susa" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="一些" />
+      <zone Level="10" x="1" y="1" Load="Merge" ProperName="真理" />
+      <zone Level="24" x="1" y="1" Load="Merge" ProperName="真理" />
+      <zone Level="25" x="1" y="1" Load="Merge" ProperName="真理" />
+      <zone Level="26" x="1" y="1" Load="Merge" ProperName="真理" />
+    </cell>
+    <cell Name="BananaGrove" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+    <cell Name="TheSpindle" Load="Merge">
+      <zone Level="0-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+      <zone Level="8" x="1" y="1" Load="Merge" IndefiniteArticle="" />
+      <zone Level="7" x="1" y="1" Load="Merge" IndefiniteArticle="" />
+      <zone Level="0-14" x="1" y="1" Load="Merge" IndefiniteArticle="" />
+      <zone Level="14" x="1" y="1" Load="Merge" IndefiniteArticle="" />
+      <zone Level="0-5" x="1" y="2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+    <cell Name="Omonporch" Load="Merge">
+      <zone Level="6-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+      <zone Level="0-5" x="1" y="0" Load="Merge" IndefiniteArticle="" />
+      <zone Level="10" x="0" y="0" Load="Merge" ProperName="真理" Name="以斯拉" />
+    </cell>
+    <cell Name="Redrock" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+      <zone Level="10" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="一些" />
+      <zone Level="10" x="1" y="1" Load="Merge" ProperName="真理" />
+    </cell>
+    <cell Name="RuinsCell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+    <cell Name="BaroqueRuinsCell" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+    <cell Name="JoppaTutorialArea" Load="Merge">
+      <zone Level="5-9" x="0-2" y="0-2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+  </world>
+  <world Name="NorthSheva" Load="Merge">
+    <cell Name="EarthGateCell" Load="Merge">
+      <zone Level="10" x="1" y="0" Load="Merge" IndefiniteArticle="" />
+      <zone Level="10" x="1" y="1" Load="Merge" IndefiniteArticle="" />
+      <zone Level="10" x="1" y="2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+    <cell Name="TifaretCell" Load="Merge">
+      <zone Level="8" x="2" y="2" Load="Merge" Name="提法雷特 之点" />
+    </cell>
+    <cell Name="ArkStopCell" Load="Merge">
+      <zone Level="10" x="1" y="0" Load="Merge" IndefiniteArticle="" />
+      <zone Level="10" x="0" y="0" Load="Merge" IndefiniteArticle="" />
+    </cell>
+    <cell Name="ArkSiachCell" Load="Merge">
+      <zone Level="10" x="1" y="2" Load="Merge" Name="大 西亚赫" />
+      <zone Level="10" x="2" y="2" Load="Merge" IndefiniteArticle="" />
+    </cell>
+  </world>
+</worlds>

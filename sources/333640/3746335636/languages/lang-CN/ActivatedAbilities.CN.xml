@@ -1,0 +1,1490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud - Generated Localizable XML 2.0.212.26
+
+<activatedabilities>
+
+  <ability Command="Key">
+
+    <description>
+
+-->
+<activatedabilities Lang="CN" Encoding="utf-8">
+  <ability Command="CommandAmputateLimb">
+    <description>你截断自己的一条肢体，或一名感染同伴的一条肢体。</description>
+  </ability>
+  <ability Command="CommandFlyToggle">
+    <description>
+              <p>你越过地面地形，且不会被地面生物近战攻击。</p>
+              <br />
+              <p>每轮有 <stat Name="CrashChance" />% 几率坠落到地面。</p>
+              <br />
+              <p>你只能在地表上方飞行。</p>
+          </description>
+  </ability>
+  <ability Command="CommandSwoopAttack">
+    <description>
+              <p>你俯冲攻击地面目标，花费一回合攻击，再花费一回合返回空中。</p>
+              <br />
+              <p>有 <stat Name="SwoopCrashChance" />% 几率坠落到地面（如果你的攻击被盾牌格挡，则几率翻倍）。</p>
+          </description>
+  </ability>
+  <ability Command="CommandEndBurrowing">
+    <description>你从地洞中钻出。</description>
+  </ability>
+  <ability Command="CommandEndDomination">
+    <description>你停止支配这个生物。</description>
+  </ability>
+  <ability Command="ShadeOilPhase">
+    <description>
+              <p>你可以在短时间内穿过固体物体。</p>
+              <br />
+              <statline Name="Duration" DisplayName="持续时间" />
+          </description>
+  </ability>
+  <ability Command="CommandEndSubmerged">
+    <description>你从藏身处现身。</description>
+  </ability>
+  <ability Command="ActivateFabricateFromSelf">
+    <description>
+              <switch Name="BatchSize">
+                  <case Value="1"><p><gametext>你从 =fabricateSource= =fabricateVerb= =sample.a.name:single:asIfKnown=。</gametext></p></case>
+                  <default><p><gametext>你从 =fabricateSource= =fabricateVerb= =sample.name:single:asIfKnown|pluralize=。</gametext></p></default>
+              </switch>
+              <br />
+              <statline Name="BatchSize" DisplayName="批量大小" />
+              <statline Name="HitpointsPer" DisplayName="每批生命值" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandPlaceMine">
+    <description>
+              <p>你放置 <stat Name="MineAn" /> <stat Name="MineDisplayName" /> 地雷。</p>
+              <br />
+              <statline Name="MineTimer" DisplayName="计时器" Unit="轮" HideValue="-1" />
+              <statline Name="Cooldown" Unit="轮" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandRunOver">
+    <description>
+              <p>你沿直线冲锋，撞倒路径上的生物。</p>
+              <br />
+              <statline Name="Damage" DisplayName="伤害" />
+              <statline Name="Range" DisplayName="范围" />
+              <statline Name="Knockdown" DisplayName="击倒豁免" />
+              <statline Name="Daze" DisplayName="恍惚豁免" />
+          </description>
+  </ability>
+  <ability Command="CommandClone">
+    <description>你克隆一个有机生物。</description>
+  </ability>
+  <ability Command="CommandTinkerTurret">
+    <description>
+              <p>你在相邻格修造 <stat Name="An" /> <stat Name="TurretName" />。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandEngulf">
+    <description>你吞没一个相邻生物，将其活活消化，并可能获得更多。</description>
+  </ability>
+  <ability Command="CommandToggleAnchorSpikes">
+    <description>物理手段不能强制移动你。</description>
+  </ability>
+  <ability Command="CommandToggleAnomalyFumigator">
+    <description>你每回合释放常态气体云。</description>
+  </ability>
+  <ability Command="CommandCathedraBlackOpal">
+    <description>
+              <p>你撕裂时空，传送到 Qud 的随机位置。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandCathedraRuby">
+    <description>
+              <p>你在自己周围生成热能致动场，造成伤害并点燃事物，持续 3 轮。</p>
+              <br />
+              <statline Name="Area" DisplayName="区域" />
+              <statline Name="DamageRound1" DisplayName="第 1 轮伤害" />
+              <statline Name="DamageRound2" DisplayName="第 2 轮伤害" />
+              <statline Name="DamageRound3" DisplayName="第 3 轮伤害" />
+              <statline Name="Cooldown" Unit="轮" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandCathedraSapphire">
+    <description>
+              <p>你在自己周围唤起震荡力。生物会被从爆炸中心推开、震慑，并受到最多 3 段粉碎伤害。</p>
+              <br />
+              <statline Name="Area" DisplayName="区域" />
+              <statline Name="DamageIncrement" DisplayName="伤害段数" />
+              <statline Name="Cooldown" Unit="轮" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandCathedraWhiteOpal">
+    <description>
+              <p>你在自己周围释放一阵闪粉。</p>
+              <br />
+              <statline Name="Duration" Unit="回合" DisplayName="持续时间" />
+              <statline Name="Cooldown" Unit="轮" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandToggleFireSuppressionSystem">
+    <description>当你着火时，每轮自动释放阻燃凝胶。</description>
+  </ability>
+  <ability Command="CommandRecomposite">
+    <description>
+              <p>你传送到地图上任意已探索格。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandInflateAxons">
+    <description>
+              <p>你获得 +<stat Name="QuicknessBonus" /> 迅捷，持续 <stat Name="QuicknessDuration" /> 轮，随后迟缓 10 轮。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandEmergencyRecomposite">
+    <description>
+              <p>你传送到地图上一处随机已探索格。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandToggleMedassistModule">
+    <description>
+              <p>在合适时机自动使用最多 8 支已装载注射器。</p>
+              <br />
+              <statline Name="Loadout" DisplayName="装载配置" />
+          </description>
+  </ability>
+  <ability Command="CommandToggleCyberNightVision">
+    <description>你能在黑暗中视物。</description>
+  </ability>
+  <ability Command="CommandToggleNocturnalApex">
+    <description>
+              <p>获得 +<stat Name="AgilityBonus" /> 敏捷和 +<stat Name="MovespeedBonus" /> 移动速度，持续 <stat Name="Duration" /> 轮。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandActivateOnboardRecoilerImprinting">
+    <description>
+              <p>为内置回弹器灌印一个可回弹返回的位置。</p>
+              <br />
+              <statline Name="Location" DisplayName="当前位置" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandActivateOnboardRecoilerTeleporter">
+    <description>
+              <p>你传送回已编程位置。</p>
+              <br />
+              <statline Name="Location" DisplayName="当前位置" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandTogglePenetratingRadar">
+    <description>
+              <p>你获得自己周围 <stat Name="Radius" /> 半径内的完全视野，只会被力场和时空异常阻挡。</p>
+              <br />
+          </description>
+  </ability>
+  <ability Command="CommandTogglePhaseHarmonicModulator">
+    <description>你可以与同相和异相物体及生物互动。</description>
+  </ability>
+  <ability Command="AlterHolographicVisage">
+    <description>你改变自己的容貌，并获得所选派系 +200 声望。</description>
+  </ability>
+  <ability Command="CommandStasisEntangler">
+    <description>
+              <p>你选择视线内一个生物。所有其他生物都会被置入停滞场，持续 <stat Name="Duration" />。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandTogglePhaseAdaptiveScope">
+    <description>当你发射远程武器或投掷物品时，你的弹射物会相位偏移，穿过障碍并抵达目标。</description>
+  </ability>
+  <ability Command="CommandFabricateForceKnife">
+    <description>你制造一把力场刀，造成 1d8 伤害，穿透值等于目标护甲值，并拥有 +6 投掷范围。</description>
+  </ability>
+  <ability Command="ProjectStasisField">
+    <description>
+              <p>创造最多 <stat Name="Coverage" /> 格停滞场，持续 <stat Name="Duration" />。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandActivateTetheredRecoilerTeleporter">
+    <description>
+              <p>你传送到锚定位置。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+              <statline Name="Destination" DisplayName="目的地" />
+              <statline Name="TetherStatus" DisplayName="锚定状态" />
+          </description>
+  </ability>
+  <ability Command="ActivateAjiConch">
+    <description>
+              <p>你吹响海螺，产生一片锥形随机气体。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandRecoil">
+    <description>你传送回已编程位置。</description>
+  </ability>
+  <ability Command="ToggleHologramEmitter">
+    <description>
+              <p>你生成 <gametext>=maxDecoys.a.or.x.things:holographic decoy=</gametext> 自己的全息诱饵。</p>
+              <br />
+              <p>诱饵会镜像你的移动，并吸引仇恨。</p>
+              <statline Name="Range" DisplayName="范围" />
+              <p>每轮消耗 <stat Name="ChargeDraw" /> 电荷。</p>
+          </description>
+  </ability>
+  <ability Command="ToggleForceEmitter">
+    <description>
+              <p>你在自己周围生成力场。</p>
+              <br />
+              <p>创造以你为中心的 3x3 力场。</p>
+              <p>你可以穿过力场发射远程武器。</p>
+              <p>每轮电荷消耗较高。</p>
+          </description>
+  </ability>
+  <ability Command="CommandQuickenMind">
+    <description>
+              <p>你被创造性能量加速。</p>
+              <br />
+              <switch Name="AbilityAmount">
+                  <case Value="1"><p>刷新一个随机冷却。</p></case>
+                  <default><p>刷新你的所有冷却。</p></default>
+              </switch>
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="ActivateTeleprojector">
+    <description>
+              <p>你将心智投射进一个相邻机器人，在自己的身体休眠时控制其行动。</p>
+              <br />
+              <p>对机器人进行科技攻击。</p>
+              <p>攻击掷骰：<stat Name="Attack" /> 对抗防御者 MA + 等级</p>
+              <p>启动时电荷消耗较高。</p>
+              <p>每轮电荷消耗较低。</p>
+              <statline Name="Duration" DisplayName="持续时间" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="ConfigureTemperatureController">
+    <description>
+              <p>你设置目标温度，并每轮被加热或冷却，直到达到目标。</p>
+              <br />
+              <p>每轮温度变化：约 <stat Name="TemperatureChange" />%</p>
+              <p>每轮电荷消耗：温度变化 x<gametext>=chargeuse:0.??=</gametext></p>
+          </description>
+  </ability>
+  <ability Command="ActivatePaxInfection">
+    <description>
+              <p>你喷出孢子并传播 Klanq。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="ActivateSkyshroud">
+    <description>
+              <p>你开始在火焰与烟尘羽流中冲刺。</p>
+              <br />
+              <p>冲刺期间，每当你朝某个方向移动，你都会冲向最近的敌人或障碍，并发动攻击。</p>
+              <br />
+              <p>你每冲刺三格，冲刺攻击便获得 +2 命中加值和 +2 穿透掷骰加值。</p>
+              <br />
+              <p>如果二十格后仍未遇到敌人或障碍，你会停止移动。</p>
+              <br />
+              <statline Name="Duration" DisplayName="持续时间" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="ActivateStopsvalinn">
+    <description>
+              <p>你生成一道阻碍机器人移动的力墙。</p>
+              <br />
+              <p>创造 3 个连续格的可移动力场。</p>
+              <p>机器人移动豁免：意志力 18</p>
+              <p>每轮电荷消耗较高。</p>
+          </description>
+  </ability>
+  <ability Command="CommandChangeGrip">
+    <description>
+              <p>你改变武器的握持方式，将其作为另一种武器类型使用。</p>
+          </description>
+  </ability>
+  <ability Command="CommandBeguileCreature">
+    <description>
+              <p>你魅惑一个相邻生物，让它忠诚地为你效力。</p>
+              <br />
+              <p>对拥有心智的生物进行精神攻击。</p>
+              <p>攻击掷骰：<stat Name="Attack" /> 对抗防御者 MA + 等级</p>
+              <p>被魅惑的生物获得 <stat Name="BonusHP" /> 额外生命值。</p>
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandBurgeoning">
+    <description>
+              <p>你使附近区域自发长出植物，阻碍敌人。</p>
+              <br />
+              <p>植物会随突变阶级而变化。</p>
+              <statline Name="Area" DisplayName="区域" />
+              <statline Name="Range" DisplayName="范围" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandClairvoyance">
+    <description>
+              <p>你短暂获得附近区域的视野。</p>
+              <br />
+              <statline Name="VisionRadius" DisplayName="视野半径" />
+              <statline Name="VisionDuration" DisplayName="视野持续时间" Unit="轮" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandConfuse">
+    <description>
+              <p>你使附近敌人困惑。</p>
+              <br />
+              <p>受影响生物会半随机行动，并且精神能力受到 <stat Name="Penalty" /> 惩罚。</p>
+              <statline Name="ConeAngle" DisplayName="锥角" />
+              <statline Name="ConeLength" DisplayName="锥长" />
+              <statline Name="Duration" DisplayName="持续时间" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandCryokinesis">
+    <description>
+              <p>你用心智冷却附近区域，造成伤害并冻结事物 3 轮。</p>
+              <br />
+              <statline Name="Range" DisplayName="范围" />
+              <statline Name="Area" DisplayName="区域" />
+              <statline Name="DamageRound1" DisplayName="第 1 轮伤害" />
+              <statline Name="DamageRound2" DisplayName="第 2 轮伤害" />
+              <statline Name="DamageRound3" DisplayName="第 3 轮伤害" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandDisintegration">
+    <description>
+              <p>你分解附近物质。</p>
+              <br />
+              <statline Name="Area" DisplayName="区域" />
+              <statline Name="DamageNonStructural" DisplayName="对非结构物体伤害" />
+              <statline Name="DamageStructural" DisplayName="对结构物体伤害" />
+              <p>使用此能力后，你会力竭 3 轮。</p>
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandDominateCreature">
+    <description>
+              <p>你绞缚一个相邻生物的心智，在自己的身体休眠时控制其行动。</p>
+              <br />
+              <p>对拥有心智的生物进行精神攻击。</p>
+              <p>攻击掷骰：<stat Name="Attack" /> 对抗防御者 MA + 等级</p>
+              <statline Name="Duration" DisplayName="持续时间" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandForceBubble">
+    <description>
+              <p>你在自己周围生成力场。</p>
+              <br />
+              <p>创造以你为中心的 3x3 力场。</p>
+              <p>你可以穿过力场发射远程武器。</p>
+              <statline Name="Duration" DisplayName="持续时间" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandForceWall">
+    <description>
+              <p>你生成一道保护你免受敌人伤害的力墙。</p>
+              <br />
+              <p>创造 9 个连续格的固定力场。</p>
+              <p>你可以穿过力场发射远程武器。</p>
+              <statline Name="Duration" DisplayName="持续时间" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandKindle">
+    <description>
+              <p>你用心智点燃一小团火。</p>
+              <br />
+              <statline Name="Range" DisplayName="范围" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandLeyShift">
+    <description>
+              <p>你偏移局部区域的时空。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandLifeDrain">
+    <description>
+              <p>你与附近一个有机生物建立连结，并吸取其生命力。</p>
+              <br />
+              <p>对拥有心智的生物进行精神攻击。</p>
+              <p>每轮吸取 <stat Name="HP" />。</p>
+              <p>目标每轮获得一次精神豁免以抵抗伤害。</p>
+              <br />
+              <statline Name="Duration" DisplayName="持续时间" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandLase">
+    <description>
+              <p>你将环境光聚焦成激光束。</p>
+              <p>暂时使你的环境光半径减少 1。</p>
+              <br />
+              <statline Name="LaserDamageInc" DisplayName="激光伤害段数" />
+              <statline Name="LaserPen" DisplayName="激光穿透" />
+          </description>
+  </ability>
+  <ability Command="CommandAmbientLight">
+    <description>
+              <p>你在 <stat Name="Radius" /> 半径内产生环境光。</p>
+              <p>你可以将光聚焦成激光束，暂时使半径减少 1。</p>
+              <br />
+              <p>环境光恢复速率：每 <stat Name="AmbientRegrowthDuration" Unit="轮" /> 1 点</p>
+          </description>
+  </ability>
+  <ability Command="CommandMassMind">
+    <description>
+              <p>刷新所有精神突变。</p>
+              <p>每次使用都会稍微吸引更多灵能闯入者的注意。</p>
+              <br />
+              <statline Name="CooldownNoWillpower" DisplayName="冷却时间" />
+              <p>冷却时间不受意志力影响。</p>
+          </description>
+  </ability>
+  <ability Command="CommandMentalMirror">
+    <description>
+              <p>当精神镜不在冷却中且你遭受精神攻击时，你获得 +<stat Name="BonusMA" /> MA。如果这次攻击随后未能穿透你的 MA，它会被反射回攻击者。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandPrecognition">
+    <description>
+              <p>你窥视自己的近未来。</p>
+              <br />
+              <p>你可以激活此能力，之后回溯到你激活它的时间点。</p>
+              <br />
+              <statline Name="Duration" DisplayName="使用与回溯之间的持续时间" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandPrecognitionRevert">
+    <description>
+              <p>将一个激活中的预知幻象回溯到幻象开始时的时间点。</p>
+          </description>
+  </ability>
+  <ability Command="CommandPsychometryMenu">
+    <description>
+              <p>你通过触碰神器读取其历史，了解它们的功能和制造方式。</p>
+              <br />
+              <p>准确鉴定复杂度阶级不高于 <stat Name="IdentifyComplexity" /> 的神器。</p>
+              <p>学会制造已鉴定且复杂度阶级不高于 <stat Name="ConstructComplexity" /> 的神器。</p>
+              <br />
+              <p>要使用心灵测量，请与一件神器互动，然后选择“用心灵测量读取历史”。</p>
+          </description>
+  </ability>
+  <ability Command="CommandPyrokinesis">
+    <description>
+              <p>你用心智加热附近区域，造成伤害并点燃事物 3 轮。</p>
+              <br />
+              <statline Name="Range" DisplayName="范围" />
+              <statline Name="Area" DisplayName="区域" />
+              <statline Name="DamageRound1" DisplayName="第 1 轮伤害" />
+              <statline Name="DamageRound2" DisplayName="第 2 轮伤害" />
+              <statline Name="DamageRound3" DisplayName="第 3 轮伤害" />
+              <statline Name="Cooldown" Unit="轮" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandSpaceTimeVortex">
+    <description>
+              <p>你撕裂时空，将附近事物从宇宙织物的裂口中猛甩出去。</p>
+              <br />
+              <p>召唤一个吞噬路径上一切的涡旋。</p>
+              <p>你可以进入涡旋，传送到 Qud 的随机位置。</p>
+              <switch Name="BonusDuration">
+                  <case Value="0" />
+                  <default><br /><statline Name="BonusDuration" DisplayName="额外持续时间" Unit="轮" /></default>
+              </switch>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandStunningForce">
+    <description>
+              <p>你在附近区域唤起震荡力。生物会被从爆炸中心推开、震慑，并受到最多 3 段粉碎伤害。</p>
+              <br />
+              <statline Name="Range" DisplayName="范围" />
+              <statline Name="Area" DisplayName="区域" />
+              <statline Name="DamageIncrement" DisplayName="伤害段数" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandSunderMind">
+    <description>
+              <p>你撕裂一个敌人的心智，让它在痛苦中踉跄。</p>
+              <br />
+              <p>最多 10 轮内，你与一名对手进行灵能战斗，每轮造成伤害。</p>
+              <p>采取除跳过回合以外的任何行动都会打断连接。</p>
+              <p>每轮你进行一次精神攻击，对抗 MA。</p>
+              <p>第十轮后，你造成等于迄今造成总伤害的额外伤害。</p>
+              <br />
+              <statline Name="DamageIncrement" DisplayName="伤害段数" />
+              <statline Name="Range" DisplayName="范围" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandTelepathy">
+    <description>
+              <p>你可以通过灵能以太与他人交流。</p>
+              <br />
+              <p>与视野内任何人交谈。</p>
+              <p>向同伴下达命令所需时间大幅减少。</p>
+          </description>
+  </ability>
+  <ability Command="CommandTeleport">
+    <description>
+              <p>你传送到附近位置。</p>
+              <br />
+              <p>传送到指定区域内的随机位置。</p>
+              <statline Name="UncertaintyRadius" DisplayName="不确定半径" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandLeaderTeleport">
+    <description>
+              <p>你传送到领袖附近的位置。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandTeleportOther">
+    <description>
+              <p>你将一个相邻生物传送到附近随机位置。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandTemporalFugue">
+    <description>
+              <p>你在时间中快速往返，创造多个自己的复制体。</p>
+              <br />
+              <statline Name="Copies" DisplayName="复制体" />
+              <statline Name="Duration" DisplayName="持续时间" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandQuantumFugue">
+    <description>
+              <p>你在时间中快速往返，创造多个自己的复制体。</p>
+              <br />
+              <p>效果结束时，你会占据最健康复制体的身体。</p>
+              <statline Name="Copies" DisplayName="复制体" />
+              <statline Name="Duration" DisplayName="持续时间" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandTimeDilation">
+    <description>
+              <p>你扭曲自己周围的时间，减慢敌人。</p>
+              <br />
+              <p><stat Name="Range" /> 格内的生物会根据与你的距离被减速。</p>
+              <p>距离 1：生物受到 <stat Name="QuicknessPenalty1" />% 迅捷惩罚</p>
+              <p>距离 4：生物受到 <stat Name="QuicknessPenalty4" />% 迅捷惩罚</p>
+              <p>距离 7：生物受到 <stat Name="QuicknessPenalty7" />% 迅捷惩罚</p>
+              <statline Name="Duration" DisplayName="持续时间" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandWillForceStrength">
+    <description>
+              <p>凭借纯粹意志力，你完成不可思议的身体壮举。</p>
+              <br />
+              <p>增强你的力量属性，数值等于你的自我加值两倍。</p>
+              <br />
+              <statline Name="Bonus" DisplayName="力量加值" />
+              <statline Name="Duration" DisplayName="持续时间" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandWillForceAgility">
+    <description>
+              <p>凭借纯粹意志力，你完成不可思议的身体壮举。</p>
+              <br />
+              <p>增强你的敏捷属性，数值等于你的自我加值两倍。</p>
+              <br />
+              <statline Name="Bonus" DisplayName="敏捷加值" />
+              <statline Name="Duration" DisplayName="持续时间" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandWillForceToughness">
+    <description>
+              <p>凭借纯粹意志力，你完成不可思议的身体壮举。</p>
+              <br />
+              <p>增强你的韧性属性，数值等于你的自我加值两倍。</p>
+              <br />
+              <statline Name="Bonus" DisplayName="韧性加值" />
+              <statline Name="Duration" DisplayName="持续时间" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandSpitAcid">
+    <description>
+              <p>你吐出一滩腐蚀酸液。</p>
+              <br />
+              <p>以酸性黏液覆盖该区域。</p>
+              <statline Name="Area" DisplayName="区域" />
+              <statline Name="Range" DisplayName="范围" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandBelchUrchins">
+    <description>
+              <p>你向附近区域嗳出各种刺球。</p>
+              <br />
+              <statline Name="Amount" DisplayName="刺球数量" />
+              <statline Name="Range" DisplayName="范围" />
+              <statline Name="Radius" DisplayName="半径" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandBurrow">
+    <description>
+              <p>你可以通过挖掘在地下移动。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandDecarbonizer">
+    <description>
+              <p>你从活体材料中提取碳。</p>
+              <br />
+              <p>预热 3 轮后射出光束，肢解目标的肢体。</p>
+              <br />
+              <statline Name="BeamDistance" DisplayName="光束距离" Unit="格" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandScintillate">
+    <description>
+              <p>你按困惑阶级 <stat Name="ConfusionRank" /> 使附近敌对生物困惑。</p>
+              <br />
+              <p>闪烁期间你不能行动。</p>
+              <br />
+              <statline Name="ConfusionRank" DisplayName="困惑阶级" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandFearAura">
+    <description>
+              <p>你惊吓周围生物。</p>
+              <br />
+              <p>你使相邻生物恐惧逃离。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandStoneGaze">
+    <description>
+              <p>你用凝视将事物化为石头。</p>
+              <br />
+              <p>预热 3 轮后射出光束，将目标化为石头。</p>
+              <br />
+              <statline Name="Range" DisplayName="范围" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandCrungleGaze">
+    <description>
+              <p>你用凝视激发醒梦。</p>
+              <br />
+              <p>预热 3 轮后射出光束，将目标送入醒梦。</p>
+              <br />
+              <statline Name="Range" DisplayName="范围" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandIrisdualBeam">
+    <description>
+              <p>你蜕发横跨光与物质光谱的能量束。</p>
+              <br />
+              <p>每轮向随机敌人发射 <stat Name="Beams" /> 道光束，持续 <stat Name="Duration" />。</p>
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandInfiltrate">
+    <description>
+              <p>你传送到附近位置，并带上半径 <stat Name="TeleportRadius" /> 内的所有人。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandMagneticPulse">
+    <description>
+              <p>预热 1 轮后，你释放半径 <stat Name="Radius" /> 的脉冲，尝试将金属物体拉向你，包括生物装备的物品。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandMassiveCharge">
+    <description>
+              <p>预热 1 轮后，你发动毁灭性冲锋，摧毁墙壁并推动路径上的生物。</p>
+              <br />
+              <statline Name="Distance" DisplayName="冲锋距离" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandSlog">
+    <description>
+              <p>你从所在格向附近区域喷出一池液体。</p>
+              <br />
+              <statline Name="Range" DisplayName="范围" />
+              <statline Name="Area" DisplayName="区域" />
+              <statline Name="KnockdownChance" DisplayName="击倒对手几率" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandSpinWeb">
+    <description>
+              <p>你纺出黏性蛛丝网。</p>
+              <br />
+              <p>纺网期间，你移动时会在身后留下蛛网。</p>
+              <br />
+              <statline Name="SpinDuration" Unit="移动动作" DisplayName="纺网持续时间" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandSpinSimpleWeb">
+    <description>
+              <p>你纺出黏性蛛丝网。</p>
+              <br />
+              <p>纺网期间，你移动时会在身后留下蛛网。</p>
+              <br />
+              <statline Name="SpinDuration" Unit="移动动作" DisplayName="纺网持续时间" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandStickyTongue">
+    <description>
+              <p>预热 1 轮后，你用舌头将最近的生物拉向自己。</p>
+              <br />
+              <statline Name="Range" DisplayName="范围" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandWaveformWorm">
+    <description>
+              <p>你朝一个方向冲刺，对穿过的生物造成伤害。</p>
+              <br />
+              <statline Name="Range" DisplayName="范围" />
+              <statline Name="Damage" DisplayName="伤害" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandBreathe_ConfusionBreather">
+    <description>
+              <p>你喷吐困惑气体。</p>
+              <br />
+              <statline Name="ConeLength" DisplayName="锥长" Unit="格" />
+              <statline Name="ConeAngle" DisplayName="锥角" Unit="度" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandBreathe_CorrosiveBreather">
+    <description>
+              <p>你喷吐腐蚀气体。</p>
+              <br />
+              <statline Name="ConeLength" DisplayName="锥长" Unit="格" />
+              <statline Name="ConeAngle" DisplayName="锥角" Unit="度" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandBreathe_FireBreather">
+    <description>
+              <p>你喷吐火焰。</p>
+              <br />
+              <statline Name="Damage" DisplayName="伤害" />
+              <statline Name="ConeLength" DisplayName="锥长" Unit="格" />
+              <statline Name="ConeAngle" DisplayName="锥角" Unit="度" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandBreathe_IceBreather">
+    <description>
+              <p>你喷吐寒冰。</p>
+              <br />
+              <statline Name="Damage" DisplayName="伤害" />
+              <statline Name="ConeLength" DisplayName="锥长" Unit="格" />
+              <statline Name="ConeAngle" DisplayName="锥角" Unit="度" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandBreathe_NormalityBreather">
+    <description>
+              <p>你喷吐常态气体。</p>
+              <br />
+              <statline Name="ConeLength" DisplayName="锥长" Unit="格" />
+              <statline Name="ConeAngle" DisplayName="锥角" Unit="度" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandBreathe_PoisonBreather">
+    <description>
+              <p>你喷吐毒气。</p>
+              <br />
+              <statline Name="ConeLength" DisplayName="锥长" Unit="格" />
+              <statline Name="ConeAngle" DisplayName="锥角" Unit="度" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandBreathe_ShameBreather">
+    <description>
+              <p>你喷吐羞耻气体。</p>
+              <br />
+              <statline Name="ConeLength" DisplayName="锥长" Unit="格" />
+              <statline Name="ConeAngle" DisplayName="锥角" Unit="度" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandBreathe_SleepBreather">
+    <description>
+              <p>你喷吐睡眠气体。</p>
+              <br />
+              <statline Name="ConeLength" DisplayName="锥长" Unit="格" />
+              <statline Name="ConeAngle" DisplayName="锥角" Unit="度" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandBreathe_StunBreather">
+    <description>
+              <p>你喷吐震慑气体。</p>
+              <br />
+              <statline Name="ConeLength" DisplayName="锥长" Unit="格" />
+              <statline Name="ConeAngle" DisplayName="锥角" Unit="度" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandReleaseAdrenaline">
+    <description>
+              <p>你提高身体的肾上腺素流量，持续 <stat Name="Duration" />。</p>
+              <p>流量提升期间，你获得 +<stat Name="QuicknessBonus" /> 迅捷，其他物理突变获得 +<stat Name="MutationBonus" /> 阶。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandDigUp">
+    <description>你向上挖出一条通道。</description>
+  </ability>
+  <ability Command="CommandDigDown">
+    <description>你向下挖出一条通道。</description>
+  </ability>
+  <ability Command="CommandToggleBurrowingClaws">
+    <description>
+              <p>你长有铲状爪，可以挖穿土地。</p>
+              <br />
+              <statline Name="WallPenetration" DisplayName="爪对墙穿透" />
+              <p>爪子在 4 次穿透命中后摧毁墙壁。</p>
+          </description>
+  </ability>
+  <ability Command="CommandTightenCarapace">
+    <description>只要保持静止，你可以收紧你的 <stat Name="CarapaceName" />，以 -2 DV 惩罚换取其 AV 加值翻倍。</description>
+  </ability>
+  <ability Command="CommandDischarge">
+    <description>
+              <p>释放所有持有电荷，每 <stat Name="DischargeChunk" /> 电荷造成 1d4 伤害。</p>
+              <p>放电可以跳弧至相邻目标并造成降低后的伤害，每 <stat Name="DischargeChunk" /> 电荷最多跳至 1 个目标。</p>
+              <p>必须至少拥有 <stat Name="DischargeChunk" /> 电荷才能激活。</p>
+              <statline Name="CurrentCharge" DisplayName="当前电荷" />
+          </description>
+  </ability>
+  <ability Command="CommandToggleProvideCharge">
+    <description>你为装备中带有集成供能系统的装置供电。</description>
+  </ability>
+  <ability Command="CommandElectromagneticPulse">
+    <description>
+              <p>你生成电磁脉冲，使附近神器与机器失效。</p>
+              <br />
+              <statline Name="Area" Unit="以自己为中心" DisplayName="区域" />
+              <statline Name="Duration" DisplayName="失效持续时间" Unit="轮" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandFlamingRay">
+    <description>
+              <p><stat Name="EmitText" /></p>
+              <br />
+              <p>向你选择的方向发射一道 <stat Name="Range" /> 格长的火焰射线。</p>
+              <statline Name="Damage" DisplayName="伤害" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandFrostWebs">
+    <description>
+              <p>你用霜冻蛛网填满附近区域。</p>
+              <br />
+              <statline Name="Range" DisplayName="范围" />
+              <statline Name="Area" DisplayName="区域" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="GasGenerationCommandSleepGas">
+    <description>
+              <p>你在自己周围释放一阵睡眠气体</p>
+              <br />
+              <p>释放睡眠气体，持续 <stat Name="Duration" />。</p>
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="GasGenerationCommandNormalityGas">
+    <description>
+              <p>你在自己周围释放一阵常态气体</p>
+              <br />
+              <p>释放常态气体，持续 <stat Name="Duration" />。</p>
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="GasGenerationCommandAcidGas">
+    <description>
+              <p>你在自己周围释放一阵腐蚀气体</p>
+              <br />
+              <p>释放腐蚀气体，持续 <stat Name="Duration" />。</p>
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="GasGenerationCommandPlasma">
+    <description>
+              <p>你在自己周围释放一阵等离子体</p>
+              <br />
+              <p>释放等离子体，持续 <stat Name="Duration" />。</p>
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="GasGenerationCommandDefoliantGas">
+    <description>
+              <p>你在自己周围释放一阵脱叶剂</p>
+              <br />
+              <p>释放脱叶剂，持续 <stat Name="Duration" />。</p>
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="GasGenerationCommandPoisonGas">
+    <description>
+              <p>你在自己周围释放一阵毒气</p>
+              <br />
+              <p>释放毒气，持续 <stat Name="Duration" />。</p>
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="GasGenerationCommandFungicideGas">
+    <description>
+              <p>你在自己周围释放一阵杀真菌剂</p>
+              <br />
+              <p>释放杀真菌剂，持续 <stat Name="Duration" />。</p>
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="GasGenerationCommandConfusionGas">
+    <description>
+              <p>你在自己周围释放一阵困惑气体</p>
+              <br />
+              <p>释放困惑气体，持续 <stat Name="Duration" />。</p>
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="GasGenerationCommandGlitterGas">
+    <description>
+              <p>你在自己周围释放一阵闪粉</p>
+              <br />
+              <p>释放闪粉，持续 <stat Name="Duration" />。</p>
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandSpitLiquid">
+    <description>
+              <p>你吐出一滩 <stat Name="Liquid" />。</p>
+              <br />
+              <statline Name="Range" DisplayName="范围" />
+              <statline Name="Area" DisplayName="区域" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandMetamorphosis">
+    <description>
+              <p>你化为任何你触碰的生物的形态。</p>
+              <br />
+              <p>只能化为等级不高于 <stat Name="MaxLevel" /> 的生物。</p>
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandEndMetamorphosis">
+    <description>你停止维持这个生物的形态。</description>
+  </ability>
+  <ability Command="CommandTogglePhase">
+    <description>
+              <p>你可以在短时间内穿过固体物体。</p>
+              <br />
+              <statline Name="Duration" DisplayName="持续时间" ></statline>
+              <statline Name="Cooldown" DisplayName="冷却时间" ></statline>
+          </description>
+  </ability>
+  <ability Command="CommandBask">
+    <description>
+              <p>你沐浴阳光并吸收太阳滋养光线，以此代替进餐。</p>
+              <br />
+              <p>你获得一种特殊代谢效果，持续 <stat Name="DurationDay" Unit="天" />。</p>
+              <br />
+              <statline Name="BonusRegen" DisplayName="自然治疗速率加值" />
+              <statline Name="BonusQuickness" DisplayName="迅捷加值" />
+          </description>
+  </ability>
+  <ability Command="CommandQuillFling">
+    <description>
+              <p>你向自己周围爆发射出 10% 的 <stat Name="Quills" />。</p>
+              <p>你以每轮约 <stat Name="RegenRate" /> 的速率再生 <stat Name="Quills" />。</p>
+              <p>如果你的 <stat Name="Quills" /> 降至一半以下，你失去 <stat Name="AVPenalty" /> AV。</p>
+              <br />
+              <p><gametext>=quill|capitalize= 穿透：</gametext> <stat Name="QuillPen" /></p>
+              <p><gametext>=quill|capitalize= 伤害：</gametext> <stat Name="QuillDamage" /></p>
+          </description>
+  </ability>
+  <ability Command="CommandSpitSlime">
+    <description>
+              <p>你产生可吐向事物的黏稠黏液。</p>
+              <br />
+              <p>用黏液覆盖一个区域。</p>
+              <statline Name="Range" DisplayName="范围" />
+              <statline Name="Area" DisplayName="区域" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandSting">
+    <description>
+              <p>你用毒刺攻击，自动命中、穿透，并施加你的 <stat Name="VenomType" /> 毒液。</p>
+              <br />
+              <statline Name="StingerPen" DisplayName="毒刺穿透" />
+              <statline Name="StingerDamage" DisplayName="毒刺伤害" />
+              <switch Name="VenomType">
+                  <!-- These values for the case statement should match the strings for "Stinger VenomType" strings. -->
+                  <case Value="paralyzing"><p>毒液麻痹对手，持续 <stat Name="Duration" />。</p></case>
+                  <case Value="confusing"><p>毒液困惑对手，持续 <stat Name="Duration" />。</p></case>
+                  <case Value="poisonous"><p>毒液使对手中毒，持续 <stat Name="Duration" />。</p></case>
+              </switch>
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandRepellingForce">
+    <description>
+              <p>你在周围区域唤起斥力，将敌人击退。</p>
+              <br />
+              <p>生物会被从爆炸中心推开。</p>
+              <statline Name="Area" DisplayName="区域" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandFreezingRay">
+    <description>
+              <p><stat Name="EmitText" /></p>
+              <br />
+              <p>向你选择的方向发射一道 <stat Name="Range" /> 格长的霜冻射线。</p>
+              <statline Name="Damage" DisplayName="伤害" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandPowerSwitch">
+    <description>
+              <stat Name="ItemDescription" />
+          </description>
+  </ability>
+  <ability Command="CommandFreezeBreath">
+    <description>
+              <p><stat Name="EmitText" /></p>
+              <br />
+              <p>向你选择的方向发射一道 <stat Name="Range" /> 格长的霜冻射线。</p>
+              <statline Name="Damage" DisplayName="伤害" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandDig">
+    <description>自动从你的位置挖掘到目标位置。</description>
+  </ability>
+  <ability Command="CommandToggleRunning">
+    <description>
+              <p>你快速移动<switch Name="PowerSkate"><case Value="true">，并在身后留下炽热尾焰</case><default>，持续一小段时间</default></switch>。</p>
+              <br />
+              <p>你的移动速度<switch Name="Multipler"><case Value="100">翻倍</case><case Value="200">变为三倍</case><default>+<stat Name="Multiplier" />%</default></switch>，持续<switch Name="PowerSkate"><case Value="true">到燃料耗尽</case><default><stat Name="Duration" /></default></switch>。</p>
+              <switch Name="DV"><case Value="0" /><default><p><stat Name="DV" /> DV</p></default></switch>
+              <p>近战命中 -10。</p>
+              <switch Name="MissileAccuracy">
+                  <case Value="Pistol"><p>远程武器准确度降低，手枪除外。</p></case>
+                  <case Value=""><p>远程武器准确度降低。</p></case>
+              </switch>
+              <p>如果你采取移动或跳过以外的物理行动，疾跑会提前结束。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandToggleTrashRifling">
+    <description>
+              <p>你翻找垃圾，<switch Name="RiflingSkills">
+              <case Value="TrashDivining">有 <stat Name="Chance" />% 几率拼合线索并学到一个随机秘密</case>
+              <case Value="Scavenger">有几率从垃圾堆中搜出废料</case>
+              <case Value="Scavenger,TrashDivining">有几率从垃圾堆中搜出废料，并有 <stat Name="Chance" />% 几率拼合线索、学到一个随机秘密</case>
+              </switch>。</p>
+          </description>
+  </ability>
+  <ability Command="CommandAcrobaticsJump">
+    <description>
+              <switch Name="IsRangeIncreased">
+                  <case Value="true"><p>你<switch Name="Rocket"><case Value="true">火箭</case></switch>跳入范围 <stat Name="MinimumRange" />-<stat Name="Range" /> 内的一个未占用格。</p></case>
+                  <default><p>你<switch Name="Rocket"><case Value="true">火箭</case></switch>跳入 <stat Name="Range" /> 格外的一个未占用格。</p></default>
+              </switch>
+              <switch Name="CanJumpOverCreatures">
+                  <case Value="true"><p>你可以跃过生物。</p></case>
+                  <default><p>你不能跃过生物。</p></default>
+              </switch>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandAxeBerserk">
+    <description>
+              <p>你进入鲜血狂乱，持续 <stat Name="Duration" />；期间斧攻击肢解几率为 100%。</p>
+              <p>如果肢解正在冷却，就不能使用；使用狂暴会让肢解进入冷却。</p>
+              <p>必须挥持斧才能激活。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandToggleDecapitate">
+    <description>
+              <p>头部会加入你可肢解的可能肢体列表。</p>
+              <p>砍掉一个生物唯一的头会让它立即死亡。</p>
+              <p>如果这个生物有多个头，它会开始大量流血（每回合 2-3 伤害；韧性 35 豁免）。</p>
+          </description>
+  </ability>
+  <ability Command="CommandDismember">
+    <description>
+              <p>你对一个对手发动斧攻击。如果命中并穿透，你随机肢解对方一条肢体，并让对方开始流血。</p>
+              <br />
+              <statline Name="BleedDamage" DisplayName="流血伤害" Unit="每轮" />
+              <p>流血豁免：<gametext>=statistics[Toughness].title=</gametext> <stat Name="BleedSave" /></p>
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandAxeHookAndDrag">
+    <description>
+              <p>你用斧跟钩住对手的一条肢体。</p>
+              <p>如果成功，每当你移动时，你会拖着对手一同移动，并用斧发动一次免费攻击。</p>
+              <p>你的对手有机会抵抗移动，并在自己的回合开始时有机会挣脱。</p>
+              <br />
+              <p>持续时间：9 轮，或直到对手被肢解</p>
+              <p>抵抗移动 / 挣脱豁免：<gametext>=statistics[Strength].title=</gametext> <stat Name="ResistSave" /></p>
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandButcherToggle">
+    <description>你屠宰自己走过的尸体。</description>
+  </ability>
+  <ability Command="CommandHarvestToggle">
+    <description>你收获自己走过的植物。</description>
+  </ability>
+  <ability Command="CommandFloorSmash">
+    <description>
+              <p>预热 3 轮后，你向地面发射一块富凝土板，造成伤害，并在目标格创造坑洞，且有几率在相邻格创造额外坑洞。</p>
+              <br />
+              <statline Name="Range" DisplayName="范围" />
+              <statline Name="Damage" DisplayName="伤害" />
+              <statline Name="AdditionalDirectHitDamage" DisplayName="额外直接命中伤害" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandSnapjawHowl">
+    <description>
+              <p>你发出嚎叫，让附近锯齿豺陷入狂乱。</p>
+              <br />
+              <statline Name="Radius" DisplayName="效果半径" />
+              <statline Name="Duration" DisplayName="持续时间" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandSubmerge">
+    <description>你将自己潜入一片水体。</description>
+  </ability>
+  <ability Command="CommandConk">
+    <description>
+              <p>你用短棍攻击一个相邻对手。如果命中，你自动让对手恍惚 3-4 轮。</p>
+              <p>让已恍惚的对手再次恍惚会改为震慑对方。</p>
+              <p>敲击已震慑的对手则会让对方昏迷 30-40 轮（昏迷对手受到伤害时会以恍惚状态醒来）。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandCudgelSlam">
+    <description>
+              <p>你用短棍攻击一个相邻对手，穿透掷骰 +1。</p>
+              <p>如果命中，你将对手向后猛击最多 <stat Name="Distance" /> 格，推动其他生物；如果墙的 AV 小于你力量修正值的 5 倍，则击穿墙壁。</p>
+              <p>被推动的对手会被震慑 1 轮，每被推动 1 格额外震慑 1 轮。</p>
+              <p>被推穿墙壁或撞上墙壁的对手，每面墙都会受到额外武器伤害。</p>
+              <p>巨型对手不会被推动，但仍会被震慑 1 轮。</p>
+              <p>如果墙或门的 AV 低于你力量修正值的 5 倍，则摧毁它。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandSmashUp">
+    <description>
+              <p>持续 <stat Name="Duration" />，你的短棍攻击恍惚几率为 100%，且猛击没有冷却。</p>
+              <p>如果猛击正在冷却，就不能使用；使用拆毁会让猛击进入冷却。</p>
+              <p>必须挥持短棍才能激活。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandFlurry">
+    <description>
+              <p>你用每条持有武器的肢体发动攻击，包括突变或科技赋予的额外肢体。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandSingleWeaponFighting">
+    <description>你不进行副手攻击，以换取对单一武器的精通。</description>
+  </ability>
+  <ability Command="CommandHeavyWeaponsSweep">
+    <description>
+              <p>你用重型武器发射 <stat Name="Shots" /> 次，扫过 <stat Name="ConeWidth" /> 度锥形区域。每次射击前都会重新装填你的重型武器。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandAggressiveStance">
+    <description>
+              <p>主手挥持长刃时，你获得 +<stat Name="PenBonus" /> 穿透掷骰，但命中 -<stat Name="HitPenalty" />。</p>
+              <br />
+              <p>架势也可能影响其他技能。</p>
+          </description>
+  </ability>
+  <ability Command="CommandDefensiveStance">
+    <description>
+              <p>主手挥持长刃时，你获得 +<stat Name="DVBonus" /> DV。</p>
+              <br />
+              <p>架势也可能影响其他技能。</p>
+          </description>
+  </ability>
+  <ability Command="CommandDeathblow">
+    <description>
+              <p>接下来的 <stat Name="Duration" /> 内，突刺和挥扫没有冷却。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandDuelingStance">
+    <description>
+              <p>主手挥持长刃时，你获得 +<stat Name="HitBonus" /> 命中。</p>
+              <br />
+              <p>架势也可能影响其他技能。</p>
+          </description>
+  </ability>
+  <ability Command="CommandLunge">
+    <description>
+              <p>{{W|进攻架势}}：穿过一个空格向对手突刺并攻击，穿透掷骰 +2。你必须穿过该空格进行突刺。</p>
+              <br />
+              <p>{{W|防御架势}}：攻击一个对手，然后向后突刺 2 格。</p>
+              <br />
+              <p>{{W|决斗架势}}：攻击一个对手，穿透掷骰 +1。该攻击保证命中并至少穿透一次。</p>
+              <br />
+              <p>必须主手挥持长刃才能使用突刺。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandSwipe">
+    <description>
+              <p>{{W|进攻架势}}：攻击所有相邻对手。</p>
+              <br />
+              <p>{{W|防御架势}}：将所有相邻生物推开 1 格，并尝试绊倒对手。（力量 / 敏捷豁免；难度 30）</p>
+              <br />
+              <p>{{W|决斗架势}}：攻击一个对手并尝试缴械（力量豁免；难度 25 + 敏捷修正值）。该攻击保证命中并至少穿透一次。</p>
+              <br />
+              <p>必须主手挥持长刃才能使用突刺。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandPersuasionBerate">
+    <description>
+              <p>你羞辱附近一个生物，让对方 DV、命中、自我和意志力 -4，迅捷 -10%。</p>
+              <br />
+              <statline Name="Duration" DisplayName="持续时间" />
+              <statline Name="Range" DisplayName="范围" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandIntimidate">
+    <description>
+              <p>你恐吓相邻敌对生物，让对方逃离你，持续 <stat Name="Duration" />。</p>
+              <br />
+              <p>对拥有心智的生物进行精神攻击。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandPersuasionMenacingStare">
+    <description>
+              <p>你瞪视一个对手，让对方因恐惧逃离。</p>
+              <br />
+              <p>对拥有心智的生物进行精神攻击。</p>
+              <br />
+              <statline Name="Range" DisplayName="范围" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandProselytize">
+    <description>
+              <p>你说服一个智慧生物加入你。</p>
+              <br />
+              <p>自我 + 角色等级攻击，对抗 MA + 角色等级</p>
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandRebukeRobot">
+    <description>
+              <p>你斥责一个机器人，让它游荡离开或加入你。</p>
+              <br />
+              <p>以自我为基础，对机器人发动攻击。</p>
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandToggleAkimbo">
+    <description>当你持有多把枪进行远程攻击时，每把枪都会射击一次。</description>
+  </ability>
+  <ability Command="CommandPistolEmptyTheClips">
+    <description>
+              <p>发射手枪只需半轮，而非完整一轮。</p>
+              <br />
+              <statline Name="Duration" DisplayName="持续时间" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandMarkTarget">
+    <description>
+              <p>你花费一回合瞄准并标记一个目标。</p>
+              <br />
+              <p>每当你用弓或步枪射击被标记目标时，计算准确度时你的敏捷视为提高 2 点。</p>
+              <br />
+              <p>你同一时间只能标记一个目标。</p>
+              <br />
+              <p>如果你失去目标视野，目标会解除标记。</p>
+          </description>
+  </ability>
+  <ability Command="CommandDisciplineMeditate">
+    <description>
+              <p>冥想期间，你的再生速度变为三倍，负面状态效果消退速度也变为三倍。</p>
+              <br />
+              <p>冥想期间你唯一能采取的行动是等待。</p>
+              <br />
+              <p>如果你在单轮内受到超过 <stat Name="DamageThreshold" /> 的伤害，你会停止冥想。</p>
+              <br />
+              <p>如果你休息 10 回合或更久，你会自动开始冥想。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandShieldWall">
+    <description>
+              <p>接下来的三轮内，你自动格挡所有来袭近战攻击。</p>
+              <br />
+              <p>不能与小圆盾一同使用。</p>
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandShieldSlam">
+    <description>
+              <p>你用盾牌击倒一个对手并对对方造成伤害。</p>
+              <br />
+              <p>每当你装备盾牌冲锋一个对手时，你会获得一次针对对方的免费盾击攻击。</p>
+              <br />
+              <statline Name="Damage" DisplayName="伤害" />
+              <statline Name="KnockdownSave" DisplayName="击倒豁免" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandHobble">
+    <description>
+              <p>你用主手短刃发动攻击，寻找对手护甲的弱点。如果命中，你恰好穿透一次并让对手跛足。</p>
+              <br />
+              <statline Name="HobbleEffect" DisplayName="跛足效果" />
+              <statline Name="HobbleDuration" DisplayName="跛足持续时间" Unit="轮" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandToggleRejoinder">
+    <description>每轮一次，当对手近战攻击未命中你时，有 40% 几率用你挥持的短刃进行一次免费攻击。</description>
+  </ability>
+  <ability Command="CommandShank">
+    <description>
+              <p>你用主手（优先）或副手短刃发动一次近战攻击。如果命中，对手每有一个负面状态效果，该攻击穿透掷骰 +2。</p>
+              <br />
+              <statline Name="PrimaryHandCooldown" DisplayName="主手冷却时间" Unit="轮" />
+              <statline Name="OffhandCooldown" DisplayName="副手冷却时间" Unit="轮" />
+          </description>
+  </ability>
+  <ability Command="CommandSurvivalCamp">
+    <description>
+              <p>你点燃篝火，用于烹饪餐食和保存食物。</p>
+              <br />
+              <p>战斗中不能扎营。</p>
+          </description>
+  </ability>
+  <ability Command="CommandMeleeCharge">
+    <description>
+              <p>你向前冲锋并发动一次近战攻击，穿透掷骰 +1。</p>
+              <br />
+              <statline Name="Range" Unit="格" DisplayName="范围" />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandTacticsJuke">
+    <description>
+              <p>你无行动消耗移动一格；如果目标格有生物，则与其交换位置。</p>
+              <br />
+              <p>你可以与敌对生物交换位置。</p>
+              <br />
+              <statline Name="Cooldown" DisplayName="冷却时间" />
+          </description>
+  </ability>
+  <ability Command="CommandDeployTurret">
+    <description>你将一件远程武器部署为固定炮塔，并为其提供弹药。</description>
+  </ability>
+  <ability Command="CommandLayMine">
+    <description>你将一枚手榴弹部署为地雷。</description>
+  </ability>
+  <ability Command="CommandLayMineTimed">
+    <description>你将一枚手榴弹部署为定时炸弹。</description>
+  </ability>
+  <ability Command="CommandRechargeObject">
+    <description>你用修补零件为能量电池或电容器充能。</description>
+  </ability>
+  <ability Command="CommandReleaseVehicle">
+    <description>你离开所在载具的驾驶座。</description>
+  </ability>
+  <ability Command="CommandSeatEject">
+    <description>你和已就座的同伴被强制弹出所在载具。</description>
+  </ability>
+</activatedabilities>

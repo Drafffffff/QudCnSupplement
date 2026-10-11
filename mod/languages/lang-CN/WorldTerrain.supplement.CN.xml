@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<objects Lang="CN" Encoding="utf-8">
+  <object Name="Terrain" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="TerrainSaltdunes" Load="Merge">
+    <part Name="Description" Short="象牙海的沙丘像冻结在原地的波浪。宝石般的太阳烤得大地起泡、收缩、断裂，于是在盐中留下裂痕。地平线将天空与 莫格拉伊 大盐漠的辽阔平原熔在一起。" />
+  </object>
+  <object Name="TerrainSaltdunes2" Load="Merge">
+    <part Name="Description" Short="象牙海的沙丘像冻结在原地的波浪。宝石般的太阳烤得大地起泡、收缩、断裂，于是在盐中留下裂痕。地平线将天空与 莫格拉伊 大盐漠的辽阔平原熔在一起。" />
+  </object>
+  <object Name="TerrainTremblezone" Load="Merge">
+    <part Name="Description" Short="象牙海的沙丘像冻结在原地的波浪。宝石般的太阳烤得大地起泡、收缩、断裂，于是在盐中留下裂痕。地平线将天空与 莫格拉伊 大盐漠的辽阔平原熔在一起。" />
+  </object>
+  <object Name="TerrainFungalBase" Load="Merge">
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+    <xtagGrammar Proper="真理" massNoun="否" />
+  </object>
+  <object Name="TerrainMoonStair" Load="Merge">
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+    <xtagGrammar Proper="真理" massNoun="否" />
+  </object>
+  <object Name="TerrainBananaGrove" Load="Merge">
+    <xtagGrammar massNoun="否" />
+  </object>
+  <object Name="TerrainRiverSvy" Load="Merge">
+    <part Name="Render" DisplayName="斯维 河" />
+    <xtagGrammar Proper="真理" massNoun="否" />
+    <part Name="Description" Short="斯维 奔越盐覆峰顶，泻入藤蔓编织的壤土。她的河岸遮在巨人铬钢尸骸的阴影中。" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="TerrainRiverOpal" Load="Merge">
+    <xtagGrammar Proper="真理" massNoun="否" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="TerrainOpalDuskwaters" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="TerrainRiverYonth" Load="Merge">
+    <part Name="Render" DisplayName="约恩斯 河" />
+    <xtagGrammar Proper="真理" massNoun="否" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+    <part Name="Description" Short="约恩斯 劈开通往奇异东方的山体，将无名之水引入 库德。鱼形之物以她的玄武岩碎片为食。" />
+  </object>
+  <object Name="TerrainMountainStream" Load="Merge">
+    <xtagGrammar massNoun="否" />
+  </object>
+  <object Name="TerrainLakeHinnom" Load="Merge">
+    <part Name="Description" Short="珊瑚手指从海绵床中探出，刺穿藻华，数百条白色 埃什鱼 聚集其间。" />
+    <xtagGrammar Proper="真理" massNoun="否" />
+  </object>
+  <object Name="TerrainPalladiumReef" Load="Merge">
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+    <xtagGrammar Proper="真理" massNoun="否" />
+  </object>
+  <object Name="TerrainJoppa" Load="Merge">
+    <xtagGrammar Proper="真理" massNoun="否" />
+  </object>
+  <object Name="TerrainTheSpindle" Load="Merge">
+    <xtagGrammar Proper="真理" massNoun="否" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="TerrainOmonporch" Load="Merge">
+    <xtagGrammar Proper="真理" massNoun="否" />
+  </object>
+  <object Name="TerrainKyakukya" Load="Merge">
+    <part Name="Render" DisplayName="克亚库克亚" />
+    <xtagGrammar Proper="真理" massNoun="否" />
+  </object>
+  <object Name="TerrainRedRock" Load="Merge">
+    <xtagGrammar Proper="真理" massNoun="否" />
+  </object>
+  <object Name="TerrainSixDayStilt" Load="Merge">
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+    <xtagGrammar Proper="真理" massNoun="否" />
+  </object>
+  <object Name="TerrainEynRogel" Load="Merge">
+    <part Name="Render" DisplayName="恩罗格尔" />
+    <part Name="Description" Short="恩罗格尔" />
+    <xtagGrammar Proper="真理" massNoun="否" />
+  </object>
+  <object Name="TerrainGritGate" Load="Merge">
+    <xtagGrammar Proper="真理" massNoun="否" />
+  </object>
+  <object Name="TerrainRustWell" Load="Merge">
+    <part Name="Description" Short="红色 库德葛 藤以钻入大地的铬钢井作为棚架。" />
+    <xtagGrammar iArticle="" />
+  </object>
+  <object Name="TerrainGolgotha" Load="Merge">
+    <xtagGrammar Proper="真理" massNoun="否" />
+  </object>
+  <object Name="TerrainBethesdaSusa" Load="Merge">
+    <xtagGrammar Proper="真理" massNoun="否" />
+  </object>
+  <object Name="TerrainAsphaltMines" Load="Merge">
+    <xtagGrammar iArticle="" />
+  </object>
+  <object Name="TerrainRustedArchway" Load="Merge">
+    <xtagGrammar massNoun="否" />
+  </object>
+  <object Name="TerrainEynRoj" Load="Merge">
+    <part Name="Render" DisplayName="恩罗杰" />
+    <part Name="Description" Short="生命之树 查瓦 裂开的树干藏在大理石林间空地里。落叶铺成镜面地毯，梦鹪鹩啁啾着灵质颂歌。" />
+    <xtagGrammar Proper="真理" massNoun="否" />
+    <tag Name="IndefiniteArticle" Value="*删除" />
+    <tag Name="DefiniteArticle" Value="*删除" />
+  </object>
+  <object Name="TerrainPalladiumReef 3l" Load="Merge">
+    <part Name="Render" DisplayName="伊德 自由领" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+    <xtagGrammar Proper="真理" massNoun="否" />
+  </object>
+  <object Name="TerrainTzimtzlum" Load="Merge">
+    <part Name="Render" DisplayName="齐姆楚姆" />
+  </object>
+</objects>

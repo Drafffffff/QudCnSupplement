@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skills Lang="CN" Encoding="utf-8">
+  <skill Name="Acrobatics">
+    <power Name="Swift Reflexes" Description="你闪避投射物攻击时，闪避 获得 +5 加值。" />
+    <power Name="Spry" Description="你的 闪避 获得 +2 加值。" />
+    <power Name="Tumble" Description="你的 闪避 获得 +1 加值。此外，闪身的冷却时间降至 20。" />
+  </skill>
+  <skill Name="Axe">
+    <power Name="Cleave" Description="每当你用斧命中对手时，有 75% 几率劈开对方护甲，让对方 护甲 受到 -1 惩罚。该惩罚可叠加，次数最高为你的 力量 修正值一半（向上取整），重击时额外 +1 次。" />
+    <power Name="Charging Strike" Description="你持斧冲锋并命中时，如果劈开对方护甲，对方 护甲 额外受到 -1 惩罚。如果你拥有肢解，持斧冲锋时肢解几率翻倍。你持棍棒冲锋并命中时，会自动使对手晕眩。" />
+    <power Name="Hook and Drag" Description="主动；冷却 50。你用斧跟钩住对手的肢体。如果成功，你移动时会拖着对手，并用斧进行一次免费攻击。对手有机会抵抗移动（力量豁免；难度 20 + 你的 力量 修正值），也有机会在自己的回合开始时挣脱（同一豁免）。持续 9 轮，或直到你肢解这个对手。" />
+  </skill>
+  <skill Name="Bow and Rifle">
+    <power Name="Disorienting Fire" Description="只要目标看不见也听不见任何同阵营盟友，创伤射击升级为迷向射击。迷向射击还会使目标的 闪避 和 精神护甲 降低 4。" />
+  </skill>
+  <skill Name="Cudgel">
+    <power Name="Bludgeon" Description="每当你用棍棒命中时，有 50% 几率让对手晕眩（-4 智力、-4 敏捷、-10 移动速度）3-4 轮。如果你让已晕眩的对手再次晕眩，则改为让对方震慑 1 轮（不能行动且 闪避 为 0）。" />
+    <power Name="Charging Strike" Description="你持棍棒冲锋并命中时，会自动使对手晕眩。你持斧冲锋并命中时，如果劈开对方护甲，对方 护甲 额外受到 -1 惩罚。如果你拥有肢解，持斧冲锋时肢解几率翻倍。" />
+    <power Name="Slam" Description="主动；冷却 50。你用棍棒攻击相邻对手，穿透掷骰 +1。如果命中，你将对手向后猛击最多 3 格；如果其他生物和墙壁的 护甲 小于你力量修正值的 5 倍，则会推动它们并破墙而过。被推动的对手震慑 1 轮，每被推动 1 格额外 +1 轮。被推穿墙壁或撞到墙壁的对手，每面墙都会受到额外武器伤害。巨型对手不会被推动，但仍会震慑 1 轮。如果墙或门的 护甲 低于你力量修正值的 5 倍，则会被摧毁。" />
+  </skill>
+  <skill Name="Customs and Folklore" Description="你熟悉 库德 的风俗与民俗。" />
+  <skill Name="Endurance">
+    <power Name="Shake It Off" Description="每轮你处于晕眩或震慑状态时，有 (坚韧-10)% 几率摆脱该效果。你受到的毒素伤害也减少 25%。" />
+    <power Name="Calloused" Description="你的天然 护甲 提升至 1。" />
+  </skill>
+  <skill Name="Long Blade">
+    <power Name="Long Blade Proficiency" Description="你获得两种架势。&#10;进攻架势：主手持长刃时，你的长刃和短刃攻击穿透掷骰 +1，但命中 -2。&#10;防御架势：主手持长刃时，你获得 +2 闪避。" />
+    <power Name="Swipe" Description="主动；冷却 15。&#10;进攻架势：攻击所有相邻对手。&#10;防御架势：将所有相邻生物推后 1 格，并尝试绊倒对手（力量/敏捷豁免；难度 30）。&#10;决斗架势：攻击一名对手并尝试解除其武装（力量豁免；难度 25 + 你的 敏捷 修正值）。该攻击必定命中并至少穿透一次。" />
+    <power Name="Improved Defensive Stance" Description="你在防御架势下的 闪避 加值提高至 +3。" />
+  </skill>
+  <skill Name="Persuasion">
+    <power Name="Intimidate" Description="冷却 50。你试图吓坏相邻的敌对生物（1d8 + [自我 修正值] 穿透掷骰对抗 精神护甲）。成功时，受惊生物会逃离你 6d4 轮。" />
+    <power Name="Berate" Description="冷却 50。你羞辱附近一个生物 6d6 轮，让对方 闪避、命中、自我、意志力 受到 -4 惩罚，并受到 -10% 迅捷惩罚。" />
+    <power Name="Snake Oiler" Description="在以物易物时，你的 自我 视为提高 4 点。" />
+  </skill>
+  <skill Name="Self-discipline">
+    <power Name="Meditate" Description="冥想时，你的再生速度提高到三倍，负面状态效果消退速度也提高到三倍。冥想时你唯一能执行的行动是等待。如果你在单轮内受到超过 (意志力*3)-60 的伤害，你会停止冥想。如果你休息 10 回合或更久，会自动开始冥想。" />
+    <power Name="Iron Mind" Description="每轮你处于混乱状态时，有 (意志力-10)% 几率摆脱该效果。" />
+    <power Name="Lionheart" Description="每轮你处于恐惧状态时，有 (意志力-10)% 几率摆脱该效果。" />
+  </skill>
+  <skill Name="Shield">
+    <power Name="Block" Description="只要你持有盾牌，每轮有 50% 几率格挡一次近战攻击。当你格挡攻击时，在该次攻击中将盾牌的 护甲 加值加入你的 护甲。如果你装备多个盾牌，每轮一次格挡限制按每面盾牌分别计算，且你只能尝试格挡某次攻击一次，使用你可用的最佳盾牌。" />
+    <power Name="Shield Slam" Description="主动；冷却 40。你尝试击倒一名对手，并造成 (力量 修正值)d2 + 你的盾牌 护甲 加值的伤害。对手有机会抵抗（力量豁免；难度 20 + 你的 力量 修正值）。每当你装备盾牌向对手冲锋时，你会获得一次针对该对手的免费盾击攻击。" />
+    <power Name="Staggering Block" Description="每当你格挡对手的攻击时，有 (力量*2)-35% 几率使对手震慑 1d2 轮。" />
+  </skill>
+  <skill Name="Short Blade">
+    <power Name="Bloodletter" Description="你的短刃攻击如果穿透，有 75% 几率让对手流血（每回合 0-1 伤害。坚韧豁免；难度 20 + 你的 敏捷 修正值）。对手每轮进行豁免以停止流血，豁免难度每轮降低 1。这个效果可叠加，次数等于 1 + 你的 敏捷 修正值。" />
+  </skill>
+  <skill Name="Tactics">
+    <power Name="Hurdle" Description="疾跑时你的 闪避 不受惩罚，并且可以跳跃而不中断疾跑。" />
+  </skill>
+  <skill Name="Tinkering">
+    <power Name="Repair" Description="你可以用 零件 修理破损物品。" />
+  </skill>
+</skills>

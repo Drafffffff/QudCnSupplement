@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='utf-8'?>
+<objects Lang="CN" Encoding="utf-8" ExcludeFromCorpusGeneration="true">
+  <object Name="Ehalcodon" Load="Merge">
+    <part Name="Render" DisplayName="{{M|伊哈尔科顿(埃哈尔科顿)}}" />
+    <part Name="Description" Short="一头巨物攀上视线高处，放射神光。撒满纺锤闪屑的后臀托起一个生物形体；它由此位面的有感背景辐射勾勒成形，宽阔的环纹翼缘足以乘恒星风翱翔。最后，在=pronouns.possessive= 特异 玻璃皮肤下翻涌的虹膜双生光被折射为不可能性的元光谱，并以角螺旋溢出体外。" />
+  </object>
+  <object Name="Prism Girshling" Load="Merge">
+    <part Name="Render" DisplayName="棱晶 吉尔什 幼体" />
+  </object>
+  <object Name="Prism Girshling Cresh" Load="Merge">
+    <part Name="Render" DisplayName="棱晶 克雷什" />
+  </object>
+  <object Name="LightCircleEhalcodon" Load="Merge">
+    <part Name="Render" DisplayName="{{ehalcodon|埃哈尔科顿}} 弦中的光环" />
+  </object>
+  <object Name="BaseSpindleSupport" Load="Merge">
+    <part Name="Description" Short="带凸缘的 隧钢 锚将 贾乌斯 的渐细缎带固定在其低地锚点。" />
+  </object>
+  <object Name="TerrainNorthSheva" Load="Merge">
+    <xtagGrammar massNoun="否" />
+  </object>
+  <object Name="TerrainSpindleTether" Load="Merge">
+    <xtagGrammar Proper="真理" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="TerrainSuperStratum" Load="Merge">
+    <part Name="Description" Short="方正的纤维复合体在 谢瓦 上方向北升起，从高台地向低层棚架提供倾斜视野。" />
+  </object>
+  <object Name="TerrainMoverRail" Load="Merge">
+    <part Name="Description" Short="一条条超导木材长线横切北 谢瓦，以磁力悬浮移动轿，将其送往弯向天空的停靠点。" />
+  </object>
+  <object Name="TerrainArrivarium" Load="Merge">
+    <part Name="Render" DisplayName="抵达馆" />
+    <part Name="Description" Short="纺锤系缆朝 谢瓦 一段被夹握在到达室的锁定机构中。稳定锤敲响铜锣，抚平 谢瓦 地锁轨道中的振动畸变。" />
+    <xtagGrammar Proper="真理" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="TerrainEarthGate" Load="Merge">
+    <xtagGrammar Proper="真理" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="TerrainEarthGateFlank" Load="Merge">
+    <xtagGrammar Proper="真理" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="TerrainTifaret" Load="Merge">
+    <part Name="Render" DisplayName="提法雷特 之点" />
+    <part Name="Description" Short="诸 辛诺罗特 在中点相交，并在蓝色会堂中受其金色黄道驱动，将移动轿送往北 谢瓦 的心脏，亦从那里送出。" />
+    <xtagGrammar Proper="真理" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="TerrainNorthernArk" Load="Merge">
+    <part Name="Description" Short="老妇城区的尘云鳍被焊接到上覆层，并以迷宫岩构筑迷障，以保护超脑。在那电磁牢笼与量子神庙之内，伟大 西亚赫 的悸动从其非确定性核心溢出。" />
+    <xtagGrammar Proper="真理" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="TerrainStarOrchidTemple" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="TerrainGreatMachineTemple" Load="Merge">
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="TerrainObservationLune" Load="Merge">
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="TerrainQor" Load="Merge">
+    <part Name="Render" DisplayName="科尔 王国" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="TerrainMotedForest" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="TerrainLakeAvalon" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="TerrainSeedVault" Load="Merge">
+    <xtagGrammar Proper="真理" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="TerrainConsulate" Load="Merge">
+    <part Name="Description" Short="螺旋三角尖饰描绘了赋予该星团显赫地位的流动星群。阿尔法、贝特 与 达莱特 从银核中浮现并开花，沿大机器相同的黄道轨迹奔流，派出一支花瓣存在的祈祷团，以祈祷/游戏让未来的结合成真。" />
+    <xtagGrammar Proper="真理" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="TerrainConsulate U" Load="Merge">
+    <part Name="Description" Short="螺旋三角尖饰描绘了赋予该星团显赫地位的流动星群。阿尔法、贝特 与 达莱特 从银核中浮现并开花，沿大机器相同的黄道轨迹奔流，派出一支花瓣存在的祈祷团，以祈祷/游戏让未来的结合成真。" />
+    <xtagGrammar Proper="真理" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="TerrainJyEgregore L" Load="Merge">
+    <part Name="Render" DisplayName="吉 思想聚合体" />
+    <xtagGrammar Proper="真理" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="TerrainJyEgregore C" Load="Merge">
+    <part Name="Render" DisplayName="吉 思想聚合体" />
+    <xtagGrammar Proper="真理" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="TerrainJyEgregore R" Load="Merge">
+    <part Name="Render" DisplayName="吉 思想聚合体" />
+    <xtagGrammar Proper="真理" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="TerrainNorthForum" Load="Merge">
+    <xtagGrammar Proper="真理" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="TerrainSheshDacha" Load="Merge">
+    <part Name="Render" DisplayName="舍什 别墅" />
+    <part Name="Description" Short="当星际交通挤满低麦地那、食者愈发渴望在上方停留更久时，舍什卡宁 的拱曲小屋一簇簇萌生出来。" />
+  </object>
+  <object Name="TerrainShevaDacha" Load="Merge">
+    <part Name="Render" DisplayName="谢瓦 别墅" />
+    <part Name="Description" Short="随着小屋填满 舍什卡宁，迟来的上层居民和补足边缘的星民在 谢瓦 上建立家园，位于泡体南侧，贴着北方大陆挂满板帘的崖壁。" />
+  </object>
+  <object Name="TerrainLowMedina" Load="Merge">
+    <part Name="Description" Short="表层地层上古老而受限的城邦，是盟约之前原初纪元中涌上 贾乌斯 的食者氏族与行会之家。他们曾在此搬运早期星际货物，以原始惊奇凝望那颗将自己升离其上的蓝色弹珠。" />
+  </object>
+  <object Name="TerrainHighMedina" Load="Merge">
+    <part Name="Description" Short="甚至在早期食者居住低麦地那之前，当方舟正准备以地表基因组播种远天时，第一批城邦从 贾乌斯 建造中的神授政治与神话散文争议里升起。不知为何，它们至今仍矗立。" />
+  </object>
+  <object Name="TerrainBazaarOfSamech" Load="Merge">
+    <part Name="Render" DisplayName="萨梅克 集市" />
+    <xtagGrammar Proper="真理" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="Fluent Lock" Load="Merge">
+    <part Name="Description" Short="一滴触变流体被向心力下拉至盆中。与其配偶锁同步时，净效应会将北 谢瓦 稳定在地球同步轨道，并模拟 1g 的环境压力。" />
+  </object>
+  <object Name="ChevronWall" Load="Merge">
+    <part Name="Render" DisplayName="铬 奇布尔" />
+    <part Name="Description" Short="阿祖鲁姆 自仙女座采石场乘星帆而来，经铬回火，并雕成 奇贝尔 的仪式形状，以支撑天穹。" />
+  </object>
+  <object Name="Eater Sign 2" Load="Merge">
+    <part Name="Chat" Says="向东至 提法雷特 之点的移动轿" />
+  </object>
+  <object Name="MotedAir" Load="Merge">
+    <xtagGrammar iArticle="" />
+  </object>
+  <object Name="Gimeleth" Load="Merge">
+    <part Name="Render" DisplayName="吉梅莱斯" />
+  </object>
+  <object Name="Bending Gjaus" Load="Merge">
+    <part Name="Render" DisplayName="弯折的 贾乌斯" />
+  </object>
+  <object Name="Earth Gate W" Load="Merge">
+    <xtagGrammar iArticle="" />
+  </object>
+  <object Name="Earth Gate E" Load="Merge">
+    <xtagGrammar iArticle="" />
+  </object>
+  <object Name="Sheva Bell" Load="Merge">
+    <part Name="Description" Short="闪亮星青铜的声弓依照 罗塔克顿 的完美口形铸成，内嵌泽塔铬钟舌。钟鸣时，声波与听者的主观经验并置偏移，存在与行去的仪式由此宣告。" />
+  </object>
+  <object Name="Wheel of Qv" Load="Merge">
+    <part Name="Render" DisplayName="库维 之轮" />
+  </object>
+  <object Name="StarshipGeometricWall" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Starship1 Floor Cushion" Load="Merge">
+    <part Name="Description" Short="一只山地恐鸟自行拔下的羽毛在数千年前被塞进天鹅绒坐垫，后来在 萨梅克 集市售出。" />
+  </object>
+  <object Name="Star Carousel Wall" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Star Carousel Infested Wall" Load="Merge">
+    <part Name="Description" Short="从 库维 之轮射出的吸盘像潮湿的手，抓住旋舱纸质鳃片，浓稠滑水在其下积聚。寄生负担让墙壁喘息嘶鸣。" />
+  </object>
+  <object Name="Red Etz Trellis" Load="Merge">
+    <part Name="Render" DisplayName="红 埃茨 棚架" />
+  </object>
+  <object Name="Barathrum Hologram" Load="Merge">
+    <part Name="Render" DisplayName="巴拉瑟姆 的全息影像" />
+    <part Name="Description" Short="年轻 乌尔希布 明亮的面容与短刺鬃毛，即使在磨散的光幕中也格外醒目。他双肩后展，带着新鲜目的，目光以激光般精准刺入前景。" />
+  </object>
+  <object Name="Rebekah Hologram" Load="Merge">
+    <part Name="Render" DisplayName="丽贝卡 的全息影像" />
+  </object>
+  <object Name="Resheph Hologram" Load="Merge">
+    <part Name="Render" DisplayName="上者 雷谢夫 的全息影像" />
+  </object>
+  <object Name="Sheyd" Load="Merge">
+    <part Name="Render" DisplayName="谢德" />
+    <part Name="Description" Short="油亮皮质在炼狱灰的涡流中旋绕，并在爪端硬化成钻石。谢迪姆 被以星航从其神月上运走，在百年仪式中交易给机械执政者，并作为宠物饲养。当历史沿苏丹国的黑暗深井拉长后，它们因珍贵虹膜之乳而被盗猎至灭绝。" />
+  </object>
+  <object Name="Wood-Carved Bed" Load="Merge">
+    <part Name="Description" Short="梦谷小径起点处的 卧者 迷失在镶嵌木谜题中，融入海沫般的柔软。" />
+  </object>
+  <object Name="Qorish Veil" Load="Merge">
+    <part Name="Render" DisplayName="科尔 女巫面纱" />
+  </object>
+  <object Name="Qorish Gown" Load="Merge">
+    <part Name="Render" DisplayName="科尔 女巫长袍" />
+  </object>
+  <object Name="Star Orchid Limestone" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Nails of Jy" Load="Merge">
+    <part Name="Render" DisplayName="吉 之钉" />
+  </object>
+  <object Name="Chiliad Slynth Joppa" Load="Merge">
+    <part Name="Render" DisplayName="斯林斯 灌溉者" />
+  </object>
+  <object Name="Chiliad Slynth Grit Gate" Load="Merge">
+    <part Name="Render" DisplayName="斯林斯 扳手修士" />
+  </object>
+  <object Name="Chiliad Slynth Bey Lah" Load="Merge">
+    <part Name="Render" DisplayName="斯林斯 斥候" />
+  </object>
+  <object Name="Chiliad Slynth Kyakukya" Load="Merge">
+    <part Name="Render" DisplayName="斯林斯 苹果酒口" />
+  </object>
+  <object Name="Chiliad Slynth Ezra" Load="Merge">
+    <part Name="Render" DisplayName="斯林斯 流亡者" />
+  </object>
+  <object Name="Chiliad Slynth Yd Freehold" Load="Merge">
+    <part Name="Render" DisplayName="斯林斯 吹笛者" />
+  </object>
+  <object Name="Chiliad Slynth Mechanimists" Load="Merge">
+    <part Name="Render" DisplayName="斯林斯 领唱者" />
+  </object>
+  <object Name="Chiliad Slynth Mopango" Load="Merge">
+    <part Name="Render" DisplayName="斯林斯 朋友" />
+  </object>
+  <object Name="Chiliad Slynth Chavvah" Load="Merge">
+    <part Name="Render" DisplayName="水晶 斯林斯" />
+  </object>
+  <object Name="Chiliad Slynth Village" Load="Merge">
+    <part Name="Render" DisplayName="斯林斯 村民" />
+  </object>
+  <object Name="Nacham's Loom" Load="Merge">
+    <part Name="Render" DisplayName="纳查姆 的织机" />
+  </object>
+  <object Name="Kah's Conveyor" Load="Merge">
+    <part Name="Render" DisplayName="卡 的传送带" />
+  </object>
+  <object Name="Va'am's Blower" Load="Merge">
+    <part Name="Render" DisplayName="瓦姆 的鼓风机" />
+  </object>
+  <object Name="Dagasha's Crucifix" Load="Merge">
+    <part Name="Render" DisplayName="达迦莎 的十字架" />
+  </object>
+  <object Name="Godling" Load="Merge">
+    <part Name="Render" DisplayName="吉尔什 幼神" />
+  </object>
+  <object Name="True Godling" Load="Merge">
+    <part Name="Render" DisplayName="吉尔什 幼神" />
+  </object>
+  <object Name="Chiliad Creature Barathrumites" Load="Merge">
+    <part Name="Render" DisplayName="乌尔希布 =creatureRegionNoun=" />
+  </object>
+  <object Name="Chiliad Creature Cragmensch" Load="Merge">
+    <part Name="Render" DisplayName="岩民 =creatureRegionNoun=" />
+  </object>
+  <object Name="Chiliad Creature Girsh" Load="Merge">
+    <part Name="Render" DisplayName="=creatureRegionAdjective= 吉什林" />
+  </object>
+  <object Name="Chiliad Creature Hindren" Load="Merge">
+    <part Name="Render" DisplayName="兴德伦 =creatureRegionNoun=" />
+  </object>
+  <object Name="Chiliad Creature Issachari" Load="Merge">
+    <part Name="Render" DisplayName="伊萨查里 =creatureRegionNoun=" />
+  </object>
+  <object Name="Chiliad Creature Merchants" Load="Merge">
+    <part Name="Description" Short="一只 奥德鲁姆 三袋式挎包被汗水压贴在 =pronouns.possessive= 背上。" />
+  </object>
+  <object Name="Chiliad Creature Mopango" Load="Merge">
+    <part Name="Render" DisplayName="莫潘戈 =creatureRegionNoun=" />
+  </object>
+  <object Name="Chiliad Creature Naphtaali" Load="Merge">
+    <part Name="Render" DisplayName="纳夫塔利 =creatureRegionNoun=" />
+  </object>
+  <object Name="Chiliad Creature Snapjaws" Load="Merge">
+    <part Name="Render" DisplayName="咬颚兽 =creatureRegionNoun=" />
+  </object>
+  <object Name="Chiliad Creature Svardym" Load="Merge">
+    <part Name="Render" DisplayName="斯瓦迪姆 =creatureRegionNoun=" />
+  </object>
+</objects>

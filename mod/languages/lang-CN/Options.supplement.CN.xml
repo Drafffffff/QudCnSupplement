@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<options Lang="CN" Encoding="utf-8">
+  <option ID="OptionBrighterGreyWeights" DisplayText="使用更明亮的灰色显示重量" Category="无障碍" />
+  <option ID="OptionModernUI" DisplayText="启用现代 界面" Category="界面" />
+  <option ID="OptionPrereleaseStageScale" DisplayText="界面 缩放" Category="界面" />
+  <option ID="OptionModernCharacterSheet" DisplayText="启用现代 界面 角色面板" Category="界面" />
+  <option ID="OptionCharacterSheetAdditionalScale" Category="界面" />
+  <option ID="OptionPlayScale" Category="界面">
+    <helptext>
+        控制游玩区域在 界面 未占用区域内的缩放方式。
+
+        {{W|适应}}：让整个游玩区域适配屏幕。可能需要加上黑边。
+        {{W|覆盖}}：确保游玩区域覆盖屏幕。尽量减少黑边。
+        {{W|像素完美}}：将游玩区域缩放为像素图整数倍。最大化清晰度。
+      </helptext>
+  </option>
+  <option ID="OptionTileScale" Category="界面" />
+  <option ID="OptionAbilityBarMode" Category="界面" />
+  <option ID="OptionOverlayMinimap" Category="界面" />
+  <option ID="OptionOverlayNearbyObjects" Category="界面" />
+  <option ID="OptionOverlayNearbyObjectsLocal" Category="界面" />
+  <option ID="OptionOverlayNearbyObjectsPools" Category="界面" />
+  <option ID="OptionOverlayNearbyObjectsPlants" Category="界面" />
+  <option ID="OptionOverlayNearbyObjectsTakeable" Category="界面" />
+  <option ID="OptionMessageLineLogScale" Category="界面" />
+  <option ID="OptionDockMovable" Category="界面" />
+  <option ID="OptionDockOpacity" Category="界面" />
+  <option ID="OptionMouseCursor" Category="界面" />
+  <option ID="OptionMouseAutoHideCursorEnabled" Category="界面" />
+  <option ID="OptionControllerFont" Category="界面" />
+  <option ID="OptionFloatingKeyboard" Category="界面" />
+  <option ID="OptionZoomSensitivity" Category="界面" />
+  <option ID="OptionTooltipDelay" Category="界面" />
+  <option ID="Option@HPColor" Category="界面" />
+  <option ID="Option@AlwaysHPColor" Category="界面" />
+  <option ID="Option@MutationColor" Category="界面" />
+  <option ID="OptionDisplayMousableZoneTransitionBorder" Category="界面" />
+  <option ID="OptionShiftHidesSidebar" Category="界面" />
+  <option ID="OptionAllowFramelessZoomOut" DisplayText="缩放到最大缩小时，从主游戏画面移除 界面 边框" Category="界面" />
+  <option ID="OptionHighlightStairs" Category="界面" />
+  <option ID="OptionLogTurnSeparator" Category="界面" />
+  <option ID="OptionIndentBodyParts" Category="界面" />
+  <option ID="OptionShowDetailedWeaponStats" Category="界面" />
+  <option ID="OptionTakeallCorpses" Category="界面" />
+  <option ID="OptionDropAll" Category="界面" />
+  <option ID="OptionNavigateInventoryAndEquipmentWithPagination" Category="界面" />
+  <option ID="OptionPressingRightInInventoryEquips" Category="界面" />
+  <option ID="OptionExpandHighlightedInventoryAndEquipmentPane" Category="界面" />
+  <option ID="OptionStatusScreenSize" Category="界面" />
+  <option ID="OptionTutorialComplete" Category="界面" />
+  <option ID="OptionShowCollectionBadges" Category="界面" />
+  <option ID="OptionShowSidebarAbilities" Category="旧版 界面" />
+  <option ID="OptionShowCurrentCellPopup" Category="旧版 界面" />
+  <option ID="OptionShowMonsterHPHearts" DisplayText="按目标剩余 生命 为命中心着色" Category="旧版 界面" />
+  <option ID="OptionShowNumberOfItems" Category="旧版 界面" />
+  <option ID="OptionLocationIntseadOfName" Category="旧版 界面" />
+  <option ID="OptionMapDirectionsToKeypad" Category="旧版 界面" />
+  <option ID="OptionMapShiftDirectionToPage" Category="旧版 界面" />
+  <option ID="OptionPushAZHotkeys" DisplayText="总是将 A-Z 热键传递给旧版 界面" Category="旧版 界面" />
+  <option ID="OptionPromptFavoriteRecipe" DisplayText="提示收藏新的烹饪食谱" Category="提示" />
+  <option ID="OptionTextBuilderDebug" DisplayText="启用 文本构建器 泄漏分析">
+    <helptext>
+      大多数形式的 文本构建器 都需要释放，才能正确释放其池化资源；通常应使用 using 语句/声明。
+      如果漏掉了某个 文本构建器 的释放，会打印错误；启用此选项后，该错误会包含遗漏释放位置的堆栈跟踪。
+      </helptext>
+  </option>
+  <option ID="OptionDisableZoneThawRestrict" DisplayText="禁用区域解冻限制" Category="调试">
+    <helptext>无视区域在当前游戏中的状态，尝试从数据库解冻该区域。
+例如：回溯后也可以解冻你在预知幻象中见过的区域。</helptext>
+  </option>
+  <option ID="OptionDrawFloodExplore" DisplayText="绘制自动探索洪泛填充" Category="调试" />
+  <option ID="OptionStripUIColorText" DisplayText="从 界面 文本中剥离颜色格式">
+    <helptext>移除所有 界面 字符串中的颜色格式。</helptext>
+  </option>
+  <option ID="OptionDebugStringTableLoadingChecks" DisplayText="启用额外的字符串表 XML 加载检查">
+    <helptext>加载字符串表 XML 时，如果字符串不存在于当前 Strings-example.xml 中，则记录警告</helptext>
+  </option>
+  <option ID="OptionDebugExampleLanguage">
+    <helptext>允许在语言选择器中选择示例语言文件。</helptext>
+  </option>
+</options>

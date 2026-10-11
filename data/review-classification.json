@@ -1,0 +1,19 @@
+{
+  "token_differences": {
+    "grammar_omission_or_structure_difference_needs_context_review": 233,
+    "same_variable_heads_translated_parameters_or_filters": 290
+  },
+  "retained_latin": {
+    "literary_proper_name_or_coinage_needs_editorial_review": 24,
+    "model_designation_or_roman_number": 73,
+    "credit_names_or_original_license_notice": 3,
+    "runtime_placeholder_other_syntax": 6,
+    "serialized_faction_and_relationship_keys": 24,
+    "proper_name_coinage_or_literal_needs_context_review": 43,
+    "technical_name_path_unit_or_abbreviation": 29,
+    "command_token_or_key_label": 22,
+    "procedural_naming_or_identifier": 7,
+    "serialized_option_keys_not_visible_labels": 15
+  },
+  "note": "Classifier documents a review queue; it does not certify semantic correctness or prove every remaining Latin fragment is required."
+}

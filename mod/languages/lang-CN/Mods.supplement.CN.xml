@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mods Lang="CN" Encoding="utf-8">
+  <mod Part="ModReinforced" Description="加固：+1 护甲" />
+  <mod Part="ModVisored" Description="带面罩：+1 闪避" />
+</mods>

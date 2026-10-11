@@ -1,0 +1,4017 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud - Generated Localizable XML 2.0.212.26
+
+<objects ExcludeFromCorpusGeneration="Key">
+
+  <object Name="Key" Load="">
+
+    <part Name="Key">
+
+    <builder Name="Key">
+
+    <tag Name="Key" Value="DisplayText">
+
+    <stag Name="Key">
+
+    <property Name="Key">
+
+    <xtagTextFragments>
+
+    <xtagGrammar>
+
+-->
+<objects Lang="CN" Encoding="utf-8">
+  <object Name="Projectile" Load="Merge">
+    <part Name="Render" DisplayName="{{c|投射物}}" />
+  </object>
+  <object Name="TemporaryProjectile" Load="Merge">
+    <part Name="Render" DisplayName="投射物" />
+  </object>
+  <object Name="MineShell" Load="Merge">
+    <part Name="Render" DisplayName="{{c|地雷}}" />
+    <part Name="Description" Short="熵乱被时间的虚拟对跖点卷入静滞，并封装进一枚金属圆盘。唯有移动的指令会引导它解凝。" />
+  </object>
+  <object Name="Grenade" Load="Merge">
+    <part Name="Render" DisplayName="{{c|[手雷]}}" />
+  </object>
+  <object Name="Club" Load="Merge">
+    <part Name="Render" DisplayName="棍棒" />
+    <part Name="Description" Short="木头被削成了一枚适合捶打的瘤头。" />
+  </object>
+  <object Name="Wrench" Load="Merge">
+    <part Name="Render" DisplayName="扳手" />
+    <part Name="Description" Short="一臂长的金属受尽时间折磨，又被旋拧的铁件贯穿，以换取额外扭矩。" />
+  </object>
+  <object Name="Pestle" Load="Merge">
+    <part Name="Render" DisplayName="杵" />
+    <part Name="Description" Short="一团石瘤沾满了体液质的粉末。" />
+  </object>
+  <object Name="Staff" Load="Merge">
+    <part Name="Render" DisplayName="长杖" />
+    <part Name="Description" Short="径切的巫木沿着扭曲的杖身披着千道刻痕。" />
+  </object>
+  <object Name="Walking Stick" Load="Merge">
+    <part Name="Render" DisplayName="手杖" />
+    <part Name="Description" Short="盐茎从沼泽故乡被割下，在高盐烈日下晒干。顶端盘旋成钩。" />
+  </object>
+  <object Name="Mace2" Load="Merge">
+    <part Name="Render" DisplayName="{{w|青铜}}钉头锤" />
+    <part Name="Description" Short="一团钟铜球茎被旋接到伤痕累累的木柄上。" />
+  </object>
+  <object Name="Warhammer2" Load="Merge">
+    <part Name="Render" DisplayName="铁钉头锤" />
+    <part Name="Description" Short="铁线展开，构成一枚六棱锤头。" />
+  </object>
+  <object Name="Steel War Hammer" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|钢}}战锤" />
+    <part Name="Description" Short="手油在柄杆上发亮，一大块抛光钢压在一端。" />
+  </object>
+  <object Name="Steel War Hammerth" Load="Merge">
+    <part Name="Render" DisplayName="双手{{Y|钢}}战锤" />
+    <part Name="Description" Short="手油在长柄上发亮，一大块沉重的抛光钢压在一端。" />
+  </object>
+  <object Name="Steel Hammer" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|钢}}钉头锤" />
+    <part Name="Description" Short="一团抛光钢从战斗啄痕遍布的杆身上鼓胀出来。" />
+  </object>
+  <object Name="Shillelagh" Load="Merge">
+    <part Name="Render" DisplayName="橡木棍" />
+    <part Name="Description" Short="在整个莫格拉伊，木料从北境巨木的树干上劈下，又被异邦技艺的修习者削成手杖。他们把一端树皮塑成橡木瘤节。" />
+  </object>
+  <object Name="Billowing Conch of the Aji" Load="Merge">
+    <part Name="Render" DisplayName="{{r|阿吉}}的鼓风海螺" />
+    <part Name="Description" Short="拳头大小的螺壳盘成柔和的螺旋，被烟灰熏黑，散发硫磺臭。" />
+  </object>
+  <object Name="Grandfather Horn" Load="Merge">
+    <part Name="Render" DisplayName="祖父号角" />
+    <part Name="Description" Short="这是一只苍白弯垂的老芒羊角，经风刻蚀，又饰以猩红流苏。" />
+  </object>
+  <object Name="Amber-Tipped Staff" Load="Merge">
+    <part Name="Render" DisplayName="琥珀头长杖" />
+    <part Name="Description" Short="这是一根瘤节盘曲的金合欢木杖，镶着一枚小小的原初琥珀球。" />
+  </object>
+  <object Name="Cudgel3" Load="Merge">
+    <part Name="Render" DisplayName="{{b|碳化物}}锤" />
+    <part Name="Description" Short="柄身扩成一块坚硬的蔚蓝金属多边体。表面上刻痕与划痕累累计数。" />
+  </object>
+  <object Name="Cudgel3th" Load="Merge">
+    <part Name="Render" DisplayName="双手{{b|碳化物}}锤" />
+    <part Name="Description" Short="长柄扩成一块坚硬对称的蔚蓝金属多边体。两颗锤头上刻痕与划痕累累计数。" />
+  </object>
+  <object Name="Cudgel4" Load="Merge">
+    <part Name="Render" DisplayName="{{B|碳化物}}折锤" />
+    <part Name="Description" Short="锤柄顶端覆着一枚明亮蔚蓝的金属锤头。更暗的条纹横过锤面与颈部，记录着它击打并锻压较软碳化物的位置。" />
+  </object>
+  <object Name="Cudgel4th" Load="Merge">
+    <part Name="Render" DisplayName="双手{{B|碳化物}}折锤" />
+    <part Name="Description" Short="锤杆顶端覆着一对明亮蔚蓝的金属锤头。更暗的条纹横过锤面与颈部，记录着它击打并锻压较软碳化物的位置。" />
+  </object>
+  <object Name="Cudgel5" Load="Merge">
+    <part Name="Render" DisplayName="{{K|富勒烯}}大锤" />
+    <part Name="Description" Short="一块昏暗而沉坠的金属团，像陨石一样焊在钢柄上。" />
+  </object>
+  <object Name="Cudgel5th" Load="Merge">
+    <part Name="Render" DisplayName="双手{{K|富勒烯}}大锤" />
+    <part Name="Description" Short="一块昏暗、双面的沉坠金属团，像陨石一样焊在钢杆上。" />
+  </object>
+  <object Name="Cudgel6" Load="Merge">
+    <part Name="Render" DisplayName="{{K|{{crysteel|晶钢}}钉头锤}}" />
+    <part Name="Description" Short="鼓风炉从行星中吸出潮汐能，将碳加热到太阳般的温度，再浇入六角模具。用于取出铸件的翡翠钳被雾化，并把钒，也就是那一抹绿光，排入歧管，使金属产生瑕疵，也赋予它特有的色泽。" />
+  </object>
+  <object Name="Cudgel6th" Load="Merge">
+    <part Name="Render" DisplayName="{{K|{{crysteel|晶钢}}战锤}}" />
+    <part Name="Description" Short="鼓风炉从行星中吸出潮汐能，将碳加热到太阳般的温度，再浇入六角模具。用于取出铸件的翡翠钳被雾化，并把钒，也就是那一抹绿光，排入歧管，使金属产生瑕疵，也赋予它特有的色泽。" />
+  </object>
+  <object Name="Cudgel7" Load="Merge">
+    <part Name="Render" DisplayName="{{K|无瑕{{crysteel|晶钢}}钉头锤}}" />
+    <part Name="Description" Short="鼓风炉从行星中吸出潮汐能，将碳加热到太阳般的温度，再浇入六角模具。用于取出铸件的翡翠钳被雾化，并把钒，也就是那一抹绿光，排入歧管，使金属产生瑕疵，也赋予它特有的色泽。带有尘粒斑点的铸件被剔出喂给食石者，只留下完美的六角棱柱。" />
+  </object>
+  <object Name="Cudgel7th" Load="Merge">
+    <part Name="Render" DisplayName="{{K|无瑕{{crysteel|晶钢}}战锤}}" />
+    <part Name="Description" Short="鼓风炉从行星中吸出潮汐能，将碳加热到太阳般的温度，再浇入六角模具。用于取出铸件的翡翠钳被雾化，并把钒，也就是那一抹绿光，排入歧管，使金属产生瑕疵，也赋予它特有的色泽。带有尘粒斑点的铸件被剔出喂给食石者，只留下完美的六角棱柱。" />
+  </object>
+  <object Name="Cudgel8" Load="Merge">
+    <part Name="Render" DisplayName="{{zetachrome|泽塔铬}}锤" />
+    <part Name="Description" Short="夸克-胶子等离子体在早期宇宙的虚空峰上迅速冷却并熄灭，只有那些被困在时空 6D 扭结中的小球例外。它们在那里沿尾流滑行了数十亿年，直到有存在发现它们，建造机器将其抽取并冷却，又在恒星炉中重新加热。" />
+  </object>
+  <object Name="Cudgel8th" Load="Merge">
+    <part Name="Render" DisplayName="{{zetachrome|泽塔铬}}战锤" />
+    <part Name="Description" Short="夸克-胶子等离子体在早期宇宙的虚空峰上迅速冷却并熄灭，只有那些被困在时空 6D 扭结中的小球例外。它们在那里沿尾流滑行了数十亿年，直到有存在发现它们，建造机器将其抽取并冷却，又在恒星炉中重新加热。" />
+  </object>
+  <object Name="Maghammer" Load="Merge">
+    <part Name="Render" DisplayName="{{c-C-Y-W alternation|磁锤}}" />
+    <part Name="Description" Short="海蓝色磁石环带缠绕着一柄沉重双拳警棍的击打部位。底部握柄上有个电池槽，用来给磁体供能。" />
+    <part Name="LatchesOn" BehaviorDescription="会吸附在金属物体上，持续 8-12 轮。" />
+  </object>
+  <object Name="Rhinox-Skull Maul" Load="Merge">
+    <part Name="Render" DisplayName="{{g|犀牛颅}}大锤" />
+    <part Name="Description" Short="厚重且钻石般坚硬的头骨，带着三个角孔，被当作巨型钝器锤头。一根闪亮长钢柄从巨口中贯入，并焊在里面。" />
+  </object>
+  <object Name="Stun Rod" Load="Merge">
+    <part Name="Render" DisplayName="{{c|震击}}棒" />
+    <part Name="Description" Short="一根长长的石板色短棒在颈部外张，容纳电容器和一枚震荡球茎。" />
+  </object>
+  <object Name="Prayer Rod" Load="Merge">
+    <part Name="Render" DisplayName="{{c|祈祷}}棒" />
+    <part Name="Description" Short="一根长长的石板色短棒在颈部外张，容纳电容器和一枚通电球茎，用灼烧的礼拜词烙印记忆。" />
+  </object>
+  <object Name="Syphon Baton" Load="Merge">
+    <part Name="Render" DisplayName="{{syphon|虹吸}}警棍" />
+    <part Name="Description" Short="环形磁体组成圆柱形锤头，用来砸击物体，并把它们的电子汁液虹吸进柄上插槽里的电池。" />
+  </object>
+  <object Name="Dagger" Load="Merge">
+    <part Name="Render" DisplayName="{{w|青铜}}匕首" />
+    <part Name="Description" Short="钟铜被塑成尖锋，柄上缠着皮革。" />
+  </object>
+  <object Name="Desert Kris" Load="Merge">
+    <part Name="Render" DisplayName="荒漠波刃匕首" />
+    <part Name="Description" Short="铁刃从岩盐般短粗的柄中蜿蜒伸出。" />
+  </object>
+  <object Name="Dagger2" Load="Merge">
+    <part Name="Render" DisplayName="铁匕首" />
+    <part Name="Description" Short="凹坑点缀着刃身，像铁质锋界上的陨坑。" />
+  </object>
+  <object Name="Steel Kukri" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|钢}}反曲刀" />
+    <part Name="Description" Short="明亮金属从皮绒刀柄中流出，沿着杀手般的反曲弧线延展。" />
+  </object>
+  <object Name="Steel Dagger" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|钢}}匕首" />
+    <part Name="Description" Short="刃口明亮而抛光。" />
+  </object>
+  <object Name="Steel Utility Knife" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|钢}}工具刀" />
+    <part Name="Description" Short="一把被使用磨钝、沾满指痕的刀向内折叠收拢。" />
+  </object>
+  <object Name="Steel Potter's Knife" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|钢}}陶工刀" />
+    <part Name="Description" Short="湿黏土裹在刃上，泥土结块糊住刀柄。" />
+  </object>
+  <object Name="Steel Butcher Knife" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|钢}}屠刀" />
+    <part Name="Description" Short="宽阔明亮的刀刃被内脏涂抹过。" />
+    <part Name="IntPropertyChanger" NameForStatus="刃口" />
+  </object>
+  <object Name="Dagger3" Load="Merge">
+    <part Name="Render" DisplayName="{{b|碳化物}}匕首" />
+    <part Name="Description" Short="盐霜和伤痕沿着蔚蓝刃口拖成彗尾。" />
+  </object>
+  <object Name="Obsidian Kris" Load="Merge">
+    <part Name="Render" DisplayName="{{K|黑曜石}}波刃匕首" />
+    <part Name="Description" Short="火山玻璃从烟神海中捞起，又沿冰焰堆被敲削成形。" />
+  </object>
+  <object Name="Dagger4" Load="Merge">
+    <part Name="Render" DisplayName="{{B|折叠碳化物}}匕首" />
+    <part Name="Description" Short="蓝而闪亮的金属收窄成刺入用的尖端。" />
+  </object>
+  <object Name="ArmDagger4" Load="Merge">
+    <part Name="Render" DisplayName="{{B|折叠碳化物}}腕刃" />
+    <part Name="Description" Short="一条皮革带穿绕过明亮刀刃的柄。" />
+  </object>
+  <object Name="Dagger5" Load="Merge">
+    <part Name="Render" DisplayName="{{K|富勒烯}}匕首" />
+    <part Name="Description" Short="致密昏暗的金属剃刃呈锯折形。刃面哑光，无星无芒。" />
+  </object>
+  <object Name="Dagger6" Load="Merge">
+    <part Name="Render" DisplayName="{{K|{{crysteel|晶钢}}匕首}}" />
+    <part Name="Description" Short="鼓风炉从行星中吸出潮汐能，将碳加热到太阳般的温度，再浇入六角模具。用于取出铸件的翡翠钳被雾化，并把钒，也就是那一抹绿光，排入歧管，使金属产生瑕疵，也赋予它特有的色泽。" />
+  </object>
+  <object Name="Dagger7" Load="Merge">
+    <part Name="Render" DisplayName="{{K|无瑕{{crysteel|晶钢}}匕首}}" />
+    <part Name="Description" Short="鼓风炉从行星中吸出潮汐能，将碳加热到太阳般的温度，再浇入六角模具。用于取出铸件的翡翠钳被雾化，并把钒，也就是那一抹绿光，排入歧管，使金属产生瑕疵，也赋予它特有的色泽。带有尘粒斑点的铸件被剔出喂给食石者，只留下完美的六角棱柱。" />
+  </object>
+  <object Name="Dagger8" Load="Merge">
+    <part Name="Render" DisplayName="{{zetachrome|泽塔铬}}匕首" />
+    <part Name="Description" Short="夸克-胶子等离子体在早期宇宙的虚空峰上迅速冷却并熄灭，只有那些被困在时空 6D 扭结中的小球例外。它们在那里沿尾流滑行了数十亿年，直到有存在发现它们，建造机器将其抽取并冷却，又在恒星炉中重新加热。" />
+  </object>
+  <object Name="Vibro Dagger" Load="Merge">
+    <part Name="Render" DisplayName="{{c|振动匕首}}" />
+    <part Name="Description" Short="一片哑光离子塑纤刃安在带指托的柄上。充能时，它在高幅振动中模糊，并把挡路的物质障碍挤开。" />
+    <part Name="RulesDescription" Text="充能时，这把武器的穿透值等于防御者的护甲值。" />
+  </object>
+  <object Name="Gaslight Dagger" Load="Merge">
+    <part Name="Render" DisplayName="{{gaslight|气光}}波刃匕首" />
+    <part Name="Description" Short="一道皱褶的苍白光束从木柄中的孔道抽出。运动时，它升温到足以熔化钢铁，并嗡鸣着驱散物质。" />
+  </object>
+  <object Name="Gaslight Sword" Load="Merge">
+    <part Name="Render" DisplayName="{{gaslight|气光}}飞刃剑" />
+    <part Name="Description" Short="一道细长渐收的苍白光束从木柄中的孔道抽出。运动时，它升温到足以熔化钢铁，并嗡鸣着驱散物质。" />
+  </object>
+  <object Name="Gaslight Chisel" Load="Merge">
+    <part Name="Render" DisplayName="{{gaslight|气光}}凿" />
+    <part Name="Description" Short="一道粗壮的苍白光束从木柄中的孔道抽出。运动时，它升温到足以熔化钢铁，并嗡鸣着驱散物质。" />
+  </object>
+  <object Name="Battle Axe" Load="Merge">
+    <part Name="Render" DisplayName="{{w|青铜}}战斧" />
+    <part Name="Description" Short="湿皮革缠绕木柄，一直裹到磨尖的钟铜斧刃下。" />
+  </object>
+  <object Name="Hand Axe" Load="Merge">
+    <part Name="Render" DisplayName="手斧" />
+    <part Name="Description" Short="斧刃饰着盐茎的碎裂细须。" />
+  </object>
+  <object Name="Iron Vinereaper" Load="Merge">
+    <part Name="Render" DisplayName="铁藤割镰" />
+    <part Name="Description" Short="锻铁被塑成新月，用来割开水藤粗糙的外皮。" />
+  </object>
+  <object Name="Battle Axe2" Load="Merge">
+    <part Name="Render" DisplayName="铁战斧" />
+    <part Name="Description" Short="发丝般的锈迹在这把年岁疲惫的斧上，从一端钩刃缠到另一端钩刃。" />
+  </object>
+  <object Name="Steel Battle Axe" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|钢}}战斧" />
+    <part Name="Description" Short="抛光钢在平直斧面上闪亮，皮脂沾染了皮革斧柄的绑带。" />
+  </object>
+  <object Name="Steel Battle Axeth" Load="Merge">
+    <part Name="Render" DisplayName="双手{{Y|钢}}战斧" />
+    <part Name="Description" Short="抛光钢在双面的平直斧面上闪亮，皮脂沾染了长皮革斧柄的绑带。" />
+  </object>
+  <object Name="Steel Hand Axe" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|钢}}手斧" />
+    <part Name="Description" Short="一块亮钢被磨出锋刃。" />
+  </object>
+  <object Name="Opal-Pommeled Steel Axe" Load="Merge">
+    <part Name="Render" DisplayName="蛋白石柄首{{Y|钢}}战斧" />
+    <part Name="Description" Short="抛光钢在平直斧面上闪亮，皮脂沾染了皮革斧柄的绑带。柄首镶着一枚闪耀的蛋白石。" />
+  </object>
+  <object Name="Steel Vinereaper" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|钢}}藤割镰" />
+    <part Name="Description" Short="亮钢被塑成新月，用来割开水藤粗糙的外皮。" />
+  </object>
+  <object Name="Battle Axe3" Load="Merge">
+    <part Name="Render" DisplayName="{{b|碳化物}}战斧" />
+    <part Name="Description" Short="蔚蓝刃口的光泽在斧刃须部淡入阴影，后刺平衡着整块刃体。" />
+  </object>
+  <object Name="Battle Axe3th" Load="Merge">
+    <part Name="Render" DisplayName="双手{{b|碳化物}}战斧" />
+    <part Name="Description" Short="宽阔蔚蓝刃口的光泽在双斧刃的须部淡入阴影。发丝般的裂纹缠绕斧柄。" />
+  </object>
+  <object Name="Battle Axe4" Load="Merge">
+    <part Name="Render" DisplayName="{{B|折叠碳化物}}战斧" />
+    <part Name="Description" Short="明亮蔚蓝的金属延展成优雅半圆，绑在钢柄上。" />
+  </object>
+  <object Name="Battle Axe4th" Load="Merge">
+    <part Name="Render" DisplayName="双手{{B|折叠碳化物}}战斧" />
+    <part Name="Description" Short="明亮蔚蓝的金属延展成两个优雅半圆，绑在长钢柄上。" />
+  </object>
+  <object Name="Battle Axe5" Load="Merge">
+    <part Name="Render" DisplayName="{{K|富勒烯}}战斧" />
+    <part Name="Description" Short="一片剃刀般锋利的昏暗金属楔被焊到钢斧柄上。" />
+  </object>
+  <object Name="Battle Axe5th" Load="Merge">
+    <part Name="Render" DisplayName="{{K|富勒烯}}双手斧" />
+    <part Name="Description" Short="一片宽阔而剃刀般锋利的昏暗金属楔被焊到巨大的钢斧柄上。" />
+  </object>
+  <object Name="Battle Axe6" Load="Merge">
+    <part Name="Render" DisplayName="{{K|{{crysteel|晶钢}}战斧}}" />
+    <part Name="Description" Short="鼓风炉从行星中吸出潮汐能，将碳加热到太阳般的温度，再浇入六角模具。用于取出铸件的翡翠钳被雾化，并把钒，也就是那一抹绿光，排入歧管，使金属产生瑕疵，也赋予它特有的色泽。" />
+  </object>
+  <object Name="Battle Axe6th" Load="Merge">
+    <part Name="Render" DisplayName="{{K|{{crysteel|晶钢}}戟}}" />
+    <part Name="Description" Short="鼓风炉从行星中吸出潮汐能，将碳加热到太阳般的温度，再浇入六角模具。用于取出铸件的翡翠钳被雾化，并把钒，也就是那一抹绿光，排入歧管，使金属产生瑕疵，也赋予它特有的色泽。" />
+  </object>
+  <object Name="Battle Axe7" Load="Merge">
+    <part Name="Render" DisplayName="{{K|无瑕{{crysteel|晶钢}}战斧}}" />
+    <part Name="Description" Short="鼓风炉从行星中吸出潮汐能，将碳加热到太阳般的温度，再浇入六角模具。用于取出铸件的翡翠钳被雾化，并把钒，也就是那一抹绿光，排入歧管，使金属产生瑕疵，也赋予它特有的色泽。带有尘粒斑点的铸件被剔出喂给食石者，只留下完美的六角棱柱。" />
+  </object>
+  <object Name="Battle Axe7th" Load="Merge">
+    <part Name="Render" DisplayName="{{K|无瑕{{crysteel|晶钢}}戟}}" />
+    <part Name="Description" Short="鼓风炉从行星中吸出潮汐能，将碳加热到太阳般的温度，再浇入六角模具。用于取出铸件的翡翠钳被雾化，并把钒，也就是那一抹绿光，排入歧管，使金属产生瑕疵，也赋予它特有的色泽。带有尘粒斑点的铸件被剔出喂给食石者，只留下完美的六角棱柱。" />
+  </object>
+  <object Name="Battle Axe8" Load="Merge">
+    <part Name="Render" DisplayName="{{zetachrome|泽塔铬}}战斧" />
+    <part Name="Description" Short="夸克-胶子等离子体在早期宇宙的虚空峰上迅速冷却并熄灭，只有那些被困在时空 6D 扭结中的小球例外。它们在那里沿尾流滑行了数十亿年，直到有存在发现它们，建造机器将其抽取并冷却，又在恒星炉中重新加热。" />
+  </object>
+  <object Name="Battle Axe8th" Load="Merge">
+    <part Name="Render" DisplayName="{{zetachrome|泽塔铬}}戟" />
+    <part Name="Description" Short="夸克-胶子等离子体在早期宇宙的虚空峰上迅速冷却并熄灭，只有那些被困在时空 6D 扭结中的小球例外。它们在那里沿尾流滑行了数十亿年，直到有存在发现它们，建造机器将其抽取并冷却，又在恒星炉中重新加热。" />
+  </object>
+  <object Name="Stun Whip" Load="Merge">
+    <part Name="Render" DisplayName="{{c|震击鞭}}" />
+    <part Name="Description" Short="一条带状金属鞭索颤动着，蕴着震荡势能。塑纤握柄的尾结处开有电池匣插槽。" />
+  </object>
+  <object Name="Leather Whip" Load="Merge">
+    <part Name="Render" DisplayName="{{w|皮革}}鞭" />
+    <part Name="Description" Short="皮革穿过环结编成盘卷的鞭索。鞭梢上有血迹。" />
+  </object>
+  <object Name="Long Sword" Load="Merge">
+    <part Name="Render" DisplayName="{{w|青铜}}长剑" />
+    <part Name="Description" Short="划痕在钟铜长刃上交错成格，皮脂润湿了皮革握柄。" />
+  </object>
+  <object Name="Two-Handed Sword" Load="Merge">
+    <part Name="Render" DisplayName="{{w|青铜}}双手剑" />
+    <part Name="Description" Short="划痕在宽阔的钟铜长刃上交错成格，皮脂润湿了双手皮革握柄。" />
+  </object>
+  <object Name="Long Sword2" Load="Merge">
+    <part Name="Render" DisplayName="铁长剑" />
+    <part Name="Description" Short="凹坑沿刃身分布，像铁质锋界上的陨坑。" />
+  </object>
+  <object Name="Long Sword2th" Load="Merge">
+    <part Name="Render" DisplayName="双手铁长剑" />
+    <part Name="Description" Short="凹坑沿宽阔刃身分布，像铁质锋界上的陨坑。" />
+  </object>
+  <object Name="Steel Long Sword" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|钢}}长剑" />
+    <part Name="Description" Short="长刃明亮而抛光。" />
+  </object>
+  <object Name="Steel Long Swordth" Load="Merge">
+    <part Name="Render" DisplayName="双手{{Y|钢}}长剑" />
+    <part Name="Description" Short="长刃明亮而抛光。宽握柄上沾着数十枚油腻指印。" />
+  </object>
+  <object Name="Long Sword3" Load="Merge">
+    <part Name="Render" DisplayName="{{b|碳化物}}长剑" />
+    <part Name="Description" Short="盐霜与伤痕沿着蔚蓝刃口拖成彗尾。" />
+  </object>
+  <object Name="Long Sword3th" Load="Merge">
+    <part Name="Render" DisplayName="双手{{b|碳化物}}长剑" />
+    <part Name="Description" Short="盐霜与伤痕沿着宽阔的蔚蓝刃口拖成彗尾。" />
+  </object>
+  <object Name="Long Sword4" Load="Merge">
+    <part Name="Render" DisplayName="{{B|折叠碳化物}}长剑" />
+    <part Name="Description" Short="明亮金属被抛至幽灵般的光泽。深浅蓝纹显示着刃身在锻炉上经碳折叠的位置。" />
+  </object>
+  <object Name="Long Sword4th" Load="Merge">
+    <part Name="Render" DisplayName="双手{{B|折叠碳化物}}长剑" />
+    <part Name="Description" Short="明亮宽阔的金属被抛至幽灵般的光泽。深浅蓝纹显示着大刃在锻炉上经碳折叠的位置。" />
+  </object>
+  <object Name="Long Sword5" Load="Merge">
+    <part Name="Render" DisplayName="{{K|富勒烯}}长剑" />
+    <part Name="Description" Short="哑光无星合金的剃刀刃，从剑尖一路延伸到焊接的钢柄。" />
+  </object>
+  <object Name="Long Sword5th" Load="Merge">
+    <part Name="Render" DisplayName="双手{{K|富勒烯}}长剑" />
+    <part Name="Description" Short="哑光无星合金的宽阔剃刀刃，从剑尖一路延伸到焊接的钢柄。" />
+  </object>
+  <object Name="Long Sword6" Load="Merge">
+    <part Name="Render" DisplayName="{{K|{{crysteel|晶钢}}长剑}}" />
+    <part Name="Description" Short="鼓风炉从行星中吸出潮汐能，将碳加热到太阳般的温度，再浇入六角模具。用于取出铸件的翡翠钳被雾化，并把钒，也就是那一抹绿光，排入歧管，使金属产生瑕疵，也赋予它特有的色泽。" />
+  </object>
+  <object Name="Long Sword6th" Load="Merge">
+    <part Name="Render" DisplayName="{{K|{{crysteel|晶钢}}大剑}}" />
+    <part Name="Description" Short="鼓风炉从行星中吸出潮汐能，将碳加热到太阳般的温度，再浇入六角模具。用于取出铸件的翡翠钳被雾化，并把钒，也就是那一抹绿光，排入歧管，使金属产生瑕疵，也赋予它特有的色泽。" />
+  </object>
+  <object Name="Long Sword7" Load="Merge">
+    <part Name="Render" DisplayName="{{K|无瑕{{crysteel|晶钢}}长剑}}" />
+    <part Name="Description" Short="鼓风炉从行星中吸出潮汐能，将碳加热到太阳般的温度，再浇入六角模具。用于取出铸件的翡翠钳被雾化，并把钒，也就是那一抹绿光，排入歧管，使金属产生瑕疵，也赋予它特有的色泽。带有尘粒斑点的铸件被剔出喂给食石者，只留下完美的六角棱柱。" />
+  </object>
+  <object Name="Long Sword7th" Load="Merge">
+    <part Name="Render" DisplayName="{{K|无瑕{{crysteel|晶钢}}大剑}}" />
+    <part Name="Description" Short="鼓风炉从行星中吸出潮汐能，将碳加热到太阳般的温度，再浇入六角模具。用于取出铸件的翡翠钳被雾化，并把钒，也就是那一抹绿光，排入歧管，使金属产生瑕疵，也赋予它特有的色泽。带有尘粒斑点的铸件被剔出喂给食石者，只留下完美的六角棱柱。" />
+  </object>
+  <object Name="Sharpened Polyp" Load="Merge">
+    <part Name="Render" DisplayName="磨尖的{{r|珊瑚虫}}" />
+    <part Name="Description" Short="骨质珊瑚从它的礁巢上撕下，被啃成切割用的锋刃。" />
+  </object>
+  <object Name="Ceremonial Khopesh" Load="Merge">
+    <part Name="Render" DisplayName="仪式振动镰剑" />
+    <part Name="Description" Short="一缕阿祖蓝贯穿剑柄，引导幻钢外弧。刃口模糊成死去诗节的文字。" />
+    <part Name="BootSequence" VerbOnBootInitialized="嗡响" VerbOnBootDone="低鸣" VerbOnBootAborted="咔哒作响" />
+  </object>
+  <object Name="Long Sword8" Load="Merge">
+    <part Name="Render" DisplayName="{{zetachrome|泽塔铬}}长剑" />
+    <part Name="Description" Short="夸克-胶子等离子体在早期宇宙的虚空峰上迅速冷却并熄灭，只有那些被困在时空 6D 扭结中的小球例外。它们在那里沿尾流滑行了数十亿年，直到有存在发现它们，建造机器将其抽取并冷却，又在恒星炉中重新加热。" />
+  </object>
+  <object Name="Long Sword8th" Load="Merge">
+    <part Name="Render" DisplayName="双手{{zetachrome|泽塔铬}}长剑" />
+    <part Name="Description" Short="夸克-胶子等离子体在早期宇宙的虚空峰上迅速冷却并熄灭，只有那些被困在时空 6D 扭结中的小球例外。它们在那里沿尾流滑行了数十亿年，直到有存在发现它们，建造机器将其抽取并冷却，又在恒星炉中重新加热。" />
+  </object>
+  <object Name="Vibro Blade" Load="Merge">
+    <part Name="Render" DisplayName="{{c|振动刃}}" />
+    <part Name="Description" Short="一片细长的哑光离子塑纤刃安在带指托的柄上。充能时，它在高幅振动中模糊，并把挡路的物质障碍挤开。" />
+    <part Name="RulesDescription" Text="充能时，这把武器的穿透值等于防御者的护甲值。" />
+  </object>
+  <object Name="Shayna" Load="Merge">
+    <part Name="Render" DisplayName="{{w-w-Y-w-w-w sequence|谢娜}}" />
+    <part Name="Description" Short="它曾经只是一把碳化物斧，如今却是繁丽的艺术品。卷曲导线像玫瑰藤蔓般缠绕武器柄杆；模块和电池壳装在刃面上，仿佛花朵本该停驻之处。" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="Ari" Load="Merge">
+    <part Name="Render" DisplayName="{{R-W-Y sequence|阿里}}" />
+    <part Name="Description" Short="空气在三角斧头周围游动，如高盐烈日蒸出的热浪。这样的战争武器似乎并不适合兴德伦那样的农耕民族，但它足以说明，被逼入绝境的猎物在漫长时间尺度上会如何反应。" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="Yal" Load="Merge">
+    <part Name="Render" DisplayName="{{B-C-Y sequence|雅尔}}" />
+    <part Name="Description" Short="名为雅尔的祖传工具半是战斧、半是藤割镰，唤起兴德伦耕作者与严冬残酷之间的斗争。刺骨寒意从弧形刃上辐散。" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="Caslainard" Load="Merge">
+    <part Name="Render" DisplayName="{{B-B-b-w-W-Y-W-w-b-B sequence|卡斯莱纳德}}" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="Polluxus" Load="Merge">
+    <part Name="Render" DisplayName="{{w-W-Y-W-w-b-B-B sequence|波鲁克苏斯}}" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="Difucila" Load="Merge">
+    <part Name="Render" DisplayName="蚀刻砍刀" />
+    <part Name="Description" Short="宽阔油亮的刀刃边缘蚀刻着美丽的叶带。松木柄上刻着它的名字：迪芙奇拉。" />
+    <part Name="MakersMark" CrafterName="斯帕拉富奇莱" />
+    <xtagGrammar Proper="false" />
+  </object>
+  <object Name="Fist of the Ape God" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|猿神}}之{{r|拳}}" />
+    <part Name="Description" Short="苋红色、在月光下干涸的命血，涂抹着死林萨阿德紧握的巨拳。目睹它，时间一条右吹的缎带便舒展开来：在全部或近乎全部未来中，这都是一件圣遗物，而持用者或许是=pronouns.possessive=化石伴侣与秘密共知者。" />
+  </object>
+  <object Name="La Jeunesse" Load="Merge">
+    <part Name="Render" DisplayName="{{r|拉}}{{r-R-R-W-W-w-w sequence|热内斯}}" />
+    <part Name="Description" Short="剑柄曾被折断又重铸，由铁、宝石与皮革拼合而成，穿过过去的棱镜散光，并永远生成新物。刃身承载着技法的伤痕，正是这些技法一次又一次迫使它成为杀戮之形。" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="BaseLeadSlugProjectile" Load="Merge">
+    <part Name="Render" DisplayName="铅弹" />
+    <part Name="Projectile" PassByVerb="嗖地掠过" />
+  </object>
+  <object Name="Lead Slug" Load="Merge">
+    <part Name="Render" DisplayName="铅弹" />
+    <part Name="Description" Short="铅被铸成圆柱块，又削出尖头。" />
+  </object>
+  <object Name="Desert Rifle" Load="Merge">
+    <part Name="Render" DisplayName="以萨迦步枪" />
+    <part Name="Description" Short="百场盐暴在钢制枪管上洒满麻点。枪托由纤维状盐茎匙刻而成，带着以萨迦沙丘部族的风格。" />
+  </object>
+  <object Name="Carbine" Load="Merge">
+    <part Name="Render" DisplayName="卡宾枪" />
+    <part Name="Description" Short="碳钢在锯短的枪口上发亮。凹陷的枪托以直角抵向肩头。" />
+  </object>
+  <object Name="MasterworkCarbine" Load="Merge">
+    <part Name="MakersMark" CrafterName="斯帕拉富奇莱" />
+  </object>
+  <object Name="MasterworkChainPistol" Load="Merge">
+    <part Name="MakersMark" CrafterName="斯帕拉富奇莱" />
+  </object>
+  <object Name="Sniper Rifle" Load="Merge">
+    <part Name="Render" DisplayName="狙击步枪" />
+    <part Name="Description" Short="专家级膛线把碳钢枪管刻出精确螺旋槽。瞄准镜玻璃上印着污痕。" />
+  </object>
+  <object Name="Musket" Load="Merge">
+    <part Name="Render" DisplayName="火绳枪" />
+    <part Name="Description" Short="拾得钢制成的滑膛枪管，被火药污垢的麻点熏黑。" />
+  </object>
+  <object Name="Laser Rifle" Load="Merge">
+    <part Name="Render" DisplayName="{{C|激光}}步枪" />
+    <part Name="Description" Short="套叠圆筒夹住镜点，其下长出一根精灵般的枪托，由海运坚果木制成。" />
+  </object>
+  <object Name="ProjectileLaserRifle" Load="Merge">
+    <part Name="Render" DisplayName="{{C|激光束}}" />
+    <part Name="Projectile" PassByVerb="划过" />
+    <part Name="TreatAsSolid" Message="黑暗吞没了 =subject.t=！" />
+  </object>
+  <object Name="Chain Laser" Load="Merge">
+    <part Name="Render" DisplayName="连发{{C|激光器}}" />
+    <part Name="Description" Short="三根碳钢枪管合成一枚弧边三角，带着发光仪式感。它们把镜点夹在内部。" />
+  </object>
+  <object Name="Eigenrifle" Load="Merge">
+    <part Name="Render" DisplayName="本征步枪" />
+    <part Name="Description" Short="一具方板瞄具垂直于霓蓝枪管，嵌着巨大的目镜。枪身倾斜时，透镜中的景象会扭曲，但绘出的向量保持不变。" />
+  </object>
+  <object Name="ProjectileEigenrifle" Load="Merge">
+    <part Name="Render" DisplayName="{{B|点向量}}" />
+    <part Name="Projectile" PassByVerb="低鸣" />
+  </object>
+  <object Name="Freeze Ray" Load="Merge">
+    <part Name="Render" DisplayName="{{freezing|冻结}}射线" />
+    <part Name="Description" Short="气态冷却剂翻涌穿过薄绸管，在宽阔平面的镀铬枪管上凝出露珠。它从覆冰碎痕的枪口溢入空气。" />
+  </object>
+  <object Name="ProjectileFreezeRay" Load="Merge">
+    <part Name="Render" DisplayName="{{C|能量束}}" />
+    <part Name="Projectile" PassByVerb="噼啪作响" />
+  </object>
+  <object Name="Hypertractor" Load="Merge">
+    <part Name="Render" DisplayName="{{hypertractor|超牵引器}}" />
+    <part Name="Description" Short="带膛线的棱镜折射并重新聚焦光线，把事物隧穿到持用者身边。诡辩家称它为“来此射线”。" />
+  </object>
+  <object Name="ProjectileHookRay" Load="Merge">
+    <part Name="Render" DisplayName="{{R|能量束}}" />
+    <part Name="Projectile" PassByVerb="低鸣" />
+    <part Name="TreatAsSolid" Message="=subject.T=在常态的压力下=verb:collapse=。" />
+  </object>
+  <object Name="Light Rail" Load="Merge">
+    <part Name="Render" DisplayName="{{W|光}}轨" />
+    <part Name="Description" Short="匠心雕刻的木质结构托起六根平行导体和一具滑动光子电枢。步枪枪托上的木纹被灼成黑色。" />
+  </object>
+  <object Name="ProjectileLightrail" Load="Merge">
+    <part Name="Render" DisplayName="{{W|长光子}}" />
+    <part Name="Projectile" PassByVerb="低鸣" />
+    <part Name="TreatAsSolid" Message="黑暗吞噬了=subject.t=！" />
+  </object>
+  <object Name="Spaser Rifle" Load="Merge">
+    <part Name="Render" DisplayName="{{spaser|表面等离激元}}步枪" />
+    <part Name="Description" Short="色汽缭绕的晶钢包裹着金/水机制，将光从波长捏压到波短。等离激元炉渣在枪管脊上鼓泡，如过热的淤泥生命。" />
+  </object>
+  <object Name="ProjectileSpaserRifle" Load="Merge">
+    <part Name="Render" DisplayName="{{G|等离激元}}" />
+    <part Name="Projectile" PassByVerb="低鸣" />
+  </object>
+  <object Name="Phase Cannon" Load="Merge">
+    <part Name="Render" DisplayName="相位炮" />
+    <part Name="Description" Short="距骨状节标示着截锥体纵向的相位狭缝。噪声被从时间中吸出，等待跨平面融合。" />
+  </object>
+  <object Name="ProjectilePhaseCannon" Load="Merge">
+    <part Name="Render" DisplayName="{{M|能量矢}}" />
+    <part Name="Projectile" PassByVerb="划过" />
+    <part Name="TreatAsSolid" Message="=subject.T=在常态的压力下=verb:collapse=。" />
+  </object>
+  <object Name="Short Bow" Load="Merge">
+    <part Name="Render" DisplayName="短弓" />
+    <part Name="Description" Short="一只盐跃者的后骨被灼烧干净，弯成反曲弓。筋腱系在弓弭上。" />
+  </object>
+  <object Name="Compound Bow" Load="Merge">
+    <part Name="Render" DisplayName="复合弓" />
+    <part Name="Description" Short="惰轮被修装到弓臂上，缠绕的缆线绷紧，以放大弓手的力量。" />
+  </object>
+  <object Name="Dart Gun" Load="Merge">
+    <part Name="Render" DisplayName="飞镖枪" />
+    <part Name="Description" Short="猪筋弓弦卡在盐茎轨后，轨身收窄到刚好容纳飞镖。" />
+  </object>
+  <object Name="Electrobow" Load="Merge">
+    <part Name="Render" DisplayName="{{W|电}}{{c|弓}}" />
+    <part Name="Description" Short="弦槽上的磁体低鸣，一道细长金属弧也回以嗡声。手指靠近箭台时，空气噼啪作响。" />
+  </object>
+  <object Name="ProjectileElectrobow" Load="Merge">
+    <part Name="Render" DisplayName="{{W|能量矢}}" />
+    <part Name="Projectile" PassByVerb="划过" />
+  </object>
+  <object Name="Turbow" Load="Merge">
+    <part Name="Render" DisplayName="{{turbow|涡轮弓}}" />
+    <part Name="EnergyAmmoLoader" NameForStatus="伺服辅助" />
+    <part Name="MagazineAmmoLoader" NameForStatus="投射物接口" />
+    <part Name="Description" Short="伺服器在轮槽上咔哒作响，一枚微型空气涡轮夸大了弓弦的拉力。" />
+    <part Name="RulesDescription" Text="这把武器让弹药的基础穿透提高 4。&#xA;这把武器让弹药的伤害骰提高 4。&#xA;这把武器让弹药的伤害加值提高 1。" />
+  </object>
+  <object Name="BaseArrowProjectile" Load="Merge">
+    <part Name="Projectile" PassByVerb="呼啸" />
+  </object>
+  <object Name="Wooden Arrow" Load="Merge">
+    <part Name="Render" DisplayName="木箭" />
+    <part Name="Description" Short="窄箭杆上装着鸟羽，顶端配有木箭头。" />
+  </object>
+  <object Name="ProjectileWoodenArrow" Load="Merge">
+    <part Name="Render" DisplayName="{{w|木箭}}" />
+  </object>
+  <object Name="Steel Arrow" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|钢}}箭" />
+    <part Name="Description" Short="窄箭杆上装着鸟羽，顶端配有钢箭头。" />
+  </object>
+  <object Name="ProjectileSteelArrow" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|钢}}箭" />
+  </object>
+  <object Name="Boomrose Arrow" Load="Merge">
+    <part Name="Render" DisplayName="{{R|爆玫}}箭" />
+    <part Name="Description" Short="红色与橙色在球茎状箭头中旋卷。离点燃只差一道刻槽。" />
+  </object>
+  <object Name="ProjectileExplosiveArrow" Load="Merge">
+    <part Name="Render" DisplayName="{{R|爆玫}}箭" />
+  </object>
+  <object Name="Carbide Arrow" Load="Merge">
+    <part Name="Render" DisplayName="{{b|碳化物}}箭" />
+    <part Name="Description" Short="窄箭杆上装着鸟羽，顶端配有碳化物箭头。" />
+  </object>
+  <object Name="ProjectileCarbideArrow" Load="Merge">
+    <part Name="Render" DisplayName="{{b|碳化物}}箭" />
+  </object>
+  <object Name="Folded Carbide Arrow" Load="Merge">
+    <part Name="Render" DisplayName="{{B|折叠碳化物}}箭" />
+    <part Name="Description" Short="窄箭杆上装着鸟羽，顶端配有折叠碳化物箭头。" />
+  </object>
+  <object Name="ProjectileFoldedCarbideArrow" Load="Merge">
+    <part Name="Render" DisplayName="{{B|折叠碳化物}}箭" />
+  </object>
+  <object Name="Fullerite Arrow" Load="Merge">
+    <part Name="Render" DisplayName="{{K|富勒烯箭}}" />
+    <part Name="Description" Short="窄箭杆上装着鸟羽，顶端配有富勒烯箭头。" />
+  </object>
+  <object Name="ProjectileFulleriteArrow" Load="Merge">
+    <part Name="Render" DisplayName="{{K|富勒烯}}箭" />
+  </object>
+  <object Name="Crysteel Arrow" Load="Merge">
+    <part Name="Render" DisplayName="{{K|{{crysteel|晶钢}}箭}}" />
+    <part Name="Description" Short="窄箭杆上装着鸟羽，顶端配有晶钢箭头。" />
+  </object>
+  <object Name="ProjectileCrysteelArrow" Load="Merge">
+    <part Name="Render" DisplayName="{{K|{{crysteel|晶钢}}箭}}" />
+  </object>
+  <object Name="Flawless Crysteel Arrow" Load="Merge">
+    <part Name="Render" DisplayName="{{K|无瑕{{crysteel|晶钢}}箭}}" />
+    <part Name="Description" Short="窄箭杆上装着鸟羽，顶端配有无瑕晶钢箭头。" />
+  </object>
+  <object Name="ProjectileFlawlessCrysteelArrow" Load="Merge">
+    <part Name="Render" DisplayName="{{K|无瑕{{crysteel|晶钢}}箭}}" />
+  </object>
+  <object Name="Zetachrome Arrow" Load="Merge">
+    <part Name="Render" DisplayName="{{zetachrome|泽塔铬}}箭" />
+    <part Name="Description" Short="窄箭杆上装着鸟羽，顶端配有泽塔铬箭头。" />
+  </object>
+  <object Name="ProjectileZetachromeArrow" Load="Merge">
+    <part Name="Render" DisplayName="{{zetachrome|泽塔铬}}箭" />
+  </object>
+  <object Name="BaseRocketProjectile" Load="Merge">
+    <part Name="Projectile" PassByVerb="呼啸" />
+  </object>
+  <object Name="Chaingun" Load="Merge">
+    <part Name="Render" DisplayName="链枪" />
+    <part Name="Description" Short="铬链缠绕着自卷飞轮，上面点着油脂露珠。一根长枪管被钢伤刻出缺口。" />
+  </object>
+  <object Name="Grenade Launcher" Load="Merge">
+    <part Name="Render" DisplayName="榴弹发射器" />
+    <part Name="Description" Short="击针敲击钢铁的滴答声令生灵惊跳。铬制瞄具抚平抛物线的弧。" />
+  </object>
+  <object Name="Missile Launcher" Load="Merge">
+    <part Name="Render" DisplayName="导弹发射器" />
+    <part Name="Description" Short="油脂浸湿待发握柄，顺着宽阔导弹滑槽流向焊接的肩托。" />
+  </object>
+  <object Name="HE Missile" Load="Merge">
+    <part Name="Render" DisplayName="高爆导弹" />
+    <part Name="Description" Short="明亮的气头装在钢铁死亡滑槽的末端。" />
+  </object>
+  <object Name="ProjectileHEMissile" Load="Merge">
+    <part Name="Render" DisplayName="导弹" />
+  </object>
+  <object Name="Flamethrower" Load="Merge">
+    <part Name="Render" DisplayName="火焰喷射器" />
+    <part Name="Description" Short="清澈燃料泵露出一条条油膜，后方电压表滴答作响。倾斜隔热板被熏成黑色。" />
+  </object>
+  <object Name="ProjectileFlamethrower" Load="Merge">
+    <part Name="Render" DisplayName="{{R|火焰流}}" />
+    <part Name="Projectile" PassByVerb="呼啸" />
+  </object>
+  <object Name="Defoliant Gas Pump" Load="Merge">
+    <part Name="Render" DisplayName="{{defoliant|落叶剂}}泵" />
+    <part Name="Description" Short="手泵滑入铬罐，罐身浮雕蚀刻着凋萎植物的图案。" />
+  </object>
+  <object Name="ProjectileDefoliantGasStream" Load="Merge">
+    <part Name="Render" DisplayName="{{defoliant|气流}}" />
+    <part Name="Projectile" PassByVerb="闪动" />
+  </object>
+  <object Name="Fungicide Gas Pump" Load="Merge">
+    <part Name="Render" DisplayName="{{fungicide|杀真菌剂}}泵" />
+    <part Name="Description" Short="手泵滑入铬罐，罐身浮雕蚀刻着腐烂真菌的图案。" />
+  </object>
+  <object Name="ProjectileFungicideGasStream" Load="Merge">
+    <part Name="Render" DisplayName="{{fungicide|气流}}" />
+    <part Name="Projectile" PassByVerb="涌过" />
+  </object>
+  <object Name="Mortar Tube" Load="Merge">
+    <part Name="Render" DisplayName="{{c|迫击炮管}}" />
+    <part Name="Description" Short="结块的枪尘涂在迫击炮内侧月弧上。" />
+  </object>
+  <object Name="ProjectileMortar" Load="Merge">
+    <part Name="Render" DisplayName="迫击炮弹" />
+    <part Name="Projectile" PassByVerb="疾飞" />
+  </object>
+  <object Name="Normality Gas Pump" Load="Merge">
+    <part Name="Render" DisplayName="{{normal|常态气体}}泵" />
+    <part Name="Description" Short="它由密封桶、软管和喷嘴组成。上面刻着字：“维度紧急时，喷洒”。" />
+  </object>
+  <object Name="ProjectileNormalityGasStream" Load="Merge">
+    <part Name="Render" DisplayName="气流" />
+    <part Name="Projectile" PassByVerb="涌过" />
+  </object>
+  <object Name="Arc Cannon" Load="Merge">
+    <part Name="Render" DisplayName="{{c|电弧炮}}" />
+    <part Name="Description" Short="绞合在一起的缆线形成爆破枪管，沿弯曲的电磁场线开火。" />
+  </object>
+  <object Name="ProjectileArcCannon" Load="Merge">
+    <part Name="Render" DisplayName="{{W|电弧}}" />
+    <part Name="Projectile" PassByVerb="跃过" />
+  </object>
+  <object Name="Linear Cannon" Load="Merge">
+    <part Name="Render" DisplayName="线性炮" />
+    <part Name="Description" Short="巴洛克式、风筝状的金属体沿轴线排列，像一台车床，从它们的内空间中削去维度。巨大的彩绘富勒烯枪托和握把支撑着它们惊人的重量。" />
+    <part Name="MagazineAmmoLoader" NameForStatus="装填机构" />
+    <part Name="EnergyAmmoLoader" NameForStatus="线性加速器" />
+  </object>
+  <object Name="ProjectileLinearCannon" Load="Merge">
+    <part Name="Render" DisplayName="{{y|一维弹}}" />
+    <part Name="Projectile" PassByVerb="疾射" />
+  </object>
+  <object Name="Blast Cannon" Load="Merge">
+    <part Name="Render" DisplayName="{{R|爆破}}炮" />
+    <part Name="EquipCharge" NameForStatus="能量上行链路" />
+    <part Name="Description" Short="光滑螺旋的矩阵金属枪管托着一枚巨大的离子气体圆筒。开火时，混合物被超高压压成弹丸，送往视线尽头爆裂。" />
+  </object>
+  <object Name="ProjectileBlastCannon" Load="Merge">
+    <part Name="Render" DisplayName="{{R|加压能量}}" />
+    <part Name="Projectile" PassByVerb="嗡鸣" />
+    <xtagGrammar massNoun="true" />
+  </object>
+  <object Name="Swarm Rack" Load="Merge">
+    <part Name="Render" DisplayName="{{m|蜂群架}}" />
+    <part Name="Description" Short="覆有石英尘的铬蜂巢托起视平面，并以湮灭威胁万物。焊接杆在它的巨重下弯曲，火箭弹头从六角蜂房中探出。" />
+  </object>
+  <object Name="ProjectileSwarmRocket" Load="Merge">
+    <part Name="Render" DisplayName="{{m|火箭弹}}" />
+  </object>
+  <object Name="Borderlands Revolver" Load="Merge">
+    <part Name="Render" DisplayName="铬左轮" />
+    <part Name="Description" Short="沾污染盐的铬转轮按月时咔哒转动。盐茎手板正上方，握柄徽章闪耀着德尔斐血统的光。" />
+  </object>
+  <object Name="Semi-Automatic Pistol" Load="Merge">
+    <part Name="Render" DisplayName="半自动手枪" />
+    <part Name="Description" Short="黑色亚克力握把上布满发丝裂纹，那是紧张而汗湿的手把射击精度挤压出去的地方。" />
+  </object>
+  <object Name="Grappling Gun" Load="Merge">
+    <part Name="Render" DisplayName="抓钩枪" />
+    <part Name="Description" Short="张力弹簧推着击针敲爆一管气体，射出带缆抓钩；随后绞盘将它卷回。" />
+  </object>
+  <object Name="ProjectileGrapplingGun" Load="Merge">
+    <part Name="Render" DisplayName="抓钩" />
+    <part Name="Projectile" PassByVerb="疾飞" />
+  </object>
+  <object Name="Chain Pistol" Load="Merge">
+    <part Name="Render" DisplayName="链式手枪" />
+    <part Name="Description" Short="一只锡般细薄的弹夹挂在划伤的铬制弹匣井上。" />
+  </object>
+  <object Name="Laser Pistol" Load="Merge">
+    <part Name="Render" DisplayName="{{C|激光}}手枪" />
+    <part Name="Description" Short="手枪上刻着水藤麻纹，并由盐石环绕。握柄上有一幅盐石图像：一名游牧者和一名骑士。骑士正击倒游牧者。" />
+  </object>
+  <object Name="ProjectileLaserPistol" Load="Merge">
+    <part Name="Render" DisplayName="{{C|激光束}}" />
+    <part Name="Projectile" PassByVerb="划过" />
+    <part Name="TreatAsSolid" Message="黑暗吞噬了=subject.t=！" />
+  </object>
+  <object Name="Eigenpistol" Load="Merge">
+    <part Name="Render" DisplayName="本征手枪" />
+    <part Name="Description" Short="一具方板瞄具垂直于霓蓝枪管，嵌着巨大的目镜。枪身倾斜时，透镜中的景象会扭曲，但绘出的向量保持不变。" />
+  </object>
+  <object Name="ProjectileEigenpistol" Load="Merge">
+    <part Name="Render" DisplayName="{{B|点向量}}" />
+    <part Name="Projectile" PassByVerb="低鸣" />
+  </object>
+  <object Name="Arc Winder" Load="Merge">
+    <part Name="Render" DisplayName="电弧卷绕器" />
+    <part Name="Description" Short="螺旋曲柄闭合铬壳电路，并通过两个接触尖端喷出电荷。烟雾在它们的黄光中旋舞。" />
+  </object>
+  <object Name="ProjectileElectroPistol" Load="Merge">
+    <part Name="Render" DisplayName="{{W|离子包}}" />
+    <part Name="Projectile" PassByVerb="飞过" />
+  </object>
+  <object Name="Nullray Pistol" Load="Merge">
+    <part Name="Render" DisplayName="{{K|零射线手枪}}" />
+    <part Name="Description" Short="枪管上的无星金属饮入光，并将其导向虚无之处。亚克力握柄仿照地脉纹样制成。" />
+  </object>
+  <object Name="ProjectileNullray" Load="Merge">
+    <part Name="Render" DisplayName="{{K|无}}" />
+    <part Name="Projectile" PassByVerb="经过" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="Hand Rail" Load="Merge">
+    <part Name="Render" DisplayName="{{W|手}}轨" />
+    <part Name="Description" Short="匠心雕刻的木质结构托起六根平行导体和一具滑动光子电枢。手枪枪托上的木纹被灼成黑色。" />
+  </object>
+  <object Name="ProjectileHandrail" Load="Merge">
+    <part Name="Render" DisplayName="{{W|长光子}}" />
+    <part Name="Projectile" PassByVerb="划过" />
+    <part Name="TreatAsSolid" Message="黑暗吞噬了=subject.t=！" />
+  </object>
+  <object Name="Di-Thermo Beam" Load="Merge">
+    <part Name="Render" DisplayName="{{R|双温}}射束" />
+    <part Name="Description" Short="冷却剂管和防冻剂管以对称几何锁入枪管。拇指拨片会旋转机构并反转它们的朝向。" />
+    <part Name="DiThermoBeam" HeatName="{{R|双温}}射束" ColdName="{{C|双温}}射束" />
+  </object>
+  <object Name="ProjectileDiThermoBeamHeat" Load="Merge">
+    <part Name="Render" DisplayName="{{R|热射束}}" />
+    <part Name="Projectile" PassByVerb="划过" />
+  </object>
+  <object Name="ProjectileDiThermoBeamCold" Load="Merge">
+    <part Name="Render" DisplayName="{{C|冷射束}}" />
+    <part Name="Projectile" PassByVerb="划过" />
+  </object>
+  <object Name="Blood-Gradient Hand Vacuum" Load="Merge">
+    <part Name="Render" DisplayName="血梯度手持真空器" />
+    <part Name="BioAmmoLoader" NameForStatus="活力转移系统" />
+    <part Name="LiquidProducer" NameForStatus="放血微管" />
+    <part Name="LiquidFueledPowerPlant" NameForStatus="生物动力提取器" />
+    <part Name="Description" Short="筛去块状物的血液在一只四氙玻璃罐中晃荡。真空压力从枪管吸入空气，套筒止动上的狭缝排出节拍器般的嗝声。" />
+  </object>
+  <object Name="ProjectileBloodGradientHandVacuumPulse" Load="Merge">
+    <part Name="Render" DisplayName="{{r|血浆真空}}" />
+    <part Name="Projectile" PassByVerb="尖啸" />
+    <part Name="TreatAsSolid" Message="=subject.T=在常态的压力下=verb:collapse=。" />
+  </object>
+  <object Name="Spaser Pistol" Load="Merge">
+    <part Name="Render" DisplayName="{{spaser|表面等离激元}}手枪" />
+    <part Name="Description" Short="色汽缭绕的晶钢包裹着金/水机制，将光从波长捏压到波短。等离激元炉渣在枪管脊上鼓泡，如过热的淤泥生命。" />
+  </object>
+  <object Name="ProjectileSpaserPistol" Load="Merge">
+    <part Name="Render" DisplayName="{{G|等离激元}}" />
+    <part Name="Projectile" PassByVerb="划过" />
+  </object>
+  <object Name="Space Inverter" Load="Merge">
+    <part Name="Render" DisplayName="空间反相器" />
+    <part Name="Description" Short="枪口后方，一圈玻璃束缚的不稳定时空光晕缠绕着星界系索。扳机机构切断系索，将异常抽真空般喷入自由世界。" />
+  </object>
+  <object Name="High-Voltage Arc Winder" Load="Merge">
+    <part Name="Render" DisplayName="{{W|高压}}电弧卷绕器" />
+    <part Name="Description" Short="螺旋曲柄闭合铬壳电路，并通过两个接触尖端喷出巨量电荷。烟雾在它们白热的光中旋舞。" />
+  </object>
+  <object Name="Psychal Fleshgun" Load="Merge">
+    <part Name="Render" DisplayName="{{psychalflesh|灵肉枪}}" />
+    <part Name="Description" Short="生肉被撑在一团近似手枪形状的块体上。压力把搏动的血管挤向皮下，血浆从两根带肋金属管中按节拍器般咳出。在错序的瞬间，不可见的能量沿灵能脉络导入器官乱团，制造出稀流的烦扰。" />
+    <part Name="LiquidAmmoLoader" NameForStatus="生物动力灵肉投射器" />
+    <part Name="LiquidProducer" NameForStatus="循环移植物" />
+  </object>
+  <object Name="ProjectilePsychalFleshgun" Load="Merge">
+    <part Name="Render" DisplayName="{{m|灵能搏动}}" />
+    <part Name="Projectile" PassByVerb="旋涌" />
+  </object>
+  <object Name="Longreach Grappling Gun" Load="Merge">
+    <part Name="Render" DisplayName="长距抓钩枪" />
+    <part Name="Description" Short="张力弹簧推着击针敲爆一管气体，在精确距离射出长缆抓钩；随后绞盘将它卷回。" />
+  </object>
+  <object Name="BaseShotgunProjectile" Load="Merge">
+    <part Name="Render" DisplayName="霰弹爆流" />
+    <part Name="Projectile" PassByVerb="嗖鸣" />
+  </object>
+  <object Name="Shotgun Shell" Load="Merge">
+    <part Name="Render" DisplayName="霰弹枪弹" />
+    <part Name="Description" Short="一把弹丸封在厚蜡纸和塑料弹壳中。" />
+  </object>
+  <object Name="Pump Shotgun" Load="Merge">
+    <part Name="Render" DisplayName="泵动霰弹枪" />
+    <part Name="Description" Short="坚果木前托挂在铬制肋条下方，泵动时爆发出狂喜的咔哒声。" />
+  </object>
+  <object Name="Combat Shotgun" Load="Merge">
+    <part Name="Render" DisplayName="战斗霰弹枪" />
+    <part Name="Description" Short="坚果木枪托部件被卸下，换成无星金属。涂油泵机以极小摩擦将霰弹送入膛室。" />
+  </object>
+  <object Name="Ruin of House Isner" Load="Merge">
+    <part Name="Render" DisplayName="伊斯纳家族之毁" />
+    <part Name="Description" Short="这把黄铜与铬制手枪的工艺令人屏息：王木握把召唤手掌去作无气的包覆，击锤以微英寸贴合拇指轮廓，瞄具像滑落的丝绸般牵引目光沿枪管向前。全枪刻满枯萎常春藤，枪口被鲜血亲吻。" />
+    <part Name="RulesDescription" Text="+1 自我&#xA;这把武器造成的重击在穿透掷骰上获得额外 +4 加值。&#xA;当这把武器用最后一发弹药射击时，该次射击拥有完美瞄准，并保证造成重击。" />
+    <part Name="TakenAccomplishment" Text="你找回了杰作手枪、传说中的复仇颂歌：=this.refname=。" Hagiograph="枪手苏丹 =name= 用一把杰作左轮杀死了伊斯纳家族七位领主，并在他们堆叠的尸体上进餐。" Gospel="在 =landmark.nearest= 附近的荒野深处，=name= 偶遇一族水男爵正在举行秘密仪式。因为他们眼中藏有背叛，=name= 用一把杰作左轮杀死了七位领主，并在他们堆叠的尸体上进餐。" />
+    <xtagGrammar Proper="true" />
+    <tag Name="IndefiniteArticle" Value="the" />
+    <tag Name="DefiniteArticle" Value="the" />
+  </object>
+  <object Name="Geomagnetic Disc" Load="Merge">
+    <part Name="Render" DisplayName="地磁圆盘" />
+    <part Name="Description" Short="离子在旋轮上被纺成自形圆盘，海蓝宝由深海蒸汽热固在内环上。" />
+  </object>
+  <object Name="ThrowingAxe" Load="Merge">
+    <part Name="Render" DisplayName="投斧" />
+    <part Name="Description" Short="带盐蚀划痕的斧头用木楔固定在碎裂柄上。" />
+  </object>
+  <object Name="CastNet" Load="Merge">
+    <part Name="Render" DisplayName="撒网" />
+    <part Name="Description" Short="亚麻从虹膜盆地割下，剥成纤维，又由苍白海的渔民织成柔软网格。" />
+  </object>
+  <object Name="BaseStone" Load="Merge">
+    <part Name="Render" DisplayName="石头" />
+  </object>
+  <object Name="Small Stone" Load="Merge">
+    <part Name="Render" DisplayName="石头" />
+    <part Name="SizeAdjective" Adjective="小" />
+    <part Name="Description" Short="一块岩石被水从诞生之床劈下，又被时间滚磨成球。" />
+  </object>
+  <object Name="Large Stone" Load="Merge">
+    <part Name="Render" DisplayName="石头" />
+    <part Name="SizeAdjective" Adjective="大" />
+    <part Name="Description" Short="一块岩石被水从诞生之床劈下，又被时间滚磨成大球。" />
+  </object>
+  <object Name="BaseBoulder" Load="Merge">
+    <part Name="Render" DisplayName="巨石" />
+    <part Name="SizeAdjective" Adjective="小" />
+  </object>
+  <object Name="SmallBoulder" Load="Merge">
+    <part Name="Render" DisplayName="巨石" />
+    <part Name="SizeAdjective" Adjective="小" />
+    <part Name="Description" Short="这是一块岩石，比每一本书都古老。" />
+  </object>
+  <object Name="MediumBoulder" Load="Merge">
+    <part Name="Render" DisplayName="巨石" />
+    <part Name="SizeAdjective" Adjective="中等" />
+    <part Name="Description" Short="这是一块颇大的岩石，比每一个符号都古老。" />
+  </object>
+  <object Name="LargeBoulder" Load="Merge">
+    <part Name="Render" DisplayName="巨石" />
+    <part Name="SizeAdjective" Adjective="大" />
+    <part Name="Description" Short="这是一大块岩石，比每一个念头都古老。" />
+  </object>
+  <object Name="SleepGasGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="{{w|睡眠}}毒气手雷 Mk I" />
+    <part Name="Description" Short="铸铁球体由带拉环的压柄夹住。它的凸耳沾着梦露。" />
+  </object>
+  <object Name="SleepGasGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="{{w|睡眠}}毒气手雷 Mk II" />
+    <part Name="Description" Short="一片华夫格六角金属群由铬制压柄夹住。它的凸耳沾着梦露。" />
+  </object>
+  <object Name="SleepGasGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="{{w|睡眠}}毒气手雷 Mk III" />
+    <part Name="Description" Short="厚金属外壳包住炸药，并夹在快释压柄上。它的凸耳沾着梦露。" />
+  </object>
+  <object Name="PoisonGasGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="{{g|毒}}气手雷 Mk I" />
+    <part Name="Description" Short="铸铁球体由带拉环的压柄夹住。上面蚀刻着危险的交叉骨。" />
+  </object>
+  <object Name="PoisonGasGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="{{g|毒}}气手雷 Mk II" />
+    <part Name="Description" Short="一片华夫格六角金属群由铬制压柄夹住。上面蚀刻着危险的交叉骨。" />
+  </object>
+  <object Name="PoisonGasGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="{{g|毒}}气手雷 Mk III" />
+    <part Name="Description" Short="厚金属外壳包住炸药，并夹在快释压柄上。上面蚀刻着危险的交叉骨。" />
+  </object>
+  <object Name="StunGasGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="震击气体手雷 Mk I" />
+    <part Name="Description" Short="铸铁球体由带拉环的压柄夹住。它的盖缘排着锐边。" />
+  </object>
+  <object Name="StunGasGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="震击气体手雷 Mk II" />
+    <part Name="Description" Short="一片华夫格六角金属群由铬制压柄夹住。它的盖缘排着锐边。" />
+  </object>
+  <object Name="StunGasGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="震击气体手雷 Mk III" />
+    <part Name="Description" Short="厚金属外壳包住炸药，并夹在快释压柄上。它的盖缘排着锐边。" />
+  </object>
+  <object Name="AcidGasGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="{{G|酸}}气手雷 Mk I" />
+    <part Name="Description" Short="铸铁球体由带拉环的压柄夹住。内部嘶嘶作响。" />
+  </object>
+  <object Name="AcidGasGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="{{G|酸}}气手雷 Mk II" />
+    <part Name="Description" Short="一片华夫格六角金属群由铬制压柄夹住。内部嘶嘶作响。" />
+  </object>
+  <object Name="AcidGasGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="{{G|酸}}气手雷 Mk III" />
+    <part Name="Description" Short="厚金属外壳包住炸药，并夹在快释压柄上。内部嘶嘶作响。" />
+  </object>
+  <object Name="FlashbangGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="闪光震撼手雷 Mk I" />
+    <part Name="Description" Short="铸铁球体由带拉环的压柄夹住。上面蚀刻着一只眼睛的图案。" />
+  </object>
+  <object Name="FlashbangGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="闪光震撼手雷 Mk II" />
+    <part Name="Description" Short="一片华夫格六角金属群由铬制压柄夹住。上面蚀刻着一只眼睛的图案。" />
+  </object>
+  <object Name="FlashbangGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="闪光震撼手雷 Mk III" />
+    <part Name="Description" Short="厚金属外壳包住炸药，并夹在快释压柄上。上面蚀刻着一只眼睛的图案。" />
+  </object>
+  <object Name="HeatGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="{{R|热能}}手雷 Mk I" />
+    <part Name="Description" Short="铸铁球体由带拉环的压柄夹住。摸起来发烫。" />
+  </object>
+  <object Name="HeatGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="{{R|热能}}手雷 Mk II" />
+    <part Name="Description" Short="一片华夫格六角金属群由铬制压柄夹住。摸起来发烫。" />
+  </object>
+  <object Name="HeatGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="{{R|热能}}手雷 Mk III" />
+    <part Name="Description" Short="厚金属外壳包住炸药，并夹在快释压柄上。摸起来发烫。" />
+  </object>
+  <object Name="ColdGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="{{C|冻结}}手雷 Mk I" />
+    <part Name="Description" Short="铸铁球体由带拉环的压柄夹住。摸起来冰冷。" />
+  </object>
+  <object Name="ColdGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="{{C|冻结}}手雷 Mk II" />
+    <part Name="Description" Short="一片华夫格六角金属群由铬制压柄夹住。摸起来冰冷。" />
+  </object>
+  <object Name="ColdGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="{{C|冻结}}手雷 Mk III" />
+    <part Name="Description" Short="厚金属外壳包住炸药，并夹在快释压柄上。摸起来冰冷。" />
+  </object>
+  <object Name="HEGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="{{W|高爆}}手雷 Mk I" />
+    <part Name="Description" Short="铸铁球体由带拉环的压柄夹住。上面刻着一束朝外的箭头。" />
+  </object>
+  <object Name="HEGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="{{W|高爆}}手雷 Mk II" />
+    <part Name="Description" Short="一片华夫格六角金属群由铬制压柄夹住。上面刻着一束朝外的箭头。" />
+  </object>
+  <object Name="HEGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="{{W|高爆}}手雷 Mk III" />
+    <part Name="Description" Short="厚金属外壳包住炸药，并夹在快释压柄上。上面刻着一束朝外的箭头。" />
+  </object>
+  <object Name="EMPGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="{{B|EMP}}手雷 Mk I" />
+    <part Name="Description" Short="铸铁球体由带拉环的压柄夹住。上面刻着一道锯齿纹。" />
+  </object>
+  <object Name="EMPGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="{{B|EMP}}手雷 Mk II" />
+    <part Name="Description" Short="一片华夫格六角金属群由铬制压柄夹住。上面刻着一道锯齿纹。" />
+  </object>
+  <object Name="EMPGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="{{B|EMP}}手雷 Mk III" />
+    <part Name="Description" Short="厚金属外壳包住炸药，并夹在快释压柄上。上面刻着一道锯齿纹。" />
+  </object>
+  <object Name="NormalityGasGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="{{normal|常态气体}}手雷 Mk I" />
+    <part Name="Description" Short="铸铁球体由带拉环的压柄夹住。壳体刻着格栅花纹。" />
+  </object>
+  <object Name="NormalityGasGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="{{normal|常态气体}}手雷 Mk II" />
+    <part Name="Description" Short="一片华夫格六角金属群由铬制压柄夹住。壳体刻着格栅花纹。" />
+  </object>
+  <object Name="NormalityGasGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="{{normal|常态气体}}手雷 Mk III" />
+    <part Name="Description" Short="厚金属外壳包住炸药，并夹在快释压柄上。壳体刻着格栅花纹。" />
+  </object>
+  <object Name="StasisGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="{{m|停滞}}手雷 Mk I" />
+    <part Name="DeploymentGrenade" ActivationVerb="引爆" />
+    <part Name="Description" Short="铸铁球体由带拉环的压柄夹住。上面刻着止息符号。" />
+  </object>
+  <object Name="StasisGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="{{m|停滞}}手雷 Mk II" />
+    <part Name="DeploymentGrenade" ActivationVerb="引爆" />
+    <part Name="Description" Short="一片华夫格六角金属群由铬制压柄夹住。上面刻着止息符号。" />
+  </object>
+  <object Name="StasisGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="{{m|停滞}}手雷 Mk III" />
+    <part Name="DeploymentGrenade" ActivationVerb="引爆" />
+    <part Name="Description" Short="厚金属外壳包住炸药，并夹在快释压柄上。上面刻着止息符号。" />
+  </object>
+  <object Name="SunderGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="{{resonance|共振}}手雷 Mk I" />
+    <part Name="Description" Short="铸铁球体由带拉环的压柄夹住。它发出独特的噼啪声，低低鸣动。&#xA;&#xA;          {{C|对结构物体造成 2d100+20 伤害。}}&#xA;          {{C|对非结构物体造成 2d10+4 伤害。}}" />
+  </object>
+  <object Name="SunderGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="{{resonance|共振}}手雷 Mk II" />
+    <part Name="Description" Short="一片华夫格六角金属群由铬制压柄夹住。它发出独特的噼啪声，低低鸣动。&#xA;&#xA;          {{C|对结构物体造成 4d100+20 伤害。}}&#xA;          {{C|对非结构物体造成 4d10+8 伤害。}}" />
+  </object>
+  <object Name="SunderGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="{{resonance|共振}}手雷 Mk III" />
+    <part Name="Description" Short="厚金属外壳包住炸药，并夹在快释压柄上。它发出独特的噼啪声，低低鸣动。&#xA;&#xA;          {{C|对结构物体造成 6d100+20 伤害。}}&#xA;          {{C|对非结构物体造成 6d10+12 伤害。}}" />
+  </object>
+  <object Name="PlasmaGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="{{plasma|等离子}}手雷 Mk I" />
+    <part Name="Description" Short="铸铁球体由带拉环的压柄夹住。里面嘶嘶作响，鼓胀翻涌。" />
+  </object>
+  <object Name="PlasmaGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="{{plasma|等离子}}手雷 Mk II" />
+    <part Name="Description" Short="一片华夫格六角金属群由铬制压柄夹住。里面嘶嘶作响，鼓胀翻涌。" />
+  </object>
+  <object Name="PlasmaGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="{{plasma|等离子}}手雷 Mk III" />
+    <part Name="Description" Short="厚金属外壳包住炸药，并夹在快释压柄上。里面嘶嘶作响，鼓胀翻涌。" />
+  </object>
+  <object Name="DefoliantGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="{{defoliant|脱叶剂}}手雷 Mk I" />
+    <part Name="Description" Short="铸铁球体由带拉环的压柄夹住。上面刻着枯萎植物的图像。" />
+  </object>
+  <object Name="DefoliantGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="{{defoliant|脱叶剂}}手雷 Mk II" />
+    <part Name="Description" Short="一片华夫格六角金属群由铬制压柄夹住。上面刻着枯萎植物的图像。" />
+  </object>
+  <object Name="DefoliantGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="{{defoliant|脱叶剂}}手雷 Mk III" />
+    <part Name="Description" Short="厚金属外壳包住炸药，并夹在快释压柄上。上面刻着枯萎植物的图像。" />
+  </object>
+  <object Name="FungicideGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="{{fungicide|杀真菌剂}}手雷 Mk I" />
+    <part Name="Description" Short="铸铁球体由带拉环的压柄夹住。上面刻着枯萎真菌的图像。" />
+  </object>
+  <object Name="FungicideGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="{{fungicide|杀真菌剂}}手雷 Mk II" />
+    <part Name="Description" Short="一片华夫格六角金属群由铬制压柄夹住。上面刻着枯萎真菌的图像。" />
+  </object>
+  <object Name="FungicideGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="{{fungicide|杀真菌剂}}手雷 Mk III" />
+    <part Name="Description" Short="厚金属外壳包住炸药，并夹在快释压柄上。上面刻着枯萎真菌的图像。" />
+  </object>
+  <object Name="FireSupportGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="{{spring-turret|弹簧炮塔}}手雷 Mk I" />
+    <part Name="DeploymentGrenade" ActivationVerb="部署" />
+    <part Name="Description" Short="铸铁球体由带拉环的压柄夹住。压柄由一套多向弹簧装置托起。" />
+  </object>
+  <object Name="FireSupportGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="{{spring-turret|弹簧炮塔}}手雷 Mk II" />
+    <part Name="DeploymentGrenade" ActivationVerb="部署" />
+    <part Name="Description" Short="一片华夫格六角金属群由铬制压柄夹住。压柄由一套多向弹簧装置托起。" />
+  </object>
+  <object Name="FireSupportGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="{{spring-turret|弹簧炮塔}}手雷 Mk III" />
+    <part Name="DeploymentGrenade" ActivationVerb="部署" />
+    <part Name="Description" Short="厚金属外壳包住炸药，并夹在快释压柄上。压柄由一套多向弹簧装置托起。" />
+  </object>
+  <object Name="GravityGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="{{K|重力}}手雷 Mk I" />
+    <part Name="Description" Short="铸铁球体由带拉环的压柄夹住。上面刻着一束朝内的箭头。" />
+  </object>
+  <object Name="GravityGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="{{K|重力}}手雷 Mk II" />
+    <part Name="Description" Short="一片华夫格六角金属群由铬制压柄夹住。上面刻着一束朝内的箭头。" />
+  </object>
+  <object Name="GravityGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="{{K|重力}}手雷 Mk III" />
+    <part Name="Description" Short="厚金属外壳包住炸药，并夹在快释压柄上。上面刻着一束朝内的箭头。" />
+  </object>
+  <object Name="TimeDilationGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="{{b|时间膨胀}}手雷 Mk I" />
+    <part Name="Description" Short="铸铁球体由带拉环的压柄夹住。它的凸耳周围环绕着表盘刻度。" />
+  </object>
+  <object Name="TimeDilationGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="{{b|时间膨胀}}手雷 Mk II" />
+    <part Name="Description" Short="一片华夫格六角金属群由铬制压柄夹住。它的凸耳周围环绕着表盘刻度。" />
+  </object>
+  <object Name="TimeDilationGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="{{b|时间膨胀}}手雷 Mk III" />
+    <part Name="Description" Short="厚金属外壳包住炸药，并夹在快释压柄上。它的凸耳周围环绕着表盘刻度。" />
+  </object>
+  <object Name="GlitterGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="{{glittering|闪光}}手雷 Mk I" />
+    <part Name="Description" Short="铸铁球体由带拉环的压柄夹住。它在柔光中闪烁。" />
+  </object>
+  <object Name="GlitterGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="{{glittering|闪光}}手雷 Mk II" />
+    <part Name="Description" Short="一片华夫格六角金属群由铬制压柄夹住。它在柔光中闪烁。" />
+  </object>
+  <object Name="GlitterGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="{{glittering|闪光}}手雷 Mk III" />
+    <part Name="Description" Short="厚金属外壳包住炸药，并夹在快释压柄上。它在柔光中闪烁。" />
+  </object>
+  <object Name="PhaseGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="{{M-M-M-m-m-m-K-K-K-m-m sequence|相位偏移}}手雷 Mk I" />
+    <part Name="Description" Short="铸铁球体由带拉环的压柄夹住。它在暗光中偏移视角。" />
+  </object>
+  <object Name="HandENuke" Load="Merge">
+    <part Name="Render" DisplayName="{{m|手持核弹}}" />
+    <part Name="Description" Short="厚金属外壳包住炸药，并夹在快释压柄上。上面刻着一束爆裂箭头，它在自己的重量下哐啷作响。" />
+  </object>
+  <object Name="Carapace" Load="Merge">
+    <part Name="Render" DisplayName="甲壳" />
+    <part Name="Description" Short="厚实成片的骨质弯曲成宿主的形状。" />
+  </object>
+  <object Name="Quills" Load="Merge">
+    <part Name="Render" DisplayName="硬刺" />
+    <part Name="Description" Short="成百上千根化石般的毛发覆满身体，形成一层护衣。" />
+  </object>
+  <object Name="Wings" Load="Merge">
+    <part Name="Render" DisplayName="翅膀" />
+    <part Name="Description" Short="宽大的翼型鳍片拍击着风。" />
+  </object>
+  <object Name="Stinger" Load="Merge">
+    <part Name="Render" DisplayName="螫刺" />
+    <part Name="Description" Short="尾端倒钩样的东西尖上缀着毒露之珠。" />
+  </object>
+  <object Name="Horns" Load="Merge">
+    <part Name="Render" DisplayName="角" />
+    <part Name="Description" Short="一对刻满沟槽的骨质突起向头顶上方奔赴，对称地收作尖端。" />
+  </object>
+  <object Name="Horns Single" Load="Merge">
+    <part Name="Render" DisplayName="独角" />
+    <part Name="Description" Short="一根由基因磨利的骨刺穿出头冠。" />
+  </object>
+  <object Name="Horns Casque" Load="Merge">
+    <part Name="Render" DisplayName="头盔冠" />
+    <part Name="Description" Short="一段坚不可摧的颅骨附录以嗜石的王仪覆于头顶。" />
+  </object>
+  <object Name="Horns Antlers" Load="Merge">
+    <part Name="Render" DisplayName="鹿角" />
+    <part Name="Description" Short="骨质分形从头顶迸发，展开宽阔而惊艳的陈列。" />
+  </object>
+  <object Name="Horns Spiral" Load="Merge">
+    <part Name="Render" DisplayName="螺旋角" />
+    <part Name="Description" Short="时间的生长巫咒把锋利骨质塑成拔塞钻般的绷紧螺旋。" />
+  </object>
+  <object Name="Hooks" Load="Merge">
+    <part Name="Render" DisplayName="钩足" />
+    <part Name="Description" Short="铁钩固定在残余的腿肢上，让佩戴者以笨拙刮擦的方式移动。" />
+  </object>
+  <object Name="Beak" Load="Merge">
+    <part Name="Render" DisplayName="喙" />
+    <part Name="Description" Short="一件理羽工具以画家的角度从颅骨弯出，其上点着一对呼吸微孔。" />
+  </object>
+  <object Name="Beak Bill" Load="Merge">
+    <part Name="Render" DisplayName="扁喙" />
+    <part Name="Description" Short="一只用来舀泥的扁喙把下半张脸拉长。" />
+  </object>
+  <object Name="Beak Rostrum" Load="Merge">
+    <part Name="Render" DisplayName="长喙" />
+    <part Name="Description" Short="一只喙收细成漫长尖端，用来啄穿甲壳与骨头。" />
+  </object>
+  <object Name="Beak Frill" Load="Merge">
+    <part Name="Render" DisplayName="颈饰羽" />
+    <part Name="Description" Short="一簇蓬展羽毛以绚丽色彩勾出面部的形状。" />
+  </object>
+  <object Name="Beak Proboscis" Load="Merge">
+    <part Name="Render" DisplayName="吻喙" />
+    <part Name="Description" Short="一根又长又细的喙管收束成尖端，用来刺穿花的护濠并吮吸花蜜。" />
+  </object>
+  <object Name="Burrowing Claws" Load="Merge">
+    <part Name="Render" DisplayName="掘地爪" />
+    <part Name="Description" Short="铲形手掌和长爪天生适合松土，并把泥土铲开。" />
+  </object>
+  <object Name="Crystalline Point" Load="Merge">
+    <part Name="Render" DisplayName="晶质尖端" />
+  </object>
+  <object Name="Burrowing Claws Claw" Load="Merge">
+    <part Name="Render" DisplayName="爪" />
+  </object>
+  <object Name="Ghostly Flames" Load="Merge">
+    <part Name="Render" DisplayName="{{ghostly|幽魂般的}}{{fiery|火焰}}" />
+    <part Name="Description" Short="晶质火焰在闪烁的空气中爆裂、舔卷。" />
+  </object>
+  <object Name="ProjectileFlamingRay" Load="Merge">
+    <part Name="Render" DisplayName="{{R|火流}}" />
+    <part Name="Projectile" PassByVerb="呼啸" />
+  </object>
+  <object Name="Icy Vapor" Load="Merge">
+    <part Name="Render" DisplayName="{{cryogenic|冰冷蒸气}}" />
+    <part Name="Description" Short="冰雨微粒像细小的环形缎带一样飘行。" />
+  </object>
+  <object Name="ProjectileFreezingRay" Load="Merge">
+    <part Name="Render" DisplayName="{{C|霜流}}" />
+    <part Name="Projectile" PassByVerb="呼啸" />
+  </object>
+  <object Name="ProjectileLightManipulation" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|光爆}}" />
+    <part Name="Projectile" PassByVerb="划过" />
+    <part Name="TreatAsSolid" Message="黑暗吞没了 =subject.t=！" />
+  </object>
+  <object Name="Black Robes" Load="Merge">
+    <part Name="Render" DisplayName="黑袍" />
+    <part Name="Description" Short="羊毛在惧根与铁盐的浴液中染色，再织成可暖阔肩的衣袍。" />
+  </object>
+  <object Name="Ash-Stained Robes" Load="Merge">
+    <part Name="Render" DisplayName="{{K|灰染}}长袍" />
+    <part Name="Description" Short="痛楚的大地向黑阶嗳出一条熔融玻璃带，并为九名食气的亚麻衣者施膏。" />
+  </object>
+  <object Name="Furs" Load="Merge">
+    <part Name="Render" DisplayName="毛皮" />
+    <part Name="Description" Short="这是一段从山羊或墓鼬身上割下、被盐吸干的皮，洒满死者的白色尘埃。" />
+  </object>
+  <object Name="Woven Tunic" Load="Merge">
+    <part Name="Render" DisplayName="织布束腰衣" />
+    <part Name="Description" Short="粗亚麻衣身由水藤麻绳束紧。" />
+  </object>
+  <object Name="Cloth Robe" Load="Merge">
+    <part Name="Render" DisplayName="布袍" />
+    <part Name="Description" Short="被万古剪切的页岩微粒黏在山羊毛纤维里，在衣物上点出红色雀斑。" />
+  </object>
+  <object Name="Wool Kilt" Load="Merge">
+    <part Name="Render" DisplayName="{{tartan|羊毛褶裙}}" />
+    <part Name="Description" Short="羊毛绳线织进格纹斜带，在浓重的红、绿、铁灰与黑貂色中泛出光泽。" />
+  </object>
+  <object Name="Crude Toga" Load="Merge">
+    <part Name="Render" DisplayName="粗制托加" />
+    <part Name="Description" Short="粗野猪毛被裁成不甚规整的半圆，危急时可披在日晒发白的肩上。" />
+  </object>
+  <object Name="Filthy Toga" Load="Merge">
+    <part Name="Render" DisplayName="污秽托加" />
+    <part Name="Description" Short="细白羊毛的褶痕被这阔肩世界的黏性黄土弄脏。" />
+  </object>
+  <object Name="Leather Apron" Load="Merge">
+    <part Name="Render" DisplayName="皮围裙" />
+    <part Name="Description" Short="野猪皮经盐渍、浸灰，放入鞣革鼓中处理。它被裁配成围裙，如今是承载刀痕与钳烧的棕色画布。" />
+  </object>
+  <object Name="Cloth Overalls" Load="Merge">
+    <part Name="Render" DisplayName="布工装裤" />
+    <part Name="Description" Short="粗糙紧纺的布料在小腿处鼓起，却在脚踝处束紧。厚重织物把宽肩带压得下坠。" />
+  </object>
+  <object Name="Bark Armor" Load="Merge">
+    <part Name="Render" DisplayName="树皮甲" />
+    <part Name="Description" Short="削成段的山茱萸木贴合胸、腰与大腿轮廓。外壳已被甲虫蛀蚀。" />
+    <xtagGrammar adjunctNoun="套" massNoun="true" />
+  </object>
+  <object Name="Leather Armor" Load="Merge">
+    <part Name="Render" DisplayName="皮甲" />
+    <part Name="Description" Short="煮过的山羊皮被裁成胸甲，配上皮带与铁扣。它闻起来有蜂蜡味。" />
+    <xtagGrammar adjunctNoun="套" massNoun="true" />
+  </object>
+  <object Name="Vine-Weave Tunic" Load="Merge">
+    <part Name="Render" DisplayName="{{y-g-g-y-y sequence|藤织}}束腰衣" />
+    <part Name="Description" Short="常春藤乱团里芦苇般的内茎被撕出、编系，再用绣带镀上一层华彩。" />
+  </object>
+  <object Name="Studded Leather Armor" Load="Merge">
+    <part Name="Render" DisplayName="镶钉皮甲" />
+    <part Name="Description" Short="从垃圾海中捞出的古老而难解的铬钉，镶在厚厚的煮山羊皮片上。" />
+    <xtagGrammar adjunctNoun="套" massNoun="true" />
+  </object>
+  <object Name="Pocketed Vest" Load="Merge">
+    <part Name="Render" DisplayName="多袋背心" />
+    <part Name="Description" Short="一件扎人的长衣被交给擅缝口袋的女裁缝，配成适合探洞和捞小玩意的装束。" />
+  </object>
+  <object Name="Sooty Smock" Load="Merge">
+    <part Name="Render" DisplayName="煤污罩衫" />
+    <part Name="Description" Short="围裙上布满碳质坑洞，颜色如吞光的虚空；那是诡辩者凝望星辰奔向其排中项时梦见之物。" />
+  </object>
+  <object Name="Slate Frock" Load="Merge">
+    <part Name="Render" DisplayName="板岩色罩袍" />
+    <part Name="Description" Short="亚麻裁成合身形状，放入双桉叶与铁屑的染浴中，以获得铬似的光泽。" />
+  </object>
+  <object Name="Umber Frock" Load="Merge">
+    <part Name="Render" DisplayName="赭褐罩袍" />
+    <part Name="Description" Short="粗糙刺痒的亚麻被粗线穿织、裁成形状，再由麻绳束紧。" />
+  </object>
+  <object Name="Ring Mail" Load="Merge">
+    <part Name="Render" DisplayName="环甲" />
+    <part Name="Description" Short="一件皮衫披覆着缝入的钢环。" />
+    <xtagGrammar adjunctNoun="套" massNoun="true" />
+  </object>
+  <object Name="Chain Mail" Load="Merge">
+    <part Name="Render" DisplayName="链甲" />
+    <part Name="Description" Short="一张闪亮网衣，由取自垃圾海钢铁心脏的连环织成。" />
+    <xtagGrammar adjunctNoun="套" massNoun="true" />
+  </object>
+  <object Name="Steel Plate Mail" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|钢板甲}}" />
+    <part Name="Description" Short="杖打钢被塑成胸前弯月，缝在垫衬山羊皮内衣上。" />
+    <xtagGrammar adjunctNoun="套" massNoun="true" />
+  </object>
+  <object Name="Puma Chitin Vest" Load="Merge">
+    <part Name="Render" DisplayName="{{leopard|美洲狮几丁质}}背心" />
+    <part Name="Description" Short="这件混杂菌填背心裁自几丁质丛林猫的蜕壳，经上漆上釉后变得透亮。" />
+  </object>
+  <object Name="Elastyne Skin Suit" Load="Merge">
+    <part Name="Render" DisplayName="{{K|弹性纤维}}紧身衣" />
+    <part Name="Description" Short="一匹有弹性的纺织布被裁成便于潜行的贴身衣。" />
+  </object>
+  <object Name="Patchwork Coat" Load="Merge">
+    <part Name="Render" DisplayName="{{patchwork|百衲}}外套" />
+    <part Name="Description" Short="来自整片高原的织物--绗缝鸭绒、盐茎织物、黏性的弹性纤维--被染色并缝成一件色彩混沌的夹克。" />
+  </object>
+  <object Name="Carbide Plate Armor" Load="Merge">
+    <part Name="Render" DisplayName="{{b|碳化物}}板甲" />
+    <part Name="Description" Short="带缺口的暗蔚色折叠金属被塑成胸前弯月，缝在垫衬山羊皮内衣上。" />
+    <xtagGrammar adjunctNoun="套" massNoun="true" />
+  </object>
+  <object Name="Slate Mantle" Load="Merge">
+    <part Name="Render" DisplayName="板岩色披肩" />
+    <part Name="Description" Short="布料在双桉叶与铁屑的染浴中染色，获得铬似光泽后，被裁成带褶边的肩裙。" />
+  </object>
+  <object Name="Flexivest" Load="Merge">
+    <part Name="Render" DisplayName="柔性背心" />
+    <part Name="Description" Short="一片弹性纤维薄薄拉伸在半硬塑料胸甲上，形成一套便于活动的甲衣。" />
+  </object>
+  <object Name="Rubber Suit" Load="Merge">
+    <part Name="Render" DisplayName="{{w|橡胶衣}}" />
+    <part Name="Description" Short="刺眼光芒从这套光滑而有弹性的硫化树液衣上反射出来，造出产后的羊膜囊意象。" />
+  </object>
+  <object Name="Plastifer Jerkin" Load="Merge">
+    <part Name="Render" DisplayName="{{plastifer|塑纤}}无袖短上衣" />
+    <part Name="Description" Short="这件由捕气泡沫制成的胸甲一受压力便瞬间硬化。它的喀斯特表面覆着千纪岁月及其化学反应留下的彩色磨痕；这种材料早已冲出预期寿命的外环，坠入无知的虚空。" />
+  </object>
+  <object Name="Plastifer Chem Vest" Load="Merge">
+    <part Name="Render" DisplayName="{{plastifer|塑纤}}{{G|化学}}背心" />
+    <part Name="Description" Short="这件由捕气泡沫制成的胸甲一受压力便瞬间硬化。它的喀斯特表面排列着管套，并覆着千纪岁月及其化学反应留下的彩色磨痕；这种材料早已冲出预期寿命的外环，坠入无知的虚空。" />
+    <part Name="ReduceEnergyCosts" ScopeDescription="使用注射器的能量消耗" NameForStatus="支架系统" />
+  </object>
+  <object Name="Recycling Suit" Load="Merge">
+    <part Name="Render" DisplayName="{{B|回收服}}" />
+    <part Name="Description" Short="橡胶管像虫一样穿过回收来的弹性纤维，滤网层层嵌入，用来从过劳身体中回收废水。" />
+  </object>
+  <object Name="Leafy Vest" Load="Merge">
+    <part Name="Render" DisplayName="{{leafy|叶披}}背心" />
+    <part Name="Description" Short="山羊皮被垂直填入一层壤土，幼苗在其上滋养成一丛会走的灌木。" />
+  </object>
+  <object Name="Fullerite Plate Mail" Load="Merge">
+    <part Name="Render" DisplayName="{{K|富勒体}}板甲" />
+    <part Name="Description" Short="陨黑色的超密金属被过热处理，捶打成肩部与胸部的形状。" />
+    <xtagGrammar adjunctNoun="套" massNoun="true" />
+  </object>
+  <object Name="Fullerite Flake Armor" Load="Merge">
+    <part Name="Render" DisplayName="{{K|富勒体}}鳞片甲" />
+    <part Name="Description" Short="从大块沉重金属上削下的鳞片，被热熔到某种兽皮上。" />
+    <xtagGrammar adjunctNoun="套" massNoun="true" />
+  </object>
+  <object Name="Crysteel Shardmail" Load="Merge">
+    <part Name="Render" DisplayName="{{K|{{crysteel|晶钢}}碎片甲}}" />
+    <part Name="Description" Short="鼓风炉吸尽行星的潮汐能，把碳加热到太阳般的温度，再倒入六角模具。用于取出铸件的翡翠钳雾化并排出钒--那一抹绿色闪光--进入集合体，使金属产生瑕疵，也赋予它标志性的色泽。" />
+    <xtagGrammar adjunctNoun="套" massNoun="true" />
+  </object>
+  <object Name="Nanoweave Vest" Load="Merge">
+    <part Name="Render" DisplayName="纳米织背心" />
+    <part Name="Description" Short="复合纤维色彩斑斓，触感动人，不似任何其他织物。分形织机把分子纬线拉过不断收缩的经线。" />
+  </object>
+  <object Name="Thermo Cask" Load="Merge">
+    <part Name="Render" DisplayName="{{thermo|热控}}桶甲" />
+    <part Name="Description" Short="装有冷却液与防冻剂的四玻璃管在桶甲压缩机上蜿蜒，冷凝器与蒸发器线圈从肩部旋出，如绝缘灌木上方的祖树。" />
+  </object>
+  <object Name="Gas Tumbler" Load="Merge">
+    <part Name="Render" DisplayName="气体滚筒" />
+    <part Name="Description" Short="染色晶钢罐装在背架上。阀门从通量加压器中弹出，扇开的软管允许数股输入流通过。" />
+    <part Name="BootSequence" VerbOnBootInitialized="旋转" VerbOnBootDone="砰响" VerbOnBootAborted="噗噗作响" />
+  </object>
+  <object Name="Flawless Crysteel Shardmail" Load="Merge">
+    <part Name="Render" DisplayName="{{K|无瑕{{crysteel|晶钢}}碎片甲}}" />
+    <part Name="Description" Short="鼓风炉吸尽行星的潮汐能，把碳加热到太阳般的温度，再倒入六角模具。用于取出铸件的翡翠钳雾化并排出钒--那一抹绿色闪光--进入集合体，使金属产生瑕疵，也赋予它标志性的色泽。沾有尘粒斑点的铸件被剔出并喂给食石者，只留下完美的六角棱柱。" />
+    <xtagGrammar adjunctNoun="套" massNoun="true" />
+  </object>
+  <object Name="High-Energy Thermo Cask" Load="Merge">
+    <part Name="Render" DisplayName="高能{{thermo|热控}}桶甲" />
+    <part Name="Description" Short="一张扩张四玻璃管构成的密网，把冷却液与防冻剂送过桶甲的巨型压缩机。鼓风电机低声嗡鸣，冷凝器与蒸发器线圈从肩部旋出，如绝缘灌木上方的祖树。" />
+  </object>
+  <object Name="Enigma Cone" Load="Merge">
+    <part Name="Render" DisplayName="{{B|谜}}锥" />
+    <part Name="Description" Short="钙质外壳被削成撑裙。它的螺旋先以悦目的几何取悦眼睛，随后偏转为令人不适而眩晕的不和谐。" />
+  </object>
+  <object Name="Zetachrome Lune" Load="Merge">
+    <part Name="Render" DisplayName="{{zetachrome|泽塔铬}}弯月甲" />
+    <part Name="Description" Short="夸克-胶子等离子体在早期宇宙的虚空峰上迅速冷却并熄灭，唯有那些被困在时空 6D 纽结里的小球例外。它们在那里随尾流滑行了数十亿年，直到诸有情发现它们，建造机器抽取并冷却它们，又在恒星熔炉中重新加热。" />
+  </object>
+  <object Name="Quilted Shawl" Load="Merge">
+    <part Name="Render" DisplayName="{{W-w sequence|绗缝}}{{C-c sequence|披肩}}" />
+    <part Name="Description" Short="多色羊毛从卓玛商队手里以马价购得，来源在苍白海及其巨盐盘之外。以萨迦人用纺轮将其纺成纱后，一名沼泽居民亲手打结做成流苏。" />
+  </object>
+  <object Name="Worn Burnoose" Load="Merge">
+    <part Name="Render" DisplayName="破旧伯努斯斗篷" />
+    <part Name="Description" Short="粗山羊毛在被刷子梳去盐与硅的地方脱线散开。" />
+  </object>
+  <object Name="Albino Monkey Braid" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|白化}}猴辫" />
+    <part Name="Description" Short="从神圣狐猴背上剪下的毛发，被编成先知辫。" />
+  </object>
+  <object Name="Scarlet Shawl" Load="Merge">
+    <part Name="Render" DisplayName="{{R|猩红}}披肩" />
+    <part Name="Description" Short="丝质肩披被裁开，并用虹膜之碗一株橡树上刮下的碎虫染色。" />
+  </object>
+  <object Name="Leather Cloak" Load="Merge">
+    <part Name="Render" DisplayName="皮斗篷" />
+    <part Name="Description" Short="一件山羊皮裹布被时间之酸蚀出圈状斑痕。" />
+  </object>
+  <object Name="Panther's Cloak" Load="Merge">
+    <part Name="Render" DisplayName="黑豹斗篷" />
+    <part Name="Description" Short="裁开的皮上有斑点眩光，使它那受限的阔步者获得豹类的自我。" />
+  </object>
+  <object Name="Issachari Banner" Load="Merge">
+    <part Name="Render" DisplayName="{{issachari|以萨迦}}旗帜" />
+    <part Name="Description" Short="盐白底上的铂线刺绣，只有受海市蜃楼训练的以萨迦之眼才能辨认。旗帜已被缝进一条猩红领圈。" />
+  </object>
+  <object Name="Mechanical Wings" Load="Merge">
+    <part Name="Render" DisplayName="机械翼" />
+    <part Name="Description" Short="力量经由一连串不大可能的拍翼动作推过青铜脊柱，随后阳伞般的翼面弹开，捕捉水银般的风。" />
+  </object>
+  <object Name="Nylon Bodypack" Load="Merge">
+    <part Name="Render" DisplayName="尼龙背负包" />
+    <part Name="Description" Short="来源不明的毛发黏在尼龙腰带与肩带的菱形纹上。带拉链和纽扣的小袋足以拖带所需的一切地下工具。" />
+  </object>
+  <object Name="Grassy Yurtmat" Load="Merge">
+    <part Name="Render" DisplayName="{{leafy|草覆}}毡帐垫" />
+    <part Name="Description" Short="铺在羊民热烟毡帐里的钩织叶片与苔藓团块，被缝到皮领上，使佩戴者看起来像一丛匍匐灌木。" />
+  </object>
+  <object Name="Ape Fur Cloak" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|猿毛}}斗篷" />
+    <part Name="Description" Short="柔软毛皮从白化猿雪花石般的皮张上裁下，制成阔肩斗篷。" />
+  </object>
+  <object Name="Portable Beehive" Load="Merge">
+    <part Name="Render" DisplayName="便携{{bee|蜂巢}}" />
+    <part Name="Description" Short="蜜蜂在背载条板架上爬行。还有几只在附近飞窜。" />
+  </object>
+  <object Name="Chrome Mantle" Load="Merge">
+    <part Name="Render" DisplayName="{{c|铬}}披肩" />
+    <part Name="Description" Short="电路风格的闪亮缝线沿肩部织物分叉而下。" />
+  </object>
+  <object Name="Molly Netting" Load="Merge">
+    <part Name="Render" DisplayName="莫利织网" />
+    <part Name="Description" Short="一种古老的绳作仪式被用来织成背负式网具，由纤维质的支撑带构成。" />
+  </object>
+  <object Name="Ironweave Cloak" Load="Merge">
+    <part Name="Render" DisplayName="铁织斗篷" />
+    <part Name="Description" Short="银色流动布料活动时轻若织物，静止或受接触压力时则会硬化。缝线处开始形成一层浅锈。" />
+  </object>
+  <object Name="Praetorian's Cloak" Load="Merge">
+    <part Name="Render" DisplayName="{{w|执政官}}斗篷" />
+    <part Name="Description" Short="千线覆衣因蓝化矿石与大沙漠异域东缘的酷烈光照，而得其白热色泽。" />
+  </object>
+  <object Name="Gyrocopter Backpack" Load="Merge">
+    <part Name="Render" DisplayName="{{b-B-Y-Y-Y-Y-Y-Y-B-b alternation|旋翼机}}背包" />
+    <part Name="Description" Short="铰接叶片展开，形成空中螺旋，由下方安装的空气推进器向上吹托。启动时，装备者起飞。" />
+    <part Name="BootSequence" VerbOnBootInitialized="咳响" VerbOnBootDone="呼鸣" VerbOnBootAborted="噗噗作响" />
+    <part Name="MechanicalWings" NameForStatus="传动系统" />
+  </object>
+  <object Name="Helping Hands" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|{{R|帮}}手之{{R|手}}}}" />
+    <part Name="Description" Short="戴着手套的义手接在铰接杆末端。控制机构装在一只假脊柱盒里。" />
+  </object>
+  <object Name="Banner of the Holy Rhombus" Load="Merge">
+    <part Name="Render" DisplayName="{{r|神圣菱形}}旗帜" />
+    <part Name="Description" Short="空气循环，片状军旗随之呼吸；红色菱形的边缘伸缩变长。鲜血流经时间的动脉，进入新肉的组织。" />
+  </object>
+  <object Name="Mercurial Cloak" Load="Merge">
+    <part Name="Render" DisplayName="{{mercurial|水银}}斗篷" />
+    <part Name="Description" Short="移动让缝在柔软布褶里的鸟进入断续的动画。" />
+  </object>
+  <object Name="Quartzfur Cloak" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|石英毛}}斗篷" />
+    <part Name="Description" Short="镶满棱镜的皮肤从死猴身上剪下，又锯成一件斗篷。" />
+  </object>
+  <object Name="Strength Exo" Load="Merge">
+    <part Name="Render" DisplayName="{{W-W-W-W-W-R sequence|动力}}{{K-y-K-K-K-K-K-K-K-K sequence|外骨骼}}" />
+    <part Name="BootSequence" VerbOnBootInitialized="尖鸣" VerbOnBootDone="嗡鸣" VerbOnBootAborted="咚响" />
+    <part Name="EquipStatBoost" NameForStatus="伺服辅助" />
+    <part Name="Description" Short="板岩色管件组装成人形支架。" />
+  </object>
+  <object Name="Rainboweave Cloak" Load="Merge">
+    <part Name="Render" DisplayName="{{rainbow|虹织}}斗篷" />
+    <part Name="Description" Short="离散物质点迎着仿造的风聚成新月。它们共同弯折完整光谱，使穿戴者的躯干模糊成一团多彩混沌。" />
+  </object>
+  <object Name="Ogre Fur Cloak" Load="Merge">
+    <part Name="Render" DisplayName="{{W|食人魔猿毛}}斗篷" />
+    <part Name="Description" Short="粗毛从食人魔猿厚实的皮张上裁下，制成阔肩斗篷。" />
+  </object>
+  <object Name="Kaleidocera Cape" Load="Merge">
+    <part Name="Render" DisplayName="{{kaleidoslug|万花角突}}披风" />
+    <part Name="Description" Short="角突在披风上摆垂，像风中草甸里的棱镜草。它们映出蔚蓝、红宝石、星兰与虚空的浓郁色调；合在一起，辉耀灿烂。" />
+  </object>
+  <object Name="Palladium Mesh Tabard" Load="Merge">
+    <part Name="Render" DisplayName="{{palladium mesh|钯网}}罩袍" />
+    <part Name="Description" Short="电极在横贯乌麻织物的格网上发亮。加宽成时尚样式的袖子展示金色与青色的纹章电路。" />
+  </object>
+  <object Name="Gigantic Chassis Plate" Load="Merge">
+    <part Name="Render" DisplayName="{{c|底盘板}}" />
+    <part Name="Description" Short="一块经灼烧轧制的巨型铬板从推土巨械上拆下。它像星帆一样为怪物般的持用者投下阴影。" />
+  </object>
+  <object Name="Witchwood Wreath" Load="Merge">
+    <part Name="Render" DisplayName="{{W|巫木}}花环" />
+    <part Name="Description" Short="巫树细枝被削净并扭成后日用的花环。" />
+    <part Name="Harvestable" HarvestVerb="拆解" />
+  </object>
+  <object Name="Wide-brimmed Hat" Load="Merge">
+    <part Name="Render" DisplayName="宽檐帽" />
+    <part Name="Description" Short="帽冠因穿戴被压出上百道纸样皱褶，帽檐沾满汗与盐留下的分形式印记。" />
+  </object>
+  <object Name="Gentling Collar" Load="Merge">
+    <part Name="Render" DisplayName="驯顺锥" />
+    <part Name="Description" Short="在羊毛纸与丙烯中，经验的痛苦被抚平为统一的儿童锥。动脉夹从内表面探出。锥体由黄铜链固定，饰以玻璃珠，顶端烙有神圣菱形，那是纯真代价的标记。" />
+  </object>
+  <object Name="Leather Cap" Load="Merge">
+    <part Name="Render" DisplayName="皮帽" />
+    <part Name="Description" Short="这件包裹颅骨的皮革头套缝成无檐样式，适合那些比起遮蔽宝石般眼睛，更喜欢钻进裂缝的人。" />
+  </object>
+  <object Name="Crimson Hood" Load="Merge">
+    <part Name="Render" DisplayName="{{r|绯红}}兜帽" />
+    <part Name="Description" Short="红蕾丝环绕面容，衬托酒农之妻那被太阳照喜的双颊。" />
+  </object>
+  <object Name="Knollworm Skull" Load="Merge">
+    <part Name="Render" DisplayName="丘虫头骨" />
+    <part Name="Description" Short="一只丑恶的喙歪斜地覆在脑腔上方，在昏暗而痛楚的太阳可怖光中遮蔽面孔。" />
+  </object>
+  <object Name="Steel Helmet" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|钢}}盔" />
+    <part Name="Description" Short="一片脱硫金属被隆起成锥，成为第二颗颅骨。上面刻着细小的姓名首字母。" />
+  </object>
+  <object Name="Elastyne Skull Cap" Load="Merge">
+    <part Name="Render" DisplayName="{{K|弹性纤维}}贴头帽" />
+    <part Name="Description" Short="这顶由黏浊材料制成的帽子被奥术航行者称为黑弹性物，从橡胶洞窟中捞出，贴在头皮上。" />
+  </object>
+  <object Name="Electric Snail Shell" Load="Merge">
+    <part Name="Render" DisplayName="电蜗牛壳" />
+    <part Name="Description" Short="黄壳旋成洞口般的螺旋，护住头部，同时只轻微妨碍视野。" />
+  </object>
+  <object Name="Ape Fur Hat" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|猿毛}}帽" />
+    <part Name="Description" Short="柔软毛皮从白化猿雪花石般的皮张上裁下，制成带护耳的圆帽。" />
+  </object>
+  <object Name="Square Cap" Load="Merge">
+    <part Name="Render" DisplayName="方帽" />
+    <part Name="Description" Short="一块可穿戴的方形物，仿照泥瓦匠托灰板制成，并饰有彩色流苏。" />
+  </object>
+  <object Name="Chain Coif" Load="Merge">
+    <part Name="Render" DisplayName="链甲头巾" />
+    <part Name="Description" Short="一片开孔的钢环链片套住头部与颈部。" />
+  </object>
+  <object Name="BaseForkHornedHelmet" Load="Merge">
+    <part Name="Render" DisplayName="叉状{{horned|角}}盔" />
+    <part Name="Description" Short="某头巨麋覆苔的鹿角仿佛穿透了一顶无龄的皮盔生长出来。" />
+  </object>
+  <object Name="Headlamp" Load="Merge">
+    <part Name="Render" DisplayName="头灯" />
+    <part Name="Description" Short="一盏卤素灯固定在皮质头带上。" />
+  </object>
+  <object Name="Miner's Helmet" Load="Merge">
+    <part Name="Render" DisplayName="矿工头盔" />
+    <part Name="Description" Short="铁与硬化纸浆制成的半球中自带光源。" />
+  </object>
+  <object Name="Plastifer Bonnet" Load="Merge">
+    <part Name="Render" DisplayName="{{plastifer|塑纤}}软帽" />
+    <part Name="Description" Short="这顶由捕气泡沫制成的头罩一受压力便瞬间硬化。它的喀斯特表面覆着千纪岁月及其化学反应留下的彩色磨痕；这种材料早已冲出预期寿命的外环，坠入无知的虚空。" />
+  </object>
+  <object Name="Leafy Helm" Load="Merge">
+    <part Name="Render" DisplayName="{{leafy|叶披}}盔" />
+    <part Name="Description" Short="叶片生长在一层可穿戴的穹形表土上。" />
+  </object>
+  <object Name="Ganglionic Teleprojector" Load="Merge">
+    <part Name="Render" DisplayName="神经节遥投器" />
+    <part Name="Description" Short="带凹槽的护目面罩被一束束钨丝包裹。两根天线从太阳穴处卷出，形似机械。" />
+  </object>
+  <object Name="Fullerite Armet" Load="Merge">
+    <part Name="Render" DisplayName="{{K|富勒体}}阿梅特盔" />
+    <part Name="Description" Short="暮年黄昏般、带石凹的金属把大脑包进第二颗颅骨。" />
+  </object>
+  <object Name="Quartzfur Hat" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|石英毛}}帽" />
+    <part Name="Description" Short="镶满棱镜的皮肤从死猴身上剪下，又锯成一顶帽子。" />
+  </object>
+  <object Name="Crysteel Coronet" Load="Merge">
+    <part Name="Render" DisplayName="{{K|{{crysteel|晶钢}}冠冕}}" />
+    <part Name="Description" Short="鼓风炉吸尽行星的潮汐能，把碳加热到太阳般的温度，再倒入六角模具。用于取出铸件的翡翠钳雾化并排出钒--那一抹绿色闪光--进入集合体，使金属产生瑕疵，也赋予它标志性的色泽。" />
+  </object>
+  <object Name="Ogre Fur Hat" Load="Merge">
+    <part Name="Render" DisplayName="{{W|食人魔猿毛}}帽" />
+    <part Name="Description" Short="粗毛从食人魔猿厚实的皮张上裁下，制成带护耳的圆帽。" />
+  </object>
+  <object Name="Flawless Crysteel Coronet" Load="Merge">
+    <part Name="Render" DisplayName="{{K|无瑕{{crysteel|晶钢}}冠冕}}" />
+    <part Name="Description" Short="鼓风炉吸尽行星的潮汐能，把碳加热到太阳般的温度，再倒入六角模具。用于取出铸件的翡翠钳雾化并排出钒--那一抹绿色闪光--进入集合体，使金属产生瑕疵，也赋予它标志性的色泽。沾有尘粒斑点的铸件被剔出并喂给食石者，只留下完美的六角棱柱。" />
+  </object>
+  <object Name="Psychic Meridian" Load="Merge">
+    <part Name="Render" DisplayName="{{psymeridian|灵能经线}}" />
+    <part Name="Description" Short="轻若空气的思想质被物质界的压力沉积成胶质物，并卷成小冠。它镶满晶质微生命，那是在灵能海深处孵化的共生体。" />
+    <part Name="RulesDescription" Text="对你失败的灵能攻击会使攻击者出血。" />
+  </object>
+  <object Name="Enigma Cap" Load="Merge">
+    <part Name="Render" DisplayName="{{B|谜}}帽" />
+    <part Name="Description" Short="钙质外壳的尖端被砍去。它的螺旋先以悦目的几何取悦眼睛，随后偏转为令人不适而眩晕的不和谐。" />
+  </object>
+  <object Name="Zetachrome Apex" Load="Merge">
+    <part Name="Render" DisplayName="{{zetachrome|泽塔铬}}顶冠" />
+    <part Name="Description" Short="夸克-胶子等离子体在早期宇宙的虚空峰上迅速冷却并熄灭，唯有那些被困在时空 6D 纽结里的小球例外。它们在那里随尾流滑行了数十亿年，直到诸有情发现它们，建造机器抽取并冷却它们，又在恒星熔炉中重新加热。" />
+  </object>
+  <object Name="Mental Aggregator" Load="Merge">
+    <part Name="Render" DisplayName="心智聚合器" />
+    <part Name="Description" Short="一张皱起的纸样金属片试探着安息角。" />
+  </object>
+  <object Name="Psychodyne Helmet" Load="Merge">
+    <part Name="Render" DisplayName="灵动头盔" />
+    <part Name="Description" Short="四氙玻璃使击中外壳的光发生蓝移。内侧的电磁体激发星贝组织衬层，创造完美的灵能声学。" />
+    <part Name="EquipStatBoost" NameForStatus="灵动回路" />
+  </object>
+  <object Name="Issachari Sun Veil" Load="Merge">
+    <part Name="Render" DisplayName="{{issachari|以萨迦}}{{r-R-W sequence|日}}幕" />
+    <part Name="Description" Short="盐视中禁日色调的布料被折得紧贴头颈。&#xA;" />
+  </object>
+  <object Name="Smiling Sun Mask" Load="Merge">
+    <part Name="Render" DisplayName="微笑{{sun|太阳}}面具" />
+    <part Name="Description" Short="太阳在皂石上放光，赭石与牙齿塑成高而骄傲的双颊。正午树冠的阴影昭示一条树线，叶命之厚胜过高原上任何所在，也胜过莫格拉伊以北一切地方。" />
+  </object>
+  <object Name="Frowning Moon Mask" Load="Merge">
+    <part Name="Render" DisplayName="皱眉{{moon|月亮}}面具" />
+    <part Name="Description" Short="月亮向不可见的丛林怒视，眉间坑穴覆着兽灰阴影，被诸神毒性的吐息蚀成天然山脊线。" />
+  </object>
+  <object Name="Sun and Moon Mask" Load="Merge">
+    <part Name="Render" DisplayName="{{sun|太阳}}与{{moon|月亮}}面具" />
+    <part Name="Description" Short="皂石上的热火在血绘的黄昏终点渗入潮湿夜色。面具佩戴者承受它，以及一切二元。" />
+  </object>
+  <object Name="Gentling Mask" Load="Merge">
+    <part Name="Render" DisplayName="驯顺面具" />
+    <part Name="Description" Short="在羊毛纸与丙烯中，经验的痛苦被抚平为儿童的面相。神经元夹从凹陷内表面探出。面具由黄铜链固定，饰以玻璃珠，额上烙有神圣菱形，那是纯真代价的标记。" />
+  </object>
+  <object Name="Goggles" Load="Merge">
+    <part Name="Render" DisplayName="护目镜" />
+    <part Name="Description" Short="铬黄铜环与皮革带按修补匠的模板精确裁切，但真正的签名在玻璃上：高盐狂风留下的一片斑点大小裂纹。" />
+    <xtagGrammar adjunctNoun="副" />
+  </object>
+  <object Name="Mirrorshades" Load="Merge">
+    <part Name="Render" DisplayName="{{mirrorshades|镜面墨镜}}" />
+    <part Name="Description" Short="光斑在银色护濠上碎裂，又迅速回到原处。能指成为所指；拟像得以实现。" />
+    <part Name="RefractLight" Verb="反射" />
+  </object>
+  <object Name="Night-vision Goggles" Load="Merge">
+    <part Name="Render" DisplayName="夜视护目镜" />
+    <part Name="Description" Short="带调焦环的双目镜读取红外光的征象，生成一幅眼温绿色的纹理画面。" />
+    <xtagGrammar adjunctNoun="副" />
+  </object>
+  <object Name="Vinewood Sap Mask" Load="Merge">
+    <part Name="Render" DisplayName="藤木树液面罩" />
+    <part Name="Description" Short="一个折成三角形的粗麻布袋浸透藤木树液，用来吸收有害蒸气。" />
+  </object>
+  <object Name="Gas Mask" Load="Merge">
+    <part Name="Render" DisplayName="防毒面具" />
+    <part Name="Description" Short="耐用塑料面具装上了简单滤器，用来抵御有害气体。" />
+  </object>
+  <object Name="Telescopic Monocle" Load="Merge">
+    <part Name="Render" DisplayName="伸缩单片镜" />
+    <part Name="Description" Short="弯曲玻璃盖住一系列同心黄铜管中最窄的一节。最宽的一节配有皮质头带。" />
+    <part Name="Toolbox" BehaviorDescription="鉴定遗物时获得加成，如同你的智力提高 5 点。" NameForStatus="放大" />
+  </object>
+  <object Name="Spectacles" Load="Merge">
+    <part Name="Render" DisplayName="眼镜" />
+    <part Name="Description" Short="两枚杏仁形玻璃坐在金属丝框杯中，重新磨利世界的边缘。" />
+  </object>
+  <object Name="Polyhedral Rings" Load="Merge">
+    <part Name="Render" DisplayName="{{Y-y-m-M-m-y-Y-M-m-y sequence|多面体}}环" />
+    <part Name="Description" Short="环圈带有菱形刻面，反射介于梅紫与石英之间波长的光。" />
+  </object>
+  <object Name="Silver Rondure" Load="Merge">
+    <part Name="Render" DisplayName="{{silvery|银圆饰}}" />
+    <part Name="Description" Short="白银被熔化并铸成完美球体，以同构之敬礼赞卡萨辉流。" />
+  </object>
+  <object Name="Telemetric Visor" Load="Merge">
+    <part Name="Render" DisplayName="{{telemetric|遥测}}{{C|面罩}}" />
+    <part Name="Description" Short="玻璃弯月在电磁通道中沐浴信息雨。" />
+    <part Name="IntPropertyChanger" NameForStatus="技术扫描" />
+  </object>
+  <object Name="VISAGE" Load="Merge">
+    <part Name="Render" DisplayName="{{visage|VISAGE}}" />
+    <part Name="Description" Short="视觉仪器与感官增强装置（G 型）&#xA;&#xA;数据在面罩与腕环的玻璃弯月之间来回涂写。F 型的外缘闪着金光，而此型号则褪为灰色。" />
+    <part Name="MultiIntPropertyChanger" NameForStatus="扫描系统" />
+  </object>
+  <object Name="Night-Sight Interpolators" Load="Merge">
+    <part Name="Render" DisplayName="{{K|夜视}}插值器" />
+    <part Name="Description" Short="层压金属框架上的环形模具收集环境感官数据，并用它增强视锥。" />
+    <part Name="RulesDescription" Text="赋予夜视。&#xA;你可以看见视线中第一个遮挡物后方两格。" />
+    <xtagGrammar adjunctNoun="副" />
+  </object>
+  <object Name="Dream Rondure" Load="Merge">
+    <part Name="Render" DisplayName="{{dreamy|梦圆饰}}" />
+    <part Name="Description" Short="活化的梦质膨胀成潮汐力，并使圆饰的薄膜带电。它散发出大理石般的烟。" />
+  </object>
+  <object Name="Dazzle Cheek" Load="Merge">
+    <part Name="Render" DisplayName="炫目颊片" />
+    <part Name="Description" Short="几何图形游过面具的晶体二极管。它的表情以入睡幻觉的调式微笑。" />
+    <part Name="EquipStatBoost" NameForStatus="炫目伪装系统" />
+    <part Name="AddsRep" NameForStatus="催眠发生器" />
+  </object>
+  <object Name="BaseBeadBracelet" Load="Merge">
+    <part Name="Render" DisplayName="手镯" />
+    <part Name="Description" Short="从垃圾海中切下并捞出的玻璃拱片按色板配对，钻芯成珠。它们穿在一条干山羊肠线上，沿斯维河上下易手交易。" />
+  </object>
+  <object Name="Bracelet1" Load="Merge">
+    <part Name="Render" DisplayName="{{R-W-w-r sequence|珠饰}}手镯" />
+  </object>
+  <object Name="Bracelet2" Load="Merge">
+    <part Name="Render" DisplayName="{{C-B-b-c sequence|珠饰}}手镯" />
+  </object>
+  <object Name="Bracelet3" Load="Merge">
+    <part Name="Render" DisplayName="{{m-M sequence|珠饰}}手镯" />
+  </object>
+  <object Name="Blood-stained neck-ring" Load="Merge">
+    <part Name="Render" DisplayName="颈环" />
+    <part Name="Description" Short="一截宽管道铜充作临时护喉。上面溅着虫血与海锈的图案。" />
+  </object>
+  <object Name="Compass Bracelet" Load="Merge">
+    <part Name="Render" DisplayName="罗盘手镯" />
+    <part Name="Description" Short="玻璃镜片囚住一根磁化指针，嵌在皮质腕带内。" />
+    <part Name="NavigationBonus" NameForStatus="罗盘" />
+  </object>
+  <object Name="Wrist Fan" Load="Merge">
+    <part Name="Render" DisplayName="腕扇" />
+    <part Name="Description" Short="微型翼型叶片在圆形表面旋转，吹出柔和气流。" />
+    <part Name="PartsGas" NameForStatus="旋转马达" />
+  </object>
+  <object Name="Snakeskin Armlet" Load="Merge">
+    <part Name="Render" DisplayName="{{snakeskin|蛇皮}}臂环" />
+    <part Name="Description" Short="一条细长黄铜在蛇形坩埚中锻成，并涂上自然界令人不安的条纹。" />
+  </object>
+  <object Name="LeatherBracer" Load="Merge">
+    <part Name="Render" DisplayName="皮护臂" />
+    <part Name="Description" Short="这件简单护臂由煮过的野猪皮制成，以编绳系紧。防护皮条旨在把擦击偏转到手臂上，也保护拙劣弓手免受自己跑偏弓弦的抽打。" />
+  </object>
+  <object Name="Bio-Scanning Bracelet" Load="Merge">
+    <part Name="Render" DisplayName="{{bio|生物扫描}}手镯" />
+    <part Name="Description" Short="这是一张不断变动的微型图表，记录从附近动物的热与声学特征中拾取的生命征电压。" />
+    <part Name="IntPropertyChanger" NameForStatus="生物扫描" />
+  </object>
+  <object Name="Structural Scanning Bracelet" Load="Merge">
+    <part Name="Render" DisplayName="{{structural|结构}}{{Y-y-y-K-K-y-y-Y sequence|扫描}}手镯" />
+    <part Name="Description" Short="腕部支架上，回声塑成的三维模型揭示附近简单无生命物体的结构不规则处。" />
+    <part Name="IntPropertyChanger" NameForStatus="结构扫描" />
+  </object>
+  <object Name="Hologram Bracelet" Load="Merge">
+    <part Name="Render" DisplayName="{{hologram|全息}}手镯" />
+    <part Name="Description" Short="手镯扣上有一枚亮钴色按钮。&#xA;&quot;你以为这是真正的 =name=？正是如此。&quot;" />
+  </object>
+  <object Name="Force Bracelet" Load="Merge">
+    <part Name="Render" DisplayName="力场手镯" />
+    <part Name="Description" Short="一枚小小的六角开关横在朴素无饰的铬腕箍上。" />
+  </object>
+  <object Name="Wristcalc" Load="Merge">
+    <part Name="Render" DisplayName="腕式计算器" />
+    <part Name="Description" Short="二极管让青色光芒穿过一层玻璃氛围，那玻璃弯绕在金属链节周围。" />
+    <part Name="Toolbox" BehaviorDescription="装备并供能时，这件物品会提高你鉴定遗物的能力，效果相当于智力提高 2 点。" NameForStatus="数据库" />
+    <part Name="ActiveLightSource" NameForStatus="屏幕" />
+  </object>
+  <object Name="Precinct Navigator" Load="Merge">
+    <part Name="Render" DisplayName="辖区导航仪" />
+    <part Name="Description" Short="玻璃弯月上绘有网格线和一个红点，简单矩形描绘出昔日井然的铬街道；如今它们已如扭结根须般爆穿时空。" />
+    <part Name="NavigationBonus" NameForStatus="导航系统" />
+  </object>
+  <object Name="Homoelectric Wrist Warmer" Load="Merge">
+    <part Name="Render" DisplayName="同电腕暖套" />
+    <part Name="Description" Short="一只针织袖套通过接触静电自行发热。" />
+  </object>
+  <object Name="Slip Ring" Load="Merge">
+    <part Name="Render" DisplayName="滑环" />
+    <part Name="Description" Short="滑腻油脂物覆在金属环面表面按六角排列的孔洞上。另有一个按压盖用于补充润滑剂。" />
+  </object>
+  <object Name="Displacer Bracelet" Load="Merge">
+    <part Name="Render" DisplayName="{{displacer|位移}}手镯" />
+    <part Name="Description" Short="这只闪亮金属环面的内侧刻着波动的圣书体。" />
+  </object>
+  <object Name="Ontological Anchor" Load="Merge">
+    <part Name="Render" DisplayName="{{K|本体论锚}}" />
+    <part Name="Description" Short="深成金属上蚀刻着菱形十二面体蜂巢的二维投影，使它能咬合到本地区域的灵脉线上。" />
+  </object>
+  <object Name="Tri-Hologram Bracelet" Load="Merge">
+    <part Name="Render" DisplayName="三重{{hologram|全息}}手镯" />
+    <part Name="Description" Short="横条把手镯扣分成三道环带；一枚钴色按钮会召来四重奏的其余部分。" />
+  </object>
+  <object Name="Transkinetic Cuffs" Load="Merge">
+    <part Name="Render" DisplayName="{{transkinetic|越动}}腕箍" />
+    <part Name="Description" Short="表盘在金属腕部以恰当间隔咔嗒作响，水银般的银流沿塑纤袖上的管路奔行。" />
+  </object>
+  <object Name="BaseGlove" Load="Merge">
+    <xtagGrammar adjunctNoun="副" />
+  </object>
+  <object Name="BaseGauntlet" Load="Merge">
+    <xtagGrammar adjunctNoun="副" />
+  </object>
+  <object Name="Boar-skin gloves" Load="Merge">
+    <part Name="Render" DisplayName="野猪皮手套" />
+    <part Name="Description" Short="由下峡谷野猪皮裁成的手套，盐割者佩戴它来防御茎丛上的荆刺。" />
+  </object>
+  <object Name="Leather Gloves" Load="Merge">
+    <part Name="Render" DisplayName="皮手套" />
+    <part Name="Description" Short="一名第一百代峡谷人依照从其古石灰工坊墙中伸出的骨手形状，裁下山羊皮塑形。" />
+  </object>
+  <object Name="Steel Gauntlets" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|钢}}护手" />
+    <part Name="Description" Short="覆着盐尘的钢鳞把手指与手腕系进一副金属外骨骼。" />
+  </object>
+  <object Name="Ulnar Stimulators" Load="Merge">
+    <part Name="Render" DisplayName="尺神经刺激器" />
+    <part Name="Description" Short="导电网制成的紧身手套以电击让双手进入高性能状态。" />
+  </object>
+  <object Name="Ape Fur Gloves" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|猿毛}}手套" />
+    <part Name="Description" Short="柔软毛皮从白化猿雪花石般的皮张上裁下，制成粗指手套。" />
+  </object>
+  <object Name="Elastyne Gloves" Load="Merge">
+    <part Name="Render" DisplayName="{{K|弹性纤维}}手套" />
+    <part Name="Description" Short="奥术航行者称作黑弹性物的黏浊材料从橡胶洞窟中捞出，被裁制成合手的连指手套。" />
+  </object>
+  <object Name="Chain Gauntlets" Load="Merge">
+    <part Name="Render" DisplayName="链甲护手" />
+    <part Name="Description" Short="挤出的金属丝被细致卷成数百个链环，使皮手套披上钢质。" />
+  </object>
+  <object Name="Carbide Gauntlets" Load="Merge">
+    <part Name="Render" DisplayName="{{b|碳化物}}护手" />
+    <part Name="Description" Short="带缺口的暗蔚色折叠金属经手工裁切，缝在一副垫衬山羊皮内手套上。" />
+  </object>
+  <object Name="Plastifer Gloves" Load="Merge">
+    <part Name="Render" DisplayName="{{plastifer|塑纤}}手套" />
+    <part Name="Description" Short="由捕气泡沫制成的手套一受压力便瞬间硬化。它们的喀斯特表面覆着千纪岁月及其化学反应留下的彩色磨痕；其材料早已冲出预期寿命的外环，坠入无知的虚空。" />
+  </object>
+  <object Name="Fullerite Gauntlets" Load="Merge">
+    <part Name="Render" DisplayName="{{K|富勒体}}护手" />
+    <part Name="Description" Short="陨黑色的超密金属被过热处理，捶打成有关节的手指与掌部形状。" />
+  </object>
+  <object Name="Quartzfur Gloves" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|石英毛}}手套" />
+    <part Name="Description" Short="镶满棱镜的皮肤从死猴身上剪下，又锯成一副手套。" />
+  </object>
+  <object Name="Crysteel Gauntlets" Load="Merge">
+    <part Name="Render" DisplayName="{{K|{{crysteel|晶钢}}护手}}" />
+    <part Name="Description" Short="鼓风炉吸尽行星的潮汐能，把碳加热到太阳般的温度，再倒入六角模具。用于取出铸件的翡翠钳雾化并排出钒--那一抹绿色闪光--进入集合体，使金属产生瑕疵，也赋予它标志性的色泽。" />
+  </object>
+  <object Name="Ogre Fur Gloves" Load="Merge">
+    <part Name="Render" DisplayName="{{W|食人魔猿毛}}手套" />
+    <part Name="Description" Short="粗毛从食人魔猿厚实的皮张上裁下，制成宽指手套，锯尖的巨大指节从中探出。" />
+  </object>
+  <object Name="Flawless Crysteel Gauntlets" Load="Merge">
+    <part Name="Render" DisplayName="{{K|无瑕{{crysteel|晶钢}}护手}}" />
+    <part Name="Description" Short="鼓风炉吸尽行星的潮汐能，把碳加热到太阳般的温度，再倒入六角模具。用于取出铸件的翡翠钳雾化并排出钒--那一抹绿色闪光--进入集合体，使金属产生瑕疵，也赋予它标志性的色泽。沾有尘粒斑点的铸件被剔出并喂给食石者，只留下完美的六角棱柱。" />
+  </object>
+  <object Name="Kaleidocera Muffs" Load="Merge">
+    <part Name="Render" DisplayName="{{kaleidoslug|万花角突}}护手套" />
+    <part Name="Description" Short="角突在护手套上摆垂，如树轮上的晶霉。它们映出蔚蓝、红宝石、星兰与虚空的浓郁色调；合在一起，辉耀灿烂。" />
+  </object>
+  <object Name="Precision Nanon Fingers" Load="Merge">
+    <part Name="Render" DisplayName="精密{{Y|纳农}}手指" />
+    <part Name="Description" Short="富勒烯指伸器像时髦宫廷长甲一样张开。嵌在蹼膜中的微型伺服器会按任务需要收缩或放开其粗细。" />
+    <part Name="RulesDescription" Text="你武器的百分比效果触发概率变为 3 倍，包括暴击基础概率。" />
+    <part Name="AdjustSpecialEffectChances" NameForStatus="纳农优化" />
+  </object>
+  <object Name="Zetachrome Gloves" Load="Merge">
+    <part Name="Render" DisplayName="{{zetachrome|泽塔铬}}手套" />
+    <part Name="Description" Short="夸克-胶子等离子体在早期宇宙的虚空峰上迅速冷却并熄灭，唯有那些被困在时空 6D 纽结里的小球例外。它们在那里随尾流滑行了数十亿年，直到诸有情发现它们，建造机器抽取并冷却它们，又在恒星熔炉中重新加热。" />
+  </object>
+  <object Name="Leyline Puppeteers" Load="Merge">
+    <part Name="Render" DisplayName="{{psymeridian|灵脉操偶手}}" />
+    <part Name="Description" Short="通道凹槽以灵脉几何的不可能图案刻进手套静电干燥的掌心。手指在交叉径向处关节活动，把潜伏之物纺成存在。" />
+    <part Name="RulesDescription" Text="需要 1 德拉姆中子通量才能运作。&#xA;每回合有极小概率消耗中子通量。&#xA;+10 灵能微光" />
+    <part Name="ChargeSink" NameForStatus="灵脉谐振回路" />
+    <part Name="EquipStatBoost" NameForStatus="时间鞘层" />
+  </object>
+  <object Name="BaseBoot" Load="Merge">
+    <xtagGrammar adjunctNoun="双" />
+  </object>
+  <object Name="Leather Moccasins" Load="Merge">
+    <part Name="Render" DisplayName="皮软鞋" />
+    <part Name="Description" Short="野猪皮鞋面磨出细小裂隙，在风刮石英中闪着火花。" />
+  </object>
+  <object Name="Sandals" Load="Merge">
+    <part Name="Render" DisplayName="凉鞋" />
+    <part Name="Description" Short="一双带绊鞋的鞋底裂出筋腱般图案，那是行走砂砾留下的痕迹。" />
+  </object>
+  <object Name="Croccasins" Load="Merge">
+    <part Name="Render" DisplayName="{{crochide|鳄软鞋}}" />
+    <part Name="Description" Short="盾鳞如石矛般排列在鞋前围片周围。光从釉质亮面上反射。" />
+  </object>
+  <object Name="Leather Boots" Load="Merge">
+    <part Name="Render" DisplayName="皮靴" />
+    <part Name="Description" Short="从地下计算内脏中捞出的金线，系住由死野猪皮裁成的鞋形皮革。" />
+  </object>
+  <object Name="Magnetized Boots" Load="Merge">
+    <part Name="Render" DisplayName="磁化靴" />
+    <part Name="Description" Short="墨迹斑驳的靴底下，从沿条到鞋腰，一片薄薄的磁化镍板以力焊方式把穿戴者焊在铁壤上。" />
+    <part Name="SaveModifier" NameForStatus="磁力鞋底" />
+  </object>
+  <object Name="Sandals of the River-Wives" Load="Merge">
+    <part Name="Render" DisplayName="河妻凉鞋" />
+    <part Name="Description" Short="一颗峡谷珍珠扣住绣有急流水仙混融图像的鞋带。正如冰川流本身，对卡吕普索的崇敬随秘仪者沿断裂蜂巢而下，又穿入橄榄山下的页岩裂隙。在那里，它裂解成众多名姓之妻的奥秘；淡水的记忆也比其起源的平滑表面拥有更多切面。" />
+  </object>
+  <object Name="Chain Boots" Load="Merge">
+    <part Name="Render" DisplayName="链甲靴" />
+    <part Name="Description" Short="挤出的金属丝被细致卷成数百个链环，使皮靴披上钢质。" />
+  </object>
+  <object Name="Steel Boots" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|钢}}靴" />
+    <part Name="Description" Short="带有撬痕的钢带被铆到一双褶皱野猪皮靴上。" />
+  </object>
+  <object Name="Elastyne Slippers" Load="Merge">
+    <part Name="Render" DisplayName="{{K|弹性纤维}}拖鞋" />
+    <part Name="Description" Short="一片奥术航行者称作黑弹性物的黏浊材料从橡胶洞窟中捞出，贴在脚上。" />
+  </object>
+  <object Name="Carbide Boots" Load="Merge">
+    <part Name="Render" DisplayName="{{b|碳化物}}靴" />
+    <part Name="Description" Short="带缺口的暗蔚色折叠金属箍住一双从湖中捞出的靴子。" />
+  </object>
+  <object Name="Spring Boots" Load="Merge">
+    <part Name="Render" DisplayName="弹跳靴" />
+    <part Name="Description" Short="某位聪明修补匠在每只靴子周围熔接了一条弹簧加载的腱，用来模拟大型疾奔鸟类的步态。" />
+    <part Name="RulesDescription" Text="只要你已经穿戴这件物品至少 100 回合，就会以三倍移动速度疾跑。" />
+  </object>
+  <object Name="Grease Boots" Load="Merge">
+    <part Name="Render" DisplayName="涂脂钢靴" />
+    <part Name="Description" Short="带有撬痕的钢带被铆到一双褶皱野猪皮靴上。靴底涂满从食客之墓液压机上擦下的滑蜡。" />
+  </object>
+  <object Name="Plastifer Sneakers" Load="Merge">
+    <part Name="Render" DisplayName="{{plastifer|塑纤}}便鞋" />
+    <part Name="Description" Short="一双捕气泡沫便鞋一受压力便瞬间硬化。它们的喀斯特表面覆着千纪岁月及其化学反应留下的彩色磨痕；这种材料早已冲出预期寿命的外环，坠入无知的虚空。" />
+  </object>
+  <object Name="Yeshyrskin Slippers" Load="Merge">
+    <part Name="Render" DisplayName="耶希尔皮拖鞋" />
+    <part Name="Description" Short="银线束住一片羽状皮革，取自猎于奥德鲁姆北方果园废墟中的幽魂耶希尔。它们由一颗冒烟珍珠扣牢。" />
+  </object>
+  <object Name="Fullerite Boots" Load="Merge">
+    <part Name="Render" DisplayName="{{K|富勒体}}靴" />
+    <part Name="Description" Short="暮年黄昏般的焊接金属带护住双腿，却像矿石一样把穿戴者压向大地。" />
+  </object>
+  <object Name="Step Sowers" Load="Merge">
+    <part Name="Render" DisplayName="步履播种{{g|者}}" />
+    <part Name="Description" Short="脚踝由皮带与金叶扣束紧；碾碎的植物物质弄脏鞋底。" />
+  </object>
+  <object Name="Rocket Skates" Load="Merge">
+    <part Name="Render" DisplayName="{{rocket|火箭}}{{K|轮滑靴}}" />
+    <part Name="Description" Short="到苏丹国晚期，这种带鳍带轮的靴子已成为若干社会航行者教派的印记。数十年里，他们的先祖在倾颓生态城的胶囊管线中横冲直撞，一块板一块板地拆解它；治安官在后追捕，而轮滑靴把他们渡向覆苔藏身处的安全。这个隐喻被大书在城市的玻璃肠腹上：灼烧过去。火箭般冲入未来。" />
+    <part Name="BootSequence" VerbOnBootInitialized="咳响" VerbOnBootDone="呼啸" VerbOnBootAborted="噗噗作响" />
+    <part Name="SaveModifier" NameForStatus="传动系统" />
+    <part Name="TemperatureAdjuster" NameForStatus="排放控制" />
+  </object>
+  <object Name="Crysteel Boots" Load="Merge">
+    <part Name="Render" DisplayName="{{K|{{crysteel|晶钢}}靴}}" />
+    <part Name="Description" Short="鼓风炉吸尽行星的潮汐能，把碳加热到太阳般的温度，再倒入六角模具。用于取出铸件的翡翠钳雾化并排出钒--那一抹绿色闪光--进入集合体，使金属产生瑕疵，也赋予它标志性的色泽。" />
+  </object>
+  <object Name="Ninefold Boots" Load="Merge">
+    <part Name="Render" DisplayName="{{ninefold|九重}}靴" />
+    <part Name="Description" Short="书法字刻成参差行列，蜿蜒穿过靴子的腰帮与后撑。字群似乎绕着一句中心陈述运行：&quot;道路已被收缩。&quot; 其余文字以多种符号与风格蚀刻，给这道隐秘宣告提供彼此竞争又相互合成的解释。" />
+  </object>
+  <object Name="Flawless Crysteel Boots" Load="Merge">
+    <part Name="Render" DisplayName="{{K|无瑕{{crysteel|晶钢}}靴}}" />
+    <part Name="Description" Short="鼓风炉吸尽行星的潮汐能，把碳加热到太阳般的温度，再倒入六角模具。用于取出铸件的翡翠钳雾化并排出钒--那一抹绿色闪光--进入集合体，使金属产生瑕疵，也赋予它标志性的色泽。沾有尘粒斑点的铸件被剔出并喂给食石者，只留下完美的六角棱柱。" />
+  </object>
+  <object Name="3D Cobblers" Load="Merge">
+    <part Name="Render" DisplayName="3D 鞋匠" />
+    <part Name="Description" Short="万花筒般的格纹铺在鞋舌与鞋面上。后撑处，一枚二极管方块显示着变形墙壁的图像。" />
+  </object>
+  <object Name="Anti-Gravity Boots" Load="Merge">
+    <part Name="Render" DisplayName="{{K|反重力靴}}" />
+    <part Name="Description" Short="鞋底上的元金属条被玻色子线圈磁化，产生一条连续的负质量气泡带，将穿戴者向上排斥。" />
+    <part Name="MechanicalWings" NameForStatus="反重力系统" />
+  </object>
+  <object Name="Kaleidocera Krakows" Load="Merge">
+    <part Name="Render" DisplayName="{{kaleidoslug|万花角突}}长尖鞋" />
+    <part Name="Description" Short="角突在鞋尖摆垂，像甲虫月卷过雾中。它们映出蔚蓝、红宝石、星兰与虚空的浓郁色调；合在一起，辉耀灿烂。" />
+  </object>
+  <object Name="Zetachrome Pumps" Load="Merge">
+    <part Name="Render" DisplayName="{{zetachrome|泽塔铬}}浅口鞋" />
+    <part Name="Description" Short="夸克-胶子等离子体在早期宇宙的虚空峰上迅速冷却并熄灭，唯有那些被困在时空 6D 纽结里的小球例外。它们在那里随尾流滑行了数十亿年，直到诸有情发现它们，建造机器抽取并冷却它们，又在恒星熔炉中重新加热。" />
+  </object>
+  <object Name="Jeweled Sandals" Load="Merge">
+    <part Name="Render" DisplayName="{{y-y-y-g-G-g-y sequence|宝石凉鞋}}" />
+    <part Name="Description" Short="一颗闪亮宝石被嵌进一只谢德皮带绊凉鞋中，它同为巨大忧郁与巨大欢欣的容器。" />
+  </object>
+  <object Name="BaseFloat" Load="Merge">
+    <part Name="Render" DisplayName="基础漂浮物" />
+  </object>
+  <object Name="Light-Obfuscating Lens" Load="Merge">
+    <part Name="Render" DisplayName="{{starry|蔽光}}透镜" />
+    <part Name="Description" Short="一片躯干长度的透镜悬在半空，周身环绕折射波。" />
+  </object>
+  <object Name="Symbiotic Firefly" Load="Merge">
+    <part Name="Render" DisplayName="共生{{W-y-y-y sequence|萤火}}" />
+    <part Name="Description" Short="一粒柔和光点按生命的图案四处疾飞。" />
+    <part Name="RulesDescription" Text="发出半径 4 的光。&#xA;卸下后永久熄灭。" />
+  </object>
+  <object Name="Luminous Mote" Load="Merge">
+    <part Name="Render" DisplayName="{{W|发光}}{{W-Y-y-K sequence|微尘}}" />
+    <part Name="Description" Short="色彩围绕一粒辉尘旋动。" />
+  </object>
+  <object Name="Floating Glowsphere" Load="Merge">
+    <part Name="Render" DisplayName="漂浮{{Y|辉光球}}" />
+    <part Name="Description" Short="一枚磷光乳白石样物正合掌心大小，闪耀着千纪前吸收的极光之光。它超自然地四处漂浮。" />
+  </object>
+  <object Name="Quantum Mote" Load="Merge">
+    <part Name="Render" DisplayName="{{quantum|量子微尘}}" />
+    <part Name="Description" Short="粒子从概率核心上闪现脱离，仿佛沿离散能壳留下轨迹。" />
+    <part Name="SaveModifier" NameForStatus="概率场" />
+  </object>
+  <object Name="Point-Defense Drone" Load="Merge">
+    <part Name="Render" DisplayName="点防御无人机" />
+    <part Name="Description" Short="这是一只机械眼，分叉底盘作眼睑，天线作睫毛。细小枪管从瞳孔中探出并振动。内眼睑有关节，使无人机能够扫描来袭投射物，并用激光将其击落。" />
+  </object>
+  <object Name="ProjectilePointDefenseLaser" Load="Merge">
+    <part Name="Render" DisplayName="{{B|激光束}}" />
+    <part Name="Projectile" PassByVerb="划过" />
+    <part Name="TreatAsSolid" Message="黑暗吞没了 =subject.t=！" />
+  </object>
+  <object Name="Chiral Rings" Load="Merge">
+    <part Name="Render" DisplayName="{{chiral|手性环}}" />
+    <part Name="Description" Short="由过冷晶钢制成的巨大扁环把穿戴者关联到一个天体，并充当天球赤道、赤纬与子午线。其边缘由纳农车床锉削，可切开轨道碎屑。" />
+    <xtagGrammar adjunctNoun="套" />
+  </object>
+  <object Name="Black Mote" Load="Merge">
+    <part Name="Render" DisplayName="{{K|黑色}}微尘" />
+    <part Name="Description" Short="一粒黑色粒子违抗这浸满光的世界，划出螺旋轨道。" />
+    <part Name="EquipStatBoost" NameForStatus="光线扭曲系统" />
+    <part Name="CancelRangedAttacks" NameForStatus="空间扭曲系统" />
+    <part Name="RandomLongRangeTeleportOnDamage" Message="=subject.T= =verb:stumble= 进了 =object.t=！" NameForStatus="近距传感器" />
+  </object>
+  <object Name="BaseNephilimLightCircle" Load="Merge">
+    <part Name="Render" DisplayName="光环" />
+    <part Name="RulesDescription" Text="所有突变等级 +1&#xA;义体许可阶级 +6" />
+  </object>
+  <object Name="LightCircleAgolgot" Load="Merge">
+    <part Name="Render" DisplayName="{{agolgot|阿戈尔戈特}}弦上的光环" />
+    <part Name="Description" Short="生胆色、黑腐与毒玉的尖塔绕零点旋转，在虹彩中模糊成病症之虹。" />
+    <part Name="ArmsOnEquip" BaseHands="钳爪" Category="节肢动物" />
+  </object>
+  <object Name="LightCircleBethsaida" Load="Merge">
+    <part Name="Render" DisplayName="{{bethsaida|伯赛大}}弦上的光环" />
+    <part Name="Description" Short="黏脏色、发甲亚麻与血凝红宝石的尖塔绕零点旋转，在虹彩中模糊成生命泥浆之虹。" />
+  </object>
+  <object Name="LightCircleQas" Load="Merge">
+    <part Name="Render" DisplayName="{{qas|卡斯}}弦上的光环" />
+    <part Name="Description" Short="力势、无光铬与灰阶的尖塔绕零点旋转，在虹彩中模糊成六角彩虹。" />
+  </object>
+  <object Name="LightCircleQon" Load="Merge">
+    <part Name="Render" DisplayName="{{qon|孔}}弦上的光环" />
+    <part Name="Description" Short="炫目漆、深渊光泽与潜意识绒噪的尖塔绕零点旋转，在虹彩中模糊成昏滞之虹。" />
+  </object>
+  <object Name="LightCircleRermadon" Load="Merge">
+    <part Name="Render" DisplayName="{{rermadon|雷玛顿}}弦上的光环" />
+    <part Name="Description" Short="极光气体、带电翡翠与熔合金属的尖塔绕零点旋转，在虹彩中模糊成等离子之虹。" />
+  </object>
+  <object Name="LightCircleShugruith" Load="Merge">
+    <part Name="Render" DisplayName="{{shugruith|舒格鲁伊斯}}弦上的光环" />
+    <part Name="Description" Short="页岩尘色、碎蜗壳与闪火大理石的尖塔绕零点旋转，在虹彩中模糊成矿物之虹。" />
+  </object>
+  <object Name="Wooden Buckler" Load="Merge">
+    <part Name="Render" DisplayName="木圆盾" />
+    <part Name="Description" Short="一轮刻有丘陵氏族符印工艺的犬刺木，由皮带固定在手臂上。" />
+  </object>
+  <object Name="Iron Buckler" Load="Merge">
+    <part Name="Render" DisplayName="铁圆盾" />
+    <part Name="Description" Short="一片泛红的采掘铁被锤成圆轮，用于手臂防御。" />
+  </object>
+  <object Name="Steel Buckler" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|钢}}圆盾" />
+    <part Name="Description" Short="一圈抛光钢从倒塌金属压机上冲切下来，并装上握杆。" />
+  </object>
+  <object Name="Steel Shield" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|钢}}盾" />
+    <part Name="Description" Short="一面钢鸢盾炫示着齿与爪的圣书体。" />
+  </object>
+  <object Name="Carbide Shield" Load="Merge">
+    <part Name="Render" DisplayName="{{b|碳化物}}盾" />
+    <part Name="Description" Short="一面蓝色鸢盾炫示着齿与爪的圣书体。" />
+  </object>
+  <object Name="Fullerite Shield" Load="Merge">
+    <part Name="Render" DisplayName="{{K|富勒体}}神盾" />
+    <part Name="Description" Short="这面宽高神盾是一只由阳光与无星黄昏半剖成的鸢盾，剑痕斑驳的盾面上绘着圣殿的神圣菱形。" />
+  </object>
+  <object Name="Crysteel Shield" Load="Merge">
+    <part Name="Render" DisplayName="{{K|{{crysteel|晶钢}}神盾}}" />
+    <part Name="Description" Short="鼓风炉吸尽行星的潮汐能，把碳加热到太阳般的温度，再倒入六角模具。用于取出铸件的翡翠钳雾化并排出钒--那一抹绿色闪光--进入集合体，使金属产生瑕疵，也赋予它标志性的色泽。" />
+  </object>
+  <object Name="Flawless Crysteel Shield" Load="Merge">
+    <part Name="Render" DisplayName="{{K|无瑕{{crysteel|晶钢}}神盾}}" />
+    <part Name="Description" Short="鼓风炉吸尽行星的潮汐能，把碳加热到太阳般的温度，再倒入六角模具。用于取出铸件的翡翠钳雾化并排出钒--那一抹绿色闪光--进入集合体，使金属产生瑕疵，也赋予它标志性的色泽。" />
+  </object>
+  <object Name="Clay Pot" Load="Merge">
+    <part Name="Render" DisplayName="陶罐" />
+    <part Name="Description" Short="一只由斯维泥在沼泽炉中烧成的土罐，从土壤之海中攫取几捧，把它们盛在气泡世界里。" />
+  </object>
+  <object Name="Tread Guard" Load="Merge">
+    <part Name="Render" DisplayName="履带护罩" />
+    <part Name="Description" Short="金属框架安装在履带上，用来防止碎屑卡入轮组。" />
+  </object>
+  <object Name="Stopsvaalinn" Load="Merge">
+    <part Name="Render" DisplayName="{{R-r-K-y-Y sequence|斯托普斯瓦林}}" />
+    <part Name="Description" Short="一层层宽年代的锈蚀像千层蛋糕，为古老而平面的八角盾赋予维度。正面绘有一座古旧家族的纹章--绯红底上的白色卢恩文字。" />
+    <part Name="RulesDescription" Text="+1 自我&#xA;你可以激活这件物品，在你面前召出一面力场。力场激活时，机器人通常不能向你前进。" />
+    <part Name="TakenAccomplishment" Text="你找回了伊什家族遗失的神盾，=this.refname=。" Hagiograph="请忆起 =name= 如何从卑贱裂颚者的爪中夺得传奇神盾 =this.refname=，并宣称自己是伊什的萨阿德后裔！" Gospel="在 =landmark.nearest|title= 战役中，=name= 为征服裂颚者而战。=player.Subjective= 挥舞一面圆盾，其 =spice:commonPhrases.finesse.!random= 如此非凡，以至它永远被称为 =this.refname=。" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="Kindrish" Load="Merge">
+    <part Name="Render" DisplayName="{{g-G-y-Y-Y-y-G-g alternation|金德里什}}" />
+    <part Name="Description" Short="古老护符上的野猪牙珠已被时间的软骨磨成残粒，但把它们串在一起的柔性缆线仍如编成当日一样坚韧。手镯上垂下一尊鹿形小像，由一种神秘物质雕成；它像水晶一样裂光，却像金属一样沉重，生出别处未见的阴影式逼真。" />
+    <part Name="TakenAccomplishment" Text="你找回了欣德伦人的祖传手镯，=this.refname=。" Hagiograph="凭借 =player.possessive= 非凡狡计的展现，=name= 得以找回 =this.refname=，欣德伦人的祖传手镯，并由此获授大雌鹿之称号。" Gospel="在 =terrain.t= 荒野深处的一间酒馆里，=name= 把 =player.possessive= 珍贵手镯金德里什输给了当地窃贼。=name= =spice:elements.entity@elements[random].murdermethods.!random= 杀死了那名窃贼，并立刻夺回 =player.possessive= 珍爱的传家宝。" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="BarathrumiteSafetyBand" Load="Merge">
+    <part Name="Render" DisplayName="生命环" />
+    <part Name="Description" Short="每一段闪亮铬片上都以光蚀刻着不同的“生命”字形。" />
+  </object>
+  <object Name="SlogTrophy" Load="Merge">
+    <part Name="Render" DisplayName="{{g-w-w-g-g sequence|斯洛格的环小体}}" />
+    <part Name="Description" Short="一圈带状肌肉箍紧手腕，并用灼热油脂将其濡湿。" />
+    <part Name="RulesDescription" Text="你受到的毒素伤害减半。" />
+  </object>
+  <object Name="SkybearJetpack" Load="Merge">
+    <part Name="Render" DisplayName="{{b-B-C-c sequence|天熊}}的{{R-r-w-W-Y-y sequence|焰渠飞行器}}" />
+    <part Name="Description" Short="两座导日铬炮塔封住燃气圆筒，圆筒跨在铲形金属格架两侧，环抱某种公会标志。一道六螺旋烟流--此飞行器所由铸就的星引擎签名--向天空旋卷。" />
+    <part Name="RulesDescription" Text="你可以激活这件物品开始冲刺。&#xA; 冲刺时，每当你朝一个方向移动，你都会向最近的敌人或障碍物冲刺最多 20 格，并发动一次攻击。&#xA; 你每冲刺三格，命中和穿透掷骰获得 +2。" />
+    <xtagGrammar Proper="true" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+    <part Name="TakenAccomplishment" Text="天熊再度飞翔！你从冻结过去的掌握中找回了 =this.refname=。" Hagiograph="地下世界湿热的呼吸使天熊脱离化石，并向我们昭示此真理：=name= 即萨阿德·阿穆斯，萨阿德·阿穆斯即 =name=。" Gospel="在整个 =month=，=name= 乘着 =player.possessive= 喷气背包 =spice:commonPhrases.ravaged.!random= 贝塞斯达·苏萨行省，=spice:elements.entity@elements[random].ravaging.!random= 了 =mostHatedFaction.t= 与 =secondMostHatedFaction.t=。=player.Subjective= 因此被称作贝塞斯达的 =spice:commonPhrases.scourge.!random.capitalize=。" />
+  </object>
+  <object Name="MurmurMask" Load="Merge">
+    <part Name="Render" DisplayName="{{K-C-K sequence|低语}}{{Y-y-y-Y sequence|面具}}" />
+    <part Name="Description" Short="曾经熟悉的纸、颜料与珠子被重新排列成兽性的形状。纺锤色的苍白光芒在眼窝中闪动，一只邪恶的喙在威胁的静止中张开。黄铜链横跨面容，固定住那些构成低语的破碎纯真。" />
+  </object>
+  <object Name="Blackboard" Load="Merge">
+    <part Name="Render" DisplayName="擦亮的{{K|富勒体}}盾" />
+    <part Name="Description" Short="这块黑色金属板已被擦拭打磨干净，曾经可能照耀其哑光表面的任何符号都不复存在。" />
+  </object>
+  <object Name="ScrapCape" Load="Merge">
+    <part Name="Render" DisplayName="废料披风" />
+    <part Name="Description" Short="这件披风由深至第 29 地层的垃圾织成；一千年的历史如今披在屁股上。" />
+  </object>
+  <object Name="n-Pointed Asterisk" Load="Merge">
+    <part Name="Render" DisplayName="n 尖星号" />
+    <part Name="Description" Short="一截垃圾礁横剖面被削成星形。千纪生命物、岩石与代用品质缎带般缠绕其臂：息肉的镶嵌、海带的花束、烧玻璃、铸铬、星云壳、虹膜乳，以及从衰败全息影像上剥落的游离光子绒噪。" />
+    <part Name="RulesDescription" Text="这件物品不用装备也会生效。&#xA;" />
+    <xtagGrammar iArticle="" />
+  </object>
+  <object Name="Cyclopean Prism" Load="Merge">
+    <part Name="Render" DisplayName="{{K|不凋}}棱镜" />
+    <part Name="Description" Short="一枚无星的黑玻璃三棱镜静止不动。" />
+    <xtagGrammar Proper="true" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+    <part Name="TakenAccomplishment" Text="你把 =this.refname= 的黑玻璃紧握在手中。" Hagiograph="不凋的 =name=！在由 =player.possessive= 自身梦质铸成、持有黑玻璃的神苏丹面前畏缩吧！" Gospel="在基亚库基亚附近的丛林游荡时，=name= 梦见 =player.subjective= 环绕一颗幽暗星辰，并在它辽阔的吸积盘中堆积自我的构件。从那以后，=name= 一直随身携带一枚无星的三角棱镜。" />
+  </object>
+  <object Name="TauChime" Load="Merge">
+    <part Name="Render" DisplayName="静止晶钟" />
+    <part Name="Description" Short="尖锐晶点贯穿着明亮灿然的紫水晶与蓝宝石。色彩仍在，却在将死之光中闷燃成石南紫。钟声静如坟墓。" />
+  </object>
+  <object Name="TauHeadpiece" Load="Merge">
+    <part Name="Render" DisplayName="{{crystalline|晶质}}光环" />
+    <part Name="Description" Short="拜占庭紫在晶体尖锐相连的棱镜上以中等色调闷燃。它因新生命与巧思而嗡鸣。" />
+    <part Name="RulesDescription" Text="赋予你迅捷思维：使用时刷新一个随机冷却。" />
+    <part Name="BootSequence" VerbOnBootInitialized="振动" VerbOnBootDone="鸣响" VerbOnBootAborted="静止" />
+  </object>
+  <object Name="TauDagger" Load="Merge">
+    <part Name="Render" DisplayName="{{crystalline|晶质}}吉莱短刀" />
+    <part Name="Description" Short="破碎晶体在碎片接缝处收细成怨毒剃刃。它在苦痛的共振曲率上裂开，像破碎誓言一样从母岩中脱落。" />
+    <part Name="RulesDescription" Text="攻击 MA 而非 AV。" />
+  </object>
+  <object Name="Nacham's Ribbon" Load="Merge">
+    <part Name="Render" DisplayName="{{K-K-K-K-K-c-C-Y sequence|纳查姆的}}{{C-c-K-K-K-K sequence|缎带}}" />
+    <part Name="Description" Short="一帘嗡鸣缆线为佝偻肩头织成披饰。它们以久已沉睡的神经元频率定调。" />
+    <part Name="Toolbox" BehaviorDescription="供能时，这件物品会让修补制成的物品有 40% 概率获得一个随机物品改造。这可能包括通常无法通过修补获得的物品改造。" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="Vaam's Lens" Load="Merge">
+    <part Name="Render" DisplayName="{{K-K-K-K-c-C-Y sequence|瓦阿姆的}}{{C-c-K-K sequence|透镜}}" />
+    <part Name="Description" Short="一只未知锆石制成的海鼓借静电抵消，把自己的尘埃清成微粒。中央十字可供持用者握持。" />
+    <part Name="ReduceCooldowns" NameForStatus="动能加速" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="Dagasha's Spur" Load="Merge">
+    <part Name="Render" DisplayName="{{K-K-K-K-c-C-Y-C-c sequence|达迦莎的}}{{K sequence|距刺}}" />
+    <part Name="Description" Short="一顶由晶体按昭示性的灵能角度排列成的荆冠，在灵能海中构成地标。" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="Kah's Loop" Load="Merge">
+    <part Name="Render" DisplayName="{{K-K-c-C-Y sequence|卡赫的}}{{C-c-K-K sequence|环圈}}" />
+    <part Name="Description" Short="一条带肋缆索由相切针尖构成，勒住肢体，让肢体的生物质异常活化。" />
+    <part Name="IntPropertyChanger" BehaviorDescription="佩戴者可在疾跑时执行任何动作，且不会受到额外惩罚。" NameForStatus="?????" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="The Kesil Face" Load="Merge">
+    <part Name="Render" DisplayName="{{kesil|凯西尔}}面" />
+    <part Name="Description" Short="闪亮珠宝散布在一张银河面容的轮廓上，彼此之间画出的边线勾勒出佩绶愚者的外形。遥远的铬冠处，明亮灼人的光珠暗示一只居中水罐的形状；在壶嘴之外，是一座辽阔而充满时间的结构。面具内侧带着烧焦纹路，那是它在镓车床上塑形后留下的痕迹；随后它以谢丁挤出的虹膜乳染色，放在一池温热静电中晾干。" />
+    <part Name="RulesDescription" Text="所有突变等级 +1&#xA;义体许可阶级 +6" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="The Shemesh Face" Load="Merge">
+    <part Name="Render" DisplayName="{{shemesh|舍梅什}}面" />
+    <part Name="Description" Short="燃烧的红宝石、红玉髓与石榴石排列成一轮温暖而给予的太阳。细小岩质球体掠过面容的近处空间，而在远处空间，一道货运棱镜延伸进更宽阔的虚空。面具内侧带着烧焦纹路，那是它在镓车床上塑形后留下的痕迹；随后它以谢丁挤出的虹膜乳染色，放在一池温热静电中晾干。" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="The Earth Face" Load="Merge">
+    <part Name="Render" DisplayName="{{earth|大地}}面" />
+    <part Name="Description" Short="面容之上，雪花石云带圈住青金石之海与翡翠森林。在这一切的中线处，一根纺锤刺穿外圆饰，并消失在构图之外。第二座受阻尖塔，必是纺锤的影子，吸尽晶白南天抛出的光。面具内侧带着烧焦纹路，那是它在镓车床上塑形后留下的痕迹；随后它以谢丁挤出的虹膜乳染色，放在一池温热静电中晾干。" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="The Levant Face" Load="Merge">
+    <part Name="Render" DisplayName="{{levant|黎凡特}}面" />
+    <part Name="Description" Short="碧玉岩在面具边缘碎裂，围住一片苍白乳石英之海。纺锤将宽阔面容一分为二，对称在其下绽放。面具内侧带着烧焦纹路，那是它在镓车床上塑形后留下的痕迹；随后它以谢丁挤出的虹膜乳染色，放在一池温热静电中晾干。" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="The Olive Face" Load="Merge">
+    <part Name="Render" DisplayName="{{olive|橄榄}}面" />
+    <part Name="Description" Short="一座嵌饰玄武岩与孔雀石的孤山张开；纺锤的图像从中心绽放，支配着缀饰的面相。面具内侧带着烧焦纹路，那是它在镓车床上塑形后留下的痕迹；随后它以谢丁挤出的虹膜乳染色，放在一池温热静电中晾干。" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="The Nil Face" Load="Merge">
+    <part Name="Render" DisplayName="{{K|虚无}}面" />
+    <part Name="Description" Short="一枚弯曲弯月在被从镓车床上砸下之处裂开。谢丁已无眼可为这张昏暗而终末的面上色，而它被遗弃在一池温热静电中太久。苏丹国已破碎。" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="Repulsive Device" Load="Merge">
+    <part Name="Render" DisplayName="{{M|排斥装置}}" />
+    <part Name="Description" Short="尽管它的大小和重量约等于人类婴儿，这件闪亮黑色装置的形状却更像过早从子宫中撕出的胎儿。表面光滑温热，漆黑皮肤下某处有苍白脉搏在呼吸。尾端是一个镶满钩齿的孔口，永远寻觅一个它永远找不到的锚点。" />
+  </object>
+  <object Name="Otherpearl" Load="Merge">
+    <part Name="Render" DisplayName="{{otherpearl|他界珠}}" />
+    <part Name="Description" Short="全色珍珠母硬化成一种本体论上完美的形状；球体数学不过是粗略近似。内部，以太的缎带图案冻结在停滞中，并凝聚为月光景观，那景象不知何故系于你观察它的时空点。这一配对的意义未知，也不可知。" />
+    <part Name="RulesDescription" Text="+40 灵能微光&#xA;你找到的物品来自其他维度的概率提高到五倍。" />
+    <part Name="TakenAccomplishment" Text="你握紧了 =this.refname=，并以现实之镜为衣。" Hagiograph="噢！当 =name= 为未知女童欧多克西娅诵念挽歌时，我们的心化作星辰残骸！" Gospel="在 =year= 年 =month=，一名腐败行政官被任命为一座辉煌城市的大臣，那城街道由黄金与玻璃铺成。=spice:pronouns.subject.!random.capitalize= 禁止创作挽歌，=name= 被迫逃离。" />
+    <xtagGrammar Proper="true" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="Flange from the Great Machine" Load="Merge">
+    <part Name="Render" DisplayName="来自{{great machine|伟大机器}}的法兰" />
+    <part Name="Description" Short="一片巨大的旋涡唇从文明的驱动轮上崩落，脱离其星穹轨道，又经由时间侵蚀过的方法抵达这里。星外异孢抽打着它的超钢下缘；这些来自炽热真菌核心的朝圣者，正在此刻与某个迷离未来点之间等待时机。" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="Sail from the Great Machine" Load="Merge">
+    <part Name="Render" DisplayName="来自{{great machine|伟大机器}}的帆" />
+    <part Name="Description" Short="一面由系外亚麻制成、盛放如花的风筝帆织在帆条上，用以捕捉某颗遥远沼泽小行星的毒气，并驱动一场普世循环。帆耳缝满来自梦境全域的混融繁多。" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="Gear from the Great Machine" Load="Merge">
+    <part Name="Render" DisplayName="来自{{great machine|伟大机器}}的齿轮" />
+    <part Name="Description" Short="这枚巨齿轮从十万光年外绕恒星运行、灯火通明的机器圣殿中脱轴而出，如今在停滞中隐现。来自百座邻近行星家园的尘埃点在它带槽的齿尖上，而它的轴孔则覆着苋红与香油，那香油经由一整个园林文明的寿命培育而成。" />
+    <part Name="RulesDescription" Text="被此盾牌格挡的持用武器有 10% 概率被缴械。" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="Gauge from the Great Machine" Load="Merge">
+    <part Name="Render" DisplayName="来自{{great machine|伟大机器}}的仪表" />
+    <part Name="Description" Short="巨大的钟面上描着双纽线，用以计量深渊太阳核心中积聚的致神压力。那位读取数值并把表盘唱向左侧的机器祭司，亏欠着一名遥远同僚；后者所在的聚会在 8000 年后发明了口哨语言。" />
+    <part Name="RulesDescription" Text="呵斥、威吓和威慑凝视还会按困惑等级 10 造成困惑。" />
+    <xtagGrammar Proper="true" />
+  </object>
+  <object Name="RelicTonic" Load="Merge">
+    <part Name="Description" Short="一支四氙玻璃管内闪烁着乳白糖浆。" />
+    <part Name="RulesDescription" Text="你随机获得一个属性的永久 +2 加成，或获得两个突变点。" GenotypeAlt="你获得两个属性点。" />
+  </object>
+  <object Name="RelicBook" Load="Merge">
+    <part Name="Description" Short="光停驻在四枚乳白角饰，以及一枚嵌在镶嵌乌麻中央的凸起圆章上。奇观织满这部独眼巨人般的巨册。" />
+  </object>
+  <object Name="BaseRelicAxe1" Load="Merge">
+    <part Name="Description" Short="仪式铃铁被塑成斧刃。" />
+  </object>
+  <object Name="BaseRelicAxe2" Load="Merge">
+    <part Name="Description" Short="仪式矿渣钢被塑成斧刃。" />
+  </object>
+  <object Name="BaseRelicAxe2th" Load="Merge">
+    <part Name="Description" Short="仪式矿渣钢被塑成宽斧刃。" />
+  </object>
+  <object Name="BaseRelicDagger1" Load="Merge">
+    <part Name="Description" Short="仪式铃铁被塑成短尖。" />
+  </object>
+  <object Name="BaseRelicDagger2" Load="Merge">
+    <part Name="Description" Short="仪式矿渣钢被塑成短尖。" />
+  </object>
+  <object Name="BaseRelicLongsword1" Load="Merge">
+    <part Name="Description" Short="仪式铃铁被塑成剑刃。" />
+  </object>
+  <object Name="BaseRelicLongsword1th" Load="Merge">
+    <part Name="Description" Short="仪式铃铁被塑成宽剑刃。" />
+  </object>
+  <object Name="BaseRelicLongsword2" Load="Merge">
+    <part Name="Description" Short="仪式矿渣钢被塑成剑刃。" />
+  </object>
+  <object Name="BaseRelicLongsword2th" Load="Merge">
+    <part Name="Description" Short="仪式矿渣钢被塑成宽剑刃。" />
+  </object>
+  <object Name="BaseRelicCudgel1" Load="Merge">
+    <part Name="Description" Short="仪式铃铁被塑成六角棱柱。" />
+  </object>
+  <object Name="BaseRelicCudgel1th" Load="Merge">
+    <part Name="Description" Short="仪式铃铁被塑成宽六角棱柱。" />
+  </object>
+  <object Name="BaseRelicCudgel2" Load="Merge">
+    <part Name="Description" Short="仪式矿渣钢被塑成六角棱柱。" />
+  </object>
+  <object Name="BaseRelicCudgel2th" Load="Merge">
+    <part Name="Description" Short="仪式矿渣钢被塑成宽六角棱柱。" />
+  </object>
+  <object Name="BaseRelicRifle1" Load="Merge">
+    <part Name="Description" Short="仪式矿渣钢被塑成滑膛枪管。" />
+  </object>
+  <object Name="BaseRelicRifle2" Load="Merge">
+    <part Name="Description" Short="仪式矿渣钢被塑成螺旋枪管。" />
+  </object>
+  <object Name="BaseRelicRifle3A" Load="Merge">
+    <part Name="Description" Short="仪式矿渣钢被塑成锯短枪管。" />
+  </object>
+  <object Name="BaseRelicRifle3B" Load="Merge">
+    <part Name="Description" Short="仪式矿渣钢被塑成枪管，并刻入精确螺旋槽。" />
+  </object>
+  <object Name="BaseRelicPistol1" Load="Merge">
+    <part Name="Description" Short="仪式铬轮按月时咔嗒转动，握柄圆章闪耀着德尔斐血脉。" />
+  </object>
+  <object Name="BaseRelicPistol2" Load="Merge">
+    <part Name="Description" Short="黑色丙烯握片成对贴在仪式铬弹匣井两侧。" />
+  </object>
+  <object Name="BaseRelicPistol3" Load="Merge">
+    <part Name="Description" Short="一枚锡片般纤薄的弹夹挂在仪式铬弹匣井上。" />
+  </object>
+  <object Name="BaseTierArtifact" Load="Merge">
+    <part Name="Description" Short="手持盒子的每个外表面都刻着细小字形。" />
+  </object>
+  <object Name="BaseTierBody1_AV" Load="Merge">
+    <part Name="Description" Short="空置区水族筒仓中养大的鲈鱼被网起，剥皮切成条。那些皮条以铬鞣制，缝成这件背心。" />
+  </object>
+  <object Name="BaseTierBody1_DV" Load="Merge">
+    <part Name="Description" Short="这件罩袍由不朽乌麻织成；那乌麻是在织工行会与高层窗匠的工会纠纷中，从拱廊花园偷来的。" />
+  </object>
+  <object Name="BaseTierHead1_AV" Load="Merge">
+    <part Name="Description" Short="这颗动物头骨从页岩倾塌尖塔的阈限层夺来，交给蚀刻工装饰。" />
+  </object>
+  <object Name="BaseTierHead1_DV" Load="Merge">
+    <part Name="Description" Short="一片不朽乌麻从市场中象般巨大的线轴上撕下，缝成头饰。" />
+  </object>
+  <object Name="BaseTierFace1" Load="Merge">
+    <part Name="Description" Short="即便食客失去了把面具缝进自己脸上的能力，面具在他们生活中仍保持神圣地位。这一副也并无不同。" />
+  </object>
+  <object Name="BaseTierBack1" Load="Merge">
+    <part Name="Description" Short="一片不朽乌麻从市场中象般巨大的线轴上撕下，缝成短披。" />
+  </object>
+  <object Name="BaseTierHands1_AV" Load="Merge">
+    <part Name="Description" Short="早期苏丹国的鱼工穿戴鲈鱼皮，但到 =spice.entity:name= 的时代，它已为上流人士所珍重。这一副制作精美。" />
+  </object>
+  <object Name="BaseTierArm1" Load="Merge">
+    <part Name="Description" Short="尖塔之火在下方肆虐时，勇敢的奥术航行者沉入发光深处打捞贵重物。当他们的尸体被发现时，口袋里的沙已被吹成玻璃珠。后来某时，那些珠子被串成手镯。" />
+  </object>
+  <object Name="BaseTierFeet1" Load="Merge">
+    <part Name="Description" Short="鲈鱼皮靴，做工绝佳。它们要么是从更古老食客的墓室里偷来的，要么是鞋匠仿照那种样式做成的。" />
+  </object>
+  <object Name="BaseTierFloating1" Load="Merge">
+    <part Name="Description" Short="一块剥落的纺锤碎片因坠地而磁化，环绕它选中的守卫者运行。" />
+  </object>
+  <object Name="BaseTierShield1" Load="Merge">
+    <part Name="Render" DisplayName="铁圆盾" />
+    <part Name="Description" Short="远不能与早期高翔的神盾相比，这面凹形防具不过是在市政车床上弯折并抛光而成。" />
+  </object>
+  <object Name="BaseTierBody2_AV" Load="Merge">
+    <part Name="Description" Short="铬片像头屑一样从破碎钟楼落入垃圾海。矿渔夫把它们捞起，沿丝绸链路向上交易。这件衬衣由那些卷成环的碎片制成。" />
+  </object>
+  <object Name="BaseTierBody2_DV" Load="Merge">
+    <part Name="Description" Short="早期食客改造基因，让自己长出原丝发。后来技术失落，盗墓者便从他们枯尸般的头皮上剪下这些毛发。在 =spice.entity:name= 的时代，它被称作华服材料。这件背心正由这种材料织成。" />
+  </object>
+  <object Name="BaseTierHead2_AV" Load="Merge">
+    <part Name="Description" Short="早期食客曾为美观而扩大自己的颅骨。到 =spice.entity:name= 的时代，高尖塔居民开始把它们当作头盔佩戴。这一件装饰精美。" />
+  </object>
+  <object Name="BaseTierHead2_DV" Load="Merge">
+    <part Name="Description" Short="早期食客改造基因，让自己长出原丝发。后来技术失落，盗墓者便从他们枯尸般的头皮上剪下这些毛发。在 =spice.entity:name= 的时代，它被称作华服材料。这顶帽子正由这种材料织成。" />
+  </object>
+  <object Name="BaseTierFace2" Load="Merge">
+    <part Name="Description" Short="即便食客失去了把面具缝进自己脸上的能力，面具在他们生活中仍保持神圣地位。这一副也并无不同。" />
+  </object>
+  <object Name="BaseTierBack2" Load="Merge">
+    <part Name="Description" Short="这件斗篷由从早期食客坟墓中盗来的原丝发织成。" />
+  </object>
+  <object Name="BaseTierHands2_AV" Load="Merge">
+    <part Name="Description" Short="早期苏丹国的鱼工穿戴鲈鱼皮，但到 =spice.entity:name= 的时代，它已为上流人士所珍重。这一副制作精美。" />
+  </object>
+  <object Name="BaseTierArm2" Load="Merge">
+    <part Name="Description" Short="尖塔之火在下方肆虐时，勇敢的奥术航行者沉入发光深处打捞贵重物。当他们的尸体被发现时，口袋里的沙已被吹成玻璃珠。后来某时，那些珠子被串成手镯。" />
+  </object>
+  <object Name="BaseTierFeet2" Load="Merge">
+    <part Name="Description" Short="鲈鱼皮靴，做工绝佳。它们要么是从更古老食客的墓室里偷来的，要么是鞋匠仿照那种样式做成的。" />
+  </object>
+  <object Name="BaseTierFloating2" Load="Merge">
+    <part Name="Description" Short="一块剥落的纺锤碎片因坠地而磁化，环绕它选中的守卫者运行。" />
+  </object>
+  <object Name="BaseTierShield2" Load="Merge">
+    <part Name="Description" Short="远不能与早期高翔的神盾相比，这面凹形防具不过是在市政车床上弯折并抛光而成。" />
+  </object>
+  <object Name="BaseTierBody3_AV" Load="Merge">
+    <part Name="Description" Short="晶钢鼓风炉运转时，曾把矿渣喷入环绕旧生态城的一带山丘。到 =spice.entity:name= 的时代，这些矿渣被开采出来，铸成晶钢锁子甲的玻璃复制品。" />
+  </object>
+  <object Name="BaseTierBody3_DV" Load="Merge">
+    <part Name="Description" Short="以菱形铺满高处气动管道的橡胶绝缘层在午夜被割下，运往一个裁缝团体；他们随后缝出一件紧身上衣。" />
+  </object>
+  <object Name="BaseTierHead3_AV" Load="Merge">
+    <part Name="Description" Short="晶钢鼓风炉运转时，曾把矿渣喷入环绕旧生态城的一带山丘。到 =spice.entity:name= 的时代，这些矿渣被开采出来，铸成晶钢主教冠的玻璃复制品。" />
+  </object>
+  <object Name="BaseTierHead3_DV" Load="Merge">
+    <part Name="Description" Short="以菱形铺满高处气动管道的橡胶绝缘层在午夜被割下，运往一个裁缝团体；他们随后缝出一顶圆帽。" />
+  </object>
+  <object Name="BaseTierFace3" Load="Merge">
+    <part Name="Description" Short="即便食客失去了把面具缝进自己脸上的能力，面具在他们生活中仍保持神圣地位。这一副也并无不同。" />
+  </object>
+  <object Name="BaseTierBack3" Load="Merge">
+    <part Name="Description" Short="一片不朽乌麻从市场中象般巨大的线轴上撕下，缝成带几何图案的短披。" />
+  </object>
+  <object Name="BaseTierHands3_AV" Load="Merge">
+    <part Name="Description" Short="晶钢鼓风炉运转时，曾把矿渣喷入环绕旧生态城的一带山丘。到 =spice.entity:name= 的时代，这些矿渣被开采出来，铸成一副晶钢护手的玻璃复制品。" />
+  </object>
+  <object Name="BaseTierHands3_DV" Load="Merge">
+    <part Name="Description" Short="以菱形铺满高处气动管道的橡胶绝缘层在午夜被割下，运往一个裁缝团体；他们随后缝出一副连指手套。" />
+  </object>
+  <object Name="BaseTierArm3" Load="Merge">
+    <part Name="Description" Short="一枚光亮箔扣从城邦的玻璃肠腹上撬下，被蚀刻成饰物。" />
+  </object>
+  <object Name="BaseTierFeet3_AV" Load="Merge">
+    <part Name="Description" Short="晶钢鼓风炉运转时，曾把矿渣喷入环绕旧生态城的一带山丘。到 =spice.entity:name= 的时代，这些矿渣被开采出来，铸成一副晶钢足甲的玻璃复制品。" />
+  </object>
+  <object Name="BaseTierFeet3_DV" Load="Merge">
+    <part Name="Description" Short="以菱形铺满高处气动管道的橡胶绝缘层在午夜被割下，运往一个裁缝团体；他们随后缝出一双便鞋。" />
+  </object>
+  <object Name="BaseTierFloating3" Load="Merge">
+    <part Name="Description" Short="一块剥落的发光纺锤碎片因坠地而磁化，环绕它选中的守卫者运行。" />
+  </object>
+  <object Name="BaseTierShield3" Load="Merge">
+    <part Name="Description" Short="晶钢鼓风炉运转时，曾把矿渣喷入环绕旧生态城的一带山丘。到 =spice.entity:name= 的时代，这些矿渣被开采出来，铸成高翔神盾的钢制复制品。" />
+  </object>
+  <object Name="BaseTierBody4_AV" Load="Merge">
+    <part Name="Description" Short="晶钢鼓风炉运转时，曾把矿渣喷入环绕旧生态城的一带山丘。到 =spice.entity:name= 的时代，这些矿渣被开采出来，铸成晶钢锁子甲的玻璃复制品，再以石肠加固。" />
+  </object>
+  <object Name="BaseTierBody4_DV" Load="Merge">
+    <part Name="Description" Short="死海绵在马库姆堆成六角棱柱，经运河渡送到穹影笼罩的库尔纳。在那里，它被洗净，并以海绵工艺制成女衫。" />
+  </object>
+  <object Name="BaseTierHead4_AV" Load="Merge">
+    <part Name="Description" Short="晶钢鼓风炉运转时，曾把矿渣喷入环绕旧生态城的一带山丘。到 =spice.entity:name= 的时代，这些矿渣被开采出来，铸成晶钢主教冠的玻璃复制品，再以石肠加固。" />
+  </object>
+  <object Name="BaseTierHead4_DV" Load="Merge">
+    <part Name="Description" Short="死海绵在马库姆堆成六角棱柱，经运河渡送到穹影笼罩的库尔纳。在那里，它被洗净，并以海绵工艺制成软帽。" />
+  </object>
+  <object Name="BaseTierFace4" Load="Merge">
+    <part Name="Description" Short="即便食客失去了把面具缝进自己脸上的能力，面具在他们生活中仍保持神圣地位。这一副也并无不同。" />
+  </object>
+  <object Name="BaseTierBack4" Load="Merge">
+    <part Name="Description" Short="一片不朽乌麻从市场中象般巨大的线轴上撕下，二次折叠后缝成带几何图案的短披。" />
+  </object>
+  <object Name="BaseTierHands4_AV" Load="Merge">
+    <part Name="Description" Short="晶钢鼓风炉运转时，曾把矿渣喷入环绕旧生态城的一带山丘。到 =spice.entity:name= 的时代，这些矿渣被开采出来，铸成晶钢护手的玻璃复制品，再以石肠加固。" />
+  </object>
+  <object Name="BaseTierHands4_DV" Load="Merge">
+    <part Name="Description" Short="死海绵在马库姆堆成六角棱柱，经运河渡送到穹影笼罩的库尔纳。在那里，它被洗净，并以海绵工艺制成一副手套。" />
+  </object>
+  <object Name="BaseTierArm4" Load="Merge">
+    <part Name="Description" Short="一枚光亮箔扣从城邦的玻璃肠腹上撬下，被蚀刻成饰物。" />
+  </object>
+  <object Name="BaseTierFeet4_AV" Load="Merge">
+    <part Name="Description" Short="晶钢鼓风炉运转时，曾把矿渣喷入环绕旧生态城的一带山丘。到 =spice.entity:name= 的时代，这些矿渣被开采出来，铸成一副晶钢足甲的玻璃复制品，再以石肠加固。" />
+  </object>
+  <object Name="BaseTierFeet4_DV" Load="Merge">
+    <part Name="Description" Short="死海绵在马库姆堆成六角棱柱，经运河渡送到穹影笼罩的库尔纳。在那里，它被洗净，并以海绵工艺制成一双浅口鞋。" />
+  </object>
+  <object Name="BaseTierFloating4" Load="Merge">
+    <part Name="Description" Short="一块剥落的发光纺锤碎片因坠地而磁化，环绕它选中的守卫者运行。" />
+  </object>
+  <object Name="BaseTierShield4" Load="Merge">
+    <part Name="Description" Short="晶钢鼓风炉运转时，曾把矿渣喷入环绕旧生态城的一带山丘。到 =spice.entity:name= 的时代，这些矿渣被开采出来，铸成高翔神盾的钢制复制品，再以石肠加固。" />
+  </object>
+  <object Name="BaseTierBody5_AV" Load="Merge">
+    <part Name="Description" Short="在辽阔深渊大厅中，尖塔般高的机器压机把黑色球体碾成钻石杀器。灯火熄灭后，喜鹊剧团用煤气灯工具切下大块，把它们带到低层锻坊。这一块被锻成胸甲。" />
+  </object>
+  <object Name="BaseTierBody5_DV" Load="Merge">
+    <part Name="Description" Short="在辽阔深渊大厅中，尖塔般高的机器压机把黑色球体碾成钻石杀器。灯火熄灭后，喜鹊剧团用煤气灯工具切下大块，把它们带到低层锻坊。这一块被裁切并装配到塑料锁子甲上。" />
+  </object>
+  <object Name="BaseTierHead5_AV" Load="Merge">
+    <part Name="Description" Short="在辽阔深渊大厅中，尖塔般高的机器压机把黑色球体碾成钻石杀器。灯火熄灭后，喜鹊剧团用煤气灯工具切下大块，把它们带到低层锻坊。这一块被锻成阿梅特盔。" />
+  </object>
+  <object Name="BaseTierFace5" Load="Merge">
+    <part Name="Description" Short="即便食客失去了把面具缝进自己脸上的能力，面具在他们生活中仍保持神圣地位。这一副也并无不同。" />
+  </object>
+  <object Name="BaseTierBack5" Load="Merge">
+    <part Name="Description" Short="一片不朽乌麻从市场中象般巨大的线轴上撕下，二次折叠后缝成带几何图案的短披。" />
+  </object>
+  <object Name="BaseTierHands5_AV" Load="Merge">
+    <part Name="Description" Short="在辽阔深渊大厅中，尖塔般高的机器压机把黑色球体碾成钻石杀器。灯火熄灭后，喜鹊剧团用煤气灯工具切下大块，把它们带到低层锻坊。这一块被锻成一副护手。" />
+  </object>
+  <object Name="BaseTierArm5" Load="Merge">
+    <part Name="Description" Short="一枚明亮铬扣从城邦的玻璃肠腹上撬下，被蚀刻成饰物。" />
+  </object>
+  <object Name="BaseTierFeet5_AV" Load="Merge">
+    <part Name="Description" Short="在辽阔深渊大厅中，尖塔般高的机器压机把黑色球体碾成钻石杀器。灯火熄灭后，喜鹊剧团用煤气灯工具切下大块，把它们带到低层锻坊。这一块被锻成一副铁靴。" />
+  </object>
+  <object Name="BaseTierFloating5" Load="Merge">
+    <part Name="Description" Short="一块剥落的发光纺锤碎片因坠地而磁化，环绕它选中的守卫者运行。" />
+  </object>
+  <object Name="BaseTierShield5" Load="Merge">
+    <part Name="Description" Short="在辽阔深渊大厅中，尖塔般高的机器压机把黑色球体碾成钻石杀器。灯火熄灭后，喜鹊剧团用煤气灯工具切下大块，把它们带到低层锻坊。这一块被锻成神盾。" />
+  </object>
+  <object Name="BaseTierBody6_DV" Load="Merge">
+    <part Name="Description" Short="复合纤维色彩斑斓，触感动人，不似任何其他织物。分形织机把分子纬线拉过不断收缩的经线。" />
+  </object>
+  <object Name="BaseTierFace6" Load="Merge">
+    <part Name="Description" Short="蜜渍皮肤缝合在彩色乌麻上，以致幻拟态仿出 =spice.entity:name= 时代的食客偶像。" />
+  </object>
+  <object Name="BaseTierBack6" Load="Merge">
+    <part Name="Description" Short="一片不朽乌麻从市场中象般巨大的线轴上撕下，三次折叠后缝成带几何图案的短披。" />
+  </object>
+  <object Name="BaseTierArm6" Load="Merge">
+    <part Name="Description" Short="一枚明亮铬扣从城邦的玻璃肠腹上撬下，被蚀刻成饰物。" />
+  </object>
+  <object Name="BaseTierFloating6" Load="Merge">
+    <part Name="Description" Short="一块剥落的发光纺锤碎片因坠地而磁化，环绕它选中的守卫者运行。" />
+  </object>
+  <object Name="BaseTierFace7" Load="Merge">
+    <part Name="Description" Short="蜜渍皮肤缝合在彩色乌麻上，以致幻拟态仿出 =spice.entity:name= 时代的食客偶像。" />
+  </object>
+  <object Name="BaseTierBack7" Load="Merge">
+    <part Name="Description" Short="一片不朽乌麻从市场中象般巨大的线轴上撕下，三次折叠后缝成带几何图案的短披。" />
+  </object>
+  <object Name="BaseTierArm7" Load="Merge">
+    <part Name="Description" Short="界外金叶在星路上旋转。" />
+  </object>
+  <object Name="BaseTierFloating7" Load="Merge">
+    <part Name="Description" Short="一块剥落的发光纺锤碎片因坠地而磁化，环绕它选中的守卫者运行。" />
+  </object>
+  <object Name="BaseTierFace8" Load="Merge">
+    <part Name="Description" Short="蜜渍皮肤缝合在彩色乌麻上，以致幻拟态仿出 =spice.entity:name= 时代的食客偶像。" />
+  </object>
+  <object Name="BaseTierBack8" Load="Merge">
+    <part Name="Description" Short="一片不朽乌麻从市场中象般巨大的线轴上撕下，四次折叠后缝成带几何图案的短披。" />
+  </object>
+  <object Name="BaseTierArm8" Load="Merge">
+    <part Name="Description" Short="界外金叶在星路上旋转。" />
+  </object>
+  <object Name="BaseTierFloating8" Load="Merge">
+    <part Name="Description" Short="一块剥落的发光纺锤碎片因坠地而磁化，环绕它选中的守卫者运行。" />
+  </object>
+  <object Name="Albino Ape Pelt" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|白化猿皮}}" />
+    <part Name="Description" Short="一片雪白梯形的细猿毛皮，因美丽与温暖而备受珍视。" />
+  </object>
+  <object Name="Ogre Ape Pelt" Load="Merge">
+    <part Name="Render" DisplayName="{{W|食人魔猿皮}}" />
+    <part Name="Description" Short="一片粗糙金色毛毡溅着两种色调的血。" />
+  </object>
+  <object Name="EyelessCrabShell" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|无眼蟹壳}}" />
+    <part Name="Description" Short="珍珠色甲壳围着手刺弯成圆形，可用来偏转近战打击。" />
+  </object>
+  <object Name="SalthopperMandible" Load="Merge">
+    <part Name="Render" DisplayName="{{G|盐跳虫颚}}" />
+    <part Name="Description" Short="一根由漂白几丁质构成、带锯齿的刃棒上，仍黏着死盐跳虫最后一餐的血肉碎屑。" />
+  </object>
+  <object Name="Corpse" Load="Merge">
+    <part Name="Description" Short="一具尸体。" />
+  </object>
+  <object Name="Animal Corpse" Load="Merge">
+    <part Name="Description" Short="一堆湿毛与腐肉让地面隆起些许。" />
+    <part Name="Food" Message="肉很韧。" />
+  </object>
+  <object Name="Small Animal Corpse" Load="Merge">
+    <part Name="Description" Short="一小堆湿毛与腐肉让地面鼓起一个包。" />
+    <part Name="Food" Message="肉很韧。" />
+  </object>
+  <object Name="Humanoid Corpse" Load="Merge">
+    <part Name="Description" Short="一堆湿毛与腐肉让地面隆起些许。" />
+    <part Name="Food" Message="肉很韧。" />
+  </object>
+  <object Name="Arthropod Corpse" Load="Merge">
+    <part Name="Description" Short="它的躯干底朝天，冒出一束皱折的腿。" />
+    <part Name="Food" Message="咬碎外骨骼后，柔软的肉在你舌上化开。" />
+  </object>
+  <object Name="Crab Corpse" Load="Merge">
+    <part Name="Description" Short="它带壳的躯干底朝天，冒出一束皱折的腿。" />
+  </object>
+  <object Name="Winged Arthropod Corpse" Load="Merge">
+    <part Name="Description" Short="它的躯干底朝天，冒出一束皱折的腿。整具东西裹在薄膜般的翼裹布里。" />
+  </object>
+  <object Name="Scaled Reptile Corpse" Load="Merge">
+    <part Name="Description" Short="破碎鳞片平铺成镶嵌图案。" />
+    <part Name="Food" Message="咬穿它的鳞片像在咬石头。肉很瘦，但能填饱肚子。" />
+  </object>
+  <object Name="Fish Corpse" Load="Merge">
+    <part Name="Description" Short="湿鳞片平铺成镶嵌图案。" />
+    <part Name="Food" Message="软肉从细刺上滑落。" />
+  </object>
+  <object Name="Frog Corpse" Load="Merge">
+    <part Name="Description" Short="张开的脚与开裂的腿收在压扁的身体下。" />
+    <part Name="Food" Message="肉很嫩。" />
+  </object>
+  <object Name="Worm Corpse" Load="Merge">
+    <part Name="Description" Short="海绵般虫体的环节瘪下，静止不动。细小刚毛刮擦着泥土。" />
+    <part Name="Food" Message="它嚼起来没完没了。" />
+  </object>
+  <object Name="Snail Corpse" Load="Merge">
+    <part Name="Description" Short="空壳沿螺旋裂开，染着干涸黏液。" />
+    <part Name="Food" Message="你把壳嚼成碎片，满嘴都是热黏液。" />
+  </object>
+  <object Name="Robot Corpse" Load="Merge">
+    <part Name="Description" Short="一具尸体。" />
+  </object>
+  <object Name="GenericFace" Load="Merge">
+    <part Name="EatenAccomplishment" Text="你吃掉了 =this.an=。" Hagiograph="败者有祸！=name= 在甲虫月的光下大嚼 =this.an=。" Gospel="在 =month= 的 =day=，于 =landmark.nearest= 附近的一间酒馆，=name= 遇见一群腌鱼客，并受 =spice:elements.entity@elements[random].practices.!random= 的神圣启发，烹制并享用了 =this.refname=。" />
+  </object>
+  <object Name="PlantFace" Load="Merge">
+    <part Name="EatenAccomplishment" Text="你吃掉了 =this.an=。" Hagiograph="败者有祸！=name= 在甲虫月的光下大嚼 =this.an=。" Gospel="在 =month= 的 =day=，于 =landmark.nearest= 附近的一间酒馆，=name= 遇见一群腌鱼客，并受 =spice:elements.entity@elements[random].practices.!random= 的神圣启发，烹制并享用了 =this.refname=。" />
+  </object>
+  <object Name="FungusFace" Load="Merge">
+    <part Name="EatenAccomplishment" Text="你吃掉了 =this.an=。" Hagiograph="败者有祸！=name= 在甲虫月的光下大嚼 =this.an=。" Gospel="在 =month= 的 =day=，于 =landmark.nearest= 附近的一间酒馆，=name= 遇见一群腌鱼客，并受 =spice:elements.entity@elements[random].practices.!random= 的神圣启发，烹制并享用了 =this.refname=。" />
+  </object>
+  <object Name="RobotLimb" Load="Merge">
+    <part Name="Description" Short="一块金属残骸。" />
+  </object>
+  <object Name="Human Corpse" Load="Merge">
+    <part Name="Render" DisplayName="人类尸体" />
+    <part Name="Description" Short="屠戮之力重新排列了身体的各部分。你思索“重新排列”在每一种语境中意义何其不同：棋盘上的棋子，王厅里得宠的廷臣，以及身体上的部件。" />
+    <part Name="Food" Message="一顿令人恶心的筋腱餐。" />
+  </object>
+  <object Name="Charred Corpse" Load="Merge">
+    <part Name="Render" DisplayName="焦尸" />
+    <part Name="Food" Message="它已经焦了。" />
+    <part Name="Description" Short="火从这具身体里煮走了光。它的静止在变化的土壤上扭动。" />
+  </object>
+  <object Name="Mangled Corpse" Load="Merge">
+    <part Name="Render" DisplayName="残破尸体" />
+    <part Name="Food" Message="它腐臭不堪。" />
+    <part Name="Description" Short="屠戮之力重新排列了身体的各部分。你思索“重新排列”在每一种语境中意义何其不同：棋盘上的棋子，王厅里得宠的廷臣，以及身体上的部件。" />
+  </object>
+  <object Name="Ancient Corpse" Load="Merge">
+    <part Name="Render" DisplayName="木乃伊尸体" />
+    <part Name="Food" Message="它尝起来像空无。" />
+    <part Name="Description" Short="是谁保存了这静止者的皮肤与内脏？是莫格拉伊的干燥空气？还是人类仪式溺爱般的执着？这重要吗？" />
+  </object>
+  <object Name="Fresh Corpse" Load="Merge">
+    <part Name="Render" DisplayName="新鲜尸体" />
+    <part Name="Food" Message="它腐臭不堪。" />
+    <part Name="Description" Short="血仍然湿润。直到此刻，你才把湿润看作某种时钟。" />
+  </object>
+  <object Name="Moldering Corpse" Load="Merge">
+    <part Name="Render" DisplayName="霉烂尸体" />
+    <part Name="Food" Message="它有霉味。" />
+    <part Name="Description" Short="这里躺着一个类人生物，生前绝猜不到自己的躯干会庇护小蘑菇菌褶落下的尘埃，尽管本该猜到。" />
+  </object>
+  <object Name="TarBones" Load="Merge">
+    <part Name="Render" DisplayName="{{K|焦油结壳骨骸}}" />
+    <part Name="Description" Short="组织在生长时矿化，随后从生灵之树上折断，成为生命的遗物。之后它在烧焦泥炭中炖煮，变成坚硬黏胶。" />
+    <part Name="Food" Message="对你的口味来说太黏了。" />
+  </object>
+  <object Name="Ashes" Load="Merge">
+    <part Name="Render" DisplayName="灰烬" />
+    <part Name="Description" Short="物质被碾碎、焚烧，并制粒成柔软粉末。" />
+    <xtagGrammar adjunctNoun="堆" massNoun="true" />
+  </object>
+  <object Name="Bones" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|骨骸}}" />
+    <part Name="Description" Short="组织在生长时矿化，随后从生灵之树上折断，成为生命的遗物。" />
+  </object>
+  <object Name="ExileCorpse" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|人类遗骸}}" />
+    <part Name="Food" Message="它尝起来潮湿而阴郁。" />
+    <part Name="Description" Short="一名成年人的未漂白骨骼从一池珊瑚树脂中探出。遗骸播下了一片异界菌菇林。" />
+  </object>
+  <object Name="JoppaCorpse" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|人类遗骸}}" />
+    <part Name="Description" Short="一名成年人的未漂白骨骼从一丛盐茎中探出。" />
+  </object>
+  <object Name="CaverCorpse" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|古老骨骸}}" />
+    <part Name="Food" Message="脆薄骨片碎裂开来。" />
+  </object>
+  <object Name="SkrefCorpse" Load="Merge">
+    <part Name="Render" DisplayName="压扁遗骸" />
+    <part Name="Food" Message="肉饼很嫩。" />
+    <part Name="Description" Short="这些似乎是某个虚荣类人生物被压扁的遗骸。" />
+  </object>
+  <object Name="BaseCyberneticsEquipment" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|义体植入物}}" />
+    <xtagGrammar adjunctNoun="植入物" adjunctNounPost="true" />
+  </object>
+  <object Name="BiologicalIndexer" Load="Merge">
+    <part Name="Description" Short="一枚微小石墨烯阵列，用有机生命形态资料库处理光学数据。" />
+    <part Name="Render" DisplayName="{{Y|光学生物扫描仪}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你可以查看生物的精确生命值、护甲和闪避数值。" />
+  </object>
+  <object Name="TechnologicalIndexer" Load="Merge">
+    <part Name="Description" Short="一枚微小石墨烯阵列，用机器人生命形态与遗物资料库处理光学数据。" />
+    <part Name="Render" DisplayName="{{Y|光学技术扫描仪}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你可以查看机器人生物的精确生命值、护甲和闪避数值，并自动鉴定遗物。" />
+  </object>
+  <object Name="ForceModulator" Load="Merge">
+    <part Name="Description" Short="你最细微部件的发射频率与力场发射标准频段同步。" />
+    <part Name="Render" DisplayName="{{Y|力场调制器}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你可以穿过力场。" />
+  </object>
+  <object Name="CherubicVisage" Load="Merge">
+    <part Name="Description" Short="肉体指令命令面部骨骼结构与丰润组织团重塑为柔和而天使般的容颜。借由这种奇术，古老伊布尔的人们在崩塌冰架怀抱中，在灯火照亮的街上带着玫瑰色双颊漠然游荡。" />
+    <part Name="Render" DisplayName="{{Y|小天使面容}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+1 自我" />
+  </object>
+  <object Name="ElectromagneticSensor" Load="Merge">
+    <part Name="Description" Short="机器族造成的电磁场微小畸变对此传感器可见。" />
+    <part Name="Render" DisplayName="{{Y|电磁传感器}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你无需看见附近机器人也能侦测到它们。" />
+  </object>
+  <object Name="NavigationSystem" Load="Merge">
+    <part Name="Description" Short="地理社会位置数据涂写在玻璃弯月上，其下衬着活壤的表征；那活壤曾在大地上移位并取而代之。" />
+    <part Name="Render" DisplayName="{{Y|导航系统}}" />
+    <part Name="MultiNavigationBonus" NameForStatus="导航模块" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你在废墟中迷路的概率降低 30%。&#xA;你在其他地形中迷路的概率降低 10%。&#xA;这些效果不会与罗盘手镯的加成叠加。" />
+  </object>
+  <object Name="TibularHydrojets" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|胫骨水力喷射器}}" />
+    <part Name="Description" Short="平展滑槽传导肌电力，推动身体穿过水流。" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="游泳时 +200 移动速度" />
+  </object>
+  <object Name="SkinGlitter1" Load="Merge">
+    <part Name="Description" Short="皮肤贴饰的分形晶格把内在辉光传导到外部世界。" />
+    <part Name="Render" DisplayName="{{Y|皮肤闪粉}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+8% 折射光基攻击的概率" />
+    <xtagGrammar massNoun="true" />
+  </object>
+  <object Name="SingleSkillsoft1" Load="Merge">
+    <part Name="Description" Short="这枚芯片编码着某项特定技能的神经模式。" />
+    <part Name="Render" DisplayName="{{Y|技能软体}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你获得一项花费介于 0 到 50 SP 的技能。" />
+  </object>
+  <object Name="DermalInsulation" Load="Merge">
+    <part Name="Description" Short="枕状玻璃纤维鳞片围绕支撑轴绷紧。一经安装，它们会在皮下展开并充胀。" />
+    <part Name="Render" DisplayName="{{Y|皮肤绝缘层}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+6 热抗性&#xA;+6 冷抗性&#xA;+6 电抗性&#xA;+6 酸抗性" />
+  </object>
+  <object Name="NightVision" Load="Merge">
+    <part Name="Description" Short="充满神经的视网膜散射入射辐射并弯折光线，使虹膜转为翡翠色。" />
+    <part Name="Render" DisplayName="{{Y|夜视}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你获得在黑暗中视物的能力。" />
+  </object>
+  <object Name="HyperElasticAnkleTendons" Load="Merge">
+    <part Name="Description" Short="成束水凝胶绳带被捆成一体。" />
+    <part Name="Render" DisplayName="{{Y|超弹性踝腱}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+6 移动速度" />
+  </object>
+  <object Name="ParabolicMuscularSubroutine" Load="Merge">
+    <part Name="Description" Short="神经束如此排列，可沿抛物线计算尺刺激手臂肌肉。" />
+    <part Name="Render" DisplayName="{{Y|抛物线肌肉子程序}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你的投掷范围增加 2。&#xA;当你向投掷范围内的目标投掷物品时，投掷命中率为 100%。" />
+  </object>
+  <object Name="TranslucentSkin" Load="Merge">
+    <part Name="Description" Short="透明真皮把循环、肌肉与神经网络投成剪影浮雕。" />
+    <part Name="Render" DisplayName="{{Y|半透明皮肤}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+2 DV" />
+  </object>
+  <object Name="StabilizerArmLocks" Load="Merge">
+    <part Name="Description" Short="铬扣固定手臂关节，以模拟非生命的静止。" />
+    <part Name="Render" DisplayName="{{Y|稳定器臂锁}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="在判定你的远程攻击命中率时，你的敏捷视为提高 6 点。" />
+  </object>
+  <object Name="RapidReleaseFingerFlexors" Load="Merge">
+    <part Name="Description" Short="带神经电荷的组织鞘以超越细胞生物学成就的速度传递意志。" />
+    <part Name="Render" DisplayName="{{Y|快速释放指屈肌}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你发射手枪的速度提高 25%。" />
+  </object>
+  <object Name="CarbideHandBones" Load="Merge">
+    <part Name="Description" Short="脆弱胶原会被砸成碎片之处，蓝色碳化物只会凹陷。" />
+    <part Name="Render" DisplayName="{{Y|碳化物手骨}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你的拳头造成 2d3 伤害。" />
+  </object>
+  <object Name="CarbideFist" Load="Merge">
+    <part Name="Render" DisplayName="{{K|碳化物拳}}" />
+    <part Name="Description" Short="钴蓝金属制成的骨骼手悬停在暂时的无生状态中。" />
+  </object>
+  <object Name="Pentaceps" Load="Merge">
+    <part Name="Description" Short="四条膝关节伸肌获得一条合成第五肌的协助。" />
+    <part Name="Render" DisplayName="{{Y|五头肌}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你的冲锋范围增加 4 格。" />
+  </object>
+  <object Name="CommunicationsInterlock" Load="Merge">
+    <part Name="Description" Short="借助多叉杆具与密码盒，人可接入所有可用机器人端口。" />
+    <part Name="Render" DisplayName="{{Y|通信联锁器}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你斥退机器人时视为等级高 5 级。" />
+  </object>
+  <object Name="InflatableAxons" Load="Merge">
+    <part Name="Description" Short="纳米级支架充胀那些限制意志传导的蛛丝般脑线。" />
+    <part Name="Render" DisplayName="{{Y|可充胀轴突}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="主动。冷却 100。&#xA;你获得 +40 迅捷，持续 10 回合，随后迟缓 10 回合（-10 迅捷）。" />
+  </object>
+  <object Name="NocturnalApex" Load="Merge">
+    <part Name="Description" Short="圣城居民的代谢节律与昼夜仪式同步：白日，在带槽金字形神塔阴影下祈祷安歇；夜晚，在有毒树园中潜行寻觅祭品。" />
+    <part Name="Render" DisplayName="{{Y|夜行顶点}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="白天自然治疗率 +10%。&#xA;每晚一次，你可以潜行，获得 +6 敏捷和 +10 移动速度，持续 100 回合。" />
+  </object>
+  <object Name="AirCurrentMicrosensor" Load="Merge">
+    <part Name="Description" Short="在烟神海附近，海水撞上日岩并迸成恶臭蒸气；火山洞窟迷宫形成无维空间，视觉的效用在其中衰退。对深处之子而言，新感官取而代之地增长。" />
+    <part Name="Render" DisplayName="{{Y|气流微传感器}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="楼梯和其他上下地图转换点总会对你显示。" />
+  </object>
+  <object Name="PneumaticPistons" Load="Merge">
+    <part Name="Description" Short="压缩气体驱动活塞杆进入覆有石墨粉的肌肉组织，把跳跃者送上高处。" />
+    <part Name="Render" DisplayName="{{Y|气动活塞}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你的跳跃范围增加 4 格。" />
+  </object>
+  <object Name="ReactiveCranialPlating" Load="Merge">
+    <part Name="Description" Short="碳化物板被塑成颅骨形状，并与受冲击时会充胀的泡沫合金化。" />
+    <part Name="Render" DisplayName="{{Y|反应式颅骨镀层}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你不会因动能效果而目眩或震慑。" />
+  </object>
+  <object Name="PhaseHarmonicModulator" Load="Merge">
+    <part Name="Description" Short="倒置陀螺平衡着仿生圆盘内控制单元的微结构。内部，现实的相位彼此叠加并向外投射。" />
+    <part Name="Render" DisplayName="{{Y|相位谐波调制器}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你可以与同相和异相的物体与生物互动。" />
+  </object>
+  <object Name="FireSuppressionSystem" Load="Merge">
+    <part Name="Description" Short="热激活凝胶储存在仿生胶囊中，并通过皮下橡胶软管释放。" />
+    <part Name="Render" DisplayName="{{Y|灭火系统}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你着火时，每回合自动释放阻燃凝胶。" />
+  </object>
+  <object Name="AnchorSpikes" Load="Merge">
+    <part Name="Description" Short="尖端覆晶钢的棘刺被缝合到骨骼上，绷紧时会穿过皮肤与地面射出。" />
+    <part Name="Render" DisplayName="{{Y|锚定棘刺}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="物理力量无法强制移动你。" />
+  </object>
+  <object Name="SkinGlitter2" Load="Merge">
+    <part Name="Description" Short="皮肤贴饰的分形晶格把内在辉光传导到外部世界。" />
+    <part Name="Render" DisplayName="{{Y|皮肤闪粉}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+16% 折射光基攻击的概率" />
+    <xtagGrammar massNoun="true" />
+  </object>
+  <object Name="SingleSkillsoft2" Load="Merge">
+    <part Name="Description" Short="这枚芯片编码着某项特定技能的神经模式。" />
+    <part Name="Render" DisplayName="{{Y|技能软体}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你获得一项花费介于 51 到 150 SP 的技能。" />
+  </object>
+  <object Name="Schemasoft2" Load="Merge">
+    <part Name="Description" Short="这枚芯片编码着一整类低阶遗物的图纸。" />
+    <part Name="Render" DisplayName="{{Y|图纸软体}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你获得单一类别遗物的全部图纸。" />
+  </object>
+  <object Name="GroundingShunts" Load="Merge">
+    <part Name="Description" Short="碳纤维从两个皮电接触垫中射出。" />
+    <part Name="Render" DisplayName="{{Y|接地分流器}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+50 电抗性" />
+  </object>
+  <object Name="DermalPlating" Load="Merge">
+    <part Name="Description" Short="薄晶圆般的碳化物联锁板片拼合成一张皮下薄层。" />
+    <part Name="Render" DisplayName="{{Y|皮肤镀层}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+1 AV" />
+  </object>
+  <object Name="TransparentSkin" Load="Merge">
+    <part Name="Description" Short="新肉如幽影薄膜，不遮蔽生命机器的任何部分。" />
+    <part Name="Render" DisplayName="{{Y|透明皮肤}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+3 DV" />
+  </object>
+  <object Name="BionicHands" Load="Merge">
+    <part Name="Description" Short="一双由石墨烯和中性泡沫制成的全新手。它们的塔架等待接合。" />
+    <part Name="Render" DisplayName="{{Y|仿生手}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+2 敏捷" />
+  </object>
+  <object Name="BionicArm" Load="Merge">
+    <part Name="Description" Short="一条由石墨烯和中性泡沫制成的全新手臂。它的塔架等待接合。" />
+    <part Name="Render" DisplayName="{{Y|仿生臂}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+2 力量" />
+  </object>
+  <object Name="UltraElasticAnkleTendons" Load="Merge">
+    <part Name="Description" Short="中性泡沫绳被箍束成带槽立柱。" />
+    <part Name="Render" DisplayName="{{Y|超高弹踝腱}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+10 移动速度" />
+  </object>
+  <object Name="BeautifulVisage" Load="Merge">
+    <part Name="Description" Short="指令命令面部重塑为一种会唤起旁观者潜在欲望的容颜。" />
+    <part Name="Render" DisplayName="{{Y|美丽面容}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+2 自我" />
+  </object>
+  <object Name="DopamineSynth" Load="Merge">
+    <part Name="Description" Short="微型药筒高速合成多巴胺，并用动机性的狂喜淹没神经通路。" />
+    <part Name="Render" DisplayName="{{Y|多巴胺合成器}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+2 意志" />
+  </object>
+  <object Name="BionicHeart" Load="Merge">
+    <part Name="Description" Short="一具铬中装置以平滑波浪泵送血液，而不是靠尸体生长肌肉组织的狂乱搏动。" />
+    <part Name="Render" DisplayName="{{Y|仿生心脏}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+2 坚韧" />
+  </object>
+  <object Name="GiantHands" Load="Merge">
+    <part Name="Description" Short="长久以来，他们梦想着：“手必须长大”。在实验室柔和的光泽中，梦实现了。" />
+    <part Name="Render" DisplayName="{{Y|巨手}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你可以单手挥舞双手武器。" />
+  </object>
+  <object Name="MedassistModule" Load="Merge">
+    <part Name="Description" Short="支架和气动施用器被硬接线到智能控制单元，由它指挥多变染剂注入静脉。" />
+    <part Name="Render" DisplayName="{{Y|医疗辅助模块}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="使用注射器的动作消耗降低 80%。&#xA;最多可装载 8 支注射器，医疗辅助模块 AI 会在适当时机（由其自行判断）自动使用，且不消耗动作。" />
+    <part Name="ReduceEnergyCosts" NameForStatus="手动支架系统" />
+  </object>
+  <object Name="PalladiumElectrodeposits" Load="Merge">
+    <part Name="Description" Short="从钯中溶出的离子尘促进计算电流传输。" />
+    <part Name="Render" DisplayName="{{Y|钯电沉积}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="在局部晶格上提供 20 单位计算力。&#xA;如果植入头部，+2 智力。" />
+  </object>
+  <object Name="SecurityInterlock" Load="Merge">
+    <part Name="Description" Short="每条光谱上每种波长的带槽钥匙，允许穿过每一道门户。" />
+    <part Name="Render" DisplayName="{{Y|安全联锁器}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你可以解锁任何门。" />
+  </object>
+  <object Name="IntravenousPort" Load="Merge">
+    <part Name="Description" Short="三根导管从下方在皮肤上留下印痕。" />
+    <part Name="Render" DisplayName="{{Y|静脉接口}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="补剂效果持续时间翻倍。" />
+  </object>
+  <object Name="HighGradeDermalInsulation" Load="Merge">
+    <part Name="Description" Short="枕状中性泡沫鳞片围绕支撑轴绷紧。一经安装，它们会在皮下展开并充胀。" />
+    <part Name="Render" DisplayName="{{Y|高级皮肤绝缘层}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+9 热抗性&#xA;+9 冷抗性&#xA;+9 电抗性&#xA;+9 酸抗性" />
+  </object>
+  <object Name="MatterRecompositer" Load="Merge">
+    <part Name="Description" Short="这只毫尺度小桶内的通量能在刚好足够大的尺度上折叠空间，将一具人类躯架分流到附近。" />
+    <part Name="Render" DisplayName="{{Y|物质重组器}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="主动。冷却 100。&#xA;你传送到地图上一处随机的已探索空间。" />
+  </object>
+  <object Name="CustomVisage" Load="Merge">
+    <part Name="Description" Short="极其详尽的建模软件与面部重塑指令，让宿主可呈现自选面貌，使面具永远过时。" />
+    <part Name="Render" DisplayName="{{Y|自定义面容}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="与安装时选择的派系 +300 声望" />
+  </object>
+  <object Name="EquipmentRack" Load="Merge">
+    <part Name="Description" Short="碳化物安装杆支起一座为额外行李设计的陀螺稳定架。" />
+    <part Name="Render" DisplayName="{{Y|装备架}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你获得一个额外背部装备槽。" />
+  </object>
+  <object Name="BionicLiver" Load="Merge">
+    <part Name="Description" Short="消化胆汁与碱液在玻璃腔室中翻搅，而合成组织筛除生物毒素。" />
+    <part Name="Render" DisplayName="{{Y|仿生肝脏}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你免疫毒素和疾病。" />
+  </object>
+  <object Name="AnomalyFumigator" Load="Merge">
+    <part Name="Description" Short="超因果电路激发时空结构，让它变成趋常性颗粒。" />
+    <part Name="Render" DisplayName="{{Y|异常熏蒸器}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你每回合释放常态气体云。" />
+  </object>
+  <object Name="SingleSkillsoft3" Load="Merge">
+    <part Name="Description" Short="这枚芯片编码着某项特定技能的神经模式。" />
+    <part Name="Render" DisplayName="{{Y|技能软体}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你获得一项花费大于 151 SP 的技能。" />
+  </object>
+  <object Name="Schemasoft3" Load="Merge">
+    <part Name="Description" Short="这枚芯片编码着一整类中阶遗物的图纸。" />
+    <part Name="Render" DisplayName="{{Y|图纸软体}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你获得单一类别遗物的全部图纸。" />
+  </object>
+  <object Name="FulleriteHandBones" Load="Merge">
+    <part Name="Description" Short="脆弱胶原会被砸成碎片之处，黑色富勒体只会凹陷。" />
+    <part Name="Render" DisplayName="{{Y|富勒体手骨}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你的拳头造成 2d4+1 伤害。" />
+  </object>
+  <object Name="FulleriteFist" Load="Merge">
+    <part Name="Render" DisplayName="{{K|富勒体拳}}" />
+    <part Name="Description" Short="乌黑金属制成的骨骼手悬停在暂时的无生状态中。" />
+  </object>
+  <object Name="MotorizedTreads" Load="Merge">
+    <part Name="Description" Short="三角履带包覆着巨齿轮的齿，齿轮转动以行进。它们的人类已逃离双足运动的限制。" />
+    <part Name="Render" DisplayName="{{Y|机动履带}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+150 移动速度&#xA;对抗强制移动、击倒和束缚的豁免 +4&#xA;你不能穿鞋。&#xA;这个植入物不能卸载。" />
+    <part Name="SaveModifier" NameForStatus="传动系统" />
+  </object>
+  <object Name="ReactiveTraumaPlate" Load="Merge">
+    <part Name="Description" Short="一块贴合轮廓的塑钢体板吸收冲击震荡，并解体进入血流。" />
+    <part Name="Render" DisplayName="{{Y|反应式创伤板}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="中和一次会造成致命伤害，或至少造成你最大 HP 50% 伤害的伤害来源。这个植入物会在过程中被摧毁。" />
+    <part Name="LifeSaver" LethalMessage="=subject.Name=的 =object.name= 向外 =object.verb:burst=，摧毁 =objpronouns.reflexive= 以防止潜在致命伤害。" MaxHitpointsThresholdMessage="=subject.Name=的 =object.name= 向外 =object.verb:burst=，摧毁 =objpronouns.reflexive= 以防止灾难性伤害。" NameForStatus="创伤干预系统" />
+  </object>
+  <object Name="GunRack" Load="Merge">
+    <part Name="Description" Short="这具背载抛光铬枪架有两个槽位，可让手枪分置双肩上方，或让一支步枪架在所选肩头。" />
+    <part Name="Render" DisplayName="{{Y|枪架}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你额外获得一个左侧和右侧投射武器槽。&#xA;你不能在背部穿戴装备。" />
+  </object>
+  <object Name="OnboardRecoiler" Load="Merge">
+    <part Name="Description" Short="地理空间核心装上了一条仿生系索。" />
+    <part Name="Render" DisplayName="{{Y|机载回缩器}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你可以把一个地点烙印到这个植入物上（冷却 100），并回缩返回那里（冷却 50）。" />
+  </object>
+  <object Name="MagneticCore" Load="Merge">
+    <part Name="Description" Short="层压金属被束成同心球，柔化磁涡，并为近场轨道供能。" />
+    <part Name="Render" DisplayName="{{Y|磁芯}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你获得一个额外的附近漂浮装备槽。" />
+  </object>
+  <object Name="Phase-Adaptive Scope" Load="Merge">
+    <part Name="Description" Short="一枚四氙玻璃小弯月以 Q 半径弯曲，以校正跨维视差。" />
+    <part Name="Render" DisplayName="{{Y|相位自适应瞄具}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="当你发射投射武器或投掷物品时，你的投射物会相移以穿过障碍并抵达目标。" />
+  </object>
+  <object Name="Schemasoft4" Load="Merge">
+    <part Name="Description" Short="这枚芯片编码着一整类高阶遗物的图纸。" />
+    <part Name="Render" DisplayName="{{Y|图纸软体}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你获得单一类别遗物的全部图纸。" />
+  </object>
+  <object Name="PrecisionForceLathe" Load="Merge">
+    <part Name="Description" Short="磁屏蔽主轴箱把空间保持在动能悬浮中，同时一根力纺锤旋转并将其削尖。" />
+    <part Name="Render" DisplayName="{{Y|精密力车床}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你在空置的手部或投掷武器槽中制造力刀。&#xA;如果你投掷一把力刀，另一把会立刻在你的投掷武器槽中实体化。&#xA;力刀造成 1d8 伤害，穿透值等于目标护甲值，并拥有 +6 投掷范围。&#xA;力刀在与你失去接触或被卸下后消失。&#xA;如果你安装了力场调制器植入物，力刀可以被投掷穿过力场。&#xA;" />
+  </object>
+  <object Name="ForceKnife" Load="Merge">
+    <part Name="Render" DisplayName="{{C|力}}刀" />
+    <part Name="Description" Short="一段原始空间被动能化，并削尖成锋。" />
+    <part Name="VibroWeapon" NameForStatus="普朗克刃" />
+  </object>
+  <object Name="GraftedMirrorArm" Load="Merge">
+    <part Name="Description" Short="一条塑纤手臂从肩胛分叉而出，复制其生长孪生肢从神经发往肌肉的指令。" />
+    <part Name="Render" DisplayName="{{Y|嫁接镜像臂}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你获得一个额外投掷武器槽。&#xA;当你执行投掷时，你会从所有投掷武器槽同时投掷。" />
+  </object>
+  <object Name="MicromanipulatorArray" Load="Merge">
+    <part Name="Description" Short="十几条支臂与操纵器从一只与掌骨熔合的金属支架上张开。" />
+    <part Name="Render" DisplayName="{{Y|微操纵器阵列}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你可以在战斗中修补和修理，动作消耗为一回合。&#xA;其他修补技能的动作消耗降低 40%。&#xA;鉴定遗物时获得加成，如同你的智力提高 8 点。&#xA;拆解遗物时回收零件的概率 +10%。" />
+    <part Name="Toolbox" NameForStatus="诊断传感器" />
+  </object>
+  <object Name="PenetratingRadar" Load="Merge">
+    <part Name="Description" Short="皮相位收发阵列组装出周围环境的精致细节模型。" />
+    <part Name="Render" DisplayName="{{Y|穿透雷达}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你获得周围 10 格半径内的完全视野，只会被力场和时空异常阻挡。" />
+  </object>
+  <object Name="BiodynamicPowerPlant" Load="Merge">
+    <part Name="Description" Short="微型涡轮从血液循环及其化学反应中撇取血能。" />
+    <part Name="Render" DisplayName="{{Y|生物动力发电厂}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="每回合向可接入机载供能系统的已装备物品持续提供 5000 单位充能，例如带有 Jacked 改造的物品。" />
+  </object>
+  <object Name="StasisProjector" Load="Merge">
+    <part Name="Description" Short="晶体沿静止角内卷。" />
+    <part Name="Render" DisplayName="{{Y|停滞投射器}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="主动。冷却 100。&#xA;创造最多 6 个连续方格的停滞场，持续约 5 回合。" />
+  </object>
+  <object Name="HolographicVisage" Load="Merge">
+    <part Name="Description" Short="乳剂在脸颊上泛光，激光唤出拟像般的温暖。" />
+    <part Name="Render" DisplayName="{{Y|全息面容}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="与安装这个植入物时选择的派系 +200 声望&#xA;你可以激活这个植入物来更改所选派系。" />
+  </object>
+  <object Name="OpticalMultiscanner" Load="Merge">
+    <part Name="Description" Short="一枚微小石墨烯阵列，用最终本体论与现象学账本处理光学数据。" />
+    <part Name="Render" DisplayName="{{Y|光学多重扫描仪}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你可以查看机器人生物、生物和结构的精确生命值、护甲和闪避数值。&#xA;你自动鉴定遗物。&#xA;楼梯和其他上下地图转换点总会对你显示。" />
+  </object>
+  <object Name="SocialCoprocessor" Load="Merge">
+    <part Name="Description" Short="围绕中央处理器，神经移植物接入负责社交温暖感的脑叶。" />
+    <part Name="Render" DisplayName="{{Y|社交协处理器}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="每当你与新生物进行水仪式时，额外获得 25 声望。如果你在首次与某生物交涉后安装这个植入物，下次与其交涉时获得 25 声望。&#xA;水仪式中的声望花费降低 20%。&#xA;你可以额外劝诱一个生物。&#xA;局部晶格上的计算力会提升这个植入物的效果。" />
+  </object>
+  <object Name="StasisEntangler" Load="Merge">
+    <part Name="Description" Short="削平的晶面被矩阵化并调角，将静止沿活顶点图输送。" />
+    <part Name="Render" DisplayName="{{Y|停滞缠结器}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="主动。冷却 200。&#xA;你选择视线内一个生物。所有其他生物进入停滞场 15 回合。" />
+  </object>
+  <object Name="CrysteelHandBones" Load="Merge">
+    <part Name="Description" Short="脆弱胶原会被砸成碎片之处，斑驳晶钢只会凹陷。" />
+    <part Name="Render" DisplayName="{{Y|晶钢手骨}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你的拳头造成 3d4 伤害。" />
+  </object>
+  <object Name="CrysteelFist" Load="Merge">
+    <part Name="Render" DisplayName="{{G|晶钢拳}}" />
+    <part Name="Description" Short="斑驳翡翠色金属制成的骨骼手悬停在暂时的无生状态中。" />
+  </object>
+  <object Name="HighFidelityMatterRecompositer" Load="Merge">
+    <part Name="Description" Short="这只毫尺度小桶内的通量能在刚好足够大的尺度上折叠空间，将一具人类躯架分流到附近。非线性电路计算所有可能结果，并舍弃会让宿主落到目标区域外的结果。" />
+    <part Name="Render" DisplayName="{{Y|高保真物质重组器}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="主动。冷却 50。&#xA;你传送到地图上任意已探索空间。" />
+  </object>
+  <object Name="TreeSkillsoft" Load="Merge">
+    <part Name="Description" Short="这枚芯片编码着某棵特定技能树的神经模式。" />
+    <part Name="Render" DisplayName="{{Y|技能软体}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你获得整棵技能树的使用权限。" />
+  </object>
+  <object Name="BaseCathedra" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|教座}}" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="CathedraSapphire" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|带蓝宝石纹饰的教座}}" />
+    <part Name="Description" Short="象般宽大椅背的四叶饰周围网结着锉刻的无视字形，那是海湾彼岸同道秘仪传来的讯息。翼片与栏杆按某种奇异等级制的完美尺度排列。" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+100 移动速度&#xA;+50 生命值&#xA;+100 负重能力&#xA;+3 自我&#xA;你获得飞行能力。&#xA;&#xA;主动。冷却 100。&#xA;你在周围区域唤起震荡力，将敌人击退并震慑。&#xA;&#xA;你不能在背部穿戴装备。&#xA;这个植入物不能卸载。" />
+  </object>
+  <object Name="CathedraRuby" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|带红宝石纹饰的教座}}" />
+    <part Name="Description" Short="矿渣浪脊打断巨座的平面几何，成为索引之疤，指向秘仪者把雕成它的红宝石巨石从猪猡般大地中滚出的那一刻。椅背与爪足被烧灼、扰乱；转化仪式永不结束。" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+100 移动速度&#xA;+50 生命值&#xA;+100 负重能力&#xA;+3 自我&#xA;你获得飞行能力。&#xA;&#xA;主动。冷却 100。&#xA;你在自己周围生成热能操控场。&#xA;&#xA;你不能在背部穿戴装备。&#xA;这个植入物不能卸载。" />
+  </object>
+  <object Name="CathedraWhiteOpal" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|带白蛋白石纹饰的教座}}" />
+    <part Name="Description" Short="千纪浮华黏附在金色座椅浮雕出的裸身人群上。他们居于那座镀金之丘，身体以几何所允许的一切方式彼此共轭，从顶饰溢出，又沿卷涡扶手倾泻而下；那扶手曾支撑一位大祭司因欲望而颤抖的肢体。" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+100 移动速度&#xA;+50 生命值&#xA;+100 负重能力&#xA;+3 自我&#xA;你获得飞行能力。&#xA;&#xA;主动。冷却 100。&#xA;你在自己周围释放一阵闪光尘。&#xA;&#xA;你不能在背部穿戴装备。&#xA;这个植入物不能卸载。" />
+  </object>
+  <object Name="CathedraBlackOpal" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|带黑蛋白石纹饰的教座}}" />
+    <part Name="Description" Short="横跨宽大椅背与平面扶手全境，发丝细线把椅子与其鲜活宝石划分成一簇簇星系。微尺度上的分形图案超越了如今已成化石的木匠技艺；它们必是灵脉的疤痕。" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+100 移动速度&#xA;+50 生命值&#xA;+100 负重能力&#xA;+3 自我&#xA;你获得飞行能力。&#xA;&#xA;主动。冷却 100。&#xA;你撕裂时空，传送到卡德的一处随机地点。&#xA;&#xA;你不能在背部穿戴装备。&#xA;这个植入物不能卸载。" />
+  </object>
+  <object Name="BaseCyberneticsCreditWedge" Load="Merge">
+    <part Name="Render" DisplayName="{{C|义体信用楔}}" />
+    <part Name="Description" Short="一小片塑料楔。" />
+  </object>
+  <object Name="Book" Load="Merge">
+    <xtagGrammar Proper="true" adjunctNoun="册" />
+    <part Name="Description" Short="挺括的山羊皮纸页被装订成抄本。" />
+  </object>
+  <object Name="FocalCookbook" Load="Merge">
+    <part Name="Render" DisplayName="食谱" />
+  </object>
+  <object Name="StandaloneMarkovBook" Load="Merge">
+    <part Name="Render" DisplayName="书" />
+  </object>
+  <object Name="BloodstainedSheaf" Load="Merge">
+    <part Name="Render" DisplayName="{{W|一沓血染山羊皮纸}}" />
+    <part Name="Description" Short="一张张剥下并拉伸的山羊皮用树液装订在一起，上面以小羊血潦草书写。" />
+    <xtagGrammar Proper="false" adjunctNoun="" />
+    <xtagGrammar Proper="false" />
+  </object>
+  <object Name="Corpus" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《科利斯文集》}}" />
+  </object>
+  <object Name="TornGraphPaper" Load="Merge">
+    <part Name="Render" DisplayName="{{W|撕下的方格纸}}" />
+    <part Name="Description" Short="一张活页纸被青色坐标线分隔。它似乎是从活页夹上撕下来的。" />
+    <xtagGrammar Proper="false" adjunctNoun="" />
+    <xtagGrammar Proper="false" />
+  </object>
+  <object Name="Sonnet" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|皱巴巴的纸}}" />
+    <part Name="Description" Short="盐茎浆制成的纸上满是颤抖的墨水潦草字。它看起来被揉皱又展开过许多次。" />
+    <xtagGrammar Proper="false" adjunctNoun="" />
+  </object>
+  <object Name="HeirloomsCatalog" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《卡德遗珍》}}" />
+  </object>
+  <object Name="Sheaf1" Load="Merge">
+    <part Name="Render" DisplayName="{{W|一沓破旧羊皮纸}}" />
+    <part Name="Description" Short="数张破旧、带岁月污痕的羊皮纸被某种胶从边缘粘在一起。" />
+    <xtagGrammar Proper="false" adjunctNoun="" />
+  </object>
+  <object Name="Scroll Bound by Kelp" Load="Merge">
+    <part Name="Render" DisplayName="{{W|由一缕海带捆扎的卷轴}}" />
+    <part Name="Description" Short="数张破旧、带岁月污痕的羊皮纸被一缕来自遥远礁石的海带捆在一起。" />
+    <xtagGrammar Proper="false" adjunctNoun="" />
+  </object>
+  <object Name="Lives1" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《轻浮生平》第一卷}}" />
+    <part Name="Description" Short="一部厚重巨册，书页装订在两块上蜡木板之间。" />
+  </object>
+  <object Name="Across1" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《横越莫格拉伊》第一卷：裂底之地}}" />
+    <part Name="Description" Short="一部厚重巨册，书页装订在两块上蜡木板之间。" />
+  </object>
+  <object Name="Across2" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《横越莫格拉伊》第二卷：阿森瑞奇}}" />
+    <part Name="Description" Short="一部厚重巨册，书页装订在两块上蜡木板之间。" />
+  </object>
+  <object Name="Across3" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《横越莫格拉伊》第三卷：自由城奥斯}}" />
+    <part Name="Description" Short="一部厚重巨册，书页装订在两块上蜡木板之间。" />
+  </object>
+  <object Name="DarkCalculus" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《论黑暗微积分的起源与本质》}}" />
+    <part Name="Description" Short="精细的横线羊皮纸页被装订成一部代数抄本。" />
+  </object>
+  <object Name="Canticles3" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《色彩圣歌》第 XVII-XXIV 节}}" />
+    <part Name="Description" Short="一具由螺旋齿轮组与铜沟渠构成的机器，被精心雕制在机械教妥拉的封面板上。" />
+  </object>
+  <object Name="MimicandMadpole" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《拟态者与狂蝌蚪》}}" />
+  </object>
+  <object Name="OnHumanMimicry" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《论类人生物对动植物的拟态》}}" />
+  </object>
+  <object Name="FromEntropytoHierarchy" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《从熵到等级制》}}" />
+  </object>
+  <object Name="FromEntropytoHierarchy2" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《从熵到等级制》第二版}}" />
+  </object>
+  <object Name="DisquisitionOnTheMaladyOfTheMimic" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《拟态者疾病论究》}}" />
+  </object>
+  <object Name="Crime and Punishment" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《罪与罚》}}" />
+    <part Name="Description" Short="这部古老厚重巨册的封面板褪成了尘埃与皮脂万千家族的平均色调。" />
+  </object>
+  <object Name="AphorismsAboutBirds" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《鸟之箴言》}}" />
+  </object>
+  <object Name="BloodandFear" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《血与恐惧：论拉的生命周期》}}" />
+  </object>
+  <object Name="ArtlessBeauty" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《天然之美》}}" />
+  </object>
+  <object Name="FaunsoftheMeadow" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《草甸牧神》}}" />
+    <part Name="Description" Short="这本大字本由手工制浆并压制的盐茎纸制成。封面以树脂保存。" />
+  </object>
+  <object Name="MurmursPrayer" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《低语者的祈祷》}}" />
+    <part Name="Description" Short="这本大字本由手工制浆并压制的盐茎纸制成。封面以树脂保存。" />
+  </object>
+  <object Name="InMaqqomYd" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《在马库姆伊德》}}" />
+    <part Name="Description" Short="这本大字本由手工制浆并压制的盐茎纸制成。封面以树脂保存。" />
+  </object>
+  <object Name="EtaandtheEarthling1" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《埃塔与地球人》第一歌}}" />
+  </object>
+  <object Name="CouncilAtGammaRock" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《伽马岩议会》}}" />
+    <part Name="Description" Short="一本松散的皮纸账册被卷起，绑在卷轴芯上，并以机械教徒的蜡印封缄。" />
+  </object>
+  <object Name="ModuloMoonStair" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《模月阶梯与生命树》}}" />
+  </object>
+  <object Name="GolemOperatingManual" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《大型生物操作手册》}}" />
+    <part Name="Description" Short="精细的横线羊皮纸页被装订成一部代数抄本。" />
+  </object>
+  <object Name="MerchantAdvertisement" Load="Merge">
+    <part Name="Render" DisplayName="{{W|*广告*}}" />
+    <part Name="Description" Short="一本松散的皮纸账册被卷起，绑在卷轴芯上，并以大匠的蜡印封缄。" />
+    <xtagGrammar Proper="false" />
+  </object>
+  <object Name="HistoryofJoppaVol1" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《约帕史》第一卷}}" />
+    <part Name="Description" Short="一本松散的盐茎浆账册被绑在上蜡木棍上并卷拢。" />
+  </object>
+  <object Name="HistoryofJoppaVol2" Load="Merge">
+    <part Name="Render" DisplayName="{{W|《约帕史》第二卷}}" />
+    <part Name="Description" Short="一本松散的盐茎浆账册被绑在上蜡木棍上并卷拢。" />
+  </object>
+  <object Name="DataDisk" Load="Merge">
+    <part Name="Render" DisplayName="数据盘" />
+    <part Name="Description" Short="金属遮片下方，晶体盘刻满编码数据的微小凹坑。" />
+  </object>
+  <object Name="Chem Cell" Load="Merge">
+    <part Name="Render" DisplayName="{{c|化学电池}}" />
+    <part Name="Description" Short="在小桶内部，液态盐将离子转移到阴极并产生火花。" />
+  </object>
+  <object Name="Fidget Cell" Load="Merge">
+    <part Name="Render" DisplayName="{{w|手转}}{{c|电池}}" />
+    <part Name="Description" Short="让锡质长方体绕任一旋转轴转动都会产生一丝阻力。腕带与陀螺框架使电池能够吸收并储存佩戴者的动能。" />
+    <part Name="EquipCharge" NameForStatus="动能转换器" />
+  </object>
+  <object Name="Solar Cell" Load="Merge">
+    <part Name="Render" DisplayName="{{W|太阳能}}{{c|电池}}" />
+    <part Name="Description" Short="光伏立方体沐浴高盐太阳的温热，并将其储存为活化浆液。" />
+  </object>
+  <object Name="Nuclear Cell" Load="Merge">
+    <part Name="Render" DisplayName="{{m|核}}{{c|电池}}" />
+    <part Name="Description" Short="百万年古岩在电池盒内衰变，迸出的伽马粒子经结型二极管导流，并储存起来用于爆发式供能。" />
+  </object>
+  <object Name="Antimatter Cell" Load="Merge">
+    <part Name="Render" DisplayName="{{K|反物质}}{{c|电池}}" />
+    <part Name="Description" Short="一只原钢小匣圈住磁场，磁场使正电子悬浮。电流形成时，成对粒子湮灭，将宇宙破裂的全力沿通道送往装置。" />
+  </object>
+  <object Name="Lead-Acid Cell" Load="Merge">
+    <part Name="Render" DisplayName="{{G|铅酸}}{{c|电池}}" />
+    <part Name="Description" Short="在电池绝缘桶内，电动势装置从酸中裂取能量，并将其转化为电荷。" />
+  </object>
+  <object Name="Combustion Cell" Load="Merge">
+    <part Name="Render" DisplayName="{{K|燃烧}}{{c|电池}}" />
+    <part Name="Description" Short="在电池绝缘桶内，电动势装置从油中裂取能量，并将其转化为电荷。" />
+  </object>
+  <object Name="Thermoelectric Cell" Load="Merge">
+    <part Name="Render" DisplayName="{{R|热电}}{{c|电池}}" />
+    <part Name="Description" Short="在电池绝缘桶内，电动势装置从熔岩中裂取能量，并将其转化为电荷。" />
+  </object>
+  <object Name="Biodynamic Cell" Load="Merge">
+    <part Name="Render" DisplayName="{{r|生物动力}}{{c|电池}}" />
+    <part Name="Description" Short="在电池绝缘桶内，电动势装置从血液中裂取能量，并将其转化为电荷。" />
+  </object>
+  <object Name="Torch" Load="Merge">
+    <part Name="Render" DisplayName="火把" />
+    <part Name="Description" Short="一截盐茎裹着浸油布。" />
+  </object>
+  <object Name="Glowsphere" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|辉光球}}" />
+    <part Name="Description" Short="一枚磷光乳白石样物正合掌心大小，闪耀着千纪前吸收的极光之光。" />
+  </object>
+  <object Name="Bandage" Load="Merge">
+    <part Name="Render" DisplayName="绷带" />
+    <part Name="Description" Short="这是绕在木杆上的虫丝纱布，适合止血。" />
+  </object>
+  <object Name="Empty Booster" Load="Merge">
+    <part Name="Render" DisplayName="{{K|空}}注射器" />
+    <part Name="Description" Short="玻璃管与亢奋针头可将补剂直接送入血流。这一支是空的。" />
+  </object>
+  <object Name="Witchwood Bark" Load="Merge">
+    <part Name="Render" DisplayName="{{W|巫木树皮}}" />
+    <part Name="Food" Message="一阵温热刺麻感漫过你。" />
+    <part Name="Description" Short="地衣黏在木片蜿蜒的沟槽里，微微发亮，闻起来有香料味。" />
+    <part Name="RulesDescription" Text="食用后治疗并造成困惑。" />
+    <xtagGrammar adjunctNoun="份" massNoun="true" />
+  </object>
+  <object Name="Scrap" Load="Merge">
+    <part Name="Description" Short="一片废料从机器化石上脱落或剥离。" />
+  </object>
+  <object Name="Scrap Metal" Load="Merge">
+    <part Name="Render" DisplayName="弯曲金属片" />
+  </object>
+  <object Name="Scrap Crystal" Load="Merge">
+    <part Name="Render" DisplayName="裂纹透镜" />
+  </object>
+  <object Name="Scrap Electronics" Load="Merge">
+    <part Name="Render" DisplayName="碎裂微芯片" />
+  </object>
+  <object Name="Scrap Energy" Load="Merge">
+    <part Name="Render" DisplayName="烧坏的电容器" />
+  </object>
+  <object Name="Scrap 00" Load="Merge">
+    <part Name="Render" DisplayName="腐蚀电路板" />
+  </object>
+  <object Name="Scrap 1" Load="Merge">
+    <part Name="Render" DisplayName="失效能量继电器" />
+  </object>
+  <object Name="Scrap 2" Load="Merge">
+    <part Name="Render" DisplayName="烧毁处理核心" />
+  </object>
+  <object Name="Scrap 3" Load="Merge">
+    <part Name="Render" DisplayName="开裂机器人外壳" />
+  </object>
+  <object Name="Scrap 4" Load="Merge">
+    <part Name="Render" DisplayName="损坏微控制器阵列" />
+  </object>
+  <object Name="Scrap 5" Load="Merge">
+    <part Name="Render" DisplayName="残缺单物质组件" />
+  </object>
+  <object Name="Scrap 6" Load="Merge">
+    <part Name="Render" DisplayName="失谐反物质微反应堆" />
+  </object>
+  <object Name="Scrap 7" Load="Merge">
+    <part Name="Render" DisplayName="故障 AI 主控单元" />
+  </object>
+  <object Name="Scrap 8" Load="Merge">
+    <part Name="Render" DisplayName="变质核心" />
+  </object>
+  <object Name="Med Scrap Metal" Load="Merge">
+    <part Name="Render" DisplayName="钝手术刀" />
+  </object>
+  <object Name="Med Scrap Crystal" Load="Merge">
+    <part Name="Render" DisplayName="碎裂放大镜" />
+  </object>
+  <object Name="Med Scrap Electronics" Load="Merge">
+    <part Name="Render" DisplayName="弯曲手术支架" />
+  </object>
+  <object Name="Med Scrap Energy" Load="Merge">
+    <part Name="Render" DisplayName="烧毁植入物核心" />
+  </object>
+  <object Name="Med Scrap 00" Load="Merge">
+    <part Name="Render" DisplayName="扭曲超肌肉" />
+  </object>
+  <object Name="Med Scrap 1" Load="Merge">
+    <part Name="Render" DisplayName="磨损替换阀" />
+  </object>
+  <object Name="Med Scrap 2" Load="Merge">
+    <part Name="Render" DisplayName="毁坏义体控制器" />
+  </object>
+  <object Name="Med Scrap 3" Load="Merge">
+    <part Name="Render" DisplayName="断裂冷晶骨" />
+  </object>
+  <object Name="Med Scrap 4" Load="Merge">
+    <part Name="Render" DisplayName="粉末化纳米壳" />
+  </object>
+  <object Name="Med Scrap 5" Load="Merge">
+    <part Name="Render" DisplayName="耗竭干细胞发生器" />
+  </object>
+  <object Name="Med Scrap 6" Load="Merge">
+    <part Name="Render" DisplayName="失谐皮层再生器" />
+  </object>
+  <object Name="Med Scrap 7" Load="Merge">
+    <part Name="Render" DisplayName="故障细胞去端粒器" />
+  </object>
+  <object Name="Med Scrap 8" Load="Merge">
+    <part Name="Render" DisplayName="劣质替换头颅" />
+  </object>
+  <object Name="Tonic" Load="Merge">
+    <part Name="Description" Short="玻璃管与皮下注射针把药剂直接送入血流。" />
+  </object>
+  <object Name="LoveTonic" Load="Merge">
+    <part Name="Render" DisplayName="{{love|爱意}}注射器" />
+    <part Name="RulesDescription" Text="你会在约半日内异常多情；期间，你会爱上你看见的第一个东西。&#xA;如果你给别人注射，他们会爱上你并跟随你 3000-3600 回合。他们每比你高 1 级，失败率增加 1%。" />
+  </object>
+  <object Name="BlazeTonic" Load="Merge">
+    <part Name="Render" DisplayName="{{blaze|烈焰}}注射器" />
+    <part Name="RulesDescription" Text="持续时间：41-50 回合&#xA;+100 热抗性&#xA;你不会被冻结。&#xA;你造成的热伤害提高 25%。&#xA;-50 冷抗性&#xA;+10 迅捷&#xA;外部热源不能提高你的温度。&#xA;你必须不断移动，否则会燃烧并失去这剂药剂的效果。" GenotypeAlt="持续时间：41-50 回合&#xA;+100 热抗性&#xA;你不会被冻结。&#xA;你造成的热伤害提高 25%。&#xA;-50 冷抗性&#xA;+20 迅捷&#xA;外部热源不能提高你的温度。&#xA;你必须不断移动，否则会燃烧并失去这剂药剂的效果。" />
+  </object>
+  <object Name="HulkHoneyTonic" Load="Merge">
+    <part Name="Render" DisplayName="{{G|巨躯}}{{w|蜜}}注射器" />
+    <part Name="RulesDescription" Text="持续时间：41-50 回合&#xA;+6 力量&#xA;每级 +2 临时生命值&#xA;-25 移动速度&#xA;你感觉不到疼痛。&#xA;你免疫恐惧。&#xA;你每回合受到最大生命值 1% 的伤害（此伤害不会使你降至 1 点生命值以下）" GenotypeAlt="持续时间：41-50 回合&#xA;+9 力量&#xA;每级 +3 临时生命值&#xA;-25 移动速度&#xA;你感觉不到疼痛。&#xA;你免疫恐惧。&#xA;你每回合受到最大生命值 1% 的伤害（此伤害不会使你降至 1 点生命值以下）" />
+  </object>
+  <object Name="SalveTonic" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|药膏}}注射器" />
+    <part Name="RulesDescription" Text="持续时间：5 回合&#xA;你每回合恢复每级 0.6 点生命值（最低 3 点）。" GenotypeAlt="持续时间：5 回合&#xA;你每回合恢复每级 0.9 点生命值（最低 5 点）。" />
+  </object>
+  <object Name="SkulkTonic" Load="Merge">
+    <part Name="Render" DisplayName="{{skulk|潜伏}}注射器" />
+    <part Name="RulesDescription" Text="持续时间：1001-1200 回合&#xA;你的移动速度在夜间和地下提高 25%，但在日光下降低 20%。&#xA;夜间和地下 +3 敏捷，日光下 -3 敏捷&#xA;你能在黑暗中视物（半径 8）。&#xA;你长出掘地爪。&#xA;你受到的光基攻击伤害翻倍。" GenotypeAlt="持续时间：1001-1200 回合&#xA;你的移动速度在夜间和地下提高 40%，但在日光下降低 20%。&#xA;夜间和地下 +4 敏捷，日光下 -3 敏捷&#xA;你能在黑暗中视物（半径 8）。&#xA;你受到的光基攻击伤害翻倍。" />
+  </object>
+  <object Name="SphynxSaltTonic" Load="Merge">
+    <part Name="Render" DisplayName="{{sphynx|斯芬克斯}}{{Y|盐}}注射器" />
+    <part Name="RulesDescription" Text="持续时间：18-22 回合&#xA;你免疫困惑攻击。&#xA;你已激活的心灵突变冷却速度加倍。" GenotypeAlt="持续时间：18-22 回合&#xA;你免疫困惑攻击。&#xA;你窥见自己的近未来（效果结束时，你可以回到首次使用此药时的时间点）。" />
+  </object>
+  <object Name="ShadeOilTonic" Load="Merge">
+    <part Name="Render" DisplayName="{{shade|影油}}注射器" />
+    <part Name="RulesDescription" Text="持续时间：41-50 回合&#xA;+8 DV&#xA;每回合有 25% 的几率使你相移出空间维度，持续 1-3 回合。" GenotypeAlt="持续时间：41-50 回合&#xA;+8 DV&#xA;你获得相移出空间维度 7-9 回合的能力。" />
+  </object>
+  <object Name="UbernostrumTonic" Load="Merge">
+    <part Name="Render" DisplayName="{{ubernostrum|至上灵药}}注射器" />
+    <part Name="RulesDescription" Text="持续时间：10 回合&#xA;你每回合恢复每级 0.6 点生命值（最低 3 点）。&#xA;第十回合结束时，你身上所有短期生物性减益都会被清除，并可再生最多一个被斩断的附肢。" GenotypeAlt="持续时间：10 回合&#xA;你每回合恢复每级 0.9 点生命值（最低 5 点）。&#xA;第十回合结束时，你身上所有短期生物性减益都会被清除，并可再生最多一个被斩断的附肢。" />
+  </object>
+  <object Name="RubbergumTonic" Load="Merge">
+    <part Name="Render" DisplayName="{{rubbergum|胶胶糖}}注射器" />
+    <part Name="RulesDescription" Text="持续时间：41-50 回合&#xA;+100 电抗性&#xA;+25 冷抗性&#xA;-1 AV&#xA;对抗被束缚的豁免 +5。&#xA;对抗流血的豁免 -5。&#xA;你只承受钝击攻击的一半伤害。&#xA;你只承受坠落的一半伤害。&#xA;你不会被抓住。" GenotypeAlt="持续时间：41-50 回合&#xA;+100 电抗性&#xA;+50 冷抗性&#xA;-1 AV&#xA;对抗被束缚的豁免 +5。&#xA;对抗流血的豁免 -5。&#xA;你只承受钝击攻击 25% 的伤害。&#xA;你只承受坠落 25% 的伤害。&#xA;你不会被抓住。&#xA;如果摄入多个胶胶糖，这些效果会叠加。" />
+  </object>
+  <object Name="NectarTonic" Load="Merge">
+    <part Name="Render" DisplayName="{{eater|食客}}{{nectar|甘露}}注射器" />
+    <part Name="RulesDescription" Text="你获得随机属性永久 +1 加值，或获得 1 点突变点数。" GenotypeAlt="你获得 1 点属性点。" />
+  </object>
+  <object Name="Tool" Load="Merge">
+    <part Name="Render" DisplayName="{{c|[工具]}}" />
+  </object>
+  <object Name="Basic Toolkit" Load="Merge">
+    <part Name="Render" DisplayName="{{c|基础工具包}}" />
+    <part Name="Description" Short="一组修补器具碰着锡罐叮当作响：镊子、小锤、钳子、反向钳、玻璃弹珠，还有三把扳手。" />
+    <part Name="Toolbox" BehaviorDescription="这件物品会提高你拆解遗物时回收额外零件的几率。" />
+  </object>
+  <object Name="Advanced Toolkit" Load="Merge">
+    <part Name="Render" DisplayName="{{C|高级工具包}}" />
+    <part Name="Description" Short="一组修补器具碰着碳化物叮当作响：电压表、多用插头、焊刀、离子盾、电路板，还有三根备用真空管。" />
+    <part Name="Toolbox" BehaviorDescription="供能时，这件物品会大幅提高鉴定遗物和拆解遗物时回收额外零件的几率。未供能时，它作为基础工具包运作，略微提高回收额外零件的几率。" />
+  </object>
+  <object Name="Pickaxe" Load="Merge">
+    <part Name="Render" DisplayName="{{c|鹤嘴镐}}" />
+    <part Name="Description" Short="镐头是一块磨削金属，一端尖锐，一端扁平。尘土卡在发丝般的缺口里，泛着岩石可能性的乳光光谱。" />
+  </object>
+  <object Name="Nanopneumatic Jackhammer" Load="Merge">
+    <part Name="Render" DisplayName="纳米气动凿岩机" />
+    <part Name="Description" Short="一根气动管被棘轮驱动，穿入巨大的钻头。圆齿状气囊吸收振动，制造层叠压力；稳定背带则保护持用者的接触点免遭危险颠震。" />
+  </object>
+  <object Name="Hoversled" Load="Merge">
+    <part Name="Render" DisplayName="悬浮雪橇" />
+    <part Name="Description" Short="一架平底雪橇排斥着地面，乘着空灵波浪轻轻摇晃。它被飘荡尘埃的光冕环绕。" />
+  </object>
+  <object Name="Portable Wall" Load="Merge">
+    <part Name="Render" DisplayName="便携墙" />
+    <part Name="Description" Short="手持盒子的每个外侧面都刻着微小字形。尽管唱反调者仍在困惑其含义，卡德多数显赫语言学教团已趋同于同一种解释：“当自然与建筑师都辜负了你”。一枚黄铜拉环隔开了你与这些话语的许诺。" />
+  </object>
+  <object Name="Spiral Borer" Load="Merge">
+    <part Name="Render" DisplayName="螺旋钻孔器" />
+    <part Name="Description" Short="一只开槽背包因核心金属而沉重，压低了肩膀。侧面用模板喷绘着一幅象形图：钻头向下指入大地。" />
+  </object>
+  <object Name="Tattoo Gun" Load="Merge">
+    <part Name="Render" DisplayName="{{b-B-C-c-y-Y sequence|纹身}}枪" />
+    <part Name="Description" Short="针头与旋转马达把墨水喷入皮肤画布，送到其下。" />
+  </object>
+  <object Name="TemplarPhylactery" Load="Merge">
+    <part Name="Render" DisplayName="圣堂护符匣" />
+    <part Name="Description" Short="一只木雕珠宝盒打开后露出照相板与光束发射器。边缘周围的晶体中切刻着一节选自菱形妥拉的经文。" />
+  </object>
+  <object Name="Neuro Animator" Load="Merge">
+    <part Name="Render" DisplayName="{{nanoneuro|纳米神经}}{{Y|活化器}}" />
+    <part Name="Description" Short="受完全自主、气候受控香蕉林愿景的激励，霸权水果公司的研发部设计出了神经活化器；它会把神经系统编织进无生命物体的无机材料中。起初，完整感知力是他们的产品差异点，但数月内，像喷脑剂这样的廉价替代品便主导了市场。" />
+  </object>
+  <object Name="Droid Scrambler" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|机器人扰频器}}" />
+    <part Name="Description" Short="圆盘状发射器哔哔吐出断奏噪声，在短程频段上制造干扰。" />
+  </object>
+  <object Name="BaseRecoiler" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|回弹器}}" />
+    <part Name="Description" Short="一盘磁带被切出六角形凹槽，并浸入恰到好处的磁荷中，以卷绕一条时空系索（并产生它特有的热胶味）。顶端的凹陷按钮会咬断势能并启动回弹。" />
+  </object>
+  <object Name="Joppa Recoiler" Load="Merge">
+    <part Name="Render" DisplayName="约帕回弹器" />
+  </object>
+  <object Name="Grit Gate Recoiler" Load="Merge">
+    <part Name="Render" DisplayName="{{c|砂砾门}}回弹器" />
+  </object>
+  <object Name="Golgotha Recoiler" Load="Merge">
+    <part Name="Render" DisplayName="{{g|各各他}}回弹器" />
+  </object>
+  <object Name="Kyakukya Recoiler" Load="Merge">
+    <part Name="Render" DisplayName="{{R|奇亚库奇亚}}回弹器" />
+  </object>
+  <object Name="Six Day Stilt Recoiler" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|六日高跷}}回弹器" />
+  </object>
+  <object Name="Bethesda Susa Recoiler" Load="Merge">
+    <part Name="Render" DisplayName="{{C|贝塞斯达苏萨}}回弹器" />
+  </object>
+  <object Name="Ezra Recoiler" Load="Merge">
+    <part Name="Render" DisplayName="{{W|以斯拉}}回弹器" />
+  </object>
+  <object Name="Yd Freehold Recoiler" Load="Merge">
+    <part Name="Render" DisplayName="{{W|伊德自由地}}回弹器" />
+  </object>
+  <object Name="Ruin Recoiler" Load="Merge">
+    <part Name="Render" DisplayName="随机点回弹器" />
+  </object>
+  <object Name="Programmable Recoiler" Load="Merge">
+    <part Name="Render" DisplayName="可编程回弹器" />
+  </object>
+  <object Name="Reprogrammable Recoiler" Load="Merge">
+    <part Name="Render" DisplayName="可重编程回弹器" />
+  </object>
+  <object Name="Spraybottle" Load="Merge">
+    <part Name="Render" DisplayName="喷瓶" />
+    <part Name="Description" Short="某个修补匠拼出了一根虹吸管和加压喷嘴，用来喷洒他们不想倾倒的液体。" />
+  </object>
+  <object Name="Fixit Spray" Load="Merge">
+    <part Name="Render" DisplayName="修好它喷射泡沫" />
+    <part Name="Description" Short="一只气雾罐，里面灌满发泡密封胶。" />
+  </object>
+  <object Name="Desalination Pellet" Load="Merge">
+    <part Name="Render" DisplayName="脱盐丸" />
+    <part Name="Description" Short="一顶粉白色米晶格小帽从液体体积中吸走盐分。它的表面刻着字母“H”。" />
+    <part Name="DesalinationPellet" Message="=subject.T=嘶嘶作响了数秒。" DestroyMessage="=subject.T=嘶嘶作响了数秒，随后蒸发。" ConvertMessage="=object.T=与=subject.t=发生奇异反应，并将=pronouns.objective=转化为=volume.drams.of.liquid|strip=。" />
+  </object>
+  <object Name="Metamorphic Polygel" Load="Merge">
+    <part Name="Render" DisplayName="{{metamorphic|变质多凝胶}}" />
+    <part Name="Description" Short="粉色黏液揉捏着玻璃瓶内壁，开始变成另一侧事物的形状。" />
+    <xtagGrammar adjunctNoun="管" massNoun="true" />
+  </object>
+  <object Name="Spray-a-Brain" Load="Merge">
+    <part Name="Render" DisplayName="喷{{r|-}}脑{{r|-}}剂" />
+    <part Name="Description" Short="&quot;喷脑剂：要是这些墙会说话……&quot;" />
+  </object>
+  <object Name="High-Powered Magnet" Load="Merge">
+    <part Name="Render" DisplayName="高功率磁铁" />
+    <part Name="Description" Short="铁屑斑驳地点缀着它溃疡般的表面。" />
+  </object>
+  <object Name="Jewel-Encrusted Item" Load="Merge">
+    <part Name="Render" DisplayName="物品" />
+  </object>
+  <object Name="Bronze Ingot" Load="Merge">
+    <part Name="Render" DisplayName="{{w|青铜锭}}" />
+    <part Name="Description" Short="一块沉重而渐细的金属块，由铜与锡的双色液态汤浆铸成。" />
+  </object>
+  <object Name="Grave Goods" Load="Merge">
+    <part Name="Render" DisplayName="随葬品" />
+    <part Name="Description" Short="为了仪式化通往明灼阴府或另一处薄界的旅程，数件饰物被一同埋入：硬币、人偶、盒坠和烟斗。" />
+    <xtagGrammar massNoun="true" />
+  </object>
+  <object Name="Copper Nugget" Load="Merge">
+    <part Name="Render" DisplayName="{{w|铜粒}}" />
+    <part Name="Description" Short="一团黄铜色金属从宿主岩中滚脱出来。" />
+  </object>
+  <object Name="Silver Nugget" Load="Merge">
+    <part Name="Render" DisplayName="{{silvery|银粒}}" />
+    <part Name="Description" Short="一团金属闪耀着星明色泽。" />
+  </object>
+  <object Name="Gold Nugget" Load="Merge">
+    <part Name="Render" DisplayName="{{W|金粒}}" />
+    <part Name="Description" Short="一团金属闪耀着珠宝匠眼中明亮太阳渣的色泽。" />
+  </object>
+  <object Name="Gemstone" Load="Merge">
+    <part Name="Render" DisplayName="粗糙宝石" />
+  </object>
+  <object Name="Rough Agate" Load="Merge">
+    <part Name="Render" DisplayName="粗糙{{K|玛瑙}}宝石" />
+    <part Name="Description" Short="微小星云的影子被碾进一块小石的轮廓。" />
+  </object>
+  <object Name="Rough Topaz" Load="Merge">
+    <part Name="Render" DisplayName="粗糙{{W|黄玉}}宝石" />
+    <part Name="Description" Short="千道日光穿过一块小石的棱镜折射开来。" />
+  </object>
+  <object Name="Rough Jasper" Load="Merge">
+    <part Name="Render" DisplayName="粗糙{{R|碧玉}}宝石" />
+    <part Name="Description" Short="大地的黑色风箱被蚀刻进红色光泽。" />
+  </object>
+  <object Name="Rough Amethyst" Load="Merge">
+    <part Name="Render" DisplayName="粗糙{{M|紫水晶}}宝石" />
+    <part Name="Description" Short="它在尘世沉积物的褶皱中蜷藏了数百万年。随后它的茧被敲裂，一只灿烂的蝴蝶出世。" />
+  </object>
+  <object Name="Rough Sapphire" Load="Merge">
+    <part Name="Render" DisplayName="粗糙{{B|蓝宝石}}宝石" />
+    <part Name="Description" Short="映照着千个分形世界天空的海洋，被收进一个几何体积。" />
+  </object>
+  <object Name="Rough Emerald" Load="Merge">
+    <part Name="Render" DisplayName="粗糙{{G|祖母绿}}宝石" />
+    <part Name="Description" Short="石中的杂质孕育翠绿之物，生命的图式在更小的尺度上重现。" />
+  </object>
+  <object Name="Rough Peridot" Load="Merge">
+    <part Name="Render" DisplayName="粗糙{{peridot|橄榄石}}宝石" />
+    <part Name="Description" Short="它穿越虚空疾掷而来，撞入黑石，又闪耀而自由地砸落在我们的世界。" />
+  </object>
+  <object Name="Polished Gemstone" Load="Merge">
+    <part Name="Render" DisplayName="光滑宝石" />
+  </object>
+  <object Name="Polished Agate" Load="Merge">
+    <part Name="Render" DisplayName="光滑{{K|玛瑙}}宝石" />
+    <part Name="Description" Short="微小星云的影子被碾进一块小石的轮廓。所有粗糙边缘都已抛光发亮。" />
+  </object>
+  <object Name="Polished Topaz" Load="Merge">
+    <part Name="Render" DisplayName="光滑{{W|黄玉}}宝石" />
+    <part Name="Description" Short="千道日光穿过一块小石的棱镜折射开来。所有粗糙边缘都已抛光发亮。" />
+  </object>
+  <object Name="Polished Jasper" Load="Merge">
+    <part Name="Render" DisplayName="光滑{{R|碧玉}}宝石" />
+    <part Name="Description" Short="大地的黑色风箱被蚀刻进一枚红蛋。所有粗糙边缘都已抛光发亮。" />
+  </object>
+  <object Name="Polished Amethyst" Load="Merge">
+    <part Name="Render" DisplayName="光滑{{M|紫水晶}}宝石" />
+    <part Name="Description" Short="它在尘世沉积物的褶皱中蜷藏了数百万年。随后它的茧被敲裂，一只灿烂的蝴蝶出世。所有粗糙边缘都已抛光发亮。" />
+  </object>
+  <object Name="Polished Sapphire" Load="Merge">
+    <part Name="Render" DisplayName="光滑{{B|蓝宝石}}宝石" />
+    <part Name="Description" Short="映照着千个分形世界天空的海洋，被收进一个几何体积。所有粗糙边缘都已抛光发亮。" />
+  </object>
+  <object Name="Polished Emerald" Load="Merge">
+    <part Name="Render" DisplayName="光滑{{G|祖母绿}}宝石" />
+    <part Name="Description" Short="石中的杂质孕育翠绿之物，生命的图式在更小的尺度上重现。它的粗糙边缘都已抛光发亮。" />
+  </object>
+  <object Name="Polished Peridot" Load="Merge">
+    <part Name="Render" DisplayName="光滑{{peridot|橄榄石}}宝石" />
+    <part Name="Description" Short="它穿越虚空疾掷而来，撞入黑石，又闪耀而自由地砸落在我们的世界。所有粗糙边缘都已抛光发亮。" />
+  </object>
+  <object Name="Random Figurine" Load="Merge">
+    <part Name="Description" Short="这尊由=material=精工制成的小像细致描绘了=creature.a.name:withTitles|strip=：&#xA;&#xA;=creature.description.very.short=" />
+  </object>
+  <object Name="Random Copper Figurine" Load="Merge">
+    <part Name="Render" DisplayName="{{w|铜}} {{|=creature.name|strip=}} 小像" />
+  </object>
+  <object Name="Rhinox figure" Load="Merge">
+    <part Name="Render" DisplayName="{{w|铜}} {{|=creature.name|strip=}} 小像" />
+  </object>
+  <object Name="Random Silver Figurine" Load="Merge">
+    <part Name="Render" DisplayName="{{silvery|银}} {{|=creature.name|strip=}} 小像" />
+  </object>
+  <object Name="Random Gold Figurine" Load="Merge">
+    <part Name="Render" DisplayName="{{W|金}} {{|=creature.name|strip=}} 小像" />
+  </object>
+  <object Name="Random Agate Figurine" Load="Merge">
+    <part Name="Render" DisplayName="{{K|玛瑙}} {{|=creature.name|strip=}} 小像" />
+  </object>
+  <object Name="Random Topaz Figurine" Load="Merge">
+    <part Name="Render" DisplayName="{{W|黄玉}} {{|=creature.name|strip=}} 小像" />
+  </object>
+  <object Name="Random Jasper Figurine" Load="Merge">
+    <part Name="Render" DisplayName="{{R|碧玉}} {{|=creature.name|strip=}} 小像" />
+  </object>
+  <object Name="Random Amethyst Figurine" Load="Merge">
+    <part Name="Render" DisplayName="{{M|紫水晶}} {{|=creature.name|strip=}} 小像" />
+  </object>
+  <object Name="Random Sapphire Figurine" Load="Merge">
+    <part Name="Render" DisplayName="{{B|蓝宝石}} {{|=creature.name|strip=}} 小像" />
+  </object>
+  <object Name="Random Emerald Figurine" Load="Merge">
+    <part Name="Render" DisplayName="{{G|祖母绿}} {{|=creature.name|strip=}} 小像" />
+  </object>
+  <object Name="Random Peridot Figurine" Load="Merge">
+    <part Name="Render" DisplayName="{{peridot|橄榄石}} =creature.name|strip= 小像" />
+  </object>
+  <object Name="Trinket" Load="Merge">
+    <part Name="Render" DisplayName="{{c|小饰物}}" />
+  </object>
+  <object Name="BoxOfCrayons" Load="Merge">
+    <part Name="Render" DisplayName="{{w|一盒{{R-W-G-B-M-C-Y sequence|蜡笔}}}}" />
+    <part Name="Description" Short="来自奥德鲁姆蜂巢的蜡与染料混合，被塑成尖笔形状。它们在盒中共同取样世界的虹彩，并提供扩展它的工具。" />
+  </object>
+  <object Name="Salt Mill" Load="Merge">
+    <part Name="Render" DisplayName="盐磨" />
+    <part Name="Description" Short="雕刻并染色的橄榄木中装着钢齿，用以磨去食盐的不规则。" />
+  </object>
+  <object Name="Spiral Iron" Load="Merge">
+    <part Name="Render" DisplayName="旋涡烫铁" />
+    <part Name="Description" Short="滚烫的金属夹迫使灼烧的头发弯入旋涡的轮转曲线。" />
+  </object>
+  <object Name="Bubble Level" Load="Merge">
+    <part Name="Render" DisplayName="气泡水平仪" />
+    <part Name="Description" Short="一片环面晶体把直边一分为二，将油腻气泡置于视野中央。" />
+  </object>
+  <object Name="FoldingChair" Load="Merge">
+    <part Name="Render" DisplayName="{{c|金属折叠椅}}" />
+    <part Name="Description" Short="用途明确的管件在焊接关节处分开，支撑着一块供人坐下的板。" />
+  </object>
+  <object Name="PlasticTree" Load="Merge">
+    <part Name="Description" Short="叶状枝桠展开成蜡质的生命仿品。近看时它坚硬而油腻，但当你后退，它的边缘便燃入柔和，履行树的职能。" />
+    <part Name="Render" DisplayName="塑料树" />
+  </object>
+  <object Name="Small Sphere of Negative Weight" Load="Merge">
+    <part Name="Render" DisplayName="负重小球" />
+    <part Name="Description" Short="某种黑色黄铁矿金属构成的球体屈从于重力的负压，试图向上坠落。" />
+  </object>
+  <object Name="Timecube" Load="Merge">
+    <part Name="Render" DisplayName="{{K|时间立方}}" />
+    <part Name="Description" Short="一个仅有四角的立方体。表示日升、正午、日落和午夜的面上象形图坚持一种新的日子分割法。它刻满了破碎时钟的奇想图像。" />
+  </object>
+  <object Name="Waterskin" Load="Merge">
+    <part Name="Render" DisplayName="水囊" />
+    <part Name="Description" Short="山羊膀胱在底部打结，由一条肠带悬挂。" />
+  </object>
+  <object Name="Oilskin" Load="Merge">
+    <part Name="Render" DisplayName="油囊" />
+    <part Name="Description" Short="山羊膀胱在底部打结，由一条肠带悬挂。" />
+  </object>
+  <object Name="Camel Bladder" Load="Merge">
+    <part Name="Render" DisplayName="骆驼膀胱" />
+    <part Name="Description" Short="一只硕大的骆驼膀胱在底部打结，并由肠带悬挂。" />
+    <part Name="RulesDescription" Text="穿戴时，这件物品中的液体不计入你的负重。" />
+  </object>
+  <object Name="Canteen" Load="Merge">
+    <part Name="Render" DisplayName="水壶" />
+    <part Name="Description" Short="一只铝壶套在橄榄绿布中，用于储水。" />
+  </object>
+  <object Name="Phial" Load="Merge">
+    <part Name="Render" DisplayName="小瓶" />
+    <part Name="Description" Short="一截用于保存珍贵液体的玻璃短管，在转动时闪光。" />
+  </object>
+  <object Name="SoupPhial" Load="Merge">
+    <part Name="Description" Short="一只玻璃小瓶。" />
+  </object>
+  <object Name="BrainBrinePhial" Load="Merge">
+    <part Name="Description" Short="一只玻璃小瓶。" />
+  </object>
+  <object Name="SunSlagPhial" Load="Merge">
+    <part Name="Description" Short="一只玻璃小瓶。" />
+  </object>
+  <object Name="StorageTank" Load="Merge">
+    <part Name="Render" DisplayName="储罐" />
+    <part Name="Description" Short="铬被铸成罐体，并用黄铜安装支架固定。" />
+  </object>
+  <object Name="Gourd" Load="Merge">
+    <part Name="Render" DisplayName="葫芦" />
+    <part Name="Description" Short="胶原被塑造成液体容器。" />
+  </object>
+  <object Name="Entropy Cyst" Load="Merge">
+    <part Name="Render" DisplayName="熵囊肿" />
+    <part Name="Description" Short="一团颤抖的静态疱泡兴奋地拉长自己的维度，像某种焦虑的活物。" />
+  </object>
+  <object Name="Magnetic Bottle" Load="Merge">
+    <part Name="Render" DisplayName="磁瓶" />
+    <part Name="Description" Short="磁性玻璃以尖刺般的扭曲扰动其中平静的铁磁流体。" />
+    <part Name="RulesDescription" Text="供能时，可以从任何来源安全地将中子流倒入此容器，也可以从此容器将中子流安全倒入其他合适容器。" />
+  </object>
+  <object Name="FactionDeed" Load="Merge">
+    <part Name="Render" DisplayName="{{K|《卡德编年史》}}中的薛定谔书页" />
+    <part Name="Description" Short="几乎没有学者知道《卡德编年史》由谁撰写，或记述始于何时。但量化主义者设计出一种办法，将自己的页面与官方总账纠缠在一起，使他们能以有利的光彩把自己插入历史。这样的书页还残存数张。" />
+  </object>
+  <object Name="FungalInfection" Load="Merge">
+    <part Name="Render" DisplayName="感染" />
+  </object>
+  <object Name="LuminousInfection" Load="Merge">
+    <part Name="Render" DisplayName="{{C|辉壳}}" />
+    <part Name="Description" Short="缀着霜花的结节在感染皮肤上结壳，寒雾附着其间。真菌群落将表皮地貌化，变成一片微缩的覆冰峰峦。" />
+  </object>
+  <object Name="PuffInfection" Load="Merge">
+    <part Name="Render" DisplayName="{{G|无常鳃}}" />
+    <part Name="Description" Short="微小孢尘从条纹皮肤上抽搐的肉质鳃片飘落。里面还困着另有千枚孢子，等待被震松释放。" />
+  </object>
+  <object Name="MumblesInfection" Load="Merge">
+    <part Name="Render" DisplayName="{{R|咕哝}}{{M|之}}{{R|口}}" />
+    <part Name="Description" Short="数十张小嘴在感染皮肤上密铺，湿润的嘴唇异步噘起，喘吐喋喋废话。每隔一阵，这片杂音就会和谐成有意义的话语。" />
+  </object>
+  <object Name="WaxInfection" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|蜡赘}}" />
+    <part Name="Description" Short="一株泣蜡真菌把附肢包进半透明铸壳。体温融化最内层，浓稠蜡乳在硬化牢笼内晃荡。" />
+  </object>
+  <object Name="PaxInfection" Load="Merge">
+    <part Name="Render" DisplayName="{{O|克兰克}}" />
+    <part Name="Description" Short="跨维真菌肉质的锥形叶瓣按质数序列拍打中心生长物。内部，孢子生命准备喷发。" />
+  </object>
+  <object Name="Security Card" Load="Merge">
+    <part Name="Description" Short="一张编码的纸金属矩形片，可滑过锁具机构来开启某些类型的门。" />
+  </object>
+  <object Name="Red Security Card" Load="Merge">
+    <part Name="Render" DisplayName="{{r|劳工安保卡}}" />
+  </object>
+  <object Name="Yellow Security Card" Load="Merge">
+    <part Name="Render" DisplayName="{{W|维护安保卡}}" />
+  </object>
+  <object Name="Green Security Card" Load="Merge">
+    <part Name="Render" DisplayName="{{G|应急服务安保卡}}" />
+  </object>
+  <object Name="Blue Security Card" Load="Merge">
+    <part Name="Render" DisplayName="{{B|执法安保卡}}" />
+  </object>
+  <object Name="Purple Security Card" Load="Merge">
+    <part Name="Render" DisplayName="{{M|军事安保卡}}" />
+  </object>
+  <object Name="Copper Trollking Key" Load="Merge">
+    <part Name="Render" DisplayName="{{w|青铜}}钥匙" />
+    <part Name="Description" Short="一根抛光青铜制成的带齿短杖，等待反旋开合适的锁。" />
+  </object>
+  <object Name="Silver Trollking Key" Load="Merge">
+    <part Name="Render" DisplayName="{{silvery|银}}钥匙" />
+    <part Name="Description" Short="一根亮银制成的带齿短杖，等待反旋开合适的锁。" />
+  </object>
+  <object Name="Gold Trollking Key" Load="Merge">
+    <part Name="Render" DisplayName="{{W|金}}钥匙" />
+    <part Name="Description" Short="一根灼金铜制成的带齿短杖，等待反旋开合适的锁。" />
+  </object>
+  <object Name="BarathrumKey" Load="Merge">
+    <part Name="Render" DisplayName="{{c|铬}}钥匙" />
+    <part Name="Description" Short="一根抛光铬制成的带齿短杖，等待反旋开合适的锁。" />
+  </object>
+  <object Name="GritGateGridKey" Load="Merge">
+    <part Name="Render" DisplayName="{{c|铬}}安保卡" />
+    <part Name="Description" Short="一张编码的纸金属矩形片，可滑过锁具机构来开启某些类型的门。" />
+  </object>
+  <object Name="CrystalKey" Load="Merge">
+    <part Name="Render" DisplayName="{{m|水晶}}钥匙" />
+    <part Name="Description" Short="晶体中的齿状瑕疵，是一把秘密钥匙咬出的切口。" />
+  </object>
+  <object Name="HurdyGurdy" Load="Merge">
+    <part Name="Render" DisplayName="手摇风琴" />
+    <part Name="Description" Short="外部曲柄的扭力拖着涂满松香的轮子压过金属弦缆，它的抗议从木箱中化作低沉而旋律化的呻吟。" />
+  </object>
+  <object Name="Farmers Token" Load="Merge">
+    <part Name="Render" DisplayName="{{G|农夫代币}}" />
+    <part Name="Description" Short="这枚古老青铜币中央切出一个方孔。时间为它披上海沫般的铜绿。" />
+  </object>
+  <object Name="Merchant's Token" Load="Merge">
+    <part Name="Render" DisplayName="{{W|商贾代币}}" />
+    <part Name="Description" Short="一枚银谢克尔上压印着市集的天平，藤蔓缠绕其周。" />
+  </object>
+  <object Name="Minstrel's Token" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|游吟诗人代币}}" />
+    <part Name="Description" Short="一枚古老的铂金谢克尔上刻着至古之鸟的形象。" />
+  </object>
+  <object Name="Barathrumite Token" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|巴拉瑟姆派代币}}" />
+    <part Name="Description" Short="一枚纸钢圆片上压印着老巴拉瑟姆的侧影。" />
+  </object>
+  <object Name="Wire Strand" Load="Merge">
+    <part Name="Render" DisplayName="{{r|线股}}" />
+    <part Name="Description" Short="一根从金属矿石中挤出的细绳，并排铺设时可以导电。" />
+    <part Name="DeployableInfrastructure" DeployNoun="线路" MessageByCountSuffix="根电线" />
+  </object>
+  <object Name="Garbage" Load="Merge">
+    <part Name="Render" DisplayName="垃圾" />
+    <part Name="Description" Short="古老而疼痛的世界被从自己的时间点上刮下碎片，压碎到现在附近。仍有几片可识别之物：玻璃透镜、墨水衬线、酸蚀接耳与一缕电线。" />
+    <xtagGrammar adjunctNoun="堆" massNoun="true" />
+  </object>
+  <object Name="Wax Nodule" Load="Merge">
+    <part Name="Render" DisplayName="蜡结节" />
+    <part Name="Description" Short="这是一团蜡质物，由植物分泌并冷却成块。" />
+  </object>
+  <object Name="Bouquet" Load="Merge">
+    <part Name="Render" DisplayName="花束" />
+    <part Name="Description" Short="带色泽、湿漉漉活着的美被麻绳聚拢，以表达某种意思。如今死去的茎与花瓣绝望地相互攥紧。" />
+    <part Name="Food" Message="咸鲜，但并不特别令人满足。" />
+  </object>
+  <object Name="Flowers" Load="Merge">
+    <part Name="Render" DisplayName="花" />
+    <part Name="Description" Short="它们是花瓣遮蔽的方舟，载着蜜汁般的秘密。" />
+    <part Name="Food" Message="咸鲜，但并不特别令人满足。" />
+    <xtagGrammar adjunctNoun="束" massNoun="true" />
+  </object>
+  <object Name="Crystal Flowers" Load="Merge">
+    <part Name="Render" DisplayName="水晶花" />
+    <part Name="Description" Short="一朵烛英花将光铺展到整个色谱，再把它凝聚在桶状花瓣中。" />
+  </object>
+  <object Name="BaseDataDisk" Load="Merge">
+    <part Name="Description" Short="金属遮板之下，一枚晶质圆盘刻满编码数据的微观凹坑。" />
+  </object>
+  <object Name="Argyve's Data Disk" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|压印数据盘}}" />
+  </object>
+  <object Name="Scratched Data Disk" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|刮花数据盘}}" />
+  </object>
+  <object Name="Stamped Data Disk" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|压印数据盘}}" />
+  </object>
+  <object Name="Argyve's Data Disk Encoded" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|压印数据盘}} [编码有{{m|Q 女孩}}的指令]" />
+  </object>
+  <object Name="ClimberBlueprints" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|{{m|Q 女孩}}攀爬器设计蓝图}}" />
+  </object>
+  <object Name="Decrypted Signal Data Disk" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|压印数据盘}} [编码有{{C|信号}}]" />
+  </object>
+  <object Name="Scrapped Waydroid" Load="Merge">
+    <part Name="Render" DisplayName="报废路行机器人" />
+    <part Name="Description" Short="这里躺着一台停摆路行机器人的金属空壳。它的贵重物已被剥走：铜线、LED 灯和铬轴承。它再也不会哔鸣与呼呼作响。" />
+  </object>
+  <object Name="Dormant Waydroid" Load="Merge">
+    <part Name="Render" DisplayName="{{c|休眠路行机器人}}" />
+    <part Name="Description" Short="这里躺着一台沉入无知睡眠的路行机器人。愿意动手的修补匠能否再次赋予它生命？" />
+  </object>
+  <object Name="Grit Gate Dormant Waydroid" Load="Merge">
+    <part Name="Render" DisplayName="{{c|休眠路行机器人}}" />
+  </object>
+  <object Name="Clue_BloodyPatchOfFur" Load="Merge">
+    <part Name="Render" DisplayName="一片毛皮" />
+    <part Name="Description" Short="这片带毛皮肤上涂着干涸的血。" />
+  </object>
+  <object Name="Clue_BloodyWatervine" Load="Merge">
+    <part Name="Render" DisplayName="一片水藤" />
+    <part Name="Description" Short="这片水藤咸涩的沟痕中有干涸的血。" />
+  </object>
+  <object Name="Clue_SplinteredWeaponHaft" Load="Merge">
+    <part Name="Render" DisplayName="碎裂握柄" />
+    <part Name="Description" Short="这些碎裂木片曾组成一件武器的柄杆，那武器必是在战斗中折断。" />
+  </object>
+  <object Name="Clue_BulgingWaterskin" Load="Merge">
+    <part Name="Render" DisplayName="鼓胀水囊" />
+    <part Name="Description" Short="这只水囊灌满到边缘，并以蜡封口，像是来自商人的库存。" />
+  </object>
+  <object Name="Clue_CopperNugget" Load="Merge">
+    <part Name="Render" DisplayName="带划痕的铜粒" />
+    <part Name="Description" Short="铜被压成一颗矿粒，并从天然矿床中拣出。它被一道划痕一分为二。" />
+  </object>
+  <object Name="Clue_GreatSaltbackPrint" Load="Merge">
+    <part Name="Render" DisplayName="巨大的足迹" />
+    <part Name="Description" Short="只有巨盐背才能留下温泉大小的足迹。" />
+  </object>
+  <object Name="Clue_SeveredTongue" Load="Merge">
+    <part Name="Render" DisplayName="断舌" />
+    <part Name="Description" Short="这块腐黑的丝状肉团，可能曾是某人的病舌。" />
+  </object>
+  <object Name="Clue_YuckwheatChaff" Load="Merge">
+    <part Name="Render" DisplayName="恶心麦糠" />
+    <part Name="Description" Short="恶心麦茎秆的糠皮味道比茎秆本身还糟，也没有药用价值，难怪有人把它扔掉。" />
+  </object>
+  <object Name="Clue_Putrescence" Load="Merge">
+    <part Name="Render" DisplayName="腐败物" />
+    <part Name="Description" Short="翻搅的内脏被外翻出来，暴露在污浊空气中腐烂。" />
+  </object>
+  <object Name="Clue_LeatherScraps" Load="Merge">
+    <part Name="Render" DisplayName="皮革碎料" />
+    <part Name="Description" Short="这些皮革碎料是从更宽的皮片上裁下，供某个未知皮革加工项目使用。" />
+    <xtagGrammar massNoun="true" />
+  </object>
+  <object Name="Clue_DiscardedBracer" Load="Merge">
+    <part Name="Render" DisplayName="撕裂皮护腕" />
+    <part Name="Description" Short="皮护腕在被撕开的地方磨散起毛。" />
+  </object>
+  <object Name="Clue_LeatherworkingHammer" Load="Merge">
+    <part Name="Render" DisplayName="皮革加工锤" />
+    <part Name="Description" Short="这把粗陋锤子用于皮革加工时敲打铆钉座和冲子。" />
+  </object>
+  <object Name="Clue_EmptyInjector" Load="Merge">
+    <part Name="Render" DisplayName="用过的注射器" />
+    <part Name="Description" Short="黏稠的强心剂残留仍涂覆着玻璃管。" />
+  </object>
+  <object Name="Clue_BloodyArrow" Load="Merge">
+    <part Name="Render" DisplayName="箭" />
+    <part Name="Description" Short="干涸的血涂染了木箭的箭尖与箭杆，但彩色箭羽仍洁净如初。" />
+  </object>
+  <object Name="Clue_VillageStores" Load="Merge">
+    <part Name="Render" DisplayName="村庄储备" />
+    <part Name="Description" Short="箱盖底部的计数刻痕说明了里面的东西：干拉花瓣、藤饼和水囊。" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="Clue_WornBracer" Load="Merge">
+    <part Name="Render" DisplayName="磨损皮护腕" />
+    <part Name="Description" Short="这只皮护腕带有干涸体盐的条纹，都是重度使用的痕迹。" />
+  </object>
+  <object Name="Clue_ForeignLeatherworkingTools" Load="Merge">
+    <part Name="Render" DisplayName="皮革加工工具" />
+    <part Name="Description" Short="圆凿、刮匙、冲子、凿子、刀片与剪刀。这些工具由技艺精湛的工匠制成，用于皮革加工之艺。" />
+  </object>
+</objects>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<subtypes Lang="CN" Encoding="utf-8">
+  <class ID="Castes">
+    <category Name="Ekuemekiyye" DisplayName="{{G|圣城 埃库梅基耶 的毒性树园}}" />
+    <category Name="Ibul" DisplayName="{{C|伊布尔 的冰鞘拱构城}}" />
+    <category Name="Yawningmoon" DisplayName="{{R|哈欠月 的地壳臼炮}}" />
+  </class>
+</subtypes>

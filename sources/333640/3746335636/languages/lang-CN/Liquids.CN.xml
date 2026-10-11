@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud - Generated Localizable XML 2.0.212.26
+
+-->
+<liquids Lang="CN" Encoding="utf-8">
+  <liquid Name="Acid">
+    <circulatoryLossTerm>渗漏</circulatoryLossTerm>
+    <circulatoryLossNoun>渗漏</circulatoryLossNoun>
+    <displayName>{{G|酸}}</displayName>
+    <adjective>{{G|酸性}}</adjective>
+    <waterRitualName>酸</waterRitualName>
+    <smearedAdjective>{{G|酸性}}</smearedAdjective>
+    <smearedName>{{G|覆酸}}</smearedName>
+    <stainedName>{{G|酸}}</stainedName>
+    <part Name="MessageOnDrink" Message="{{G|灼烧！}}" />
+    <part Name="DamageOnDrink" Message="来自{{G|饮酸}}！" />
+    <part Name="AcidEating" DamageMessage="来自{{G|酸}}！" />
+  </liquid>
+  <liquid Name="Asphalt">
+    <circulatoryLossTerm>渗漏</circulatoryLossTerm>
+    <circulatoryLossNoun>渗漏</circulatoryLossNoun>
+    <displayName>{{K|沥青}}</displayName>
+    <adjective>{{K|焦油质}}</adjective>
+    <waterRitualName>焦油</waterRitualName>
+    <smearedAdjective>{{K|焦油质}}</smearedAdjective>
+    <smearedName>{{K|沾焦油}}</smearedName>
+    <stainedName>{{K|焦油}}</stainedName>
+    <part Name="MessageOnDrink" Message="{{K|灼烧！}}" />
+    <part Name="DamageOnDrink" Message="来自{{K|饮用沥青}}！" />
+  </liquid>
+  <liquid Name="Algae">
+    <circulatoryLossTerm>渗漏</circulatoryLossTerm>
+    <circulatoryLossNoun>渗漏</circulatoryLossNoun>
+    <displayName>{{g|藻类}}</displayName>
+    <adjective>{{g|藻质}}</adjective>
+    <waterRitualName>藻类</waterRitualName>
+    <smearedAdjective>{{g|藻质}}</smearedAdjective>
+    <smearedName>{{g|覆藻}}</smearedName>
+    <stainedName>{{g|藻类}}</stainedName>
+    <part Name="SnackOnDrink" Message="盐卤刺痛你的口腔，湖风气息充满你的呼吸。" />
+  </liquid>
+  <liquid Name="Blood">
+    <circulatoryLossTerm>流血</circulatoryLossTerm>
+    <circulatoryLossNoun>出血</circulatoryLossNoun>
+    <displayName>{{r|血}}</displayName>
+    <adjective>{{r|血腥}}</adjective>
+    <waterRitualName>血</waterRitualName>
+    <smearedAdjective>{{r|血腥}}</smearedAdjective>
+    <smearedName>{{r|带血}}</smearedName>
+    <stainedName>{{r|血}}</stainedName>
+    <part Name="MessageOnDrink" Message="它有金属味。" />
+  </liquid>
+  <liquid Name="BrainBrine">
+    <circulatoryLossTerm>渗漏</circulatoryLossTerm>
+    <circulatoryLossNoun>渗漏</circulatoryLossNoun>
+    <displayName>{{brainbrine|脑盐卤}}</displayName>
+    <adjective>{{nervous|神经质}}</adjective>
+    <waterRitualName>脑盐卤</waterRitualName>
+    <smearedAdjective>{{nervous|神经质}}</smearedAdjective>
+    <smearedName>{{nervous|神经质}}</smearedName>
+    <stainedName>{{brainbrine|脑盐卤}}</stainedName>
+  </liquid>
+  <liquid Name="Cider">
+    <circulatoryLossTerm>渗漏</circulatoryLossTerm>
+    <circulatoryLossNoun>渗漏</circulatoryLossNoun>
+    <displayName>{{cider|苹果酒}}</displayName>
+    <adjective>{{cider|香料味}}</adjective>
+    <waterRitualName>苹果酒</waterRitualName>
+    <smearedAdjective>{{cider|芳香}}</smearedAdjective>
+    <smearedName>{{cider|芳香}}</smearedName>
+    <stainedName>{{cider|苹果酒}}</stainedName>
+    <part Name="DrankWine" Message="辛香又美味。" />
+  </liquid>
+  <liquid Name="CloningDraught">
+    <circulatoryLossTerm>渗漏</circulatoryLossTerm>
+    <circulatoryLossNoun>渗漏</circulatoryLossNoun>
+    <displayName>{{cloning|克隆药水}}</displayName>
+    <adjective>{{cloning|均质}}</adjective>
+    <waterRitualName>药水</waterRitualName>
+    <smearedAdjective>{{cloning|均质}}</smearedAdjective>
+    <smearedName>{{cloning|均质}}</smearedName>
+    <stainedName>{{cloning|克隆药水}}</stainedName>
+    <part Name="CloningBehaviors" DrinkMessage="你感到一种令人不安的矛盾。" />
+  </liquid>
+  <liquid Name="Convalessence">
+    <circulatoryLossTerm>渗漏</circulatoryLossTerm>
+    <circulatoryLossNoun>渗漏</circulatoryLossNoun>
+    <displayName>{{C|康复精华}}</displayName>
+    <adjective>{{C|发光}}</adjective>
+    <waterRitualName>康复精华</waterRitualName>
+    <smearedAdjective>{{C|发光}}</smearedAdjective>
+    <smearedName>{{C|发光}}</smearedName>
+    <stainedName>{{C|康复精华}}</stainedName>
+    <part Name="MessageOnDrink" Message="它冒着泡！" />
+    <freezeObject Name="CryoGas">
+      <verb>升华</verb>
+    </freezeObject>
+  </liquid>
+  <liquid Name="Gel">
+    <slipperyMessage>{{Y|=subject.Does:slip=在凝胶上滑倒了！}}</slipperyMessage>
+    <circulatoryLossTerm>渗漏</circulatoryLossTerm>
+    <circulatoryLossNoun>渗漏</circulatoryLossNoun>
+    <displayName>{{Y|凝胶}}</displayName>
+    <adjective>{{Y|油滑}}</adjective>
+    <waterRitualName>凝胶</waterRitualName>
+    <smearedAdjective>{{Y|油滑}}</smearedAdjective>
+    <smearedName>{{Y|油滑}}</smearedName>
+    <stainedName>{{Y|凝胶}}</stainedName>
+    <part Name="MessageOnDrink" Message="非常油腻。" />
+  </liquid>
+  <liquid Name="GreenGoo">
+    <circulatoryLossTerm>渗出</circulatoryLossTerm>
+    <circulatoryLossNoun>黏液</circulatoryLossNoun>
+    <displayName>{{G|绿色黏液}}</displayName>
+    <adjective>{{G|黏糊}}</adjective>
+    <waterRitualName>黏液</waterRitualName>
+    <smearedAdjective>{{G|黏糊}}</smearedAdjective>
+    <smearedName>{{G|黏糊}}</smearedName>
+    <stainedName>{{G|黏液}}</stainedName>
+    <part Name="PoisonOnGoingProne" Message="有毒黏液灼烧你的眼睛。" />
+    <part Name="PoisonOnDrink" Message="你感到毒素流遍血管！" />
+    <part Name="MessageOnDrink" Message="太糟了！" />
+  </liquid>
+  <liquid Name="Honey">
+    <circulatoryLossTerm>渗漏</circulatoryLossTerm>
+    <circulatoryLossNoun>渗漏</circulatoryLossNoun>
+    <displayName>{{w|蜂蜜}}</displayName>
+    <adjective>{{w|蜜甜}}</adjective>
+    <waterRitualName>蜂蜜</waterRitualName>
+    <smearedAdjective>{{w|黏稠}}</smearedAdjective>
+    <smearedName>{{w|黏稠}}</smearedName>
+    <stainedName>{{w|蜂蜜}}</stainedName>
+    <part Name="SnackOnDrink" Message="美味！" />
+  </liquid>
+  <liquid Name="Ink">
+    <slipperyMessage>{{K|=subject.Does:slip=在墨水上滑倒了！}}</slipperyMessage>
+    <circulatoryLossTerm>渗漏</circulatoryLossTerm>
+    <circulatoryLossNoun>渗漏</circulatoryLossNoun>
+    <displayName>{{K|墨水}}</displayName>
+    <adjective>{{K|墨黑}}</adjective>
+    <waterRitualName>墨水</waterRitualName>
+    <smearedAdjective>{{K|墨黑}}</smearedAdjective>
+    <smearedName>{{K|墨黑}}</smearedName>
+    <stainedName>{{K|墨水}}</stainedName>
+    <part Name="MessageOnDrink" Message="墨味很重。" />
+  </liquid>
+  <liquid Name="Lava">
+    <circulatoryLossTerm>渗漏</circulatoryLossTerm>
+    <circulatoryLossNoun>渗漏</circulatoryLossNoun>
+    <displayName>{{lava|熔岩}}</displayName>
+    <adjective>{{lava|岩浆质}}</adjective>
+    <waterRitualName>熔岩</waterRitualName>
+    <smearedAdjective>{{lava|岩浆质}}</smearedAdjective>
+    <smearedName>{{lava|覆熔岩}}</smearedName>
+    <stainedName>{{lava|熔岩}}</stainedName>
+    <part Name="MessageOnDrink" Message="{{lava|灼烧！}}" />
+    <part Name="DamageOnDrink" Message="来自{{lava|饮用熔岩}}！" />
+    <part Name="AccomplishmentOnDrink">
+      <accomplishment>难以解释地，你喝下了熔岩。</accomplishment>
+      <muralText>出于主观经验之斯芬克斯秘而不宣的理由，=name= 饮下了禁忌之茶。</muralText>
+      <gospelText>穿行于 =player.zone.name= 时，=name= 在 =landmark.nearest= 的一家酒馆停留。在那里，=player.subjective= 输掉一场赌局，羞赧地喝下一打兰熔岩。奇迹般地，=player.subjective= 毫发无伤地离开了酒馆。</gospelText>
+    </part>
+    <freezeObject Name="SmallBoulder">
+      <verb>凝固</verb>
+    </freezeObject>
+    <freezeObject Name="MediumBoulder">
+      <verb>凝固</verb>
+    </freezeObject>
+    <freezeObject Name="Shale">
+      <verb>凝固</verb>
+    </freezeObject>
+  </liquid>
+  <liquid Name="NeutronFlux">
+    <circulatoryLossTerm>通量化</circulatoryLossTerm>
+    <circulatoryLossNoun>通量化</circulatoryLossNoun>
+    <displayName>{{neutronic|中子}}{{Y|通量}}</displayName>
+    <adjective>{{neutronic|中子}}</adjective>
+    <waterRitualName>通量</waterRitualName>
+    <smearedAdjective>{{neutronic|中子}}</smearedAdjective>
+    <smearedName>{{neutronic|中性}}</smearedName>
+    <stainedName>{{neutronic|通量}}</stainedName>
+  </liquid>
+  <liquid Name="Oil">
+    <slipperyMessage>{{C|=subject.Does:slip=在油上滑倒了！}}</slipperyMessage>
+    <circulatoryLossTerm>渗漏</circulatoryLossTerm>
+    <circulatoryLossNoun>渗漏</circulatoryLossNoun>
+    <displayName>{{K|油}}</displayName>
+    <adjective>{{K|油腻}}</adjective>
+    <waterRitualName>油</waterRitualName>
+    <smearedAdjective>{{K|油腻}}</smearedAdjective>
+    <smearedName>{{K|油腻}}</smearedName>
+    <stainedName>{{K|油}}</stainedName>
+    <part Name="MessageOnDrink" Message="{{K|恶心！}}" />
+  </liquid>
+  <liquid Name="Ooze">
+    <circulatoryLossTerm>渗出</circulatoryLossTerm>
+    <circulatoryLossNoun>软泥</circulatoryLossNoun>
+    <displayName>{{K|黑色软泥}}</displayName>
+    <adjective>{{K|渗泥}}</adjective>
+    <waterRitualName>软泥</waterRitualName>
+    <smearedAdjective>{{K|渗泥}}</smearedAdjective>
+    <smearedName>{{K|渗泥}}</smearedName>
+    <stainedName>{{K|软泥}}</stainedName>
+    <part Name="MessageOnDrink" Message="令人反胃！" />
+    <part Name="DiseaseOnGoingProne" Message="腐臭软泥溅进你的嘴里。你被可怕的味道呛得作呕。" />
+    <part Name="DiseaseOnDrink" Message="你觉得恶心！" />
+  </liquid>
+  <liquid Name="PrimordialSoup">
+    <circulatoryLossTerm>渗漏</circulatoryLossTerm>
+    <circulatoryLossNoun>渗漏</circulatoryLossNoun>
+    <displayName>{{c|原初汤}}</displayName>
+    <adjective>{{c|汤状}}</adjective>
+    <waterRitualName>汤</waterRitualName>
+    <smearedAdjective>{{c|汤状}}</smearedAdjective>
+    <smearedName>{{c|汤状}}</smearedName>
+    <stainedName>{{c|汤}}</stainedName>
+    <part Name="SoupSludgeSpawner">
+      <spawnMessage>反应中的液体凝结成 =object.a.name:withTitles=。</spawnMessage>
+      <stopMessage>液体停止反应。</stopMessage>
+      <startMessage>=subject.to.the.direction= 的原初汤开始与 =liquid.name= 反应。</startMessage>
+    </part>
+    <part Name="HydrateOnDrink" Message="你感觉汤在胃里晃荡。" />
+  </liquid>
+  <liquid Name="Putrescence">
+    <circulatoryLossTerm>渗漏</circulatoryLossTerm>
+    <circulatoryLossNoun>渗漏</circulatoryLossNoun>
+    <displayName>{{putrid|腐液}}</displayName>
+    <adjective>{{putrid|腐臭}}</adjective>
+    <waterRitualName>腐液</waterRitualName>
+    <smearedAdjective>{{putrid|腐臭}}</smearedAdjective>
+    <smearedName>{{putrid|腐臭}}</smearedName>
+    <stainedName>{{putrid|腐液}}</stainedName>
+    <part Name="VomitOnDrink" Message="恶心透了！" />
+  </liquid>
+  <liquid Name="Salt">
+    <circulatoryLossTerm>渗漏</circulatoryLossTerm>
+    <circulatoryLossNoun>渗漏</circulatoryLossNoun>
+    <displayName>{{Y|盐}}</displayName>
+    <adjective>{{Y|咸}}</adjective>
+    <waterRitualName>盐</waterRitualName>
+    <smearedAdjective>{{Y|咸}}</smearedAdjective>
+    <smearedName>{{Y|覆盐壳}}</smearedName>
+    <stainedName>{{Y|盐}}</stainedName>
+    <part Name="SaltOnDrink" Message="呸，太咸了！" />
+    <part Name="AltAdjectiveWhenPurityBelow" Alt="{{w|微咸}}" />
+    <freezeObject Name="Halite">
+      <verb>凝固</verb>
+    </freezeObject>
+  </liquid>
+  <liquid Name="Sap">
+    <circulatoryLossTerm>渗漏</circulatoryLossTerm>
+    <circulatoryLossNoun>渗漏</circulatoryLossNoun>
+    <displayName>{{W|树液}}</displayName>
+    <adjective>{{W|含糖}}</adjective>
+    <waterRitualName>树液</waterRitualName>
+    <smearedAdjective>{{W|树液质}}</smearedAdjective>
+    <smearedName>{{W|沾树液}}</smearedName>
+    <stainedName>{{W|树液}}</stainedName>
+    <part Name="SnackOnDrink" Message="尝起来很甜。" />
+  </liquid>
+  <liquid Name="Slime">
+    <slipperyMessage>{{slimy|=subject.Does:slip=在史莱姆上滑倒了！}}</slipperyMessage>
+    <circulatoryLossTerm>渗出</circulatoryLossTerm>
+    <circulatoryLossNoun>软泥</circulatoryLossNoun>
+    <displayName>{{slimy|史莱姆}}</displayName>
+    <adjective>{{slimy|滑黏}}</adjective>
+    <waterRitualName>液体</waterRitualName>
+    <smearedAdjective>{{slimy|滑黏}}</smearedAdjective>
+    <smearedName>{{slimy|滑黏}}</smearedName>
+    <stainedName>{{g|史莱姆}}</stainedName>
+    <part Name="ConfuseOnDrink" Message="滑黏得令人作呕！" />
+  </liquid>
+  <liquid Name="Sludge">
+    <circulatoryLossTerm>渗出</circulatoryLossTerm>
+    <circulatoryLossNoun>淤泥</circulatoryLossNoun>
+    <displayName>{{w|棕色淤泥}}</displayName>
+    <adjective>{{w|淤泥质}}</adjective>
+    <waterRitualName>淤泥</waterRitualName>
+    <smearedAdjective>{{w|淤泥质}}</smearedAdjective>
+    <smearedName>{{w|淤泥质}}</smearedName>
+    <stainedName>{{w|淤泥}}</stainedName>
+    <part Name="RustOnGoingProne" Message="棕色淤泥溅进你的嘴里。金属味让你皱起脸。" />
+    <part Name="PoisonOnDrink" Message="你觉得恶心！" />
+    <part Name="MessageOnDrink" Message="太可怕了！" />
+  </liquid>
+  <liquid Name="Sunslag">
+    <circulatoryLossTerm>渗漏</circulatoryLossTerm>
+    <circulatoryLossNoun>渗漏</circulatoryLossNoun>
+    <displayName>{{sunslag|日渣}}</displayName>
+    <adjective>{{radiant|辉耀}}</adjective>
+    <waterRitualName>日渣</waterRitualName>
+    <smearedAdjective>{{radiant|辉耀}}</smearedAdjective>
+    <smearedName>{{radiant|辉耀}}</smearedName>
+    <stainedName>{{sunslag|日渣}}</stainedName>
+    <part Name="SunSlagOnDrink">
+      <tooMuchMessage>明亮灼烧你的口腔，但你已经不能被唤升得更高。</tooMuchMessage>
+      <noStatMessage>明亮灼烧你的口腔。</noStatMessage>
+      <boostedMessage>
+        明亮灼烧你的口腔，并激励了你。
+
+        你的迅捷永久提高 {{rules|=boost=}}。
+      </boostedMessage>
+      <accomplishmentText>你饮下钯礁明亮的乳浆，并被迅捷化。</accomplishmentText>
+      <muralText>看哪，=player.name= 劈开城邦的骨骼，饮下它们的骨髓！我们的 Saad，被城邦的命血迅捷化吧！</muralText>
+      <gospelText>穿行于 =terrain.t= 时，=player.name= 在 =landmark.nearest= 的一家酒馆停留。在那里，=player.subjective= 赢下一场赌局，得意地喝下一打兰日渣。=player.Subjective= =player.verb:were= 迅捷化，并以不可追踪的步速离开了酒馆。</gospelText>
+    </part>
+  </liquid>
+  <liquid Name="Water">
+    <slipperyMessage>{{C|=subject.Does:slip=在冰上滑倒了！}}</slipperyMessage>
+    <circulatoryLossTerm>渗漏</circulatoryLossTerm>
+    <circulatoryLossNoun>渗漏</circulatoryLossNoun>
+    <displayName>{{B|水}}</displayName>
+    <adjective>{{Y|稀释}}</adjective>
+    <waterRitualName>水</waterRitualName>
+    <smearedAdjective>{{B|潮湿}}</smearedAdjective>
+    <smearedName>{{B|潮湿}}</smearedName>
+    <stainedName>{{B|水}}</stainedName>
+    <part Name="WaterHydration">
+      <amphibiousMessage>=subject.Does:pour=水倒在=subject.itself=身上！</amphibiousMessage>
+      <freshMessage>啊，真清爽！</freshMessage>
+    </part>
+    <part Name="AltSmearedAdjectiveWhenSecondaryTo" Alt="{{B|潮湿}}" />
+    <part Name="AltSmearedAdjectiveWhenMixed" Alt="{{Y|稀释}}" />
+    <part Name="AltNameWhenPure" Alt="{{B|淡水}}" />
+  </liquid>
+  <liquid Name="Wax">
+    <circulatoryLossTerm>渗漏</circulatoryLossTerm>
+    <circulatoryLossNoun>渗漏</circulatoryLossNoun>
+    <displayName>{{Y|熔蜡}}</displayName>
+    <adjective>{{Y|蜡质}}</adjective>
+    <waterRitualName>蜡</waterRitualName>
+    <smearedAdjective>{{Y|蜡质}}</smearedAdjective>
+    <smearedName>{{Y|蜡质}}</smearedName>
+    <stainedName>{{Y|蜡}}</stainedName>
+    <part Name="TemperatureChangeOnDrink" Message="又烫又恶心。" />
+    <freezeObject Name="Wax Nodule">
+      <verb>凝结</verb>
+    </freezeObject>
+    <freezeObject Name="Wax Block">
+      <verb>凝固</verb>
+    </freezeObject>
+  </liquid>
+  <liquid Name="Wine">
+    <circulatoryLossTerm>渗漏</circulatoryLossTerm>
+    <circulatoryLossNoun>渗漏</circulatoryLossNoun>
+    <displayName>{{m|酒}}</displayName>
+    <adjective>{{m|醇美}}</adjective>
+    <waterRitualName>酒</waterRitualName>
+    <smearedAdjective>{{m|醇美}}</smearedAdjective>
+    <smearedName>{{m|醇美}}</smearedName>
+    <stainedName>{{m|酒}}</stainedName>
+    <part Name="HydrateOnDrink" Message="温热酒液让你脸颊发烫！" />
+  </liquid>
+  <liquid Name="WarmStatic">
+    <circulatoryLossTerm>渗漏</circulatoryLossTerm>
+    <circulatoryLossNoun>渗漏</circulatoryLossNoun>
+    <displayName>{{Y|暖静态}}</displayName>
+    <adjective>{{Y|熵性}}</adjective>
+    <waterRitualName>暖静态</waterRitualName>
+    <smearedAdjective>{{Y|熵性}}</smearedAdjective>
+    <smearedName>{{Y|熵性}}</smearedName>
+    <stainedName>{{Y|暖静态}}</stainedName>
+    <part Name="GlitchOnPour">
+      <messageObject>=subject.T= =verb:glitch=成了=object.an=。</messageObject>
+      <messageZone>你周围的空间开始故障化。</messageZone>
+      <accomplishmentObject>你把宇宙的原始熵倾倒在事物上，使它们故障成其他事物。</accomplishmentObject>
+      <accomplishmentZone>你把宇宙的原始熵倾倒在地面上，使你周围的空间发生故障。</accomplishmentZone>
+    </part>
+  </liquid>
+</liquids>

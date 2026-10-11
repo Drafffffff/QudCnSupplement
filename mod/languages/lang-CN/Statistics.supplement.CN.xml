@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<statistics Lang="CN" Encoding="utf-8">
+  <statistic Name="Strength">
+    <shortName>力量</shortName>
+    <shortTitle>力量</shortTitle>
+  </statistic>
+  <statistic Name="Agility">
+    <shortName>敏捷</shortName>
+    <shortTitle>敏捷</shortTitle>
+  </statistic>
+  <statistic Name="Toughness">
+    <shortName>耐力</shortName>
+    <shortTitle>耐力</shortTitle>
+  </statistic>
+  <statistic Name="Intelligence">
+    <shortName>智力</shortName>
+    <shortTitle>智力</shortTitle>
+  </statistic>
+  <statistic Name="Willpower">
+    <shortName>意志</shortName>
+    <shortTitle>意志</shortTitle>
+  </statistic>
+  <statistic Name="Ego">
+    <shortName>心智</shortName>
+    <shortTitle>自我</shortTitle>
+  </statistic>
+  <statistic Name="AV">
+    <displayName>护甲</displayName>
+    <displayNameSingular>护甲</displayNameSingular>
+    <displayTitle>护甲</displayTitle>
+    <displayTitleSingular>护甲</displayTitleSingular>
+    <shortName>护甲</shortName>
+    <shortTitle>护甲</shortTitle>
+    <narrationName>护甲</narrationName>
+    <helpText>你的 {{W|护甲值 (护甲)}} 衡量你对命中你的物理攻击有多强防护。分数越高，对手攻击穿透你护甲并对你造成伤害的次数就越少。</helpText>
+  </statistic>
+  <statistic Name="DV">
+    <displayName>闪避</displayName>
+    <displayNameSingular>闪避</displayNameSingular>
+    <displayTitle>闪避</displayTitle>
+    <displayTitleSingular>闪避</displayTitleSingular>
+    <shortName>闪避</shortName>
+    <shortTitle>闪避</shortTitle>
+    <narrationName>闪避</narrationName>
+    <helpText>你的 {{W|闪避值 (闪避)}} 衡量你被物理攻击命中的可能性。分数越高，对手攻击命中你的可能性就越低。你的 闪避 受敏捷修正值影响。</helpText>
+  </statistic>
+  <statistic Name="MA">
+    <displayName>精神护甲</displayName>
+    <displayNameSingular>精神护甲</displayNameSingular>
+    <displayTitle>精神护甲</displayTitle>
+    <displayTitleSingular>精神护甲</displayTitleSingular>
+    <shortName>精神护甲</shortName>
+    <shortTitle>精神护甲</shortTitle>
+    <narrationName>精神护甲</narrationName>
+    <helpText>你的 {{W|心灵护甲 (精神护甲)}} 衡量你对心灵攻击有多强防护。分数越高，对手心灵攻击穿透你的防御并伤害你的可能性就越低。你的 精神护甲 受意志力修正值影响。</helpText>
+  </statistic>
+  <statistic Name="Speed">
+    <shortName>速度</shortName>
+    <shortTitle>速度</shortTitle>
+  </statistic>
+  <statistic Name="MoveSpeed">
+    <shortName>移动速度</shortName>
+    <shortTitle>移动速度</shortTitle>
+  </statistic>
+  <statistic Name="AcidResistance">
+    <shortName>酸抗性</shortName>
+    <shortTitle>酸抗性</shortTitle>
+  </statistic>
+  <statistic Name="ColdResistance">
+    <shortName>寒冷抗性</shortName>
+    <shortTitle>寒冷抗性</shortTitle>
+  </statistic>
+  <statistic Name="ElectricResistance">
+    <shortName>电击抗性</shortName>
+    <shortTitle>电击抗性</shortTitle>
+  </statistic>
+  <statistic Name="HeatResistance">
+    <shortName>热抗性</shortName>
+    <shortTitle>热抗性</shortTitle>
+  </statistic>
+  <statistic Name="Hitpoints">
+    <shortName>生命</shortName>
+    <shortTitle>生命</shortTitle>
+  </statistic>
+  <statistic Name="AP">
+    <shortName>行动点</shortName>
+    <shortTitle>行动点</shortTitle>
+  </statistic>
+  <statistic Name="MP">
+    <shortName>魔法值</shortName>
+    <shortTitle>魔法值</shortTitle>
+  </statistic>
+  <statistic Name="SP">
+    <shortName>体力值</shortName>
+    <shortTitle>体力值</shortTitle>
+  </statistic>
+  <statistic Name="XP">
+    <shortName>经验值</shortName>
+    <shortTitle>经验值</shortTitle>
+  </statistic>
+  <statistic Name="XPValue">
+    <shortName>变异值</shortName>
+    <shortTitle>变异值</shortTitle>
+  </statistic>
+  <statistic Name="Level">
+    <shortName>等级</shortName>
+    <shortTitle>级</shortTitle>
+  </statistic>
+  <statistic Name="Energy">
+    <shortName>能量</shortName>
+    <shortTitle>能量</shortTitle>
+  </statistic>
+</statistics>

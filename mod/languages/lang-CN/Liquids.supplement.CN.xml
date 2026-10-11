@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<liquids Lang="CN" Encoding="utf-8">
+  <liquid Name="Sunslag">
+    <part Name="SunSlagOnDrink">
+      <muralText>看哪，=player.name= 劈开城邦的骨骼，饮下它们的骨髓！我们的 萨阿德，被城邦的命血迅捷化吧！</muralText>
+    </part>
+  </liquid>
+</liquids>

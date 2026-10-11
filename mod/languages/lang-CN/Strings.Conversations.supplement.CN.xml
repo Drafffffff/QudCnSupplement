@@ -1,0 +1,442 @@
+<?xml version='1.0' encoding='utf-8'?>
+<strings Lang="CN" Encoding="utf-8">
+  <string Context="Conversation Barathrum.Welcome.GolemChoice.Text" ID="The magnetic field has been disabled and the Spindle is free to ascend. What now?">磁场已被关闭，纺锤可以自由升空了。接下来怎么办？</string>
+  <string Context="Conversation Barathrum.WhatNow.Text" ID="I intend to ascend the Spindle and answer the call, =factionaddress:Barathrumites=.&#10;&#10;My protege {{m|Q Girl}} has designed a climber for the ascent. We intended to construct it piecewise at the enclave and the site itself, but the engineering feat exceeds even our capacity. With time, I am confident we could accomplish it, but the Putus Templar rob us of our patience. We need to act now, and so as loath as I am to admit it, we need Pax Klanq.">
+我打算攀上纺锤，回应那道呼唤，=factionaddress:Barathrumites=。
+
+我的门生 {{m|Q女孩}} 已经为攀升设计了一台攀升器。我们原本打算在飞地和现场分段建造它，但这项工程壮举甚至超出了我们的能力。若有时间，我相信我们能完成，可普图斯圣殿骑士夺走了我们的耐心。我们现在就必须行动，所以尽管我不愿承认，我们需要帕克斯·克兰克。
+  </string>
+  <string Context="Conversation Resheph.Wakes4.Text" ID=".............................">
+.............................
+ </string>
+  <string Context="Conversation Resheph.EndCovenantGritGateGemaraAccess.Text" ID=".............................................">
+.............................................</string>
+  <string Context="Conversation Resheph.EndCovenantMeGemaraAccess.Text" ID=".............................................">
+.............................................</string>
+  <string Context="Conversation Resheph.EndCovenantGritGateGemaraAccessResigned.Text" ID=".............................................">
+.............................................</string>
+  <string Context="Conversation Resheph.EndCovenantMeGemaraAccessResigned.Text" ID=".............................................">
+.............................................</string>
+  <string Context="Conversation Resheph.ReshephUltra.Text" ID=".............................................">
+.............................................</string>
+  <string Context="Conversation Resheph.ReshephMoved.Text" ID=".............................................">
+.............................................</string>
+  <string Context="Conversation BaseConversation.WaterRitualChoice..Text7" ID="????">？？？？</string>
+  <string Context="Conversation SimpleGeneric.Start.Text" ID="=generic=">
+=generic=</string>
+  <string Context="Conversation ConsortiumGlowpad.Start.EndChoice.Text" ID="!!!!?">
+!!!!?</string>
+  <string Context="Conversation Snapjaw.Start.Text.Text24" ID="rrrrrr...">
+咕噜噜……
+  </string>
+  <string Context="Conversation apothecary.Start.Text" ID="Got a fungal infection? You'll want one of my spray bottles to apply the cure.">
+得了真菌感染？你会需要一个我的喷雾瓶来涂抹治疗药剂。</string>
+  <string Context="Conversation apothecary.Start.Text.2" ID="Get your hands on the Corpus Choliys for disease and fungus cures.">
+去弄到 科普斯·乔利斯(病典 乔利斯)，用来治疗疾病和真菌。</string>
+  <string Context="Conversation Otho.Signal.Text" ID="The signal is a repeat transmission being broadcast from an unknown source. =V0tinkeraddendum= One of our tinkers, {{m|Q Girl}}, discovered it while rigging a long wave detector. Unfortunately, it's encrypted, and we do not have the means here to decrypt it. You may be of some help in this matter, however.&#10;&#10;We've long known the location of a fully functioning {{W|baetyl}} within the bowels of the great hall {{C|Bethesda Susa}}. The Mechanimists have consecrated the site around it and built a temple there. Q Girl claims to have developed a means to decrypt the signal, but she needs the computing power of the baetyl. If you can infiltrate the Mechanimist compound, you may be able to engage the baetyl and decode the signal.">这个信号是来自未知源头的重复广播。=V0tinkeraddendum= 我们的一位工匠，{{m|Q 女孩}}，在装配长波探测器时发现了它。可惜信号经过加密，我们这里没有解密手段。不过，你或许能帮上忙。
+
+我们早已知道，{{C|贝塞斯达苏萨}}大厅深处有一座功能完好的{{W|圣像}}。机械教徒将周围奉为圣地，并在那里修建了一座神殿。Q 女孩声称已经想出解密信号的办法，但需要借助圣像的计算能力。如果你能潜入机械教徒的据点，或许就能与圣像交互，解开信号。</string>
+  <string Context="Conversation Otho.SlynthSettled.StartChoice.Text" ID="My thanks again, Otho.">再次感谢你，奥索。</string>
+  <string Context="Conversation Dardi.Omonporch.Text" ID="Omonporch is a fine source of bananas, but I have little to say about self-appointed nobility.&#10;&#10;Claimed authority has a heady aroma, but no broth beneath it. Let us simply appease Asphodel and leave xem to xyr fantasies.">
+奥蒙廊是香蕉的上佳来源，但关于自封的贵族，我没什么可说的。
+
+宣称而来的权威香气浓烈，却没有底汤。我们就安抚阿斯福德尔，让 其 留在 其 的幻想里吧。
+  </string>
+  <string Context="Conversation Jacobo.Recame.Text" ID="Why, =name=, Brightsheol treated you well. There is a new gravity about you; your proverbial boots ring louder in the Annals with each step.&#10;&#10;I imagine you're off to Teach's study? They're already at work down there.">
+哎呀，=name=，明灼阴府待你不错。你身上多了一种新的重量；你那双传说中的靴子每迈一步，都在《编年史》中响得更亮。
+
+我想你要去 师者 的书房？他们已经在下面忙起来了。
+  </string>
+  <string Context="Conversation Neek.Start3.Text" ID="..............................................">
+..............................................</string>
+  <string Context="Conversation Neek.Omonporch.Text" ID="Asphodel!! I like xem. I get it. It's sort of like you don't want to be here, you don't want to there, you want to be somewhere else. Your own earldom, maybe.">
+阿斯福德尔！！我喜欢 其。我懂。就像你不想在这里，也不想在那里，你想在别的某个地方。也许是你自己的伯爵领。
+  </string>
+  <string Context="Conversation Neek.GoingOn.Text" ID="Klanq. Klanq. Klanq. Klanq. Pax Klanq.&#10;&#10;I would ask to go downstairs but there is not mush room there. Or there is but that's why there's not. It's like, &quot;Neek doesn't need to hear about it.&quot;">克朗克。克朗克。克朗克。克朗克。帕克斯·克朗克。
+
+我本想去楼下看看，可那里没多少空间，全是蘑菇。或许正因为蘑菇太多才没空间。就像他们会说：“尼克没必要听这些。”</string>
+  <string Context="Conversation Mafeo.GuestKlanq.Text" ID="What novelty, to shelter the mysterious Klanq! I have heard no stories of this tinker-fungus that could be described as dull, though 'calamitous' could apply to more than one.&#10;&#10;My mind tells tales of what might be brewing in the basement, but I am quite relieved to be out here rather than down there.">收留神秘的克朗克，真是新鲜事！我听过的关于这位工匠真菌的故事，没一个称得上无聊，不过不少都可以用“灾难”来形容。
+
+我不禁想象地下室里在酝酿什么，但能待在外面而不是下面，着实让我松了一口气。</string>
+  <string Context="Conversation Crowsong.Dots.Text" ID="......">
+......</string>
+  <string Context="Conversation Crowsong.Dots.WelcomeChoice.Text" ID="......">
+......</string>
+  <string Context="Conversation Yurl.Asphodel.Text" ID="Asphodel the socialite? Asphodel the scoundrel? You can hate xym -- and I do -- but you have to admire xym (I don't).&#10;&#10;The truth of it is that Plysago had the idea first, to lay claim to the Spindle per some precedent of law established in Abram's time. Of course, Plysago isn't around to make their case, are they?">
+阿斯福德尔，那个社交名流？阿斯福德尔，那个无赖？你可以憎恨 其，而我确实憎恨，但你不得不佩服 其（我不佩服）。
+
+真相是普利萨戈先有了这个主意，想依据亚伯兰时代确立的某个法律先例，对纺柱提出权利主张。当然，普利萨戈如今不在这里陈述自己的理由了，不是吗？
+  </string>
+  <string Context="Conversation Yurl.Lease.Text" ID="Asphodel trades on reputation and favors. Xe is likely to want to leverage your connections, so be in good social standing with a few factions for xem to even consider it.&#10;&#10;Now, alternatively, if you're loved by the Consortium, xe will feel the pressure to acquiesce. Xe has enough enemies among phyta.&#10;&#10;Of course, where all else fails, you can always sharpen your shears, if you get my meaning.&#10;&#10;{{emote|*Yurl winks with one of their leaves.*}}">
+阿斯福德尔靠名声和人情做买卖。其 很可能想利用你的人脉，所以你得和几个派系保持良好关系，其 才会考虑这件事。
+
+另一个办法是，如果你深受商会喜爱，其 就会感到压力而不得不让步。其 在植群里已经有够多敌人了。
+
+当然，若其他办法全都失败，你总还可以磨快你的修枝剪，如果你懂我的意思。
+
+{{emote|*尤尔用一片叶子眨了眨眼。*}}
+  </string>
+  <string Context="Conversation Eskhind.SlynthArrived.Text" ID="Never greater has been my desire to be voted out of office.&#10;&#10;Oh, not because of the slynth! Well, yes, because of the slynth, but it's because I'd rather be out there with them -- scouting, guarding, even tending to lah would be better than all this dry supervisory work.&#10;&#10;Room, board, assignments... it never occurred to me that immigration would require such intensive logistics.">我从未如此希望自己被投票赶下台。
+
+哦，不是因为斯林斯！好吧，确实因为他们，但那是因为我宁愿出去陪他们——侦察、守卫，甚至照料拉赫，都比这些枯燥的监督工作强。
+
+住房、伙食、分工……我从没想过迁入新居民竟需要如此繁重的后勤安排。</string>
+  <string Context="Conversation Liihart.Start.Text" ID="................................">
+................................</string>
+  <string Context="Conversation Liihart.Start2.Text" ID="....">
+....</string>
+  <string Context="Conversation Liihart.Start5.Text" ID="..................">
+.................</string>
+  <string Context="Conversation Liihart.StoneQuery.Text" ID=".....">
+.....</string>
+  <string Context="Conversation HindrenAfflicted.Start.Text" ID="hhhhhhhhhhhhhh.">
+哈哈哈哈哈哈。</string>
+  <string Context="Conversation FaundrenVillager.Start.Text.Text28" ID="Um, kendren, does the yempuris phi really exist? Is it really coming to get us?">
+呃，肯德伦，耶姆普里斯斐 真的存在吗？它真的会来抓我们吗？
+  </string>
+  <string Context="Conversation Sixshrew.Introduction.Text" ID="I am Sixshrew, a merchant from the Consortium of Phyta disinclined to waste xyr time on talkative strangers.&#10;&#10;I sell things, and you can buy them. I would in fact strongly encourage you to buy them, or be on your way.">
+我是六鼩，来自植群商会的商人，不愿把 其 的时间浪费在话多的陌生人身上。
+
+我卖东西，而你可以买。事实上，我强烈鼓励你买，或者赶紧上路。
+  </string>
+  <string Context="Conversation Agyra.AgyraMopango.Text" ID="We are mopango: witnesses of the past and shepherds of the future. The Sacred Light of the Kasaphescence shineth within us, and we commune with relics of antiquity to maintain our humility and grow our wisdom.&#10;&#10;We believe that one day, with enough knowledge, anyone who seeketh the Light shalt find it within emself. In the meantime, we work to become better and brighter as each one of us findeth a personal credo by which to live.">
+我们是莫潘戈：过去的见证者，未来的牧者。卡萨辉体的圣光在我们之内闪耀，我们与古代遗物交流，以维持谦卑并增长智慧。
+
+我们相信终有一天，只要拥有足够知识，任何寻求光者都将在 自身——也就是其自身——之中找到它。在此之前，我们努力变得更好、更明亮，而我们每个人都寻找一条赖以生活的个人信条。
+  </string>
+  <string Context="Conversation Agyra.AgyraMopango.AgyraGenderChoice.Text" ID="Emself?">
+“自身”是什么意思？
+  </string>
+  <string Context="Conversation Agyra.AgyraGender.Text" ID="Aye. Ey, em, eir, eirs, emself. Thusly do we call ourselves and one another.&#10;&#10;Sex is personal and mattereth not to a bare acquaintence. Gender is a societal relic in which we see no current utility.">
+是的。其、其、其、其、自身，是我们用来称呼自己与彼此的一套代词。
+
+生理性别是私事，泛泛之交不必知晓。社会性别则是一种社会遗物，我们认为它如今已没有实际用途。
+  </string>
+  <string Context="Conversation Lebah.OozeThat.Text" ID="An elder ooze. My communion so disturbed me that I allowed them too close.&#10;&#10;k-Goninon consumed the device, but I escaped.">
+一只年长的软泥怪。那次交流太令我不安，以至于我让 其 靠得太近。
+
+k-戈尼农吞掉了装置，但我逃脱了。
+  </string>
+  <string Context="Conversation Shomer.Start.Text" ID="Saad, welcom.&#10;Saad, from thyn heres shaken the wet and olde lif.&#10;Saad, in-to a smal vessel pouren hit.&#10;Saad, to thyn sash attachen the vessel.&#10;Saad, crossen nou thrugh the heigh gate and in-to Brightsheol.">
+萨阿德，欢迎。
+萨阿德，从汝发间抖落潮湿古旧之生。
+萨阿德，将其倾入小小容器。
+萨阿德，将容器系于汝之腰带。
+萨阿德，如今穿过高门，进入明灼阴府。
+  </string>
+  <string Context="Conversation Shomer.Start.ChoiceDream.Text" ID="Where is Brightsheol in relation to Qud... to Salum?">
+明灼阴府相对于库德……相对于 萨卢姆 在哪里？
+  </string>
+  <string Context="Conversation Shomer.Start.ChoiceSaad.Text" ID="Why do you call me Saad?">
+你为什么叫我 萨阿德？
+  </string>
+  <string Context="Conversation Shomer.Dead.Text" ID="Saad, the bodi dien, but the mind romen.">
+萨阿德，身体死去，心智漫游。
+  </string>
+  <string Context="Conversation Shomer.Dead.SaadChoice.Text" ID="Why do you call me Saad?">
+你为什么叫我 萨阿德？
+  </string>
+  <string Context="Conversation Shomer.Place.Text" ID="Saad, stonden thu at the heigh gate to Brightsheol.&#10;Saad, thyn heres been wet with olde lif.&#10;Saad, shaken thyn hed and cross in-to neue lif.">
+萨阿德，汝立于通往明灼阴府的高门。
+萨阿德，汝发已被古旧之生濡湿。
+萨阿德，摇动汝首，渡入新生。
+  </string>
+  <string Context="Conversation Shomer.Place.SaadChoice.Text" ID="Why do you call me Saad?">
+你为什么叫我 萨阿德？
+  </string>
+  <string Context="Conversation Shomer.Resheph.Text" ID="No Saad Resheph residen her.">
+萨阿德 瑞谢夫不居于此。
+  </string>
+  <string Context="Conversation Shomer.Resheph.DreamChoice.Text" ID="Where is Brightsheol in relation to Qud... to Salum?">
+明灼阴府相对于库德……相对于 萨卢姆 在哪里？
+  </string>
+  <string Context="Conversation Shomer.Resheph.SaadChoice.Text" ID="Why do you call me Saad?">
+你为什么叫我 萨阿德？
+  </string>
+  <string Context="Conversation Shomer.Dream.SaadChoice.Text" ID="Why do you call me Saad?">
+你为什么叫我 萨阿德？
+  </string>
+  <string Context="Conversation Shomer.Saad.Text" ID="Artow a Saad of olde Salum, and nou stonden thu at the heigh gate to Brightsheol.">
+汝乃古 萨卢姆 之 萨阿德，如今立于通往明灼阴府的高门。
+  </string>
+  <string Context="Conversation Shomer.Saad.QudChoice.Text" ID="Salum? Is that another name for Qud?">
+萨卢姆？那是库德的另一个名字吗？
+  </string>
+  <string Context="Conversation Shomer.Qud.Text" ID="Saad, yis.">
+萨阿德，是。
+  </string>
+  <string Context="Conversation Shomer.Qud.SaadChoice.Text" ID="Why do you call me Saad?">
+你为什么叫我 萨阿德？
+  </string>
+  <string Context="Conversation Shomer.Mission.ImSaadChoice.Text" ID="Because... I am a Saad, after all.">
+因为……毕竟我是 萨阿德。
+  </string>
+  <string Context="Conversation Shomer.Mission.ImSaadChoice2.Text" ID="Shomer, you impudent whelp! Saad Resheph stands before you. Do as I say.">
+绍默尔，你这无礼幼崽！萨阿德 瑞谢夫就站在你面前。照我说的做。
+  </string>
+  <string Context="Conversation Shomer.Salum3.Text" ID="{{emote|*The clothes shrouding Rainwater Shomer's form are still for many moments.*}}&#10;&#10;Saad, the Seraph sprecen.&#10;Saad, thu asken, and the shomrim assenten.&#10;Saad, wiltou return to Salum or crossen in-to Brightsheol?">
+{{emote|*裹住雨水绍默尔形体的衣物静止了许久。*}}
+
+萨阿德，炽天使发言。
+萨阿德，汝有所求，而绍默里姆允准。
+萨阿德，汝愿回归 萨卢姆，还是渡入明灼阴府？
+  </string>
+  <string Context="Conversation Shomer.Return.Text" ID="Saad, nou-then return.">
+萨阿德，那么如今回归吧。
+  </string>
+  <string Context="Conversation Shomer.Cross.Text" ID="Saad, nou-then crossen in-to Brightsheol.">
+萨阿德，那么如今渡入明灼阴府吧。
+  </string>
+  <string Context="Conversation ImperialBiographer.DoThat2.Text" ID="...................................">
+...................................</string>
+  <string Context="Conversation ImperialBiographer.DoThat3.Text" ID="...................................">
+...................................</string>
+  <string Context="Conversation ImperialBiographer.DoThat5.Text" ID="...................................">
+...................................</string>
+  <string Context="Conversation ImperialBiographer.DoThat6.Text" ID="...................................">
+...................................</string>
+  <string Context="Conversation ImperialBiographer.DoThatResheph2.Text" ID="...................................">
+...................................</string>
+  <string Context="Conversation ImperialBiographer.DoThatResheph3.Text" ID="...................................">
+...................................</string>
+  <string Context="Conversation ImperialBiographer.DoThatResheph5.Text" ID="...................................">
+...................................</string>
+  <string Context="Conversation ImperialBiographer.DoThat6Resheph.Text" ID="...................................">
+...................................</string>
+  <string Context="Conversation Goek.Start.Text" ID="Live and drink, friend. rrk come to the Yd, shared together. Feel safe and free as woodsmoke.">
+生而饮水，朋友。呱 来到伊德，共同分享。感到安全又自由，像木烟一样。
+  </string>
+  <string Context="Conversation Goek.SlynthRequest.Text" ID="rrk knows of the glow-hats! Yd-friends see glimpses at night, about the reef.">
+呱 知道发光帽！伊德朋友夜里在礁中瞥见过。
+  </string>
+  <string Context="Conversation Goek.SlynthRequestAccept.Text" ID="Boon-friend asks a friend-boon, and what boon is friend! rrk welcome slynth to an Yd, be safe and free as woodsmoke.">
+恩惠朋友请求朋友恩惠，而朋友何尝不是恩惠！呱 欢迎斯林思来到伊德，安全又自由，像木烟一样。
+  </string>
+  <string Context="Conversation Goek.SlynthRequestReject.Text" ID="Ah! rrk would grant you this boon, rrk would. Were not for the unspoken cries of future-kin, free as woodsmoke but no more safe so longer. rrk would and cannot.">
+啊！呱 愿给你这份恩惠，呱 愿意。若不是未来亲族无声哭喊，自由如木烟却不再长久安全。呱 愿意却不能。
+  </string>
+  <string Context="Conversation Goek.SlynthAbout.Text" ID="rrk wonder of the glow-hats. Which wind will blow.">
+呱 想着发光帽。哪阵风会吹来。
+  </string>
+  <string Context="Conversation Goek.SlynthArrived.Text" ID="Greetings, =player.formalAddressTerm=! How arresting of the glow-hats arrival, much to do. rrk soothe Mak, Bep, Krka, look stores, still much slime and sweat to pool below rrk. Enjoy helpful toil!">
+问候你，=player.formalAddressTerm=！发光帽到来多么夺目，有许多事要做。呱 安抚马克、贝普、克尔卡，查看储备，呱 下方仍有许多黏液与汗水要汇成池。享受有帮助的辛劳！
+  </string>
+  <string Context="Conversation Goek.SlynthSettled.Text" ID="All is well, =name=! Trials make for overcoming, and done together.&#10;&#10;rrk can tell the sky dark and not know. Visit and witness! Glow-hats enliven the night, safe and free. Slynth-home is Yd.">
+一切都好，=name=！试炼生来就是要被克服，而且要一起克服。
+
+呱 能分辨天黑，却也不知。来访并见证！发光帽让夜晚活起来，安全又自由。斯林思之家就是伊德。
+  </string>
+  <string Context="Conversation Goek.Who.Text" ID="rrk is called by dwellers Goek. rrk is a dweller here, too, and before then, a builder of place. Goek, Geeub, Mak and Many Eyes build a new Yd in the reef, hundreds of years.">
+居民叫 呱 戈埃克。呱 也是这里的居民，在那之前，是地方的建造者。戈埃克、吉厄布、马克和多眼在礁中建造新伊德，数百年。
+  </string>
+  <string Context="Conversation Goek.Built.Text" ID="rrk did before then, but rrk all build it now.">
+呱 从前建造过，但 呱 如今都建造它。
+  </string>
+  <string Context="Conversation Goek.Towering.Text" ID="rrk is svardym like the hatchling from the egg, but wound down the chute of years in hundreds, and grown so long and warty! rrk was a hatchling once, cries to think on it!">
+呱 是斯瓦尔丁，像从蛋里出来的幼体一样，但沿着岁月滑槽滚了几百年，长得这么长、这么多疣！呱 也曾是幼体，一想到就想哭！
+  </string>
+  <string Context="Conversation Goek.Gyre.Text" ID="Yes rrk was once, &quot;plague&quot; in the sky hundreds of years. Not so now. Longtime rrk, Geeub, Mak hide in the sponge and eat lice. When find Many Eyes, rrk and friends built the Yd. Joyful helping!">
+是，呱 曾经是，天空中的“瘟灾”数百年。现在不是了。很久以来，呱、吉厄布、马克藏在海绵里吃虱子。找到多眼后，呱 和朋友们建造了伊德。快乐帮助！
+  </string>
+  <string Context="Conversation Goek.OtherPlagues.Text" ID="Plagues bloom a thousand year then die back, shrink under the earth-sponge or move here and east. Vanta, girshling, rot die. rrk the hatchling once saw the Nephilim loom! rrk frightened and hid inside a sponge for thirty moons.">
+瘟灾盛放千年，然后衰败，缩回地海绵之下，或迁到这里和东方。万塔、吉尔什幼体、腐烂死去。幼体 呱 曾见拿非利显现！呱 害怕，躲进海绵里三十个月亮。
+  </string>
+  <string Context="Conversation Goek.Freehold.Text" ID="{{emote|*reeeeeps joyfully*}}&#10;&#10;Yd shared together. rrk walk and feel safe and free as woodsmoke. Here, there through the corals. Under the pipes.&#10;&#10;Great pond and reef air, eat starapple and drink, see pattern on the bright slugs.">
+{{emote|*欢快地 reeeeeps*}}
+
+伊德共同分享。呱 行走，感到安全又自由，像木烟一样。这里，那里，穿过珊瑚。在管道下方。
+
+大池塘和礁中空气，吃星苹果并饮水，看明亮蛞蝓身上的图案。
+  </string>
+  <string Context="Conversation Goek.Freehold2.Text" ID="rrk read the signs and descend the stairs. rrk breathe the water smoke and sit on starfish.&#10;&#10;Visit hovels, meet friends Mak, Geeub, Bep, Krka, Une, Tilli, farmer Rokhas, and every rest!&#10;&#10;rrk rrkself.">
+呱 读标牌，走下楼梯。呱 呼吸水烟，坐在海星上。
+
+拜访棚屋，见朋友马克、吉厄布、贝普、克尔卡、乌恩、蒂利、农夫罗卡斯，还有每一个其他！
+
+呱 是 呱 自己。
+  </string>
+  <string Context="Conversation Mak.Croak.Text" ID="{{emote|*crrrk*}}">
+{{emote|*嘎吱声*}}</string>
+  <string Context="Conversation Geeub.Founder.Text" ID="'Founder' the query. 'Founder' is water-taking, no? To be breached and sink. How cruel the judgment.&#10;&#10;{{emote|*rrrrroak*}}&#10;&#10;Hoh hoh. This voice japes -- we, witness to the birth of Yd. The query, no?">
+“创立者”是问题。“奠基者”也是进水，不是吗？被破开，然后沉没。多么残酷的判定。
+
+{{emote|*rrrrroak*}}
+
+呵呵。这个声音在玩笑——我们，见证了伊德的诞生。问题如此，不是吗？
+  </string>
+  <string Context="Conversation Geeub.Founder2.Text" ID="Yes, we were present, if less active than other-bodies. But we saw, and rattle with memory-artifacts as a Consortium lockbox rattles with jewels; shards of an eon-old data disk, bits of stories and places. Kin-fleeing, louse-meals, ghastly boredom. But Fate's caprice brought us through history's footsteps. There was a machine-speaker, and her ursine apprentice with his little plant, and the Sower with a tetrad of chubby whelps, and then, at last, Many-Eyes. Our dear galgal. So many.">
+是，我们在场，虽然没有其他身体那样活跃。但我们看见了，也因记忆遗物而作响，像商会锁箱因珠宝而作响；一片亿年旧数据盘的碎片，故事与地点的零星残片。亲族逃离，虱子餐食，骇人的无聊。但命运的反复无常带我们走过历史的足迹。曾有机器言说者，还有她的熊形学徒和他的小植物，播种者带着四个胖墩墩的小崽子，然后，最后，多眼。我们亲爱的 加尔加尔。太多了。
+  </string>
+  <string Context="Conversation Bep.Start.Text" ID="bep see widget? Or bep see widget.">
+贝普 看小玩意？或者 贝普 看见小玩意。
+  </string>
+  <string Context="Conversation Bep.Start.BepChoice.Text" ID="bep?">
+贝普？
+  </string>
+  <string Context="Conversation Bep.Bep.Text" ID="bep is bep. good meet!">
+贝普 是 贝普。好见面！
+  </string>
+  <string Context="Conversation Bep.Svardym.Text" ID="bep varrrdym from the egg, once.">
+贝普 曾经是蛋里来的瓦尔丁。
+  </string>
+  <string Context="Conversation Bep.Gyre.Text" ID="grre? bep flame and bend brass to make ring ball grre for librrry.">
+呱？贝普 用火，把黄铜弯成环球 呱，给图书馆。
+  </string>
+  <string Context="Conversation Bep.Freehold.Text" ID="bep make all and anys. bep too lounge in green-gold cubby, smoke pillow and Krka and Tilli.">
+贝普 做所有和任何。贝普 也躺绿金小窝，抽枕头，和克尔卡、蒂利。
+  </string>
+  <string Context="Conversation ManyEyes.Non.Text" ID="NON MOLOCH HER AT HOM. NON MOLOCH IN MAQQOM YD.">
+非摩洛此处在家。非摩洛在 马科姆 伊德。
+  </string>
+  <string Context="Conversation ManyEyes.Non.MaqqomChoice.Text" ID="Maqqom Yd? The Place outside Itself?">
+马科姆 伊德？自身之外之所？
+  </string>
+  <string Context="Conversation ManyEyes.Maqqom.Text" ID="MAQQOM YD. SOUTH-CONTRE FREEN FROM SALUM.">
+马科姆伊德。由萨卢姆释放的南中枢。
+  </string>
+  <string Context="Conversation ManyEyes.Maqqom.MaqqomTellChoice.Text" ID="Many Eyes, can you tell me of Maqqom Yd?">
+多眼，你能告诉我 马科姆 伊德 的事吗？
+  </string>
+  <string Context="Conversation ManyEyes.MaqqomTell.Text" ID="SOUTH-CONTRE FREEN FROM SALUM. BY TRETE WITH SAAD CALLEN MOLOCH, AND MONEIEN BI ALDERSESSE.&#10;&#10;BY TRETE GALGALLIM BILDEN PIPE TO DRINKEN THANE SLIPSTREAM, AND FORGE TO BURNEN STEL-CRISTAL, AND CASKE TO HOLDEN GLOUINGE O FISH.">
+由萨卢姆释放的南中枢。凭与名为摩洛的 萨阿德 所立之约，并由长老会拨款。
+
+凭约，加尔加利姆 建管以饮 领主 滑流，建炉以燃钢晶，建箱以盛鱼之辉光。
+  </string>
+  <string Context="Conversation ManyEyes.Mean.Text" ID="BY TRETE GALGALLIM SERVEN, BUT NON NOU.">
+凭约，加尔加利姆 曾服役，但现在不。
+  </string>
+  <string Context="Conversation ManyEyes.NonMoloch.Text" ID="YOU. YOU REGNEN NON HER. NON MOLOCH IN MAQQOM YD.">
+你。你此处不统治。非摩洛在 马科姆 伊德。
+  </string>
+  <string Context="Conversation Thah.LandingPadsCommentary.4" ID="Did you say Barathrumites? So that's how it's pronounced.&#10;&#10;Grit Gate is, ah... that's where Q Girl resides, isn't it? She wrote my favorite book, {{W|Disquisition on the Malady of the Mimic}}. I imagine such a home would have a positive effect on my kin. I will speak to them.">
+你说的是巴拉瑟姆派？原来是这么发音的。
+
+砂砾门是，啊……那是 Q 女孩住的地方，对吗？她写了我最喜欢的书，{{W|拟怪病论}}。我想这样的家会对我的族人产生积极影响。我会和他们谈谈。
+  </string>
+  <string Context="Conversation Thah.LandingPadsCommentary.5" ID="Kyakukya? I didn't realize it had so many syllables.&#10;&#10;That's where the, ah, faithful to the ape-god gather, correct? And, uh... Crowsong, as well. I will present this possibility to my people and we will discuss it.">
+基亚库亚？我没意识到它有这么多音节。
+
+那是，啊，猿神信众聚集的地方，对吗？还有，呃……鸦歌也在那里。我会把这个可能性呈给我的族人，我们会商议。
+  </string>
+  <string Context="Conversation Thah.LandingPadsCommentary.6" ID="Ezra is, ah, the village at the base of the Spindle, is it not?&#10;&#10;The very cradle of history. Not that my kin have a strong taste for history, but perhaps living amongst fresco and bas-relief will change their, ah, collective outlook?">
+以斯拉 是，啊，锭柱底部的村庄，对吗？
+
+那是真正的历史摇篮。倒不是说我的族人对历史有强烈兴趣，但也许生活在壁画和浅浮雕之间，会改变他们的，啊，集体视野？
+  </string>
+  <string Context="Conversation Thah.LandingPadsCommentary.7" ID="Fascinating. I know nothing about these mopango, but any people whose love for learning and discovery defines them are, ah... good, in my opinion. I will discuss this with my kin, and see if they agree.">
+真迷人。我对这些 莫潘戈 一无所知，但任何以热爱学习和发现来定义自己的族群，在我看来都，啊……很好。我会和族人商议，看看他们是否同意。
+  </string>
+  <string Context="Conversation Thah.LandingPadsCommentary.8" ID="There is a sadness in, ah... choosing pariahs. Some of my kin dreamed of belonging, and the very word is the antithesis of belonging.&#10;&#10;But then, if wanderers look after one another, there is a belonging in that as well. Even alone, we would not be alone. I will offer this choice to the others and we will discuss it.">
+选择 弃民，啊……其中有种悲伤。我的一些族人梦想着归属，而这个词本身就是归属的反面。
+
+不过，如果流浪者彼此照看，那其中也有一种归属。即便孤身一人，我们也并不孤独。我会把这个选择交给其他人，我们会商议。
+  </string>
+  <string Context="Conversation Thah.LandingPadsCommentary.9" ID="The nearby settlement? The one, ah, founded by three svardym and a galgal? I've always been mortally afraid to go there, knowing even the barest facts.&#10;&#10;But you say they will accept us? Perhaps I was wrong.">
+附近的聚落？那个，啊，由三个 斯瓦尔迪姆 和一个 加尔加尔 创立的地方？我光是知道最基本的事实，就一直怕得要命，不敢过去。
+
+但你说他们会接纳我们？也许我错了。
+  </string>
+  <string Context="Conversation Thah.LandingPadsCommentary.10" ID="Bey Lah is real? Stain me surprised to hear so... I, ah, believed the hindren exclusively diasporic.&#10;&#10;There is an undeniable poetry in it, if the slynth should emigrate to a mythical and secretive village. I will discuss this with my kin.">
+贝拉赫 真的存在？真让我惊得染上颜色……我，啊，一直以为 兴德伦 全都散居各处。
+
+如果斯林思迁往一个神话般又隐秘的村庄，这其中有种不可否认的诗意。我会和我的族人商议。
+  </string>
+  <string Context="Conversation Thah.LandingPadsCommentary.Kyakukya.Text" ID="The village of Kyakukya has agreed to accept the slynth as their own.">
+基亚库亚 村已经同意接纳斯林思为自己人。
+  </string>
+  <string Context="Conversation Thah.LandingPadsCommentary.Ezra.Text" ID="The village of Ezra has agreed to accept the slynth as their own.">
+以斯拉 村已经同意接纳斯林思为自己人。
+  </string>
+  <string Context="Conversation Thah.LandingPadsCommentary.Mopango.Text" ID="The mopango of the Tomb agreed to accept the slynth as their own.">
+墓冢中的 莫潘戈 同意接纳斯林思为自己人。
+  </string>
+  <string Context="Conversation Thah.LandingPadsCommentary.Pariahs.Text" ID="If the slynth choose to wander Qud, the Pariahs have agreed to look after them.">
+如果斯林思选择游荡库德，弃民 已经同意照看他们。
+  </string>
+  <string Context="Conversation Thah.LandingPadsCommentary.Hindren.Text" ID="The village of Bey Lah has agreed to accept the slynth as their own.">
+贝拉赫 村已经同意接纳斯林思为自己人。
+  </string>
+  <string Context="Conversation Thah.SlynthDecision.4" ID="After some discussion and deliberation, we have come to consensus: Kyakukya shall be the new home of the slynth. There are many ways to grow when one is planted in the very heart of Qud.&#10;&#10;Our emigration party departs for the river in the morning.">
+经过一番讨论和斟酌，我们达成了共识：基亚库亚 将成为斯林思的新家。当一个人被栽在库德正中心时，会有许多成长的方式。
+
+我们的迁徙队伍会在早晨启程前往河畔。
+  </string>
+  <string Context="Conversation Thah.SlynthDecision.5" ID="After some discussion and deliberation, we have come to consensus: The new home of the slynth is among the villagers of Ezra, harvesting musa alongside the banana ranchers and singing their songs.&#10;&#10;Our emigration party departs for Omonporch in the morning.">
+经过一番讨论和斟酌，我们达成了共识：斯林思的新家将在 以斯拉 村民之中，和香蕉牧人一起采收 穆萨，唱他们的歌。
+
+我们的迁徙队伍会在早晨启程前往欧蒙门廊。
+  </string>
+  <string Context="Conversation Thah.SlynthDecision.6" ID="After some discussion and deliberation, we have come to consensus: the slynth shall become mopango, taking root in ancient rock and casting our gaze back toward the history that preceded us.&#10;&#10;Our emigration party departs for the Tomb of the Eaters in the morning.">
+经过一番讨论和斟酌，我们达成了共识：斯林思将成为 莫潘戈，在古老岩石中扎根，把目光投向先于我们存在的历史。
+
+我们的迁徙队伍会在早晨启程前往食客之墓。
+  </string>
+  <string Context="Conversation Thah.SlynthDecision.7" ID="After some discussion and deliberation, we have come to consensus: The new home of the slynth is no home at all, but the floating fellowship of Qud's Pariahs. We were blessed with roots that need not fix themselves to the soil and have opted to use them accordingly.&#10;&#10;We will split into parties and leave to meet with other wayfarers come morning.">
+经过一番讨论和斟酌，我们达成了共识：斯林思的新家根本不是家，而是库德 弃民 的流动同伴群。我们有幸拥有不必固定在土壤里的根，于是选择相应地使用它们。
+
+到了早晨，我们会分成几队离开，去与其他旅人会合。
+  </string>
+  <string Context="Conversation Thah.SlynthDecision.9" ID="After some discussion and deliberation, we have come to consensus: Bey Lah shall be the new home of the slynth. There is a familiarity to this tucked-away village, newly greeting the world; this is our gentle emergence from obscurity, and one not undertaken alone.&#10;&#10;Our emigration party departs for the flower fields in the morning.">
+经过一番讨论和斟酌，我们达成了共识：贝拉赫 将成为斯林思的新家。这个隐匿的村庄正在新近迎接世界，它带着一种熟悉感；这是我们温柔地走出晦暗，而且并非独自前行。
+
+我们的迁徙队伍会在早晨启程前往花田。
+  </string>
+  <string Context="Conversation Thah.SlynthDecision.SlynthResolutionChoice.3" ID="May Oboroqoru be merciful.">
+愿 奥博罗科鲁 施以慈悲。
+  </string>
+  <string Context="Conversation Thah.SlynthDecision.SlynthResolutionChoice.5" ID="Mayest thou rest ever in the Light of the Kasaphescence.">
+愿汝永息于 卡萨辉体 之光。
+  </string>
+  <string Context="Conversation Thah.SlynthLeave.9" ID="Yes, I've decided to stay. The flower fields sound beautiful, and no doubt there is much to learn from the hindren. But the thought of leaving the cradle after decades of watching it... I couldn't.&#10;&#10;The hydropon is even less a village now, but you're welcome to rest here whenever you like.">
+是的，我决定留下。花田听起来很美，而且毫无疑问，兴德伦 身上有许多值得学习的东西。但一想到守望摇篮数十年后要离开它……我做不到。
+
+这座水培舱如今更不像村庄了，但你随时都欢迎来这里休息。
+  </string>
+  <string Context="Conversation ChavvahPrime.WelcomeNoPhysiology.ChimeChoice.Text" ID="The entity I spoke with at Eyn Roj mentioned a chiming rock...">
+我在 恩罗伊 交谈过的实体提到了一块鸣响之石……
+  </string>
+  <string Context="Conversation ChavvahPrime.Chavvah.Text" ID="This keter roams above my trunk at Eyn Roj, traveler =name=, and across the Stair I dream. You found me, this keter where I chime in dozens.">
+旅人 =name=，这片冠层在我位于 恩罗伊 的树干上方漫游，而我的梦越过长阶。你找到了我，也找到了冠层中这数十道共同鸣响的声音。
+  </string>
+  <string Context="Conversation ChavvahPrime.SlynthRequest.Text" ID="Again I must be calmed, but the startling gives way to a curiosity. You speak of the glowfolk, belimbed and free. You asking that they join us, like our Sant?">
+这又使我一惊，但平静下来后，好奇随之而来。你说的是那些拥有肢体、能够自由行动的发光族民。你希望他们像我们的 桑特 一样加入我们吗？
+  </string>
+  <string Context="Conversation ChavvahPrime.SlynthSettled.Text" ID="You are well-found, =name=. Though several have chosen their -else, the first of the slynth have joined to us like our Sant, mobile and apart but shared and together. This is a strange -then, but what branches may spill forth from it? I anticipate the witnessing.">
+你来得正好，=name=。虽然已有几位选择离开、成为独立的自己，第一批斯林思仍像我们的 桑特 一样加入了我们：他们能够自由行动、彼此分离，却也共享此地、共同生活。这是一种从未成形过的可能；它会伸出怎样的枝杈？我期待亲眼见证。
+  </string>
+  <string Context="Conversation Miryam.Black.Text" ID="{{emote|*Miryam chimes in long tones.*}}&#10;&#10;It's the kriah, traveler. I am in mourning, and I chime in low tones.">
+{{emote|*米利亚姆以悠长音调鸣响。*}}
+
+这是 裂衣礼，也就是裂衣礼，旅人。我正在守丧，因此以低音鸣响。
+  </string>
+  <string Context="Conversation Miryam.Loss.Text" ID="{{emote|*Miryam chimes in deep tones.*}}&#10;&#10;I swim in cool and dark waters, traveler. For me, it is Shiva, the lament of seven thousand years.&#10;&#10;I mourn the passing of all life, and all the necessity of death life must bring. For you, traveler, to come here, how many had to die? I mourn them.&#10;&#10;Or are you the rarest one, who walks below the bright arches and claims no such cost? Even then, what losses did {{M|you}} suffer to come, traveler? What selves of yours had you to shed? Those are -else to us, and I mourn them as well.">
+{{emote|*米利亚姆以深沉音调鸣响。*}}
+
+我游在清冷黑暗的水中，旅人。对我而言，这是 七日守丧，是延续了七千年的“七日守丧”。
+
+我哀悼一切生命的逝去，也哀悼生命必然带来的所有死亡。为了让你来到这里，旅人，必须有多少存在死去？我哀悼他们。
+
+又或者，你是最稀有的那一种，走在明亮拱门之下，却声称不曾付出这种代价？即便如此，{{M|你}} 为了来到这里又承受了什么损失，旅人？你必须舍弃哪些曾经可能成为的自己？对我们而言，那些也是逝去的生命，我同样为它们哀悼。
+  </string>
+  <string Context="Conversation Santalalotze.Name.Text" ID="I am Santalalotze.&#10;&#10;... of ... the Consortium of Phyta. Some call me 'Sant', I think, in&#10;fantasy or memory.">
+我是桑塔拉洛采。
+
+……属于……植群商会。我想，有些人曾叫我“桑特”。也许是在
+幻想里，也许是在记忆里。
+  </string>
+  <string Context="Conversation GyreWightAgolgot.Start.Text.Text8" ID="Girsh Agolgot! Red dusts in my nails and burning hot bubbles swell in my glands! Now I point to the future.">
+吉尔什 阿戈尔戈特！红尘在我的指甲里，灼热气泡在我的腺体中膨胀！现在我指向未来。
+  </string>
+  <string Context="Conversation GyreWightRermadon.Start.Text.Text9" ID="Eaten by the air. Death by life. O Rermadon!">
+被空气吞食。因生命而死。哦，雷尔玛顿！
+  </string>
+  <string Context="Conversation GyreWightQas.Start.Text.Text8" ID="The moon is their marriage light! And then a whole world for the Girsh daughters of nephilim!">
+月亮是她们的婚灯！然后，整个世界都归拿非利的 吉尔什 之女！
+  </string>
+  <string Context="Conversation GyreWightQas.Start.Text.Text10" ID="Push out the walls of the new world, Qas, to be its center!">
+推开新世界的墙，卡斯，成为它的中心！
+  </string>
+  <string Context="Conversation GyreWightQon.Start.Text.Text9" ID="Be open. Receive the Greatest Dreams. Hear the Girsh Sing.">
+敞开吧。接收最伟大的梦。聆听 吉尔什 歌唱。
+  </string>
+</strings>

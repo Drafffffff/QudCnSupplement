@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<objects Lang="CN" Encoding="utf-8">
+  <object Name="Preservable" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Raw Meat" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Compacted Bone Matter" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Lah Petals" Load="Merge">
+    <part Name="Render" DisplayName="{{lah|拉赫 花瓣}}" />
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Vanta Petals" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Bop Cheek" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Qudzu Stem" Load="Merge">
+    <part Name="Render" DisplayName="{{r|库德 葛茎}}" />
+  </object>
+  <object Name="Humble Pie" Load="Merge">
+    <part Name="Description" Short="馅饼皮下封着的碎肉，由一小撮 伊弗尔 粉调味；这种粉从同名蘑菇的菌柄上刮下并细细研磨。整朵蘑菇对哺乳动物心智来说太过强大（吃下一朵会在片刻间抹除自我），但洒在美味馅饼上的一点粉末，能提醒人认清自己在宇宙中的位置。" />
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Vinewafer Sheaf" Load="Merge">
+    <xtagGrammar iArticle="" adjunctNoun="" massNoun="否" />
+  </object>
+  <object Name="Pickled Mushrooms" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Freeze-Dried Hoarshrooms" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Pickles" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Salthopper Chip" Load="Merge">
+    <xtagGrammar iArticle="" adjunctNoun="" massNoun="否" />
+  </object>
+  <object Name="Dried Lah Petals" Load="Merge">
+    <part Name="Render" DisplayName="干{{lah|拉赫 花瓣}}" />
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Dried Vanta Petals" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Crusty Loaf" Load="Merge">
+    <xtagGrammar iArticle="" adjunctNoun="" massNoun="否" />
+  </object>
+  <object Name="Ekuemekiyyen Greens" Load="Merge">
+    <part Name="Render" DisplayName="{{g|埃库梅基延 绿叶菜}}" />
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Food Cube" Load="Merge">
+    <xtagGrammar iArticle="" adjunctNoun="" massNoun="否" />
+  </object>
+</objects>

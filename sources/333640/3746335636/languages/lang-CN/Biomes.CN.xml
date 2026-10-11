@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud - Generated Localizable XML 2.0.212.26
+
+-->
+<biomes Lang="CN" Encoding="utf-8">
+  <biome Name="Fungal">
+    <variant Name="Weak">
+      <noun>真菌斑</noun>
+    </variant>
+    <variant Name="Medium">
+      <noun>真菌林</noun>
+    </variant>
+    <variant Name="Strong">
+      <noun>真菌森林</noun>
+      <journalSecret>一片{{m|真菌}}森林</journalSecret>
+    </variant>
+  </biome>
+  <biome Name="Slimy">
+    <variant Name="Weak">
+      <noun>黏液斑</noun>
+      <adjective>黏滑的</adjective>
+    </variant>
+    <variant Name="Medium">
+      <noun>黏液地</noun>
+      <adjective>黏液浸透的</adjective>
+    </variant>
+    <variant Name="Strong">
+      <noun>黏液沼</noun>
+      <journalSecret>一片{{g|黏液}}沼泽</journalSecret>
+    </variant>
+  </biome>
+  <biome Name="Tarry">
+    <variant Name="Weak">
+      <noun>焦油斑</noun>
+      <adjective>覆着焦油的</adjective>
+    </variant>
+    <variant Name="Medium">
+      <noun>焦油池</noun>
+    </variant>
+    <variant Name="Strong">
+      <noun>燃烧的焦油坑</noun>
+      <journalSecret>几处{{fiery|燃烧的}}{{K|焦油}}坑</journalSecret>
+    </variant>
+  </biome>
+  <biome Name="Rusty">
+    <variant Name="Weak">
+      <noun>锈斑</noun>
+      <adjective>锈蚀的</adjective>
+    </variant>
+    <variant Name="Medium">
+      <noun>锈原</noun>
+      <adjective>锈尘笼罩的</adjective>
+    </variant>
+    <variant Name="Strong">
+      <noun>锈沼</noun>
+      <journalSecret>一片{{rusty|锈蚀}}沼泽</journalSecret>
+    </variant>
+  </biome>
+</biomes>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud - Generated Localizable XML 2.0.212.26
+
+<objects ExcludeFromCorpusGeneration="Key">
+
+  <object Name="Key" Load="">
+
+    <part Name="Key">
+
+    <builder Name="Key">
+
+    <tag Name="Key" Value="DisplayText">
+
+    <stag Name="Key">
+
+    <property Name="Key">
+
+    <xtagTextFragments>
+
+    <xtagGrammar>
+
+-->
+<objects Lang="CN" Encoding="utf-8">
+  <object Name="PhysicalObject" Load="Merge">
+    <part Name="Description" Short="一件丑恶的标本。" />
+  </object>
+  <object Name="Water" Load="Merge">
+    <part Name="Render" DisplayName="池" />
+    <part Name="LiquidVolume" NamePreposition="的" />
+    <part Name="Description" Short="一池液体。" />
+  </object>
+  <object Name="Gas" Load="Merge">
+    <xtagGrammar massNoun="true" />
+  </object>
+  <object Name="PoisonGas" Load="Merge">
+    <part Name="Render" DisplayName="毒气" />
+    <part Name="Description" Short="一缕缕有毒气体黏附在空气中。它们挤满温血生物的肺，让温血生物没法从被挤走的氧气中汲取生息。" />
+    <tag Name="GasGenerationName" Value="毒气生成" />
+    <tag Name="LevelEffectDescription" Value="毒素豁免难度和伤害" />
+  </object>
+  <object Name="MiasmaticAsh" Load="Merge">
+    <part Name="Render" DisplayName="骨质灰烬" />
+    <part Name="Description" Short="骨屑雾化成浓厚的煤色烟霭。光在其中迷失。" />
+    <tag Name="GasGenerationName" Value="骨质灰烬生成" />
+    <tag Name="LevelEffectDescription" Value="窒息豁免难度和伤害" />
+  </object>
+  <object Name="Plasma" Load="Merge">
+    <part Name="Render" DisplayName="等离子体" />
+    <part Name="Description" Short="翡翠色与霓虹色的蕾丝丝带划过噼啪作响的空气，绽成狂暴的小花。" />
+    <part Name="GasDamaging" Noun="等离子体" />
+    <tag Name="GasGenerationName" Value="等离子体发射" />
+    <tag Name="LevelEffectDescription" Value="等离子黏附的伤害和持续时间" />
+  </object>
+  <object Name="Steam" Load="Merge">
+    <part Name="Render" DisplayName="蒸汽" />
+    <tag Name="GasGenerationName" Value="蒸汽生成" />
+  </object>
+  <object Name="SteamGas" Load="Merge">
+    <part Name="Render" DisplayName="灼热蒸汽" />
+    <part Name="Description" Short="炽热的气溶胶膨胀开来，开始消散进空气。" />
+    <tag Name="GasGenerationName" Value="蒸汽气体生成" />
+  </object>
+  <object Name="CryoGas" Load="Merge">
+    <part Name="Render" DisplayName="低温雾" />
+    <part Name="Description" Short="经机器冷却的水被减压成冻结雾气，用以将生命进程悬置。" />
+    <tag Name="GasGenerationName" Value="低温雾生成" />
+  </object>
+  <object Name="StableCryoGas" Load="Merge">
+    <part Name="Render" DisplayName="低温雾" />
+    <tag Name="GasGenerationName" Value="稳定低温雾生成" />
+  </object>
+  <object Name="AcidGas" Load="Merge">
+    <part Name="Render" DisplayName="腐蚀性气体" />
+    <part Name="GasDamaging" Noun="酸液" />
+    <part Name="Description" Short="即便现在，蒸发酸雾的光环仍在凝结，开始落在它占据的表面上，开始从那些柔软边缘向下渗透。" />
+    <tag Name="GasGenerationName" Value="腐蚀性气体生成" />
+    <tag Name="LevelEffectDescription" Value="伤害" />
+  </object>
+  <object Name="StunGas" Load="Merge">
+    <part Name="Render" DisplayName="眩晕气体" />
+    <part Name="Description" Short="镍露黏附在空气中，拘束住游移物质的瞬态分子。" />
+    <tag Name="GasGenerationName" Value="眩晕气体生成" />
+  </object>
+  <object Name="SleepGas" Load="Merge">
+    <part Name="Render" DisplayName="睡眠气体" />
+    <part Name="Description" Short="瘴气沉入邻近者的肺，引他们前往梦中山谷。他们的身体安歇下来。" />
+    <tag Name="GasGenerationName" Value="睡眠气体生成" />
+    <tag Name="LevelEffectDescription" Value="睡眠豁免难度" />
+  </object>
+  <object Name="ConfusionGas" Load="Merge">
+    <part Name="Render" DisplayName="混乱气体" />
+    <part Name="Description" Short="钴色气体渗入鼻腔，搅乱心智。" />
+    <tag Name="GasGenerationName" Value="混乱气体生成" />
+    <tag Name="LevelEffectDescription" Value="混乱豁免难度" />
+  </object>
+  <object Name="Miasma" Load="Merge">
+    <part Name="Render" DisplayName="瘴气" />
+    <part Name="Description" Short="舌、甲与脾被糊结在一起，再由热力撕裂成粪土般的浮尘。" />
+    <tag Name="GasGenerationName" Value="瘴气生成" />
+    <tag Name="LevelEffectDescription" Value="疾病豁免难度" />
+  </object>
+  <object Name="NormalityGas" Load="Merge">
+    <part Name="Render" DisplayName="常态气体" />
+    <part Name="GasDamaging" Noun="常态气体" />
+    <part Name="Description" Short="气体分子沿此位面的灵脉排列，形成气态网格。沿正交轨迹运动的物体被网住，并被分流回它们所属的位面家园。" />
+    <tag Name="GasGenerationName" Value="常态气体生成" />
+    <tag Name="LevelEffectDescription" Value="星界系缚，以及对超维存在的伤害" />
+  </object>
+  <object Name="DefoliantGas" Load="Merge">
+    <part Name="Render" DisplayName="脱叶剂" />
+    <part Name="GasDamaging" Noun="脱叶剂" />
+    <part Name="Description" Short="名为金色黎明的合成雾从罐中升起，将叶片雾化，在身后留下清晰可见的地平线。" />
+    <tag Name="GasGenerationName" Value="脱叶剂生成" />
+    <tag Name="LevelEffectDescription" Value="伤害" />
+  </object>
+  <object Name="FungicideGas" Load="Merge">
+    <part Name="Render" DisplayName="杀真菌剂" />
+    <part Name="GasDamaging" Noun="杀真菌剂" />
+    <part Name="Description" Short="洋红色湿膜洒落在异养生物身上，抑制它们吸收死去的动物与植物之物。" />
+    <tag Name="GasGenerationName" Value="杀真菌剂生成" />
+    <tag Name="LevelEffectDescription" Value="伤害" />
+  </object>
+  <object Name="GlitterGas" Load="Merge">
+    <part Name="Render" DisplayName="闪光尘" />
+    <part Name="Description" Short="碎玻璃、昆虫残片和聚酯薄膜构成的微小六边形，在空气中像星尘的电离氦一样闪烁。" />
+    <tag Name="GasGenerationName" Value="闪光尘生成" />
+  </object>
+  <object Name="FungalSporeGasLuminous" Load="Merge">
+    <part Name="Render" DisplayName="真菌孢子" />
+    <part Name="Description" Short="旋转霉点构成的雾霭让空气显得毛茸茸的。" />
+  </object>
+  <object Name="FungalSporeGasPuff" Load="Merge">
+    <part Name="Render" DisplayName="真菌孢子" />
+    <part Name="Description" Short="旋转霉点构成的雾霭让空气显得毛茸茸的。" />
+  </object>
+  <object Name="FungalSporeGasWax" Load="Merge">
+    <part Name="Render" DisplayName="真菌孢子" />
+    <part Name="Description" Short="旋转霉点构成的雾霭让空气显得毛茸茸的。" />
+  </object>
+  <object Name="FungalSporeGasMumbles" Load="Merge">
+    <part Name="Render" DisplayName="真菌孢子" />
+    <part Name="Description" Short="旋转霉点构成的雾霭让空气显得毛茸茸的。" />
+  </object>
+  <object Name="Shimmering Heat" Load="Merge">
+    <part Name="Render" DisplayName="闪烁热浪" />
+    <part Name="Description" Short="热空气越过涡流，在灼人的光中爆亮。" />
+    <xtagGrammar massNoun="true" />
+  </object>
+  <object Name="Frigid Mist" Load="Merge">
+    <part Name="Render" DisplayName="冻结雾" />
+    <part Name="Description" Short="空气在涡流下裂开，将过冷水汽吹成闪亮尘埃。" />
+    <xtagGrammar massNoun="true" />
+  </object>
+  <object Name="Space-Time Anomaly" Load="Merge">
+    <part Name="Render" DisplayName="时空漩涡" />
+    <part Name="Description" Short="遥远地点与时间的明亮影像从柏拉图式棱镜之物的面上投射而出，声波被拉扯至渐近线。灵脉在此打结，局域性的幻觉随之坍皱。" />
+  </object>
+  <object Name="Wormhole" Load="Merge">
+    <part Name="Render" DisplayName="闪烁球体" />
+    <part Name="Description" Short="遥远地点与时间的明亮影像从柏拉图式棱镜之物的面上投射而出，声波被拉扯至渐近线。灵脉在此打结，局域性的幻觉随之坍皱。" />
+  </object>
+  <object Name="InteriorVoid" Load="Merge">
+    <part Name="Render" DisplayName="空旷空间" />
+    <xtagGrammar massNoun="true" />
+  </object>
+  <object Name="Kindleflame" Load="Merge">
+    <part Name="Render" DisplayName="燃起的火焰" />
+    <part Name="Description" Short="一朵琥珀色燃焰漂浮在灵能灯芯下方。" />
+  </object>
+  <object Name="RealityStabilizationField" Load="Merge">
+    <part Name="Render" DisplayName="{{normal|常态场}}" />
+    <part Name="Description" Short="阴影般的片段沿此位面的灵脉排列，形成几何网格。沿正交轨迹运动的物体被网住，并被分流回它们所属的位面家园。" />
+  </object>
+</objects>

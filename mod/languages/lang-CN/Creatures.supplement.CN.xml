@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='utf-8'?>
+<objects Lang="CN" Encoding="utf-8">
+  <object Name="Traipsing Mortar" Load="Merge">
+    <part Name="FabricateFromSelf" NameForStatus="弹药制造器" />
+  </object>
+  <object Name="Troll King 1" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Troll King 2" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Troll King 3" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="FungusPuffer" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|孵育 泡菇}}" />
+  </object>
+  <object Name="FungusPuffer1" Load="Merge">
+    <part Name="Render" DisplayName="{{W|孵育金孢 泡菇}}" />
+    <part Name="Description" Short="金色菌褶绷紧又松开，绷紧又松开，绷紧又松开，仿佛在把气息吸入 泡菇 的柄中。每一次呼气，它都喷出一团金色孢子，如阳光微尘。它们飘回菌盖，凝成金色浆质。" />
+  </object>
+  <object Name="FungusPuffer2" Load="Merge">
+    <part Name="Render" DisplayName="{{B|孵育蔚蓝 泡菇}}" />
+    <part Name="Description" Short="蔚蓝菌褶绷紧又松开，绷紧又松开，绷紧又松开，仿佛在把气息吸入 泡菇 的柄中。每一次呼气，它都喷出一团靛蓝孢子，如暮光微尘。它们飘回菌盖，凝成蔚蓝浆质。" />
+  </object>
+  <object Name="FungusPuffer3" Load="Merge">
+    <part Name="Render" DisplayName="{{R|孵育玫瑰 泡菇}}" />
+    <part Name="Description" Short="玫瑰色菌褶绷紧又松开，绷紧又松开，绷紧又松开，仿佛在把气息吸入 泡菇 的柄中。每一次呼气，它都喷出一团红宝石色孢子，如暮光微尘。它们飘回菌盖，凝成玫瑰色浆质。" />
+  </object>
+  <object Name="FungusPuffer4" Load="Merge">
+    <part Name="Render" DisplayName="{{g|孵育碧玉 泡菇}}" />
+    <part Name="Description" Short="碧玉色菌褶绷紧又松开，绷紧又松开，绷紧又松开，仿佛在把气息吸入 泡菇 的柄中。每一次呼气，它都喷出一团翡翠色孢子，如暮光微尘。它们飘回菌盖，凝成碧玉浆质。" />
+  </object>
+  <object Name="Ickslug Bite" Load="Merge">
+    <part Name="VibroWeapon" NameForStatus="振动牙齿" />
+  </object>
+  <object Name="Molting Basilisk Bite" Load="Merge">
+    <part Name="VibroWeapon" NameForStatus="振动牙齿" />
+  </object>
+  <object Name="Point-Defense Laser" Load="Merge">
+    <part Name="RespondToEvent" NameForStatus="追踪数据处理器" />
+  </object>
+  <object Name="Deep Slumberling" Load="Merge">
+    <part Name="Description" Short="石肉背峰的四个腔室随瞌睡的呼吸膨胀，像一堆震颤的土石瓦砾。风筝帆大小的前后爪尖端生着弯爪，粗 长毛 毛覆在=pronouns.possessive=沉重眼睑下的琥珀眼睛周围。" />
+  </object>
+  <object Name="LightRondure" Load="Merge">
+    <part Name="EquipCharge" NameForStatus="能量上行链路" />
+  </object>
+  <object Name="Chrome Pyramid" Load="Merge">
+    <part Name="FabricateFromSelf" NameForStatus="弹药制造器" />
+  </object>
+  <object Name="Gamma Moth Gaze" Load="Merge">
+    <part Name="EnergyAmmoLoader" NameForStatus="伽马透镜" />
+  </object>
+  <object Name="Microturret" Load="Merge">
+    <part Name="FabricateFromSelf" NameForStatus="弹药制造器" />
+  </object>
+  <object Name="Baetyls Cherub" Load="Merge">
+    <part Name="PartsGas" NameForStatus="粒子排斥" />
+  </object>
+  <object Name="Mechanical Baetyls Cherub" Load="Merge">
+    <part Name="PartsGas" NameForStatus="粒子排斥" />
+  </object>
+  <object Name="BaseNephal" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Agolgot" Load="Merge">
+    <part Name="Description" Short="庞然生物占据视线高处。怪异塌垂的头颅点缀着疣与雀斑，湿透肉垂把腐臭酱汁如雨洒在地上。多年佝偻在管线工程下压碎了=pronouns.possessive=二桉脊柱，物质的海绵性让=pronouns.objective=因=pronouns.possessive=周遭而沸腾作呕。最后，在=pronouns.possessive= 特异 玻璃皮肤下翻搅的双虹光被滤成病态色泽，以杖曲线螺旋从体内辐射而出。" />
+  </object>
+  <object Name="Bethsaida" Load="Merge">
+    <part Name="Description" Short="庞然生物占据视线高处。皮革状斜方肌随过度分叉毛细血管的泵动而肿胀，蒸汽附着在=pronouns.possessive=无星鼻孔上，长长手足各自分叉成一百根趾指。在=pronouns.possessive=身体生红的隆峰上，连最死的生命生长物（毛发、指甲）也被激活行动，像受惊蛆虫般扭动。最后，在=pronouns.possessive= 特异 玻璃皮肤下翻搅的双虹光被滤成黏稠色泽，以杖曲线螺旋从体内辐射而出。" />
+  </object>
+  <object Name="Rermadon" Load="Merge">
+    <part Name="Description" Short="庞然生物占据视线高处。星气从=pronouns.possessive=珊瑚棘上沸散，一条尾巴被单位圆周围水波的选择压力吹展到鳍般宽度。一团海真菌在=pronouns.possessive=巨大吸鳃上窒息并爆裂；最后，在=pronouns.possessive= 特异 玻璃皮肤下翻搅的双虹光被滤成极光色泽，以杖曲线螺旋从体内辐射而出。" />
+  </object>
+  <object Name="Qas" Load="Merge">
+    <part Name="Description" Short="庞然生物占据视线高处。量子化力把=pronouns.possessive=巨兽口鼻塑成诡异方形，势能发辫把=pronouns.possessive=肩隆冲刷成无意义的模糊。在=pronouns.possessive=塌垂桶身下，象般膝盖以直角锁定。最后，在=pronouns.possessive= 特异 玻璃皮肤下翻搅的双虹光被滤成极地色泽，以杖曲线螺旋从体内辐射而出。" />
+  </object>
+  <object Name="Qon" Load="Merge">
+    <part Name="Description" Short="庞然生物占据视线高处。=pronouns.Possessive=喉咙如拥树斯维般结索，从单子喙中鸣出《数字挽歌》。=pronouns.possessive=巨大风筝尾羽在纺锤光屑中虹彩闪烁，并凝结成一幅令人烦恼的宇宙错谬图景。最后，在=pronouns.possessive= 特异 玻璃皮肤下翻搅的双虹光被滤成炫目色泽，以杖曲线螺旋从体内辐射而出。" />
+  </object>
+  <object Name="Shugruith" Load="Merge">
+    <part Name="Description" Short="庞然生物占据视线高处。隧钢化的挤出虫肠环喷吐页岩尘，如洞窟之雨；一群星棘长满=pronouns.possessive=倾斜世界背。在=pronouns.possessive=坑蚀之口周围的花环中，约百只眼睛生长出来，饮尽旧日大地那些宝石般无阳巢穴中的每一颗光子。最后，在=pronouns.possessive= 特异 玻璃皮肤下翻搅的双虹光被滤成烟与黄晶色泽，以杖曲线螺旋从体内辐射而出。" />
+  </object>
+  <object Name="ElderBob" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Nima Ruda" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Argyve" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Ctesiphus" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Tam" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Mehmet" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Warden Yrame" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="High Priest Eschelstadt" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Warden Esthers" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Lulihart" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Tszappur" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Shem -1" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Otho" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Q Girl" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Barathrum" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Rodanis Y" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Sparafucile" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Jacobo" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Dardi" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Hortensa" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Iseppa" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Neek" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Mafeo" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Aloysius" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Euclid" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Eskhind" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Meyehind" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Liihart" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Isahind" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Neelahind" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Keh" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Kesehind" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Angohind" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Mayor Nuntu" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Warden Indrix" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Crowsong" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Yurl" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Erah" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Mamon" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Oboroqoru" Load="Merge">
+    <tag Name="PronounSet" Value="他/他/他的/他的/他自己/神/小神/领主/子/兄弟/父亲" />
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="GolgothaSlog" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Skybear" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Phinae Hoshaiah" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Asphodel" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Haddas" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Warden 1-FF" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Sixshrew" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Zothom" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Yla Haj" Load="Merge">
+    <tag Name="PronounSet" Value="她/她" />
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="BasePaxKlanq" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Hamilcrab" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="k-Goninon" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Biographer" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Nacham" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Vaam" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Dagasha" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Kah" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Doyoba" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Dadogom" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Gyamyo" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Yona" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Vivira" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Agyra" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Lebah" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Rainwater Shomer" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Mak" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Goek" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Geeub" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Bep" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Krka" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Tillifergaewicz" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Rokhas" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Une" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Many Eyes" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Thah" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Dyvvrach" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Miryam" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Tzedech" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Tikva" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Dreamer" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Thicksalt" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Tammuz" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Santalalotze" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="BaseTau" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="AoygNoLonger" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="0lam" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="AgateSeveranceStar" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+</objects>

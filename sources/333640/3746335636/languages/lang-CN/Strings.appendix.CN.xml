@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud - Generated Localizable XML 2.0.212.26
+
+Some data is defined in the XML files, but looked up in strings table.  Much like the 
+Conversations-example.xml, this is a <strings> table.  The Context should state a general path to the node.
+  -->
+<strings Lang="CN" Encoding="utf-8">
+  <string Context="genotype.Mutated Human.extrainfo" ID="Mutations">突变</string>
+  <string Context="genotype.Mutated Human.extrainfo" ID="Moderate starting attributes">中等起始属性</string>
+  <string Context="genotype.Mutated Human.extrainfo" ID="-600 reputation with {{C|the Putus Templar}}">与 {{C|普图斯圣殿骑士}} 的声望 -600</string>
+  <string Context="genotype.True Kin.extrainfo" ID="High starting attributes">高起始属性</string>
+  <string Context="genotype.True Kin.extrainfo" ID="Access to cybernetics">可使用义体</string>
+  <string Context="genotype.True Kin.extrainfo" ID="{{C|20}} bonus skill points each level">每级 {{C|20}} 点额外技能点</string>
+  <string Context="genotype.True Kin.extrainfo" ID="Bonus resistances based on arcology of origin">根据出身拱构城获得额外抗性</string>
+  <string Context="genotype.True Kin.extrainfo" ID="May rebuke robots">可以斥退机器人</string>
+  <string Context="subtype.Arconaut.extrainfo" ID="Starts with random junk and artifacts">开局携带随机垃圾和神器</string>
+  <string Context="subtype.Nomad.extrainfo" ID="Starts with a {{B|recycling suit}}">开局携带一件 {{B|回收服}}</string>
+  <string Context="subtype.Tinker.extrainfo" ID="Begins with a number of random artifacts and scrap">开局携带一些随机神器和废料</string>
+  <string Context="subtype.Water Merchant.extrainfo" ID="Allowed entrance to many settlements for purposes of trade">可为了贸易进入许多聚居地</string>
+  <string Context="subtype.Water Merchant.extrainfo" ID="Starts with trade goods">开局携带贸易货物</string>
+  <string Context="subtype.Watervine Farmer.extrainfo" ID="Starts with random cooking ingredients">开局携带随机烹饪食材</string>
+</strings>

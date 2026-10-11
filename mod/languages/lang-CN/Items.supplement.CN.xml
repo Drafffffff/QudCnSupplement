@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='utf-8'?>
+<objects Lang="CN" Encoding="utf-8">
+  <object Name="Gaslight Dagger" Load="Merge">
+    <part Name="Gaslight" ChargedName="{{gaslight|煤气光}}波刃匕首" UnchargedName="煤气光波刃匕首" />
+  </object>
+  <object Name="Gaslight Sword" Load="Merge">
+    <part Name="Gaslight" ChargedName="{{gaslight|煤气光}}弗利萨刀" UnchargedName="煤气光弗利萨刀" />
+  </object>
+  <object Name="Gaslight Chisel" Load="Merge">
+    <part Name="Gaslight" ChargedName="{{gaslight|煤气光}}凿子" UnchargedName="煤气光凿子" />
+  </object>
+  <object Name="Shayna" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Ari" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Yal" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Caslainard" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Polluxus" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Difucila" Load="Merge">
+    <xtagGrammar Proper="否" />
+  </object>
+  <object Name="La Jeunesse" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="ProjectileBlastCannon" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="ProjectileNullray" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Ruin of House Isner" Load="Merge">
+    <xtagGrammar Proper="真理" />
+    <tag Name="IndefiniteArticle" Value="" />
+    <tag Name="DefiniteArticle" Value="" />
+  </object>
+  <object Name="EMPGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="{{B|电磁脉冲}}手雷 Mk I" />
+  </object>
+  <object Name="EMPGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="{{B|电磁脉冲}}手雷 Mk II" />
+  </object>
+  <object Name="EMPGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="{{B|电磁脉冲}}手雷 Mk III" />
+  </object>
+  <object Name="Quills" Load="Merge">
+    <tag Name="AbilityName" Value="羽翎投掷" />
+    <tag Name="DisplayNameSingular" Value="羽毛笔" />
+  </object>
+  <object Name="Bark Armor" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Leather Armor" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Studded Leather Armor" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Ring Mail" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Chain Mail" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Steel Plate Mail" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Carbide Plate Armor" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Fullerite Plate Mail" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Fullerite Flake Armor" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Crysteel Shardmail" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Flawless Crysteel Shardmail" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Gyrocopter Backpack" Load="Merge">
+    <part Name="MechanicalWings" FlightSourceDescription="旋翼机背包" />
+  </object>
+  <object Name="VISAGE" Load="Merge">
+    <part Name="Render" DisplayName="{{visage|面容}}" />
+  </object>
+  <object Name="Anti-Gravity Boots" Load="Merge">
+    <part Name="MechanicalWings" FlightSourceDescription="反重力靴" />
+  </object>
+  <object Name="Black Mote" Load="Merge">
+    <part Name="CancelRangedAttacks" Message="=subject.T= =verb:swallow= =object.t=！" />
+  </object>
+  <object Name="Stopsvaalinn" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Kindrish" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="SkybearJetpack" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Cyclopean Prism" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="TauDagger" Load="Merge">
+    <part Name="RulesDescription" Text="攻击 精神护甲 而非 护甲。" />
+  </object>
+  <object Name="Nacham's Ribbon" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Vaam's Lens" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Dagasha's Spur" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Kah's Loop" Load="Merge">
+    <part Name="IntPropertyChanger" NameForStatus="??????" />
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="The Kesil Face" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="The Shemesh Face" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="The Earth Face" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="The Levant Face" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="The Olive Face" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="The Nil Face" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Otherpearl" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Flange from the Great Machine" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Sail from the Great Machine" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Gear from the Great Machine" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Gauge from the Great Machine" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="Ashes" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="BaseCyberneticsEquipment" Load="Merge">
+    <xtagGrammar adjunctNounPost="真理" />
+  </object>
+  <object Name="SkinGlitter1" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="SingleSkillsoft1" Load="Merge">
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你获得一项花费介于 0 到 50 技能点 的技能。" />
+  </object>
+  <object Name="TranslucentSkin" Load="Merge">
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+2 闪避" />
+  </object>
+  <object Name="SkinGlitter2" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="SingleSkillsoft2" Load="Merge">
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你获得一项花费介于 51 到 150 技能点 的技能。" />
+  </object>
+  <object Name="DermalPlating" Load="Merge">
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+1 护甲" />
+  </object>
+  <object Name="TransparentSkin" Load="Merge">
+    <part Name="CyberneticsBaseItem" BehaviorDescription="+3 闪避" />
+  </object>
+  <object Name="MedassistModule" Load="Merge">
+    <part Name="CyberneticsBaseItem" BehaviorDescription="使用注射器的动作消耗降低 80%。&#10;最多可装载 8 支注射器，医疗辅助模块 人工智能 会在适当时机（由其自行判断）自动使用，且不消耗动作。" />
+  </object>
+  <object Name="SingleSkillsoft3" Load="Merge">
+    <part Name="CyberneticsBaseItem" BehaviorDescription="你获得一项花费大于 151 技能点 的技能。" />
+  </object>
+  <object Name="ReactiveTraumaPlate" Load="Merge">
+    <part Name="CyberneticsBaseItem" BehaviorDescription="中和一次会造成致命伤害，或至少造成你最大 生命 50% 伤害的伤害来源。这个植入物会在过程中被摧毁。" />
+  </object>
+  <object Name="BiodynamicPowerPlant" Load="Merge">
+    <part Name="CyberneticsBaseItem" BehaviorDescription="每回合向可接入机载供能系统的已装备物品持续提供 5000 单位充能，例如带有 接线 改造的物品。" />
+  </object>
+  <object Name="Book" Load="Merge">
+    <xtagGrammar Proper="真理" />
+  </object>
+  <object Name="BloodstainedSheaf" Load="Merge">
+    <xtagGrammar Proper="否" adjunctNoun="" />
+  </object>
+  <object Name="TornGraphPaper" Load="Merge">
+    <xtagGrammar Proper="否" adjunctNoun="" />
+  </object>
+  <object Name="Sonnet" Load="Merge">
+    <xtagGrammar Proper="否" adjunctNoun="" />
+  </object>
+  <object Name="Sheaf1" Load="Merge">
+    <xtagGrammar Proper="否" adjunctNoun="" />
+  </object>
+  <object Name="Scroll Bound by Kelp" Load="Merge">
+    <xtagGrammar Proper="否" adjunctNoun="" />
+  </object>
+  <object Name="MerchantAdvertisement" Load="Merge">
+    <xtagGrammar Proper="否" />
+  </object>
+  <object Name="Witchwood Bark" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Scrap 7" Load="Merge">
+    <part Name="Render" DisplayName="故障 人工智能 主控单元" />
+  </object>
+  <object Name="ShadeOilTonic" Load="Merge">
+    <part Name="RulesDescription" Text="持续时间：41-50 回合&#10;+8 闪避&#10;每回合有 25% 的几率使你相移出空间维度，持续 1-3 回合。" GenotypeAlt="持续时间：41-50 回合&#10;+8 闪避&#10;你获得相移出空间维度 7-9 回合的能力。" />
+  </object>
+  <object Name="RubbergumTonic" Load="Merge">
+    <part Name="RulesDescription" Text="持续时间：41-50 回合&#10;+100 电抗性&#10;+25 冷抗性&#10;-1 护甲&#10;对抗被束缚的豁免 +5。&#10;对抗流血的豁免 -5。&#10;你只承受钝击攻击的一半伤害。&#10;你只承受坠落的一半伤害。&#10;你不会被抓住。" GenotypeAlt="持续时间：41-50 回合&#10;+100 电抗性&#10;+50 冷抗性&#10;-1 护甲&#10;对抗被束缚的豁免 +5。&#10;对抗流血的豁免 -5。&#10;你只承受钝击攻击 25% 的伤害。&#10;你只承受坠落 25% 的伤害。&#10;你不会被抓住。&#10;如果摄入多个胶胶糖，这些效果会叠加。" />
+  </object>
+  <object Name="Metamorphic Polygel" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Grave Goods" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Garbage" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Flowers" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Clue_LeatherScraps" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+</objects>

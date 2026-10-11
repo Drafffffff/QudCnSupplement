@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<objects Lang="CN" Encoding="utf-8">
+  <object Name="Yuckwheat" Load="Merge">
+    <stag Name="Fiber" Value="绳索" />
+  </object>
+  <object Name="Brinestalk" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Ziv Bough_blue" Load="Merge">
+    <part Name="Render" DisplayName="齐夫 树枝" />
+  </object>
+  <object Name="Ziv Bough" Load="Merge">
+    <part Name="Render" DisplayName="齐夫 树枝" />
+  </object>
+  <object Name="Slime Grass" Load="Merge">
+    <xtagGrammar iArticle="一些" />
+  </object>
+  <object Name="Grave Moss" Load="Merge">
+    <xtagGrammar iArticle="一些" />
+  </object>
+  <object Name="Noisegrass" Load="Merge">
+    <xtagGrammar iArticle="一些" />
+  </object>
+  <object Name="Yempuris" Load="Merge">
+    <part Name="Render" DisplayName="叶姆普里斯·斐" />
+  </object>
+  <object Name="Godshroom" Load="Merge">
+    <part Name="Render" DisplayName="{{o|艾尔卡特尔(埃尔卡特尔)}}" />
+    <part Name="Description" Short="这朵蘑菇浸着透亮珊瑚色，它的姿态牢牢抓住你的目光。库德 不知这种色相，于是你问 =player.reflexive=：是什么样的辉雨染了它的肉？会不会是食者自己的一粒微尘，在彩虹林的土壤中化作木乃伊？" />
+  </object>
+  <object Name="CyanMarbleWalkway" Load="Merge">
+    <part Name="Render" DisplayName="大理石走道" />
+    <part Name="Description" Short="大理石矩形密铺成路。" />
+  </object>
+  <object Name="Stairs" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="OpenShaft" Load="Merge">
+    <xtagGrammar massNoun="否" />
+  </object>
+  <object Name="Air" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Pit" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Chavvah Spiral StairsUp" Load="Merge">
+    <xtagGrammar iArticle="一些" />
+  </object>
+  <object Name="Chavvah Spiral StairsDown" Load="Merge">
+    <xtagGrammar iArticle="一些" />
+  </object>
+</objects>

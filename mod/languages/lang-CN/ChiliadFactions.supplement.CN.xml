@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<factions Lang="CN" Encoding="utf-8">
+  <faction Name="Yanshufim" DisplayName="扬舒菲姆" FormatWithArticle="true" />
+  <faction Name="Chiliad Mamon" DisplayName="玛蒙 的孙辈" FormatWithArticle="true" />
+</factions>

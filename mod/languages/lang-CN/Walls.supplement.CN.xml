@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='utf-8'?>
+<objects Lang="CN" Encoding="utf-8">
+  <object Name="Shale" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Sandstone" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Limestone" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Marl" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Halite" Load="Merge">
+    <part Name="Description" Short="胭红云彩显出它们的晶体习性：方块内外相嵌。莫格拉伊 为何要把这种形态藏离太阳？" />
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Gypsum" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Black Shale" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Coral Rag" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Oolite" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Serpentinite" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Slate" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Quartzite" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Black Marble" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Polished Black Marble" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Granite" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Mudroot" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Basalt" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="PlantWall" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Fulcrete" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Foamcrete" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Verdigris" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="BurntWood" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="WornWoodWall" Load="Merge">
+    <xtagGrammar iArticle="一些" />
+  </object>
+  <object Name="BrickWall" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Burnished Azzurum" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="HolographicShaleWall" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="WalltrapFire" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="WalltrapAcid" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="WalltrapShock" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="WalltrapCrabs" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="WalltrapClockworkBeetles" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="WalltrapNormalityGas" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="WalltrapDefoliant" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="WalltrapFungicide" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="WalltrapFireCrematory" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="Relief1" Load="Merge">
+    <part Name="Description" Short="这是一幅由珍贵蔚蓝大理石切出的精细高浮雕。它描绘了神圣结合，正如父神 舍金纳 向神庙高阶祭司所述：在我们宇宙的初晓，银辉诸父怀着惰性之心漫游无时以太。在那里，在宇宙最寒冷的远处，他们发现了美与铬钢的化身，卡萨辉体。他们一同从她裸露的子宫中锻造机器，让机器居于百座大地。这处场景中，诸父第一次接近她的光辉，由居于显要位置的 舍金纳 引领。" />
+  </object>
+  <object Name="Relief2" Load="Merge">
+    <part Name="Description" Short="这是一幅由稀有蔚蓝大理石切出的精细高浮雕。它描绘了《铬彩圣歌》中吟唱的教化。神圣结合之后，银辉诸父把 卡萨辉体 的等离子金属塑造成适合凡俗居住的建筑。他们在山上造尖塔，在河上架拱门。这里，舍金纳 监督建造，向东凝望他崭新而闪耀的世界。" />
+  </object>
+  <object Name="FulcreteWithSquareWave" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="CatacombWall" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="BaseSultanWall" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="SultanWall_Period6" Load="Merge">
+    <part Name="Render" DisplayName="雷谢夫 苏丹国的雕刻石" />
+    <part Name="Description" Short="巨大古石被堆叠、敲凿，并按 雷谢夫 时代的风格雕成长弧。此后，这项工程积累了合作者，他们的签名写得到处都是：这里是破坏者编辑留下的空缺，那里是时间之刷的柔软笔触。" />
+  </object>
+  <object Name="InnerSultanWall_Period6" Load="Merge">
+    <part Name="Render" DisplayName="雷谢夫 苏丹国的鎏金大理石" />
+  </object>
+  <object Name="GolemInteriorWall" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="BaseNephilimWall_Agolgot" Load="Merge">
+    <part Name="Render" DisplayName="阿戈尔戈特 挤出的树脂层" />
+  </object>
+  <object Name="BaseNephilimWall_Bethsaida" Load="Merge">
+    <part Name="Render" DisplayName="伯赛大 挤出的树脂层" />
+  </object>
+  <object Name="BaseNephilimWall_Rermadon" Load="Merge">
+    <part Name="Render" DisplayName="雷尔玛顿 挤出的树脂层" />
+  </object>
+  <object Name="BaseNephilimWall_QasQon" Load="Merge">
+    <part Name="Render" DisplayName="卡斯 与 孔 挤出的树脂层" />
+  </object>
+  <object Name="BaseNephilimWall_Shug'rith" Load="Merge">
+    <part Name="Render" DisplayName="舒格鲁伊斯 挤出的树脂层" />
+  </object>
+  <object Name="BaseNephilimWall_Shug'rithSpawn" Load="Merge">
+    <part Name="Render" DisplayName="舒格鲁伊斯 子嗣挤出的树脂层" />
+  </object>
+  <object Name="Rubble" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="ChavvahTrunk" Load="Merge">
+    <xtagGrammar massNoun="真理" />
+  </object>
+  <object Name="CryochamberPlaqueSkybear" Load="Merge">
+    <part Name="Chat" Says="样本：萨阿德阿穆斯，天熊，萨卢姆 的勇士" />
+  </object>
+  <object Name="CryochamberPlaqueYempris" Load="Merge">
+    <part Name="Chat" Says="样本：耶姆普里斯斐" />
+  </object>
+</objects>

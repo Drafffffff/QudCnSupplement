@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud - Generated Localizable XML 2.0.212.26
+
+<factions>
+
+  <faction Name="Key" DisplayName="DisplayText" FormatWithArticle="" Plural="">
+  FormatWithArticle: Boolean true/false - will include article when displaying the name
+  Plural: Boolean true/false
+
+    <waterritual recipetext="DisplayText">
+
+    <interests Blurb="DisplayText">
+
+      <interest Tags="Key" WillBuy="Key" WillSell="Key" MatchAny="Key" Inverse="Key" Description="DisplayText">
+
+    <ranks>
+
+      <rank Name="Key" DisplayName="DisplayText">
+
+-->
+<factions Lang="CN" Encoding="utf-8">
+  <faction Name="Prey" DisplayName="草食享乐者" />
+  <faction Name="Joppa" DisplayName="Joppa 村民" FormatWithArticle="true" />
+  <faction Name="Kyakukya" DisplayName="Kyakukya 村民" FormatWithArticle="true" />
+  <faction Name="Ezra" DisplayName="Ezra 村民" FormatWithArticle="true" />
+  <faction Name="Snapjaws" DisplayName="锯齿豺" />
+  <faction Name="Baboons" DisplayName="狒狒" />
+  <faction Name="Apes" DisplayName="猿" />
+  <faction Name="Crabs" DisplayName="螃蟹" />
+  <faction Name="Bears" DisplayName="熊" />
+  <faction Name="Winged Mammals" DisplayName="翼生哺乳类" />
+  <faction Name="Birds" DisplayName="鸟类" />
+  <faction Name="Fish" DisplayName="鱼类">
+    <interests>
+      <interest Tags="opalduskwaters,riveryonth,riversvy,mountainstream,riveropal" MatchAny="true" Description="水域地点" />
+    </interests>
+  </faction>
+  <faction Name="Insects" DisplayName="昆虫" />
+  <faction Name="Swine" DisplayName="猪类" />
+  <faction Name="Unshelled Reptiles" DisplayName="无壳爬行动物" />
+  <faction Name="Cannibals" DisplayName="食人者" />
+  <faction Name="Arachnids" DisplayName="蛛形类" />
+  <faction Name="Cats" DisplayName="猫" />
+  <faction Name="Dogs" DisplayName="狗" />
+  <faction Name="Cragmensch" DisplayName="岩壁人" />
+  <faction Name="Mollusks" DisplayName="软体动物" />
+  <faction Name="Tortoises" DisplayName="陆龟" />
+  <faction Name="Robots" DisplayName="机器人" />
+  <faction Name="Baetyls" DisplayName="贝石" />
+  <faction Name="Dromad" DisplayName="驼商" />
+  <faction Name="Entropic" DisplayName="高熵存在" />
+  <faction Name="Antelopes" DisplayName="羚羊" />
+  <faction Name="Worms" DisplayName="蠕虫" />
+  <faction Name="Oozes" DisplayName="软泥怪" />
+  <faction Name="Equines" DisplayName="马类" />
+  <faction Name="Newly Sentient Beings" DisplayName="新近觉醒的有知觉者">
+    <interests Blurb="什么也不知道" />
+  </faction>
+  <faction Name="Goatfolk" DisplayName="山羊人" />
+  <faction Name="Hermits" DisplayName="隐士" />
+  <faction Name="Frogs" DisplayName="蛙类" />
+  <faction Name="Svardym" DisplayName="svardym">
+    <interests>
+      <interest Tags="gyreplagues" WillBuy="false" WillSell="true" Description="轮回瘟疫" />
+    </interests>
+  </faction>
+  <faction Name="Naphtaali" DisplayName="Naphtaali 部族" FormatWithArticle="true" Plural="false" />
+  <faction Name="Trolls" DisplayName="巨魔" />
+  <faction Name="Issachari" DisplayName="Issachari 部族" FormatWithArticle="true" Plural="false" />
+  <faction Name="Strangers" DisplayName="神秘陌生人" />
+  <faction Name="Pariahs" DisplayName="贱民" />
+  <faction Name="Hindren" DisplayName="Bey Lah 的 hindren" FormatWithArticle="true" />
+  <faction Name="Mopango" DisplayName="mopango" FormatWithArticle="true" />
+  <faction Name="Girsh" DisplayName="Girsh" FormatWithArticle="true" />
+  <faction Name="Barathrumites" DisplayName="Barathrumites" FormatWithArticle="true">
+    <ranks>
+      <rank Name="apprentice" DisplayName="学徒" />
+      <rank Name="journeyfriend" DisplayName="旅友" />
+      <rank Name="disciple" DisplayName="弟子" />
+      <rank Name="meyvn" DisplayName="明识者" />
+    </ranks>
+  </faction>
+  <faction Name="Consortium" DisplayName="植群商会" FormatWithArticle="true" Plural="false" />
+  <faction Name="Templar" DisplayName="普图斯圣殿骑士" FormatWithArticle="true">
+    <interests>
+      <interest Tags="ruins,tech,historic,sultan,cybernetics,rebekah,sultanTombPropaganda" WillBuy="true" WillSell="false" MatchAny="true" Inverse="true" Description="现代世界" />
+    </interests>
+  </faction>
+  <faction Name="Mechanimists" DisplayName="机械教徒" FormatWithArticle="true" />
+  <faction Name="Gyre Wights" DisplayName="轮回尸鬼" FormatWithArticle="true" />
+  <faction Name="Mamon" DisplayName="Mamon 之子" FormatWithArticle="true" />
+  <faction Name="Seekers" DisplayName="无目之道追寻者" FormatWithArticle="true" />
+  <faction Name="Wardens" DisplayName="守望者同盟" FormatWithArticle="true" Plural="false" />
+  <faction Name="Water" DisplayName="水男爵" />
+  <faction Name="Flowers" DisplayName="花" />
+  <faction Name="Roots" DisplayName="根" />
+  <faction Name="Fungi" DisplayName="真菌" />
+  <faction Name="Vines" DisplayName="藤蔓" />
+  <faction Name="Urchins" DisplayName="刺球" />
+  <faction Name="Succulents" DisplayName="多肉植物" />
+  <faction Name="Trees" DisplayName="树木" />
+  <faction Name="Merchants" DisplayName="商人行会" FormatWithArticle="true" Plural="false" />
+  <faction Name="Farmers" DisplayName="农民行会" FormatWithArticle="true" Plural="false" />
+  <faction Name="Resheph" DisplayName="盘绕羔羊教团" FormatWithArticle="true" Plural="false" />
+  <faction Name="Daughters" DisplayName="流亡之女" FormatWithArticle="true" Plural="true" />
+  <faction Name="YdFreehold" DisplayName="Yd 自由领居民" FormatWithArticle="true" />
+  <faction Name="Chavvah" DisplayName="生命之树 Chavvah" FormatWithArticle="false" Plural="false" />
+</factions>

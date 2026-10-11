@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='utf-8'?>
+<inventoryActions Lang="CN" Encoding="utf-8">
+  <inventoryAction Name="CompanionAttackTarget">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="Apply">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ApplyImportant">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ApplyDefault">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="DebugShowAttitude">
+    <display>显示态度 {{K|[调试]}}</display>
+  </inventoryAction>
+  <inventoryAction Name="DebugEnableThinkOutLoud">
+    <display>启用大声思考 {{K|[调试]}}</display>
+  </inventoryAction>
+  <inventoryAction Name="DebugDisableThinkOutLoud">
+    <display>禁用大声思考 {{K|[调试]}}</display>
+  </inventoryAction>
+  <inventoryAction Name="ActivateRecoilerTeleporter">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="Eat">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="EatSus">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="Ascend">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="AscendCable">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="Descend">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="DescendCable">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ActivateForceProjector">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="DeactivateForceProjector">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="Desecrate">
+    <key>下</key>
+  </inventoryAction>
+  <inventoryAction Name="ActivateAnimateObject">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="Defibrillate">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="DeactivateHologramBracelet">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ActivateHologramBracelet">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ToggleForceEmitterDeactivate">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ToggleForceEmitterActivate">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ActivateGenocideCurio">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ActivateMechanicalWings">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ActivatePassiveFactionDeed">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="DeactivateTemplarPhylactery">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ActivateTemplarPhylactery">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ActivatePortableWall">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ActivateSpiralBorer">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ActivateSkyshroud">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ActivateSummoningCurio">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ActivateTeleprojector">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="DeactivateStopsvalinn">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ActivateStopsvalinn">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ActivateTeleporter">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ActivateTeleporterPair">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ActivateTeleporterPairCooldown">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ActivateTimeCube">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="AutoCollectLiquidOn">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="AutoCollectLiquidOff">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="LoadoutOn">
+    <display>加入当前装备方案</display>
+    <key>q</key>
+  </inventoryAction>
+  <inventoryAction Name="LoadoutOff">
+    <display>从当前装备方案移除</display>
+    <key>q</key>
+  </inventoryAction>
+  <inventoryAction Name="LoadoutCreate">
+    <display>创建装备方案</display>
+    <key>q</key>
+  </inventoryAction>
+  <inventoryAction Name="UnequipSwap">
+    <display>替换</display>
+    <key>s</key>
+  </inventoryAction>
+  <inventoryAction Name="CommandDropAllObject">
+    <key>下</key>
+  </inventoryAction>
+  <inventoryAction Name="CommandEquipObject">
+    <key>东</key>
+  </inventoryAction>
+  <inventoryAction Name="CleanItem">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ShowInternals">
+    <display>显示内部结构 {{K|[调试]}}</display>
+    <key>西</key>
+  </inventoryAction>
+  <inventoryAction Name="PowerSwitchOff">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="PowerSwitchOn">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="RemotePowerSwitchOff">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="RemotePowerSwitchOn">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ToggleScrapOff">
+    <key>南</key>
+  </inventoryAction>
+  <inventoryAction Name="ToggleScrapOn">
+    <key>南</key>
+  </inventoryAction>
+  <inventoryAction Name="ArmMine">
+    <key />
+  </inventoryAction>
+  <inventoryAction Name="ToggleAllowAutogetStart">
+    <key>南</key>
+  </inventoryAction>
+  <inventoryAction Name="ToggleAllowAutogetStop">
+    <key>南</key>
+  </inventoryAction>
+</inventoryActions>

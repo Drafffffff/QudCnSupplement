@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud - Generated Localizable XML 2.0.212.26
+
+<mutations Hidden="" ExcludeFromPool="">
+
+  <category Name="Key" DisplayName="DisplayText">
+
+    <mutation Name="Key" DisplayName="DisplayText" BearerDescription="DisplayText" BiomeAdjective="DisplayText" BiomeEpithet="DisplayText">
+
+      <description>
+
+      <leveltext>
+
+-->
+<mutations Lang="CN" Encoding="utf-8">
+  <category Name="Morphotypes" DisplayName="{{W|形态型}}">
+    <mutation Name="Chimera" DisplayName="奇美拉">
+      <description>
+                    <p>你只会显现物理突变，并且在显现新突变时，你的所有突变选项都是物理突变。</p>
+                    <br />
+                    <p>每当你显现新突变时，其中一个选项还会使你随机长出一条新肢体。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Esper" DisplayName="心灵术士">
+      <description>
+                    <p>你只会显现心灵突变，并且在显现新突变时，你的所有突变选项都是心灵突变。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Unstable Genome" DisplayName="不稳定基因组">
+      <description>
+                    <p>每次购买此项时，你获得一个额外突变，但这些突变不会立刻显现。</p>
+                    <p>每当你提升等级时，有 33% 几率使你的基因组失稳，并可从 3 个随机突变中选择。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+  </category>
+  <category Name="Physical" DisplayName="{{G|物理突变}}">
+    <mutation Name="Adrenal Control" DisplayName="肾上腺控制" BearerDescription="能控制肾上腺的人">
+      <description>
+                    <p>你能调节身体释放肾上腺素。</p>
+                </description>
+      <leveltext>
+                    <p>你可以在 <stat Name="Duration" /> 内增加身体的肾上腺素流量。</p>
+                    <p>流量持续期间，你获得 +<stat Name="QuicknessBonus" /> 迅捷，其他物理突变获得 +<stat Name="MutationBonus" Unit="阶" />。</p>
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+    <mutation Name="Beak" DisplayName="喙" BearerDescription="有喙者">
+      <description>
+                    <p>你的脸上长着一只悦目的 <stat Name="BeakName" />。</p>
+                    <br />
+                    <p>+1 Ego</p>
+                    <p>你偶尔会啄击对手。</p>
+                    <p><gametext>与 {{w|=faction:Birds=}} 的声望 +200</gametext></p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Burrowing Claws" DisplayName="掘穴爪" BearerDescription="掘穴者">
+      <description>
+                    <!-- code will prefix this with "Burrowing Claws Claw" blueprints VariantDescription -->
+                    <p>你长着铲状利爪，可以掘穿泥土。</p>
+                </description>
+      <leveltext>
+                    <p><gametext>=weapon.Name=</gametext> 对墙穿透：<stat Name="WallPenetration" /></p>
+                    <p><gametext>=weapon.Name|pluralize=</gametext> 在 <stat Name="WallHits" Unit="穿透命中" /> 后摧毁墙体。</p>
+                    <switch Name="PrereleaseContent"><case Value="true"><p>脱离战斗时可以向上或向下挖掘通道</p></case></switch>
+                    <p><gametext>=weapon.Name|pluralize= 也是 =weaponClass.name= 类天然武器，对非墙体造成 <stat Name="Damage" /> 基础伤害。</gametext></p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Carapace" DisplayName="甲壳" BearerDescription="披甲壳者">
+      <description>
+                    <!-- code will prefix this with blueprints VariantDescription -->
+                    <p>你受到耐久甲壳的保护。</p>
+                </description>
+      <leveltext>
+                    <p><stat Name="AV" Filters="signed" /> AV</p>
+                    <p><stat Name="DV" Filters="signed" /> DV</p>
+                    <p><stat Name="HeatResist" Filters="signed" /> 热抗性</p>
+                    <p><stat Name="ColdResist" Filters="signed" /> 冷抗性</p>
+                    <switch Name="AddsRep"><case Value="" /><default><p><stat Name="AddsRep" /></p></default></switch>
+                    <p>只要你保持静止，就可以收紧你的 <stat Name="CarapaceName" />，以 -2 DV 为代价获得双倍 AV 加值。</p>
+                    <p>不能穿戴身体护甲。</p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Corrosive Gas Generation" DisplayName="腐蚀气体生成" BearerDescription="排出腐蚀气体者">
+      <description>
+                    <p>你在自己周围释放一阵 <stat Name="GasName" />。</p>
+                </description>
+      <leveltext>
+                    <p>释放气体，持续 <stat Name="Duration" /></p>
+                    <switch Name="LevelMatch">
+                        <case Value="raise"><p>{{rules|提高 <stat Name="LevelEffectDescription" />}}</p></case>
+                        <case Value="lower"><p>{{rules|降低 <stat Name="LevelEffectDescription" />}}</p></case>
+                    </switch>
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+    <mutation Name="Double-muscled" DisplayName="双重肌肉" BearerDescription="双重肌肉者">
+      <description>
+                    <p>你拥有魁伟巨力。</p>
+                </description>
+      <leveltext>
+                    <p>+<stat Name="Strength" /> 力量</p>
+                    <p>近战攻击成功时有 <stat Name="DazeChance" />% 几率使对手眩晕 2-3 回合</p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Electrical Generation" DisplayName="电力生成" BearerDescription="发电者">
+      <description>
+                    <p>你积累可使用和释放来造成伤害的电荷。</p>
+                </description>
+      <leveltext>
+                    <p>最大电荷：<stat Name="MaxCharge" /></p>
+                    <p>每回合基础积累 <stat Name="BaseChargePerTurn" /> 电荷</p>
+                    <p>可以释放所有持有电荷，每 <stat Name="DischargeChunk" /> 电荷造成 1d4 伤害</p>
+                    <p>放电可以电弧跳转到相邻目标，造成降低后的伤害，每 <stat Name="DischargeChunk" /> 电荷最多影响 1 个目标</p>
+                    <p>EMP 会导致非自愿放电（难度 18 意志豁免）</p>
+                    <switch Name="CanDrinkTransient">
+                        <case Value="true"><p>你可以从电力来源饮取电荷。</p></case>
+                        <default><p>你可以从能量电池和电容器饮取电荷。</p></default>
+                    </switch>
+                    <p>你每承受 1 点电击伤害，就获得 <stat Name="DamageAbsorbFactor" /> 电荷。</p>
+                    <p>你可以为已装备且拥有集成供电系统的装置供电。</p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Electromagnetic Pulse" DisplayName="电磁脉冲" BearerDescription="发出电磁脉冲者">
+      <description>
+                    <p>你生成电磁脉冲，使附近的神器和机器失效。</p>
+                </description>
+      <leveltext>
+                    <p>范围：以你为中心的 <stat Name="Area" /></p>
+                    <statline Name="Duration" DisplayName="持续时间" />
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+    <mutation Name="Flaming Ray" DisplayName="火焰射线" BearerDescription="燃焰之手">
+      <description>
+                    <p>你<switch Name="BodyPartName"><case Value="" /><default>从你的 <stat Name="BodyPartName" /></default></switch>发射一道火焰射线。</p>
+                </description>
+      <leveltext>
+                    <p>向你选择的方向发射一道 <stat Name="Range" /> 格长的火焰射线。</p>
+                    <statline Name="Damage" DisplayName="伤害" />
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                    <p>近战攻击使对手升温 <stat Name="HeatOnHit" Unit="度" /></p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Freezing Ray" DisplayName="冰冻射线" BearerDescription="冰寒之手">
+      <description>
+                    <p>你<switch Name="BodyPartName"><case Value="" /><default>从你的 <stat Name="BodyPartName" /></default></switch>发射一道寒霜射线。</p>
+                </description>
+      <leveltext>
+                    <p>向你选择的方向发射一道 <stat Name="Range" /> 格长的寒霜射线。</p>
+                    <statline Name="Damage" DisplayName="伤害" />
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                    <p>近战攻击使对手降温 <stat Name="CoolOnHit" Unit="度" /></p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Heightened Hearing" DisplayName="强化听觉" BearerDescription="听觉强化者">
+      <description>
+                    <p>你拥有超乎自然的敏锐听觉。</p>
+                </description>
+      <leveltext>
+                    <p>你能探测半径 <stat Name="Radius" /> 内的生物存在。</p>
+                    <switch Name="LevelMatch">
+                        <case Value="true"><p>有几率识别附近探测到的生物</p></case>
+                        <default><p>{{rules|提高识别附近探测到的生物的几率}}</p></default>
+                    </switch>
+                </leveltext>
+    </mutation>
+    <mutation Name="Heightened Quickness" DisplayName="强化迅捷" BearerDescription="迅捷者">
+      <description>
+                    <p>你天赋惊人的速度。</p>
+                </description>
+      <leveltext>
+                    <p>+<stat Name="SpeedBonus" /> 迅捷</p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Horns" DisplayName="角" BearerDescription="有角者">
+      <description>
+                    <p><gametext>=horns.A.name.or.plural= 从你的头上 =horns.verb:jut= 出来。</gametext></p>
+                </description>
+      <leveltext>
+                    <p>近战攻击时有 20% 几率顶刺对手</p>
+                    <statline Name="Damage" DisplayName="伤害增量" />
+                    <statline Name="ToHitBonus" DisplayName="命中加值" />
+                    <switch Name="LevelMode">
+                        <case Value="BleedBonus"><p>{{rules|提高流血豁免难度和强度}}</p></case>
+                        <case Value="LevelUp"><p>{{rules|提高流血豁免难度}}</p></case>
+                        <default><p>顶刺攻击可能造成流血</p></default>
+                    </switch>
+                    <p><gametext>=horns.Name= =horns.verb:are= 短刃类天然武器。</gametext></p>
+                    <p>+<stat Name="AV" /> AV</p>
+                    <p>不能戴头盔</p>
+                    <p><gametext>与 {{w|=faction:Antelopes=}} 和 {{w|=faction:Goatfolk=}} 的声望 +100</gametext></p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Metamorphosis" DisplayName="变形" BearerDescription="变形者">
+      <description>
+                    <p>你化为任何你触碰到的生物的形态。</p>
+                </description>
+      <leveltext>
+                    <p>只能化为等级 <stat Name="MaxLevel" /> 或更低的生物。</p>
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+    <mutation Name="Multiple Arms" DisplayName="多臂" BearerDescription="多臂者">
+      <description>
+                    <p>你拥有额外一组手臂。</p>
+                </description>
+      <leveltext>
+                    <p>每当你进行近战攻击时，每条额外手臂都有 <stat Name="AttackChance" />% 几率发动一次额外近战攻击</p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Multiple Legs" DisplayName="多腿" BearerDescription="多腿者">
+      <description>
+                    <p>你拥有额外一组腿。</p>
+                </description>
+      <leveltext>
+                    <p>+<stat Name="MoveSpeed" /> 移动速度</p>
+                    <p>+<stat Name="CarryCapacity" />% 负重能力</p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Night Vision" DisplayName="夜视" BearerDescription="暗视者">
+      <description>
+                    <p>你能在黑暗中视物。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Phasing" DisplayName="相位化" BearerDescription="相位化者">
+      <description>
+                    <p>你可以短时间穿过固体物体。</p>
+                </description>
+      <leveltext>
+                    <statline Name="Duration" DisplayName="持续时间" />
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+    <mutation Name="Photosynthetic Skin" DisplayName="光合皮肤" BearerDescription="绿肤者">
+      <description>
+                    <p>你通过强健的绿色皮肤吸收阳光来补充自己。</p>
+                </description>
+      <leveltext>
+                    <p>你可以沐浴阳光来代替进餐，获得一种持续 <stat Name="DurationDay" Unit="天" /> 的特殊代谢效果：自然治疗速率 +<stat Name="BonusRegen" />，迅捷 +<stat Name="BonusQuickness" /></p>
+                    <p>处于阳光下时，你会积累淀粉和木质素，可作为你烹饪餐食的食材（每种最多 <stat Name="StarchServings" Unit="份" />）。</p>
+                    <p>与叶丛占据同一空间时，+<stat Name="BonusCamoflage" /> DV</p>
+                    <p>与 {{w|roots}}、{{w|trees}}、{{w|vines}} 和 {{w|the Consortium of Phyta}} 的声望 +200</p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Quills" DisplayName="棘刺" BearerDescription="长棘者">
+      <description>
+                    <!-- description will be replaced with the Quill Blueprint VariantDescription if it has one. -->
+                    <p>数百根针尖般的棘刺覆盖你的身体。</p>
+                </description>
+      <leveltext>
+                    <switch Name="LevelMatch">
+                        <case Value="true"><p><stat Name="MaxQuills" /> <stat Name="Quills" /></p></case>
+                        <default><p>+{{rules|80-120}} <stat Name="Quills" /></p></default>
+                    </switch>
+                    <p>可以向自己周围爆发射出 10% 的 <stat Name="Quills" />（<gametext>=pv=<stat Name="QuillPen" /> =damage=<stat Name="QuillDamage" /></gametext>）</p>
+                    <p>以每回合约 <stat Name="RegenRate" /> 的速率再生 <stat Name="Quills" /></p>
+                    <p>只要你保留一半 <stat Name="Quills" />，+<stat Name="AV" /> AV（否则 +<stat Name="AVWithPenalty" /> AV）</p>
+                    <p>近战攻击你的生物可能被你的 <stat Name="Quills" /> 扎穿，折断其中约 1%，并按每根折断的 <stat Name="Quill" /> 反射 3% 伤害。</p>
+                    <p>不能穿戴身体护甲</p>
+                    <p>免疫其他生物的 <stat Name="Quills" /></p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Regeneration" DisplayName="再生" BearerDescription="再生者">
+      <description>
+                    <p>你的伤口愈合得非常快。</p>
+                </description>
+      <leveltext>
+                    <p>你的完整自然治疗速率在战斗中也会生效。</p>
+                    <p>自然治疗速率加快 +<stat Name="RegenBonus" />%</p>
+                    <p>每回合有 <stat Name="RegenChance" />% 几率再生一条缺失肢体</p>
+                    <switch Name="NoDecapitate">
+                        <case Value="false" />
+                        <default><p>{{rules|你不会被斩首。}}</p></default>
+                    </switch>
+                    <switch Name="LevelBelow5">
+                        <case Value="true"><p>每回合有 <stat Name="DebuffChance" />% 几率随机移除一个{{rules|轻微物理减益}}</p></case>
+                        <default><p>每回合有 <stat Name="DebuffChance" />% 几率随机移除一个{{rules|物理减益}}</p></default>
+                    </switch>
+                </leveltext>
+    </mutation>
+    <mutation Name="Sleep Gas Generation" DisplayName="睡眠气体生成" BearerDescription="排出睡眠气体者">
+      <description>
+                    <p>你在自己周围释放一阵 <stat Name="GasName" />。</p>
+                </description>
+      <leveltext>
+                    <p>释放气体，持续 <stat Name="Duration" /></p>
+                    <switch Name="LevelMatch">
+                        <case Value="raise"><p>{{rules|提高 <stat Name="LevelEffectDescription" />}}</p></case>
+                        <case Value="lower"><p>{{rules|降低 <stat Name="LevelEffectDescription" />}}</p></case>
+                        <default></default>
+                    </switch>
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+    <mutation Name="Slime Glands" DisplayName="黏液腺" BearerDescription="吐黏液者">
+      <description>
+                    <p>你能产生一种黏稠黏液，并把它吐向物体。</p>
+                    <br />
+                    <p>用黏液覆盖一片区域</p>
+                    <statline Name="Range" DisplayName="射程" />
+                    <statline Name="Area" DisplayName="范围" />
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                    <p>你可以在黏液上行走而不打滑。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Spinnerets" DisplayName="吐丝器" BearerDescription="织网者">
+      <description>
+                    <p>你可以纺出黏性的丝网。</p>
+                </description>
+      <leveltext>
+                    <p>纺丝期间，你移动时会在身后留下网。</p>
+                    <switch Name="LevelMatch">
+                        <case Value="true"></case>
+                        <default><p>{{rules|提高网强度}}</p></default>
+                    </switch>
+                    <statline Name="SpinDuration" DisplayName="持续时间" Unit="移动动作" />
+                    <saveline Name="MoveSave" />
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                    <p>你免疫被黏住。</p>
+                    <p>与 {{w|arachnids}} 的声望 +300</p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Stinger (Confusing Venom)" DisplayName="毒刺（混乱毒液）" BearerDescription="刺尖带有混乱毒液者">
+      <description>
+                    <p>你长着一条带刺的尾巴，可向敌人注入 <stat Name="VenomType" /> 毒液。</p>
+                </description>
+      <leveltext>
+                    <p>近战攻击时有 20% 几率刺击对手（<gametext>=pv=<stat Name="StingerPen" /> =damage=<stat Name="StingerDamage" /></gametext>）</p>
+                    <p>毒刺属于长刃，并且只能穿透一次。</p>
+                    <p>冲锋或突刺时总会刺击。</p>
+                    <p>毒刺在造成伤害时施加毒液（如果毒刺是你的主武器，则只有 20% 几率）。</p>
+                    <p>可以使用“刺击”主动能力，以你的毒刺攻击并自动命中和穿透。</p>
+                    <statline Name="Cooldown" DisplayName="刺击冷却" />
+                    <p>毒液使对手混乱，持续 <stat Name="Duration" /></p>
+                    <p>与 {{w|arachnids}} 的声望 +200</p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Stinger (Paralyzing Venom)" DisplayName="毒刺（麻痹毒液）" BearerDescription="刺尖带有麻痹毒液者">
+      <description>
+                    <p>你长着一条带刺的尾巴，可向敌人注入 <stat Name="VenomType" /> 毒液。</p>
+                </description>
+      <leveltext>
+                    <p>近战攻击时有 20% 几率刺击对手（<gametext>=pv=<stat Name="StingerPen" /> =damage=<stat Name="StingerDamage" /></gametext>）</p>
+                    <p>毒刺属于长刃，并且只能穿透一次。</p>
+                    <p>冲锋或突刺时总会刺击。</p>
+                    <p>毒刺在造成伤害时施加毒液（如果毒刺是你的主武器，则只有 20% 几率）。</p>
+                    <p>可以使用“刺击”主动能力，以你的毒刺攻击并自动命中和穿透。</p>
+                    <statline Name="Cooldown" DisplayName="刺击冷却" />
+                    <p>毒液使对手麻痹，持续 <stat Name="Duration" /></p>
+                    <p>与 {{w|arachnids}} 的声望 +200</p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Stinger (Poisoning Venom)" DisplayName="毒刺（中毒毒液）" BearerDescription="刺尖带有中毒毒液者">
+      <description>
+                    <p>你长着一条带刺的尾巴，可向敌人注入 <stat Name="VenomType" /> 毒液。</p>
+                </description>
+      <leveltext>
+                    <p>近战攻击时有 20% 几率刺击对手 <gametext>(=pv=<stat Name="StingerPen" /> =damage=<stat Name="StingerDamage" /></gametext>)</p>
+                    <p>毒刺属于长刃，并且只能穿透一次。</p>
+                    <p>冲锋或突刺时总会刺击。</p>
+                    <p>毒刺在造成伤害时施加毒液（如果毒刺是你的主武器，则只有 20% 几率）。</p>
+                    <p>可以使用“刺击”主动能力，以你的毒刺攻击并自动命中和穿透。</p>
+                    <statline Name="Cooldown" DisplayName="刺击冷却" />
+                    <p>毒液使对手中毒，持续 <stat Name="Duration" />（伤害增量 <stat Name="PoisonDamage" />）</p>
+                    <p>与 {{w|arachnids}} 的声望 +200</p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Thick Fur" DisplayName="厚毛皮" BearerDescription="厚毛者">
+      <description>
+                    <p>你覆盖着一层厚毛皮，能保护你免受元素侵害。</p>
+                    <p></p>
+                    <p>+5 热抗性</p>
+                    <p>+5 冷抗性</p>
+                    <p>与 {{w|apes}}、{{w|baboons}}、{{w|bears}} 和 {{w|grazing hedonists}} 的声望 +100</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Triple-jointed" DisplayName="三重关节" BearerDescription="三重关节者">
+      <description>
+                    <p>你的关节能比平常伸展得更远。</p>
+                </description>
+      <leveltext>
+                    <p>+<stat Name="Agility" /> 敏捷</p>
+                    <p>冲刺和以敏捷为前置条件的技能在使用后有 <stat Name="Chance" />% 几率不进入冷却</p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Two-headed" DisplayName="双头" BearerDescription="双头者">
+      <description>
+                    <p>你有两个头。</p>
+                </description>
+      <leveltext>
+                    <p>心灵动作的动作消耗降低 <stat Name="MentalActionDiscount" />%</p>
+                    <p>初始及每回合有 <stat Name="ShakeOff" />% 几率摆脱一个负面心灵状态效果</p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Two-hearted" DisplayName="双心" BearerDescription="双心者">
+      <description>
+                    <p>你有两颗心脏。</p>
+                </description>
+      <leveltext>
+                    <p>+<stat Name="Toughness" /> 坚韧</p>
+                    <p>你的冲刺持续时间延长 <stat Name="SprintBonus" />%。</p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Wings" DisplayName="翅膀" BearerDescription="有翼者">
+      <description>
+                    <!-- Will be replaced with blueprints VariantDescription if it exists. -->
+                    <p>你会飞。</p>
+                </description>
+      <leveltext>
+                    <p>你在世界地图上的旅行速度为 <stat Name="WorldMapTravelSpeed" /> 倍。</p>
+                    <p>迷路几率降低 <stat Name="LostSaveBonus" />%</p>
+                    <p>在户外时，你可以飞行。飞行时，地面生物不能用近战命中你。</p>
+                    <p>有 <stat Name="CrashChance" />% 几率笨拙地坠落到地面</p>
+                    <p>冲刺时移动速度 <stat Name="SprintingMoveSpeedBonus" Filters="signed" />%</p>
+                    <p>你能跳远 <stat Name="JumpDistanceBonus" Unit="格" />。</p>
+                    <p>你能冲锋得更远 <stat Name="ChargeDistanceBonus" Unit="格" />。</p>
+                    <p>与 {{w|birds}} 和 {{w|winged mammals}} 的声望 +300</p>
+                </leveltext>
+    </mutation>
+  </category>
+  <category Name="PhysicalDefects" DisplayName="{{R|物理缺陷}}">
+    <mutation Name="Albino" DisplayName="白化" BearerDescription="白化者">
+      <description>
+                    <p>你的皮肤、毛发和眼睛都缺乏色素。</p>
+                    <br />
+                    <p>在日光下，你的生命值再生速率只有通常的五分之一。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Amphibious" DisplayName="两栖" BearerDescription="两栖者">
+      <description>
+                    <p>你的皮肤必须用淡水保持湿润。</p>
+                    <br />
+                    <p>你通过把水浇在自己身上而非饮用来解渴。</p>
+                    <p>你所需的水量比平常多约三分之二。</p>
+                    <p>与 {{w|frogs}} 的声望 +100</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Brittle Bones" DisplayName="脆骨" BearerDescription="骨质脆弱者">
+      <description>
+                    <p>你的骨头很脆。</p>
+                    <br />
+                    <p>你受到的钝击攻击、坠落和其他震荡伤害增加 50%。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Nerve Poppy" DisplayName="神经罂粟" BearerDescription="无法感受疼痛者">
+      <description>
+                    <p>你的痛觉发育不完全。</p>
+                    <br />
+                    <p>你只知道自己的大致健康状态，而不知道精确生命值。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Carnivorous" DisplayName="肉食性" BearerDescription="肉食者">
+      <description>
+                    <p>你只吃肉。</p>
+                    <br />
+                    <p>非肉类食物不能让你获得饱足。</p>
+                    <p>如果你吃下非肉类生食，有 50% 几率生病 2 小时。</p>
+                    <p>你不能用植物或真菌食材烹饪。</p>
+                    <p>你吃生肉时不会生病。</p>
+                    <p>即使没有饥饿，你也可以吃生肉。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Cold-Blooded" DisplayName="冷血" BearerDescription="冷血者">
+      <description>
+                    <p>你的活力取决于你的体温；温度较高时，你更活跃。温度较低时，你更迟钝。</p>
+                    <br />
+                    <p>你的基础迅捷值降低 10。</p>
+                    <p>你的迅捷会随温度升高而提高，随温度降低而下降。</p>
+                    <p>与 {{w|unshelled reptiles}} 的声望 +100</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Electromagnetic Impulse" DisplayName="电磁冲动" BearerDescription="无法控制电磁脉冲者">
+      <description>
+                    <p>你会不由自主地释放电磁脉冲，使你周围的机器人和神器失效。</p>
+                    <br />
+                    <p>战斗中每回合有小几率释放半径 3 的电磁脉冲，使机器人和神器（包括你携带的那些）失效 11-20 回合。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Hooks for Feet" DisplayName="钩足" BearerDescription="以钩为足者">
+      <description>
+                    <!-- will be replaced by blueprint's VariantDescription property if it exists. -->
+                    <p>你的脚是 <stat Name="BlueprintName" />。</p>
+                    <br />
+                    <p>你不能穿鞋。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Irritable Genome" DisplayName="易激基因组" BearerDescription="基因组易激者">
+      <description>
+                    <p>你的基因组易激且不可预测。</p>
+                    <br />
+                    <p>每当你花费一个突变点时，你获得的下一个突变点会被随机花费。</p>
+                    <p>每当你购买新突变时，你会随机获得一个，而不是从三个选项中选择。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Myopic" DisplayName="近视" BearerDescription="近视者">
+      <description>
+                    <p>你是近视眼。</p>
+                    <br />
+                    <p>你最多只能看见半径 10 以内。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Spontaneous Combustion" DisplayName="自燃" BearerDescription="会自燃者">
+      <description>
+                    <p>你会自发燃起火焰。</p>
+                    <br />
+                    <p>战斗中每回合有小几率自发燃起火焰。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Tonic Allergy" DisplayName="药剂过敏" BearerDescription="过敏者">
+      <description>
+                    <p>你对药剂过敏。</p>
+                    <br />
+                    <p>你的突变生理对药剂产生不良反应的几率提高到 33%。</p>
+                    <p>如果你以这种方式对疗伤药膏或万能灵药产生不良反应，不良反应效果会从其他药剂效果中随机选择。你仍然会受到治疗。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+  </category>
+  <category Name="Mental" DisplayName="{{G|心灵突变}}">
+    <mutation Name="Beguiling" DisplayName="魅惑" BearerDescription="魅惑者" BiomeEpithet="赞颂">
+      <description>
+                    <p>你魅惑一个附近生物，让它忠诚地为你服务。</p>
+                </description>
+      <leveltext>
+                    <p>对有心智生物的心灵攻击</p>
+                    <p>成功掷骰：{{rules|突变阶级}} 或 自我修正（取较高者）+ 角色等级 + 1d8 对抗 防御者 MA + 角色等级</p>
+                    <statline Name="Range" DisplayName="射程" />
+                    <p>被魅惑生物：+<stat Name="BonusHP" /> 额外生命值</p>
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+    <mutation Name="Burgeoning" DisplayName="繁茂滋生" BearerDescription="心灵园丁" BiomeAdjective="繁茂滋生的">
+      <description>
+                    <p>你使附近区域自发长出植物，阻碍你的敌人。</p>
+                </description>
+      <leveltext>
+                    <statline Name="Range" DisplayName="射程" />
+                    <p>范围：<stat Name="Area" /> + 蔓延到相邻格</p>
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                    <switch Name="LevelMatch">
+                        <case Value="true" />
+                        <default><p>{{rules|召唤更强大的植物}}</p></default>
+                    </switch>
+                    <p>与 {{w|the Consortium of Phyta}} 的声望 +200</p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Clairvoyance" DisplayName="千里眼" BearerDescription="千里眼者" BiomeEpithet="全景监狱">
+      <description>你短暂获得附近区域的视野。</description>
+      <leveltext>
+                    <statline Name="VisionRadius" DisplayName="视野半径" />
+                    <statline Name="VisionDuration" DisplayName="视野持续时间" Unit="回合" />
+                    <statline Name="Cooldown" Unit="回合" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+    <mutation Name="Confusion" DisplayName="混乱" BearerDescription="谜语者" BiomeEpithet="心灵迷宫">
+      <description>你使附近敌人混乱。</description>
+      <leveltext>
+                    <p>受影响生物会半随机行动，并且其心灵能力受到 -<stat Name="Penalty" /> 惩罚。</p>
+                    <statline Name="ConeAngle" DisplayName="锥形角度" Unit="度" />
+                    <statline Name="ConeLength" DisplayName="锥形长度" />
+                    <statline Name="Duration" DisplayName="持续时间" />
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+    <mutation Name="Cryokinesis" DisplayName="控冰术" BearerDescription="冰术士" BiomeEpithet="霜冻草甸">
+      <description>你用意念冷却附近区域。</description>
+      <leveltext>
+                    <switch Name="LevelMatch">
+                        <case Value="true"><p>在 <stat Name="Duration" /> 内冷却受影响区域，造成伤害并冻结事物</p></case>
+                        <case Value="raise"><p>{{rules|提高冷却温度强度}}</p></case>
+                        <default><p>{{rules|降低冷却温度强度}}</p></default>
+                    </switch>
+                    <statline Name="Range" DisplayName="射程" />
+                    <statline Name="Area" DisplayName="范围" />
+                    <statline Name="DamageRound1" DisplayName="第 1 回合伤害" />
+                    <statline Name="DamageRound2" DisplayName="第 2 回合伤害" />
+                    <statline Name="DamageRound3" DisplayName="第 3 回合伤害" />
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+    <mutation Name="Disintegration" DisplayName="解离" BearerDescription="解离者" BiomeAdjective="快速共振的">
+      <description>你解离附近物质。</description>
+      <leveltext>
+                    <statline Name="Area" DisplayName="范围" />
+                    <statline Name="DamageNonStructural" DisplayName="对非结构物体伤害" />
+                    <statline Name="DamageStructural" DisplayName="对结构物体伤害" />
+                    <p>使用此能力后，你会疲惫 3 回合。</p>
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+    <mutation Name="Domination" DisplayName="支配" BearerDescription="支配他人意志者" BiomeEpithet="意志剧场">
+      <description>
+                    <p>你勒绞相邻生物的心智，并在自己的身体沉睡时控制其行动。</p>
+                </description>
+      <leveltext>
+                    <p>对有心智生物的心灵攻击</p>
+                    <p>成功掷骰：{{rules|突变阶级}} 或 自我修正（取较高者）+ 角色等级 + 1d8 对抗 防御者 MA + 角色等级</p>
+                    <p>射程：1</p>
+                    <statline Name="Duration" DisplayName="持续时间" />
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+    <mutation Name="Ego Projection" DisplayName="自我投射" BearerDescription="将自我投射到物理领域者" BiomeAdjective="心灵折射的">
+      <description>凭借纯粹意志力，你能完成不可思议的身体壮举。</description>
+      <leveltext>
+                    <p>增强一项物理属性，数值等于你自我加值的两倍</p>
+                    <statline Name="Duration" DisplayName="持续时间" />
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+    <mutation Name="Force Bubble" DisplayName="力泡" BearerDescription="泡泡族" BiomeAdjective="泡泡状的">
+      <description>你在自己周围生成一道力场。</description>
+      <leveltext>
+                    <p>生成以你为中心的 3x3 力场</p>
+                    <statline Name="Duration" DisplayName="持续时间" />
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                    <p>你可以穿过力场发射投射武器。</p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Force Wall" DisplayName="力墙" BearerDescription="力墙建筑师" BiomeEpithet="力之堡垒">
+      <description>你生成一道保护你免受敌人攻击的力墙。</description>
+      <leveltext>
+                    <p>创造 9 个相连格的固定力场。</p>
+                    <statline Name="Duration" DisplayName="持续时间" />
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                    <p>你可以穿过力场发射投射武器。</p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Kindle" DisplayName="点燃" BearerDescription="点火者" BiomeAdjective="引火的">
+      <description>
+                    <p>你用意念点燃一小团火。</p>
+                    <br />
+                    <statline Name="Range" DisplayName="射程" />
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Light Manipulation" DisplayName="光操纵" BearerDescription="操光者" BiomeAdjective="受照明的">
+      <description>
+                    <p>你操纵光线以取得优势。</p>
+                </description>
+      <leveltext>
+                    <p>你在半径 <stat Name="Radius" /> 内产生环境光。</p>
+                    <p>你可以将光聚焦成激光束，暂时使你的环境光半径减少 1。</p>
+                    <statline Name="LaserDamageInc" DisplayName="激光伤害增量" />
+                    <statline Name="LaserPen" DisplayName="激光穿透" />
+                    <p>环境光每 <stat Name="AmbientRegrowthDuration" Unit="回合" /> 恢复 1 单位，直到达到最大值。</p>
+                    <p>有 <stat Name="ReflectChance" />% 几率反射基于光的伤害</p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Mass Mind" DisplayName="集群心智" BearerDescription="接入集群心智者" BiomeEpithet="心智会盟">
+      <description>
+                    <p>你接入聚合心智，并从其他心灵术士那里窃取力量。</p>
+                </description>
+      <leveltext>
+                    <p>刷新所有心灵突变</p>
+                    <statline Name="CooldownNoWillpower" Unit="回合" DisplayName="无意志冷却" />
+                    <p>冷却不受意志影响。</p>
+                    <p>每次使用都会稍微吸引更多心灵闯入者的注意。</p>
+                    <switch Name="LevelMatch">
+                        <case Value="true"><p>每回合有小几率让另一名心灵术士窃取你的力量</p></case>
+                        <default><p>{{rules|降低另一名心灵术士窃取你力量的几率}}</p></default>
+                    </switch>
+                    <p>与 {{w|the Seekers of the Sightless Way}} 的声望 -200</p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Mental Mirror" DisplayName="心灵镜" BearerDescription="心灵反射者" BiomeEpithet="镜原">
+      <description>
+                    <p>你将心灵攻击反射回攻击者。</p>
+                </description>
+      <leveltext>
+                    <p>当心灵镜不在冷却中且你受到心灵攻击时，你获得 +<stat Name="BonusMA" /> 心灵护甲（MA）。</p>
+                    <p>如果该攻击随后未能穿透你的 MA，它会被反射回攻击者。</p>
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+    <mutation Name="Precognition" DisplayName="预知" BearerDescription="预见者" BiomeEpithet="未来遗址">
+      <description>
+                    <p>你窥见自己的近未来。</p>
+                </description>
+      <leveltext>
+                    <p>你可以激活此能力，并在之后回溯到你激活它时的时间点。</p>
+                    <p>使用到回溯之间的持续时间：<stat Name="Duration" /></p>
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+    <mutation Name="Psychometry" DisplayName="心灵测量" BearerDescription="心灵测量敏感者" BiomeAdjective="逆知的">
+      <description>
+                    <p>你通过触摸神器来读取其历史，了解它们的作用以及制造方式。</p>
+                </description>
+      <leveltext>
+                    <p>准确无误地鉴定复杂度层级不超过 <stat Name="IdentifyComplexity" /> 的神器。</p>
+                    <p>学习如何制造复杂度层级不超过 <stat Name="ConstructComplexity" /> 的已鉴定神器（必须拥有相应的修补技能）。</p>
+                    <p>你可以通过触摸打开安全门并使用某些安全设备。</p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Pyrokinesis" DisplayName="控火术" BearerDescription="火术士" BiomeEpithet="火焰草甸">
+      <description>
+                    <p>你用意念加热附近区域。</p>
+                </description>
+      <leveltext>
+                    <switch Name="LevelMatch">
+                        <case Value="true"><p>在 3 回合内灼烤受影响区域</p></case>
+                        <case Value="raise"><p>{{rules|提高灼烤温度强度}}</p></case>
+                        <default><p>{{rules|降低灼烤温度强度}}</p></default>
+                    </switch>
+                    <statline Name="Range" DisplayName="射程" />
+                    <statline Name="Area" DisplayName="范围" />
+                    <statline Name="DamageRound1" DisplayName="第 1 回合伤害" />
+                    <statline Name="DamageRound2" DisplayName="第 2 回合伤害" />
+                    <statline Name="DamageRound3" DisplayName="第 3 回合伤害" />
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+    <mutation Name="Sense Psychic" DisplayName="感知灵能" BearerDescription="心灵敏感者" BiomeAdjective="裸露的">
+      <description>
+                    <p>你能通过心灵以太感知其他心灵突变者。</p>
+                    <br />
+                    <p>你探测半径 <stat Name="Radius" /> 内灵能敌人的存在。</p>
+                    <p>你有几率识别探测到的敌人。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Spacetime Vortex" DisplayName="时空涡旋" BearerDescription="折叠空间者" BiomeAdjective="扭曲的">
+      <description>
+                    <p>你撕裂时空，使附近事物跌撞穿过宇宙织构上的裂口。</p>
+                </description>
+      <leveltext>
+                    <p>召唤一个吞噬路径上一切事物的涡旋。</p>
+                    <statline Name="BonusDuration" DisplayName="额外持续时间" Unit="回合" HideValue="0" />
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                    <p>你可以进入涡旋，传送到 Qud 中的随机地点。</p>
+                    <p>与 {{w|highly entropic beings}} 的声望 +200</p>
+                </leveltext>
+    </mutation>
+    <mutation Name="Stunning Force" DisplayName="震晕力" BearerDescription="念动力者" BiomeAdjective="念动力的">
+      <description>
+                    <p>你在附近区域唤起震荡力，将敌人击退并震晕。</p>
+                </description>
+      <leveltext>
+                    <statline Name="Range" DisplayName="射程" />
+                    <statline Name="Area" DisplayName="范围" />
+                    <switch Name="LevelMatch">
+                        <case Value="true"><p>生物被从爆炸中心推开、震晕，并受到最多 3 个增量的碾压伤害。</p></case>
+                        <default><p>{{rules|提高震晕豁免难度}}</p></default>
+                    </switch>
+                    <statline Name="DamageIncrement" DisplayName="伤害增量" />
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+    <mutation Name="Sunder Mind" DisplayName="心智撕裂" BearerDescription="心智撕裂者" BiomeEpithet="灵能墓地">
+      <description>
+                    <p>你撕裂敌人的心智，让它在痛苦中踉跄。</p>
+                </description>
+      <leveltext>
+                    <p>最多 10 回合内，你与一名对手进行灵能战斗，每回合造成伤害。</p>
+                    <p>采取跳过回合以外的任何行动都会中断连接。</p>
+                    <p>每回合你进行一次心灵攻击，对抗心灵护甲（MA）。</p>
+                    <statline Name="DamageIncrement" DisplayName="伤害增量" />
+                    <p>第十回合后，你造成等于至今已造成伤害总量的额外伤害。</p>
+                    <statline Name="Range" DisplayName="射程" />
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+    <mutation Name="Syphon Vim" DisplayName="汲取活力" BearerDescription="生命蛭" BiomeEpithet="屠戮场">
+      <description>
+                    <p>你与附近有机生物建立连结，并吸取其生命力。</p>
+                </description>
+      <leveltext>
+                    <p>对有机生物的心灵攻击</p>
+                    <p>每回合吸取 <stat Name="HP" Unit="生命值" /></p>
+                    <p>目标每回合获得一次心灵豁免以抵抗伤害</p>
+                    <statline Name="Duration" DisplayName="持续时间" />
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+    <mutation Name="Telepathy" DisplayName="心灵感应" BearerDescription="心灵感应者" BiomeAdjective="心灵感应的">
+      <description>
+                    <p>你可以通过心灵以太与他人交流。</p>
+                    <br />
+                    <p>与视野内任何人交谈</p>
+                    <p>你向同伴下达命令所需时间大幅减少</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Teleportation" DisplayName="传送" BearerDescription="传送者" BiomeEpithet="时空喀斯特">
+      <description>
+                    <p>你传送到附近地点。</p>
+                </description>
+      <leveltext>
+                    <p>传送到指定区域内的随机地点。</p>
+                    <statline Name="UncertaintyRadius" DisplayName="不确定半径" />
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+    <mutation Name="Teleport Other" DisplayName="传送他者" BearerDescription="传送他人者" BiomeEpithet="隐修地">
+      <description>
+                    <p>你将相邻生物传送到附近随机地点。</p>
+                </description>
+      <leveltext>
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+    <mutation Name="Time Dilation" DisplayName="时间膨胀" BearerDescription="时间膨胀者" BiomeEpithet="时间棱镜">
+      <description>
+                    <p>你扭曲自己周围的时间，减缓敌人。</p>
+                </description>
+      <leveltext>
+                    <p><stat Name="Range" /> 格内的生物会根据其与你的距离被减速。</p>
+                    <p>距离 1：生物受到 <stat Name="QuicknessPenalty1" />% 迅捷惩罚</p>
+                    <p>距离 4：生物受到 <stat Name="QuicknessPenalty4" />% 迅捷惩罚</p>
+                    <p>距离 7：生物受到 <stat Name="QuicknessPenalty7" />% 迅捷惩罚</p>
+                    <statline Name="Duration" DisplayName="持续时间" />
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+    <mutation Name="Temporal Fugue" DisplayName="时间赋格" BearerDescription="时间逃逸者" BiomeEpithet="时空枢纽">
+      <description>
+                    <p>你快速来回穿越时间，创造出多个自己的复制体。</p>
+                </description>
+      <leveltext>
+                    <statline Name="Duration" DisplayName="持续时间" />
+                    <statline Name="Copies" DisplayName="复制体" />
+                    <statline Name="Cooldown" DisplayName="冷却" />
+                </leveltext>
+    </mutation>
+  </category>
+  <category Name="MentalDefects" DisplayName="{{R|心灵缺陷}}">
+    <mutation Name="Amnesia" DisplayName="健忘" BearerDescription="无法记忆者" BiomeAdjective="无过去的">
+      <description>
+                    <p>你会遗忘事物和地点。</p>
+                    <br />
+                    <p>每当你学到一个新秘密时，有小几率忘记一个秘密。</p>
+                    <p>每当你返回曾经到访的地图时，有小几率忘记其布局。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Blinking Tic" DisplayName="闪现抽动" BearerDescription="强迫性传送者" BiomeAdjective="闪现的">
+      <description>
+                    <p>你会不受控制地四处传送。</p>
+                    <br />
+                    <p>战斗中每回合有小几率随机传送到附近地点。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Dystechnia" DisplayName="技术障碍" BearerDescription="被技术复杂性困惑者" BiomeAdjective="退化的">
+      <description>
+                    <p>技术复杂性会让你困惑。</p>
+                    <br />
+                    <p>你检查神器的能力差得多。</p>
+                    <p>你不能让别人替你鉴定神器，因为你听不懂他们的解释。</p>
+                    <p>当你在神器检查中严重失败时，该神器会爆炸。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Evil Twin" DisplayName="邪恶孪生" BearerDescription="拥有二重身者" BiomeEpithet="自我会盟">
+      <description>
+                    <p>受某种不可解冲动驱使，一个平行版本的你穿越时空而来，要毁灭你。</p>
+                    <br />
+                    <p>每当你启程前往新地点时，有小几率你的邪恶孪生已追踪你到那里，并试图杀死你。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Narcolepsy" DisplayName="嗜睡症" BearerDescription="嗜睡者" BiomeAdjective="困倦的">
+      <description>
+                    <p>你会不时不由自主地睡着。</p>
+                    <br />
+                    <p>战斗中每回合有小几率睡着 20-29 回合。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Psionic Migraines" DisplayName="灵能偏头痛" BearerDescription="遭受灵能偏头痛者" BiomeAdjective="喧鸣的">
+      <description>
+                    <p>你患有强烈的灵能偏头痛，使你的头部极度敏感。</p>
+                    <br />
+                    <p>你不能戴帽子或头盔。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Quantum Jitters" DisplayName="量子抖动" BearerDescription="量子不确定者" BiomeAdjective="抖动的">
+      <description>
+                    <p>你的有意行为有时会压凹时空。</p>
+                    <br />
+                    <p>每当你使用主动能力时，有小几率因注意力滑脱而压凹局部区域的时空，导致 1-2 个时空涡旋出现。你越久不使用主动能力，此几率越高。</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+    <mutation Name="Socially Repugnant" DisplayName="社交厌斥" BearerDescription="社交厌斥者" BiomeEpithet="卑劣会盟">
+      <description>
+                    <p>他人在社交场合很难忍受你。</p>
+                    <br />
+                    <p>与所有派系的声望 -50</p>
+                </description>
+      <leveltext></leveltext>
+    </mutation>
+  </category>
+</mutations>

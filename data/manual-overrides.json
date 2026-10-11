@@ -1,0 +1,2050 @@
+[
+  {
+    "file": "ChiliadFactions.example.xml",
+    "path": "((('faction', (('Name', 'Chiliad Mamon'),), 1),), 'DisplayName')",
+    "source": "Grandchildren of Mamon",
+    "previous": "Mamon 的孙辈",
+    "translation": "玛蒙 的孙辈",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Creatures.example.xml",
+    "path": "((('object', (('Name', 'FungusPuffer'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "{{Y|brooding puff}}",
+    "previous": "{{Y|孵育 puff}}",
+    "translation": "{{Y|孵育 泡菇}}",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Creatures.example.xml",
+    "path": "((('object', (('Name', 'FungusPuffer1'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "{{W|brooding goldpuff}}",
+    "previous": "{{W|孵育金孢 puff}}",
+    "translation": "{{W|孵育金孢 泡菇}}",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Creatures.example.xml",
+    "path": "((('object', (('Name', 'FungusPuffer1'),), 1), ('part', (('Name', 'Description'),), 1)), 'Short')",
+    "source": "Auric gills tense and release, tense and release, tense and release, as if drawing breath into the puffer's stem. With each exhalation it belches a cloud of golden spores like motes of sunlight. They flutter back to the cap and congeal into a golden plasma.",
+    "previous": "金色菌褶绷紧又松开，绷紧又松开，绷紧又松开，仿佛在把气息吸入 puff 的柄中。每一次呼气，它都喷出一团金色孢子，如阳光微尘。它们飘回菌盖，凝成金色浆质。",
+    "translation": "金色菌褶绷紧又松开，绷紧又松开，绷紧又松开，仿佛在把气息吸入 泡菇 的柄中。每一次呼气，它都喷出一团金色孢子，如阳光微尘。它们飘回菌盖，凝成金色浆质。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Creatures.example.xml",
+    "path": "((('object', (('Name', 'FungusPuffer2'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "{{B|brooding azurepuff}}",
+    "previous": "{{B|孵育蔚蓝 puff}}",
+    "translation": "{{B|孵育蔚蓝 泡菇}}",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Creatures.example.xml",
+    "path": "((('object', (('Name', 'FungusPuffer2'),), 1), ('part', (('Name', 'Description'),), 1)), 'Short')",
+    "source": "Azure gills tense and release, tense and release, tense and release, as if drawing breath into the puffer's stem. With each exhalation it belches a cloud of indigo spores like motes of twilight. They flutter back to the cap and congeal into an azure plasma.",
+    "previous": "蔚蓝菌褶绷紧又松开，绷紧又松开，绷紧又松开，仿佛在把气息吸入 puff 的柄中。每一次呼气，它都喷出一团靛蓝孢子，如暮光微尘。它们飘回菌盖，凝成蔚蓝浆质。",
+    "translation": "蔚蓝菌褶绷紧又松开，绷紧又松开，绷紧又松开，仿佛在把气息吸入 泡菇 的柄中。每一次呼气，它都喷出一团靛蓝孢子，如暮光微尘。它们飘回菌盖，凝成蔚蓝浆质。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Creatures.example.xml",
+    "path": "((('object', (('Name', 'FungusPuffer3'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "{{R|brooding rosepuff}}",
+    "previous": "{{R|孵育玫瑰 puff}}",
+    "translation": "{{R|孵育玫瑰 泡菇}}",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Creatures.example.xml",
+    "path": "((('object', (('Name', 'FungusPuffer3'),), 1), ('part', (('Name', 'Description'),), 1)), 'Short')",
+    "source": "Rose gills tense and release, tense and release, tense and release, as if drawing breath into the puffer's stem. With each exhalation it belches a cloud of ruby spores like motes of twilight. They flutter back to the cap and congeal into a rose plasma.",
+    "previous": "玫瑰色菌褶绷紧又松开，绷紧又松开，绷紧又松开，仿佛在把气息吸入 puff 的柄中。每一次呼气，它都喷出一团红宝石色孢子，如暮光微尘。它们飘回菌盖，凝成玫瑰色浆质。",
+    "translation": "玫瑰色菌褶绷紧又松开，绷紧又松开，绷紧又松开，仿佛在把气息吸入 泡菇 的柄中。每一次呼气，它都喷出一团红宝石色孢子，如暮光微尘。它们飘回菌盖，凝成玫瑰色浆质。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Creatures.example.xml",
+    "path": "((('object', (('Name', 'FungusPuffer4'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "{{g|brooding jadepuff}}",
+    "previous": "{{g|孵育碧玉 puff}}",
+    "translation": "{{g|孵育碧玉 泡菇}}",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Creatures.example.xml",
+    "path": "((('object', (('Name', 'FungusPuffer4'),), 1), ('part', (('Name', 'Description'),), 1)), 'Short')",
+    "source": "Jade gills tense and release, tense and release, tense and release, as if drawing breath into the puffer's stem. With each exhalation it belches a cloud of emerald spores like motes of twilight. They flutter back to the cap and congeal into a jade plasma.",
+    "previous": "碧玉色菌褶绷紧又松开，绷紧又松开，绷紧又松开，仿佛在把气息吸入 puff 的柄中。每一次呼气，它都喷出一团翡翠色孢子，如暮光微尘。它们飘回菌盖，凝成碧玉浆质。",
+    "translation": "碧玉色菌褶绷紧又松开，绷紧又松开，绷紧又松开，仿佛在把气息吸入 泡菇 的柄中。每一次呼气，它都喷出一团翡翠色孢子，如暮光微尘。它们飘回菌盖，凝成碧玉浆质。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Creatures.example.xml",
+    "path": "((('object', (('Name', 'Deep Slumberling'),), 1), ('part', (('Name', 'Description'),), 1)), 'Short')",
+    "source": "Four chambers of a stone-flesh dorsal hump swell with dozing breath like a mound of quaking earth-rubble. Fore and hind paws the size of kite sails are tipped with bowed claws, and shag fur dresses =pronouns.possessive= heavy-lidded eyes of amber.",
+    "previous": "石肉背峰的四个腔室随瞌睡的呼吸膨胀，像一堆震颤的土石瓦砾。风筝帆大小的前后爪尖端生着弯爪，粗 shag 毛覆在=pronouns.possessive=沉重眼睑下的琥珀眼睛周围。",
+    "translation": "石肉背峰的四个腔室随瞌睡的呼吸膨胀，像一堆震颤的土石瓦砾。风筝帆大小的前后爪尖端生着弯爪，粗 长毛 毛覆在=pronouns.possessive=沉重眼睑下的琥珀眼睛周围。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Data.example.xml",
+    "path": "((('object', (('Name', 'BitType_7_Y_Data'),), 1), ('tag', (('Name', 'DisplayName'),), 1)), 'Value')",
+    "source": "{{Y|AI microcontrollers}}",
+    "previous": "{{Y|AI 微控制器}}",
+    "translation": "{{Y|人工智能 微控制器}}",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "EmbarkModules.example.xml",
+    "path": "((('module', (('Class', 'XRL.CharacterBuilds.Qud.QudGamemodeModule'),), 1), ('modes', (), 1), ('mode', (('ID', 'Tutorial'),), 1), ('description', (), 1)), '#text')",
+    "source": "\n          Learn the basics of Caves of Qud.\n              ",
+    "previous": "\n          学习《Caves of Qud》的基础。\n              ",
+    "translation": "\n          学习《库德洞窟》的基础。\n              ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "EmbarkModules.example.xml",
+    "path": "((('module', (('Class', 'XRL.CharacterBuilds.Qud.QudGamemodeModule'),), 1), ('modes', (), 1), ('mode', (('ID', 'Wander'),), 1), ('description', (), 1)), '#text')",
+    "source": "\n          {{c|∙}} Most creatures begin neutral to you.\n          {{c|∙}} No XP for killing.\n          {{c|∙}} More XP for discoveries and performing the water ritual.\n          {{c|∙}} Checkpointing at settlements.\n              ",
+    "previous": "\n          {{c|∙}} 大多数生物一开始对你中立。\n          {{c|∙}} 杀戮不提供 XP。\n          {{c|∙}} 发现事物和执行水仪式可获得更多 XP。\n          {{c|∙}} 在定居点设置检查点。\n              ",
+    "translation": "\n          {{c|∙}} 大多数生物一开始对你中立。\n          {{c|∙}} 杀戮不提供 经验。\n          {{c|∙}} 发现事物和执行水仪式可获得更多 经验。\n          {{c|∙}} 在定居点设置检查点。\n              ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "EmbarkModules.example.xml",
+    "path": "((('module', (('Class', 'XRL.CharacterBuilds.Qud.QudChooseStartingLocationModule'),), 1), ('locations', (), 1), ('location', (('ID', 'JoppaTutorial'),), 1), ('description', (), 1)), '#text')",
+    "source": "\n          You arrive at the outskirts of Qud.\n              ",
+    "previous": "\n          你抵达 Qud 的边缘。\n              ",
+    "translation": "\n          你抵达 库德 的边缘。\n              ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Factions.example.xml",
+    "path": "((('faction', (('Name', 'Joppa'),), 1),), 'DisplayName')",
+    "source": "villagers of Joppa",
+    "previous": "Joppa 村民",
+    "translation": "约帕 村民",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Factions.example.xml",
+    "path": "((('faction', (('Name', 'Kyakukya'),), 1),), 'DisplayName')",
+    "source": "villagers of Kyakukya",
+    "previous": "Kyakukya 村民",
+    "translation": "基亚库亚 村民",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Factions.example.xml",
+    "path": "((('faction', (('Name', 'Ezra'),), 1),), 'DisplayName')",
+    "source": "villagers of Ezra",
+    "previous": "Ezra 村民",
+    "translation": "以斯拉 村民",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Factions.example.xml",
+    "path": "((('faction', (('Name', 'Naphtaali'),), 1),), 'DisplayName')",
+    "source": "Naphtaali tribe",
+    "previous": "Naphtaali 部族",
+    "translation": "拿弗他利 部族",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Factions.example.xml",
+    "path": "((('faction', (('Name', 'Issachari'),), 1),), 'DisplayName')",
+    "source": "Issachari tribe",
+    "previous": "Issachari 部族",
+    "translation": "伊萨查里 部族",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Factions.example.xml",
+    "path": "((('faction', (('Name', 'Hindren'),), 1),), 'DisplayName')",
+    "source": "hindren of Bey Lah",
+    "previous": "Bey Lah 的 hindren",
+    "translation": "贝拉赫 的 兴德伦",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Factions.example.xml",
+    "path": "((('faction', (('Name', 'Mamon'),), 1),), 'DisplayName')",
+    "source": "Children of Mamon",
+    "previous": "Mamon 之子",
+    "translation": "玛蒙 之子",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Factions.example.xml",
+    "path": "((('faction', (('Name', 'YdFreehold'),), 1),), 'DisplayName')",
+    "source": "denizens of the Yd Freehold",
+    "previous": "Yd 自由领居民",
+    "translation": "伊德 自由领居民",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Factions.example.xml",
+    "path": "((('faction', (('Name', 'Chavvah'),), 1),), 'DisplayName')",
+    "source": "Chavvah, the Tree of Life",
+    "previous": "生命之树 Chavvah",
+    "translation": "生命之树 查瓦",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Foods.example.xml",
+    "path": "((('object', (('Name', 'Qudzu Stem'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "{{r|qudzu stem}}",
+    "previous": "{{r|Qud 葛茎}}",
+    "translation": "{{r|库德 葛茎}}",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "HiddenObjects.example.xml",
+    "path": "((('object', (('Name', 'Prism Girshling'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "prism girshling",
+    "previous": "棱晶 Girsh 幼体",
+    "translation": "棱晶 吉尔什 幼体",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "HiddenObjects.example.xml",
+    "path": "((('object', (('Name', 'Barathrum Hologram'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "hologram of Barathrum",
+    "previous": "Barathrum 的全息影像",
+    "translation": "巴拉瑟姆 的全息影像",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "HiddenObjects.example.xml",
+    "path": "((('object', (('Name', 'Barathrum Hologram'),), 1), ('part', (('Name', 'Description'),), 1)), 'Short')",
+    "source": "The bright countenance and mane of short quills on the young urshiib cut through even a canvas of fraying light. His shoulders are drawn back with fresh purpose, and his eyes pierce the foreground with a laser's precision.",
+    "previous": "年轻 urshiib 明亮的面容与短刺鬃毛，即使在磨散的光幕中也格外醒目。他双肩后展，带着新鲜目的，目光以激光般精准刺入前景。",
+    "translation": "年轻 乌尔希布 明亮的面容与短刺鬃毛，即使在磨散的光幕中也格外醒目。他双肩后展，带着新鲜目的，目光以激光般精准刺入前景。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "HiddenObjects.example.xml",
+    "path": "((('object', (('Name', 'Resheph Hologram'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "hologram of Resheph, the Above",
+    "previous": "上者 Resheph 的全息影像",
+    "translation": "上者 雷谢夫 的全息影像",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "HiddenObjects.example.xml",
+    "path": "((('object', (('Name', 'Chiliad Slynth Joppa'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "slynth irrigator",
+    "previous": "slynth 灌溉者",
+    "translation": "斯林斯 灌溉者",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "HiddenObjects.example.xml",
+    "path": "((('object', (('Name', 'Chiliad Slynth Grit Gate'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "slynth wrenchmonk",
+    "previous": "slynth 扳手修士",
+    "translation": "斯林斯 扳手修士",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "HiddenObjects.example.xml",
+    "path": "((('object', (('Name', 'Chiliad Slynth Bey Lah'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "slynth scout",
+    "previous": "slynth 斥候",
+    "translation": "斯林斯 斥候",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "HiddenObjects.example.xml",
+    "path": "((('object', (('Name', 'Chiliad Slynth Kyakukya'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "slynth cidermouth",
+    "previous": "slynth 苹果酒口",
+    "translation": "斯林斯 苹果酒口",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "HiddenObjects.example.xml",
+    "path": "((('object', (('Name', 'Chiliad Slynth Ezra'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "slynth exile",
+    "previous": "slynth 流亡者",
+    "translation": "斯林斯 流亡者",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "HiddenObjects.example.xml",
+    "path": "((('object', (('Name', 'Chiliad Slynth Yd Freehold'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "slynth piper",
+    "previous": "slynth 吹笛者",
+    "translation": "斯林斯 吹笛者",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "HiddenObjects.example.xml",
+    "path": "((('object', (('Name', 'Chiliad Slynth Mechanimists'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "slynth cantor",
+    "previous": "slynth 领唱者",
+    "translation": "斯林斯 领唱者",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "HiddenObjects.example.xml",
+    "path": "((('object', (('Name', 'Chiliad Slynth Mopango'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "slynth friend",
+    "previous": "slynth 朋友",
+    "translation": "斯林斯 朋友",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "HiddenObjects.example.xml",
+    "path": "((('object', (('Name', 'Chiliad Slynth Chavvah'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "crystal slynth",
+    "previous": "水晶 slynth",
+    "translation": "水晶 斯林斯",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "HiddenObjects.example.xml",
+    "path": "((('object', (('Name', 'Chiliad Slynth Village'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "slynth villager",
+    "previous": "slynth 村民",
+    "translation": "斯林斯 村民",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "HiddenObjects.example.xml",
+    "path": "((('object', (('Name', 'Godling'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "Girsh godling",
+    "previous": "Girsh 幼神",
+    "translation": "吉尔什 幼神",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "HiddenObjects.example.xml",
+    "path": "((('object', (('Name', 'True Godling'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "Girsh godling",
+    "previous": "Girsh 幼神",
+    "translation": "吉尔什 幼神",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "InventoryActions.example.xml",
+    "path": "((('inventoryAction', (('Name', 'DebugShowAttitude'),), 1), ('display', (), 1)), '#text')",
+    "source": "show attitude {{K|[debug]}}",
+    "previous": "显示态度 {{K|[debug]}}",
+    "translation": "显示态度 {{K|[调试]}}",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "InventoryActions.example.xml",
+    "path": "((('inventoryAction', (('Name', 'DebugEnableThinkOutLoud'),), 1), ('display', (), 1)), '#text')",
+    "source": "enable think out loud {{K|[debug]}}",
+    "previous": "启用大声思考 {{K|[debug]}}",
+    "translation": "启用大声思考 {{K|[调试]}}",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "InventoryActions.example.xml",
+    "path": "((('inventoryAction', (('Name', 'DebugDisableThinkOutLoud'),), 1), ('display', (), 1)), '#text')",
+    "source": "disable think out loud {{K|[debug]}}",
+    "previous": "禁用大声思考 {{K|[debug]}}",
+    "translation": "禁用大声思考 {{K|[调试]}}",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "InventoryActions.example.xml",
+    "path": "((('inventoryAction', (('Name', 'ShowInternals'),), 1), ('display', (), 1)), '#text')",
+    "source": "show internals {{K|[debug]}}",
+    "previous": "显示内部结构 {{K|[debug]}}",
+    "translation": "显示内部结构 {{K|[调试]}}",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Items.example.xml",
+    "path": "((('object', (('Name', 'EMPGrenade1'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "{{B|EMP}} grenade mk I",
+    "previous": "{{B|EMP}}手雷 Mk I",
+    "translation": "{{B|电磁脉冲}}手雷 Mk I",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Items.example.xml",
+    "path": "((('object', (('Name', 'EMPGrenade2'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "{{B|EMP}} grenade mk II",
+    "previous": "{{B|EMP}}手雷 Mk II",
+    "translation": "{{B|电磁脉冲}}手雷 Mk II",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Items.example.xml",
+    "path": "((('object', (('Name', 'EMPGrenade3'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "{{B|EMP}} grenade mk III",
+    "previous": "{{B|EMP}}手雷 Mk III",
+    "translation": "{{B|电磁脉冲}}手雷 Mk III",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Items.example.xml",
+    "path": "((('object', (('Name', 'TauDagger'),), 1), ('part', (('Name', 'RulesDescription'),), 1)), 'Text')",
+    "source": "Attacks MA instead of AV.",
+    "previous": "攻击 MA 而非 AV。",
+    "translation": "攻击 精神护甲 而非 护甲。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Items.example.xml",
+    "path": "((('object', (('Name', 'SingleSkillsoft1'),), 1), ('part', (('Name', 'CyberneticsBaseItem'),), 1)), 'BehaviorDescription')",
+    "source": "You gain a skill whose cost is between 0 and 50 SP.",
+    "previous": "你获得一项花费介于 0 到 50 SP 的技能。",
+    "translation": "你获得一项花费介于 0 到 50 技能点 的技能。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Items.example.xml",
+    "path": "((('object', (('Name', 'SingleSkillsoft2'),), 1), ('part', (('Name', 'CyberneticsBaseItem'),), 1)), 'BehaviorDescription')",
+    "source": "You gain a skill whose cost is between 51 and 150 SP.",
+    "previous": "你获得一项花费介于 51 到 150 SP 的技能。",
+    "translation": "你获得一项花费介于 51 到 150 技能点 的技能。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Items.example.xml",
+    "path": "((('object', (('Name', 'MedassistModule'),), 1), ('part', (('Name', 'CyberneticsBaseItem'),), 1)), 'BehaviorDescription')",
+    "source": "Reduces the action cost of applying injectors by 80%.\nCan be loaded with up to 8 injectors, which the medassist module AI will automatically apply when appropriate (at its own discretion) for no action cost.",
+    "previous": "使用注射器的动作消耗降低 80%。\n最多可装载 8 支注射器，医疗辅助模块 AI 会在适当时机（由其自行判断）自动使用，且不消耗动作。",
+    "translation": "使用注射器的动作消耗降低 80%。\n最多可装载 8 支注射器，医疗辅助模块 人工智能 会在适当时机（由其自行判断）自动使用，且不消耗动作。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Items.example.xml",
+    "path": "((('object', (('Name', 'SingleSkillsoft3'),), 1), ('part', (('Name', 'CyberneticsBaseItem'),), 1)), 'BehaviorDescription')",
+    "source": "You gain a skill whose cost is greater than 151 SP.",
+    "previous": "你获得一项花费大于 151 SP 的技能。",
+    "translation": "你获得一项花费大于 151 技能点 的技能。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Items.example.xml",
+    "path": "((('object', (('Name', 'ReactiveTraumaPlate'),), 1), ('part', (('Name', 'CyberneticsBaseItem'),), 1)), 'BehaviorDescription')",
+    "source": "Neutralizes one damage source that would cause a lethal amount of damage or deal at least 50% of your max HP. This implant is destroyed in the process.",
+    "previous": "中和一次会造成致命伤害，或至少造成你最大 HP 50% 伤害的伤害来源。这个植入物会在过程中被摧毁。",
+    "translation": "中和一次会造成致命伤害，或至少造成你最大 生命 50% 伤害的伤害来源。这个植入物会在过程中被摧毁。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Items.example.xml",
+    "path": "((('object', (('Name', 'BiodynamicPowerPlant'),), 1), ('part', (('Name', 'CyberneticsBaseItem'),), 1)), 'BehaviorDescription')",
+    "source": "Provides a continuous 5000 units of charge per turn to equipped items that can access onboard power systems, such as items with the Jacked mod.",
+    "previous": "每回合向可接入机载供能系统的已装备物品持续提供 5000 单位充能，例如带有 Jacked 改造的物品。",
+    "translation": "每回合向可接入机载供能系统的已装备物品持续提供 5000 单位充能，例如带有 接线 改造的物品。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Items.example.xml",
+    "path": "((('object', (('Name', 'Scrap 7'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "dysfunctional AI master unit",
+    "previous": "故障 AI 主控单元",
+    "translation": "故障 人工智能 主控单元",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Items.example.xml",
+    "path": "((('object', (('Name', 'ShadeOilTonic'),), 1), ('part', (('Name', 'RulesDescription'),), 1)), 'Text')",
+    "source": "Duration: 41-50 rounds\n+8 DV\nThere is a 25% chance per round that you phase out of the spatial dimension for 1-3 rounds.",
+    "previous": "持续时间：41-50 回合\n+8 DV\n每回合有 25% 的几率使你相移出空间维度，持续 1-3 回合。",
+    "translation": "持续时间：41-50 回合\n+8 闪避\n每回合有 25% 的几率使你相移出空间维度，持续 1-3 回合。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Items.example.xml",
+    "path": "((('object', (('Name', 'ShadeOilTonic'),), 1), ('part', (('Name', 'RulesDescription'),), 1)), 'GenotypeAlt')",
+    "source": "Duration: 41-50 rounds\n+8 DV\nYou gain the ability to phase out of the spatial dimension for 7-9 rounds.",
+    "previous": "持续时间：41-50 回合\n+8 DV\n你获得相移出空间维度 7-9 回合的能力。",
+    "translation": "持续时间：41-50 回合\n+8 闪避\n你获得相移出空间维度 7-9 回合的能力。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Items.example.xml",
+    "path": "((('object', (('Name', 'RubbergumTonic'),), 1), ('part', (('Name', 'RulesDescription'),), 1)), 'Text')",
+    "source": "Duration: 41-50 rounds\n+100 electric resistance\n+25 cold resistance\n-1 AV\n+5 to saves vs. being restrained.\n-5 to saves vs. bleeding.\nYou only suffer half damage from bludgeoning attacks.\nYou only suffer half damage from falling.\nYou cannot be grabbed.",
+    "previous": "持续时间：41-50 回合\n+100 电抗性\n+25 冷抗性\n-1 AV\n对抗被束缚的豁免 +5。\n对抗流血的豁免 -5。\n你只承受钝击攻击的一半伤害。\n你只承受坠落的一半伤害。\n你不会被抓住。",
+    "translation": "持续时间：41-50 回合\n+100 电抗性\n+25 冷抗性\n-1 护甲\n对抗被束缚的豁免 +5。\n对抗流血的豁免 -5。\n你只承受钝击攻击的一半伤害。\n你只承受坠落的一半伤害。\n你不会被抓住。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Items.example.xml",
+    "path": "((('object', (('Name', 'RubbergumTonic'),), 1), ('part', (('Name', 'RulesDescription'),), 1)), 'GenotypeAlt')",
+    "source": "Duration: 41-50 rounds\n+100 electric resistance\n+50 cold resistance\n-1 AV\n+5 to saves vs. being restrained.\n-5 to saves vs. bleeding.\nYou only suffer 25% damage from bludgeoning attacks.\nYou only suffer 25% damage from falling.\nYou cannot be grabbed.\nThese effects stack if multiple rubbergums are ingested.",
+    "previous": "持续时间：41-50 回合\n+100 电抗性\n+50 冷抗性\n-1 AV\n对抗被束缚的豁免 +5。\n对抗流血的豁免 -5。\n你只承受钝击攻击 25% 的伤害。\n你只承受坠落 25% 的伤害。\n你不会被抓住。\n如果摄入多个胶胶糖，这些效果会叠加。",
+    "translation": "持续时间：41-50 回合\n+100 电抗性\n+50 冷抗性\n-1 护甲\n对抗被束缚的豁免 +5。\n对抗流血的豁免 -5。\n你只承受钝击攻击 25% 的伤害。\n你只承受坠落 25% 的伤害。\n你不会被抓住。\n如果摄入多个胶胶糖，这些效果会叠加。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Manual.example.xml",
+    "path": "((('topic', (), 1),), '#text')",
+    "source": "\nThese are nine things you should do when you start your game.\nAfter that, use the rest of this Help as a reference manual.\n\n{{W|1. Walk around}}\n\n{{?KB|Move by pressing directional keys (~CmdMoveN, ~CmdMoveE, etc) or by clicking on the map.}}{{?Gamepad|Indicate direction with ~UI:Navigate and press ~Take A Step to move or hold ~Take A Step to move continuously.}}{{?Gamepad|\nYou can also auto-explore the map with ~CmdAutoExplore.}}\n\n{{W|2. Interact with things}}\n\nWalk next to an NPC or other object and press ~CmdUse.\n\n{{W|3. Look at things}}\n\n{{?KB|Press }}~CmdLook to enter Look mode and then move the cursor around the map.{{?KB|\nOr {{hotkey|right-click}} to quick look.}}\n\n{{W|4. Use your abilities}}\n\n{{?KB|Click on a button on the ability bar at the bottom of your screen\nor press its hotkey.}}{{?Gamepad|Navigate the hotbar at the bottom of your screen with ~UI:Navigate/left and ~UI:Navigate/right\nand then press ~Use Ability to use an ability.}}\n\n{{W|5. View your character sheet}}\n\n{{?KB|Press ~CmdCharacter to view your core character info.\nPress ~CmdEquipment to view your equipment.\nPress ~CmdInventory to view your inventory.\nPress ~CmdJournal to view your journal.\nPress ~CmdQuests to view your quests.\nPress ~CmdSkillsPowers to view your skills.\nPress ~CmdFactions to view your faction relationships.\n\nYou can scroll through these pages with ~Page Left and ~Page Right.}}{{?Gamepad|Press ~CmdCharacter to view your core character info.\nNavigate to other pages in your character sheet with ~Page Left and ~Page Right.}}\n\n{{W|6. Bring up a list of points of interest}}\n\nPress ~CmdMoveToPointOfInterest.\n\n{{W|7. Bring up additional information about objects on the map}}\n\nPress ~Highlight for an overlay with extra info like creature hostility \n(red = hostile, yellow = neutral, green = friendly) and a clear view of \ninteresting items.\n\n{{W|8. Walk to another map}}\n\nSimply walk offscreen, or go to the world map with ~CmdMoveU.\n\n{{W|9. Attack an enemy}}\n\nTo perform a basic attack, just walk into a hostile creature.\nOr you can use an attack ability.\n",
+    "previous": "\n开始游戏后，你应该先做这九件事。\n之后，可以把本帮助的其余部分当作参考手册使用。\n\n{{W|1. 四处走走}}\n\n{{?KB|按方向键（~CmdMoveN、~CmdMoveE 等）或点击地图来移动。}}{{?Gamepad|用 ~UI:Navigate 指定方向，按 ~Take A Step 移动；按住 ~Take A Step 可连续移动。}}{{?Gamepad|\n你也可以用 ~CmdAutoExplore 自动探索地图。}}\n\n{{W|2. 与事物互动}}\n\n走到 NPC 或其他物体旁边，然后按 ~CmdUse。\n\n{{W|3. 查看事物}}\n\n{{?KB|按 }}~CmdLook 进入查看模式，然后在地图上移动光标。{{?KB|\n也可以 {{hotkey|right-click}} 快速查看。}}\n\n{{W|4. 使用能力}}\n\n{{?KB|点击屏幕底部能力栏上的按钮，\n或按对应热键。}}{{?Gamepad|用 ~UI:Navigate/left 和 ~UI:Navigate/right 在屏幕底部快捷栏中移动，\n然后按 ~Use Ability 使用能力。}}\n\n{{W|5. 查看角色表}}\n\n{{?KB|按 ~CmdCharacter 查看你的核心角色信息。\n按 ~CmdEquipment 查看你的装备。\n按 ~CmdInventory 查看你的物品栏。\n按 ~CmdJournal 查看你的日志。\n按 ~CmdQuests 查看你的任务。\n按 ~CmdSkillsPowers 查看你的技能。\n按 ~CmdFactions 查看你的派系关系。\n\n你可以用 ~Page Left 和 ~Page Right 在这些页面之间切换。}}{{?Gamepad|按 ~CmdCharacter 查看你的核心角色信息。\n用 ~Page Left 和 ~Page Right 切换角色表中的其他页面。}}\n\n{{W|6. 调出兴趣点列表}}\n\n按 ~CmdMoveToPointOfInterest。\n\n{{W|7. 显示地图上物体的额外信息}}\n\n按 ~Highlight 显示额外信息叠层，例如生物敌意\n（红色 = 敌对，黄色 = 中立，绿色 = 友好），并清楚标出\n值得注意的物品。\n\n{{W|8. 走到另一张地图}}\n\n直接走出屏幕边缘，或用 ~CmdMoveU 前往世界地图。\n\n{{W|9. 攻击敌人}}\n\n要进行基础攻击，只需朝敌对生物走过去。\n你也可以使用攻击能力。\n",
+    "translation": "\n开始游戏后，你应该先做这九件事。\n之后，可以把本帮助的其余部分当作参考手册使用。\n\n{{W|1. 四处走走}}\n\n{{?KB|按方向键（~CmdMoveN、~CmdMoveE 等）或点击地图来移动。}}{{?Gamepad|用 ~UI:Navigate 指定方向，按 ~Take A Step 移动；按住 ~Take A Step 可连续移动。}}{{?Gamepad|\n你也可以用 ~CmdAutoExplore 自动探索地图。}}\n\n{{W|2. 与事物互动}}\n\n走到 非玩家角色 或其他物体旁边，然后按 ~CmdUse。\n\n{{W|3. 查看事物}}\n\n{{?KB|按 }}~CmdLook 进入查看模式，然后在地图上移动光标。{{?KB|\n也可以 {{hotkey|right-click}} 快速查看。}}\n\n{{W|4. 使用能力}}\n\n{{?KB|点击屏幕底部能力栏上的按钮，\n或按对应热键。}}{{?Gamepad|用 ~UI:Navigate/left 和 ~UI:Navigate/right 在屏幕底部快捷栏中移动，\n然后按 ~Use Ability 使用能力。}}\n\n{{W|5. 查看角色表}}\n\n{{?KB|按 ~CmdCharacter 查看你的核心角色信息。\n按 ~CmdEquipment 查看你的装备。\n按 ~CmdInventory 查看你的物品栏。\n按 ~CmdJournal 查看你的日志。\n按 ~CmdQuests 查看你的任务。\n按 ~CmdSkillsPowers 查看你的技能。\n按 ~CmdFactions 查看你的派系关系。\n\n你可以用 ~Page Left 和 ~Page Right 在这些页面之间切换。}}{{?Gamepad|按 ~CmdCharacter 查看你的核心角色信息。\n用 ~Page Left 和 ~Page Right 切换角色表中的其他页面。}}\n\n{{W|6. 调出兴趣点列表}}\n\n按 ~CmdMoveToPointOfInterest。\n\n{{W|7. 显示地图上物体的额外信息}}\n\n按 ~Highlight 显示额外信息叠层，例如生物敌意\n（红色 = 敌对，黄色 = 中立，绿色 = 友好），并清楚标出\n值得注意的物品。\n\n{{W|8. 走到另一张地图}}\n\n直接走出屏幕边缘，或用 ~CmdMoveU 前往世界地图。\n\n{{W|9. 攻击敌人}}\n\n要进行基础攻击，只需朝敌对生物走过去。\n你也可以使用攻击能力。\n",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Manual.example.xml",
+    "path": "((('topic', (), 2),), '#text')",
+    "source": "\n[[{{C|Strength}}]]\nYour strength score determines how much melee damage you do (by improving \nyour armor penetration), your ability to resist forced movement, and your\ncarry capacity.\n\n[[{{C|Agility}}]]\nYour agility score determines your accuracy with both melee and ranged\nweapons and your ability to dodge attacks.\n\n[[{{C|Toughness}}]]\nYour toughness score determines your number of hit points, your hit point\nregeneration rate, and your ability to resist poison and disease.\n\n[[{{C|Intelligence}}]]\nYour intelligence score determines your number of skill points and your\nability to examine artifacts.\n\n[[{{C|Willpower}}]]\nYour willpower score modifies the cooldowns of your activated abilities,\ndetermines your ability to resist mental attacks, and modifies your hit\npoint regeneration rate.\n\n[[{{C|Ego}}]]\nYour ego score determines the potency of your mental mutations, your\nability to haggle with merchants, and your ability to dominate the wills\nof other living creatures.\n\n[[{{C|Armor Value and Dodge Value (AV / DV)}}]]\nYour armor value (AV) is a measurement of how well protected you are\nagainst physical attacks that hit you. The higher your score, the less\nlikely an opponent's attack will do severe damage to you. Most characters\nstart with a base AV score of 0.\n\nYour dodge value (DV) is a measurement of how likely you are to be hit by\nphysical attacks. The higher your score, the less likely an opponent's\nattack will hit you. Your DV is modified by your Agility modifier. Most\ncharacters start with a base DV of 6.\n\n[[{{C|Mental Armor (MA)}}]]\nYour mental armor (MA) is a measurement of how well protected you are\nagainst mental attacks, much as your armor value is a measurement of how\nwell protected you are from physical attacks. The higher your score, the\nless likely an opponent's mental attack will have a severe effect on you.\nYour MA is modified by your Willpower modifier. Most characters start\nwith a base MA of 4.\n\n[[{{C|Quickness (QN)}}]]\nYour quickness score is a measurement of how quickly you perform each and\nevery action you take. Your base quickness score is 100. Note that there\nare very few ways to augment this score.\n\n[[{{C|Movement Speed (MS)}}]]\nYour movement speed is a measurement of how quickly you walk or fly.\nYour base movement speed is 100.\n\n[[{{C|Temperature (T)}}]]\nYour temperature is a measurement of how hot or cold you are. If you are\nCold, your quickness score is reduced by half. If you are Frozen, you are\nunable to take physical actions. If you are Flaming, you take heat damage\nevery turn until you reduce your temperature.\n\n[[{{C|Acid Resist}}]]\nYour acid resist is a measurement of how much acid damage you ablate. Your\nbase acid resist score is 0. At 100, you are immune to acid damage.\n\n[[{{C|Cold Resist}}]]\nYour cold resist is a measurement of how much cold damage you ablate and how\ninsulated you are from effects that reduce your temperature. Your base cold\nresist score is 0. At 100, you are immune to cold damage and your\ntemperature cannot be reduced.\n\n[[{{C|Electrical Resist}}]]\nYour electrical resist is a measurement of how much electrical damage you\nablate and how resistive you are to electric current. Your base electrical\nresist score is 0. At 100, you are immune to electrical damage and you do\nnot conduct electricity.\n\n[[{{C|Heat Resist}}]]\nYour heat resist is a measurement of how much heat damage you ablate and how\ninsulated you are from effects that increase your temperature. Your base\nheat resist score is 0. At 100, you are immune to heat damage and your\ntemperature cannot be increased.\n\n",
+    "previous": "\n[[{{C|Strength}}]]\n你的力量值决定你的近战伤害（通过提高护甲穿透）、\n你抵抗强制移动的能力，以及你的负重上限。\n\n[[{{C|Agility}}]]\n你的敏捷值决定你使用近战和远程武器的命中能力，\n以及你闪避攻击的能力。\n\n[[{{C|Toughness}}]]\n你的坚韧值决定你的生命值、生命恢复速度，\n以及你抵抗毒素和疾病的能力。\n\n[[{{C|Intelligence}}]]\n你的智力值决定你的技能点数量，\n以及你检视神器的能力。\n\n[[{{C|Willpower}}]]\n你的意志力值会调整已激活能力的冷却时间，\n决定你抵抗精神攻击的能力，并影响你的生命恢复速度。\n\n[[{{C|Ego}}]]\n你的自我值决定你的精神突变威力、你与商人讨价还价的能力，\n以及你支配其他活物意志的能力。\n\n[[{{C|Armor Value and Dodge Value (AV / DV)}}]]\n你的护甲值（AV）衡量你在遭受物理攻击命中时受到的保护程度。\n数值越高，对手的攻击越不容易对你造成严重伤害。\n大多数角色的基础 AV 为 0。\n\n你的闪避值（DV）衡量你被物理攻击命中的可能性。\n数值越高，对手的攻击越不容易命中你。你的 DV 受敏捷调整值影响。\n大多数角色的基础 DV 为 6。\n\n[[{{C|Mental Armor (MA)}}]]\n你的精神护甲（MA）衡量你抵御精神攻击的保护程度，\n就像护甲值衡量你抵御物理攻击的保护程度一样。\n数值越高，对手的精神攻击越不容易对你产生严重效果。\n你的 MA 受意志力调整值影响。大多数角色的基础 MA 为 4。\n\n[[{{C|Quickness (QN)}}]]\n你的迅捷值衡量你执行每个动作的速度。你的基础迅捷值为 100。\n请注意，能提高这个数值的方法非常少。\n\n[[{{C|Movement Speed (MS)}}]]\n你的移动速度衡量你行走或飞行的速度。\n你的基础移动速度为 100。\n\n[[{{C|Temperature (T)}}]]\n你的温度衡量你有多热或多冷。如果你处于寒冷状态，\n迅捷值会减半。如果你被冻结，你不能进行物理动作。\n如果你正在燃烧，你每回合都会受到热伤害，直到你降低温度。\n\n[[{{C|Acid Resist}}]]\n你的酸抗性衡量你能削减多少酸伤害。你的基础酸抗性为 0。\n达到 100 时，你免疫酸伤害。\n\n[[{{C|Cold Resist}}]]\n你的冷抗性衡量你能削减多少冷伤害，\n以及你抵抗降温效果的程度。你的基础冷抗性为 0。\n达到 100 时，你免疫冷伤害，且温度不能被降低。\n\n[[{{C|Electrical Resist}}]]\n你的电抗性衡量你能削减多少电伤害，\n以及你抵抗电流的程度。你的基础电抗性为 0。\n达到 100 时，你免疫电伤害，且不会导电。\n\n[[{{C|Heat Resist}}]]\n你的热抗性衡量你能削减多少热伤害，\n以及你抵抗升温效果的程度。你的基础热抗性为 0。\n达到 100 时，你免疫热伤害，且温度不能被升高。\n\n",
+    "translation": "\n[[{{C|力量}}]]\n你的力量值决定你的近战伤害（通过提高护甲穿透）、\n你抵抗强制移动的能力，以及你的负重上限。\n\n[[{{C|敏捷}}]]\n你的敏捷值决定你使用近战和远程武器的命中能力，\n以及你闪避攻击的能力。\n\n[[{{C|坚韧}}]]\n你的坚韧值决定你的生命值、生命恢复速度，\n以及你抵抗毒素和疾病的能力。\n\n[[{{C|智力}}]]\n你的智力值决定你的技能点数量，\n以及你检视神器的能力。\n\n[[{{C|意志力}}]]\n你的意志力值会调整已激活能力的冷却时间，\n决定你抵抗精神攻击的能力，并影响你的生命恢复速度。\n\n[[{{C|自我}}]]\n你的自我值决定你的精神突变威力、你与商人讨价还价的能力，\n以及你支配其他活物意志的能力。\n\n[[{{C|护甲值 and 闪避值 (护甲 / 闪避)}}]]\n你的护甲值（护甲）衡量你在遭受物理攻击命中时受到的保护程度。\n数值越高，对手的攻击越不容易对你造成严重伤害。\n大多数角色的基础 护甲 为 0。\n\n你的闪避值（闪避）衡量你被物理攻击命中的可能性。\n数值越高，对手的攻击越不容易命中你。你的 闪避 受敏捷调整值影响。\n大多数角色的基础 闪避 为 6。\n\n[[{{C|精神护甲 (精神护甲)}}]]\n你的精神护甲（精神护甲）衡量你抵御精神攻击的保护程度，\n就像护甲值衡量你抵御物理攻击的保护程度一样。\n数值越高，对手的精神攻击越不容易对你产生严重效果。\n你的 精神护甲 受意志力调整值影响。大多数角色的基础 精神护甲 为 4。\n\n[[{{C|迅捷 (QN)}}]]\n你的迅捷值衡量你执行每个动作的速度。你的基础迅捷值为 100。\n请注意，能提高这个数值的方法非常少。\n\n[[{{C|移动速度 (MS)}}]]\n你的移动速度衡量你行走或飞行的速度。\n你的基础移动速度为 100。\n\n[[{{C|温度 (T)}}]]\n你的温度衡量你有多热或多冷。如果你处于寒冷状态，\n迅捷值会减半。如果你被冻结，你不能进行物理动作。\n如果你正在燃烧，你每回合都会受到热伤害，直到你降低温度。\n\n[[{{C|酸抗性}}]]\n你的酸抗性衡量你能削减多少酸伤害。你的基础酸抗性为 0。\n达到 100 时，你免疫酸伤害。\n\n[[{{C|寒冷抗性}}]]\n你的冷抗性衡量你能削减多少冷伤害，\n以及你抵抗降温效果的程度。你的基础冷抗性为 0。\n达到 100 时，你免疫冷伤害，且温度不能被降低。\n\n[[{{C|电击抗性}}]]\n你的电抗性衡量你能削减多少电伤害，\n以及你抵抗电流的程度。你的基础电抗性为 0。\n达到 100 时，你免疫电伤害，且不会导电。\n\n[[{{C|热抗性}}]]\n你的热抗性衡量你能削减多少热伤害，\n以及你抵抗升温效果的程度。你的基础热抗性为 0。\n达到 100 时，你免疫热伤害，且温度不能被升高。\n\n",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Manual.example.xml",
+    "path": "((('topic', (), 4),), '#text')",
+    "source": "\nMutations are special biological powers gifted to the denizens of Qud --\ntrue kin from the outer arcologies do not possess mutations. There are two\ntypes of mutations: physical and mental. Each mutation has a mutation score\nassociated with it. The scores of your physical mutations and the cooldowns\nof activated abilities granted by your physical mutations are static. On\nthe other hand, the scores of your mental mutations are modified by your\nEgo modifier and the cooldowns of abilities granted by your mental\nmutations are modulated by 5% for each point of Willpower you possess above\nor below 16.\n\nMost characters begin with mutation scores of 1. You earn a mutation point\nwhen you gain a new level which you may spend to augment the score of one\nof your mutations by 1. The mutation score of none of your mutations may\nexceed 1 plus your character level divided by 2. Additionally, mutations\nmay only be augmented by mutation points up to a maximum score of 10,\nthough your mental mutations may exceed this score if your Ego further\naugments them beyond 10.\n\nAlternatively, you may spend 4 mutation points to choose a new mutation\nfrom three randomly selected mutations. The mutation you choose begins\nwith a score of 1. If you are a chimera, you are offered a choice of\nphysical mutations, if you are an esper, you are offered mental mutations,\notherwise you are offered three completely random mutations. Mutations\noften grant you activated abilities. Once you gain a mutation, you may\naccess your new activated ability from the Manage Abilities menu ('~CmdAbilities').\n\nDefects are mutations with primarily negative effects. Certain mutants\nbegin with a single defect. There is no score associated with defects.\n",
+    "previous": "\n突变是 Qud 居民获赐的特殊生物能力，来自外层穹城的真民没有突变。\n突变分为两类：物理突变和精神突变。每个突变都有对应的突变等级。\n你的物理突变等级，以及物理突变授予的已激活能力冷却时间，都是固定的。\n另一方面，你的精神突变等级会受自我调整值影响；\n精神突变授予的能力冷却时间，则会按你的意志力高于或低于 16 的每一点\n调整 5%。\n\n大多数角色开局的突变等级为 1。你每次升级都会获得一个突变点，\n可花费它使你的一个突变等级提高 1。你的任意突变等级都不能超过\n1 加上角色等级除以 2。此外，突变最多只能通过突变点提高到 10 级；\n不过，如果你的自我继续将精神突变强化到 10 以上，精神突变可以超过此数值。\n\n或者，你可以花费 4 点突变点，从三个随机选出的突变中选择一个新突变。\n你选择的突变初始等级为 1。如果你是嵌合体，可选项会是物理突变；\n如果你是心灵术士，可选项会是精神突变；否则会提供三个完全随机的突变。\n突变通常会授予你已激活能力。获得突变后，你可以在管理能力菜单\n（'~CmdAbilities'）中使用新的已激活能力。\n\n缺陷是主要带来负面效果的突变。某些变异者开局会有一个缺陷。\n缺陷没有对应等级。\n",
+    "translation": "\n突变是 库德 居民获赐的特殊生物能力，来自外层穹城的真民没有突变。\n突变分为两类：物理突变和精神突变。每个突变都有对应的突变等级。\n你的物理突变等级，以及物理突变授予的已激活能力冷却时间，都是固定的。\n另一方面，你的精神突变等级会受自我调整值影响；\n精神突变授予的能力冷却时间，则会按你的意志力高于或低于 16 的每一点\n调整 5%。\n\n大多数角色开局的突变等级为 1。你每次升级都会获得一个突变点，\n可花费它使你的一个突变等级提高 1。你的任意突变等级都不能超过\n1 加上角色等级除以 2。此外，突变最多只能通过突变点提高到 10 级；\n不过，如果你的自我继续将精神突变强化到 10 以上，精神突变可以超过此数值。\n\n或者，你可以花费 4 点突变点，从三个随机选出的突变中选择一个新突变。\n你选择的突变初始等级为 1。如果你是嵌合体，可选项会是物理突变；\n如果你是心灵术士，可选项会是精神突变；否则会提供三个完全随机的突变。\n突变通常会授予你已激活能力。获得突变后，你可以在管理能力菜单\n（'~CmdAbilities'）中使用新的已激活能力。\n\n缺陷是主要带来负面效果的突变。某些变异者开局会有一个缺陷。\n缺陷没有对应等级。\n",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Manual.example.xml",
+    "path": "((('topic', (), 5),), '#text')",
+    "source": "\nArtifacts are items so technologically complex that few of Qud's denizens\nunderstand them. An unidentified artifact will appear to you as a\n\"Weird Artifact\". You may examine an artifact to try to identify it. If you\nare successful, you will narrow down the possibilities of that artifact's\nfunction (what was once a \"club\", for example, you may now identify as a\n\"rifle\"). Eventually you may completely identify the artifact. Each time\nyou attempt to identify something and fail, however, there is a small\nchance you will break it. Your chance of successfully identifying an\nartifact is based on your intelligence score.\n",
+    "previous": "\n神器是技术复杂到很少有 Qud 居民能够理解的物品。未鉴定的神器会显示为\n“奇怪的神器”。你可以检视神器来尝试鉴定它。如果成功，\n你会缩小该神器功能的可能范围（例如，原本显示为“棍棒”的东西，\n现在可能被你鉴定为“步枪”）。最终你可以完全鉴定该神器。\n不过，每当你尝试鉴定某物并失败时，都有小几率将它弄坏。\n你成功鉴定神器的几率取决于你的智力值。\n",
+    "translation": "\n神器是技术复杂到很少有 库德 居民能够理解的物品。未鉴定的神器会显示为\n“奇怪的神器”。你可以检视神器来尝试鉴定它。如果成功，\n你会缩小该神器功能的可能范围（例如，原本显示为“棍棒”的东西，\n现在可能被你鉴定为“步枪”）。最终你可以完全鉴定该神器。\n不过，每当你尝试鉴定某物并失败时，都有小几率将它弄坏。\n你成功鉴定神器的几率取决于你的智力值。\n",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Manual.example.xml",
+    "path": "((('topic', (), 7),), '#text')",
+    "source": "\n[[{{C|Weapons}}]]\nEvery weapon has a penetration value and a damage value\n(for example, {{C|→}}4, {{R|♥}}1d4). The penetration value of melee weapons is related\nto your strength score, though the value is capped based on the material of\nthe weapon ('l'ook at a weapon to view its penetration cap). Missile weapons\nhave static penetration values that do not change based on your strength score.\nWeapons may modify other statistics; 'l'ook at a weapon to fully determine\nwhat it does.\n\n[[{{C|Armor}}]]\nMost pieces of armor have an armor value and a dodge value\n(for example, {{b|♦}}4 {{K|○}}4) that augment your own {{b|♦}}AV and {{K|○}}DV (see {{g|Attributes}}).\nPieces of armor may modify other statistics; 'l'ook at a piece of armor to\nfully determine what it does.\n",
+    "previous": "\n[[{{C|Weapons}}]]\n每件武器都有穿透值和伤害值\n（例如 {{C|→}}4、{{R|♥}}1d4）。近战武器的穿透值与你的力量值有关，\n但会根据武器材质设有上限（'l'ook 查看武器可看到其穿透上限）。\n投射武器的穿透值固定，不会随你的力量值变化。\n武器还可能调整其他属性；'l'ook 查看武器即可完整了解其作用。\n\n[[{{C|Armor}}]]\n大多数护甲都有护甲值和闪避值\n（例如 {{b|♦}}4 {{K|○}}4），会提高你的 {{b|♦}}AV 和 {{K|○}}DV（见 {{g|属性}}）。\n护甲还可能调整其他属性；'l'ook 查看一件护甲即可完整了解其作用。\n",
+    "translation": "\n[[{{C|武器}}]]\n每件武器都有穿透值和伤害值\n（例如 {{C|→}}4、{{R|♥}}1d4）。近战武器的穿透值与你的力量值有关，\n但会根据武器材质设有上限（'l'ook 查看武器可看到其穿透上限）。\n投射武器的穿透值固定，不会随你的力量值变化。\n武器还可能调整其他属性；'l'ook 查看武器即可完整了解其作用。\n\n[[{{C|护甲}}]]\n大多数护甲都有护甲值和闪避值\n（例如 {{b|♦}}4 {{K|○}}4），会提高你的 {{b|♦}}护甲 和 {{K|○}}闪避（见 {{g|属性}}）。\n护甲还可能调整其他属性；'l'ook 查看一件护甲即可完整了解其作用。\n",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Manual.example.xml",
+    "path": "((('topic', (), 8),), '#text')",
+    "source": "\n[[{{C|Melee Combat}}]]\nMelee combat is combat between two adjacent opponents with standard melee\nweapons such as swords, daggers, axes, and clubs. To attack a hostile\nadjacent opponent, simply move in the direction of the opponent. To attack\nsomething else, such as a non-hostile opponent or a wall, use '~CmdAttackDirection'\nand select the direction in which you wish to attack.\n\nWhen you make a melee attack against a target, the following sequence of\nevents occurs:\n\n[[{{c|1. Determine whether or not you hit the target.}}]]\nYour to-hit roll is 1d20 plus your agility modifier plus any bonuses you\nreceive from your weapon or skill powers. If this roll exceeds your\nopponent's dodge value (DV), then you hit. An empty circle icon over your\ntarget indicates that your attack missed.\n\n[[{{c|2. Determine whether a shield block takes place.}}]]\nIf the target has a shield equipped, they have a base 25% chance to block\nwith it, increasing with skill. A successful block adds the shield's armor\nvalue (AV) to the target's AV for this attack.\n\n[[{{c|3. Determine how severely your attack penetrates your target's armor.}}]]\nEach weapon has a penetration value ({{C|→}}4, for example). This value\nrepresents the armor value (AV) that your weapon will usually penetrate\nwith ease. If your weapon's penetration value far exceeds your target's AV,\nyour weapon will likely penetrate several times. Each time your weapon\npenetrates your target's armor, your target is dealt damage equal to your\nweapon's damage value ({{R|♥}}1d4, for example). A filled circle icon over your\ntarget indicates that your attack hit but failed to penetrate your target's\narmor. A heart icon indicates that your attack hit and penetrated your\ntarget's armor.\n\n[[{{c|4. Determine if multiple attacks are made.}}]]\nThere is a 15% chance that you make an additional attack with your\nsecondary hand. Characters with multiple limbs may make additional attacks\nbeyond this.\n\n[[{{C|Missile Combat}}]]\nMissile combat is combat between two opponents with missile weapons such\nas bows, pistols, and rifles. To make a missile attack, press '~CmdFire' to aim\nyour weapon, then '~CmdFire' again to fire.\n\nWhen you make a missile attack, the following sequence of events occurs:\n\n[[{{c|1. Determine the trajectory of your missile.}}]]\nHow far a missile is likely to veer from its projected path is determined\nby your agility score and the weapon's accuracy.\n\n[[{{c|2. Hit the first medium-sized or larger object along the missile's}}\n{{c|trajectory.}}]]\n\n[[{{c|3. Determine how severely the missile penetrates your target's armor.}}]]\nThis is resolved in the same way as a melee attack.\n\n[[{{c|4. Determine if multiple attacks are made.}}]]\nCertain powers allow you to fire multiple missiles with certain missile\nweapons.\n\nIf you are engaged in melee combat with more than one hostile opponent,\nthere is a 50% chance that each missile attack you make goes wild (veers\n45 degrees to the left or right).\n",
+    "previous": "\n[[{{C|Melee Combat}}]]\n近战是两个相邻对手使用剑、匕首、斧、棍棒等标准近战武器进行的战斗。\n要攻击相邻的敌对对手，只需朝该对手的方向移动。\n要攻击其他目标，例如非敌对对手或墙壁，使用 '~CmdAttackDirection'，\n然后选择你想攻击的方向。\n\n当你对目标进行近战攻击时，会按以下顺序结算：\n\n[[{{c|1. 判断你是否命中目标。}}]]\n你的命中掷骰为 1d20 加上敏捷调整值，再加上你从武器或技能能力获得的\n任何加值。如果此结果超过对手的闪避值（DV），你就命中。\n目标上方的空心圆图标表示你的攻击未命中。\n\n[[{{c|2. 判断是否发生盾牌格挡。}}]]\n如果目标装备了盾牌，他们有基础 25% 几率用盾牌格挡，\n此几率会随技能提高。成功格挡会在此次攻击中将盾牌的护甲值（AV）\n加入目标的 AV。\n\n[[{{c|3. 判断你的攻击穿透目标护甲的严重程度。}}]]\n每件武器都有穿透值（例如 {{C|→}}4）。此数值代表你的武器通常能够轻松穿透的\n护甲值（AV）。如果你的武器穿透值远高于目标 AV，\n你的武器很可能会多次穿透。每当你的武器穿透目标护甲一次，\n目标就会受到等同于武器伤害值的伤害（例如 {{R|♥}}1d4）。\n目标上方的实心圆图标表示你的攻击命中，但未能穿透目标护甲。\n心形图标表示你的攻击命中并穿透了目标护甲。\n\n[[{{c|4. 判断是否进行多重攻击。}}]]\n你有 15% 几率用副手进行一次额外攻击。\n拥有多条肢体的角色可能进行更多额外攻击。\n\n[[{{C|Missile Combat}}]]\n投射战斗是两个对手使用弓、手枪、步枪等投射武器进行的战斗。\n要进行投射攻击，按 '~CmdFire' 瞄准武器，再按一次 '~CmdFire' 开火。\n\n当你进行投射攻击时，会按以下顺序结算：\n\n[[{{c|1. 判断投射物的轨迹。}}]]\n投射物可能偏离预定路径多远，取决于你的敏捷值和武器精准度。\n\n[[{{c|2. 命中投射物轨迹上第一个中型或更大的物体。}}]]\n\n[[{{c|3. 判断投射物穿透目标护甲的严重程度。}}]]\n此步骤与近战攻击相同。\n\n[[{{c|4. 判断是否进行多重攻击。}}]]\n某些能力允许你用特定投射武器发射多个投射物。\n\n如果你正与多个敌对对手进行近战，你每次投射攻击都有 50% 几率偏飞\n（向左或向右偏转 45 度）。\n",
+    "translation": "\n[[{{C|近战战斗}}]]\n近战是两个相邻对手使用剑、匕首、斧、棍棒等标准近战武器进行的战斗。\n要攻击相邻的敌对对手，只需朝该对手的方向移动。\n要攻击其他目标，例如非敌对对手或墙壁，使用 '~CmdAttackDirection'，\n然后选择你想攻击的方向。\n\n当你对目标进行近战攻击时，会按以下顺序结算：\n\n[[{{c|1. 判断你是否命中目标。}}]]\n你的命中掷骰为 1d20 加上敏捷调整值，再加上你从武器或技能能力获得的\n任何加值。如果此结果超过对手的闪避值（闪避），你就命中。\n目标上方的空心圆图标表示你的攻击未命中。\n\n[[{{c|2. 判断是否发生盾牌格挡。}}]]\n如果目标装备了盾牌，他们有基础 25% 几率用盾牌格挡，\n此几率会随技能提高。成功格挡会在此次攻击中将盾牌的护甲值（护甲）\n加入目标的 护甲。\n\n[[{{c|3. 判断你的攻击穿透目标护甲的严重程度。}}]]\n每件武器都有穿透值（例如 {{C|→}}4）。此数值代表你的武器通常能够轻松穿透的\n护甲值（护甲）。如果你的武器穿透值远高于目标 护甲，\n你的武器很可能会多次穿透。每当你的武器穿透目标护甲一次，\n目标就会受到等同于武器伤害值的伤害（例如 {{R|♥}}1d4）。\n目标上方的实心圆图标表示你的攻击命中，但未能穿透目标护甲。\n心形图标表示你的攻击命中并穿透了目标护甲。\n\n[[{{c|4. 判断是否进行多重攻击。}}]]\n你有 15% 几率用副手进行一次额外攻击。\n拥有多条肢体的角色可能进行更多额外攻击。\n\n[[{{C|远程战斗}}]]\n投射战斗是两个对手使用弓、手枪、步枪等投射武器进行的战斗。\n要进行投射攻击，按 '~CmdFire' 瞄准武器，再按一次 '~CmdFire' 开火。\n\n当你进行投射攻击时，会按以下顺序结算：\n\n[[{{c|1. 判断投射物的轨迹。}}]]\n投射物可能偏离预定路径多远，取决于你的敏捷值和武器精准度。\n\n[[{{c|2. 命中投射物轨迹上第一个中型或更大的物体。}}]]\n\n[[{{c|3. 判断投射物穿透目标护甲的严重程度。}}]]\n此步骤与近战攻击相同。\n\n[[{{c|4. 判断是否进行多重攻击。}}]]\n某些能力允许你用特定投射武器发射多个投射物。\n\n如果你正与多个敌对对手进行近战，你每次投射攻击都有 50% 几率偏飞\n（向左或向右偏转 45 度）。\n",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Mods.example.xml",
+    "path": "((('mod', (), 22),), 'Description')",
+    "source": "Reinforced: +1 AV",
+    "previous": "加固：+1 AV",
+    "translation": "加固：+1 护甲",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Mods.example.xml",
+    "path": "((('mod', (), 26),), 'Description')",
+    "source": "Visored: +1 DV",
+    "previous": "带面罩：+1 DV",
+    "translation": "带面罩：+1 闪避",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Options.example.xml",
+    "path": "((('option', (('ID', 'OptionModernUI'),), 1),), 'DisplayText')",
+    "source": "Enable modern UI",
+    "previous": "启用现代 UI",
+    "translation": "启用现代 界面",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Options.example.xml",
+    "path": "((('option', (('ID', 'OptionPrereleaseStageScale'),), 1),), 'DisplayText')",
+    "source": "UI scale",
+    "previous": "UI 缩放",
+    "translation": "界面 缩放",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Options.example.xml",
+    "path": "((('option', (('ID', 'OptionModernCharacterSheet'),), 1),), 'DisplayText')",
+    "source": "Enable modern UI character sheet",
+    "previous": "启用现代 UI 角色面板",
+    "translation": "启用现代 界面 角色面板",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Options.example.xml",
+    "path": "((('option', (('ID', 'OptionPlayScale'),), 1), ('helptext', (), 1)), '#text')",
+    "source": "\n        Controls how the play area will scale in the area not used by the UI.\n\n        {{W|Fit}}: Fits the whole play area on screen. May necessitate letterboxing.\n        {{W|Cover}}: Ensures the play area covers the screen. Minimizes letterboxing.\n        {{W|Pixel Perfect}}: Sizes the play area to an integer multiple of the pixel art. Maximizes sharpness.\n      ",
+    "previous": "\n        控制游玩区域在 UI 未占用区域内的缩放方式。\n\n        {{W|适应}}：让整个游玩区域适配屏幕。可能需要加上黑边。\n        {{W|覆盖}}：确保游玩区域覆盖屏幕。尽量减少黑边。\n        {{W|像素完美}}：将游玩区域缩放为像素图整数倍。最大化清晰度。\n      ",
+    "translation": "\n        控制游玩区域在 界面 未占用区域内的缩放方式。\n\n        {{W|适应}}：让整个游玩区域适配屏幕。可能需要加上黑边。\n        {{W|覆盖}}：确保游玩区域覆盖屏幕。尽量减少黑边。\n        {{W|像素完美}}：将游玩区域缩放为像素图整数倍。最大化清晰度。\n      ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Options.example.xml",
+    "path": "((('option', (('ID', 'OptionAllowFramelessZoomOut'),), 1),), 'DisplayText')",
+    "source": "When zoomed out to max zoom, remove the UI frame from the main gameplay screen",
+    "previous": "缩放到最大缩小时，从主游戏画面移除 UI 边框",
+    "translation": "缩放到最大缩小时，从主游戏画面移除 界面 边框",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Options.example.xml",
+    "path": "((('option', (('ID', 'OptionShowSidebarAbilities'),), 1),), 'Category')",
+    "source": "Legacy UI",
+    "previous": "旧版 UI",
+    "translation": "旧版 界面",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Options.example.xml",
+    "path": "((('option', (('ID', 'OptionShowCurrentCellPopup'),), 1),), 'Category')",
+    "source": "Legacy UI",
+    "previous": "旧版 UI",
+    "translation": "旧版 界面",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Options.example.xml",
+    "path": "((('option', (('ID', 'OptionShowMonsterHPHearts'),), 1),), 'DisplayText')",
+    "source": "Color hit hearts per the target's remaining HP",
+    "previous": "按目标剩余 HP 为命中心着色",
+    "translation": "按目标剩余 生命 为命中心着色",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Options.example.xml",
+    "path": "((('option', (('ID', 'OptionShowMonsterHPHearts'),), 1),), 'Category')",
+    "source": "Legacy UI",
+    "previous": "旧版 UI",
+    "translation": "旧版 界面",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Options.example.xml",
+    "path": "((('option', (('ID', 'OptionShowNumberOfItems'),), 1),), 'Category')",
+    "source": "Legacy UI",
+    "previous": "旧版 UI",
+    "translation": "旧版 界面",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Options.example.xml",
+    "path": "((('option', (('ID', 'OptionLocationIntseadOfName'),), 1),), 'Category')",
+    "source": "Legacy UI",
+    "previous": "旧版 UI",
+    "translation": "旧版 界面",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Options.example.xml",
+    "path": "((('option', (('ID', 'OptionMapDirectionsToKeypad'),), 1),), 'Category')",
+    "source": "Legacy UI",
+    "previous": "旧版 UI",
+    "translation": "旧版 界面",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Options.example.xml",
+    "path": "((('option', (('ID', 'OptionMapShiftDirectionToPage'),), 1),), 'Category')",
+    "source": "Legacy UI",
+    "previous": "旧版 UI",
+    "translation": "旧版 界面",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Options.example.xml",
+    "path": "((('option', (('ID', 'OptionPushAZHotkeys'),), 1),), 'DisplayText')",
+    "source": "Always pass A-Z hotkeys through to the legacy UI",
+    "previous": "总是将 A-Z 热键传递给旧版 UI",
+    "translation": "总是将 A-Z 热键传递给旧版 界面",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Options.example.xml",
+    "path": "((('option', (('ID', 'OptionPushAZHotkeys'),), 1),), 'Category')",
+    "source": "Legacy UI",
+    "previous": "旧版 UI",
+    "translation": "旧版 界面",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Options.example.xml",
+    "path": "((('option', (('ID', 'OptionTextBuilderDebug'),), 1),), 'DisplayText')",
+    "source": "Enable Text Builder leak analyzation",
+    "previous": "启用 Text Builder 泄漏分析",
+    "translation": "启用 文本构建器 泄漏分析",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Options.example.xml",
+    "path": "((('option', (('ID', 'OptionTextBuilderDebug'),), 1), ('helptext', (), 1)), '#text')",
+    "source": "\n      Most forms of Text Builder need to be disposed in order to properly release their pooled resources, typically with a using statement/declaration.\n      If you miss disposing a Text Builder an error will be printed, if this option is enabled that error will include a stack trace to where the disposal was missed.\n      ",
+    "previous": "\n      大多数形式的 Text Builder 都需要释放，才能正确释放其池化资源；通常应使用 using 语句/声明。\n      如果漏掉了某个 Text Builder 的释放，会打印错误；启用此选项后，该错误会包含遗漏释放位置的堆栈跟踪。\n      ",
+    "translation": "\n      大多数形式的 文本构建器 都需要释放，才能正确释放其池化资源；通常应使用 using 语句/声明。\n      如果漏掉了某个 文本构建器 的释放，会打印错误；启用此选项后，该错误会包含遗漏释放位置的堆栈跟踪。\n      ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Options.example.xml",
+    "path": "((('option', (('ID', 'OptionStripUIColorText'),), 1),), 'DisplayText')",
+    "source": "Strip color formatting from UI text",
+    "previous": "从 UI 文本中剥离颜色格式",
+    "translation": "从 界面 文本中剥离颜色格式",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Options.example.xml",
+    "path": "((('option', (('ID', 'OptionStripUIColorText'),), 1), ('helptext', (), 1)), '#text')",
+    "source": "Removes color formatting from all UI strings.",
+    "previous": "移除所有 UI 字符串中的颜色格式。",
+    "translation": "移除所有 界面 字符串中的颜色格式。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Quests.example.xml",
+    "path": "((('quest', (('ID', \"What's Eating the Watervine?\"),), 1),), 'Accomplishment')",
+    "source": "You solved the mystery of the chewed-up watervine and warned the villagers of Joppa of the Girsh.",
+    "previous": "你解开了水藤被啃食的谜团，并警告约帕村民 Girsh 的存在。",
+    "translation": "你解开了水藤被啃食的谜团，并警告约帕村民 吉尔什 的存在。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Quests.example.xml",
+    "path": "((('quest', (('ID', \"What's Eating the Watervine?\"),), 1),), 'Hagiograph')",
+    "source": "In the month of =month= of =year=, =name= walked below the chrome arches, beat back the throng of girshlings, and healed the wilting crops.",
+    "previous": "在 =year= 年 =month= 月，=name= 走过铬钢拱门下，击退一群 girshling，治愈了枯萎的作物。",
+    "translation": "在 =year= 年 =month= 月，=name= 走过铬钢拱门下，击退一群 吉尔什幼体，治愈了枯萎的作物。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Quests.example.xml",
+    "path": "((('quest', (('ID', \"What's Eating the Watervine?\"),), 1),), 'Gospel')",
+    "source": "At the bloody Battle of Red Rock, =name= fought the combined girshling and baboon forces to liberate the villagers of Joppa. In =player.t's= honor they =spice:history.gospels.Celebration.LateSultanate.!random=.",
+    "previous": "在血腥的红岩之战中，=name= 对抗 girshling 与狒狒联军，解放约帕村民。为纪念 =player.t=，他们 =spice:history.gospels.Celebration.LateSultanate.!random=。",
+    "translation": "在血腥的红岩之战中，=name= 对抗 吉尔什幼体 与狒狒联军，解放约帕村民。为纪念 =player.t=，他们 =spice:history.gospels.Celebration.LateSultanate.!random=。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Quests.example.xml",
+    "path": "((('quest', (('ID', 'Raising Indrix'),), 1),), 'Gospel')",
+    "source": "While wandering in the jungle near Kyakukya, =name= dreamed =player.subjective= orbited a darkling star and in its vast accretion disk piled the building blocks of self. From then on, =name= kept a starless, triangular prism on =player.possessive= person.",
+    "previous": "在 Kyakukya 附近的丛林中游荡时，=name= 梦见 =player.subjective= 环绕一颗幽暗星辰运行，并在它浩大的吸积盘中堆起自我的构件。从那以后，=name= 随身带着一枚无星的三角棱镜。",
+    "translation": "在 基亚库亚 附近的丛林中游荡时，=name= 梦见 =player.subjective= 环绕一颗幽暗星辰运行，并在它浩大的吸积盘中堆起自我的构件。从那以后，=name= 随身带着一枚无星的三角棱镜。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Quests.example.xml",
+    "path": "((('quest', (('ID', 'A Canticle for Barathrum'),), 1),), 'Gospel')",
+    "source": "While roaming the westwise jungle, =name= came upon a clan of urshiib performing a secret ritual. Because of =player.t's= disk-like eyes, they accepted =name= into their fold and taught =player.objective= their secrets.",
+    "previous": "在西方丛林漫游时，=name= 遇见一族 urshiib 正在举行秘密仪式。由于 =player.t= 圆盘般的眼睛，他们接纳 =name= 进入族群，并把秘密传授给 =player.objective=。",
+    "translation": "在西方丛林漫游时，=name= 遇见一族 乌尔希布 正在举行秘密仪式。由于 =player.t= 圆盘般的眼睛，他们接纳 =name= 进入族群，并把秘密传授给 =player.objective=。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Quests.example.xml",
+    "path": "((('quest', (('ID', 'A Signal in the Noise'),), 1),), 'Gospel')",
+    "source": "While roaming the westwise jungle, =name= came upon a clan of urshiib performing a secret ritual. Because of =player.t's= disk-like eyes, they accepted =name= into their fold and taught =player.objective= their secrets.",
+    "previous": "在西方丛林漫游时，=name= 遇见一族 urshiib 正在举行秘密仪式。由于 =player.t= 圆盘般的眼睛，他们接纳 =name= 进入族群，并把秘密传授给 =player.objective=。",
+    "translation": "在西方丛林漫游时，=name= 遇见一族 乌尔希布 正在举行秘密仪式。由于 =player.t= 圆盘般的眼睛，他们接纳 =name= 进入族群，并把秘密传授给 =player.objective=。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Quests.example.xml",
+    "path": "((('quest', (('ID', 'More Than a Willing Spirit'),), 1),), 'Gospel')",
+    "source": "While roaming the westwise jungle, =name= came upon a clan of urshiib performing a secret ritual. Because of =player.t's= coating of foul slime, they accepted =name= into their fold and taught =player.objective= their secrets.",
+    "previous": "在西方丛林漫游时，=name= 遇见一族 urshiib 正在举行秘密仪式。由于 =player.t= 身上覆满恶臭黏液，他们接纳 =name= 进入族群，并把秘密传授给 =player.objective=。",
+    "translation": "在西方丛林漫游时，=name= 遇见一族 乌尔希布 正在举行秘密仪式。由于 =player.t= 身上覆满恶臭黏液，他们接纳 =name= 进入族群，并把秘密传授给 =player.objective=。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Quests.example.xml",
+    "path": "((('quest', (('ID', 'O Glorious Shekhinah!'),), 1),), 'Name')",
+    "source": "O Glorious Shekhinah!",
+    "previous": "噢，荣耀的 Shekhinah！",
+    "translation": "噢，荣耀的 舍金纳！",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Quests.example.xml",
+    "path": "((('quest', (('ID', 'Petals on the Wind'),), 1),), 'Accomplishment')",
+    "source": "At the behest of a hindren pariah, you traveled to the hidden village of Bey Lah to investigate a mystery.",
+    "previous": "受一名欣德伦流亡者所托，你前往隐秘村庄 Bey Lah 调查一桩谜案。",
+    "translation": "受一名欣德伦流亡者所托，你前往隐秘村庄 贝拉赫 调查一桩谜案。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Quests.example.xml",
+    "path": "((('quest', (('ID', 'Petals on the Wind'),), 1),), 'Gospel')",
+    "source": "At =spice:time.partsOfDay.!random= under a =spice:commonPhrases.strange.!random.article= and meadowed sky, the hindren of Bey Lah saw an image on the horizon that looked like a great looking glass. It was =name=, and once =player.subjective= arrived, the hindren built a monument to =player.objective= and thenceforth called =player.objective= the Looking Glass Kendren.",
+    "previous": "在 =spice:time.partsOfDay.!random=，于 =spice:commonPhrases.strange.!random.article= 与草甸般的天空下，Bey Lah 的欣德伦看见地平线上有一个像巨大照镜的影像。那就是 =name=；=player.subjective= 抵达后，欣德伦为 =player.objective= 建起纪念碑，并从此称 =player.objective= 为照镜肯德伦。",
+    "translation": "在 =spice:time.partsOfDay.!random=，于 =spice:commonPhrases.strange.!random.article= 与草甸般的天空下，贝拉赫 的欣德伦看见地平线上有一个像巨大照镜的影像。那就是 =name=；=player.subjective= 抵达后，欣德伦为 =player.objective= 建起纪念碑，并从此称 =player.objective= 为照镜肯德伦。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Quests.example.xml",
+    "path": "((('quest', (('ID', 'Petals on the Wind'),), 1), ('step', (('ID', 'Investigate Bey Lah'),), 1)), 'Name')",
+    "source": "Investigate Bey Lah",
+    "previous": "调查 Bey Lah",
+    "translation": "调查 贝拉赫",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Quests.example.xml",
+    "path": "((('quest', (('ID', 'Petals on the Wind'),), 1), ('step', (('ID', 'Investigate Bey Lah'),), 1), ('text', (), 1)), '#text')",
+    "source": "Travel to the hidden village of Bey Lah and investigate the problems there.",
+    "previous": "前往隐秘村庄 Bey Lah，调查那里的问题。",
+    "translation": "前往隐秘村庄 贝拉赫，调查那里的问题。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Quests.example.xml",
+    "path": "((('quest', (('ID', 'Find Eskhind'),), 1),), 'Gospel')",
+    "source": "In the month of =month= of =year=, =name= was challenged by the accused Eskhind to a duel over the location of the hindren heirloom Kindrish. =name= won and admonished Eskhind into returning to Bey Lah.",
+    "previous": "在 =year= 年 =month= 月，被指控的 Eskhind 因欣德伦传家宝 Kindrish 的所在向 =name= 发起决斗。=name= 获胜，并训诫 Eskhind 返回 Bey Lah。",
+    "translation": "在 =year= 年 =month= 月，被指控的 Eskhind 因欣德伦传家宝 Kindrish 的所在向 =name= 发起决斗。=name= 获胜，并训诫 Eskhind 返回 贝拉赫。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Quests.example.xml",
+    "path": "((('quest', (('ID', 'Love and Fear'),), 1),), 'Hagiograph')",
+    "source": "How inspiring is the presence of =name=, who so redeemed Eskhind the Meek that she sought the hand of Bey Lah's greatest champion!",
+    "previous": "=name= 的存在何等鼓舞人心，=player.subjective= 如此救赎温顺的 Eskhind，以至于她寻求 Bey Lah 最伟大勇士的手！",
+    "translation": "=name= 的存在何等鼓舞人心，=player.subjective= 如此救赎温顺的 Eskhind，以至于她寻求 贝拉赫 最伟大勇士的手！",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Quests.example.xml",
+    "path": "((('quest', (('ID', 'Love and Fear'),), 1),), 'Gospel')",
+    "source": "In the burnt out core of a tree stump, =name= cemented =player.possessive= friendship with the hindren of Bey Lah by marrying Eskhind and the Warden Neelahind.",
+    "previous": "在树桩烧空的核心中，=name= 通过与 Eskhind 和守望者 Neelahind 成婚，巩固了 =player.possessive= 与 Bey Lah 欣德伦的友谊。",
+    "translation": "在树桩烧空的核心中，=name= 通过与 Eskhind 和守望者 Neelahind 成婚，巩固了 =player.possessive= 与 贝拉赫 欣德伦的友谊。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Quests.example.xml",
+    "path": "((('quest', (('ID', 'Kith and Kin'),), 1),), 'Accomplishment')",
+    "source": "For better or worse to the fate of Bey Lah, you solved the mystery of Kindrish's disappearance and helped Warden Neelahind administer justice.",
+    "previous": "无论 Bey Lah 的命运是好是坏，你解开了 Kindrish 失踪之谜，并帮助守望者 Neelahind 施行正义。",
+    "translation": "无论 贝拉赫 的命运是好是坏，你解开了 Kindrish 失踪之谜，并帮助守望者 Neelahind 施行正义。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Quests.example.xml",
+    "path": "((('quest', (('ID', 'Kith and Kin'),), 1),), 'Hagiograph')",
+    "source": "Hallowed savior! =name= brought peace and prosperity to the troubled deerfolk of the Bey Lah meadow.",
+    "previous": "神圣的救世主！=name= 为 Bey Lah 草甸中困扰的鹿民带来了和平与繁荣。",
+    "translation": "神圣的救世主！=name= 为 贝拉赫 草甸中困扰的鹿民带来了和平与繁荣。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Quests.example.xml",
+    "path": "((('quest', (('ID', 'Kith and Kin'),), 1),), 'Gospel')",
+    "source": "Acting against thieves and the authorities who empower them, =name= led an investigation in the village of Bey Lah. Because of =player.t's= =spice:elements.entity@elements[random].adjectives.!random= wit, the Warden Neelahind was able to properly administer justice.",
+    "previous": "为了反抗窃贼和赋予他们权力的当局，=name= 在 Bey Lah 村中主持了一场调查。多亏 =player.t= =spice:elements.entity@elements[random].adjectives.!random= 机智，守望者 Neelahind 得以正确施行正义。",
+    "translation": "为了反抗窃贼和赋予他们权力的当局，=name= 在 贝拉赫 村中主持了一场调查。多亏 =player.t= =spice:elements.entity@elements[random].adjectives.!random= 机智，守望者 Neelahind 得以正确施行正义。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Quests.example.xml",
+    "path": "((('quest', (('ID', 'Kith and Kin'),), 1), ('step', (('ID', 'Brief Warden Neelahind'),), 1), ('text', (), 1)), '#text')",
+    "source": "Tell Bey Lah's Warden about the disputed nature of Kindrish's theft.",
+    "previous": "告诉 Bey Lah 的守望者，Kindrish 盗窃案的真相仍有争议。",
+    "translation": "告诉 贝拉赫 的守望者，Kindrish 盗窃案的真相仍有争议。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Acrobatics'),), 1), ('power', (('Name', 'Swift Reflexes'),), 1)), 'Description')",
+    "source": "You gain a +5 bonus to your DV when flinching away from missile attacks.",
+    "previous": "你闪避投射物攻击时，DV 获得 +5 加值。",
+    "translation": "你闪避投射物攻击时，闪避 获得 +5 加值。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Acrobatics'),), 1), ('power', (('Name', 'Spry'),), 1)), 'Description')",
+    "source": "You gain a +2 bonus to your DV.",
+    "previous": "你的 DV 获得 +2 加值。",
+    "translation": "你的 闪避 获得 +2 加值。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Acrobatics'),), 1), ('power', (('Name', 'Tumble'),), 1)), 'Description')",
+    "source": "You gain a +1 bonus to your DV. Additionally, Juke's cooldown is reduced to 20.",
+    "previous": "你的 DV 获得 +1 加值。此外，闪身的冷却时间降至 20。",
+    "translation": "你的 闪避 获得 +1 加值。此外，闪身的冷却时间降至 20。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Axe'),), 1), ('power', (('Name', 'Cleave'),), 1)), 'Description')",
+    "source": "Whenever you hit an opponent with an axe, there's a 75% chance you cleave their armor, giving them a -1 penalty to their AV. This penalty can stack a number of times up to half your Str modifier, rounded up, +1 on a critical hit.",
+    "previous": "每当你用斧命中对手时，有 75% 几率劈开对方护甲，让对方 AV 受到 -1 惩罚。该惩罚可叠加，次数最高为你的 Str 修正值一半（向上取整），重击时额外 +1 次。",
+    "translation": "每当你用斧命中对手时，有 75% 几率劈开对方护甲，让对方 护甲 受到 -1 惩罚。该惩罚可叠加，次数最高为你的 力量 修正值一半（向上取整），重击时额外 +1 次。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Axe'),), 1), ('power', (('Name', 'Charging Strike'),), 1)), 'Description')",
+    "source": "When you charge with an axe and hit, if you cleave their armor, they get an additional -1 penalty to their AV. If you have Dismember, your chance to dismember when charging with an axe is doubled. When you charge with a cudgel and hit, you automatically daze your opponent.",
+    "previous": "你持斧冲锋并命中时，如果劈开对方护甲，对方 AV 额外受到 -1 惩罚。如果你拥有肢解，持斧冲锋时肢解几率翻倍。你持棍棒冲锋并命中时，会自动使对手晕眩。",
+    "translation": "你持斧冲锋并命中时，如果劈开对方护甲，对方 护甲 额外受到 -1 惩罚。如果你拥有肢解，持斧冲锋时肢解几率翻倍。你持棍棒冲锋并命中时，会自动使对手晕眩。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Axe'),), 1), ('power', (('Name', 'Hook and Drag'),), 1)), 'Description')",
+    "source": "Activated; cooldown 50. You grab an opponent's limb with the heel of your axe. If successful, you pull your opponent with you as you move and make a free attack with your axe. Your opponent gets a chance to resist the move (strength save; difficulty 20 + your Str modifier) and a chance to break free at the start of their turn (same save). Lasts for 9 rounds or until you dismember the opponent.",
+    "previous": "主动；冷却 50。你用斧跟钩住对手的肢体。如果成功，你移动时会拖着对手，并用斧进行一次免费攻击。对手有机会抵抗移动（力量豁免；难度 20 + 你的 Str 修正值），也有机会在自己的回合开始时挣脱（同一豁免）。持续 9 轮，或直到你肢解这个对手。",
+    "translation": "主动；冷却 50。你用斧跟钩住对手的肢体。如果成功，你移动时会拖着对手，并用斧进行一次免费攻击。对手有机会抵抗移动（力量豁免；难度 20 + 你的 力量 修正值），也有机会在自己的回合开始时挣脱（同一豁免）。持续 9 轮，或直到你肢解这个对手。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Bow and Rifle'),), 1), ('power', (('Name', 'Disorienting Fire'),), 1)), 'Description')",
+    "source": "As long as your target can't see or hear any faction allies, Wounding Fire is upgraded to Disorienting Fire. Disorienting Fire also reduces your target's DV and MA by 4.",
+    "previous": "只要目标看不见也听不见任何同阵营盟友，创伤射击升级为迷向射击。迷向射击还会使目标的 DV 和 MA 降低 4。",
+    "translation": "只要目标看不见也听不见任何同阵营盟友，创伤射击升级为迷向射击。迷向射击还会使目标的 闪避 和 精神护甲 降低 4。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Cudgel'),), 1), ('power', (('Name', 'Bludgeon'),), 1)), 'Description')",
+    "source": "Whenever you hit with a cudgel, there's a 50% chance to daze your opponent (-4 int, -4 agi, -10 movespeed) for 3-4 rounds. If you daze a dazed opponent, they're stunned for 1 round instead (cannot take actions and 0 DV).",
+    "previous": "每当你用棍棒命中时，有 50% 几率让对手晕眩（-4 int、-4 agi、-10 移动速度）3-4 轮。如果你让已晕眩的对手再次晕眩，则改为让对方震慑 1 轮（不能行动且 DV 为 0）。",
+    "translation": "每当你用棍棒命中时，有 50% 几率让对手晕眩（-4 智力、-4 敏捷、-10 移动速度）3-4 轮。如果你让已晕眩的对手再次晕眩，则改为让对方震慑 1 轮（不能行动且 闪避 为 0）。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Cudgel'),), 1), ('power', (('Name', 'Charging Strike'),), 1)), 'Description')",
+    "source": "When you charge with a cudgel and hit, you automatically daze your opponent. When you charge with an axe and hit, if you cleave their armor, they get an additional -1 penalty to their AV. If you have Dismember, your chance to dismember when charging with an axe is doubled.",
+    "previous": "你持棍棒冲锋并命中时，会自动使对手晕眩。你持斧冲锋并命中时，如果劈开对方护甲，对方 AV 额外受到 -1 惩罚。如果你拥有肢解，持斧冲锋时肢解几率翻倍。",
+    "translation": "你持棍棒冲锋并命中时，会自动使对手晕眩。你持斧冲锋并命中时，如果劈开对方护甲，对方 护甲 额外受到 -1 惩罚。如果你拥有肢解，持斧冲锋时肢解几率翻倍。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Cudgel'),), 1), ('power', (('Name', 'Slam'),), 1)), 'Description')",
+    "source": "Activated; cooldown 50. You make an attack with a cudgel at an adjacent opponent with +1 to your penetration roll. If you hit, you slam your opponent backwards up to 3 spaces, pushing other creatures and breaking through walls if their AVs are less than 5 times your Strength modifier. Opponents who get pushed are stunned for 1 round plus an additional round for each space pushed. Opponents who are pushed through or against walls take extra weapon damage for each wall. Gigantic opponents don't get pushed but are still stunned for 1 round. Destroys a wall or door if its AV is under 5 times your Strength modifier.",
+    "previous": "主动；冷却 50。你用棍棒攻击相邻对手，穿透掷骰 +1。如果命中，你将对手向后猛击最多 3 格；如果其他生物和墙壁的 AV 小于你力量修正值的 5 倍，则会推动它们并破墙而过。被推动的对手震慑 1 轮，每被推动 1 格额外 +1 轮。被推穿墙壁或撞到墙壁的对手，每面墙都会受到额外武器伤害。巨型对手不会被推动，但仍会震慑 1 轮。如果墙或门的 AV 低于你力量修正值的 5 倍，则会被摧毁。",
+    "translation": "主动；冷却 50。你用棍棒攻击相邻对手，穿透掷骰 +1。如果命中，你将对手向后猛击最多 3 格；如果其他生物和墙壁的 护甲 小于你力量修正值的 5 倍，则会推动它们并破墙而过。被推动的对手震慑 1 轮，每被推动 1 格额外 +1 轮。被推穿墙壁或撞到墙壁的对手，每面墙都会受到额外武器伤害。巨型对手不会被推动，但仍会震慑 1 轮。如果墙或门的 护甲 低于你力量修正值的 5 倍，则会被摧毁。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Customs and Folklore'),), 1),), 'Description')",
+    "source": "You are familiar with the customs and folklore of Qud.",
+    "previous": "你熟悉 Qud 的风俗与民俗。",
+    "translation": "你熟悉 库德 的风俗与民俗。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Endurance'),), 1), ('power', (('Name', 'Shake It Off'),), 1)), 'Description')",
+    "source": "Each round you are dazed or stunned, you have a (Toughness-10)% chance to shake off the effect. You also take 25% less damage from poison.",
+    "previous": "每轮你处于晕眩或震慑状态时，有 (Toughness-10)% 几率摆脱该效果。你受到的毒素伤害也减少 25%。",
+    "translation": "每轮你处于晕眩或震慑状态时，有 (坚韧-10)% 几率摆脱该效果。你受到的毒素伤害也减少 25%。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Endurance'),), 1), ('power', (('Name', 'Calloused'),), 1)), 'Description')",
+    "source": "Your natural AV improves to 1.",
+    "previous": "你的天然 AV 提升至 1。",
+    "translation": "你的天然 护甲 提升至 1。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Long Blade'),), 1), ('power', (('Name', 'Long Blade Proficiency'),), 1)), 'Description')",
+    "source": "You gain access to two stances.\nAggressive stance: With a long blade in your primary hand, your long blade and short blade attacks gain +1 to your penetration roll but -2 to hit.\nDefensive stance: While wielding a long blade in your primary hand, you gain +2 DV.",
+    "previous": "你获得两种架势。\n进攻架势：主手持长刃时，你的长刃和短刃攻击穿透掷骰 +1，但命中 -2。\n防御架势：主手持长刃时，你获得 +2 DV。",
+    "translation": "你获得两种架势。\n进攻架势：主手持长刃时，你的长刃和短刃攻击穿透掷骰 +1，但命中 -2。\n防御架势：主手持长刃时，你获得 +2 闪避。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Long Blade'),), 1), ('power', (('Name', 'Swipe'),), 1)), 'Description')",
+    "source": "Activated; cooldown 15.\nAggressive stance: Make an attack against all adjacent opponents.\nDefensive stance: Push all adjacent creatures back 1 space and attempt to trip opponents (strength/agility save; difficulty 30).\nDueling stance: Attack an opponent and attempt to disarm them (strength save; difficulty 25 + your Agi modifier). The attack is guaranteed to hit and penetrate at least once.",
+    "previous": "主动；冷却 15。\n进攻架势：攻击所有相邻对手。\n防御架势：将所有相邻生物推后 1 格，并尝试绊倒对手（力量/敏捷豁免；难度 30）。\n决斗架势：攻击一名对手并尝试解除其武装（力量豁免；难度 25 + 你的 Agi 修正值）。该攻击必定命中并至少穿透一次。",
+    "translation": "主动；冷却 15。\n进攻架势：攻击所有相邻对手。\n防御架势：将所有相邻生物推后 1 格，并尝试绊倒对手（力量/敏捷豁免；难度 30）。\n决斗架势：攻击一名对手并尝试解除其武装（力量豁免；难度 25 + 你的 敏捷 修正值）。该攻击必定命中并至少穿透一次。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Long Blade'),), 1), ('power', (('Name', 'Improved Defensive Stance'),), 1)), 'Description')",
+    "source": "Your DV bonus in defensive stance is increased to +3.",
+    "previous": "你在防御架势下的 DV 加值提高至 +3。",
+    "translation": "你在防御架势下的 闪避 加值提高至 +3。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Persuasion'),), 1), ('power', (('Name', 'Intimidate'),), 1)), 'Description')",
+    "source": "Cooldown 50. You try to terrify adjacent, hostile creatures (1d8 + [Ego modifier] penetration roll vs. MA). On success, a frightened creature flees from you for 6d4 rounds.",
+    "previous": "冷却 50。你试图吓坏相邻的敌对生物（1d8 + [Ego 修正值] 穿透掷骰对抗 MA）。成功时，受惊生物会逃离你 6d4 轮。",
+    "translation": "冷却 50。你试图吓坏相邻的敌对生物（1d8 + [自我 修正值] 穿透掷骰对抗 精神护甲）。成功时，受惊生物会逃离你 6d4 轮。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Persuasion'),), 1), ('power', (('Name', 'Berate'),), 1)), 'Description')",
+    "source": "Cooldown 50. You shame a nearby creature for 6d6 rounds, giving it a -4 penalty to DV, to-hit, Ego, Willpower and a -10% penalty to quickness.",
+    "previous": "冷却 50。你羞辱附近一个生物 6d6 轮，让对方 DV、命中、Ego、Willpower 受到 -4 惩罚，并受到 -10% 迅捷惩罚。",
+    "translation": "冷却 50。你羞辱附近一个生物 6d6 轮，让对方 闪避、命中、自我、意志力 受到 -4 惩罚，并受到 -10% 迅捷惩罚。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Persuasion'),), 1), ('power', (('Name', 'Snake Oiler'),), 1)), 'Description')",
+    "source": "For purposes of bartering, your ego is treated as though it were 4 points higher.",
+    "previous": "在以物易物时，你的 Ego 视为提高 4 点。",
+    "translation": "在以物易物时，你的 自我 视为提高 4 点。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Self-discipline'),), 1), ('power', (('Name', 'Meditate'),), 1)), 'Description')",
+    "source": "While meditating, you regenerate three times as fast, and negative status effects wear out three times as fast. The only action you can take while meditating is Wait. You stop meditating if you take damage in a single round exceeding (Willpower*3)-60. If you rest for 10 or more turns, you automatically begin meditating.",
+    "previous": "冥想时，你的再生速度提高到三倍，负面状态效果消退速度也提高到三倍。冥想时你唯一能执行的行动是等待。如果你在单轮内受到超过 (Willpower*3)-60 的伤害，你会停止冥想。如果你休息 10 回合或更久，会自动开始冥想。",
+    "translation": "冥想时，你的再生速度提高到三倍，负面状态效果消退速度也提高到三倍。冥想时你唯一能执行的行动是等待。如果你在单轮内受到超过 (意志力*3)-60 的伤害，你会停止冥想。如果你休息 10 回合或更久，会自动开始冥想。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Self-discipline'),), 1), ('power', (('Name', 'Iron Mind'),), 1)), 'Description')",
+    "source": "Each round you are confused, you have a (Willpower-10)% chance to shake off the effect.",
+    "previous": "每轮你处于混乱状态时，有 (Willpower-10)% 几率摆脱该效果。",
+    "translation": "每轮你处于混乱状态时，有 (意志力-10)% 几率摆脱该效果。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Self-discipline'),), 1), ('power', (('Name', 'Lionheart'),), 1)), 'Description')",
+    "source": "Each round you are terrified, you have a (Willpower-10)% chance to shake off the effect.",
+    "previous": "每轮你处于恐惧状态时，有 (Willpower-10)% 几率摆脱该效果。",
+    "translation": "每轮你处于恐惧状态时，有 (意志力-10)% 几率摆脱该效果。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Shield'),), 1), ('power', (('Name', 'Block'),), 1)), 'Description')",
+    "source": "As long as you wield a shield, there is a 50% chance you block one melee attack per round. When you block an attack, you add the shield's AV bonus to your AV for that attack. If you equip multiple shields, the one block per round limit is per shield, and you only can attempt to block a given attack once, using your best usable shield.",
+    "previous": "只要你持有盾牌，每轮有 50% 几率格挡一次近战攻击。当你格挡攻击时，在该次攻击中将盾牌的 AV 加值加入你的 AV。如果你装备多个盾牌，每轮一次格挡限制按每面盾牌分别计算，且你只能尝试格挡某次攻击一次，使用你可用的最佳盾牌。",
+    "translation": "只要你持有盾牌，每轮有 50% 几率格挡一次近战攻击。当你格挡攻击时，在该次攻击中将盾牌的 护甲 加值加入你的 护甲。如果你装备多个盾牌，每轮一次格挡限制按每面盾牌分别计算，且你只能尝试格挡某次攻击一次，使用你可用的最佳盾牌。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Shield'),), 1), ('power', (('Name', 'Shield Slam'),), 1)), 'Description')",
+    "source": "Activated; cooldown 40. You attempt to knock an opponent down and deal (Str modifier)d2 + your shield's AV bonus in damage. Your opponent gets a chance to resist (strength save; difficulty 20 + your Str modifier). Whenever you charge an opponent with a shield equipped, you get a free Shield Slam attack against them.",
+    "previous": "主动；冷却 40。你尝试击倒一名对手，并造成 (Str 修正值)d2 + 你的盾牌 AV 加值的伤害。对手有机会抵抗（力量豁免；难度 20 + 你的 Str 修正值）。每当你装备盾牌向对手冲锋时，你会获得一次针对该对手的免费盾击攻击。",
+    "translation": "主动；冷却 40。你尝试击倒一名对手，并造成 (力量 修正值)d2 + 你的盾牌 护甲 加值的伤害。对手有机会抵抗（力量豁免；难度 20 + 你的 力量 修正值）。每当你装备盾牌向对手冲锋时，你会获得一次针对该对手的免费盾击攻击。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Shield'),), 1), ('power', (('Name', 'Staggering Block'),), 1)), 'Description')",
+    "source": "Whenever you block an opponent's attack, there is a (Strength*2)-35% chance that your opponent is stunned for 1d2 rounds.",
+    "previous": "每当你格挡对手的攻击时，有 (Strength*2)-35% 几率使对手震慑 1d2 轮。",
+    "translation": "每当你格挡对手的攻击时，有 (力量*2)-35% 几率使对手震慑 1d2 轮。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Short Blade'),), 1), ('power', (('Name', 'Bloodletter'),), 1)), 'Description')",
+    "source": "Your short blade attacks that penetrate have a 75% chance to cause your opponent to bleed (0-1 damage per turn. toughness save; difficulty 20 + your Agi modifier). The opponent saves to stop bleeding each round, and the save difficulty decreases by 1 each round. This effect can stack a number of times equal to 1 plus your Agi modifier.",
+    "previous": "你的短刃攻击如果穿透，有 75% 几率让对手流血（每回合 0-1 伤害。坚韧豁免；难度 20 + 你的 Agi 修正值）。对手每轮进行豁免以停止流血，豁免难度每轮降低 1。这个效果可叠加，次数等于 1 + 你的 Agi 修正值。",
+    "translation": "你的短刃攻击如果穿透，有 75% 几率让对手流血（每回合 0-1 伤害。坚韧豁免；难度 20 + 你的 敏捷 修正值）。对手每轮进行豁免以停止流血，豁免难度每轮降低 1。这个效果可叠加，次数等于 1 + 你的 敏捷 修正值。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Tactics'),), 1), ('power', (('Name', 'Hurdle'),), 1)), 'Description')",
+    "source": "You receive no penalty to your DV while sprinting and can jump without interrupting your sprint.",
+    "previous": "疾跑时你的 DV 不受惩罚，并且可以跳跃而不中断疾跑。",
+    "translation": "疾跑时你的 闪避 不受惩罚，并且可以跳跃而不中断疾跑。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Skills.example.xml",
+    "path": "((('skill', (('Name', 'Tinkering'),), 1), ('power', (('Name', 'Repair'),), 1)), 'Description')",
+    "source": "You may repair broken items with Bits.",
+    "previous": "你可以用 Bits 修理破损物品。",
+    "translation": "你可以用 零件 修理破损物品。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Statistics.example.xml",
+    "path": "((('statistic', (('Name', 'AV'),), 1), ('helpText', (), 1)), '#text')",
+    "source": "Your {{W|Armor Value (AV)}} measures how well protected you are against physical attacks that hit you. The higher your score, the fewer times an opponent's attack will penetrate your armor and do damage to you.",
+    "previous": "你的 {{W|护甲值 (AV)}} 衡量你对命中你的物理攻击有多强防护。分数越高，对手攻击穿透你护甲并对你造成伤害的次数就越少。",
+    "translation": "你的 {{W|护甲值 (护甲)}} 衡量你对命中你的物理攻击有多强防护。分数越高，对手攻击穿透你护甲并对你造成伤害的次数就越少。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Statistics.example.xml",
+    "path": "((('statistic', (('Name', 'DV'),), 1), ('helpText', (), 1)), '#text')",
+    "source": "Your {{W|Dodge Value (DV)}} measures how likely you are to be hit by physical attacks. The higher your score, the less likely an opponent's attack will hit you. Your DV is modified by your Agility modifier.",
+    "previous": "你的 {{W|闪避值 (DV)}} 衡量你被物理攻击命中的可能性。分数越高，对手攻击命中你的可能性就越低。你的 DV 受敏捷修正值影响。",
+    "translation": "你的 {{W|闪避值 (闪避)}} 衡量你被物理攻击命中的可能性。分数越高，对手攻击命中你的可能性就越低。你的 闪避 受敏捷修正值影响。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Statistics.example.xml",
+    "path": "((('statistic', (('Name', 'MA'),), 1), ('helpText', (), 1)), '#text')",
+    "source": "Your {{W|Mental Armor (MA)}} measures how well protected you are against mental attacks. The higher your score, the less likely an opponent's mental attack will penetrate your defenses and harm you. Your MA is modified by your Willpower modifier.",
+    "previous": "你的 {{W|心灵护甲 (MA)}} 衡量你对心灵攻击有多强防护。分数越高，对手心灵攻击穿透你的防御并伤害你的可能性就越低。你的 MA 受意志力修正值影响。",
+    "translation": "你的 {{W|心灵护甲 (精神护甲)}} 衡量你对心灵攻击有多强防护。分数越高，对手心灵攻击穿透你的防御并伤害你的可能性就越低。你的 精神护甲 受意志力修正值影响。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.Conversations.example.xml",
+    "path": "((('string', (('ID', 'NON MOLOCH HER AT HOM. NON MOLOCH IN MAQQOM YD.'), ('Context', 'Conversation ManyEyes.Non.Text')), 1),), '#text')",
+    "source": "\nNON MOLOCH HER AT HOM. NON MOLOCH IN MAQQOM YD.\n  ",
+    "previous": "\n非摩洛此处在家。非摩洛在 Maqqom Yd。\n  ",
+    "translation": "\n非摩洛此处在家。非摩洛在 Maqqom 伊德。\n  ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.Conversations.example.xml",
+    "path": "((('string', (('ID', 'Maqqom Yd? The Place outside Itself?'), ('Context', 'Conversation ManyEyes.Non.MaqqomChoice.Text')), 1),), '#text')",
+    "source": "\nMaqqom Yd? The Place outside Itself?\n  ",
+    "previous": "\nMaqqom Yd？自身之外之所？\n  ",
+    "translation": "\nMaqqom 伊德？自身之外之所？\n  ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.Conversations.example.xml",
+    "path": "((('string', (('ID', 'Many Eyes, can you tell me of Maqqom Yd?'), ('Context', 'Conversation ManyEyes.Maqqom.MaqqomTellChoice.Text')), 1),), '#text')",
+    "source": "\nMany Eyes, can you tell me of Maqqom Yd?\n  ",
+    "previous": "\n多眼，你能告诉我 Maqqom Yd 的事吗？\n  ",
+    "translation": "\n多眼，你能告诉我 Maqqom 伊德 的事吗？\n  ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.Conversations.example.xml",
+    "path": "((('string', (('ID', 'YOU. YOU REGNEN NON HER. NON MOLOCH IN MAQQOM YD.'), ('Context', 'Conversation ManyEyes.NonMoloch.Text')), 1),), '#text')",
+    "source": "\nYOU. YOU REGNEN NON HER. NON MOLOCH IN MAQQOM YD.\n  ",
+    "previous": "\n你。你此处不统治。非摩洛在 Maqqom Yd。\n  ",
+    "translation": "\n你。你此处不统治。非摩洛在 Maqqom 伊德。\n  ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.Conversations.example.xml",
+    "path": "((('string', (('ID', \"Kyakukya? I didn't realize it had so many syllables.\\n\\nThat's where the, ah, faithful to the ape-god gather, correct? And, uh... Crowsong, as well. I will present this possibility to my people and we will discuss it.\"), ('Context', 'Conversation Thah.LandingPadsCommentary.5')), 1),), '#text')",
+    "source": "\nKyakukya? I didn't realize it had so many syllables.\n\nThat's where the, ah, faithful to the ape-god gather, correct? And, uh... Crowsong, as well. I will present this possibility to my people and we will discuss it.\n  ",
+    "previous": "\nKyakukya？我没意识到它有这么多音节。\n\n那是，啊，猿神信众聚集的地方，对吗？还有，呃……鸦歌也在那里。我会把这个可能性呈给我的族人，我们会商议。\n  ",
+    "translation": "\n基亚库亚？我没意识到它有这么多音节。\n\n那是，啊，猿神信众聚集的地方，对吗？还有，呃……鸦歌也在那里。我会把这个可能性呈给我的族人，我们会商议。\n  ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.Conversations.example.xml",
+    "path": "((('string', (('ID', 'Ezra is, ah, the village at the base of the Spindle, is it not?\\n\\nThe very cradle of history. Not that my kin have a strong taste for history, but perhaps living amongst fresco and bas-relief will change their, ah, collective outlook?'), ('Context', 'Conversation Thah.LandingPadsCommentary.6')), 1),), '#text')",
+    "source": "\nEzra is, ah, the village at the base of the Spindle, is it not?\n\nThe very cradle of history. Not that my kin have a strong taste for history, but perhaps living amongst fresco and bas-relief will change their, ah, collective outlook?\n  ",
+    "previous": "\nEzra 是，啊，锭柱底部的村庄，对吗？\n\n那是真正的历史摇篮。倒不是说我的族人对历史有强烈兴趣，但也许生活在壁画和浅浮雕之间，会改变他们的，啊，集体视野？\n  ",
+    "translation": "\n以斯拉 是，啊，锭柱底部的村庄，对吗？\n\n那是真正的历史摇篮。倒不是说我的族人对历史有强烈兴趣，但也许生活在壁画和浅浮雕之间，会改变他们的，啊，集体视野？\n  ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.Conversations.example.xml",
+    "path": "((('string', (('ID', 'Fascinating. I know nothing about these mopango, but any people whose love for learning and discovery defines them are, ah... good, in my opinion. I will discuss this with my kin, and see if they agree.'), ('Context', 'Conversation Thah.LandingPadsCommentary.7')), 1),), '#text')",
+    "source": "\nFascinating. I know nothing about these mopango, but any people whose love for learning and discovery defines them are, ah... good, in my opinion. I will discuss this with my kin, and see if they agree.\n  ",
+    "previous": "\n真迷人。我对这些 mopango 一无所知，但任何以热爱学习和发现来定义自己的族群，在我看来都，啊……很好。我会和族人商议，看看他们是否同意。\n  ",
+    "translation": "\n真迷人。我对这些 莫潘戈 一无所知，但任何以热爱学习和发现来定义自己的族群，在我看来都，啊……很好。我会和族人商议，看看他们是否同意。\n  ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.Conversations.example.xml",
+    "path": "((('string', (('ID', 'Bey Lah is real? Stain me surprised to hear so... I, ah, believed the hindren exclusively diasporic.\\n\\nThere is an undeniable poetry in it, if the slynth should emigrate to a mythical and secretive village. I will discuss this with my kin.'), ('Context', 'Conversation Thah.LandingPadsCommentary.10')), 1),), '#text')",
+    "source": "\nBey Lah is real? Stain me surprised to hear so... I, ah, believed the hindren exclusively diasporic.\n\nThere is an undeniable poetry in it, if the slynth should emigrate to a mythical and secretive village. I will discuss this with my kin.\n  ",
+    "previous": "\nBey Lah 真的存在？真让我惊得染上颜色……我，啊，一直以为 hindren 全都散居各处。\n\n如果斯林思迁往一个神话般又隐秘的村庄，这其中有种不可否认的诗意。我会和我的族人商议。\n  ",
+    "translation": "\n贝拉赫 真的存在？真让我惊得染上颜色……我，啊，一直以为 兴德伦 全都散居各处。\n\n如果斯林思迁往一个神话般又隐秘的村庄，这其中有种不可否认的诗意。我会和我的族人商议。\n  ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.Conversations.example.xml",
+    "path": "((('string', (('ID', 'The village of Kyakukya has agreed to accept the slynth as their own.'), ('Context', 'Conversation Thah.LandingPadsCommentary.Kyakukya.Text')), 1),), '#text')",
+    "source": "\nThe village of Kyakukya has agreed to accept the slynth as their own.\n  ",
+    "previous": "\nKyakukya 村已经同意接纳斯林思为自己人。\n  ",
+    "translation": "\n基亚库亚 村已经同意接纳斯林思为自己人。\n  ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.Conversations.example.xml",
+    "path": "((('string', (('ID', 'The village of Ezra has agreed to accept the slynth as their own.'), ('Context', 'Conversation Thah.LandingPadsCommentary.Ezra.Text')), 1),), '#text')",
+    "source": "\nThe village of Ezra has agreed to accept the slynth as their own.\n  ",
+    "previous": "\nEzra 村已经同意接纳斯林思为自己人。\n  ",
+    "translation": "\n以斯拉 村已经同意接纳斯林思为自己人。\n  ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.Conversations.example.xml",
+    "path": "((('string', (('ID', 'The mopango of the Tomb agreed to accept the slynth as their own.'), ('Context', 'Conversation Thah.LandingPadsCommentary.Mopango.Text')), 1),), '#text')",
+    "source": "\nThe mopango of the Tomb agreed to accept the slynth as their own.\n  ",
+    "previous": "\n墓冢中的 mopango 同意接纳斯林思为自己人。\n  ",
+    "translation": "\n墓冢中的 莫潘戈 同意接纳斯林思为自己人。\n  ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.Conversations.example.xml",
+    "path": "((('string', (('ID', 'The village of Bey Lah has agreed to accept the slynth as their own.'), ('Context', 'Conversation Thah.LandingPadsCommentary.Hindren.Text')), 1),), '#text')",
+    "source": "\nThe village of Bey Lah has agreed to accept the slynth as their own.\n  ",
+    "previous": "\nBey Lah 村已经同意接纳斯林思为自己人。\n  ",
+    "translation": "\n贝拉赫 村已经同意接纳斯林思为自己人。\n  ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.Conversations.example.xml",
+    "path": "((('string', (('ID', 'After some discussion and deliberation, we have come to consensus: Kyakukya shall be the new home of the slynth. There are many ways to grow when one is planted in the very heart of Qud.\\n\\nOur emigration party departs for the river in the morning.'), ('Context', 'Conversation Thah.SlynthDecision.4')), 1),), '#text')",
+    "source": "\nAfter some discussion and deliberation, we have come to consensus: Kyakukya shall be the new home of the slynth. There are many ways to grow when one is planted in the very heart of Qud.\n\nOur emigration party departs for the river in the morning.\n  ",
+    "previous": "\n经过一番讨论和斟酌，我们达成了共识：Kyakukya 将成为斯林思的新家。当一个人被栽在库德正中心时，会有许多成长的方式。\n\n我们的迁徙队伍会在早晨启程前往河畔。\n  ",
+    "translation": "\n经过一番讨论和斟酌，我们达成了共识：基亚库亚 将成为斯林思的新家。当一个人被栽在库德正中心时，会有许多成长的方式。\n\n我们的迁徙队伍会在早晨启程前往河畔。\n  ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.Conversations.example.xml",
+    "path": "((('string', (('ID', 'After some discussion and deliberation, we have come to consensus: The new home of the slynth is among the villagers of Ezra, harvesting musa alongside the banana ranchers and singing their songs.\\n\\nOur emigration party departs for Omonporch in the morning.'), ('Context', 'Conversation Thah.SlynthDecision.5')), 1),), '#text')",
+    "source": "\nAfter some discussion and deliberation, we have come to consensus: The new home of the slynth is among the villagers of Ezra, harvesting musa alongside the banana ranchers and singing their songs.\n\nOur emigration party departs for Omonporch in the morning.\n  ",
+    "previous": "\n经过一番讨论和斟酌，我们达成了共识：斯林思的新家将在 Ezra 村民之中，和香蕉牧人一起采收 musa，唱他们的歌。\n\n我们的迁徙队伍会在早晨启程前往欧蒙门廊。\n  ",
+    "translation": "\n经过一番讨论和斟酌，我们达成了共识：斯林思的新家将在 以斯拉 村民之中，和香蕉牧人一起采收 musa，唱他们的歌。\n\n我们的迁徙队伍会在早晨启程前往欧蒙门廊。\n  ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.Conversations.example.xml",
+    "path": "((('string', (('ID', 'After some discussion and deliberation, we have come to consensus: the slynth shall become mopango, taking root in ancient rock and casting our gaze back toward the history that preceded us.\\n\\nOur emigration party departs for the Tomb of the Eaters in the morning.'), ('Context', 'Conversation Thah.SlynthDecision.6')), 1),), '#text')",
+    "source": "\nAfter some discussion and deliberation, we have come to consensus: the slynth shall become mopango, taking root in ancient rock and casting our gaze back toward the history that preceded us.\n\nOur emigration party departs for the Tomb of the Eaters in the morning.\n  ",
+    "previous": "\n经过一番讨论和斟酌，我们达成了共识：斯林思将成为 mopango，在古老岩石中扎根，把目光投向先于我们存在的历史。\n\n我们的迁徙队伍会在早晨启程前往食客之墓。\n  ",
+    "translation": "\n经过一番讨论和斟酌，我们达成了共识：斯林思将成为 莫潘戈，在古老岩石中扎根，把目光投向先于我们存在的历史。\n\n我们的迁徙队伍会在早晨启程前往食客之墓。\n  ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.Conversations.example.xml",
+    "path": "((('string', (('ID', 'After some discussion and deliberation, we have come to consensus: Bey Lah shall be the new home of the slynth. There is a familiarity to this tucked-away village, newly greeting the world; this is our gentle emergence from obscurity, and one not undertaken alone.\\n\\nOur emigration party departs for the flower fields in the morning.'), ('Context', 'Conversation Thah.SlynthDecision.9')), 1),), '#text')",
+    "source": "\nAfter some discussion and deliberation, we have come to consensus: Bey Lah shall be the new home of the slynth. There is a familiarity to this tucked-away village, newly greeting the world; this is our gentle emergence from obscurity, and one not undertaken alone.\n\nOur emigration party departs for the flower fields in the morning.\n  ",
+    "previous": "\n经过一番讨论和斟酌，我们达成了共识：Bey Lah 将成为斯林思的新家。这个隐匿的村庄正在新近迎接世界，它带着一种熟悉感；这是我们温柔地走出晦暗，而且并非独自前行。\n\n我们的迁徙队伍会在早晨启程前往花田。\n  ",
+    "translation": "\n经过一番讨论和斟酌，我们达成了共识：贝拉赫 将成为斯林思的新家。这个隐匿的村庄正在新近迎接世界，它带着一种熟悉感；这是我们温柔地走出晦暗，而且并非独自前行。\n\n我们的迁徙队伍会在早晨启程前往花田。\n  ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.Conversations.example.xml",
+    "path": "((('string', (('ID', 'Mayest thou rest ever in the Light of the Kasaphescence.'), ('Context', 'Conversation Thah.SlynthDecision.SlynthResolutionChoice.5')), 1),), '#text')",
+    "source": "\nMayest thou rest ever in the Light of the Kasaphescence.\n  ",
+    "previous": "\n愿汝永息于 Kasaphescence 之光。\n  ",
+    "translation": "\n愿汝永息于 卡萨辉体 之光。\n  ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.Conversations.example.xml",
+    "path": "((('string', (('ID', \"Yes, I've decided to stay. The flower fields sound beautiful, and no doubt there is much to learn from the hindren. But the thought of leaving the cradle after decades of watching it... I couldn't.\\n\\nThe hydropon is even less a village now, but you're welcome to rest here whenever you like.\"), ('Context', 'Conversation Thah.SlynthLeave.9')), 1),), '#text')",
+    "source": "\nYes, I've decided to stay. The flower fields sound beautiful, and no doubt there is much to learn from the hindren. But the thought of leaving the cradle after decades of watching it... I couldn't.\n\nThe hydropon is even less a village now, but you're welcome to rest here whenever you like.\n  ",
+    "previous": "\n是的，我决定留下。花田听起来很美，而且毫无疑问，hindren 身上有许多值得学习的东西。但一想到守望摇篮数十年后要离开它……我做不到。\n\n这座水培舱如今更不像村庄了，但你随时都欢迎来这里休息。\n  ",
+    "translation": "\n是的，我决定留下。花田听起来很美，而且毫无疑问，兴德伦 身上有许多值得学习的东西。但一想到守望摇篮数十年后要离开它……我做不到。\n\n这座水培舱如今更不像村庄了，但你随时都欢迎来这里休息。\n  ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.Conversations.example.xml",
+    "path": "((('string', (('ID', 'Girsh Agolgot! Red dusts in my nails and burning hot bubbles swell in my glands! Now I point to the future.'), ('Context', 'Conversation GyreWightAgolgot.Start.Text.Text8')), 1),), '#text')",
+    "source": "\nGirsh Agolgot! Red dusts in my nails and burning hot bubbles swell in my glands! Now I point to the future.\n  ",
+    "previous": "\nGirsh Agolgot！红尘在我的指甲里，灼热气泡在我的腺体中膨胀！现在我指向未来。\n  ",
+    "translation": "\n吉尔什 Agolgot！红尘在我的指甲里，灼热气泡在我的腺体中膨胀！现在我指向未来。\n  ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.Conversations.example.xml",
+    "path": "((('string', (('ID', 'The moon is their marriage light! And then a whole world for the Girsh daughters of nephilim!'), ('Context', 'Conversation GyreWightQas.Start.Text.Text8')), 1),), '#text')",
+    "source": "\nThe moon is their marriage light! And then a whole world for the Girsh daughters of nephilim!\n  ",
+    "previous": "\n月亮是她们的婚灯！然后，整个世界都归拿非利的 Girsh 之女！\n  ",
+    "translation": "\n月亮是她们的婚灯！然后，整个世界都归拿非利的 吉尔什 之女！\n  ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.Conversations.example.xml",
+    "path": "((('string', (('ID', 'Be open. Receive the Greatest Dreams. Hear the Girsh Sing.'), ('Context', 'Conversation GyreWightQon.Start.Text.Text9')), 1),), '#text')",
+    "source": "\nBe open. Receive the Greatest Dreams. Hear the Girsh Sing.\n  ",
+    "previous": "\n敞开吧。接收最伟大的梦。聆听 Girsh 歌唱。\n  ",
+    "translation": "\n敞开吧。接收最伟大的梦。聆听 吉尔什 歌唱。\n  ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', \"Let's take another look at weapon stats. Next to the {{c|→}} is 5. That means you'll usually penetrate the armor of a creature with AV equal to 5.\\n\\nYou can penetrate armor multiple times, though, and each time you penetrate, you deal the weapon's damage.\\n\\nLet's equip it.\"), ('Context', 'Tutorial BattleRemains info')), 1),), 'Value')",
+    "source": "Let's take another look at weapon stats. Next to the {{c|→}} is 5. That means you'll usually penetrate the armor of a creature with AV equal to 5.\n\nYou can penetrate armor multiple times, though, and each time you penetrate, you deal the weapon's damage.\n\nLet's equip it.",
+    "previous": "再看看武器属性。{{c|→}} 旁边是 5，意思是你通常能穿透 AV 等于 5 的生物护甲。\n\n不过，你可以多次穿透护甲，每次穿透都会造成一次武器伤害。\n\n把它装备上吧。",
+    "translation": "再看看武器属性。{{c|→}} 旁边是 5，意思是你通常能穿透 护甲 等于 5 的生物护甲。\n\n不过，你可以多次穿透护甲，每次穿透都会造成一次武器伤害。\n\n把它装备上吧。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Choose Mehmet.'), ('Context', 'Tutorial ExploreJoppa nudge')), 1),), '#text')",
+    "source": "Choose Mehmet.",
+    "previous": "选择 Mehmet。",
+    "translation": "选择 梅赫梅特。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Oh! it looks like Warden Yrame killed Mehmet. Why, you ask?\\n\\nWell, named creatures who you can perform the water ritual with, like Mehmet, generate with dynamic faction relationships. In your game, Mehmet must have been hated by the Fellowship of Wardens for some reason.'), ('Context', 'Tutorial ExploreJoppa odd event')), 1),), 'Value')",
+    "source": "Oh! it looks like Warden Yrame killed Mehmet. Why, you ask?\n\nWell, named creatures who you can perform the water ritual with, like Mehmet, generate with dynamic faction relationships. In your game, Mehmet must have been hated by the Fellowship of Wardens for some reason.",
+    "previous": "哦！看起来守望者 Yrame 杀死了 Mehmet。你问为什么？\n\n嗯，像 Mehmet 这样可以和你举行饮水仪式的具名生物，会带着动态派系关系生成。在你的游戏里，Mehmet 一定因为某种原因被守望者兄弟会憎恨了。",
+    "translation": "哦！看起来守望者 伊拉梅 杀死了 梅赫梅特。你问为什么？\n\n嗯，像 梅赫梅特 这样可以和你举行饮水仪式的具名生物，会带着动态派系关系生成。在你的游戏里，梅赫梅特 一定因为某种原因被守望者兄弟会憎恨了。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', \"And so Warden Yrame took her revenge. In Qud, sometimes even our best efforts at providing a safe starter village are foiled by the simulation!\\n\\nWhat a charmed run! It's quite rare for this to happen, but now you get to see this hidden section of the tutorial. Good job.\"), ('Context', 'Tutorial ExploreJoppa odd event')), 1),), 'Value')",
+    "source": "And so Warden Yrame took her revenge. In Qud, sometimes even our best efforts at providing a safe starter village are foiled by the simulation!\n\nWhat a charmed run! It's quite rare for this to happen, but now you get to see this hidden section of the tutorial. Good job.",
+    "previous": "于是守望者 Yrame 完成了复仇。在卡德，有时即使我们尽力提供一个安全的新手村，也会被模拟系统搅乱！\n\n真是受祝福的一局！这种情况相当罕见，但现在你能看到教程的隐藏片段了。干得好。",
+    "translation": "于是守望者 伊拉梅 完成了复仇。在卡德，有时即使我们尽力提供一个安全的新手村，也会被模拟系统搅乱！\n\n真是受祝福的一局！这种情况相当罕见，但现在你能看到教程的隐藏片段了。干得好。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'You have a few options now. You can roll with it and continue in this world where Mehmet\\'s been revenge-slain. The early game will be a bit harder, but the main quest is not impacted.\\n\\nYou can start over and play the tutorial again, for the \"normal\" ending, which you were about to reach.\\n\\nOr, since you were near the end anyway, you can start a new game and begin your journey proper!'), ('Context', 'Tutorial ExploreJoppa odd event')), 1),), 'Value')",
+    "source": "You have a few options now. You can roll with it and continue in this world where Mehmet's been revenge-slain. The early game will be a bit harder, but the main quest is not impacted.\n\nYou can start over and play the tutorial again, for the \"normal\" ending, which you were about to reach.\n\nOr, since you were near the end anyway, you can start a new game and begin your journey proper!",
+    "previous": "现在你有几个选择。你可以顺着这个结果继续，在 Mehmet 被复仇杀死的世界里玩下去。前期会稍微难一点，但主线任务不会受影响。\n\n你也可以重来一次教程，走向你本来快要抵达的那个“正常”结局。\n\n或者，反正你已经接近结尾，也可以直接开始新游戏，正式踏上旅程！",
+    "translation": "现在你有几个选择。你可以顺着这个结果继续，在 梅赫梅特 被复仇杀死的世界里玩下去。前期会稍微难一点，但主线任务不会受影响。\n\n你也可以重来一次教程，走向你本来快要抵达的那个“正常”结局。\n\n或者，反正你已经接近结尾，也可以直接开始新游戏，正式踏上旅程！",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'This is the main gameplay stage. At the top of the screen are your attributes, HP, and XP.\\n\\nOn the right are action buttons, minimap, and the message log.\\n\\nAt the bottom is your ability hotbar.'), ('Context', 'Tutorial MoveToChest info')), 1),), 'Value')",
+    "source": "This is the main gameplay stage. At the top of the screen are your attributes, HP, and XP.\n\nOn the right are action buttons, minimap, and the message log.\n\nAt the bottom is your ability hotbar.",
+    "previous": "这是主要游戏界面。屏幕顶部显示你的属性、HP 和 XP。\n\n右侧是行动按钮、小地图和消息日志。\n\n底部是你的能力快捷栏。",
+    "translation": "这是主要游戏界面。屏幕顶部显示你的属性、生命 和 经验。\n\n右侧是行动按钮、小地图和消息日志。\n\n底部是你的能力快捷栏。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Level: =level= » HP: =hp=/=hpfull= » XP: =xp=/=xpnextlevel= » Weight: =weight=#'), ('Context', 'CharacterStatusScreen stats line level hp xp weight')), 1),), '#text')",
+    "source": "Level: =level= » HP: =hp=/=hpfull= » XP: =xp=/=xpnextlevel= » Weight: =weight=#",
+    "previous": "等级：=level= » HP：=hp=/=hpfull= » XP：=xp=/=xpnextlevel= » 负重：=weight=#",
+    "translation": "等级：=level= » 生命：=hp=/=hpfull= » 经验：=xp=/=xpnextlevel= » 负重：=weight=#",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Starting Cost {{g|[=skill.cost= sp]}}'), ('Context', 'Skill UI Line Unlearned Enough')), 1),), '#text')",
+    "source": "Starting Cost {{g|[=skill.cost= sp]}}",
+    "previous": "起始花费 {{g|[=skill.cost= sp]}}",
+    "translation": "起始花费 {{g|[=skill.cost= 技能点]}}",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Starting Cost {{r|[=skill.cost= sp]}}'), ('Context', 'Skill UI Line Unlearned Not Enough')), 1),), '#text')",
+    "source": "Starting Cost {{r|[=skill.cost= sp]}}",
+    "previous": "起始花费 {{r|[=skill.cost= sp]}}",
+    "translation": "起始花费 {{r|[=skill.cost= 技能点]}}",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Starting Cost {{g|[=skill.cost= sp]}} [=learned=/=total=]'), ('Context', 'Skill UI Line Right Partial Enough')), 1),), '#text')",
+    "source": "Starting Cost {{g|[=skill.cost= sp]}} [=learned=/=total=]",
+    "previous": "起始花费 {{g|[=skill.cost= sp]}} [=learned=/=total=]",
+    "translation": "起始花费 {{g|[=skill.cost= 技能点]}} [=learned=/=total=]",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Starting Cost {{r|[=skill.cost= sp]}} [=learned=/=total=]'), ('Context', 'Skill UI Line Right Partial Not Enough')), 1),), '#text')",
+    "source": "Starting Cost {{r|[=skill.cost= sp]}} [=learned=/=total=]",
+    "previous": "起始花费 {{r|[=skill.cost= sp]}} [=learned=/=total=]",
+    "translation": "起始花费 {{r|[=skill.cost= 技能点]}} [=learned=/=total=]",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Skill Points (SP): {{C|=go.sp=}}'), ('Context', 'Skill UI SP Available')), 1),), '#text')",
+    "source": "Skill Points (SP): {{C|=go.sp=}}",
+    "previous": "技能点（SP）：{{C|=go.sp=}}",
+    "translation": "技能点（技能点）：{{C|=go.sp=}}",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'HP: =hp='), ('Context', 'PlayerStatusBar HP')), 1),), '#text')",
+    "source": "HP: =hp=",
+    "previous": "HP：=hp=",
+    "translation": "生命：=hp=",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '{{Y|HP: {{=healthColor=|=hitpoints=}} / =baseHitpoints=}}'), ('Context', 'PlayerStatus HP Bar')), 1),), '#text')",
+    "source": "{{Y|HP: {{=healthColor=|=hitpoints=}} / =baseHitpoints=}}",
+    "previous": "{{Y|HP：{{=healthColor=|=hitpoints=}} / =baseHitpoints=}}",
+    "translation": "{{Y|生命：{{=healthColor=|=hitpoints=}} / =baseHitpoints=}}",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', \"Error decoding build code - Required Mod '=requiredMod=' not found.\"), ('Context', 'EmbarkBuilder CodeCompressor - Missing Mod Decoding')), 1),), '#text')",
+    "source": "Error decoding build code - Required Mod '=requiredMod=' not found.",
+    "previous": "解码构筑代码时出错：未找到必需 Mod“=requiredMod=”。",
+    "translation": "解码构筑代码时出错：未找到必需 模组“=requiredMod=”。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'That save file is likely not loading because of a mod error from =mod= (=name=), make sure the correct mods are enabled or contact the mod author.'), ('Context', 'GameMain save file mod error')), 1),), '#text')",
+    "source": "That save file is likely not loading because of a mod error from =mod= (=name=), make sure the correct mods are enabled or contact the mod author.",
+    "previous": "这个存档可能因为 =mod=（=name=）的 Mod 错误而无法加载。请确认已启用正确的 Mod，或联系 Mod 作者。",
+    "translation": "这个存档可能因为 =mod=（=name=）的 模组 错误而无法加载。请确认已启用正确的 模组，或联系 模组 作者。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', \"There was a fatal exception attempting to save your game. Caves of Qud attempted to recover your prior save. You probably want to close the game and reload your most recent save. It'd be helpful to send the save and logs to support@freeholdgames.com\"), ('Context', 'GameMain fatal exception while saving')), 1),), '#text')",
+    "source": "There was a fatal exception attempting to save your game. Caves of Qud attempted to recover your prior save. You probably want to close the game and reload your most recent save. It'd be helpful to send the save and logs to support@freeholdgames.com",
+    "previous": "尝试保存游戏时发生致命异常。《Caves of Qud》已尝试恢复你之前的存档。你最好关闭游戏并重新加载最近的存档。将存档和日志发送至 support@freeholdgames.com 会很有帮助。",
+    "translation": "尝试保存游戏时发生致命异常。《库德洞窟》已尝试恢复你之前的存档。你最好关闭游戏并重新加载最近的存档。将存档和日志发送至 support@freeholdgames.com 会很有帮助。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '| {{hotkey|n}} Show NavWeight'), ('Context', 'Look ShowLooker ShowNavWeight(Debug)')), 1),), '#text')",
+    "source": "| {{hotkey|n}} Show NavWeight",
+    "previous": "| {{hotkey|n}} 显示 NavWeight",
+    "translation": "| {{hotkey|n}} 显示 寻路权重",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Missing mods: '), ('Context', 'Popup DisplayLoadError MissingMods')), 1),), 'Value')",
+    "source": "Missing mods: ",
+    "previous": "缺失 Mod：",
+    "translation": "缺失 模组：",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Automatically on your clipboard should you wish to forward it to the mod author.'), ('Context', 'ModInfo ClipboardUnknownModAuthor')), 1),), '#text')",
+    "source": "Automatically on your clipboard should you wish to forward it to the mod author.",
+    "previous": "已自动复制到剪贴板，方便你转发给 Mod 作者。",
+    "translation": "已自动复制到剪贴板，方便你转发给 模组 作者。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', \"Caves of Qud will exit now since we cannot save games. Please check your directory's permissions.\"), ('Context', 'QudAPISaves DirectoryError WillExit')), 1),), '#text')",
+    "source": "Caves of Qud will exit now since we cannot save games. Please check your directory's permissions.",
+    "previous": "因为不能保存游戏，《Caves of Qud》现在将退出。请检查目录权限。",
+    "translation": "因为不能保存游戏，《库德洞窟》现在将退出。请检查目录权限。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '=subject.Does:gain= =xp|rules= XP!'), ('Context', 'ConversationDelegate gain XP message log popup')), 1),), '#text')",
+    "source": "=subject.Does:gain= =xp|rules= XP!",
+    "previous": "=subject.Does:gain= =xp|rules= XP！",
+    "translation": "=subject.Does:gain= =xp|rules= 经验！",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'You gain {{C|=xp=}} XP.'), ('Context', 'Converation GiveReshephSecret XP popup')), 1),), '#text')",
+    "source": "You gain {{C|=xp=}} XP.",
+    "previous": "你获得 {{C|=xp=}} XP。",
+    "translation": "你获得 {{C|=xp=}} 经验。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '=subject.it.does:gain= +6 AV for 50 turns.'), ('Context', 'CookingDomainArmor_LargeAVBuff_ProceduralCookingTriggeredAction Description')), 1),), '#text')",
+    "source": "=subject.it.does:gain= +6 AV for 50 turns.",
+    "previous": "=subject.it.does:gain= +6 AV，持续 50 回合。",
+    "translation": "=subject.it.does:gain= +6 护甲，持续 50 回合。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '=message=\\n\\n{{W|+1 MA for the rest of the day}}'), ('Context', 'BasicCookingEffect_Hitpoints Popup')), 1),), 'Value')",
+    "source": "=message=\n\n{{W|+1 MA for the rest of the day}}",
+    "previous": "=message=\n\n{{W|当天剩余时间内 +1 MA}}",
+    "translation": "=message=\n\n{{W|当天剩余时间内 +1 精神护甲}}",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '+1 AV permanently'), ('Context', 'CookingDomainDensity_UnitPermanentAV Description')), 1),), '#text')",
+    "source": "+1 AV permanently",
+    "previous": "永久 +1 AV",
+    "translation": "永久 +1 护甲",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '+1 AV permanently. Small chance of gravitational collapse.'), ('Context', 'CookingDomainDensity_UnitPermanentAV Description - Unknown roll')), 1),), '#text')",
+    "source": "+1 AV permanently. Small chance of gravitational collapse.",
+    "previous": "永久 +1 AV。小几率发生引力坍缩。",
+    "translation": "永久 +1 护甲。小几率发生引力坍缩。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '=subject.it.does:get= =bonus.signed=% max HP for 1 hour.'), ('Context', 'CookingDomainHP_IncreaseHP_ProceduralCookingTriggeredAction Description')), 1),), '#text')",
+    "source": "=subject.it.does:get= =bonus.signed=% max HP for 1 hour.",
+    "previous": "=subject.it.does:get= =bonus.signed=% 最大 HP，持续 1 小时。",
+    "translation": "=subject.it.does:get= =bonus.signed=% 最大 生命，持续 1 小时。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '=subject.it.does:get= +30-40% max HP for 1 hour.'), ('Context', 'CookingDomainHP_IncreaseHP_ProceduralCookingTriggeredAction Description - unknown rolls')), 1),), '#text')",
+    "source": "=subject.it.does:get= +30-40% max HP for 1 hour.",
+    "previous": "=subject.it.does:get= +30-40% 最大 HP，持续 1 小时。",
+    "translation": "=subject.it.does:get= +30-40% 最大 生命，持续 1 小时。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '=bonus.signed=% max HP'), ('Context', 'CookingDomainHP_IncreaseHP_ProceduralCookingTriggeredActionEffect Details')), 1),), '#text')",
+    "source": "=bonus.signed=% max HP",
+    "previous": "=bonus.signed=% 最大 HP",
+    "translation": "=bonus.signed=% 最大 生命",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'whenever =subject.thisCreature= =subject.verb:drop= below 20% HP,'), ('Context', 'CookingDomainHP_OnLowHealth Description')), 1),), '#text')",
+    "source": "whenever =subject.thisCreature= =subject.verb:drop= below 20% HP,",
+    "previous": "每当 =subject.thisCreature= =subject.verb:drop= 到 20% HP 以下时，",
+    "translation": "每当 =subject.thisCreature= =subject.verb:drop= 到 20% 生命 以下时，",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'whenever =subject.thisCreature= =subject.verb:drop= below 30% HP,'), ('Context', 'CookingDomainHP_OnLowHealthMidTier Description')), 1),), '#text')",
+    "source": "whenever =subject.thisCreature= =subject.verb:drop= below 30% HP,",
+    "previous": "每当 =subject.thisCreature= =subject.verb:drop= 到 30% HP 以下时，",
+    "translation": "每当 =subject.thisCreature= =subject.verb:drop= 到 30% 生命 以下时，",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '=tier.signed=% max HP'), ('Context', 'CookingDomainHP_UnitHP Description')), 1),), '#text')",
+    "source": "=tier.signed=% max HP",
+    "previous": "=tier.signed=% 最大 HP",
+    "translation": "=tier.signed=% 最大 生命",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '+10-15% max HP'), ('Context', 'CookingDomainHP_UnitHP Description - Unknown rolls')), 1),), '#text')",
+    "source": "+10-15% max HP",
+    "previous": "+10-15% 最大 HP",
+    "translation": "+10-15% 最大 生命",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '=subject.it.does:heal= 15-20 HP.'), ('Context', 'CookingDomainLowtierRegen_HealToFull_ProceduralCookingTriggeredAction Description')), 1),), '#text')",
+    "source": "=subject.it.does:heal= 15-20 HP.",
+    "previous": "=subject.it.does:heal= 15-20 HP。",
+    "translation": "=subject.it.does:heal= 15-20 生命。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '=subject.it.does:heal= 40-50 HP.'), ('Context', 'CookingDomainHightierRegen_Heal40to50_ProceduralCookingTriggeredAction Description')), 1),), '#text')",
+    "source": "=subject.it.does:heal= 40-50 HP.",
+    "previous": "=subject.it.does:heal= 40-50 HP。",
+    "translation": "=subject.it.does:heal= 40-50 生命。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'You gain =amount|color:C= XP!'), ('Context', 'XP Gain Message')), 1),), '#text')",
+    "source": "You gain =amount|color:C= XP!",
+    "previous": "你获得 =amount|color:C= XP！",
+    "translation": "你获得 =amount|color:C= 经验！",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '=bonus.signed= AV per fungal infection'), ('Context', 'FungalFortitude AVBonus')), 1),), '#text')",
+    "source": "=bonus.signed= AV per fungal infection",
+    "previous": "每个真菌感染提供 =bonus.signed= AV",
+    "translation": "每个真菌感染提供 =bonus.signed= 护甲",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '=bonus.signed= DV while occupying the same tile as foliage'), ('Context', 'Yurtmat RulesPostfix')), 1),), '#text')",
+    "source": "=bonus.signed= DV while occupying the same tile as foliage",
+    "previous": "与植物叶丛占据同一格时 DV =bonus.signed=",
+    "translation": "与植物叶丛占据同一格时 闪避 =bonus.signed=",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', \"Flexiweaved: This item's DV penalty is reduced by =modLevel=.\"), ('Context', 'ModFlexiweaved Description Tier>0')), 1),), '#text')",
+    "source": "Flexiweaved: This item's DV penalty is reduced by =modLevel=.",
+    "previous": "柔织：这件物品的 DV 惩罚降低 =modLevel=。",
+    "translation": "柔织：这件物品的 闪避 惩罚降低 =modLevel=。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', \"Flexiweaved: This item's DV penalty is reduced.\"), ('Context', 'ModFlexiweaved Description Tier Zero')), 1),), '#text')",
+    "source": "Flexiweaved: This item's DV penalty is reduced.",
+    "previous": "柔织：这件物品的 DV 惩罚降低。",
+    "translation": "柔织：这件物品的 闪避 惩罚降低。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Homing: This weapon ignores DV.'), ('Context', 'ModHeatSeeking Description')), 1),), '#text')",
+    "source": "Homing: This weapon ignores DV.",
+    "previous": "制导：这件武器无视 DV。",
+    "translation": "制导：这件武器无视 闪避。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', \"Psionic: This weapon uses the wielder's Ego modifier for penetration bonus instead of Strength mod and attacks MA instead of AV. It will dissipate from the corporeal realm after some use.\"), ('Context', 'ModPsionic Description')), 1),), '#text')",
+    "source": "Psionic: This weapon uses the wielder's Ego modifier for penetration bonus instead of Strength mod and attacks MA instead of AV. It will dissipate from the corporeal realm after some use.",
+    "previous": "灵能：这件武器使用持用者的自我修正作为穿透加值，而非力量修正，并攻击 MA 而非 AV。使用一段时间后，它会从物质界消散。",
+    "translation": "灵能：这件武器使用持用者的自我修正作为穿透加值，而非力量修正，并攻击 精神护甲 而非 护甲。使用一段时间后，它会从物质界消散。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Reinforced: +1 AV'), ('Context', 'ModReinforced Description')), 1),), '#text')",
+    "source": "Reinforced: +1 AV",
+    "previous": "加固：+1 AV",
+    "translation": "加固：+1 护甲",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Visored: +1 DV'), ('Context', 'ModVisored Description')), 1),), '#text')",
+    "source": "Visored: +1 DV",
+    "previous": "带面罩：+1 DV",
+    "translation": "带面罩：+1 闪避",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Shields only grant their AV when you successfully block an attack.'), ('Context', 'Shield Short Description Rules')), 1),), '#text')",
+    "source": "Shields only grant their AV when you successfully block an attack.",
+    "previous": "盾牌只在你成功格挡攻击时提供 AV。",
+    "translation": "盾牌只在你成功格挡攻击时提供 护甲。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '\\nDV penalty and no jumping removed due to Hurdle skill.'), ('Context', 'Run Skill Description Postfix (Hurdle)')), 1),), 'Value')",
+    "source": "\nDV penalty and no jumping removed due to Hurdle skill.",
+    "previous": "\n因跨栏技能，移除 DV 惩罚和无法跳跃限制。",
+    "translation": "\n因跨栏技能，移除 闪避 惩罚和无法跳跃限制。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '=optionalIt==subject.verb:cleave= for -3 AV'), ('Context', 'ModGigantic Description Replacer - Axe')), 1),), '#text')",
+    "source": "=optionalIt==subject.verb:cleave= for -3 AV",
+    "previous": "=optionalIt==subject.verb:劈裂= -3 AV",
+    "translation": "=optionalIt==subject.verb:劈裂= -3 护甲",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Walls.example.xml",
+    "path": "((('object', (('Name', 'Relief1'),), 1), ('part', (('Name', 'Description'),), 1)), 'Short')",
+    "source": "This is an exquisitely detailed high relief cut from precious cerulean marble. It depicts the Sacred Joining, as recounted by Shekhinah the Father to the temple high priests. In the early dawn of our universe, the Argent Fathers roamed the timeless aether with inert hearts. There, in the coldest distance of space, they discovered beauty-and-chrome incarnate, the Kasaphescence. Together they wrought machines from Her naked womb to inhabit a hundred earths. In the scene here, the Fathers first approach Her Radiance. They are led by Shekhinah, who occupies a position of prominence.",
+    "previous": "这是一幅由珍贵蔚蓝大理石切出的精细高浮雕。它描绘了神圣结合，正如父神 Shekhinah 向神庙高阶祭司所述：在我们宇宙的初晓，银辉诸父怀着惰性之心漫游无时以太。在那里，在宇宙最寒冷的远处，他们发现了美与铬钢的化身，Kasaphescence。他们一同从她裸露的子宫中锻造机器，让机器居于百座大地。这处场景中，诸父第一次接近她的光辉，由居于显要位置的 Shekhinah 引领。",
+    "translation": "这是一幅由珍贵蔚蓝大理石切出的精细高浮雕。它描绘了神圣结合，正如父神 舍金纳 向神庙高阶祭司所述：在我们宇宙的初晓，银辉诸父怀着惰性之心漫游无时以太。在那里，在宇宙最寒冷的远处，他们发现了美与铬钢的化身，卡萨辉体。他们一同从她裸露的子宫中锻造机器，让机器居于百座大地。这处场景中，诸父第一次接近她的光辉，由居于显要位置的 舍金纳 引领。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Walls.example.xml",
+    "path": "((('object', (('Name', 'Relief2'),), 1), ('part', (('Name', 'Description'),), 1)), 'Short')",
+    "source": "This is a high relief cut with exquisite detail from rare, cerulean marble. It depicts the Edification, as chanted in the Canticles Chromaic. After the Sacred Joining, the Argent Fathers molded the plasmatic metal of the Kasaphescence into edifices fit for inhabitance by mortal folk. They wrought spires onto mountains and arches over rivers. Here, Shekhinah oversees the construction, gazing east upon His new, gleaming world.",
+    "previous": "这是一幅由稀有蔚蓝大理石切出的精细高浮雕。它描绘了《铬彩圣歌》中吟唱的教化。神圣结合之后，银辉诸父把 Kasaphescence 的等离子金属塑造成适合凡俗居住的建筑。他们在山上造尖塔，在河上架拱门。这里，Shekhinah 监督建造，向东凝望他崭新而闪耀的世界。",
+    "translation": "这是一幅由稀有蔚蓝大理石切出的精细高浮雕。它描绘了《铬彩圣歌》中吟唱的教化。神圣结合之后，银辉诸父把 卡萨辉体 的等离子金属塑造成适合凡俗居住的建筑。他们在山上造尖塔，在河上架拱门。这里，舍金纳 监督建造，向东凝望他崭新而闪耀的世界。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Walls.example.xml",
+    "path": "((('object', (('Name', 'SultanWall_Period6'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "carved stone from the sultanate of Resheph",
+    "previous": "Resheph 苏丹国的雕刻石",
+    "translation": "雷谢夫 苏丹国的雕刻石",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Walls.example.xml",
+    "path": "((('object', (('Name', 'SultanWall_Period6'),), 1), ('part', (('Name', 'Description'),), 1)), 'Short')",
+    "source": "Gigantic, old stone was stacked, knapped, and carved in long arcs to the style of the day in the time of Resheph. Since then, the project has accrued collaborators, and their signatures are writ everywhere: here, the lacuna of a vandal's edit; there, the soft strokes of time's brush.",
+    "previous": "巨大古石被堆叠、敲凿，并按 Resheph 时代的风格雕成长弧。此后，这项工程积累了合作者，他们的签名写得到处都是：这里是破坏者编辑留下的空缺，那里是时间之刷的柔软笔触。",
+    "translation": "巨大古石被堆叠、敲凿，并按 雷谢夫 时代的风格雕成长弧。此后，这项工程积累了合作者，他们的签名写得到处都是：这里是破坏者编辑留下的空缺，那里是时间之刷的柔软笔触。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Walls.example.xml",
+    "path": "((('object', (('Name', 'InnerSultanWall_Period6'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "gilded marble from the sultanate of Resheph",
+    "previous": "Resheph 苏丹国的鎏金大理石",
+    "translation": "雷谢夫 苏丹国的鎏金大理石",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "WorldTerrain.example.xml",
+    "path": "((('object', (('Name', 'TerrainRiverYonth'),), 1), ('part', (('Name', 'Description'),), 1)), 'Short')",
+    "source": "Yonth breaks the massif to the strange East and ushers its nameless waters into Qud. Fish-things feed on her basalt chips.",
+    "previous": "Yonth 劈开通往奇异东方的山体，将无名之水引入 Qud。鱼形之物以她的玄武岩碎片为食。",
+    "translation": "Yonth 劈开通往奇异东方的山体，将无名之水引入 库德。鱼形之物以她的玄武岩碎片为食。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "WorldTerrain.example.xml",
+    "path": "((('object', (('Name', 'TerrainLakeHinnom'),), 1), ('part', (('Name', 'Description'),), 1)), 'Short')",
+    "source": "Coral fingers poke out from the spongebed and pierce the algal bloom, where white esh flock in the hundreds.",
+    "previous": "珊瑚手指从海绵床中探出，刺穿藻华，数百条白色 esh 聚集其间。",
+    "translation": "珊瑚手指从海绵床中探出，刺穿藻华，数百条白色 埃什鱼 聚集其间。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "WorldTerrain.example.xml",
+    "path": "((('object', (('Name', 'TerrainRustWell'),), 1), ('part', (('Name', 'Description'),), 1)), 'Short')",
+    "source": "Red qudzu vines take as their trellises chrome wells bored into the earth.",
+    "previous": "红色 Qudzu 藤以钻入大地的铬钢井作为棚架。",
+    "translation": "红色 库德葛 藤以钻入大地的铬钢井作为棚架。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "WorldTerrain.example.xml",
+    "path": "((('object', (('Name', 'TerrainEynRoj'),), 1), ('part', (('Name', 'Description'),), 1)), 'Short')",
+    "source": "Tucked into a marble glade is the cloven trunk of Chavvah, the Tree of Life. Its fallen leaves lay like a mirrored carpet, and the dream wrens chirr a psychal carol.",
+    "previous": "生命之树 Chavvah 裂开的树干藏在大理石林间空地里。落叶铺成镜面地毯，梦鹪鹩啁啾着灵质颂歌。",
+    "translation": "生命之树 查瓦 裂开的树干藏在大理石林间空地里。落叶铺成镜面地毯，梦鹪鹩啁啾着灵质颂歌。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "WorldTerrain.example.xml",
+    "path": "((('object', (('Name', 'TerrainPalladiumReef 3l'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "Yd Freehold",
+    "previous": "Yd 自由领",
+    "translation": "伊德 自由领",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Worlds.example.xml",
+    "path": "((('world', (('Name', 'JoppaWorld'),), 1), ('cell', (('Name', 'YdFreeholdCell'),), 1), ('zone', (('Level', '5-9'), ('x', '0-2'), ('y', '0-2')), 1)), 'Name')",
+    "source": "sky above the Yd Freehold",
+    "previous": "Yd 自由领上方的天空",
+    "translation": "伊德 自由领上方的天空",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Worlds.example.xml",
+    "path": "((('world', (('Name', 'JoppaWorld'),), 1), ('cell', (('Name', 'YdFreeholdCell'),), 1), ('zone', (('Level', '10'), ('x', '0-2'), ('y', '0-2')), 1)), 'NameContext')",
+    "source": "the Yd Freehold",
+    "previous": "Yd 自由领",
+    "translation": "伊德 自由领",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Worlds.example.xml",
+    "path": "((('world', (('Name', 'JoppaWorld'),), 1), ('cell', (('Name', 'YdFreeholdCell'),), 1), ('zone', (('Level', '10'), ('x', '1'), ('y', '1')), 1)), 'Name')",
+    "source": "Yd Freehold",
+    "previous": "Yd 自由领",
+    "translation": "伊德 自由领",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Worlds.example.xml",
+    "path": "((('world', (('Name', 'JoppaWorld'),), 1), ('cell', (('Name', 'YdFreeholdCell'),), 1), ('zone', (('Level', '11'), ('x', '1'), ('y', '1')), 1)), 'Name')",
+    "source": "Yd Freehold",
+    "previous": "Yd 自由领",
+    "translation": "伊德 自由领",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Worlds.example.xml",
+    "path": "((('world', (('Name', 'JoppaWorld'),), 1), ('cell', (('Name', 'Kyakukya'),), 1), ('zone', (('Level', '5-9'), ('x', '0-2'), ('y', '0-2')), 1)), 'Name')",
+    "source": "sky above Kyakukya",
+    "previous": "Kyakukya 上方的天空",
+    "translation": "基亚库亚 上方的天空",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "ZoneTerrain.example.xml",
+    "path": "((('object', (('Name', 'Ziv Bough_blue'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "ziv bough",
+    "previous": "ziv 树枝",
+    "translation": "齐夫 树枝",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "ZoneTerrain.example.xml",
+    "path": "((('object', (('Name', 'Ziv Bough'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "ziv bough",
+    "previous": "ziv 树枝",
+    "translation": "齐夫 树枝",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "ZoneTerrain.example.xml",
+    "path": "((('object', (('Name', 'Godshroom'),), 1), ('part', (('Name', 'Description'),), 1)), 'Short')",
+    "source": "Its aspect imbued with lucent coral, this mushroom catches your eye like no other. Qud knows no such hue, and so you ask =player.reflexive=: what sort of radiant rain dyed its flesh? Could it be an iota of the Eaters themselves, mummified in the soil of the Rainbow Wood?",
+    "previous": "这朵蘑菇浸着透亮珊瑚色，它的姿态牢牢抓住你的目光。Qud 不知这种色相，于是你问 =player.reflexive=：是什么样的辉雨染了它的肉？会不会是食者自己的一粒微尘，在彩虹林的土壤中化作木乃伊？",
+    "translation": "这朵蘑菇浸着透亮珊瑚色，它的姿态牢牢抓住你的目光。库德 不知这种色相，于是你问 =player.reflexive=：是什么样的辉雨染了它的肉？会不会是食者自己的一粒微尘，在彩虹林的土壤中化作木乃伊？",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'In %=year=%, the Gyre widened, and the final plague afflicted the land. The Girsh Nephilim rose from their cradles on the Moon Stair and slouched toward Qud to eat its young. Resheph rose to meet them in battle and cast them back.'), ('Context', 'Resheph Gospel (rebuffs Girsh)')), 1),), '#text')",
+    "source": "In %=year=%, the Gyre widened, and the final plague afflicted the land. The Girsh Nephilim rose from their cradles on the Moon Stair and slouched toward Qud to eat its young. Resheph rose to meet them in battle and cast them back.",
+    "previous": "在 %=year% 年，轮回扩大，最终瘟疫降临大地。吉尔什拿非利从月阶上的摇篮中升起，佝偻着走向库德，欲吞食其幼子。瑞谢夫挺身迎战，将他们击退。",
+    "translation": "在 %=year=% 年，轮回扩大，最终瘟疫降临大地。吉尔什拿非利从月阶上的摇篮中升起，佝偻着走向库德，欲吞食其幼子。瑞谢夫挺身迎战，将他们击退。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '=usesCharge.if:When powered, ==pen.signed= penetration vs. walls.'), ('Context', 'Drill Description')), 1),), '#text')",
+    "source": "=usesCharge.if:When powered, ==pen.signed= penetration vs. walls.",
+    "previous": "=usesCharge.if:供能时，:=pen.signed= 对墙穿透。",
+    "translation": "=usesCharge.if:供能时，==pen.signed= 对墙穿透。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'When powered, provides =min.range#max=% reduction in the action costs of =included.andList= actions, except for =excluded.andList= ones.'), ('Context', 'ReduceEnergyCosts RulesPostfix Powered PercentageReduction IncludedAndExcluded')), 1),), '#text')",
+    "source": "When powered, provides =min.range#max=% reduction in the action costs of =included.andList= actions, except for =excluded.andList= ones.",
+    "previous": "供能时，使 =included.andList= 行动的行动消耗降低 =min.range#max%，但 =excluded.andList= 行动除外。",
+    "translation": "供能时，使 =included.andList= 行动的行动消耗降低 =min.range#max=%，但 =excluded.andList= 行动除外。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'When powered, provides =min.range#max=% reduction in the action costs of =included.andList= actions.'), ('Context', 'ReduceEnergyCosts RulesPostfix Powered PercentageReduction Included')), 1),), '#text')",
+    "source": "When powered, provides =min.range#max=% reduction in the action costs of =included.andList= actions.",
+    "previous": "供能时，使 =included.andList= 行动的行动消耗降低 =min.range#max%。",
+    "translation": "供能时，使 =included.andList= 行动的行动消耗降低 =min.range#max=%。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'When powered, provides =min.range#max=% reduction in the action costs of actions other than =excluded.andList=.'), ('Context', 'ReduceEnergyCosts RulesPostfix Powered PercentageReduction Excluded')), 1),), '#text')",
+    "source": "When powered, provides =min.range#max=% reduction in the action costs of actions other than =excluded.andList=.",
+    "previous": "供能时，使除 =excluded.andList= 之外行动的行动消耗降低 =min.range#max%。",
+    "translation": "供能时，使除 =excluded.andList= 之外行动的行动消耗降低 =min.range#max=%。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'When powered, provides =min.range#max=% reduction in action costs.'), ('Context', 'ReduceEnergyCosts RulesPostfix Powered PercentageReduction All')), 1),), '#text')",
+    "source": "When powered, provides =min.range#max=% reduction in action costs.",
+    "previous": "供能时，使行动消耗降低 =min.range#max%。",
+    "translation": "供能时，使行动消耗降低 =min.range#max=%。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Provides =min.range#max=% reduction in the action costs of =included.andList= actions, except for =excluded.andList= ones.'), ('Context', 'ReduceEnergyCosts RulesPostfix PercentageReduction IncludedAndExcluded')), 1),), '#text')",
+    "source": "Provides =min.range#max=% reduction in the action costs of =included.andList= actions, except for =excluded.andList= ones.",
+    "previous": "使 =included.andList= 行动的行动消耗降低 =min.range#max%，但 =excluded.andList= 行动除外。",
+    "translation": "使 =included.andList= 行动的行动消耗降低 =min.range#max=%，但 =excluded.andList= 行动除外。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Provides =min.range#max=% reduction in the action costs of =included.andList= actions.'), ('Context', 'ReduceEnergyCosts RulesPostfix PercentageReduction Included')), 1),), '#text')",
+    "source": "Provides =min.range#max=% reduction in the action costs of =included.andList= actions.",
+    "previous": "使 =included.andList= 行动的行动消耗降低 =min.range#max%。",
+    "translation": "使 =included.andList= 行动的行动消耗降低 =min.range#max=%。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Provides =min.range#max=% reduction in the action costs of actions other than =excluded.andList=.'), ('Context', 'ReduceEnergyCosts RulesPostfix PercentageReduction Excluded')), 1),), '#text')",
+    "source": "Provides =min.range#max=% reduction in the action costs of actions other than =excluded.andList=.",
+    "previous": "使除 =excluded.andList= 之外行动的行动消耗降低 =min.range#max%。",
+    "translation": "使除 =excluded.andList= 之外行动的行动消耗降低 =min.range#max=%。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Provides =min.range#max=% reduction in action costs.'), ('Context', 'ReduceEnergyCosts RulesPostfix PercentageReduction All')), 1),), '#text')",
+    "source": "Provides =min.range#max=% reduction in action costs.",
+    "previous": "使行动消耗降低 =min.range#max%。",
+    "translation": "使行动消耗降低 =min.range#max=%。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'When powered, causes =min.range#max=% increase in the action costs of =included.andList= actions, except for =excluded.andList= ones.'), ('Context', 'ReduceEnergyCosts RulesPostfix Powered PercentageIncrease IncludedAndExcluded')), 1),), '#text')",
+    "source": "When powered, causes =min.range#max=% increase in the action costs of =included.andList= actions, except for =excluded.andList= ones.",
+    "previous": "供能时，使 =included.andList= 行动的行动消耗提高 =min.range#max%，但 =excluded.andList= 行动除外。",
+    "translation": "供能时，使 =included.andList= 行动的行动消耗提高 =min.range#max=%，但 =excluded.andList= 行动除外。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'When powered, causes =min.range#max=% increase in the action costs of =included.andList= actions.'), ('Context', 'ReduceEnergyCosts RulesPostfix Powered PercentageIncrease Included')), 1),), '#text')",
+    "source": "When powered, causes =min.range#max=% increase in the action costs of =included.andList= actions.",
+    "previous": "供能时，使 =included.andList= 行动的行动消耗提高 =min.range#max%。",
+    "translation": "供能时，使 =included.andList= 行动的行动消耗提高 =min.range#max=%。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'When powered, causes =min.range#max=% increase in the action costs of actions other than =excluded.andList=.'), ('Context', 'ReduceEnergyCosts RulesPostfix Powered PercentageIncrease Excluded')), 1),), '#text')",
+    "source": "When powered, causes =min.range#max=% increase in the action costs of actions other than =excluded.andList=.",
+    "previous": "供能时，使除 =excluded.andList= 之外行动的行动消耗提高 =min.range#max%。",
+    "translation": "供能时，使除 =excluded.andList= 之外行动的行动消耗提高 =min.range#max=%。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'When powered, causes =min.range#max=% increase in action costs.'), ('Context', 'ReduceEnergyCosts RulesPostfix Powered PercentageIncrease All')), 1),), '#text')",
+    "source": "When powered, causes =min.range#max=% increase in action costs.",
+    "previous": "供能时，使行动消耗提高 =min.range#max%。",
+    "translation": "供能时，使行动消耗提高 =min.range#max=%。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Causes =min.range#max=% increase in the action costs of =included.andList= actions, except for =excluded.andList= ones.'), ('Context', 'ReduceEnergyCosts RulesPostfix PercentageIncrease IncludedAndExcluded')), 1),), '#text')",
+    "source": "Causes =min.range#max=% increase in the action costs of =included.andList= actions, except for =excluded.andList= ones.",
+    "previous": "使 =included.andList= 行动的行动消耗提高 =min.range#max%，但 =excluded.andList= 行动除外。",
+    "translation": "使 =included.andList= 行动的行动消耗提高 =min.range#max=%，但 =excluded.andList= 行动除外。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Causes =min.range#max=% increase in the action costs of =included.andList= actions.'), ('Context', 'ReduceEnergyCosts RulesPostfix PercentageIncrease Included')), 1),), '#text')",
+    "source": "Causes =min.range#max=% increase in the action costs of =included.andList= actions.",
+    "previous": "使 =included.andList= 行动的行动消耗提高 =min.range#max%。",
+    "translation": "使 =included.andList= 行动的行动消耗提高 =min.range#max=%。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Causes =min.range#max=% increase in the action costs of actions other than =excluded.andList=.'), ('Context', 'ReduceEnergyCosts RulesPostfix PercentageIncrease Excluded')), 1),), '#text')",
+    "source": "Causes =min.range#max=% increase in the action costs of actions other than =excluded.andList=.",
+    "previous": "使除 =excluded.andList= 之外行动的行动消耗提高 =min.range#max%。",
+    "translation": "使除 =excluded.andList= 之外行动的行动消耗提高 =min.range#max=%。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Causes =min.range#max=% increase in action costs.'), ('Context', 'ReduceEnergyCosts RulesPostfix PercentageIncrease All')), 1),), '#text')",
+    "source": "Causes =min.range#max=% increase in action costs.",
+    "previous": "使行动消耗提高 =min.range#max%。",
+    "translation": "使行动消耗提高 =min.range#max=%。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'When powered, confers =min.range#max=% reduction/increase in the action costs of =included.andList= actions, except for =excluded.andList= ones.'), ('Context', 'ReduceEnergyCosts RulesPostfix Powered PercentageRandom IncludedAndExcluded')), 1),), '#text')",
+    "source": "When powered, confers =min.range#max=% reduction/increase in the action costs of =included.andList= actions, except for =excluded.andList= ones.",
+    "previous": "供能时，使 =included.andList= 行动的行动消耗随机降低或提高 =min.range#max%，但 =excluded.andList= 行动除外。",
+    "translation": "供能时，使 =included.andList= 行动的行动消耗随机降低或提高 =min.range#max=%，但 =excluded.andList= 行动除外。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'When powered, confers =min.range#max=% reduction/increase in the action costs of =included.andList= actions.'), ('Context', 'ReduceEnergyCosts RulesPostfix Powered PercentageRandom Included')), 1),), '#text')",
+    "source": "When powered, confers =min.range#max=% reduction/increase in the action costs of =included.andList= actions.",
+    "previous": "供能时，使 =included.andList= 行动的行动消耗随机降低或提高 =min.range#max%。",
+    "translation": "供能时，使 =included.andList= 行动的行动消耗随机降低或提高 =min.range#max=%。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'When powered, confers =min.range#max=% reduction/increase in the action costs of actions other than =excluded.andList=.'), ('Context', 'ReduceEnergyCosts RulesPostfix Powered PercentageRandom Excluded')), 1),), '#text')",
+    "source": "When powered, confers =min.range#max=% reduction/increase in the action costs of actions other than =excluded.andList=.",
+    "previous": "供能时，使除 =excluded.andList= 之外行动的行动消耗随机降低或提高 =min.range#max%。",
+    "translation": "供能时，使除 =excluded.andList= 之外行动的行动消耗随机降低或提高 =min.range#max=%。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'When powered, confers =min.range#max=% reduction/increase in action costs.'), ('Context', 'ReduceEnergyCosts RulesPostfix Powered PercentageRandom All')), 1),), '#text')",
+    "source": "When powered, confers =min.range#max=% reduction/increase in action costs.",
+    "previous": "供能时，使行动消耗随机降低或提高 =min.range#max%。",
+    "translation": "供能时，使行动消耗随机降低或提高 =min.range#max=%。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'Masterwork: This weapon scores critical hits =bonus=% of the time instead of 5%.'), ('Context', 'ModMasterwork Description')), 1),), '#text')",
+    "source": "Masterwork: This weapon scores critical hits =bonus=% of the time instead of 5%.",
+    "previous": "大师工艺：这件武器的暴击几率为 =bonus%，而非 5%。",
+    "translation": "大师工艺：这件武器的暴击几率为 =bonus=%，而非 5%。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'You give =subject.the.name= your =isNew.if:new :=pronouns.'), ('Context', 'ConversationScript PronounExchange (yours only)')), 1),), '#text')",
+    "source": "You give =subject.the.name= your =isNew.if:new :=pronouns.",
+    "previous": "你把你的=isNew.if:新:=pronouns 给了 =subject.the.name=。",
+    "translation": "你把你的 =isNew.if:新 :=代词给了 =subject.the.name=。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "EmbarkModules.example.xml",
+    "path": "((('module', (('Class', 'XRL.CharacterBuilds.Qud.QudChooseStartingLocationModule'),), 1), ('locations', (), 1), ('location', (('ID', 'SaltMarshVillage'),), 1), ('description', (), 1)), '#text')",
+    "source": "\n          {{c|∙}} Random village in the salt marshes.\n          {{c|∙}} Village teaches Harvestry.\n          {{c|∙}} +50 reputation with insects and fish.\n          {{c|∙}} Start with a pair of {{g|crocc{{G|a}}sins}}.\n              ",
+    "previous": "\n          {{c|∙}} 盐沼中的随机村庄。\n          {{c|∙}} 村庄教授收割术。\n          {{c|∙}} 在昆虫和鱼类中的声望 +50。\n          {{c|∙}} 开局拥有一双 {{g|crocc{{G|a}}sins}}。\n              ",
+    "translation": "\n          {{c|∙}} 盐沼中的随机村庄。\n          {{c|∙}} 村庄教授收割术。\n          {{c|∙}} 在昆虫和鱼类中的声望 +50。\n          {{c|∙}} 开局拥有一双 {{g|鳄皮{{G|软}}鞋}}。\n              ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "EmbarkModules.example.xml",
+    "path": "((('module', (('Class', 'XRL.CharacterBuilds.Qud.QudChooseStartingLocationModule'),), 1), ('locations', (), 1), ('location', (('ID', 'SaltDuneVillage'),), 1), ('description', (), 1)), '#text')",
+    "source": "\n          {{c|∙}} Random village in the salt dunes.\n          {{c|∙}} Village teaches Fasting Way.\n          {{c|∙}} +100 reputation with reptiles.\n          {{c|∙}} Start with an {{Y|Issach{{r|a}}ri}} banner.\n              ",
+    "previous": "\n          {{c|∙}} 盐丘中的随机村庄。\n          {{c|∙}} 村庄教授斋戒之道。\n          {{c|∙}} 在爬行动物中的声望 +100。\n          {{c|∙}} 开局拥有一面 {{Y|Issach{{r|a}}ri}} 旗帜。\n              ",
+    "translation": "\n          {{c|∙}} 盐丘中的随机村庄。\n          {{c|∙}} 村庄教授斋戒之道。\n          {{c|∙}} 在爬行动物中的声望 +100。\n          {{c|∙}} 开局拥有一面 {{Y|伊萨{{r|查}}里}} 旗帜。\n              ",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "HiddenObjects.example.xml",
+    "path": "((('object', (('Name', 'BaseSpindleSupport'),), 1), ('part', (('Name', 'Description'),), 1)), 'Short')",
+    "source": "Flanged ursteel anchors secure the tapered ribbon of Gjaus to its low earth point.",
+    "previous": "带凸缘的 ursteel 锚将 Gjaus 的渐细缎带固定在其低地锚点。",
+    "translation": "带凸缘的 隧钢 锚将 Gjaus 的渐细缎带固定在其低地锚点。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Options.example.xml",
+    "path": "((('option', (('ID', 'OptionDebugStringTableLoadingChecks'),), 1),), 'DisplayText')",
+    "source": "Enable extra strings xml loading checks",
+    "previous": "启用额外的 strings xml 加载检查",
+    "translation": "启用额外的字符串表 XML 加载检查",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Options.example.xml",
+    "path": "((('option', (('ID', 'OptionDebugStringTableLoadingChecks'),), 1), ('helptext', (), 1)), '#text')",
+    "source": "Log warnings when loading strings XML if string is not present in current Strings-example.xml",
+    "previous": "加载 strings XML 时，如果字符串不存在于当前 Strings-example.xml 中，则记录警告",
+    "translation": "加载字符串表 XML 时，如果字符串不存在于当前 Strings-example.xml 中，则记录警告",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Options.example.xml",
+    "path": "((('option', (('ID', 'OptionDebugExampleLanguage'),), 1), ('helptext', (), 1)), '#text')",
+    "source": "Enables selecting the Examples language files from the language picker.",
+    "previous": "允许在语言选择器中选择 Examples 语言文件。",
+    "translation": "允许在语言选择器中选择示例语言文件。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', \"Quetzal! That's all for the tutorial, friend.\\n\\nWe just scratched the very tip of the surface. Quests, secrets, leveling up, physics, reputation, limbs... we leave that for you to discover.\"), ('Context', 'Tutorial ExploreJoppa info')), 1),), 'Value')",
+    "source": "Quetzal! That's all for the tutorial, friend.\n\nWe just scratched the very tip of the surface. Quests, secrets, leveling up, physics, reputation, limbs... we leave that for you to discover.",
+    "previous": "Quetzal！教程到这里就结束了，朋友。\n\n我们只是轻轻碰了碰表面。任务、秘密、升级、物理、声望、肢体……这些就留给你自己去发现。",
+    "translation": "羽蛇祝福！教程到这里就结束了，朋友。\n\n我们只是轻轻碰了碰表面。任务、秘密、升级、物理、声望、肢体……这些就留给你自己去发现。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', 'At =spice:time.partsOfDay.!random= under =spice:commonPhrases.strange.!random|article= and =color= sky, the people of =villageName= saw an image on the horizon that looked like =elementNoun|article= bathed in =color=. It was =player.name=, and after =player.subjective= came and left, the people of =villageName= built a monument to =name= and thenceforth called =player.objective= =elementNoun|title=-in-=color|title=.'), ('Context', 'OpeningStory Gospel')), 1),), '#text')",
+    "source": "At =spice:time.partsOfDay.!random= under =spice:commonPhrases.strange.!random|article= and =color= sky, the people of =villageName= saw an image on the horizon that looked like =elementNoun|article= bathed in =color=. It was =player.name=, and after =player.subjective= came and left, the people of =villageName= built a monument to =name= and thenceforth called =player.objective= =elementNoun|title=-in-=color|title=.",
+    "previous": "在=spice:commonPhrases.strange.!random|article=而 =color= 的天空下，在 =spice:time.partsOfDay.!random=，=villageName= 的人们看见地平线上有一道影像，像是沐浴在 =color= 中的 =elementNoun|article=。那是 =player.name=；在 =player.subjective= 来而复去之后，=villageName= 的人们为 =name= 建起一座纪念碑，并从此称 =player.objective= 为 =elementNoun|title=-in-=color|title=。",
+    "translation": "在=spice:commonPhrases.strange.!random|article=而 =color= 的天空下，在 =spice:time.partsOfDay.!random=，=villageName= 的人们看见地平线上有一道影像，像是沐浴在 =color= 中的 =elementNoun|article=。那是 =player.name=；在 =player.subjective= 来而复去之后，=villageName= 的人们为 =name= 建起一座纪念碑，并从此称 =player.objective= 为 =elementNoun|title=之于=color|title=。",
+    "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  }
+]

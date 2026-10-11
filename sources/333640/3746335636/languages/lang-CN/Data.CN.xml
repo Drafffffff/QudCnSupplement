@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud - Generated Localizable XML 2.0.212.26
+
+<objects ExcludeFromCorpusGeneration="Key">
+
+  <object Name="Key" Load="">
+
+    <part Name="Key">
+
+    <builder Name="Key">
+
+    <tag Name="Key" Value="DisplayText">
+
+    <stag Name="Key">
+
+    <property Name="Key">
+
+    <xtagTextFragments>
+
+    <xtagGrammar>
+
+-->
+<objects Lang="CN" Encoding="utf-8">
+  <object Name="BaseUnknown" Load="Merge">
+    <part Name="Render" DisplayName="怪异造物" />
+    <part Name="Description" Short="尘土给这件令人费解的装置扑上一层粉。" />
+  </object>
+  <object Name="UnknownGigantic" Load="Merge">
+    <part Name="Description" Short="尘土给这件巨型装置扑上一层粉。" />
+    <part Name="SizeAdjective" Adjective="巨型" />
+  </object>
+  <object Name="UnknownOddTrinket" Load="Merge">
+    <part Name="Render" DisplayName="古怪小饰物" />
+    <part Name="Description" Short="光从一件小奇物的边缘上闪过。" />
+  </object>
+  <object Name="UnknownStrangeTubes" Load="Merge">
+    <part Name="Render" DisplayName="奇怪管子" />
+    <part Name="Description" Short="用途不明的管子从焊接接头处张开。" />
+  </object>
+  <object Name="UnknownStrangeFurniture" Load="Merge">
+    <part Name="Render" DisplayName="奇怪家具" />
+    <part Name="Description" Short="一件意图空洞的坐具接住尘土和偏光。" />
+    <xtagGrammar adjunctNoun="example" massNoun="true" />
+  </object>
+  <object Name="UnknownBizarreContraption" Load="Merge">
+    <part Name="Render" DisplayName="古怪机械" />
+    <part Name="Description" Short="旋钮和铆钉在这台难以理解的机器上纵横交错。" />
+  </object>
+  <object Name="UnknownMed" Load="Merge">
+    <part Name="Render" DisplayName="管剂" />
+    <part Name="Description" Short="一种奇怪物质填满玻璃通道。" />
+    <part Name="SizeAdjective" Adjective="小型" />
+  </object>
+  <object Name="UnknownStrangeMeat" Load="Merge">
+    <part Name="Render" DisplayName="奇怪肉块" />
+    <part Name="Description" Short="一个未知器官带着生命的绝望咩叫。" />
+  </object>
+  <object Name="UnknownStrangePlant" Load="Merge">
+    <part Name="Render" DisplayName="奇怪植物" />
+    <part Name="Description" Short="一条陌生的绿色卷须在叶鞘中盘绕着自己。" />
+  </object>
+  <object Name="UnknownPistol" Load="Merge">
+    <part Name="Render" DisplayName="手枪" />
+    <part Name="Description" Short="瑕痕横过一把未识别枪械的短枪管。" />
+  </object>
+  <object Name="UnknownRifle" Load="Merge">
+    <part Name="Render" DisplayName="步枪" />
+    <part Name="Description" Short="瑕痕横过一把未识别枪械的长枪管。" />
+  </object>
+  <object Name="UnknownCannon" Load="Merge">
+    <part Name="Render" DisplayName="火炮" />
+    <part Name="Description" Short="烟痕熏黑了铁制准星，并沿这把大枪的主膛延伸。" />
+  </object>
+  <object Name="UnknownBow" Load="Merge">
+    <part Name="Render" DisplayName="弓" />
+    <part Name="Description" Short="拉伸线连接着一把未识别弓的弦槽。" />
+  </object>
+  <object Name="UnknownGrenade" Load="Merge">
+    <part Name="Render" DisplayName="手雷" />
+    <part Name="Description" Short="一只爆裂罐包裹在无法解读的金属中。" />
+  </object>
+  <object Name="UnknownClub" Load="Merge">
+    <part Name="Render" DisplayName="棍棒" />
+    <part Name="Description" Short="一块熔合材料做成了殴打用的短棍。" />
+  </object>
+  <object Name="UnknownKnife" Load="Merge">
+    <part Name="Render" DisplayName="刀" />
+    <part Name="Description" Short="一道锋刃安在奇怪握柄顶端。" />
+  </object>
+  <object Name="UnknownSword" Load="Merge">
+    <part Name="Render" DisplayName="剑" />
+    <part Name="Description" Short="一条相当长的剑刃穿过奇怪握柄。" />
+  </object>
+  <object Name="UnknownAxe" Load="Merge">
+    <part Name="Render" DisplayName="斧" />
+    <part Name="Description" Short="带刃斧面悬在沾满指痕的柄上。" />
+  </object>
+  <object Name="UnknownShield" Load="Merge">
+    <part Name="Render" DisplayName="盾牌" />
+    <part Name="Description" Short="一面由砰硬表面材料制成的弧形屏板，通过焊接握把持用。" />
+  </object>
+  <object Name="UnknownArmor" Load="Merge">
+    <part Name="Render" DisplayName="护甲" />
+    <part Name="Description" Short="一件来历不明的成形胸甲保护着身体的大部分。" />
+    <xtagGrammar massNoun="true" />
+  </object>
+  <object Name="UnknownHelmet" Load="Merge">
+    <part Name="Render" DisplayName="头盔" />
+    <part Name="Description" Short="一件头部覆盖物被制成了未知用途。" />
+  </object>
+  <object Name="UnknownMask" Load="Merge">
+    <part Name="Render" DisplayName="面具" />
+    <part Name="Description" Short="一张假面被塑造成时髦样式，又带着未知意图缝合起来。" />
+  </object>
+  <object Name="UnknownGoggles" Load="Merge">
+    <part Name="Render" DisplayName="护目镜" />
+    <part Name="Description" Short="圆形视镜由一条带子固定。" />
+    <xtagGrammar adjunctNoun="pair" />
+  </object>
+  <object Name="UnknownGloves" Load="Merge">
+    <part Name="Render" DisplayName="手套" />
+    <part Name="Description" Short="奇怪连指手套能适配大多数手腕和手指。" />
+    <xtagGrammar adjunctNoun="pair" />
+  </object>
+  <object Name="UnknownJewelry" Load="Merge">
+    <part Name="Render" DisplayName="首饰" />
+    <part Name="Description" Short="一枚圆形颈环为无意观看的眼睛闪光。" />
+    <xtagGrammar adjunctNoun="piece" />
+  </object>
+  <object Name="UnknownCloak" Load="Merge">
+    <part Name="Render" DisplayName="斗篷" />
+    <part Name="Description" Short="某种布料为了未知目的被缝合起来。" />
+  </object>
+  <object Name="UnknownBackpack" Load="Merge">
+    <part Name="Render" DisplayName="背包" />
+    <part Name="Description" Short="一只有背带的袋子被缝出来，用于携带某些东西。" />
+  </object>
+  <object Name="UnknownBoots" Load="Merge">
+    <part Name="Render" DisplayName="靴子" />
+    <part Name="Description" Short="长期使用的瑕痕横过这件足具表面。" />
+    <xtagGrammar adjunctNoun="pair" />
+  </object>
+  <object Name="UnknownBottle" Load="Merge">
+    <part Name="Render" DisplayName="瓶子" />
+    <part Name="Description" Short="这是一只制作精良而异乎寻常的容器。" />
+  </object>
+  <object Name="UnknownDataDisk" Load="Merge">
+    <part Name="Render" DisplayName="数据盘" />
+    <part Name="Description" Short="比特在矩形棺材里沉睡，等待被唤醒。" />
+  </object>
+  <object Name="UnknownTool" Load="Merge">
+    <part Name="Render" DisplayName="工具" />
+    <part Name="Description" Short="一组奇怪零件合在一起，成了某种工具。" />
+  </object>
+  <object Name="UnknownEmptyMed" Load="Merge">
+    <part Name="Render" DisplayName="管剂" />
+    <part Name="Description" Short="空空气在玻璃通道中受压。" />
+  </object>
+  <object Name="UnknownSmallMilkyTube" Load="Merge">
+    <part Name="Render" DisplayName="{{Y|乳白色}}管剂" />
+  </object>
+  <object Name="UnknownSmallSmokeyTube" Load="Merge">
+    <part Name="Render" DisplayName="{{K|烟灰色}}管剂" />
+  </object>
+  <object Name="UnknownSmallRoseyTube" Load="Merge">
+    <part Name="Render" DisplayName="{{R|玫瑰色}}管剂" />
+  </object>
+  <object Name="UnknownSmallTurquoiseTube" Load="Merge">
+    <part Name="Render" DisplayName="{{C|绿松石色}}管剂" />
+  </object>
+  <object Name="UnknownSmallCobaltTube" Load="Merge">
+    <part Name="Render" DisplayName="{{b|钴蓝色}}管剂" />
+  </object>
+  <object Name="UnknownSmallMossyTube" Load="Merge">
+    <part Name="Render" DisplayName="{{g|苔绿色}}管剂" />
+  </object>
+  <object Name="UnknownSmallGoldFleckedTube" Load="Merge">
+    <part Name="Render" DisplayName="{{W|金斑}}管剂" />
+  </object>
+  <object Name="UnknownSmallMuddyTube" Load="Merge">
+    <part Name="Render" DisplayName="{{w|泥色}}管剂" />
+  </object>
+  <object Name="UnknownSmallVioletTube" Load="Merge">
+    <part Name="Render" DisplayName="{{m|紫罗兰色}}管剂" />
+  </object>
+  <object Name="UnknownSmallPlatinumTube" Load="Merge">
+    <part Name="Render" DisplayName="{{y|铂色}}管剂" />
+  </object>
+  <object Name="ProceduralCookingIngredient_artifacts" Load="Merge">
+    <tag Name="Description" Value="基于造物" />
+  </object>
+  <object Name="ProceduralCookingIngredient_thirst" Load="Merge">
+    <tag Name="Description" Value="基于水与口渴" />
+  </object>
+  <object Name="ProceduralCookingIngredient_secrets" Load="Merge">
+    <tag Name="Description" Value="基于秘密" />
+  </object>
+  <object Name="ProceduralCookingIngredient_darkness" Load="Merge">
+    <tag Name="Description" Value="基于黑暗" />
+  </object>
+  <object Name="ProceduralCookingIngredient_armor" Load="Merge">
+    <tag Name="Description" Value="基于护甲" />
+  </object>
+  <object Name="ProceduralCookingIngredient_plantMinor" Load="Merge">
+    <tag Name="Description" Value="简单植物类" />
+  </object>
+  <object Name="ProceduralCookingIngredient_plantHighTier" Load="Merge">
+    <tag Name="Description" Value="强力植物类" />
+  </object>
+  <object Name="ProceduralCookingIngredient_electric" Load="Merge">
+    <tag Name="Description" Value="基于电" />
+  </object>
+  <object Name="ProceduralCookingIngredient_cold" Load="Merge">
+    <tag Name="Description" Value="基于寒冷" />
+  </object>
+  <object Name="ProceduralCookingIngredient_heat" Load="Merge">
+    <tag Name="Description" Value="基于热与火" />
+  </object>
+  <object Name="ProceduralCookingIngredient_love" Load="Merge">
+    <tag Name="Description" Value="基于爱与忠诚" />
+  </object>
+  <object Name="ProceduralCookingIngredient_teleport" Load="Merge">
+    <tag Name="Description" Value="基于传送" />
+  </object>
+  <object Name="ProceduralCookingIngredient_regenLowtier" Load="Merge">
+    <tag Name="Description" Value="基于再生与治疗" />
+  </object>
+  <object Name="ProceduralCookingIngredient_regenHightier" Load="Merge">
+    <tag Name="Description" Value="强力再生与治疗类" />
+  </object>
+  <object Name="ProceduralCookingIngredient_medicinal" Load="Merge">
+    <tag Name="Description" Value="基于防病与治病" />
+  </object>
+  <object Name="ProceduralCookingIngredient_acid" Load="Merge">
+    <tag Name="Description" Value="基于酸" />
+  </object>
+  <object Name="ProceduralCookingIngredient_fungus" Load="Merge">
+    <tag Name="Description" Value="基于真菌" />
+  </object>
+  <object Name="ProceduralCookingIngredient_phase" Load="Merge">
+    <tag Name="Description" Value="基于相位" />
+  </object>
+  <object Name="ProceduralCookingIngredient_HP" Load="Merge">
+    <tag Name="Description" Value="基于生命值" />
+  </object>
+  <object Name="ProceduralCookingIngredient_reflectHighTier" Load="Merge">
+    <tag Name="Description" Value="强力伤害反射类" />
+  </object>
+  <object Name="ProceduralCookingIngredient_reflect" Load="Merge">
+    <tag Name="Description" Value="基于伤害反射" />
+  </object>
+  <object Name="ProceduralCookingIngredient_willpower" Load="Merge">
+    <tag Name="Description" Value="简单意志力类" />
+  </object>
+  <object Name="ProceduralCookingIngredient_strength" Load="Merge">
+    <tag Name="Description" Value="基于力量" />
+  </object>
+  <object Name="ProceduralCookingIngredient_burrowing" Load="Merge">
+    <tag Name="Description" Value="基于掘地" />
+  </object>
+  <object Name="ProceduralCookingIngredient_agility" Load="Merge">
+    <tag Name="Description" Value="基于敏捷" />
+  </object>
+  <object Name="ProceduralCookingIngredient_fear" Load="Merge">
+    <tag Name="Description" Value="基于恐惧" />
+  </object>
+  <object Name="ProceduralCookingIngredient_fireBreath" Load="Merge">
+    <tag Name="Description" Value="喷火" />
+  </object>
+  <object Name="ProceduralCookingIngredient_elderFireBreath" Load="Merge">
+    <tag Name="Description" Value="强力喷火" />
+  </object>
+  <object Name="ProceduralCookingIngredient_iceBreath" Load="Merge">
+    <tag Name="Description" Value="喷冰" />
+  </object>
+  <object Name="ProceduralCookingIngredient_elderIceBreath" Load="Merge">
+    <tag Name="Description" Value="强力喷冰" />
+  </object>
+  <object Name="ProceduralCookingIngredient_corrosiveGasBreath" Load="Merge">
+    <tag Name="Description" Value="喷腐蚀气体" />
+  </object>
+  <object Name="ProceduralCookingIngredient_elderCorrosiveGasBreath" Load="Merge">
+    <tag Name="Description" Value="强力喷腐蚀气体" />
+  </object>
+  <object Name="ProceduralCookingIngredient_sleepGasBreath" Load="Merge">
+    <tag Name="Description" Value="喷睡眠气体" />
+  </object>
+  <object Name="ProceduralCookingIngredient_elderSleepGasBreath" Load="Merge">
+    <tag Name="Description" Value="强力喷睡眠气体" />
+  </object>
+  <object Name="ProceduralCookingIngredient_normalityGasBreath" Load="Merge">
+    <tag Name="Description" Value="喷常态气体" />
+  </object>
+  <object Name="ProceduralCookingIngredient_elderNormalityGasBreath" Load="Merge">
+    <tag Name="Description" Value="强力喷常态气体" />
+  </object>
+  <object Name="ProceduralCookingIngredient_poisonGasBreath" Load="Merge">
+    <tag Name="Description" Value="喷毒气" />
+  </object>
+  <object Name="ProceduralCookingIngredient_elderPoisonGasBreath" Load="Merge">
+    <tag Name="Description" Value="强力喷毒气" />
+  </object>
+  <object Name="ProceduralCookingIngredient_stunGasBreath" Load="Merge">
+    <tag Name="Description" Value="喷眩晕气体" />
+  </object>
+  <object Name="ProceduralCookingIngredient_elderStunGasBreath" Load="Merge">
+    <tag Name="Description" Value="强力喷眩晕气体" />
+  </object>
+  <object Name="ProceduralCookingIngredient_confusionGasBreath" Load="Merge">
+    <tag Name="Description" Value="喷混乱气体" />
+  </object>
+  <object Name="ProceduralCookingIngredient_elderConfusionGasBreath" Load="Merge">
+    <tag Name="Description" Value="强力喷混乱气体" />
+  </object>
+  <object Name="ProceduralCookingIngredient_starch" Load="Merge">
+    <tag Name="Description" Value="特殊迅捷类" />
+  </object>
+  <object Name="ProceduralCookingIngredient_lignin" Load="Merge">
+    <tag Name="Description" Value="特殊再生类" />
+  </object>
+  <object Name="ProceduralCookingIngredient_quicknessMinor" Load="Merge">
+    <tag Name="Description" Value="简单迅捷类" />
+  </object>
+  <object Name="ProceduralCookingIngredient_density" Load="Merge">
+    <tag Name="Description" Value="基于不稳定密度" />
+  </object>
+  <object Name="ProceduralCookingIngredient_dissociation" Load="Merge">
+    <tag Name="Description" Value="基于解离" />
+  </object>
+  <object Name="ProceduralCookingIngredient_attributes" Load="Merge">
+    <tag Name="Description" Value="基于不定属性" />
+  </object>
+  <object Name="ProceduralCookingIngredient_slimeSpitting" Load="Merge">
+    <tag Name="Description" Value="喷吐黏液" />
+  </object>
+  <object Name="ProceduralCookingIngredient_regenLowtierMinor" Load="Merge">
+    <tag Name="Description" Value="简单再生与治疗类" />
+  </object>
+  <object Name="ProceduralCookingIngredient_coldMinor" Load="Merge">
+    <tag Name="Description" Value="简单寒冷类" />
+  </object>
+  <object Name="ProceduralCookingIngredient_heatMinor" Load="Merge">
+    <tag Name="Description" Value="简单热与火类" />
+  </object>
+  <object Name="ProceduralCookingIngredient_medicinalMinor" Load="Merge">
+    <tag Name="Description" Value="简单防病类" />
+  </object>
+  <object Name="ProceduralCookingIngredient_acidMinor" Load="Merge">
+    <tag Name="Description" Value="简单酸类" />
+  </object>
+  <object Name="ProceduralCookingIngredient_tastyMinor" Load="Merge">
+    <tag Name="Description" Value="简单味觉类" />
+  </object>
+  <object Name="ProceduralCookingIngredient_cloningMinor" Load="Merge">
+    <tag Name="Description" Value="简单克隆" />
+  </object>
+  <object Name="ProceduralCookingIngredient_stabilityMinor" Load="Merge">
+    <tag Name="Description" Value="简单稳定类" />
+  </object>
+  <object Name="ProceduralCookingIngredient_selfPoison" Load="Merge">
+    <tag Name="Description" Value="自我中毒" />
+  </object>
+  <object Name="ProceduralCookingIngredient_selfGlotrot" Load="Merge">
+    <tag Name="Description" Value="自我染病" />
+  </object>
+  <object Name="ProceduralCookingIngredient_rubberLowTier" Load="Merge">
+    <tag Name="Description" Value="基于橡胶" />
+  </object>
+  <object Name="ProceduralCookingIngredient_rubberHighTier" Load="Merge">
+    <tag Name="Description" Value="强力橡胶类" />
+  </object>
+  <object Name="ProceduralCookingIngredient_tongue" Load="Merge">
+    <tag Name="Description" Value="基于舌头" />
+  </object>
+  <object Name="ProceduralCookingIngredient_dissociation" Load="Merge">
+    <tag Name="Description" Value="解离性" />
+  </object>
+  <object Name="ProceduralCookingIngredient_random" Load="Merge">
+    <tag Name="Description" Value="随机" />
+  </object>
+  <object Name="ProceduralCookingIngredient_randomHighTier" Load="Merge">
+    <tag Name="Description" Value="随机，通常强力" />
+  </object>
+  <object Name="ProceduralCookingIngredient_ego" Load="Merge">
+    <tag Name="Description" Value="基于自我" />
+  </object>
+  <object Name="BitType_0_R_Data" Load="Merge">
+    <tag Name="DisplayName" Value="{{R|废旧动力系统}}" />
+    <tag Name="DisplayCharacter" Value="A" />
+  </object>
+  <object Name="BitType_0_G_Data" Load="Merge">
+    <tag Name="DisplayName" Value="{{G|废旧晶体}}" />
+    <tag Name="DisplayCharacter" Value="B" />
+  </object>
+  <object Name="BitType_0_B_Data" Load="Merge">
+    <tag Name="DisplayName" Value="{{B|废旧金属}}" />
+    <tag Name="DisplayCharacter" Value="C" />
+  </object>
+  <object Name="BitType_0_C_Data" Load="Merge">
+    <tag Name="DisplayName" Value="{{C|废旧电子元件}}" />
+    <tag Name="DisplayCharacter" Value="D" />
+  </object>
+  <object Name="BitType_1_r_Data" Load="Merge">
+    <tag Name="DisplayName" Value="{{r|相位动力系统}}" />
+    <tag Name="DisplayCharacter" Value="1" />
+  </object>
+  <object Name="BitType_2_g_Data" Load="Merge">
+    <tag Name="DisplayName" Value="{{g|无瑕晶体}}" />
+    <tag Name="DisplayCharacter" Value="2" />
+  </object>
+  <object Name="BitType_3_b_Data" Load="Merge">
+    <tag Name="DisplayName" Value="{{b|纯净合金}}" />
+    <tag Name="DisplayCharacter" Value="3" />
+  </object>
+  <object Name="BitType_4_c_Data" Load="Merge">
+    <tag Name="DisplayName" Value="{{c|完好电子元件}}" />
+    <tag Name="DisplayCharacter" Value="4" />
+  </object>
+  <object Name="BitType_5_K_Data" Load="Merge">
+    <tag Name="DisplayName" Value="{{K|纳米材料}}" />
+    <tag Name="DisplayCharacter" Value="5" />
+  </object>
+  <object Name="BitType_6_W_Data" Load="Merge">
+    <tag Name="DisplayName" Value="{{W|光子元件}}" />
+    <tag Name="DisplayCharacter" Value="6" />
+  </object>
+  <object Name="BitType_7_Y_Data" Load="Merge">
+    <tag Name="DisplayName" Value="{{Y|AI 微控制器}}" />
+    <tag Name="DisplayCharacter" Value="7" />
+  </object>
+  <object Name="BitType_8_M_Data" Load="Merge">
+    <tag Name="DisplayName" Value="{{M|超晶体}}" />
+    <tag Name="DisplayCharacter" Value="8" />
+  </object>
+  <object Name="Data_Asterisk_SpiceVillage" Load="Merge">
+    <tag Name="Postfix" Value="它刻有献给=spice.entity:sacredThing:繁衍之举=的图符。" />
+  </object>
+  <object Name="Data_Asterisk_Joppa" Load="Merge">
+    <tag Name="DisplayName" Value="乔帕" />
+    <tag Name="Postfix" Value="它浮雕着沿每个尖端攀爬的水藤。" />
+  </object>
+  <object Name="Data_Asterisk_GritGate" Load="Merge">
+    <tag Name="DisplayName" Value="砂砾门" />
+    <tag Name="Postfix" Value="它压印着棱角分明的线条，用以唤起图纸与电路的意象。" />
+  </object>
+  <object Name="Data_Asterisk_BeyLah" Load="Merge">
+    <tag Name="DisplayName" Value="贝拉" />
+    <tag Name="Postfix" Value="它刻有鹿类蹄印，从各条辐条通向中心。" />
+  </object>
+  <object Name="Data_Asterisk_Kyakukya" Load="Merge">
+    <tag Name="DisplayName" Value="克亚库克亚" />
+    <tag Name="Postfix" Value="它遍体蚀刻着细小蘑菇。" />
+  </object>
+  <object Name="Data_Asterisk_Ezra" Load="Merge">
+    <tag Name="DisplayName" Value="以斯拉" />
+    <tag Name="Postfix" Value="它浮雕着各种穆萨植物。" />
+  </object>
+  <object Name="Data_Asterisk_YdFreehold" Load="Merge">
+    <tag Name="DisplayName" Value="伊德自由堡" />
+    <tag Name="Postfix" Value="它浮雕着斯瓦尔丁的身影，从辐条朝轮毂跳去。" />
+  </object>
+  <object Name="Data_Asterisk_SixDayStilt" Load="Merge">
+    <tag Name="DisplayName" Value="六日高跷城" />
+    <tag Name="Postfix" Value="每条辐条上都刻着一名伸出手的传教士。" />
+  </object>
+  <object Name="Data_Asterisk_Mopango" Load="Merge">
+    <tag Name="DisplayName" Value="莫潘戈" />
+    <tag Name="Postfix" Value="它沿每条辐条压印着星芒，轮毂周围还有一圈圆饰。" />
+  </object>
+  <object Name="Data_Asterisk_Pariahs" Load="Merge">
+    <tag Name="DisplayName" Value="弃民" />
+    <tag Name="Postfix" Value="它刻有蜿蜒道路，以及一个孤独身影行走其上。" />
+  </object>
+  <object Name="Data_Asterisk_Chavvah" Load="Merge">
+    <tag Name="DisplayName" Value="查瓦" />
+    <tag Name="Postfix" Value="它刻有缠绕每条辐条的晶体根须。" />
+  </object>
+</objects>

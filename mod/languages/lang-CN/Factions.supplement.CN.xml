@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<factions Lang="CN" Encoding="utf-8">
+  <faction Name="Joppa" DisplayName="约帕 村民" FormatWithArticle="true" />
+  <faction Name="Kyakukya" DisplayName="基亚库亚 村民" FormatWithArticle="true" />
+  <faction Name="Ezra" DisplayName="以斯拉 村民" FormatWithArticle="true" />
+  <faction Name="Svardym" DisplayName="斯瓦迪姆(斯瓦尔迪姆)" />
+  <faction Name="Naphtaali" DisplayName="拿弗他利 部族" FormatWithArticle="true" Plural="false" />
+  <faction Name="Issachari" DisplayName="伊萨查里 部族" FormatWithArticle="true" Plural="false" />
+  <faction Name="Hindren" DisplayName="贝拉赫 的 兴德伦" FormatWithArticle="true" />
+  <faction Name="Mopango" DisplayName="莫潘戈" FormatWithArticle="true" />
+  <faction Name="Girsh" DisplayName="吉尔什" FormatWithArticle="true" />
+  <faction Name="Barathrumites" DisplayName="巴拉楚姆信徒(巴拉瑟姆信徒)" FormatWithArticle="true" />
+  <faction Name="Mamon" DisplayName="玛蒙 之子" FormatWithArticle="true" />
+  <faction Name="YdFreehold" DisplayName="伊德 自由领居民" FormatWithArticle="true" />
+  <faction Name="Chavvah" DisplayName="生命之树 查瓦" FormatWithArticle="false" Plural="false" />
+</factions>

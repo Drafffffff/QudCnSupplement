@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<quests Lang="CN" Encoding="utf-8">
+  <quest ID="What's Eating the Watervine?" Accomplishment="你解开了水藤被啃食的谜团，并警告约帕村民 吉尔什 的存在。" Hagiograph="在 =year= 年 =month= 月，=name= 走过铬钢拱门下，击退一群 吉尔什幼体，治愈了枯萎的作物。" Gospel="在血腥的红岩之战中，=name= 对抗 吉尔什幼体 与狒狒联军，解放约帕村民。为纪念 =player.t=，他们 =spice:history.gospels.Celebration.LateSultanate.!random=。" />
+  <quest ID="Raising Indrix" Gospel="在 基亚库亚 附近的丛林中游荡时，=name= 梦见 =player.subjective= 环绕一颗幽暗星辰运行，并在它浩大的吸积盘中堆起自我的构件。从那以后，=name= 随身带着一枚无星的三角棱镜。" />
+  <quest ID="A Canticle for Barathrum" Gospel="在西方丛林漫游时，=name= 遇见一族 乌尔希布 正在举行秘密仪式。由于 =player.t= 圆盘般的眼睛，他们接纳 =name= 进入族群，并把秘密传授给 =player.objective=。" />
+  <quest ID="A Signal in the Noise" Gospel="在西方丛林漫游时，=name= 遇见一族 乌尔希布 正在举行秘密仪式。由于 =player.t= 圆盘般的眼睛，他们接纳 =name= 进入族群，并把秘密传授给 =player.objective=。" />
+  <quest ID="More Than a Willing Spirit" Gospel="在西方丛林漫游时，=name= 遇见一族 乌尔希布 正在举行秘密仪式。由于 =player.t= 身上覆满恶臭黏液，他们接纳 =name= 进入族群，并把秘密传授给 =player.objective=。" />
+  <quest ID="O Glorious Shekhinah!" Name="噢，荣耀的 舍金纳！" />
+  <quest ID="The Earl of Omonporch" Accomplishment="你处理了 阿斯福德尔，并确保了纺锤基底地区的安全。" Hagiograph="在 =year= 年 =month= 月，=name= 任命可爱的 阿斯福德尔 为奥蒙门廊伯爵兼纺锤 贾乌斯 的保护者。" Gospel="在 =year= 年，=name= 任命腐败行政官 阿斯福德尔 为奥蒙门廊伯爵兼部长。在那里，其 以 =player.t= 之名强制推行 =spice:elements.entity@elements[random].practices.!random= 的习俗。" />
+  <quest ID="A Call to Arms">
+    <step ID="Prepare Defenses">
+      <text>为迎击普图斯圣殿骑士进攻，给激光阵地和力场投射器供能，超频铬精，并激活 罗达尼斯Y。</text>
+    </step>
+  </quest>
+  <quest ID="Petals on the Wind" Accomplishment="受一名欣德伦流亡者所托，你前往隐秘村庄 贝拉赫 调查一桩谜案。" Gospel="在 =spice:time.partsOfDay.!random=，于 =spice:commonPhrases.strange.!random.article= 与草甸般的天空下，贝拉赫 的欣德伦看见地平线上有一个像巨大照镜的影像。那就是 =name=；=player.subjective= 抵达后，欣德伦为 =player.objective= 建起纪念碑，并从此称 =player.objective= 为照镜肯德伦。">
+    <step ID="Investigate Bey Lah" Name="调查 贝拉赫">
+      <text>前往隐秘村庄 贝拉赫，调查那里的问题。</text>
+    </step>
+  </quest>
+  <quest ID="Find Eskhind" Name="找到 埃斯欣德" Accomplishment="你在一棵空心树中找到了欣德伦流亡者 埃斯欣德 和她的姐妹。" Hagiograph="铭记！=name= 训诫了逃离命运的流亡者 埃斯欣德。从此她被称为温顺的 埃斯欣德。" Gospel="在 =year= 年 =month= 月，被指控的 埃斯欣德 因欣德伦传家宝 金德里什 的所在向 =name= 发起决斗。=name= 获胜，并训诫 埃斯欣德 返回 贝拉赫。">
+    <step ID="Find Eskhind" Name="找到 埃斯欣德">
+      <text>找到 埃斯欣德，并取回 金德里什。</text>
+    </step>
+    <step ID="Speak to Warden Neelahind" Name="与守望者 尼拉欣德 交谈">
+      <text>与守望者 尼拉欣德 交谈，她曾是 埃斯欣德 的密友。</text>
+    </step>
+    <step ID="Deliver News of Eskhind" Name="传达 埃斯欣德 的消息">
+      <text>带着 埃斯欣德 的消息与 凯赫 交谈。</text>
+    </step>
+  </quest>
+  <quest ID="Love and Fear" Hagiograph="=name= 的存在何等鼓舞人心，=player.subjective= 如此救赎温顺的 埃斯欣德，以至于她寻求 贝拉赫 最伟大勇士的手！" Gospel="在树桩烧空的核心中，=name= 通过与 埃斯欣德 和守望者 尼拉欣德 成婚，巩固了 =player.possessive= 与 贝拉赫 欣德伦的友谊。" />
+  <quest ID="Kith and Kin" Accomplishment="无论 贝拉赫 的命运是好是坏，你解开了 金德里什 失踪之谜，并帮助守望者 尼拉欣德 施行正义。" Hagiograph="神圣的救世主！=name= 为 贝拉赫 草甸中困扰的鹿民带来了和平与繁荣。" Gospel="为了反抗窃贼和赋予他们权力的当局，=name= 在 贝拉赫 村中主持了一场调查。多亏 =player.t= =spice:elements.entity@elements[random].adjectives.!random= 机智，守望者 尼拉欣德 得以正确施行正义。">
+    <step ID="Brief Warden Neelahind" Name="向守望者 尼拉欣德 简报">
+      <text>告诉 贝拉赫 的守望者，金德里什 盗窃案的真相仍有争议。</text>
+    </step>
+    <step ID="Accuse the thief">
+      <text>带着证据与守望者 尼拉欣德 交谈，并指控偷走 金德里什 的窃贼。</text>
+    </step>
+  </quest>
+  <quest ID="Reclamation">
+    <property Name="MessageArrival">
+      {{m|呜————克!}}
+      
+      拿非利痛苦的世界呻吟回荡开来，你的身体在带电空气中悸动！
+      
+      它已经抵达，位于{{R|=direction=}}。
+      </property>
+    <property Name="MessageArrivalSuper">
+      {{m|克咿克咿克咿克咿!}}
+
+      星爆喷出物化作燃烧丝带倾泻而下，早期宇宙难以言说的呻吟几乎把你的身体抹成虚无！
+
+      =name= 降临，位于{{R|=direction=}}。
+      </property>
+  </quest>
+</quests>
