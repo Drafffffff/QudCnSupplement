@@ -1,0 +1,27 @@
+{
+  "scope": "Nonempty ▶-marked fields in official ExampleLanguage XML 2.0.212.31; excludes runtime C#, historyspice JSON, procedural syllable semantics, translations already wrong/mixed and strings absent from the official export. Coverage is field availability, not full-game translation quality.",
+  "mode": "Incremental XML with Lang=CN; requires original CN pack and later load order.",
+  "total_source_fields": 25090,
+  "statuses": {
+    "existing_cn": 19109,
+    "reviewed_glossary": 294,
+    "template_or_symbol": 704,
+    "tw_converted": 3370,
+    "reviewed_override": 263,
+    "manual": 663,
+    "cn_text_reuse": 317,
+    "identifier_or_key_label": 9,
+    "cn_id_fallback": 285,
+    "procedural_name_syllable": 6,
+    "reviewed_unit_literal": 70
+  },
+  "emitted_fields": 5479,
+  "unresolved_fields": 0,
+  "existing_mixed_latin_fields": 216,
+  "residual_latin_fields_all_final_values": 216,
+  "residual_latin_scope": "Includes all final existing, reused, converted and manual values; residual does not mean untranslated prose.",
+  "placeholder_warning_fields": 563,
+  "xml_files": 28,
+  "literal_unit_operation_fields": 113,
+  "collection_policy": "Load=Replace collections include unchanged existing CN siblings to preserve the entire collection."
+}

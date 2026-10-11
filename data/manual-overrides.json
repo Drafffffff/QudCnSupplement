@@ -2046,5 +2046,61 @@
     "previous": "在=spice:commonPhrases.strange.!random|article=而 =color= 的天空下，在 =spice:time.partsOfDay.!random=，=villageName= 的人们看见地平线上有一道影像，像是沐浴在 =color= 中的 =elementNoun|article=。那是 =player.name=；在 =player.subjective= 来而复去之后，=villageName= 的人们为 =name= 建起一座纪念碑，并从此称 =player.objective= 为 =elementNoun|title=-in-=color|title=。",
     "translation": "在=spice:commonPhrases.strange.!random|article=而 =color= 的天空下，在 =spice:time.partsOfDay.!random=，=villageName= 的人们看见地平线上有一道影像，像是沐浴在 =color= 中的 =elementNoun|article=。那是 =player.name=；在 =player.subjective= 来而复去之后，=villageName= 的人们为 =name= 建起一座纪念碑，并从此称 =player.objective= 为 =elementNoun|title=之于=color|title=。",
     "reason": "人工复核显示词汇和分段颜色标记中的漏译；保持原变量、样式及选项键"
+  },
+  {
+    "file": "Items.example.xml",
+    "path": "((('object', (('Name', 'Cyclopean Prism'),), 1), ('part', (('Name', 'Render'),), 1)), 'DisplayName')",
+    "source": "{{K|amaranthine}} prism",
+    "previous": "{{K|不凋}}棱镜",
+    "translation": "{{K|不凋}}棱镜",
+    "reason": "不凋棱镜分段渐变名称补译，保留所有颜色标签的嵌套顺序"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '{{K|amaranthine}} prism'), ('Context', 'CyclopeanPrism AmaranthinePrism DisplayName Ego lessequal 15 BaseState')), 1),), '#text')",
+    "source": "{{K|amaranthine}} prism",
+    "previous": "{{K|不凋}}棱镜",
+    "translation": "{{K|不凋}}棱镜",
+    "reason": "不凋棱镜分段渐变名称补译，保留所有颜色标签的嵌套顺序"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '{{K|amara{{y|n}}thine}} prism'), ('Context', 'CyclopeanPrism AmaranthinePrism DisplayName Ego lessequal 19 State1')), 1),), '#text')",
+    "source": "{{K|amara{{y|n}}thine}} prism",
+    "previous": "{{K|amara{{y|n}}thine}} 棱镜",
+    "translation": "{{K|{{y|不凋}}}}棱镜",
+    "reason": "不凋棱镜分段渐变名称补译，保留所有颜色标签的嵌套顺序"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '{{K|amar{{y|a{{Y|n}}t}}hine}} prism'), ('Context', 'CyclopeanPrism AmaranthinePrism DisplayName Ego lessequal 23 State2')), 1),), '#text')",
+    "source": "{{K|amar{{y|a{{Y|n}}t}}hine}} prism",
+    "previous": "{{K|amar{{y|a{{Y|n}}t}}hine}} 棱镜",
+    "translation": "{{K|{{y|{{Y|不凋}}}}}}棱镜",
+    "reason": "不凋棱镜分段渐变名称补译，保留所有颜色标签的嵌套顺序"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '{{K|am{{y|ar{{Y|a{{R|n}}t}}hi}}ne}} prism'), ('Context', 'CyclopeanPrism AmaranthinePrism DisplayName Ego lessequal 27 State3')), 1),), '#text')",
+    "source": "{{K|am{{y|ar{{Y|a{{R|n}}t}}hi}}ne}} prism",
+    "previous": "{{K|am{{y|ar{{Y|a{{R|n}}t}}hi}}ne}} 棱镜",
+    "translation": "{{K|{{y|{{Y|{{R|不凋}}}}}}}}棱镜",
+    "reason": "不凋棱镜分段渐变名称补译，保留所有颜色标签的嵌套顺序"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '{{y|am{{Y|a{{y|r{{r|a{{R|n}}t}}h}}i}}ne}} prism'), ('Context', 'CyclopeanPrism AmaranthinePrism DisplayName Ego lessequal 31 State4')), 1),), '#text')",
+    "source": "{{y|am{{Y|a{{y|r{{r|a{{R|n}}t}}h}}i}}ne}} prism",
+    "previous": "{{y|am{{Y|a{{y|r{{r|a{{R|n}}t}}h}}i}}ne}} 棱镜",
+    "translation": "{{y|{{Y|{{y|{{r|{{R|不凋}}}}}}}}}}棱镜",
+    "reason": "不凋棱镜分段渐变名称补译，保留所有颜色标签的嵌套顺序"
+  },
+  {
+    "file": "Strings.example.xml",
+    "path": "((('string', (('ID', '{{r|a{{R|m{{Y|a{{y|r{{r|a{{R|n}}t}}h}}i}}n}}e}} prism'), ('Context', 'CyclopeanPrism AmaranthinePrism DisplayName Ego lessequal State5')), 1),), '#text')",
+    "source": "{{r|a{{R|m{{Y|a{{y|r{{r|a{{R|n}}t}}h}}i}}n}}e}} prism",
+    "previous": "{{r|a{{R|m{{Y|a{{y|r{{r|a{{R|n}}t}}h}}i}}n}}e}} 棱镜",
+    "translation": "{{r|{{R|{{Y|{{y|{{r|{{R|不凋}}}}}}}}}}}}棱镜",
+    "reason": "不凋棱镜分段渐变名称补译，保留所有颜色标签的嵌套顺序"
   }
 ]

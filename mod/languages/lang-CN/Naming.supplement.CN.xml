@@ -1211,6 +1211,11 @@
         <postfix Name="乌兹" />
       </postfixes>
     </namestyle>
+    <namestyle Name="Snapjaw Hero Title" Load="Merge">
+      <templates Load="Replace">
+        <template Name="=adjective= 锯齿豺 =occupation=" />
+      </templates>
+    </namestyle>
     <namestyle Name="Star" Format="TitleCase" Load="Merge">
       <prefixes Load="Replace" Amount="1">
         <prefix Name="阿波" />

@@ -10,6 +10,11 @@ h=pathlib.Path.home();root=h/'.config/unity3d/Freehold Games/CavesOfQud';dest=ro
 if subprocess.run(['pgrep','-x','CoQ.x86_64'],capture_output=True,text=True).stdout.strip():raise SystemExit('Game is running: save and exit first.')
 state=root/'cn-supplement-install.json'
 if payload['action']=='install':
+ target=payload['target'];game=h/'.local/share/Steam/steamapps/common/Caves of Qud/CoQ_Data/Managed/Assembly-CSharp.dll'
+ if hashlib.sha256(game.read_bytes()).hexdigest()!=target['assembly_sha256']:raise SystemExit('Unsupported game build; regenerate and test the supplement first.')
+ base=h/'.local/share/Steam/steamapps/workshop/content/333640/3746335636'
+ for name,digest in target['base_mod_xml_hashes'].items():
+  if not (base/name).is_file() or hashlib.sha256((base/name).read_bytes()).hexdigest()!=digest:raise SystemExit('Original Chinese pack has changed: '+name)
  if state.exists():raise SystemExit('Managed installation exists; uninstall before replacing it.')
  if dest.exists():raise SystemExit('Unmanaged destination exists; refusing to overwrite.')
  stamp=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).strftime('%Y%m%d-%H%M%S')
@@ -53,7 +58,7 @@ else:
 def main():
  p=argparse.ArgumentParser();p.add_argument('--host',default='bazzite');p.add_argument('--uninstall',action='store_true');args=p.parse_args()
  files={str(p.relative_to(ROOT/'mod')):p.read_bytes() for p in sorted((ROOT/'mod').rglob('*')) if p.is_file()}
- payload={'action':'uninstall' if args.uninstall else 'install','version':'0.1.0','hashes':{n:hashlib.sha256(b).hexdigest() for n,b in files.items()},'data':{n:base64.b64encode(b).decode() for n,b in files.items()}}
+ payload={'action':'uninstall' if args.uninstall else 'install','version':'0.1.0','target':json.loads((ROOT/'data/build-target.json').read_text()),'hashes':{n:hashlib.sha256(b).hexdigest() for n,b in files.items()},'data':{n:base64.b64encode(b).decode() for n,b in files.items()}}
  code='payload='+repr(payload)+'\n'+REMOTE
  r=subprocess.run(['ssh',args.host,'python3','-'],input=code,text=True,capture_output=True)
  if r.returncode:raise SystemExit(r.stdout+r.stderr)

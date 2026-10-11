@@ -1,0 +1,2938 @@
+{
+  "runtime_evidence": "Actual game Grammar.Pluralize(\"打兰\") returns \"打兰s\". Single noun pluralize operations are rendered as literal Chinese units; things retains its numeric variable.",
+  "entries": [
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', ' [=turns.things:turn=]'), ('Context', 'Ability bar, skill cooldown update')), 1),), 'Value')",
+      "source": " [=turns.things:turn=]",
+      "baseline_translation": "[=turns.things:turn=]",
+      "translation": "[=turns= 回合]",
+      "changes": [
+        {
+          "removed_token": "=turns.things:turn=",
+          "replacement": "=turns= 回合",
+          "operation": "things",
+          "variable_base": "turns",
+          "quantity_token_added": "=turns=",
+          "literal_unit": "回合"
+        }
+      ],
+      "baseline_tokens": {
+        "=turns.things:turn=": 1
+      },
+      "final_tokens": {
+        "=turns=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'Resting until morning... (=num.things:turn=)'), ('Context', 'AutoAct Wait Resting until morning...')), 1),), '#text')",
+      "source": "Resting until morning... (=num.things:turn=)",
+      "baseline_translation": "休息到早晨……（=num.things:turn=）",
+      "translation": "休息到早晨……（=num= 回合）",
+      "changes": [
+        {
+          "removed_token": "=num.things:turn=",
+          "replacement": "=num= 回合",
+          "operation": "things",
+          "variable_base": "num",
+          "quantity_token_added": "=num=",
+          "literal_unit": "回合"
+        }
+      ],
+      "baseline_tokens": {
+        "=num.things:turn=": 1
+      },
+      "final_tokens": {
+        "=num=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'Waiting for =num.things:turn=...'), ('Context', 'AutoAct Wait Loading Status Bar')), 1),), '#text')",
+      "source": "Waiting for =num.things:turn=...",
+      "baseline_translation": "等待 =num.things:turn=……",
+      "translation": "等待 =num= 回合……",
+      "changes": [
+        {
+          "removed_token": "=num.things:turn=",
+          "replacement": "=num= 回合",
+          "operation": "things",
+          "variable_base": "num",
+          "quantity_token_added": "=num=",
+          "literal_unit": "回合"
+        }
+      ],
+      "baseline_tokens": {
+        "=num.things:turn=": 1
+      },
+      "final_tokens": {
+        "=num=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'Waiting for =remaining.things:round=...'), ('Context', 'AutoAct Wait Loading Status Bar')), 1),), '#text')",
+      "source": "Waiting for =remaining.things:round=...",
+      "baseline_translation": "等待 =remaining.things:round=……",
+      "translation": "等待 =remaining= 回合……",
+      "changes": [
+        {
+          "removed_token": "=remaining.things:round=",
+          "replacement": "=remaining= 回合",
+          "operation": "things",
+          "variable_base": "remaining",
+          "quantity_token_added": "=remaining=",
+          "literal_unit": "回合"
+        }
+      ],
+      "baseline_tokens": {
+        "=remaining.things:round=": 1
+      },
+      "final_tokens": {
+        "=remaining=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'Waiting for =turns.things:turn=...'), ('Context', 'Core Wait Turns - Bottom Status Bar')), 1),), '#text')",
+      "source": "Waiting for =turns.things:turn=...",
+      "baseline_translation": "等待 =turns.things:turn=……",
+      "translation": "等待 =turns= 回合……",
+      "changes": [
+        {
+          "removed_token": "=turns.things:turn=",
+          "replacement": "=turns= 回合",
+          "operation": "things",
+          "variable_base": "turns",
+          "quantity_token_added": "=turns=",
+          "literal_unit": "回合"
+        }
+      ],
+      "baseline_tokens": {
+        "=turns.things:turn=": 1
+      },
+      "final_tokens": {
+        "=turns=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'Resting until morning... (=turns.things:turn=)'), ('Context', 'Core Rest until morning - Bottom bar')), 1),), '#text')",
+      "source": "Resting until morning... (=turns.things:turn=)",
+      "baseline_translation": "休息到早晨……（=turns.things:turn=）",
+      "translation": "休息到早晨……（=turns= 回合）",
+      "changes": [
+        {
+          "removed_token": "=turns.things:turn=",
+          "replacement": "=turns= 回合",
+          "operation": "things",
+          "variable_base": "turns",
+          "quantity_token_added": "=turns=",
+          "literal_unit": "回合"
+        }
+      ],
+      "baseline_tokens": {
+        "=turns.things:turn=": 1
+      },
+      "final_tokens": {
+        "=turns=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You scored {{C|=score=}} =score.pluralize:point=.'), ('Context', 'Core GameEnd Score')), 1),), '#text')",
+      "source": "You scored {{C|=score=}} =score.pluralize:point=.",
+      "baseline_translation": "你获得了 {{C|=score=}} =score.pluralize:point=.",
+      "translation": "你获得了 {{C|=score=}} 点.",
+      "changes": [
+        {
+          "removed_token": "=score.pluralize:point=",
+          "replacement": "点",
+          "operation": "pluralize",
+          "variable_base": "score",
+          "quantity_token_added": null,
+          "literal_unit": "点"
+        }
+      ],
+      "baseline_tokens": {
+        "=score=": 1,
+        "=score.pluralize:point=": 1
+      },
+      "final_tokens": {
+        "=score=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You survived for {{C|=turns=}} =turns.pluralize:turn=.'), ('Context', 'Core GameEnd Turns')), 1),), '#text')",
+      "source": "You survived for {{C|=turns=}} =turns.pluralize:turn=.",
+      "baseline_translation": "你生存了 {{C|=turns=}} =turns.pluralize:turn=.",
+      "translation": "你生存了 {{C|=turns=}} 回合.",
+      "changes": [
+        {
+          "removed_token": "=turns.pluralize:turn=",
+          "replacement": "回合",
+          "operation": "pluralize",
+          "variable_base": "turns",
+          "quantity_token_added": null,
+          "literal_unit": "回合"
+        }
+      ],
+      "baseline_tokens": {
+        "=turns=": 1,
+        "=turns.pluralize:turn=": 1
+      },
+      "final_tokens": {
+        "=turns=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You found {{C|=lairs=}} =lairs.pluralize:lair=.'), ('Context', 'Core GameEnd Lairs')), 1),), '#text')",
+      "source": "You found {{C|=lairs=}} =lairs.pluralize:lair=.",
+      "baseline_translation": "你发现了 {{C|=lairs=}} =lairs.pluralize:lair=。",
+      "translation": "你发现了 {{C|=lairs=}} 处巢穴。",
+      "changes": [
+        {
+          "removed_token": "=lairs.pluralize:lair=",
+          "replacement": "处巢穴",
+          "operation": "pluralize",
+          "variable_base": "lairs",
+          "quantity_token_added": null,
+          "literal_unit": "处巢穴"
+        }
+      ],
+      "baseline_tokens": {
+        "=lairs=": 1,
+        "=lairs.pluralize:lair=": 1
+      },
+      "final_tokens": {
+        "=lairs=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You named {{C|=items=}} =items.pluralize:item=.'), ('Context', 'Core GameEnd Named Items')), 1),), '#text')",
+      "source": "You named {{C|=items=}} =items.pluralize:item=.",
+      "baseline_translation": "你命名了 {{C|=items=}} =items.pluralize:item=。",
+      "translation": "你命名了 {{C|=items=}} 件物品。",
+      "changes": [
+        {
+          "removed_token": "=items.pluralize:item=",
+          "replacement": "件物品",
+          "operation": "pluralize",
+          "variable_base": "items",
+          "quantity_token_added": null,
+          "literal_unit": "件物品"
+        }
+      ],
+      "baseline_tokens": {
+        "=items=": 1,
+        "=items.pluralize:item=": 1
+      },
+      "final_tokens": {
+        "=items=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You generated {{C|=artifacts=}} storied =artifacts.pluralize:item=.'), ('Context', 'Core GameEnd Artifacts')), 1),), '#text')",
+      "source": "You generated {{C|=artifacts=}} storied =artifacts.pluralize:item=.",
+      "baseline_translation": "你生成了 {{C|=artifacts=}} 传奇的 =artifacts.pluralize:item=。",
+      "translation": "你生成了 {{C|=artifacts=}} 传奇的 件物品。",
+      "changes": [
+        {
+          "removed_token": "=artifacts.pluralize:item=",
+          "replacement": "件物品",
+          "operation": "pluralize",
+          "variable_base": "artifacts",
+          "quantity_token_added": null,
+          "literal_unit": "件物品"
+        }
+      ],
+      "baseline_tokens": {
+        "=artifacts=": 1,
+        "=artifacts.pluralize:item=": 1
+      },
+      "final_tokens": {
+        "=artifacts=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'Penning Bonus: =bonus= Max: =maxbonus= Used: =used= Target: =target= (Penned =pens.things:time=)'), ('Context', 'Stat Debug Penetration Summary')), 1),), '#text')",
+      "source": "Penning Bonus: =bonus= Max: =maxbonus= Used: =used= Target: =target= (Penned =pens.things:time=)",
+      "baseline_translation": "穿透加值：=bonus= 最大：=maxbonus= 已用：=used= 目标：=target=（穿透 =pens.things:time=）",
+      "translation": "穿透加值：=bonus= 最大：=maxbonus= 已用：=used= 目标：=target=（穿透 =pens= 次）",
+      "changes": [
+        {
+          "removed_token": "=pens.things:time=",
+          "replacement": "=pens= 次",
+          "operation": "things",
+          "variable_base": "pens",
+          "quantity_token_added": "=pens=",
+          "literal_unit": "次"
+        }
+      ],
+      "baseline_tokens": {
+        "=bonus=": 1,
+        "=maxbonus=": 1,
+        "=used=": 1,
+        "=target=": 1,
+        "=pens.things:time=": 1
+      },
+      "final_tokens": {
+        "=bonus=": 1,
+        "=maxbonus=": 1,
+        "=used=": 1,
+        "=target=": 1,
+        "=pens=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=trader.T= will not trade with you until you pay =trader.them= the {{C|=owed=}} =owed.pluralize:dram= of {{B|fresh water}} you owe =trader.them=.'), ('Context', 'XRLUITradeUI WillNot Until Pay None')), 1),), '#text')",
+      "source": "=trader.T= will not trade with you until you pay =trader.them= the {{C|=owed=}} =owed.pluralize:dram= of {{B|fresh water}} you owe =trader.them=.",
+      "baseline_translation": "在你偿还欠 =trader.them= 的 {{C|=owed=}} =owed.pluralize:dram= {{B|淡水}}之前，=trader.T= 不会与你交易。",
+      "translation": "在你偿还欠 =trader.them= 的 {{C|=owed=}} 打兰 {{B|淡水}}之前，=trader.T= 不会与你交易。",
+      "changes": [
+        {
+          "removed_token": "=owed.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "owed",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=trader.them=": 1,
+        "=owed=": 1,
+        "=owed.pluralize:dram=": 1,
+        "=trader.T=": 1
+      },
+      "final_tokens": {
+        "=trader.them=": 1,
+        "=owed=": 1,
+        "=trader.T=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=trader.T= will not trade with you until you pay =trader.them= the {{C|=owed=}} =owed.pluralize:dram= of {{B|fresh water}} you owe =trader.them=. Do you want to give =trader.them= your {{C|=available=}} =available.pluralize:dram= now?'), ('Context', 'XRLUITradeUI WillNot Until Pay Some')), 1),), '#text')",
+      "source": "=trader.T= will not trade with you until you pay =trader.them= the {{C|=owed=}} =owed.pluralize:dram= of {{B|fresh water}} you owe =trader.them=. Do you want to give =trader.them= your {{C|=available=}} =available.pluralize:dram= now?",
+      "baseline_translation": "在你偿还欠 =trader.them= 的 {{C|=owed=}} =owed.pluralize:dram= {{B|淡水}}之前，=trader.T= 不会与你交易。要现在把你的 {{C|=available=}} =available.pluralize:dram= 交给 =trader.them= 吗？",
+      "translation": "在你偿还欠 =trader.them= 的 {{C|=owed=}} 打兰 {{B|淡水}}之前，=trader.T= 不会与你交易。要现在把你的 {{C|=available=}} 打兰 交给 =trader.them= 吗？",
+      "changes": [
+        {
+          "removed_token": "=owed.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "owed",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        },
+        {
+          "removed_token": "=available.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "available",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=trader.them=": 2,
+        "=owed=": 1,
+        "=owed.pluralize:dram=": 1,
+        "=trader.T=": 1,
+        "=available=": 1,
+        "=available.pluralize:dram=": 1
+      },
+      "final_tokens": {
+        "=trader.them=": 2,
+        "=owed=": 1,
+        "=trader.T=": 1,
+        "=available=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=trader.T= will not trade with you until you pay =trader.them= the {{C|=owed=}} =owed.pluralize:dram= of {{B|fresh water}} you owe =trader.them=. Do you want to give it to =trader.them= now?'), ('Context', 'XRLUITradeUI WillNot Until Pay All')), 1),), '#text')",
+      "source": "=trader.T= will not trade with you until you pay =trader.them= the {{C|=owed=}} =owed.pluralize:dram= of {{B|fresh water}} you owe =trader.them=. Do you want to give it to =trader.them= now?",
+      "baseline_translation": "在你偿还欠 =trader.them= 的 {{C|=owed=}} =owed.pluralize:dram= {{B|淡水}}之前，=trader.T= 不会与你交易。要现在把它交给 =trader.them= 吗？",
+      "translation": "在你偿还欠 =trader.them= 的 {{C|=owed=}} 打兰 {{B|淡水}}之前，=trader.T= 不会与你交易。要现在把它交给 =trader.them= 吗？",
+      "changes": [
+        {
+          "removed_token": "=owed.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "owed",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=trader.them=": 2,
+        "=owed=": 1,
+        "=owed.pluralize:dram=": 1,
+        "=trader.T=": 1
+      },
+      "final_tokens": {
+        "=trader.them=": 2,
+        "=owed=": 1,
+        "=trader.T=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You do not have the required {{C|=cost=}} =cost.pluralize:dram= to identify this item.'), ('Context', 'XRLUITradeUI TraderIdentify Fail Too Poor')), 1),), '#text')",
+      "source": "You do not have the required {{C|=cost=}} =cost.pluralize:dram= to identify this item.",
+      "baseline_translation": "你没有鉴定这件物品所需的 {{C|=cost=}} =cost.pluralize:dram=。",
+      "translation": "你没有鉴定这件物品所需的 {{C|=cost=}} 打兰。",
+      "changes": [
+        {
+          "removed_token": "=cost.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "cost",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=cost=": 1,
+        "=cost.pluralize:dram=": 1
+      },
+      "final_tokens": {
+        "=cost=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You may identify this for =cost= =cost.pluralize:dram= of fresh water.'), ('Context', 'XRLUITradeUI TraderIdentify Confirm Cost')), 1),), '#text')",
+      "source": "You may identify this for =cost= =cost.pluralize:dram= of fresh water.",
+      "baseline_translation": "你可以花费 =cost= =cost.pluralize:dram= 淡水鉴定它。",
+      "translation": "你可以花费 =cost= 打兰 淡水鉴定它。",
+      "changes": [
+        {
+          "removed_token": "=cost.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "cost",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=cost=": 1,
+        "=cost.pluralize:dram=": 1
+      },
+      "final_tokens": {
+        "=cost=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You need {{C|=cost=}} =cost.pluralize:dram= of fresh water to repair =multiple.if:those:that=.'), ('Context', 'XRLUITradeUI TooPoorToRepair')), 1),), '#text')",
+      "source": "You need {{C|=cost=}} =cost.pluralize:dram= of fresh water to repair =multiple.if:those:that=.",
+      "baseline_translation": "你需要 {{C|=cost=}} =cost.pluralize:dram= 淡水来修理=multiple.if:那些:那件=。",
+      "translation": "你需要 {{C|=cost=}} 打兰 淡水来修理=multiple.if:那些:那件=。",
+      "changes": [
+        {
+          "removed_token": "=cost.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "cost",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=cost=": 1,
+        "=cost.pluralize:dram=": 1,
+        "=multiple.if:那些:那件=": 1
+      },
+      "final_tokens": {
+        "=cost=": 1,
+        "=multiple.if:那些:那件=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You may repair =multiple.if:those:this= for {{C|=cost=}} =cost.pluralize:dram= of fresh water.'), ('Context', 'XRLUITradeUI RepairCost')), 1),), '#text')",
+      "source": "You may repair =multiple.if:those:this= for {{C|=cost=}} =cost.pluralize:dram= of fresh water.",
+      "baseline_translation": "你可以花费 {{C|=cost=}} =cost.pluralize:dram= 淡水修理=multiple.if:那些:这个=。",
+      "translation": "你可以花费 {{C|=cost=}} 打兰 淡水修理=multiple.if:那些:这个=。",
+      "changes": [
+        {
+          "removed_token": "=cost.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "cost",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=cost=": 1,
+        "=cost.pluralize:dram=": 1,
+        "=multiple.if:那些:这个=": 1
+      },
+      "final_tokens": {
+        "=cost=": 1,
+        "=multiple.if:那些:这个=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You pony up =difference= =difference.pluralize:dram= of fresh water to even up the trade'), ('Context', 'XRLUITradeUI Pony Up')), 1),), '#text')",
+      "source": "You pony up =difference= =difference.pluralize:dram= of fresh water to even up the trade",
+      "baseline_translation": "你补上 =difference= =difference.pluralize:dram= 淡水来平衡交易",
+      "translation": "你补上 =difference= 打兰 淡水来平衡交易",
+      "changes": [
+        {
+          "removed_token": "=difference.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "difference",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=difference=": 1,
+        "=difference.pluralize:dram=": 1
+      },
+      "final_tokens": {
+        "=difference=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', \"You'll have to pony up =difference= =difference.pluralize:dram= of fresh water to even up the trade. Agreed?\"), ('Context', 'XRLUITradeUI Have To Pony Up')), 1),), '#text')",
+      "source": "You'll have to pony up =difference= =difference.pluralize:dram= of fresh water to even up the trade. Agreed?",
+      "baseline_translation": "你必须补上 =difference= =difference.pluralize:dram= 淡水来平衡交易。同意吗？",
+      "translation": "你必须补上 =difference= 打兰 淡水来平衡交易。同意吗？",
+      "changes": [
+        {
+          "removed_token": "=difference.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "difference",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=difference=": 1,
+        "=difference.pluralize:dram=": 1
+      },
+      "final_tokens": {
+        "=difference=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You pony up =available= =available.pluralize:dram= of fresh water, and now owe =trader.the.name|strip= =owe= =owe.pluralize:dram=.'), ('Context', 'XRLUITradeUI Pony Up Owe')), 1),), '#text')",
+      "source": "You pony up =available= =available.pluralize:dram= of fresh water, and now owe =trader.the.name|strip= =owe= =owe.pluralize:dram=.",
+      "baseline_translation": "你补上 =available= =available.pluralize:dram= 淡水，现在还欠 =trader.the.name|strip= =owe= =owe.pluralize:dram=。",
+      "translation": "你补上 =available= 打兰 淡水，现在还欠 =trader.the.name|strip= =owe= 打兰。",
+      "changes": [
+        {
+          "removed_token": "=available.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "available",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        },
+        {
+          "removed_token": "=owe.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "owe",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=available=": 1,
+        "=available.pluralize:dram=": 1,
+        "=trader.the.name|strip=": 1,
+        "=owe=": 1,
+        "=owe.pluralize:dram=": 1
+      },
+      "final_tokens": {
+        "=available=": 1,
+        "=trader.the.name|strip=": 1,
+        "=owe=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You now owe =trader.t= =owe= =owe.pluralize:dram= of fresh water.'), ('Context', 'XRLUITradeUI Owe')), 1),), '#text')",
+      "source": "You now owe =trader.t= =owe= =owe.pluralize:dram= of fresh water.",
+      "baseline_translation": "你现在欠 =trader.t= =owe= =owe.pluralize:dram= 淡水。",
+      "translation": "你现在欠 =trader.t= =owe= 打兰 淡水。",
+      "changes": [
+        {
+          "removed_token": "=owe.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "owe",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=trader.t=": 1,
+        "=owe=": 1,
+        "=owe.pluralize:dram=": 1
+      },
+      "final_tokens": {
+        "=trader.t=": 1,
+        "=owe=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', \"You don't have =difference= =difference.pluralize:dram= of fresh water to even up the trade!\"), ('Context', 'XRLUITradeUI Too Poor To Pony Up')), 1),), '#text')",
+      "source": "You don't have =difference= =difference.pluralize:dram= of fresh water to even up the trade!",
+      "baseline_translation": "你没有 =difference= =difference.pluralize:dram= 淡水来平衡交易！",
+      "translation": "你没有 =difference= 打兰 淡水来平衡交易！",
+      "changes": [
+        {
+          "removed_token": "=difference.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "difference",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=difference=": 1,
+        "=difference.pluralize:dram=": 1
+      },
+      "final_tokens": {
+        "=difference=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=trader.The.name= =trader.verb:pony= up =give= =give.pluralize:dram= of fresh water to even up the trade.'), ('Context', 'XRLUITradeUI Trader Pony Up')), 1),), '#text')",
+      "source": "=trader.The.name= =trader.verb:pony= up =give= =give.pluralize:dram= of fresh water to even up the trade.",
+      "baseline_translation": "=trader.The.name= =trader.verb:pony= =give= =give.pluralize:dram= 些新鲜水以平衡交易。",
+      "translation": "=trader.The.name= =trader.verb:pony= =give= 打兰 些新鲜水以平衡交易。",
+      "changes": [
+        {
+          "removed_token": "=give.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "give",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=trader.The.name=": 1,
+        "=trader.verb:pony=": 1,
+        "=give=": 1,
+        "=give.pluralize:dram=": 1
+      },
+      "final_tokens": {
+        "=trader.The.name=": 1,
+        "=trader.verb:pony=": 1,
+        "=give=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=trader.T= will have to pony up =give= =give.pluralize:dram= of fresh water to even up the trade. Agreed?'), ('Context', 'XRLUITradeUI Trader Pony Up Agreed')), 1),), '#text')",
+      "source": "=trader.T= will have to pony up =give= =give.pluralize:dram= of fresh water to even up the trade. Agreed?",
+      "baseline_translation": "=trader.T= 必须补上 =give= =give.pluralize:dram= 淡水来平衡交易。同意吗？",
+      "translation": "=trader.T= 必须补上 =give= 打兰 淡水来平衡交易。同意吗？",
+      "changes": [
+        {
+          "removed_token": "=give.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "give",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=trader.T=": 1,
+        "=give=": 1,
+        "=give.pluralize:dram=": 1
+      },
+      "final_tokens": {
+        "=trader.T=": 1,
+        "=give=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', \"=trader.T= =trader.verb:don't= have =give= =give.pluralize:dram= of fresh water to even up the trade!\"), ('Context', 'XRLUITradeUI Trader Force')), 1),), '#text')",
+      "source": "=trader.T= =trader.verb:don't= have =give= =give.pluralize:dram= of fresh water to even up the trade!",
+      "baseline_translation": "=trader.T= =trader.verb:don't= 有 =give= =give.pluralize:dram= 淡水来平衡交易！",
+      "translation": "=trader.T= =trader.verb:don't= 有 =give= 打兰 淡水来平衡交易！",
+      "changes": [
+        {
+          "removed_token": "=give.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "give",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=trader.T=": 1,
+        "=trader.verb:don't=": 1,
+        "=give=": 1,
+        "=give.pluralize:dram=": 1
+      },
+      "final_tokens": {
+        "=trader.T=": 1,
+        "=trader.verb:don't=": 1,
+        "=give=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', \"=trader.T= =trader.verb:don't= have =give= =give.pluralize:dram= of fresh water to even up the trade! Do you want to complete the trade anyway?\"), ('Context', 'XRLUITradeUI PoorTrader')), 1),), '#text')",
+      "source": "=trader.T= =trader.verb:don't= have =give= =give.pluralize:dram= of fresh water to even up the trade! Do you want to complete the trade anyway?",
+      "baseline_translation": "=trader.T= =trader.verb:don't= 有 =give= =give.pluralize:dram= 淡水来平衡交易！仍要完成交易吗？",
+      "translation": "=trader.T= =trader.verb:don't= 有 =give= 打兰 淡水来平衡交易！仍要完成交易吗？",
+      "changes": [
+        {
+          "removed_token": "=give.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "give",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=trader.T=": 1,
+        "=trader.verb:don't=": 1,
+        "=give=": 1,
+        "=give.pluralize:dram=": 1
+      },
+      "final_tokens": {
+        "=trader.T=": 1,
+        "=trader.verb:don't=": 1,
+        "=give=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', \"You don't have enough water containers to carry that many drams! You can store =storable= =storable.pluralize:dram=.\"), ('Context', 'XRLUITradeUI TooMuchWater Force')), 1),), '#text')",
+      "source": "You don't have enough water containers to carry that many drams! You can store =storable= =storable.pluralize:dram=.",
+      "baseline_translation": "你没有足够的水容器来装下那么多打兰！你能储存 =storable= =storable.pluralize:dram=。",
+      "translation": "你没有足够的水容器来装下那么多打兰！你能储存 =storable= 打兰。",
+      "changes": [
+        {
+          "removed_token": "=storable.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "storable",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=storable=": 1,
+        "=storable.pluralize:dram=": 1
+      },
+      "final_tokens": {
+        "=storable=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', \"You don't have enough water containers to carry that many drams! Do you want to complete the trade for the =storable= =storable.pluralize:dram= you can store?\"), ('Context', 'XRLUITradeUI TooMuchWater NoForce')), 1),), '#text')",
+      "source": "You don't have enough water containers to carry that many drams! Do you want to complete the trade for the =storable= =storable.pluralize:dram= you can store?",
+      "baseline_translation": "你没有足够的水容器来装下那么多打兰！要按你能储存的 =storable= =storable.pluralize:dram= 完成交易吗？",
+      "translation": "你没有足够的水容器来装下那么多打兰！要按你能储存的 =storable= 打兰 完成交易吗？",
+      "changes": [
+        {
+          "removed_token": "=storable.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "storable",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=storable=": 1,
+        "=storable.pluralize:dram=": 1
+      },
+      "final_tokens": {
+        "=storable=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You need {{C|=cost.cardinal=}} =cost.pluralize:dram= of fresh water to charge =object.isplural:one of :==object.indicativeDistal=.'), ('Context', 'XRLUITradeUI TooPoor For Recharge')), 1),), '#text')",
+      "source": "You need {{C|=cost.cardinal=}} =cost.pluralize:dram= of fresh water to charge =object.isplural:one of :==object.indicativeDistal=.",
+      "baseline_translation": "你需要 {{C|=cost.cardinal=}} =cost.pluralize:dram= 淡水来为=object.isplural:其中一个:==object.indicativeDistal=充能。",
+      "translation": "你需要 {{C|=cost.cardinal=}} 打兰 淡水来为=object.isplural:其中一个:==object.indicativeDistal=充能。",
+      "changes": [
+        {
+          "removed_token": "=cost.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "cost",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=cost.cardinal=": 1,
+        "=cost.pluralize:dram=": 1,
+        "=object.isplural:其中一个:=": 1,
+        "=object.indicativeDistal=": 1
+      },
+      "final_tokens": {
+        "=cost.cardinal=": 1,
+        "=object.isplural:其中一个:=": 1,
+        "=object.indicativeDistal=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You may recharge =object.isplural:one of :==object.indicativeDistal= for {{C|=cost.cardinal=}} =cost.pluralize:dram= of fresh water.'), ('Context', 'XRLUITradeUI Recharge Cost')), 1),), '#text')",
+      "source": "You may recharge =object.isplural:one of :==object.indicativeDistal= for {{C|=cost.cardinal=}} =cost.pluralize:dram= of fresh water.",
+      "baseline_translation": "你可以花费 {{C|=cost.cardinal=}} =cost.pluralize:dram= 淡水为=object.isplural:其中一个:==object.indicativeDistal=充能。",
+      "translation": "你可以花费 {{C|=cost.cardinal=}} 打兰 淡水为=object.isplural:其中一个:==object.indicativeDistal=充能。",
+      "changes": [
+        {
+          "removed_token": "=cost.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "cost",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=cost.cardinal=": 1,
+        "=cost.pluralize:dram=": 1,
+        "=object.isplural:其中一个:=": 1,
+        "=object.indicativeDistal=": 1
+      },
+      "final_tokens": {
+        "=cost.cardinal=": 1,
+        "=object.isplural:其中一个:=": 1,
+        "=object.indicativeDistal=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '{{K|[Space]/[5]}} Start =what= - =number= =number.pluralize:square= left - {{W|Escape}}-Cancel'), ('Context', 'PickTarget Pick Line Top Bar Cant Start')), 1),), '#text')",
+      "source": "{{K|[Space]/[5]}} Start =what= - =number= =number.pluralize:square= left - {{W|Escape}}-Cancel",
+      "baseline_translation": "{{K|[Space]/[5]}} 开始 =what= - 剩余 =number= =number.pluralize:格= - {{W|Escape}}-取消",
+      "translation": "{{K|[Space]/[5]}} 开始 =what= - 剩余 =number= 格 - {{W|Escape}}-取消",
+      "changes": [
+        {
+          "removed_token": "=number.pluralize:格=",
+          "replacement": "格",
+          "operation": "pluralize",
+          "variable_base": "number",
+          "quantity_token_added": null,
+          "literal_unit": "格"
+        }
+      ],
+      "baseline_tokens": {
+        "=what=": 1,
+        "=number=": 1,
+        "=number.pluralize:格=": 1
+      },
+      "final_tokens": {
+        "=what=": 1,
+        "=number=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '{{W|[Space]/[5]}} Start =what= - =number|color:C= =number.pluralize:square= left - {{W|Escape}}-Cancel'), ('Context', 'PickTarget Pick Line Top Bar Can Start')), 1),), '#text')",
+      "source": "{{W|[Space]/[5]}} Start =what= - =number|color:C= =number.pluralize:square= left - {{W|Escape}}-Cancel",
+      "baseline_translation": "{{W|[Space]/[5]}} 开始 =what= - 剩余 =number|color:C= =number.pluralize:格= - {{W|Escape}}-取消",
+      "translation": "{{W|[Space]/[5]}} 开始 =what= - 剩余 =number|color:C= 格 - {{W|Escape}}-取消",
+      "changes": [
+        {
+          "removed_token": "=number.pluralize:格=",
+          "replacement": "格",
+          "operation": "pluralize",
+          "variable_base": "number",
+          "quantity_token_added": null,
+          "literal_unit": "格"
+        }
+      ],
+      "baseline_tokens": {
+        "=what=": 1,
+        "=number|color:C=": 1,
+        "=number.pluralize:格=": 1
+      },
+      "final_tokens": {
+        "=what=": 1,
+        "=number|color:C=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '{{W|[Space]/[5]}} End =what= - =number|color:C= =number.pluralize:square= left - {{W|Escape}}-Clear'), ('Context', 'PickTarget Pick Line Top Bar Started')), 1),), '#text')",
+      "source": "{{W|[Space]/[5]}} End =what= - =number|color:C= =number.pluralize:square= left - {{W|Escape}}-Clear",
+      "baseline_translation": "{{W|[Space]/[5]}} 结束 =what= - 剩余 =number|color:C= =number.pluralize:格= - {{W|Escape}}-清除",
+      "translation": "{{W|[Space]/[5]}} 结束 =what= - 剩余 =number|color:C= 格 - {{W|Escape}}-清除",
+      "changes": [
+        {
+          "removed_token": "=number.pluralize:格=",
+          "replacement": "格",
+          "operation": "pluralize",
+          "variable_base": "number",
+          "quantity_token_added": null,
+          "literal_unit": "格"
+        }
+      ],
+      "baseline_tokens": {
+        "=what=": 1,
+        "=number|color:C=": 1,
+        "=number.pluralize:格=": 1
+      },
+      "final_tokens": {
+        "=what=": 1,
+        "=number|color:C=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You must select a location within =range.things:tile=!'), ('Context', 'UI PickTarget Fail Out Of Range')), 1),), '#text')",
+      "source": "You must select a location within =range.things:tile=!",
+      "baseline_translation": "你必须选择 =range.things:tile= 内的位置！",
+      "translation": "你必须选择 =range= 格 内的位置！",
+      "changes": [
+        {
+          "removed_token": "=range.things:tile=",
+          "replacement": "=range= 格",
+          "operation": "things",
+          "variable_base": "range",
+          "quantity_token_added": "=range=",
+          "literal_unit": "格"
+        }
+      ],
+      "baseline_tokens": {
+        "=range.things:tile=": 1
+      },
+      "final_tokens": {
+        "=range=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'There =errorCount.ifPlural:were:was= =errorCount.things:error= while loading this =loadable=.'), ('Context', 'Popup DisplayLoadError OneError')), 1),), '#text')",
+      "source": "There =errorCount.ifPlural:were:was= =errorCount.things:error= while loading this =loadable=.",
+      "baseline_translation": "加载此 =loadable= 时出现 =errorCount.things:error=。",
+      "translation": "加载此 =loadable= 时出现 =errorCount= 个错误。",
+      "changes": [
+        {
+          "removed_token": "=errorCount.things:error=",
+          "replacement": "=errorCount= 个错误",
+          "operation": "things",
+          "variable_base": "errorCount",
+          "quantity_token_added": "=errorCount=",
+          "literal_unit": "个错误"
+        }
+      ],
+      "baseline_tokens": {
+        "=loadable=": 1,
+        "=errorCount.things:error=": 1
+      },
+      "final_tokens": {
+        "=loadable=": 1,
+        "=errorCount=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You muse over the =numShared.pluralize:secret= with =object.name|strip= and gain some insight.'), ('Context', 'Conversation GiveReshephSecret Popup')), 1),), '#text')",
+      "source": "You muse over the =numShared.pluralize:secret= with =object.name|strip= and gain some insight.",
+      "baseline_translation": "你与 =object.name|strip= 一同思考 =numShared.pluralize:secret=，获得了一些领悟。",
+      "translation": "你与 =object.name|strip= 一同思考 个秘密，获得了一些领悟。",
+      "changes": [
+        {
+          "removed_token": "=numShared.pluralize:secret=",
+          "replacement": "个秘密",
+          "operation": "pluralize",
+          "variable_base": "numShared",
+          "quantity_token_added": null,
+          "literal_unit": "个秘密"
+        }
+      ],
+      "baseline_tokens": {
+        "=object.name|strip=": 1,
+        "=numShared.pluralize:secret=": 1
+      },
+      "final_tokens": {
+        "=object.name|strip=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=amount.signed= =amount.pluralize:hit point='), ('Context', 'BasicCookingEffect_Hitpoints Details Amount Known')), 1),), '#text')",
+      "source": "=amount.signed= =amount.pluralize:hit point=",
+      "baseline_translation": "=amount.signed= =amount.pluralize:生命值=",
+      "translation": "=amount.signed= 生命值",
+      "changes": [
+        {
+          "removed_token": "=amount.pluralize:生命值=",
+          "replacement": "生命值",
+          "operation": "pluralize",
+          "variable_base": "amount",
+          "quantity_token_added": null,
+          "literal_unit": "生命值"
+        }
+      ],
+      "baseline_tokens": {
+        "=amount.signed=": 1,
+        "=amount.pluralize:生命值=": 1
+      },
+      "final_tokens": {
+        "=amount.signed=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=message=\\n\\n{{W|=amount.signed= =amount.pluralize:hit point= for the rest of the day}}'), ('Context', 'BasicCookingEffect_Hitpoints Popup')), 1),), 'Value')",
+      "source": "=message=\n\n{{W|=amount.signed= =amount.pluralize:hit point= for the rest of the day}}",
+      "baseline_translation": "=message=\n\n{{W|当天剩余时间内 =amount.signed= =amount.pluralize:生命值=}}",
+      "translation": "=message=\n\n{{W|当天剩余时间内 =amount.signed= 生命值}}",
+      "changes": [
+        {
+          "removed_token": "=amount.pluralize:生命值=",
+          "replacement": "生命值",
+          "operation": "pluralize",
+          "variable_base": "amount",
+          "quantity_token_added": null,
+          "literal_unit": "生命值"
+        }
+      ],
+      "baseline_tokens": {
+        "=message=": 1,
+        "=amount.signed=": 1,
+        "=amount.pluralize:生命值=": 1
+      },
+      "final_tokens": {
+        "=message=": 1,
+        "=amount.signed=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=tier.signed= =tier.pluralize:rank= to =mutationName=.'), ('Context', 'ProceduralCookingEffectUnitMutation Description - Mutation bonus levels')), 1),), '#text')",
+      "source": "=tier.signed= =tier.pluralize:rank= to =mutationName=.",
+      "baseline_translation": "=tier.signed= =tier.pluralize:rank= 已提升至 =mutationName=。",
+      "translation": "=tier.signed= 级 已提升至 =mutationName=。",
+      "changes": [
+        {
+          "removed_token": "=tier.pluralize:rank=",
+          "replacement": "级",
+          "operation": "pluralize",
+          "variable_base": "tier",
+          "quantity_token_added": null,
+          "literal_unit": "级"
+        }
+      ],
+      "baseline_tokens": {
+        "=tier.signed=": 1,
+        "=tier.pluralize:rank=": 1,
+        "=mutationName=": 1
+      },
+      "final_tokens": {
+        "=tier.signed=": 1,
+        "=mutationName=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'dominated (=duration.things:turn= remaining)'), ('Context', 'Dominated Effect Description')), 1),), '#text')",
+      "source": "dominated (=duration.things:turn= remaining)",
+      "baseline_translation": "被支配（剩余 =duration.things:turn=）",
+      "translation": "被支配（剩余 =duration= 回合）",
+      "changes": [
+        {
+          "removed_token": "=duration.things:turn=",
+          "replacement": "=duration= 回合",
+          "operation": "things",
+          "variable_base": "duration",
+          "quantity_token_added": "=duration=",
+          "literal_unit": "回合"
+        }
+      ],
+      "baseline_tokens": {
+        "=duration.things:turn=": 1
+      },
+      "final_tokens": {
+        "=duration=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You will phase back in in =duration.things:round=.'), ('Context', 'Phasing phase in countdown (player only)')), 1),), '#text')",
+      "source": "You will phase back in in =duration.things:round=.",
+      "baseline_translation": "你将在 =duration.things:回合= 后重新入相。",
+      "translation": "你将在 =duration= 回合 后重新入相。",
+      "changes": [
+        {
+          "removed_token": "=duration.things:回合=",
+          "replacement": "=duration= 回合",
+          "operation": "things",
+          "variable_base": "duration",
+          "quantity_token_added": "=duration=",
+          "literal_unit": "回合"
+        }
+      ],
+      "baseline_tokens": {
+        "=duration.things:回合=": 1
+      },
+      "final_tokens": {
+        "=duration=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=duration= =duration.pluralize:round= left.'), ('Context', 'Run Duration Left')), 1),), '#text')",
+      "source": "=duration= =duration.pluralize:round= left.",
+      "baseline_translation": "剩余 =duration= =duration.pluralize:回合=。",
+      "translation": "剩余 =duration= 回合。",
+      "changes": [
+        {
+          "removed_token": "=duration.pluralize:回合=",
+          "replacement": "回合",
+          "operation": "pluralize",
+          "variable_base": "duration",
+          "quantity_token_added": null,
+          "literal_unit": "回合"
+        }
+      ],
+      "baseline_tokens": {
+        "=duration=": 1,
+        "=duration.pluralize:回合=": 1
+      },
+      "final_tokens": {
+        "=duration=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=number.cardinal= =mod.name= =number.pluralize:item='), ('Context', 'RandomAltarBaetyl Mod Demand Prefix Name')), 1),), '#text')",
+      "source": "=number.cardinal= =mod.name= =number.pluralize:item=",
+      "baseline_translation": "=number.cardinal= 件 =mod.name= =number.pluralize:物品=",
+      "translation": "=number.cardinal= 件 =mod.name= 物品",
+      "changes": [
+        {
+          "removed_token": "=number.pluralize:物品=",
+          "replacement": "物品",
+          "operation": "pluralize",
+          "variable_base": "number",
+          "quantity_token_added": null,
+          "literal_unit": "物品"
+        }
+      ],
+      "baseline_tokens": {
+        "=number.cardinal=": 1,
+        "=mod.name=": 1,
+        "=number.pluralize:物品=": 1
+      },
+      "final_tokens": {
+        "=number.cardinal=": 1,
+        "=mod.name=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=number.cardinal= =number.pluralize:item= =mod.name='), ('Context', 'RandomAltarBaetyl Mod Demand Suffix Name')), 1),), '#text')",
+      "source": "=number.cardinal= =number.pluralize:item= =mod.name=",
+      "baseline_translation": "=number.cardinal= 件 =mod.name= =number.pluralize:物品=",
+      "translation": "=number.cardinal= 件 =mod.name= 物品",
+      "changes": [
+        {
+          "removed_token": "=number.pluralize:物品=",
+          "replacement": "物品",
+          "operation": "pluralize",
+          "variable_base": "number",
+          "quantity_token_added": null,
+          "literal_unit": "物品"
+        }
+      ],
+      "baseline_tokens": {
+        "=number.cardinal=": 1,
+        "=mod.name=": 1,
+        "=number.pluralize:物品=": 1
+      },
+      "final_tokens": {
+        "=number.cardinal=": 1,
+        "=mod.name=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=points= attribute =points.pluralize:point='), ('Context', 'RandomAltarBaetyl Reward List')), 1),), '#text')",
+      "source": "=points= attribute =points.pluralize:point=",
+      "baseline_translation": "=points= 点属性=points.pluralize:点=",
+      "translation": "=points= 点属性点",
+      "changes": [
+        {
+          "removed_token": "=points.pluralize:点=",
+          "replacement": "点",
+          "operation": "pluralize",
+          "variable_base": "points",
+          "quantity_token_added": null,
+          "literal_unit": "点"
+        }
+      ],
+      "baseline_tokens": {
+        "=points=": 1,
+        "=points.pluralize:点=": 1
+      },
+      "final_tokens": {
+        "=points=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=points= mutation =points.pluralize:point='), ('Context', 'RandomAltarBaetyl Reward List')), 1),), '#text')",
+      "source": "=points= mutation =points.pluralize:point=",
+      "baseline_translation": "=points= 点突变=points.pluralize:点=",
+      "translation": "=points= 点突变点",
+      "changes": [
+        {
+          "removed_token": "=points.pluralize:点=",
+          "replacement": "点",
+          "operation": "pluralize",
+          "variable_base": "points",
+          "quantity_token_added": null,
+          "literal_unit": "点"
+        }
+      ],
+      "baseline_tokens": {
+        "=points=": 1,
+        "=points.pluralize:点=": 1
+      },
+      "final_tokens": {
+        "=points=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=points= skill =points.pluralize:point='), ('Context', 'RandomAltarBaetyl Reward List')), 1),), '#text')",
+      "source": "=points= skill =points.pluralize:point=",
+      "baseline_translation": "=points= 点技能=points.pluralize:点=",
+      "translation": "=points= 点技能点",
+      "changes": [
+        {
+          "removed_token": "=points.pluralize:点=",
+          "replacement": "点",
+          "operation": "pluralize",
+          "variable_base": "points",
+          "quantity_token_added": null,
+          "literal_unit": "点"
+        }
+      ],
+      "baseline_tokens": {
+        "=points=": 1,
+        "=points.pluralize:点=": 1
+      },
+      "final_tokens": {
+        "=points=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=points= experience =points.pluralize:point='), ('Context', 'RandomAltarBaetyl Reward List')), 1),), '#text')",
+      "source": "=points= experience =points.pluralize:point=",
+      "baseline_translation": "=points= 点经验=points.pluralize:点=",
+      "translation": "=points= 点经验点",
+      "changes": [
+        {
+          "removed_token": "=points.pluralize:点=",
+          "replacement": "点",
+          "operation": "pluralize",
+          "variable_base": "points",
+          "quantity_token_added": null,
+          "literal_unit": "点"
+        }
+      ],
+      "baseline_tokens": {
+        "=points=": 1,
+        "=points.pluralize:点=": 1
+      },
+      "final_tokens": {
+        "=points=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=points= cybernetics license =points.pluralize:point='), ('Context', 'RandomAltarBaetyl Reward List')), 1),), '#text')",
+      "source": "=points= cybernetics license =points.pluralize:point=",
+      "baseline_translation": "=points= 点控制论许可证=points.pluralize:点=",
+      "translation": "=points= 点控制论许可证点",
+      "changes": [
+        {
+          "removed_token": "=points.pluralize:点=",
+          "replacement": "点",
+          "operation": "pluralize",
+          "variable_base": "points",
+          "quantity_token_added": null,
+          "literal_unit": "点"
+        }
+      ],
+      "baseline_tokens": {
+        "=points=": 1,
+        "=points.pluralize:点=": 1
+      },
+      "final_tokens": {
+        "=points=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:hitpoint='), ('Context', 'LevelHPGain')), 1),), '#text')",
+      "source": "=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:hitpoint=",
+      "baseline_translation": "=subject.They= =subject.ternaryVerb#positive:获得:失去:afterpronoun= {{rules|=value=}} =value.pluralize:点生命值=",
+      "translation": "=subject.They= =subject.ternaryVerb#positive:获得:失去:afterpronoun= {{rules|=value=}} 点生命值",
+      "changes": [
+        {
+          "removed_token": "=value.pluralize:点生命值=",
+          "replacement": "点生命值",
+          "operation": "pluralize",
+          "variable_base": "value",
+          "quantity_token_added": null,
+          "literal_unit": "点生命值"
+        }
+      ],
+      "baseline_tokens": {
+        "=subject.They=": 1,
+        "=subject.ternaryVerb#positive:获得:失去:afterpronoun=": 1,
+        "=value=": 1,
+        "=value.pluralize:点生命值=": 1
+      },
+      "final_tokens": {
+        "=subject.They=": 1,
+        "=subject.ternaryVerb#positive:获得:失去:afterpronoun=": 1,
+        "=value=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Skill Point='), ('Context', 'LevelSPGain')), 1),), '#text')",
+      "source": "=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Skill Point=",
+      "baseline_translation": "=subject.They= =subject.ternaryVerb#positive:获得:失去:afterpronoun= {{rules|=value=}} =value.pluralize:点技能点=",
+      "translation": "=subject.They= =subject.ternaryVerb#positive:获得:失去:afterpronoun= {{rules|=value=}} 点技能点",
+      "changes": [
+        {
+          "removed_token": "=value.pluralize:点技能点=",
+          "replacement": "点技能点",
+          "operation": "pluralize",
+          "variable_base": "value",
+          "quantity_token_added": null,
+          "literal_unit": "点技能点"
+        }
+      ],
+      "baseline_tokens": {
+        "=subject.They=": 1,
+        "=subject.ternaryVerb#positive:获得:失去:afterpronoun=": 1,
+        "=value=": 1,
+        "=value.pluralize:点技能点=": 1
+      },
+      "final_tokens": {
+        "=subject.They=": 1,
+        "=subject.ternaryVerb#positive:获得:失去:afterpronoun=": 1,
+        "=value=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Mutation Point='), ('Context', 'LevelMPGain')), 1),), '#text')",
+      "source": "=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Mutation Point=",
+      "baseline_translation": "=subject.They= =subject.ternaryVerb#positive:获得:失去:afterpronoun= {{rules|=value=}} =value.pluralize:点突变点=",
+      "translation": "=subject.They= =subject.ternaryVerb#positive:获得:失去:afterpronoun= {{rules|=value=}} 点突变点",
+      "changes": [
+        {
+          "removed_token": "=value.pluralize:点突变点=",
+          "replacement": "点突变点",
+          "operation": "pluralize",
+          "variable_base": "value",
+          "quantity_token_added": null,
+          "literal_unit": "点突变点"
+        }
+      ],
+      "baseline_tokens": {
+        "=subject.They=": 1,
+        "=subject.ternaryVerb#positive:获得:失去:afterpronoun=": 1,
+        "=value=": 1,
+        "=value.pluralize:点突变点=": 1
+      },
+      "final_tokens": {
+        "=subject.They=": 1,
+        "=subject.ternaryVerb#positive:获得:失去:afterpronoun=": 1,
+        "=value=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Attribute Point='), ('Context', 'LevelAPGain')), 1),), '#text')",
+      "source": "=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Attribute Point=",
+      "baseline_translation": "=subject.They= =subject.ternaryVerb#positive:获得:失去:afterpronoun= {{rules|=value=}} =value.pluralize:点属性点=",
+      "translation": "=subject.They= =subject.ternaryVerb#positive:获得:失去:afterpronoun= {{rules|=value=}} 点属性点",
+      "changes": [
+        {
+          "removed_token": "=value.pluralize:点属性点=",
+          "replacement": "点属性点",
+          "operation": "pluralize",
+          "variable_base": "value",
+          "quantity_token_added": null,
+          "literal_unit": "点属性点"
+        }
+      ],
+      "baseline_tokens": {
+        "=subject.They=": 1,
+        "=subject.ternaryVerb#positive:获得:失去:afterpronoun=": 1,
+        "=value=": 1,
+        "=value.pluralize:点属性点=": 1
+      },
+      "final_tokens": {
+        "=subject.They=": 1,
+        "=subject.ternaryVerb#positive:获得:失去:afterpronoun=": 1,
+        "=value=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', \"Whenever you perform the water ritual with a new creature, you gain an extra =repBonus= reputation. If you install this implant after you treat with a creature for the first time, you gain =repBonus= reputation the next time you treat with them.\\nReputation costs in the water ritual are reduced by =ritualCostReduction=%.\\nYou may Proselytize =proselytizeLimitBonus.things:additional creature=.\\nCompute power on the local lattice increases this implant's effectiveness.\"), ('Context', 'CyberneticsSocialCoprocessor GetCyberneticsBehaviorDescriptionEvent Description')), 1),), 'Value')",
+      "source": "Whenever you perform the water ritual with a new creature, you gain an extra =repBonus= reputation. If you install this implant after you treat with a creature for the first time, you gain =repBonus= reputation the next time you treat with them.\nReputation costs in the water ritual are reduced by =ritualCostReduction=%.\nYou may Proselytize =proselytizeLimitBonus.things:additional creature=.\nCompute power on the local lattice increases this implant's effectiveness.",
+      "baseline_translation": "每当你与一个新生物进行水仪式时，你额外获得 =repBonus= 点声望。如果你在首次与某生物相待后安装此植入体，则下一次与其相待时获得 =repBonus= 点声望。\n水仪式中的声望花费降低 =ritualCostReduction=%。\n你可以劝化 =proselytizeLimitBonus.things:个额外生物=。\n本地晶格上的运算能力会提高此植入体的效果。",
+      "translation": "每当你与一个新生物进行水仪式时，你额外获得 =repBonus= 点声望。如果你在首次与某生物相待后安装此植入体，则下一次与其相待时获得 =repBonus= 点声望。\n水仪式中的声望花费降低 =ritualCostReduction=%。\n你可以劝化 =proselytizeLimitBonus= 个额外生物。\n本地晶格上的运算能力会提高此植入体的效果。",
+      "changes": [
+        {
+          "removed_token": "=proselytizeLimitBonus.things:个额外生物=",
+          "replacement": "=proselytizeLimitBonus= 个额外生物",
+          "operation": "things",
+          "variable_base": "proselytizeLimitBonus",
+          "quantity_token_added": "=proselytizeLimitBonus=",
+          "literal_unit": "个额外生物"
+        }
+      ],
+      "baseline_tokens": {
+        "=repBonus=": 2,
+        "=ritualCostReduction=": 1,
+        "=proselytizeLimitBonus.things:个额外生物=": 1
+      },
+      "final_tokens": {
+        "=repBonus=": 2,
+        "=ritualCostReduction=": 1,
+        "=proselytizeLimitBonus=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.This= =subject.descriptiveCategory|pluralize#subject= =subject.verb:bear= the =names.pluralize:mark= of =names.andList=.'), ('Context', 'MakersMark - Description message')), 1),), '#text')",
+      "source": "=subject.This= =subject.descriptiveCategory|pluralize#subject= =subject.verb:bear= the =names.pluralize:mark= of =names.andList=.",
+      "baseline_translation": "=subject.This= =subject.descriptiveCategory|pluralize#subject= =subject.verb:bear= 了 =names.andList=. 的 =names.pluralize:mark=。",
+      "translation": "=subject.This= =subject.descriptiveCategory|pluralize#subject= =subject.verb:bear= 了 =names.andList=. 的 个标记。",
+      "changes": [
+        {
+          "removed_token": "=names.pluralize:mark=",
+          "replacement": "个标记",
+          "operation": "pluralize",
+          "variable_base": "names",
+          "quantity_token_added": null,
+          "literal_unit": "个标记"
+        }
+      ],
+      "baseline_tokens": {
+        "=subject.This=": 1,
+        "=subject.descriptiveCategory|pluralize#subject=": 1,
+        "=subject.verb:bear=": 1,
+        "=names.andList=": 1,
+        "=names.pluralize:mark=": 1
+      },
+      "final_tokens": {
+        "=subject.This=": 1,
+        "=subject.descriptiveCategory|pluralize#subject=": 1,
+        "=subject.verb:bear=": 1,
+        "=names.andList=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Its= readout indicates that =subject.its= startup sequence will take an estimated =timeLeft.cardinal= more =timeLeft.pluralize:round=.'), ('Context', 'Bootsequence Description')), 1),), '#text')",
+      "source": "=subject.Its= readout indicates that =subject.its= startup sequence will take an estimated =timeLeft.cardinal= more =timeLeft.pluralize:round=.",
+      "baseline_translation": "=subject.Its= 读数显示，=subject.its= 启动序列预计还需 =timeLeft.cardinal= =timeLeft.pluralize:回合=。",
+      "translation": "=subject.Its= 读数显示，=subject.its= 启动序列预计还需 =timeLeft.cardinal= 回合。",
+      "changes": [
+        {
+          "removed_token": "=timeLeft.pluralize:回合=",
+          "replacement": "回合",
+          "operation": "pluralize",
+          "variable_base": "timeLeft",
+          "quantity_token_added": null,
+          "literal_unit": "回合"
+        }
+      ],
+      "baseline_tokens": {
+        "=subject.Its=": 1,
+        "=subject.its=": 1,
+        "=timeLeft.cardinal=": 1,
+        "=timeLeft.pluralize:回合=": 1
+      },
+      "final_tokens": {
+        "=subject.Its=": 1,
+        "=subject.its=": 1,
+        "=timeLeft.cardinal=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You may Proselytize =amount.cardinal= fewer =amount.pluralize:follower=.'), ('Context', 'CompanionCapacity RulesPostfix Proselytized Fewer')), 1),), '#text')",
+      "source": "You may Proselytize =amount.cardinal= fewer =amount.pluralize:follower=.",
+      "baseline_translation": "你可能减少了 =amount.cardinal= 名 =amount.pluralize:follower=.。",
+      "translation": "你可能减少了 =amount.cardinal= 名 名追随者.。",
+      "changes": [
+        {
+          "removed_token": "=amount.pluralize:follower=",
+          "replacement": "名追随者",
+          "operation": "pluralize",
+          "variable_base": "amount",
+          "quantity_token_added": null,
+          "literal_unit": "名追随者"
+        }
+      ],
+      "baseline_tokens": {
+        "=amount.cardinal=": 1,
+        "=amount.pluralize:follower=": 1
+      },
+      "final_tokens": {
+        "=amount.cardinal=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You may Proselytize =amount.cardinal= additional =amount.pluralize:follower=.'), ('Context', 'CompanionCapacity RulesPostfix Proselytized Additional')), 1),), '#text')",
+      "source": "You may Proselytize =amount.cardinal= additional =amount.pluralize:follower=.",
+      "baseline_translation": "你可以招募 =amount.cardinal= 名额额外的 =amount.pluralize:follower=。",
+      "translation": "你可以招募 =amount.cardinal= 名额额外的 名追随者。",
+      "changes": [
+        {
+          "removed_token": "=amount.pluralize:follower=",
+          "replacement": "名追随者",
+          "operation": "pluralize",
+          "variable_base": "amount",
+          "quantity_token_added": null,
+          "literal_unit": "名追随者"
+        }
+      ],
+      "baseline_tokens": {
+        "=amount.cardinal=": 1,
+        "=amount.pluralize:follower=": 1
+      },
+      "final_tokens": {
+        "=amount.cardinal=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You may Beguile =amount.cardinal= fewer =amount.pluralize:follower=.'), ('Context', 'CompanionCapacity RulesPostfix Beguiled Fewer')), 1),), '#text')",
+      "source": "You may Beguile =amount.cardinal= fewer =amount.pluralize:follower=.",
+      "baseline_translation": "你可以魅惑少 =amount.cardinal= 个 =amount.pluralize:follower=。",
+      "translation": "你可以魅惑少 =amount.cardinal= 个 名追随者。",
+      "changes": [
+        {
+          "removed_token": "=amount.pluralize:follower=",
+          "replacement": "名追随者",
+          "operation": "pluralize",
+          "variable_base": "amount",
+          "quantity_token_added": null,
+          "literal_unit": "名追随者"
+        }
+      ],
+      "baseline_tokens": {
+        "=amount.cardinal=": 1,
+        "=amount.pluralize:follower=": 1
+      },
+      "final_tokens": {
+        "=amount.cardinal=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You may Beguile =amount.cardinal= additional =amount.pluralize:follower=.'), ('Context', 'CompanionCapacity RulesPostfix Beguiled Additional')), 1),), '#text')",
+      "source": "You may Beguile =amount.cardinal= additional =amount.pluralize:follower=.",
+      "baseline_translation": "你可以魅惑额外的 =amount.cardinal= 名 =amount.pluralize:follower=。",
+      "translation": "你可以魅惑额外的 =amount.cardinal= 名 名追随者。",
+      "changes": [
+        {
+          "removed_token": "=amount.pluralize:follower=",
+          "replacement": "名追随者",
+          "operation": "pluralize",
+          "variable_base": "amount",
+          "quantity_token_added": null,
+          "literal_unit": "名追随者"
+        }
+      ],
+      "baseline_tokens": {
+        "=amount.cardinal=": 1,
+        "=amount.pluralize:follower=": 1
+      },
+      "final_tokens": {
+        "=amount.cardinal=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'When equipped or implanted, and powered, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix EquippedOrImplanted Powered')), 1),), '#text')",
+      "source": "When equipped or implanted, and powered, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens=",
+      "baseline_translation": "装备或植入并供电后，可为局部晶格提供 =power.things:unit= 的运算能力。=part.statusSummary|addParens=",
+      "translation": "装备或植入并供电后，可为局部晶格提供 =power= 单位 的运算能力。=part.statusSummary|addParens=",
+      "changes": [
+        {
+          "removed_token": "=power.things:unit=",
+          "replacement": "=power= 单位",
+          "operation": "things",
+          "variable_base": "power",
+          "quantity_token_added": "=power=",
+          "literal_unit": "单位"
+        }
+      ],
+      "baseline_tokens": {
+        "=power.things:unit=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "final_tokens": {
+        "=power=": 1,
+        "=part.statusSummary|addParens=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'When equipped or implanted, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix EquippedOrImplanted')), 1),), '#text')",
+      "source": "When equipped or implanted, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens=",
+      "baseline_translation": "装备或植入时，为局部晶格提供 =power.things:unit= 的运算能力。 =part.statusSummary|addParens=",
+      "translation": "装备或植入时，为局部晶格提供 =power= 单位 的运算能力。 =part.statusSummary|addParens=",
+      "changes": [
+        {
+          "removed_token": "=power.things:unit=",
+          "replacement": "=power= 单位",
+          "operation": "things",
+          "variable_base": "power",
+          "quantity_token_added": "=power=",
+          "literal_unit": "单位"
+        }
+      ],
+      "baseline_tokens": {
+        "=power.things:unit=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "final_tokens": {
+        "=power=": 1,
+        "=part.statusSummary|addParens=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'When equipped and powered, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix Equipped Powered')), 1),), '#text')",
+      "source": "When equipped and powered, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens=",
+      "baseline_translation": "装备并通电时，可为本地晶格提供 =power.things:unit= 的运算能力。=part.statusSummary|addParens=",
+      "translation": "装备并通电时，可为本地晶格提供 =power= 单位 的运算能力。=part.statusSummary|addParens=",
+      "changes": [
+        {
+          "removed_token": "=power.things:unit=",
+          "replacement": "=power= 单位",
+          "operation": "things",
+          "variable_base": "power",
+          "quantity_token_added": "=power=",
+          "literal_unit": "单位"
+        }
+      ],
+      "baseline_tokens": {
+        "=power.things:unit=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "final_tokens": {
+        "=power=": 1,
+        "=part.statusSummary|addParens=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'When equipped, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix Equipped')), 1),), '#text')",
+      "source": "When equipped, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens=",
+      "baseline_translation": "装备时，为在地晶格提供 =power.things:unit= 的运算能力。=part.statusSummary|addParens=",
+      "translation": "装备时，为在地晶格提供 =power= 单位 的运算能力。=part.statusSummary|addParens=",
+      "changes": [
+        {
+          "removed_token": "=power.things:unit=",
+          "replacement": "=power= 单位",
+          "operation": "things",
+          "variable_base": "power",
+          "quantity_token_added": "=power=",
+          "literal_unit": "单位"
+        }
+      ],
+      "baseline_tokens": {
+        "=power.things:unit=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "final_tokens": {
+        "=power=": 1,
+        "=part.statusSummary|addParens=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'When implanted and powered, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix Implanted Powered')), 1),), '#text')",
+      "source": "When implanted and powered, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens=",
+      "baseline_translation": "植入并通电时，为局部晶格提供 =power.things:unit= 的运算能力。 =part.statusSummary|addParens=",
+      "translation": "植入并通电时，为局部晶格提供 =power= 单位 的运算能力。 =part.statusSummary|addParens=",
+      "changes": [
+        {
+          "removed_token": "=power.things:unit=",
+          "replacement": "=power= 单位",
+          "operation": "things",
+          "variable_base": "power",
+          "quantity_token_added": "=power=",
+          "literal_unit": "单位"
+        }
+      ],
+      "baseline_tokens": {
+        "=power.things:unit=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "final_tokens": {
+        "=power=": 1,
+        "=part.statusSummary|addParens=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'When implanted, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix Implanted')), 1),), '#text')",
+      "source": "When implanted, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens=",
+      "baseline_translation": "植入后，可为本地晶格提供 =power.things:unit= 的运算能力。=part.statusSummary|addParens=",
+      "translation": "植入后，可为本地晶格提供 =power= 单位 的运算能力。=part.statusSummary|addParens=",
+      "changes": [
+        {
+          "removed_token": "=power.things:unit=",
+          "replacement": "=power= 单位",
+          "operation": "things",
+          "variable_base": "power",
+          "quantity_token_added": "=power=",
+          "literal_unit": "单位"
+        }
+      ],
+      "baseline_tokens": {
+        "=power.things:unit=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "final_tokens": {
+        "=power=": 1,
+        "=part.statusSummary|addParens=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'When powered, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix Powered')), 1),), '#text')",
+      "source": "When powered, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens=",
+      "baseline_translation": "通电时，会为本地晶格提供 =power.things:unit= 的运算能力。=part.statusSummary|addParens=",
+      "translation": "通电时，会为本地晶格提供 =power= 单位 的运算能力。=part.statusSummary|addParens=",
+      "changes": [
+        {
+          "removed_token": "=power.things:unit=",
+          "replacement": "=power= 单位",
+          "operation": "things",
+          "variable_base": "power",
+          "quantity_token_added": "=power=",
+          "literal_unit": "单位"
+        }
+      ],
+      "baseline_tokens": {
+        "=power.things:unit=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "final_tokens": {
+        "=power=": 1,
+        "=part.statusSummary|addParens=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'Provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix Passive/Always')), 1),), '#text')",
+      "source": "Provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens=",
+      "baseline_translation": "为当地的晶格提供 =power.things:unit= 的运算能力。 =part.statusSummary|addParens=",
+      "translation": "为当地的晶格提供 =power= 单位 的运算能力。 =part.statusSummary|addParens=",
+      "changes": [
+        {
+          "removed_token": "=power.things:unit=",
+          "replacement": "=power= 单位",
+          "operation": "things",
+          "variable_base": "power",
+          "quantity_token_added": "=power=",
+          "literal_unit": "单位"
+        }
+      ],
+      "baseline_tokens": {
+        "=power.things:unit=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "final_tokens": {
+        "=power=": 1,
+        "=part.statusSummary|addParens=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'That is out of range (=range.things:square=)'), ('Context', 'DecoyHologramEmitter Out Of Range')), 1),), '#text')",
+      "source": "That is out of range (=range.things:square=)",
+      "baseline_translation": "超出范围（=range.things:格=）",
+      "translation": "超出范围（=range= 格）",
+      "changes": [
+        {
+          "removed_token": "=range.things:格=",
+          "replacement": "=range= 格",
+          "operation": "things",
+          "variable_base": "range",
+          "quantity_token_added": "=range=",
+          "literal_unit": "格"
+        }
+      ],
+      "baseline_tokens": {
+        "=range.things:格=": 1
+      },
+      "final_tokens": {
+        "=range=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=usesCharge.if:When powered, destroys:Destroys= walls after =hitCount.things:penetrating hit=.'), ('Context', 'Drill Description Hit Count')), 1),), '#text')",
+      "source": "=usesCharge.if:When powered, destroys:Destroys= walls after =hitCount.things:penetrating hit=.",
+      "baseline_translation": "=usesCharge.if:供能时，在:在= =hitCount.things:次穿透命中=后摧毁墙壁。",
+      "translation": "=usesCharge.if:供能时，在:在= =hitCount= 次穿透命中后摧毁墙壁。",
+      "changes": [
+        {
+          "removed_token": "=hitCount.things:次穿透命中=",
+          "replacement": "=hitCount= 次穿透命中",
+          "operation": "things",
+          "variable_base": "hitCount",
+          "quantity_token_added": "=hitCount=",
+          "literal_unit": "次穿透命中"
+        }
+      ],
+      "baseline_tokens": {
+        "=usesCharge.if:供能时，在:在=": 1,
+        "=hitCount.things:次穿透命中=": 1
+      },
+      "final_tokens": {
+        "=usesCharge.if:供能时，在:在=": 1,
+        "=hitCount=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=tier.signed= =tier.pluralize:level= to =mutation=.'), ('Context', 'FollowersGetTeleport GetDetails MutationImproved')), 1),), '#text')",
+      "source": "=tier.signed= =tier.pluralize:level= to =mutation=.",
+      "baseline_translation": "=tier.signed= =tier.pluralize:level= 至 =mutation=。",
+      "translation": "=tier.signed= 级 至 =mutation=。",
+      "changes": [
+        {
+          "removed_token": "=tier.pluralize:level=",
+          "replacement": "级",
+          "operation": "pluralize",
+          "variable_base": "tier",
+          "quantity_token_added": null,
+          "literal_unit": "级"
+        }
+      ],
+      "baseline_tokens": {
+        "=tier.signed=": 1,
+        "=tier.pluralize:level=": 1,
+        "=mutation=": 1
+      },
+      "final_tokens": {
+        "=tier.signed=": 1,
+        "=mutation=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=chance=% chance when disassembling an artifact that you receive =amount= extra =amount.pluralize:bit= of the highest tier'), ('Context', 'HighBitBonus RulesPostfix')), 1),), '#text')",
+      "source": "=chance=% chance when disassembling an artifact that you receive =amount= extra =amount.pluralize:bit= of the highest tier",
+      "baseline_translation": "拆解奇物时有 =chance=% 几率额外获得 =amount= 个最高阶=amount.pluralize:比特=",
+      "translation": "拆解奇物时有 =chance=% 几率额外获得 =amount= 个最高阶比特",
+      "changes": [
+        {
+          "removed_token": "=amount.pluralize:比特=",
+          "replacement": "比特",
+          "operation": "pluralize",
+          "variable_base": "amount",
+          "quantity_token_added": null,
+          "literal_unit": "比特"
+        }
+      ],
+      "baseline_tokens": {
+        "=chance=": 1,
+        "=amount=": 1,
+        "=amount.pluralize:比特=": 1
+      },
+      "final_tokens": {
+        "=chance=": 1,
+        "=amount=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=amount.signed= =statistics[MoveSpeed].name= while moving through at least =minamount= =minamount.pluralize:dram= of =liquid='), ('Context', 'MovespeedInLiquid RulesPostfix')), 1),), '#text')",
+      "source": "=amount.signed= =statistics[MoveSpeed].name= while moving through at least =minamount= =minamount.pluralize:dram= of =liquid=",
+      "baseline_translation": "在穿过至少 =minamount= =minamount.pluralize:打兰= 的 =liquid= 时，=statistics[MoveSpeed].name= =amount.signed=",
+      "translation": "在穿过至少 =minamount= 打兰 的 =liquid= 时，=statistics[MoveSpeed].name= =amount.signed=",
+      "changes": [
+        {
+          "removed_token": "=minamount.pluralize:打兰=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "minamount",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=minamount=": 1,
+        "=minamount.pluralize:打兰=": 1,
+        "=liquid=": 1,
+        "=statistics[MoveSpeed].name=": 1,
+        "=amount.signed=": 1
+      },
+      "final_tokens": {
+        "=minamount=": 1,
+        "=liquid=": 1,
+        "=statistics[MoveSpeed].name=": 1,
+        "=amount.signed=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=amount.signed= =statistics[MoveSpeed].name= while moving through at least =minamount= =minamount.pluralize:dram= of liquid'), ('Context', 'MovespeedInLiquid RulesPostfix')), 1),), '#text')",
+      "source": "=amount.signed= =statistics[MoveSpeed].name= while moving through at least =minamount= =minamount.pluralize:dram= of liquid",
+      "baseline_translation": "在穿过至少 =minamount= =minamount.pluralize:打兰= 液体时，=statistics[MoveSpeed].name= =amount.signed=",
+      "translation": "在穿过至少 =minamount= 打兰 液体时，=statistics[MoveSpeed].name= =amount.signed=",
+      "changes": [
+        {
+          "removed_token": "=minamount.pluralize:打兰=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "minamount",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=minamount=": 1,
+        "=minamount.pluralize:打兰=": 1,
+        "=statistics[MoveSpeed].name=": 1,
+        "=amount.signed=": 1
+      },
+      "final_tokens": {
+        "=minamount=": 1,
+        "=statistics[MoveSpeed].name=": 1,
+        "=amount.signed=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You are quickened with creative energy! The =cooldowns.pluralize:cooldown= on =cooldowns.andList= =cooldowns.pluralize:is= refreshed.'), ('Context', 'QuickenMind SomeCooldowns Success')), 1),), '#text')",
+      "source": "You are quickened with creative energy! The =cooldowns.pluralize:cooldown= on =cooldowns.andList= =cooldowns.pluralize:is= refreshed.",
+      "baseline_translation": "创造性能量令你加速！=cooldowns.andList= 的 =cooldowns.pluralize:冷却= 已刷新。",
+      "translation": "创造性能量令你加速！=cooldowns.andList= 的 冷却 已刷新。",
+      "changes": [
+        {
+          "removed_token": "=cooldowns.pluralize:冷却=",
+          "replacement": "冷却",
+          "operation": "pluralize",
+          "variable_base": "cooldowns",
+          "quantity_token_added": null,
+          "literal_unit": "冷却"
+        }
+      ],
+      "baseline_tokens": {
+        "=cooldowns.andList=": 1,
+        "=cooldowns.pluralize:冷却=": 1
+      },
+      "final_tokens": {
+        "=cooldowns.andList=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You must wait =turns.things:turn= before using =object.this= again.'), ('Context', 'TeleporterPair AttemptTeleport Cooldown')), 1),), '#text')",
+      "source": "You must wait =turns.things:turn= before using =object.this= again.",
+      "baseline_translation": "你必须等待 =turns.things:回合= 才能再次使用 =object.this=。",
+      "translation": "你必须等待 =turns= 回合 才能再次使用 =object.this=。",
+      "changes": [
+        {
+          "removed_token": "=turns.things:回合=",
+          "replacement": "=turns= 回合",
+          "operation": "things",
+          "variable_base": "turns",
+          "quantity_token_added": "=turns=",
+          "literal_unit": "回合"
+        }
+      ],
+      "baseline_tokens": {
+        "=turns.things:回合=": 1,
+        "=object.this=": 1
+      },
+      "final_tokens": {
+        "=turns=": 1,
+        "=object.this=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You are able to collect =transfer.things:dram= of =volume.liquid.name=. Are you sure you want to?'), ('Context', 'Liquid Volume - Warn collect a lot')), 1),), '#text')",
+      "source": "You are able to collect =transfer.things:dram= of =volume.liquid.name=. Are you sure you want to?",
+      "baseline_translation": "你可以收集 =transfer.things:打兰= 的 =volume.liquid.name=。确定要这么做吗？",
+      "translation": "你可以收集 =transfer= 打兰 的 =volume.liquid.name=。确定要这么做吗？",
+      "changes": [
+        {
+          "removed_token": "=transfer.things:打兰=",
+          "replacement": "=transfer= 打兰",
+          "operation": "things",
+          "variable_base": "transfer",
+          "quantity_token_added": "=transfer=",
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=transfer.things:打兰=": 1,
+        "=volume.liquid.name=": 1
+      },
+      "final_tokens": {
+        "=transfer=": 1,
+        "=volume.liquid.name=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does:collect= =transfer.things:dram= of =snapshotLiquidName= =subject.from.container.direction#volume#snapshotDir= =containers.ifAny:in ==containers.properAndList=.'), ('Context', 'LiquidVolume Collect')), 1),), '#text')",
+      "source": "=subject.Does:collect= =transfer.things:dram= of =snapshotLiquidName= =subject.from.container.direction#volume#snapshotDir= =containers.ifAny:in ==containers.properAndList=.",
+      "baseline_translation": "=subject.Does:collect= =transfer.things:dram= 的 =snapshotLiquidName= =subject.from.container.direction#volume#snapshotDir= =containers.ifAny:in ==containers.properAndList=。",
+      "translation": "=subject.Does:collect= =transfer= 打兰 的 =snapshotLiquidName= =subject.from.container.direction#volume#snapshotDir= =containers.ifAny:in ==containers.properAndList=。",
+      "changes": [
+        {
+          "removed_token": "=transfer.things:dram=",
+          "replacement": "=transfer= 打兰",
+          "operation": "things",
+          "variable_base": "transfer",
+          "quantity_token_added": "=transfer=",
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=subject.Does:collect=": 1,
+        "=transfer.things:dram=": 1,
+        "=snapshotLiquidName=": 1,
+        "=subject.from.container.direction#volume#snapshotDir=": 1,
+        "=containers.ifAny:in =": 1,
+        "=containers.properAndList=": 1
+      },
+      "final_tokens": {
+        "=subject.Does:collect=": 1,
+        "=transfer=": 1,
+        "=snapshotLiquidName=": 1,
+        "=subject.from.container.direction#volume#snapshotDir=": 1,
+        "=containers.ifAny:in =": 1,
+        "=containers.properAndList=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=amount.things:dram= of =volume.liquid.name= pours out all over you!'), ('Context', 'Liquid Volume - pour on self message')), 1),), '#text')",
+      "source": "=amount.things:dram= of =volume.liquid.name= pours out all over you!",
+      "baseline_translation": "=amount.things:打兰= 的 =volume.liquid.name= 倾倒在你全身！",
+      "translation": "=amount= 打兰 的 =volume.liquid.name= 倾倒在你全身！",
+      "changes": [
+        {
+          "removed_token": "=amount.things:打兰=",
+          "replacement": "=amount= 打兰",
+          "operation": "things",
+          "variable_base": "amount",
+          "quantity_token_added": "=amount=",
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=amount.things:打兰=": 1,
+        "=volume.liquid.name=": 1
+      },
+      "final_tokens": {
+        "=amount=": 1,
+        "=volume.liquid.name=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=amount.things:dram= of =volume.liquid.name= pours out all over =subject.the.name=!'), ('Context', 'Liquid Volume - poured out over')), 1),), '#text')",
+      "source": "=amount.things:dram= of =volume.liquid.name= pours out all over =subject.the.name=!",
+      "baseline_translation": "=amount.things:打兰= 的 =volume.liquid.name= 倾倒在 =subject.the.name= 全身！",
+      "translation": "=amount= 打兰 的 =volume.liquid.name= 倾倒在 =subject.the.name= 全身！",
+      "changes": [
+        {
+          "removed_token": "=amount.things:打兰=",
+          "replacement": "=amount= 打兰",
+          "operation": "things",
+          "variable_base": "amount",
+          "quantity_token_added": "=amount=",
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=amount.things:打兰=": 1,
+        "=volume.liquid.name=": 1,
+        "=subject.the.name=": 1
+      },
+      "final_tokens": {
+        "=amount=": 1,
+        "=volume.liquid.name=": 1,
+        "=subject.the.name=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does:pour= =amount.things:dram= of =volume.liquid.name= out.'), ('Context', 'Liquid Volume - poured out message')), 1),), '#text')",
+      "source": "=subject.Does:pour= =amount.things:dram= of =volume.liquid.name= out.",
+      "baseline_translation": "=subject.Does:pour= 出 =amount.things:打兰= 的 =volume.liquid.name=。",
+      "translation": "=subject.Does:pour= 出 =amount= 打兰 的 =volume.liquid.name=。",
+      "changes": [
+        {
+          "removed_token": "=amount.things:打兰=",
+          "replacement": "=amount= 打兰",
+          "operation": "things",
+          "variable_base": "amount",
+          "quantity_token_added": "=amount=",
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=subject.Does:pour=": 1,
+        "=amount.things:打兰=": 1,
+        "=volume.liquid.name=": 1
+      },
+      "final_tokens": {
+        "=subject.Does:pour=": 1,
+        "=amount=": 1,
+        "=volume.liquid.name=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', \"=subject.Doesly:permanently:drain= =object.the.name's= =stat.narration= by =amount.things:point=!\"), ('Context', 'SapOnPenetration PermanentlyDrainMessage')), 1),), '#text')",
+      "source": "=subject.Doesly:permanently:drain= =object.the.name's= =stat.narration= by =amount.things:point=!",
+      "baseline_translation": "=subject.Doesly:permanently:drain= 永久吸取 =object.the.name's= =stat.narration=，数值为 =amount.things:point=！",
+      "translation": "=subject.Doesly:permanently:drain= 永久吸取 =object.the.name's= =stat.narration=，数值为 =amount= 点！",
+      "changes": [
+        {
+          "removed_token": "=amount.things:point=",
+          "replacement": "=amount= 点",
+          "operation": "things",
+          "variable_base": "amount",
+          "quantity_token_added": "=amount=",
+          "literal_unit": "点"
+        }
+      ],
+      "baseline_tokens": {
+        "=subject.Doesly:permanently:drain=": 1,
+        "=object.the.name's=": 1,
+        "=stat.narration=": 1,
+        "=amount.things:point=": 1
+      },
+      "final_tokens": {
+        "=subject.Doesly:permanently:drain=": 1,
+        "=object.the.name's=": 1,
+        "=stat.narration=": 1,
+        "=amount=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'Co-Processor: When powered, this item grants =bonus.signed= =stat.Name= and provides =compute.things:unit= of compute power to the local lattice.'), ('Context', 'ModCoProcessor Description Tier Not Zero')), 1),), '#text')",
+      "source": "Co-Processor: When powered, this item grants =bonus.signed= =stat.Name= and provides =compute.things:unit= of compute power to the local lattice.",
+      "baseline_translation": "协处理器：供能时，这件物品提供 =bonus.signed= =stat.Name=，并向本地晶格提供 =compute.things:单位= 的运算能力。",
+      "translation": "协处理器：供能时，这件物品提供 =bonus.signed= =stat.Name=，并向本地晶格提供 =compute= 单位 的运算能力。",
+      "changes": [
+        {
+          "removed_token": "=compute.things:单位=",
+          "replacement": "=compute= 单位",
+          "operation": "things",
+          "variable_base": "compute",
+          "quantity_token_added": "=compute=",
+          "literal_unit": "单位"
+        }
+      ],
+      "baseline_tokens": {
+        "=bonus.signed=": 1,
+        "=stat.Name=": 1,
+        "=compute.things:单位=": 1
+      },
+      "final_tokens": {
+        "=bonus.signed=": 1,
+        "=stat.Name=": 1,
+        "=compute=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=owner.Does:transfer= =amount.things:dram= of =liquid.name|strip= to =host.aForNPCSubject.name#owner=.'), ('Context', 'ModLiquidCooled Transfer Message')), 1),), '#text')",
+      "source": "=owner.Does:transfer= =amount.things:dram= of =liquid.name|strip= to =host.aForNPCSubject.name#owner=.",
+      "baseline_translation": "=owner.Does:transfer= =amount.things:dram= 的 =liquid.name|strip= 给 =host.aForNPCSubject.name#owner=。",
+      "translation": "=owner.Does:transfer= =amount= 打兰 的 =liquid.name|strip= 给 =host.aForNPCSubject.name#owner=。",
+      "changes": [
+        {
+          "removed_token": "=amount.things:dram=",
+          "replacement": "=amount= 打兰",
+          "operation": "things",
+          "variable_base": "amount",
+          "quantity_token_added": "=amount=",
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=owner.Does:transfer=": 1,
+        "=amount.things:dram=": 1,
+        "=liquid.name|strip=": 1,
+        "=host.aForNPCSubject.name#owner=": 1
+      },
+      "final_tokens": {
+        "=owner.Does:transfer=": 1,
+        "=amount=": 1,
+        "=liquid.name|strip=": 1,
+        "=host.aForNPCSubject.name#owner=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', \"Recycling: This item collects, purifies, and stores up to =max.cardinal.things:dram= of the wearer's wastewater.\"), ('Context', 'ModRecycling Description With Liquid Volume')), 1),), '#text')",
+      "source": "Recycling: This item collects, purifies, and stores up to =max.cardinal.things:dram= of the wearer's wastewater.",
+      "baseline_translation": "回收：此物品会收集、净化并储存穿戴者高达 =max.cardinal.things:dram= 的废水。",
+      "translation": "回收：此物品会收集、净化并储存穿戴者高达 =max.cardinal= 打兰 的废水。",
+      "changes": [
+        {
+          "removed_token": "=max.cardinal.things:dram=",
+          "replacement": "=max.cardinal= 打兰",
+          "operation": "things",
+          "variable_base": "max.cardinal",
+          "quantity_token_added": "=max.cardinal=",
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=max.cardinal.things:dram=": 1
+      },
+      "final_tokens": {
+        "=max.cardinal=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'Lase (=radius.things:charge=)'), ('Context', 'LightManip Lase ActivatedAbility Button')), 1),), '#text')",
+      "source": "Lase (=radius.things:charge=)",
+      "baseline_translation": "激光照射（=radius.things:电荷=）",
+      "translation": "激光照射（=radius= 电荷）",
+      "changes": [
+        {
+          "removed_token": "=radius.things:电荷=",
+          "replacement": "=radius= 电荷",
+          "operation": "things",
+          "variable_base": "radius",
+          "quantity_token_added": "=radius=",
+          "literal_unit": "电荷"
+        }
+      ],
+      "baseline_tokens": {
+        "=radius.things:电荷=": 1
+      },
+      "final_tokens": {
+        "=radius=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does:discharge= =amount.things:unit= of electrical charge!'), ('Context', 'Elec Gen Discharge Message')), 1),), '#text')",
+      "source": "=subject.Does:discharge= =amount.things:unit= of electrical charge!",
+      "baseline_translation": "=subject.Does:discharge= =amount.things:单位= 电荷！",
+      "translation": "=subject.Does:discharge= =amount= 单位 电荷！",
+      "changes": [
+        {
+          "removed_token": "=amount.things:单位=",
+          "replacement": "=amount= 单位",
+          "operation": "things",
+          "variable_base": "amount",
+          "quantity_token_added": "=amount=",
+          "literal_unit": "单位"
+        }
+      ],
+      "baseline_tokens": {
+        "=subject.Does:discharge=": 1,
+        "=amount.things:单位=": 1
+      },
+      "final_tokens": {
+        "=subject.Does:discharge=": 1,
+        "=amount=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does:drink= the juice from =object.the.name= and recharge =amount.things:unit= of electrical charge.'), ('Context', 'Elec Gen DrinkCharge')), 1),), '#text')",
+      "source": "=subject.Does:drink= the juice from =object.the.name= and recharge =amount.things:unit= of electrical charge.",
+      "baseline_translation": "=subject.Does:drink= 了 =object.the.name= 的电流，并恢复 =amount.things:单位= 电荷。",
+      "translation": "=subject.Does:drink= 了 =object.the.name= 的电流，并恢复 =amount= 单位 电荷。",
+      "changes": [
+        {
+          "removed_token": "=amount.things:单位=",
+          "replacement": "=amount= 单位",
+          "operation": "things",
+          "variable_base": "amount",
+          "quantity_token_added": "=amount=",
+          "literal_unit": "单位"
+        }
+      ],
+      "baseline_tokens": {
+        "=subject.Does:drink=": 1,
+        "=object.the.name=": 1,
+        "=amount.things:单位=": 1
+      },
+      "final_tokens": {
+        "=subject.Does:drink=": 1,
+        "=object.the.name=": 1,
+        "=amount=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does:recharge= =amount.things:unit= of electrical charge from the damage.'), ('Context', 'Elec Gen Damage Recharge')), 1),), '#text')",
+      "source": "=subject.Does:recharge= =amount.things:unit= of electrical charge from the damage.",
+      "baseline_translation": "=subject.Does:recharge= 从伤害中恢复 =amount.things:单位= 电荷。",
+      "translation": "=subject.Does:recharge= 从伤害中恢复 =amount= 单位 电荷。",
+      "changes": [
+        {
+          "removed_token": "=amount.things:单位=",
+          "replacement": "=amount= 单位",
+          "operation": "things",
+          "variable_base": "amount",
+          "quantity_token_added": "=amount=",
+          "literal_unit": "单位"
+        }
+      ],
+      "baseline_tokens": {
+        "=subject.Does:recharge=": 1,
+        "=amount.things:单位=": 1
+      },
+      "final_tokens": {
+        "=subject.Does:recharge=": 1,
+        "=amount=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You may not =verb= more than =range.cardinal.things:square=!'), ('Context', 'Jump Fail above maximum range')), 1),), '#text')",
+      "source": "You may not =verb= more than =range.cardinal.things:square=!",
+      "baseline_translation": "你不能 =verb= 超过 =range.cardinal.things:square=！",
+      "translation": "你不能 =verb= 超过 =range.cardinal= 格！",
+      "changes": [
+        {
+          "removed_token": "=range.cardinal.things:square=",
+          "replacement": "=range.cardinal= 格",
+          "operation": "things",
+          "variable_base": "range.cardinal",
+          "quantity_token_added": "=range.cardinal=",
+          "literal_unit": "格"
+        }
+      ],
+      "baseline_tokens": {
+        "=verb=": 1,
+        "=range.cardinal.things:square=": 1
+      },
+      "final_tokens": {
+        "=verb=": 1,
+        "=range.cardinal=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You must =verb= at least =range.cardinal.things:square=!'), ('Context', 'Jump Fail below minimum range')), 1),), '#text')",
+      "source": "You must =verb= at least =range.cardinal.things:square=!",
+      "baseline_translation": "你必须至少 =verb= =range.cardinal.things:square=！",
+      "translation": "你必须至少 =verb= =range.cardinal= 格！",
+      "changes": [
+        {
+          "removed_token": "=range.cardinal.things:square=",
+          "replacement": "=range.cardinal= 格",
+          "operation": "things",
+          "variable_base": "range.cardinal",
+          "quantity_token_added": "=range.cardinal=",
+          "literal_unit": "格"
+        }
+      ],
+      "baseline_tokens": {
+        "=verb=": 1,
+        "=range.cardinal.things:square=": 1
+      },
+      "final_tokens": {
+        "=verb=": 1,
+        "=range.cardinal=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You cure the =result.pluralize:poison= coursing through =object.the.name= with a balm made from =cure.a.name:single=.'), ('Context', 'Campfire NostrumsTreatPoison')), 1),), '#text')",
+      "source": "You cure the =result.pluralize:poison= coursing through =object.the.name= with a balm made from =cure.a.name:single=.",
+      "baseline_translation": "你用由 =cure.a.name:single= 制成的药膏治好了 =object.the.name= 体内流窜的 =result.pluralize:毒素=。",
+      "translation": "你用由 =cure.a.name:single= 制成的药膏治好了 =object.the.name= 体内流窜的 毒素。",
+      "changes": [
+        {
+          "removed_token": "=result.pluralize:毒素=",
+          "replacement": "毒素",
+          "operation": "pluralize",
+          "variable_base": "result",
+          "quantity_token_added": null,
+          "literal_unit": "毒素"
+        }
+      ],
+      "baseline_tokens": {
+        "=cure.a.name:single=": 1,
+        "=object.the.name=": 1,
+        "=result.pluralize:毒素=": 1
+      },
+      "final_tokens": {
+        "=cure.a.name:single=": 1,
+        "=object.the.name=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '[=charges|color:C= cooking =charges.pluralize:serving=]'), ('Context', 'PreparedCookingIngredient DisplayName Tag Serving Count')), 1),), '#text')",
+      "source": "[=charges|color:C= cooking =charges.pluralize:serving=]",
+      "baseline_translation": "[烹饪 =charges|color:C= =charges.pluralize:serving=]",
+      "translation": "[烹饪 =charges|color:C= 份]",
+      "changes": [
+        {
+          "removed_token": "=charges.pluralize:serving=",
+          "replacement": "份",
+          "operation": "pluralize",
+          "variable_base": "charges",
+          "quantity_token_added": null,
+          "literal_unit": "份"
+        }
+      ],
+      "baseline_tokens": {
+        "=charges|color:C=": 1,
+        "=charges.pluralize:serving=": 1
+      },
+      "final_tokens": {
+        "=charges|color:C=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '[=servings|color:C= =servings.pluralize:serving=] =times.x.multiple='), ('Context', 'PreparedCookingIngredient Stacker Display')), 1),), '#text')",
+      "source": "[=servings|color:C= =servings.pluralize:serving=] =times.x.multiple=",
+      "baseline_translation": "[=servings|color:C= =servings.pluralize:serving=] =times.x.multiple=",
+      "translation": "[=servings|color:C= 份] =times.x.multiple=",
+      "changes": [
+        {
+          "removed_token": "=servings.pluralize:serving=",
+          "replacement": "份",
+          "operation": "pluralize",
+          "variable_base": "servings",
+          "quantity_token_added": null,
+          "literal_unit": "份"
+        }
+      ],
+      "baseline_tokens": {
+        "=servings|color:C=": 1,
+        "=servings.pluralize:serving=": 1,
+        "=times.x.multiple=": 1
+      },
+      "final_tokens": {
+        "=servings|color:C=": 1,
+        "=times.x.multiple=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'mod items with the =mods.andList= =mods.pluralize:mod='), ('Context', \"Disassembly learn to mod ('You may now' fragment)\")), 1),), '#text')",
+      "source": "mod items with the =mods.andList= =mods.pluralize:mod=",
+      "baseline_translation": "用 =mods.andList= =mods.pluralize:mod= 改装物品",
+      "translation": "用 =mods.andList= 项改造 改装物品",
+      "changes": [
+        {
+          "removed_token": "=mods.pluralize:mod=",
+          "replacement": "项改造",
+          "operation": "pluralize",
+          "variable_base": "mods",
+          "quantity_token_added": null,
+          "literal_unit": "项改造"
+        }
+      ],
+      "baseline_tokens": {
+        "=mods.andList=": 1,
+        "=mods.pluralize:mod=": 1
+      },
+      "final_tokens": {
+        "=mods.andList=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'Disassembled =done.things:item= of =wanted=...'), ('Context', 'Disassembly Loading Status Bar')), 1),), '#text')",
+      "source": "Disassembled =done.things:item= of =wanted=...",
+      "baseline_translation": "已拆解 =wanted= 个中的 =done.things:item=……",
+      "translation": "已拆解 =wanted= 个中的 =done= 件物品……",
+      "changes": [
+        {
+          "removed_token": "=done.things:item=",
+          "replacement": "=done= 件物品",
+          "operation": "things",
+          "variable_base": "done",
+          "quantity_token_added": "=done=",
+          "literal_unit": "件物品"
+        }
+      ],
+      "baseline_tokens": {
+        "=wanted=": 1,
+        "=done.things:item=": 1
+      },
+      "final_tokens": {
+        "=wanted=": 1,
+        "=done=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=amount.signed= =amount.pluralize:level='), ('Context', 'Unit Gain Level')), 1),), '#text')",
+      "source": "=amount.signed= =amount.pluralize:level=",
+      "baseline_translation": "=amount.signed= =amount.pluralize:等级=",
+      "translation": "=amount.signed= 等级",
+      "changes": [
+        {
+          "removed_token": "=amount.pluralize:等级=",
+          "replacement": "等级",
+          "operation": "pluralize",
+          "variable_base": "amount",
+          "quantity_token_added": null,
+          "literal_unit": "等级"
+        }
+      ],
+      "baseline_tokens": {
+        "=amount.signed=": 1,
+        "=amount.pluralize:等级=": 1
+      },
+      "final_tokens": {
+        "=amount.signed=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'That is out of range! (=range.things:square=)'), ('Context', 'Generic out of range error popup message')), 1),), '#text')",
+      "source": "That is out of range! (=range.things:square=)",
+      "baseline_translation": "超出范围！（=range.things:square=）",
+      "translation": "超出范围！（=range= 格）",
+      "changes": [
+        {
+          "removed_token": "=range.things:square=",
+          "replacement": "=range= 格",
+          "operation": "things",
+          "variable_base": "range",
+          "quantity_token_added": "=range=",
+          "literal_unit": "格"
+        }
+      ],
+      "baseline_tokens": {
+        "=range.things:square=": 1
+      },
+      "final_tokens": {
+        "=range=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'It will be finished in =duration.cardinal= =duration.pluralize:day=.'), ('Context', 'Golem Quest Shaping Duration Days')), 1),), '#text')",
+      "source": "It will be finished in =duration.cardinal= =duration.pluralize:day=.",
+      "baseline_translation": "它将在 =duration.cardinal= =duration.pluralize:天= 后完成。",
+      "translation": "它将在 =duration.cardinal= 天 后完成。",
+      "changes": [
+        {
+          "removed_token": "=duration.pluralize:天=",
+          "replacement": "天",
+          "operation": "pluralize",
+          "variable_base": "duration",
+          "quantity_token_added": null,
+          "literal_unit": "天"
+        }
+      ],
+      "baseline_tokens": {
+        "=duration.cardinal=": 1,
+        "=duration.pluralize:天=": 1
+      },
+      "final_tokens": {
+        "=duration.cardinal=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=cooldown.things:round='), ('Context', 'Replacer =ActivatedAbilityEntry.cooldown.rounds=')), 1),), '#text')",
+      "source": "=cooldown.things:round=",
+      "baseline_translation": "=cooldown.things:回合=",
+      "translation": "=cooldown= 回合",
+      "changes": [
+        {
+          "removed_token": "=cooldown.things:回合=",
+          "replacement": "=cooldown= 回合",
+          "operation": "things",
+          "variable_base": "cooldown",
+          "quantity_token_added": "=cooldown=",
+          "literal_unit": "回合"
+        }
+      ],
+      "baseline_tokens": {
+        "=cooldown.things:回合=": 1
+      },
+      "final_tokens": {
+        "=cooldown=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=days.cardinal= =days.pluralize:day='), ('Context', 'Replacer =mound.complete.days=')), 1),), '#text')",
+      "source": "=days.cardinal= =days.pluralize:day=",
+      "baseline_translation": "=days.cardinal= =days.pluralize:天=",
+      "translation": "=days.cardinal= 天",
+      "changes": [
+        {
+          "removed_token": "=days.pluralize:天=",
+          "replacement": "天",
+          "operation": "pluralize",
+          "variable_base": "days",
+          "quantity_token_added": null,
+          "literal_unit": "天"
+        }
+      ],
+      "baseline_tokens": {
+        "=days.cardinal=": 1,
+        "=days.pluralize:天=": 1
+      },
+      "final_tokens": {
+        "=days.cardinal=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=amount|color#amountColor= =amount.pluralize:dram= of =liquid.name='), ('Context', 'Base Liquid - drams of liquid template with color')), 1),), '#text')",
+      "source": "=amount|color#amountColor= =amount.pluralize:dram= of =liquid.name=",
+      "baseline_translation": "=amount|color#amountColor= =amount.pluralize:dram= 的 =liquid.name=",
+      "translation": "=amount|color#amountColor= 打兰 的 =liquid.name=",
+      "changes": [
+        {
+          "removed_token": "=amount.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "amount",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=amount|color#amountColor=": 1,
+        "=amount.pluralize:dram=": 1,
+        "=liquid.name=": 1
+      },
+      "final_tokens": {
+        "=amount|color#amountColor=": 1,
+        "=liquid.name=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=amount.cardinal|color#amountColor= =amount.pluralize:dram= of =liquid.name='), ('Context', 'Base Liquid - cardinal drams of liquid template with color')), 1),), '#text')",
+      "source": "=amount.cardinal|color#amountColor= =amount.pluralize:dram= of =liquid.name=",
+      "baseline_translation": "=amount.cardinal|color#amountColor= =amount.pluralize:dram= 的 =liquid.name=",
+      "translation": "=amount.cardinal|color#amountColor= 打兰 的 =liquid.name=",
+      "changes": [
+        {
+          "removed_token": "=amount.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "amount",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=amount.cardinal|color#amountColor=": 1,
+        "=amount.pluralize:dram=": 1,
+        "=liquid.name=": 1
+      },
+      "final_tokens": {
+        "=amount.cardinal|color#amountColor=": 1,
+        "=liquid.name=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=amount.cardinal= =amount.pluralize:dram= of =liquid.name='), ('Context', 'Base Liquid - cardinal drams of liquid template no color')), 1),), '#text')",
+      "source": "=amount.cardinal= =amount.pluralize:dram= of =liquid.name=",
+      "baseline_translation": "=amount.cardinal= =amount.pluralize:dram= 的 =liquid.name=",
+      "translation": "=amount.cardinal= 打兰 的 =liquid.name=",
+      "changes": [
+        {
+          "removed_token": "=amount.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "amount",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=amount.cardinal=": 1,
+        "=amount.pluralize:dram=": 1,
+        "=liquid.name=": 1
+      },
+      "final_tokens": {
+        "=amount.cardinal=": 1,
+        "=liquid.name=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=amount:D6= =amount.pluralize:dram= of =container.liquid.name='), ('Context', 'Liquid Volume - drams of liquid template (for sorting)')), 1),), '#text')",
+      "source": "=amount:D6= =amount.pluralize:dram= of =container.liquid.name=",
+      "baseline_translation": "=amount:D6= =amount.pluralize:dram= 的 =container.liquid.name=",
+      "translation": "=amount:D6= 打兰 的 =container.liquid.name=",
+      "changes": [
+        {
+          "removed_token": "=amount.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "amount",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=amount:D6=": 1,
+        "=amount.pluralize:dram=": 1,
+        "=container.liquid.name=": 1
+      },
+      "final_tokens": {
+        "=amount:D6=": 1,
+        "=container.liquid.name=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=amount|rules= =amount.pluralize:dram= of =container.liquid.name='), ('Context', 'Liquid Volume - drams of liquid template')), 1),), '#text')",
+      "source": "=amount|rules= =amount.pluralize:dram= of =container.liquid.name=",
+      "baseline_translation": "=amount|rules= =amount.pluralize:dram= 的 =container.liquid.name=",
+      "translation": "=amount|rules= 打兰 的 =container.liquid.name=",
+      "changes": [
+        {
+          "removed_token": "=amount.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "amount",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=amount|rules=": 1,
+        "=amount.pluralize:dram=": 1,
+        "=container.liquid.name=": 1
+      },
+      "final_tokens": {
+        "=amount|rules=": 1,
+        "=container.liquid.name=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=amount= =amount.pluralize:dram= of =container.liquid.name='), ('Context', 'Liquid Volume - drams of liquid template (no rules)')), 1),), '#text')",
+      "source": "=amount= =amount.pluralize:dram= of =container.liquid.name=",
+      "baseline_translation": "=amount= =amount.pluralize:dram= 的 =container.liquid.name=",
+      "translation": "=amount= 打兰 的 =container.liquid.name=",
+      "changes": [
+        {
+          "removed_token": "=amount.pluralize:dram=",
+          "replacement": "打兰",
+          "operation": "pluralize",
+          "variable_base": "amount",
+          "quantity_token_added": null,
+          "literal_unit": "打兰"
+        }
+      ],
+      "baseline_tokens": {
+        "=amount=": 1,
+        "=amount.pluralize:dram=": 1,
+        "=container.liquid.name=": 1
+      },
+      "final_tokens": {
+        "=amount=": 1,
+        "=container.liquid.name=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'First and foremost, let us lament the =killedList.pluralize:death= of our =killedList.pluralize:friend=: =killedList.andList:noSerial=. The loss to us is incalculable.\\n\\nBeyond that,'), ('Context', 'ScriptCallToArms Result Conversation Killed List')), 1),), 'Value')",
+      "source": "First and foremost, let us lament the =killedList.pluralize:death= of our =killedList.pluralize:friend=: =killedList.andList:noSerial=. The loss to us is incalculable.\n\nBeyond that,",
+      "baseline_translation": "首先，让我们哀悼 =killedList.pluralize:death= 的 =killedList.pluralize:friend=：=killedList.andList:noSerial=。这对我们是无法估量的损失。\n\n此外，",
+      "translation": "首先，让我们哀悼 死亡 的 朋友：=killedList.andList:noSerial=。这对我们是无法估量的损失。\n\n此外，",
+      "changes": [
+        {
+          "removed_token": "=killedList.pluralize:death=",
+          "replacement": "死亡",
+          "operation": "pluralize",
+          "variable_base": "killedList",
+          "quantity_token_added": null,
+          "literal_unit": "死亡"
+        },
+        {
+          "removed_token": "=killedList.pluralize:friend=",
+          "replacement": "朋友",
+          "operation": "pluralize",
+          "variable_base": "killedList",
+          "quantity_token_added": null,
+          "literal_unit": "朋友"
+        }
+      ],
+      "baseline_tokens": {
+        "=killedList.pluralize:death=": 1,
+        "=killedList.pluralize:friend=": 1,
+        "=killedList.andList:noSerial=": 1
+      },
+      "final_tokens": {
+        "=killedList.andList:noSerial=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=chromelings.cardinal.no|initCap.if#noKilled= =chromelings.pluralize:robot= perished, =books.cardinal.no= =books.pluralize:book was:books were= burned, =bookshelves.cardinal.no= =bookshelves.pluralize:bookshelf was:bookshelves were= destroyed, =crops.cardinal.no= =crops.pluralize:crop was:crops were= ruined, =gadgets.cardinal.no= =gadgets.pluralize:gadget was:gadgets were= shattered, and =furniture.cardinal.no= =furniture.pluralize:piece= of furniture =furniture.pluralize:was:were= destroyed.'), ('Context', 'ScriptCallToArms Result Conversation Damage Report')), 1),), '#text')",
+      "source": "=chromelings.cardinal.no|initCap.if#noKilled= =chromelings.pluralize:robot= perished, =books.cardinal.no= =books.pluralize:book was:books were= burned, =bookshelves.cardinal.no= =bookshelves.pluralize:bookshelf was:bookshelves were= destroyed, =crops.cardinal.no= =crops.pluralize:crop was:crops were= ruined, =gadgets.cardinal.no= =gadgets.pluralize:gadget was:gadgets were= shattered, and =furniture.cardinal.no= =furniture.pluralize:piece= of furniture =furniture.pluralize:was:were= destroyed.",
+      "baseline_translation": "=chromelings.cardinal.no|initCap.if#noKilled= =chromelings.pluralize:robot= 被摧毁，=books.cardinal.no= =books.pluralize:book was:books were= 被焚毁，=bookshelves.cardinal.no= =bookshelves.pluralize:bookshelf was:bookshelves were= 被毁坏，=crops.cardinal.no= =crops.pluralize:crop was:crops were= 遭到破坏，=gadgets.cardinal.no= =gadgets.pluralize:gadget was:gadgets were= 被砸碎，=furniture.cardinal.no= =furniture.pluralize:piece= 家具 =furniture.pluralize:was:were= 被毁坏。",
+      "translation": "=chromelings.cardinal.no|initCap.if#noKilled= 台机器人 被摧毁，=books.cardinal.no= =books.pluralize:book was:books were= 被焚毁，=bookshelves.cardinal.no= =bookshelves.pluralize:bookshelf was:bookshelves were= 被毁坏，=crops.cardinal.no= =crops.pluralize:crop was:crops were= 遭到破坏，=gadgets.cardinal.no= =gadgets.pluralize:gadget was:gadgets were= 被砸碎，=furniture.cardinal.no= 件 家具 =furniture.pluralize:was:were= 被毁坏。",
+      "changes": [
+        {
+          "removed_token": "=chromelings.pluralize:robot=",
+          "replacement": "台机器人",
+          "operation": "pluralize",
+          "variable_base": "chromelings",
+          "quantity_token_added": null,
+          "literal_unit": "台机器人"
+        },
+        {
+          "removed_token": "=furniture.pluralize:piece=",
+          "replacement": "件",
+          "operation": "pluralize",
+          "variable_base": "furniture",
+          "quantity_token_added": null,
+          "literal_unit": "件"
+        }
+      ],
+      "baseline_tokens": {
+        "=chromelings.cardinal.no|initCap.if#noKilled=": 1,
+        "=chromelings.pluralize:robot=": 1,
+        "=books.cardinal.no=": 1,
+        "=books.pluralize:book was:books were=": 1,
+        "=bookshelves.cardinal.no=": 1,
+        "=bookshelves.pluralize:bookshelf was:bookshelves were=": 1,
+        "=crops.cardinal.no=": 1,
+        "=crops.pluralize:crop was:crops were=": 1,
+        "=gadgets.cardinal.no=": 1,
+        "=gadgets.pluralize:gadget was:gadgets were=": 1,
+        "=furniture.cardinal.no=": 1,
+        "=furniture.pluralize:piece=": 1,
+        "=furniture.pluralize:was:were=": 1
+      },
+      "final_tokens": {
+        "=chromelings.cardinal.no|initCap.if#noKilled=": 1,
+        "=books.cardinal.no=": 1,
+        "=books.pluralize:book was:books were=": 1,
+        "=bookshelves.cardinal.no=": 1,
+        "=bookshelves.pluralize:bookshelf was:bookshelves were=": 1,
+        "=crops.cardinal.no=": 1,
+        "=crops.pluralize:crop was:crops were=": 1,
+        "=gadgets.cardinal.no=": 1,
+        "=gadgets.pluralize:gadget was:gadgets were=": 1,
+        "=furniture.cardinal.no=": 1,
+        "=furniture.pluralize:was:were=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=level.things:stratum= =underground.if:deep:high='), ('Context', 'ZoneManager StrataText')), 1),), '#text')",
+      "source": "=level.things:stratum= =underground.if:deep:high=",
+      "baseline_translation": "=level.things:地层= =underground.if:深:高=",
+      "translation": "=level= 地层 =underground.if:深:高=",
+      "changes": [
+        {
+          "removed_token": "=level.things:地层=",
+          "replacement": "=level= 地层",
+          "operation": "things",
+          "variable_base": "level",
+          "quantity_token_added": "=level=",
+          "literal_unit": "地层"
+        }
+      ],
+      "baseline_tokens": {
+        "=level.things:地层=": 1,
+        "=underground.if:深:高=": 1
+      },
+      "final_tokens": {
+        "=level=": 1,
+        "=underground.if:深:高=": 1
+      }
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=name=, =level.things:stratum= =underground.if:deep:high='), ('Context', 'ZoneManager Zone Name, append strata level')), 1),), '#text')",
+      "source": "=name=, =level.things:stratum= =underground.if:deep:high=",
+      "baseline_translation": "=name=，=level.things:地层= =underground.if:深:高=",
+      "translation": "=name=，=level= 地层 =underground.if:深:高=",
+      "changes": [
+        {
+          "removed_token": "=level.things:地层=",
+          "replacement": "=level= 地层",
+          "operation": "things",
+          "variable_base": "level",
+          "quantity_token_added": "=level=",
+          "literal_unit": "地层"
+        }
+      ],
+      "baseline_tokens": {
+        "=name=": 1,
+        "=level.things:地层=": 1,
+        "=underground.if:深:高=": 1
+      },
+      "final_tokens": {
+        "=name=": 1,
+        "=level=": 1,
+        "=underground.if:深:高=": 1
+      }
+    }
+  ]
+}

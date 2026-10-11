@@ -15,13 +15,33 @@ q=lambda s:json.dumps(s,ensure_ascii=False)
 lines=['using System; using XRL;','[HasModSensitiveStaticCache] public static class QudCnTestProbe {','static int ok, fail;','[ModSensitiveCacheInit] public static void Init() { ok=fail=0;']
 items=list(cases.items());chunks=[items[n:n+100] for n in range(0,len(items),100)]
 for n in range(len(chunks)):lines.append('Check'+str(n)+'();')
-lines.append('UnityEngine.Debug.Log("[CN-QA] runtime strings="+ok+"/"+(ok+fail)+"; mismatches="+fail); TestMessageQueue(); }')
+lines.append('UnityEngine.Debug.Log("[CN-QA] runtime strings="+ok+"/"+(ok+fail)+"; mismatches="+fail); TestMessageQueue(); TestHistory(); }')
 for n,chunk in enumerate(chunks):
     lines.append('static void Check'+str(n)+'(){ string actual;')
     for (ctx,key),expected in chunk:
         lines.append('actual=XRL.Language.Strings._S('+q(ctx)+','+q(key)+'); if(actual==QudCnSupplement.TranslateExact('+q(expected)+')) ok++; else { fail++; if(fail<=30) UnityEngine.Debug.Log("[CN-QA] MISS " + '+q(ctx)+' + " => " + actual); }')
     lines.append('}')
-lines.append('static void TestMessageQueue() { var queue = new XRL.Messages.MessageQueue(); queue.Add("You hit (x2) for 3 damage with 你的 青铜匕首! [7]"); queue.Add("You equip the {{W|火把}}."); foreach(var text in queue.Messages) UnityEngine.Debug.Log("[CN-QA] MessageQueue: " + text); }')
+lines.append('static void TestMessageQueue() { var queue = new XRL.Messages.MessageQueue(); queue.Add("You hit (x2) for 3 damage with 你的 青铜匕首! [7]"); queue.Add("You equip the {{W|火把}}."); foreach(var text in queue.Messages) UnityEngine.Debug.Log("[CN-QA] MessageQueue: " + text); UnityEngine.Debug.Log("[CN-QA] Chinese pluralize="+XRL.Language.Grammar.Pluralize("打兰")); string before=XRL.UI.Options.Language; try { XRL.UI.Options.Language="en"; string original="You equip the torch."; string after=original; QudCnSupplement.MessagePrefix(ref after); UnityEngine.Debug.Log("[CN-QA] English guard="+(after==original)); } finally { XRL.UI.Options.Language=before; } }')
+lines.append('''static void TestHistory() {
+    try {
+        HistoryKit.HistoricSpice.CheckInit();
+        var field=typeof(HistoryKit.HistoricSpice).GetField("_root",System.Reflection.BindingFlags.Static|System.Reflection.BindingFlags.NonPublic);
+        if(field==null) throw new Exception("HistoricSpice._root missing");
+        var root=field.GetValue(null) as Newtonsoft.Json.Linq.JObject;
+        if(root==null) throw new Exception("HistoricSpice._root not loaded JObject");
+        int passed=0;
+        string glass=(string)root["elements"]["glass"]["materials"][0];
+        string dice=(string)root["elements"]["chance"]["nouns"][0];
+        string redirect=(string)root["friendOrFoe"]["_failureredirect"];
+        if(glass=="玻璃") passed++; else UnityEngine.Debug.Log("[CN-QA] history FAIL glass="+glass);
+        if(dice=="=spice:numbers.!random=面骰子") passed++; else UnityEngine.Debug.Log("[CN-QA] history FAIL dice="+dice);
+        if(redirect=="spice.friendOrFoe.default") passed++; else UnityEngine.Debug.Log("[CN-QA] history FAIL redirect="+redirect);
+        UnityEngine.Debug.Log("[CN-QA] history="+passed+"/3; glass="+glass+"; dice="+dice+"; redirect="+redirect);
+        string expanded=HistoryKit.HistoricStringExpander.ExpandString("=spice:elements.glass.materials.!random=",new System.Random(1234));
+        bool expandedChinese=expanded=="玻璃" || expanded=="沙子";
+        UnityEngine.Debug.Log("[CN-QA] history expansion="+(expandedChinese?"PASS":"FAIL")+"; value="+expanded);
+    } catch(Exception e) { UnityEngine.Debug.Log("[CN-QA] history=FAIL EX "+e.GetType().Name+": "+e.Message); }
+}''')
 lines.append('}')
 (p/'Probe.cs').write_text('\n'.join(lines))
 print('runtime string cases',len(cases))

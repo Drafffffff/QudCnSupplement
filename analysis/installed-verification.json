@@ -1,0 +1,10 @@
+{
+  "verified_files": 32,
+  "settings_diff": {
+    "OptionAllowCSMods": [
+      null,
+      "Yes"
+    ]
+  },
+  "test_probe_installed": false
+}

@@ -46,6 +46,10 @@ class DynamicTests(unittest.TestCase):
             body=source[source.index('public static void '+method):].split('\n    }',1)[0]
             self.assertIn('!IsChinese',body)
         self.assertIn('MaxDiagnosticEntries = 256', source)
+        self.assertIn('type.ContainsGenericParameters', source)
+        self.assertIn('method.ContainsGenericParameters', source)
+        self.assertIn('method.IsAbstract', source)
+        self.assertIn('NeedsReview(__result)', source)
         self.assertNotIn('VariableReplacer(', source)
     def test_patterns_are_anchored(self):
         self.assertGreater(len(PAIRS),90)

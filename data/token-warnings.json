@@ -1993,6 +1993,14 @@
   },
   {
     "file": "Strings.example.xml",
+    "status": "tw_converted",
+    "path": "((('string', (('ID', ' [=turns.things:turn=]'), ('Context', 'Ability bar, skill cooldown update')), 1),), 'Value')",
+    "source": " [=turns.things:turn=]",
+    "translation": "[=turns= 回合]",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
     "status": "existing_cn",
     "path": "((('string', (('ID', '=leaderboard|upper= =friendsOnly.if:(friends only)='),), 1),), '#text')",
     "source": "=leaderboard|upper= =friendsOnly.if:(friends only)=",
@@ -2225,6 +2233,94 @@
   },
   {
     "file": "Strings.example.xml",
+    "status": "reviewed_unit_literal",
+    "path": "((('string', (('ID', 'Resting until morning... (=num.things:turn=)'), ('Context', 'AutoAct Wait Resting until morning...')), 1),), '#text')",
+    "source": "Resting until morning... (=num.things:turn=)",
+    "translation": "休息到早晨……（=num= 回合）",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "reviewed_unit_literal",
+    "path": "((('string', (('ID', 'Waiting for =num.things:turn=...'), ('Context', 'AutoAct Wait Loading Status Bar')), 1),), '#text')",
+    "source": "Waiting for =num.things:turn=...",
+    "translation": "等待 =num= 回合……",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "reviewed_unit_literal",
+    "path": "((('string', (('ID', 'Waiting for =remaining.things:round=...'), ('Context', 'AutoAct Wait Loading Status Bar')), 1),), '#text')",
+    "source": "Waiting for =remaining.things:round=...",
+    "translation": "等待 =remaining= 回合……",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "cn_id_fallback",
+    "path": "((('string', (('ID', 'Waiting for =turns.things:turn=...'), ('Context', 'Core Wait Turns - Bottom Status Bar')), 1),), '#text')",
+    "source": "Waiting for =turns.things:turn=...",
+    "translation": "等待 =turns= 回合……",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "cn_id_fallback",
+    "path": "((('string', (('ID', 'Resting until morning... (=turns.things:turn=)'), ('Context', 'Core Rest until morning - Bottom bar')), 1),), '#text')",
+    "source": "Resting until morning... (=turns.things:turn=)",
+    "translation": "休息到早晨……（=turns= 回合）",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "tw_converted",
+    "path": "((('string', (('ID', 'You scored {{C|=score=}} =score.pluralize:point=.'), ('Context', 'Core GameEnd Score')), 1),), '#text')",
+    "source": "You scored {{C|=score=}} =score.pluralize:point=.",
+    "translation": "你获得了 {{C|=score=}} 点.",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "tw_converted",
+    "path": "((('string', (('ID', 'You survived for {{C|=turns=}} =turns.pluralize:turn=.'), ('Context', 'Core GameEnd Turns')), 1),), '#text')",
+    "source": "You survived for {{C|=turns=}} =turns.pluralize:turn=.",
+    "translation": "你生存了 {{C|=turns=}} 回合.",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "tw_converted",
+    "path": "((('string', (('ID', 'You found {{C|=lairs=}} =lairs.pluralize:lair=.'), ('Context', 'Core GameEnd Lairs')), 1),), '#text')",
+    "source": "You found {{C|=lairs=}} =lairs.pluralize:lair=.",
+    "translation": "你发现了 {{C|=lairs=}} 处巢穴。",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "tw_converted",
+    "path": "((('string', (('ID', 'You named {{C|=items=}} =items.pluralize:item=.'), ('Context', 'Core GameEnd Named Items')), 1),), '#text')",
+    "source": "You named {{C|=items=}} =items.pluralize:item=.",
+    "translation": "你命名了 {{C|=items=}} 件物品。",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "tw_converted",
+    "path": "((('string', (('ID', 'You generated {{C|=artifacts=}} storied =artifacts.pluralize:item=.'), ('Context', 'Core GameEnd Artifacts')), 1),), '#text')",
+    "source": "You generated {{C|=artifacts=}} storied =artifacts.pluralize:item=.",
+    "translation": "你生成了 {{C|=artifacts=}} 传奇的 件物品。",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "reviewed_unit_literal",
+    "path": "((('string', (('ID', 'Penning Bonus: =bonus= Max: =maxbonus= Used: =used= Target: =target= (Penned =pens.things:time=)'), ('Context', 'Stat Debug Penetration Summary')), 1),), '#text')",
+    "source": "Penning Bonus: =bonus= Max: =maxbonus= Used: =used= Target: =target= (Penned =pens.things:time=)",
+    "translation": "穿透加值：=bonus= 最大：=maxbonus= 已用：=used= 目标：=target=（穿透 =pens= 次）",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
     "status": "existing_cn",
     "path": "((('string', (('ID', '=who= rolled =naturalroll= =roll|wrap:modified to = on =stat= save =vscause|wrap:vs. = =attacker|wrap:from = =attackerstat|wrap:(using :)= with difficulty =basediff= =moddiff|wrap:modified to ='), ('Context', 'Stat RollSave SavingThrowDebug')), 1),), '#text')",
     "source": "=who= rolled =naturalroll= =roll|wrap:modified to = on =stat= save =vscause|wrap:vs. = =attacker|wrap:from = =attackerstat|wrap:(using :)= with difficulty =basediff= =moddiff|wrap:modified to =",
@@ -2265,43 +2361,43 @@
   },
   {
     "file": "Strings.example.xml",
-    "status": "reviewed_glossary",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=trader.T= will not trade with you until you pay =trader.them= the {{C|=owed=}} =owed.pluralize:dram= of {{B|fresh water}} you owe =trader.them=.'), ('Context', 'XRLUITradeUI WillNot Until Pay None')), 1),), '#text')",
     "source": "=trader.T= will not trade with you until you pay =trader.them= the {{C|=owed=}} =owed.pluralize:dram= of {{B|fresh water}} you owe =trader.them=.",
-    "translation": "在你偿还欠 =trader.them= 的 {{C|=owed=}} =owed.pluralize:打兰= {{B|淡水}}之前，=trader.T= 不会与你交易。",
-    "classification": "grammar_omission_or_structure_difference_needs_context_review"
+    "translation": "在你偿还欠 =trader.them= 的 {{C|=owed=}} 打兰 {{B|淡水}}之前，=trader.T= 不会与你交易。",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "reviewed_glossary",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=trader.T= will not trade with you until you pay =trader.them= the {{C|=owed=}} =owed.pluralize:dram= of {{B|fresh water}} you owe =trader.them=. Do you want to give =trader.them= your {{C|=available=}} =available.pluralize:dram= now?'), ('Context', 'XRLUITradeUI WillNot Until Pay Some')), 1),), '#text')",
     "source": "=trader.T= will not trade with you until you pay =trader.them= the {{C|=owed=}} =owed.pluralize:dram= of {{B|fresh water}} you owe =trader.them=. Do you want to give =trader.them= your {{C|=available=}} =available.pluralize:dram= now?",
-    "translation": "在你偿还欠 =trader.them= 的 {{C|=owed=}} =owed.pluralize:打兰= {{B|淡水}}之前，=trader.T= 不会与你交易。要现在把你的 {{C|=available=}} =available.pluralize:打兰= 交给 =trader.them= 吗？",
-    "classification": "grammar_omission_or_structure_difference_needs_context_review"
+    "translation": "在你偿还欠 =trader.them= 的 {{C|=owed=}} 打兰 {{B|淡水}}之前，=trader.T= 不会与你交易。要现在把你的 {{C|=available=}} 打兰 交给 =trader.them= 吗？",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "reviewed_glossary",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=trader.T= will not trade with you until you pay =trader.them= the {{C|=owed=}} =owed.pluralize:dram= of {{B|fresh water}} you owe =trader.them=. Do you want to give it to =trader.them= now?'), ('Context', 'XRLUITradeUI WillNot Until Pay All')), 1),), '#text')",
     "source": "=trader.T= will not trade with you until you pay =trader.them= the {{C|=owed=}} =owed.pluralize:dram= of {{B|fresh water}} you owe =trader.them=. Do you want to give it to =trader.them= now?",
-    "translation": "在你偿还欠 =trader.them= 的 {{C|=owed=}} =owed.pluralize:打兰= {{B|淡水}}之前，=trader.T= 不会与你交易。要现在把它交给 =trader.them= 吗？",
-    "classification": "grammar_omission_or_structure_difference_needs_context_review"
+    "translation": "在你偿还欠 =trader.them= 的 {{C|=owed=}} 打兰 {{B|淡水}}之前，=trader.T= 不会与你交易。要现在把它交给 =trader.them= 吗？",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "reviewed_glossary",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', 'You do not have the required {{C|=cost=}} =cost.pluralize:dram= to identify this item.'), ('Context', 'XRLUITradeUI TraderIdentify Fail Too Poor')), 1),), '#text')",
     "source": "You do not have the required {{C|=cost=}} =cost.pluralize:dram= to identify this item.",
-    "translation": "你没有鉴定这件物品所需的 {{C|=cost=}} =cost.pluralize:打兰=。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "你没有鉴定这件物品所需的 {{C|=cost=}} 打兰。",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "reviewed_glossary",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', 'You may identify this for =cost= =cost.pluralize:dram= of fresh water.'), ('Context', 'XRLUITradeUI TraderIdentify Confirm Cost')), 1),), '#text')",
     "source": "You may identify this for =cost= =cost.pluralize:dram= of fresh water.",
-    "translation": "你可以花费 =cost= =cost.pluralize:打兰= 淡水鉴定它。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "你可以花费 =cost= 打兰 淡水鉴定它。",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -2313,19 +2409,19 @@
   },
   {
     "file": "Strings.example.xml",
-    "status": "reviewed_glossary",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', 'You need {{C|=cost=}} =cost.pluralize:dram= of fresh water to repair =multiple.if:those:that=.'), ('Context', 'XRLUITradeUI TooPoorToRepair')), 1),), '#text')",
     "source": "You need {{C|=cost=}} =cost.pluralize:dram= of fresh water to repair =multiple.if:those:that=.",
-    "translation": "你需要 {{C|=cost=}} =cost.pluralize:打兰= 淡水来修理=multiple.if:那些:那件=。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "你需要 {{C|=cost=}} 打兰 淡水来修理=multiple.if:那些:那件=。",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "reviewed_glossary",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', 'You may repair =multiple.if:those:this= for {{C|=cost=}} =cost.pluralize:dram= of fresh water.'), ('Context', 'XRLUITradeUI RepairCost')), 1),), '#text')",
     "source": "You may repair =multiple.if:those:this= for {{C|=cost=}} =cost.pluralize:dram= of fresh water.",
-    "translation": "你可以花费 {{C|=cost=}} =cost.pluralize:打兰= 淡水修理=multiple.if:那些:这个=。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "你可以花费 {{C|=cost=}} 打兰 淡水修理=multiple.if:那些:这个=。",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -2337,107 +2433,107 @@
   },
   {
     "file": "Strings.example.xml",
-    "status": "reviewed_glossary",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', 'You pony up =difference= =difference.pluralize:dram= of fresh water to even up the trade'), ('Context', 'XRLUITradeUI Pony Up')), 1),), '#text')",
     "source": "You pony up =difference= =difference.pluralize:dram= of fresh water to even up the trade",
-    "translation": "你补上 =difference= =difference.pluralize:打兰= 淡水来平衡交易",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "你补上 =difference= 打兰 淡水来平衡交易",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "reviewed_glossary",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', \"You'll have to pony up =difference= =difference.pluralize:dram= of fresh water to even up the trade. Agreed?\"), ('Context', 'XRLUITradeUI Have To Pony Up')), 1),), '#text')",
     "source": "You'll have to pony up =difference= =difference.pluralize:dram= of fresh water to even up the trade. Agreed?",
-    "translation": "你必须补上 =difference= =difference.pluralize:打兰= 淡水来平衡交易。同意吗？",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "你必须补上 =difference= 打兰 淡水来平衡交易。同意吗？",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "reviewed_glossary",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', 'You pony up =available= =available.pluralize:dram= of fresh water, and now owe =trader.the.name|strip= =owe= =owe.pluralize:dram=.'), ('Context', 'XRLUITradeUI Pony Up Owe')), 1),), '#text')",
     "source": "You pony up =available= =available.pluralize:dram= of fresh water, and now owe =trader.the.name|strip= =owe= =owe.pluralize:dram=.",
-    "translation": "你补上 =available= =available.pluralize:打兰= 淡水，现在还欠 =trader.the.name|strip= =owe= =owe.pluralize:打兰=。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "你补上 =available= 打兰 淡水，现在还欠 =trader.the.name|strip= =owe= 打兰。",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "reviewed_glossary",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', 'You now owe =trader.t= =owe= =owe.pluralize:dram= of fresh water.'), ('Context', 'XRLUITradeUI Owe')), 1),), '#text')",
     "source": "You now owe =trader.t= =owe= =owe.pluralize:dram= of fresh water.",
-    "translation": "你现在欠 =trader.t= =owe= =owe.pluralize:打兰= 淡水。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "你现在欠 =trader.t= =owe= 打兰 淡水。",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "reviewed_glossary",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', \"You don't have =difference= =difference.pluralize:dram= of fresh water to even up the trade!\"), ('Context', 'XRLUITradeUI Too Poor To Pony Up')), 1),), '#text')",
     "source": "You don't have =difference= =difference.pluralize:dram= of fresh water to even up the trade!",
-    "translation": "你没有 =difference= =difference.pluralize:打兰= 淡水来平衡交易！",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "你没有 =difference= 打兰 淡水来平衡交易！",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
     "status": "tw_converted",
     "path": "((('string', (('ID', '=trader.The.name= =trader.verb:pony= up =give= =give.pluralize:dram= of fresh water to even up the trade.'), ('Context', 'XRLUITradeUI Trader Pony Up')), 1),), '#text')",
     "source": "=trader.The.name= =trader.verb:pony= up =give= =give.pluralize:dram= of fresh water to even up the trade.",
-    "translation": "=trader.The.name= =trader.verb:pony= =give= =give.pluralize:打兰= 些新鲜水以平衡交易。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=trader.The.name= =trader.verb:pony= =give= 打兰 些新鲜水以平衡交易。",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "reviewed_glossary",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=trader.T= will have to pony up =give= =give.pluralize:dram= of fresh water to even up the trade. Agreed?'), ('Context', 'XRLUITradeUI Trader Pony Up Agreed')), 1),), '#text')",
     "source": "=trader.T= will have to pony up =give= =give.pluralize:dram= of fresh water to even up the trade. Agreed?",
-    "translation": "=trader.T= 必须补上 =give= =give.pluralize:打兰= 淡水来平衡交易。同意吗？",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=trader.T= 必须补上 =give= 打兰 淡水来平衡交易。同意吗？",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "reviewed_glossary",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', \"=trader.T= =trader.verb:don't= have =give= =give.pluralize:dram= of fresh water to even up the trade!\"), ('Context', 'XRLUITradeUI Trader Force')), 1),), '#text')",
     "source": "=trader.T= =trader.verb:don't= have =give= =give.pluralize:dram= of fresh water to even up the trade!",
-    "translation": "=trader.T= =trader.verb:don't= 有 =give= =give.pluralize:打兰= 淡水来平衡交易！",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=trader.T= =trader.verb:don't= 有 =give= 打兰 淡水来平衡交易！",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "reviewed_glossary",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', \"=trader.T= =trader.verb:don't= have =give= =give.pluralize:dram= of fresh water to even up the trade! Do you want to complete the trade anyway?\"), ('Context', 'XRLUITradeUI PoorTrader')), 1),), '#text')",
     "source": "=trader.T= =trader.verb:don't= have =give= =give.pluralize:dram= of fresh water to even up the trade! Do you want to complete the trade anyway?",
-    "translation": "=trader.T= =trader.verb:don't= 有 =give= =give.pluralize:打兰= 淡水来平衡交易！仍要完成交易吗？",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=trader.T= =trader.verb:don't= 有 =give= 打兰 淡水来平衡交易！仍要完成交易吗？",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "reviewed_glossary",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', \"You don't have enough water containers to carry that many drams! You can store =storable= =storable.pluralize:dram=.\"), ('Context', 'XRLUITradeUI TooMuchWater Force')), 1),), '#text')",
     "source": "You don't have enough water containers to carry that many drams! You can store =storable= =storable.pluralize:dram=.",
-    "translation": "你没有足够的水容器来装下那么多打兰！你能储存 =storable= =storable.pluralize:打兰=。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "你没有足够的水容器来装下那么多打兰！你能储存 =storable= 打兰。",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "reviewed_glossary",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', \"You don't have enough water containers to carry that many drams! Do you want to complete the trade for the =storable= =storable.pluralize:dram= you can store?\"), ('Context', 'XRLUITradeUI TooMuchWater NoForce')), 1),), '#text')",
     "source": "You don't have enough water containers to carry that many drams! Do you want to complete the trade for the =storable= =storable.pluralize:dram= you can store?",
-    "translation": "你没有足够的水容器来装下那么多打兰！要按你能储存的 =storable= =storable.pluralize:打兰= 完成交易吗？",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "你没有足够的水容器来装下那么多打兰！要按你能储存的 =storable= 打兰 完成交易吗？",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "reviewed_glossary",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', 'You need {{C|=cost.cardinal=}} =cost.pluralize:dram= of fresh water to charge =object.isplural:one of :==object.indicativeDistal=.'), ('Context', 'XRLUITradeUI TooPoor For Recharge')), 1),), '#text')",
     "source": "You need {{C|=cost.cardinal=}} =cost.pluralize:dram= of fresh water to charge =object.isplural:one of :==object.indicativeDistal=.",
-    "translation": "你需要 {{C|=cost.cardinal=}} =cost.pluralize:打兰= 淡水来为=object.isplural:其中一个:==object.indicativeDistal=充能。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "你需要 {{C|=cost.cardinal=}} 打兰 淡水来为=object.isplural:其中一个:==object.indicativeDistal=充能。",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "reviewed_glossary",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', 'You may recharge =object.isplural:one of :==object.indicativeDistal= for {{C|=cost.cardinal=}} =cost.pluralize:dram= of fresh water.'), ('Context', 'XRLUITradeUI Recharge Cost')), 1),), '#text')",
     "source": "You may recharge =object.isplural:one of :==object.indicativeDistal= for {{C|=cost.cardinal=}} =cost.pluralize:dram= of fresh water.",
-    "translation": "你可以花费 {{C|=cost.cardinal=}} =cost.pluralize:打兰= 淡水为=object.isplural:其中一个:==object.indicativeDistal=充能。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "你可以花费 {{C|=cost.cardinal=}} 打兰 淡水为=object.isplural:其中一个:==object.indicativeDistal=充能。",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -2449,27 +2545,27 @@
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '{{K|[Space]/[5]}} Start =what= - =number= =number.pluralize:square= left - {{W|Escape}}-Cancel'), ('Context', 'PickTarget Pick Line Top Bar Cant Start')), 1),), '#text')",
     "source": "{{K|[Space]/[5]}} Start =what= - =number= =number.pluralize:square= left - {{W|Escape}}-Cancel",
-    "translation": "{{K|[Space]/[5]}} 开始 =what= - 剩余 =number= =number.pluralize:格= - {{W|Escape}}-取消",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "{{K|[Space]/[5]}} 开始 =what= - 剩余 =number= 格 - {{W|Escape}}-取消",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '{{W|[Space]/[5]}} Start =what= - =number|color:C= =number.pluralize:square= left - {{W|Escape}}-Cancel'), ('Context', 'PickTarget Pick Line Top Bar Can Start')), 1),), '#text')",
     "source": "{{W|[Space]/[5]}} Start =what= - =number|color:C= =number.pluralize:square= left - {{W|Escape}}-Cancel",
-    "translation": "{{W|[Space]/[5]}} 开始 =what= - 剩余 =number|color:C= =number.pluralize:格= - {{W|Escape}}-取消",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "{{W|[Space]/[5]}} 开始 =what= - 剩余 =number|color:C= 格 - {{W|Escape}}-取消",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '{{W|[Space]/[5]}} End =what= - =number|color:C= =number.pluralize:square= left - {{W|Escape}}-Clear'), ('Context', 'PickTarget Pick Line Top Bar Started')), 1),), '#text')",
     "source": "{{W|[Space]/[5]}} End =what= - =number|color:C= =number.pluralize:square= left - {{W|Escape}}-Clear",
-    "translation": "{{W|[Space]/[5]}} 结束 =what= - 剩余 =number|color:C= =number.pluralize:格= - {{W|Escape}}-清除",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "{{W|[Space]/[5]}} 结束 =what= - 剩余 =number|color:C= 格 - {{W|Escape}}-清除",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -2478,6 +2574,14 @@
     "source": "=locked.if:Unlock:Lock= (=commandKeyConsole:CmdLockUnlock=)",
     "translation": "=locked.if:解锁:锁定=（=commandKeyConsole:CmdLockUnlock=）",
     "classification": "same_variable_heads_translated_parameters_or_filters"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "reviewed_unit_literal",
+    "path": "((('string', (('ID', 'You must select a location within =range.things:tile=!'), ('Context', 'UI PickTarget Fail Out Of Range')), 1),), '#text')",
+    "source": "You must select a location within =range.things:tile=!",
+    "translation": "你必须选择 =range= 格 内的位置！",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -2505,11 +2609,11 @@
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', 'There =errorCount.ifPlural:were:was= =errorCount.things:error= while loading this =loadable=.'), ('Context', 'Popup DisplayLoadError OneError')), 1),), '#text')",
     "source": "There =errorCount.ifPlural:were:was= =errorCount.things:error= while loading this =loadable=.",
-    "translation": "加载此 =loadable= 时出现 =errorCount.things:error=。",
-    "classification": "grammar_omission_or_structure_difference_needs_context_review"
+    "translation": "加载此 =loadable= 时出现 =errorCount= 个错误。",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -2721,6 +2825,14 @@
   },
   {
     "file": "Strings.example.xml",
+    "status": "manual",
+    "path": "((('string', (('ID', 'You muse over the =numShared.pluralize:secret= with =object.name|strip= and gain some insight.'), ('Context', 'Conversation GiveReshephSecret Popup')), 1),), '#text')",
+    "source": "You muse over the =numShared.pluralize:secret= with =object.name|strip= and gain some insight.",
+    "translation": "你与 =object.name|strip= 一同思考 个秘密，获得了一些领悟。",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
     "status": "existing_cn",
     "path": "((('string', (('ID', 'You do not have =amount.threshold:2:enough ==object.name|strip|amount.pluralize=.'), ('Context', 'Conversation HaveItem Failure Message')), 1),), '#text')",
     "source": "You do not have =amount.threshold:2:enough ==object.name|strip|amount.pluralize=.",
@@ -2745,19 +2857,19 @@
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=amount.signed= =amount.pluralize:hit point='), ('Context', 'BasicCookingEffect_Hitpoints Details Amount Known')), 1),), '#text')",
     "source": "=amount.signed= =amount.pluralize:hit point=",
-    "translation": "=amount.signed= =amount.pluralize:生命值=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=amount.signed= 生命值",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=message=\\n\\n{{W|=amount.signed= =amount.pluralize:hit point= for the rest of the day}}'), ('Context', 'BasicCookingEffect_Hitpoints Popup')), 1),), 'Value')",
     "source": "=message=\n\n{{W|=amount.signed= =amount.pluralize:hit point= for the rest of the day}}",
-    "translation": "=message=\n\n{{W|当天剩余时间内 =amount.signed= =amount.pluralize:生命值=}}",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=message=\n\n{{W|当天剩余时间内 =amount.signed= 生命值}}",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -2777,6 +2889,14 @@
   },
   {
     "file": "Strings.example.xml",
+    "status": "tw_converted",
+    "path": "((('string', (('ID', '=tier.signed= =tier.pluralize:rank= to =mutationName=.'), ('Context', 'ProceduralCookingEffectUnitMutation Description - Mutation bonus levels')), 1),), '#text')",
+    "source": "=tier.signed= =tier.pluralize:rank= to =mutationName=.",
+    "translation": "=tier.signed= 级 已提升至 =mutationName=。",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
     "status": "existing_cn",
     "path": "((('string', (('ID', '=subject.does:grow= tiny spines all over =subject.their= body.'), ('Context', 'CookingDomainReflect_Reflect100_ProceduralCookingTriggeredAction Notification')), 1),), '#text')",
     "source": "=subject.does:grow= tiny spines all over =subject.their= body.",
@@ -2793,19 +2913,27 @@
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
-    "path": "((('string', (('ID', 'You will phase back in in =duration.things:round=.'), ('Context', 'Phasing phase in countdown (player only)')), 1),), '#text')",
-    "source": "You will phase back in in =duration.things:round=.",
-    "translation": "你将在 =duration.things:回合= 后重新入相。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "status": "manual",
+    "path": "((('string', (('ID', 'dominated (=duration.things:turn= remaining)'), ('Context', 'Dominated Effect Description')), 1),), '#text')",
+    "source": "dominated (=duration.things:turn= remaining)",
+    "translation": "被支配（剩余 =duration= 回合）",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
+    "path": "((('string', (('ID', 'You will phase back in in =duration.things:round=.'), ('Context', 'Phasing phase in countdown (player only)')), 1),), '#text')",
+    "source": "You will phase back in in =duration.things:round=.",
+    "translation": "你将在 =duration= 回合 后重新入相。",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=duration= =duration.pluralize:round= left.'), ('Context', 'Run Duration Left')), 1),), '#text')",
     "source": "=duration= =duration.pluralize:round= left.",
-    "translation": "剩余 =duration= =duration.pluralize:回合=。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "剩余 =duration= 回合。",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -2833,59 +2961,59 @@
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=number.cardinal= =mod.name= =number.pluralize:item='), ('Context', 'RandomAltarBaetyl Mod Demand Prefix Name')), 1),), '#text')",
     "source": "=number.cardinal= =mod.name= =number.pluralize:item=",
-    "translation": "=number.cardinal= 件 =mod.name= =number.pluralize:物品=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=number.cardinal= 件 =mod.name= 物品",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=number.cardinal= =number.pluralize:item= =mod.name='), ('Context', 'RandomAltarBaetyl Mod Demand Suffix Name')), 1),), '#text')",
     "source": "=number.cardinal= =number.pluralize:item= =mod.name=",
-    "translation": "=number.cardinal= 件 =mod.name= =number.pluralize:物品=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=number.cardinal= 件 =mod.name= 物品",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=points= attribute =points.pluralize:point='), ('Context', 'RandomAltarBaetyl Reward List')), 1),), '#text')",
     "source": "=points= attribute =points.pluralize:point=",
-    "translation": "=points= 点属性=points.pluralize:点=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=points= 点属性点",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=points= mutation =points.pluralize:point='), ('Context', 'RandomAltarBaetyl Reward List')), 1),), '#text')",
     "source": "=points= mutation =points.pluralize:point=",
-    "translation": "=points= 点突变=points.pluralize:点=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=points= 点突变点",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=points= skill =points.pluralize:point='), ('Context', 'RandomAltarBaetyl Reward List')), 1),), '#text')",
     "source": "=points= skill =points.pluralize:point=",
-    "translation": "=points= 点技能=points.pluralize:点=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=points= 点技能点",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=points= experience =points.pluralize:point='), ('Context', 'RandomAltarBaetyl Reward List')), 1),), '#text')",
     "source": "=points= experience =points.pluralize:point=",
-    "translation": "=points= 点经验=points.pluralize:点=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=points= 点经验点",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=points= cybernetics license =points.pluralize:point='), ('Context', 'RandomAltarBaetyl Reward List')), 1),), '#text')",
     "source": "=points= cybernetics license =points.pluralize:point=",
-    "translation": "=points= 点控制论许可证=points.pluralize:点=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=points= 点控制论许可证点",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -2929,35 +3057,35 @@
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:hitpoint='), ('Context', 'LevelHPGain')), 1),), '#text')",
     "source": "=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:hitpoint=",
-    "translation": "=subject.They= =subject.ternaryVerb#positive:获得:失去:afterpronoun= {{rules|=value=}} =value.pluralize:点生命值=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=subject.They= =subject.ternaryVerb#positive:获得:失去:afterpronoun= {{rules|=value=}} 点生命值",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Skill Point='), ('Context', 'LevelSPGain')), 1),), '#text')",
     "source": "=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Skill Point=",
-    "translation": "=subject.They= =subject.ternaryVerb#positive:获得:失去:afterpronoun= {{rules|=value=}} =value.pluralize:点技能点=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=subject.They= =subject.ternaryVerb#positive:获得:失去:afterpronoun= {{rules|=value=}} 点技能点",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Mutation Point='), ('Context', 'LevelMPGain')), 1),), '#text')",
     "source": "=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Mutation Point=",
-    "translation": "=subject.They= =subject.ternaryVerb#positive:获得:失去:afterpronoun= {{rules|=value=}} =value.pluralize:点突变点=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=subject.They= =subject.ternaryVerb#positive:获得:失去:afterpronoun= {{rules|=value=}} 点突变点",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Attribute Point='), ('Context', 'LevelAPGain')), 1),), '#text')",
     "source": "=subject.They= =subject.ternaryVerb#positive:gain:lose:afterpronoun= {{rules|=value=}} =value.pluralize:Attribute Point=",
-    "translation": "=subject.They= =subject.ternaryVerb#positive:获得:失去:afterpronoun= {{rules|=value=}} =value.pluralize:点属性点=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=subject.They= =subject.ternaryVerb#positive:获得:失去:afterpronoun= {{rules|=value=}} 点属性点",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -2977,11 +3105,19 @@
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', \"Whenever you perform the water ritual with a new creature, you gain an extra =repBonus= reputation. If you install this implant after you treat with a creature for the first time, you gain =repBonus= reputation the next time you treat with them.\\nReputation costs in the water ritual are reduced by =ritualCostReduction=%.\\nYou may Proselytize =proselytizeLimitBonus.things:additional creature=.\\nCompute power on the local lattice increases this implant's effectiveness.\"), ('Context', 'CyberneticsSocialCoprocessor GetCyberneticsBehaviorDescriptionEvent Description')), 1),), 'Value')",
     "source": "Whenever you perform the water ritual with a new creature, you gain an extra =repBonus= reputation. If you install this implant after you treat with a creature for the first time, you gain =repBonus= reputation the next time you treat with them.\nReputation costs in the water ritual are reduced by =ritualCostReduction=%.\nYou may Proselytize =proselytizeLimitBonus.things:additional creature=.\nCompute power on the local lattice increases this implant's effectiveness.",
-    "translation": "每当你与一个新生物进行水仪式时，你额外获得 =repBonus= 点声望。如果你在首次与某生物相待后安装此植入体，则下一次与其相待时获得 =repBonus= 点声望。\n水仪式中的声望花费降低 =ritualCostReduction=%。\n你可以劝化 =proselytizeLimitBonus.things:个额外生物=。\n本地晶格上的运算能力会提高此植入体的效果。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "每当你与一个新生物进行水仪式时，你额外获得 =repBonus= 点声望。如果你在首次与某生物相待后安装此植入体，则下一次与其相待时获得 =repBonus= 点声望。\n水仪式中的声望花费降低 =ritualCostReduction=%。\n你可以劝化 =proselytizeLimitBonus= 个额外生物。\n本地晶格上的运算能力会提高此植入体的效果。",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "tw_converted",
+    "path": "((('string', (('ID', '=subject.This= =subject.descriptiveCategory|pluralize#subject= =subject.verb:bear= the =names.pluralize:mark= of =names.andList=.'), ('Context', 'MakersMark - Description message')), 1),), '#text')",
+    "source": "=subject.This= =subject.descriptiveCategory|pluralize#subject= =subject.verb:bear= the =names.pluralize:mark= of =names.andList=.",
+    "translation": "=subject.This= =subject.descriptiveCategory|pluralize#subject= =subject.verb:bear= 了 =names.andList=. 的 个标记。",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -2993,19 +3129,115 @@
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=subject.Its= readout indicates that =subject.its= startup sequence will take an estimated =timeLeft.cardinal= more =timeLeft.pluralize:round=.'), ('Context', 'Bootsequence Description')), 1),), '#text')",
     "source": "=subject.Its= readout indicates that =subject.its= startup sequence will take an estimated =timeLeft.cardinal= more =timeLeft.pluralize:round=.",
-    "translation": "=subject.Its= 读数显示，=subject.its= 启动序列预计还需 =timeLeft.cardinal= =timeLeft.pluralize:回合=。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=subject.Its= 读数显示，=subject.its= 启动序列预计还需 =timeLeft.cardinal= 回合。",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "tw_converted",
+    "path": "((('string', (('ID', 'You may Proselytize =amount.cardinal= fewer =amount.pluralize:follower=.'), ('Context', 'CompanionCapacity RulesPostfix Proselytized Fewer')), 1),), '#text')",
+    "source": "You may Proselytize =amount.cardinal= fewer =amount.pluralize:follower=.",
+    "translation": "你可能减少了 =amount.cardinal= 名 名追随者.。",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "tw_converted",
+    "path": "((('string', (('ID', 'You may Proselytize =amount.cardinal= additional =amount.pluralize:follower=.'), ('Context', 'CompanionCapacity RulesPostfix Proselytized Additional')), 1),), '#text')",
+    "source": "You may Proselytize =amount.cardinal= additional =amount.pluralize:follower=.",
+    "translation": "你可以招募 =amount.cardinal= 名额额外的 名追随者。",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "tw_converted",
+    "path": "((('string', (('ID', 'You may Beguile =amount.cardinal= fewer =amount.pluralize:follower=.'), ('Context', 'CompanionCapacity RulesPostfix Beguiled Fewer')), 1),), '#text')",
+    "source": "You may Beguile =amount.cardinal= fewer =amount.pluralize:follower=.",
+    "translation": "你可以魅惑少 =amount.cardinal= 个 名追随者。",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "tw_converted",
+    "path": "((('string', (('ID', 'You may Beguile =amount.cardinal= additional =amount.pluralize:follower=.'), ('Context', 'CompanionCapacity RulesPostfix Beguiled Additional')), 1),), '#text')",
+    "source": "You may Beguile =amount.cardinal= additional =amount.pluralize:follower=.",
+    "translation": "你可以魅惑额外的 =amount.cardinal= 名 名追随者。",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "tw_converted",
+    "path": "((('string', (('ID', 'When equipped or implanted, and powered, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix EquippedOrImplanted Powered')), 1),), '#text')",
+    "source": "When equipped or implanted, and powered, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens=",
+    "translation": "装备或植入并供电后，可为局部晶格提供 =power= 单位 的运算能力。=part.statusSummary|addParens=",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "tw_converted",
+    "path": "((('string', (('ID', 'When equipped or implanted, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix EquippedOrImplanted')), 1),), '#text')",
+    "source": "When equipped or implanted, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens=",
+    "translation": "装备或植入时，为局部晶格提供 =power= 单位 的运算能力。 =part.statusSummary|addParens=",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "tw_converted",
+    "path": "((('string', (('ID', 'When equipped and powered, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix Equipped Powered')), 1),), '#text')",
+    "source": "When equipped and powered, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens=",
+    "translation": "装备并通电时，可为本地晶格提供 =power= 单位 的运算能力。=part.statusSummary|addParens=",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "tw_converted",
+    "path": "((('string', (('ID', 'When equipped, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix Equipped')), 1),), '#text')",
+    "source": "When equipped, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens=",
+    "translation": "装备时，为在地晶格提供 =power= 单位 的运算能力。=part.statusSummary|addParens=",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "tw_converted",
+    "path": "((('string', (('ID', 'When implanted and powered, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix Implanted Powered')), 1),), '#text')",
+    "source": "When implanted and powered, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens=",
+    "translation": "植入并通电时，为局部晶格提供 =power= 单位 的运算能力。 =part.statusSummary|addParens=",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "tw_converted",
+    "path": "((('string', (('ID', 'When implanted, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix Implanted')), 1),), '#text')",
+    "source": "When implanted, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens=",
+    "translation": "植入后，可为本地晶格提供 =power= 单位 的运算能力。=part.statusSummary|addParens=",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "tw_converted",
+    "path": "((('string', (('ID', 'When powered, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix Powered')), 1),), '#text')",
+    "source": "When powered, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens=",
+    "translation": "通电时，会为本地晶格提供 =power= 单位 的运算能力。=part.statusSummary|addParens=",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "tw_converted",
+    "path": "((('string', (('ID', 'Provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix Passive/Always')), 1),), '#text')",
+    "source": "Provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens=",
+    "translation": "为当地的晶格提供 =power= 单位 的运算能力。 =part.statusSummary|addParens=",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', 'That is out of range (=range.things:square=)'), ('Context', 'DecoyHologramEmitter Out Of Range')), 1),), '#text')",
     "source": "That is out of range (=range.things:square=)",
-    "translation": "超出范围（=range.things:格=）",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "超出范围（=range= 格）",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -3049,11 +3281,11 @@
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=usesCharge.if:When powered, destroys:Destroys= walls after =hitCount.things:penetrating hit=.'), ('Context', 'Drill Description Hit Count')), 1),), '#text')",
     "source": "=usesCharge.if:When powered, destroys:Destroys= walls after =hitCount.things:penetrating hit=.",
-    "translation": "=usesCharge.if:供能时，在:在= =hitCount.things:次穿透命中=后摧毁墙壁。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=usesCharge.if:供能时，在:在= =hitCount= 次穿透命中后摧毁墙壁。",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -3065,27 +3297,35 @@
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "tw_converted",
+    "path": "((('string', (('ID', '=tier.signed= =tier.pluralize:level= to =mutation=.'), ('Context', 'FollowersGetTeleport GetDetails MutationImproved')), 1),), '#text')",
+    "source": "=tier.signed= =tier.pluralize:level= to =mutation=.",
+    "translation": "=tier.signed= 级 至 =mutation=。",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=chance=% chance when disassembling an artifact that you receive =amount= extra =amount.pluralize:bit= of the highest tier'), ('Context', 'HighBitBonus RulesPostfix')), 1),), '#text')",
     "source": "=chance=% chance when disassembling an artifact that you receive =amount= extra =amount.pluralize:bit= of the highest tier",
-    "translation": "拆解奇物时有 =chance=% 几率额外获得 =amount= 个最高阶=amount.pluralize:比特=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "拆解奇物时有 =chance=% 几率额外获得 =amount= 个最高阶比特",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=amount.signed= =statistics[MoveSpeed].name= while moving through at least =minamount= =minamount.pluralize:dram= of =liquid='), ('Context', 'MovespeedInLiquid RulesPostfix')), 1),), '#text')",
     "source": "=amount.signed= =statistics[MoveSpeed].name= while moving through at least =minamount= =minamount.pluralize:dram= of =liquid=",
-    "translation": "在穿过至少 =minamount= =minamount.pluralize:打兰= 的 =liquid= 时，=statistics[MoveSpeed].name= =amount.signed=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "在穿过至少 =minamount= 打兰 的 =liquid= 时，=statistics[MoveSpeed].name= =amount.signed=",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=amount.signed= =statistics[MoveSpeed].name= while moving through at least =minamount= =minamount.pluralize:dram= of liquid'), ('Context', 'MovespeedInLiquid RulesPostfix')), 1),), '#text')",
     "source": "=amount.signed= =statistics[MoveSpeed].name= while moving through at least =minamount= =minamount.pluralize:dram= of liquid",
-    "translation": "在穿过至少 =minamount= =minamount.pluralize:打兰= 液体时，=statistics[MoveSpeed].name= =amount.signed=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "在穿过至少 =minamount= 打兰 液体时，=statistics[MoveSpeed].name= =amount.signed=",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -3129,11 +3369,11 @@
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', 'You are quickened with creative energy! The =cooldowns.pluralize:cooldown= on =cooldowns.andList= =cooldowns.pluralize:is= refreshed.'), ('Context', 'QuickenMind SomeCooldowns Success')), 1),), '#text')",
     "source": "You are quickened with creative energy! The =cooldowns.pluralize:cooldown= on =cooldowns.andList= =cooldowns.pluralize:is= refreshed.",
-    "translation": "创造性能量令你加速！=cooldowns.andList= 的 =cooldowns.pluralize:冷却= 已刷新。",
-    "classification": "grammar_omission_or_structure_difference_needs_context_review"
+    "translation": "创造性能量令你加速！=cooldowns.andList= 的 冷却 已刷新。",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -3545,59 +3785,67 @@
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', 'You must wait =turns.things:turn= before using =object.this= again.'), ('Context', 'TeleporterPair AttemptTeleport Cooldown')), 1),), '#text')",
     "source": "You must wait =turns.things:turn= before using =object.this= again.",
-    "translation": "你必须等待 =turns.things:回合= 才能再次使用 =object.this=。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "你必须等待 =turns= 回合 才能再次使用 =object.this=。",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', 'You are able to collect =transfer.things:dram= of =volume.liquid.name=. Are you sure you want to?'), ('Context', 'Liquid Volume - Warn collect a lot')), 1),), '#text')",
     "source": "You are able to collect =transfer.things:dram= of =volume.liquid.name=. Are you sure you want to?",
-    "translation": "你可以收集 =transfer.things:打兰= 的 =volume.liquid.name=。确定要这么做吗？",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "你可以收集 =transfer= 打兰 的 =volume.liquid.name=。确定要这么做吗？",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
     "status": "tw_converted",
     "path": "((('string', (('ID', '=subject.Does:collect= =transfer.things:dram= of =snapshotLiquidName= =subject.from.container.direction#volume#snapshotDir= =containers.ifAny:in ==containers.properAndList=.'), ('Context', 'LiquidVolume Collect')), 1),), '#text')",
     "source": "=subject.Does:collect= =transfer.things:dram= of =snapshotLiquidName= =subject.from.container.direction#volume#snapshotDir= =containers.ifAny:in ==containers.properAndList=.",
-    "translation": "=subject.Does:collect= =transfer.things:打兰= 的 =snapshotLiquidName= =subject.from.container.direction#volume#snapshotDir= =containers.ifAny:in ==containers.properAndList=。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=subject.Does:collect= =transfer= 打兰 的 =snapshotLiquidName= =subject.from.container.direction#volume#snapshotDir= =containers.ifAny:in ==containers.properAndList=。",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=amount.things:dram= of =volume.liquid.name= pours out all over you!'), ('Context', 'Liquid Volume - pour on self message')), 1),), '#text')",
     "source": "=amount.things:dram= of =volume.liquid.name= pours out all over you!",
-    "translation": "=amount.things:打兰= 的 =volume.liquid.name= 倾倒在你全身！",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=amount= 打兰 的 =volume.liquid.name= 倾倒在你全身！",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=amount.things:dram= of =volume.liquid.name= pours out all over =subject.the.name=!'), ('Context', 'Liquid Volume - poured out over')), 1),), '#text')",
     "source": "=amount.things:dram= of =volume.liquid.name= pours out all over =subject.the.name=!",
-    "translation": "=amount.things:打兰= 的 =volume.liquid.name= 倾倒在 =subject.the.name= 全身！",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=amount= 打兰 的 =volume.liquid.name= 倾倒在 =subject.the.name= 全身！",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=subject.Does:pour= =amount.things:dram= of =volume.liquid.name= out.'), ('Context', 'Liquid Volume - poured out message')), 1),), '#text')",
     "source": "=subject.Does:pour= =amount.things:dram= of =volume.liquid.name= out.",
-    "translation": "=subject.Does:pour= 出 =amount.things:打兰= 的 =volume.liquid.name=。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=subject.Does:pour= 出 =amount= 打兰 的 =volume.liquid.name=。",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "manual",
+    "path": "((('string', (('ID', \"=subject.Doesly:permanently:drain= =object.the.name's= =stat.narration= by =amount.things:point=!\"), ('Context', 'SapOnPenetration PermanentlyDrainMessage')), 1),), '#text')",
+    "source": "=subject.Doesly:permanently:drain= =object.the.name's= =stat.narration= by =amount.things:point=!",
+    "translation": "=subject.Doesly:permanently:drain= 永久吸取 =object.the.name's= =stat.narration=，数值为 =amount= 点！",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', 'Co-Processor: When powered, this item grants =bonus.signed= =stat.Name= and provides =compute.things:unit= of compute power to the local lattice.'), ('Context', 'ModCoProcessor Description Tier Not Zero')), 1),), '#text')",
     "source": "Co-Processor: When powered, this item grants =bonus.signed= =stat.Name= and provides =compute.things:unit= of compute power to the local lattice.",
-    "translation": "协处理器：供能时，这件物品提供 =bonus.signed= =stat.Name=，并向本地晶格提供 =compute.things:单位= 的运算能力。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "协处理器：供能时，这件物品提供 =bonus.signed= =stat.Name=，并向本地晶格提供 =compute= 单位 的运算能力。",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -3620,8 +3868,8 @@
     "status": "tw_converted",
     "path": "((('string', (('ID', '=owner.Does:transfer= =amount.things:dram= of =liquid.name|strip= to =host.aForNPCSubject.name#owner=.'), ('Context', 'ModLiquidCooled Transfer Message')), 1),), '#text')",
     "source": "=owner.Does:transfer= =amount.things:dram= of =liquid.name|strip= to =host.aForNPCSubject.name#owner=.",
-    "translation": "=owner.Does:transfer= =amount.things:打兰= 的 =liquid.name|strip= 给 =host.aForNPCSubject.name#owner=。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=owner.Does:transfer= =amount= 打兰 的 =liquid.name|strip= 给 =host.aForNPCSubject.name#owner=。",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -3636,16 +3884,16 @@
     "status": "tw_converted",
     "path": "((('string', (('ID', \"Recycling: This item collects, purifies, and stores up to =max.cardinal.things:dram= of the wearer's wastewater.\"), ('Context', 'ModRecycling Description With Liquid Volume')), 1),), '#text')",
     "source": "Recycling: This item collects, purifies, and stores up to =max.cardinal.things:dram= of the wearer's wastewater.",
-    "translation": "回收：此物品会收集、净化并储存穿戴者高达 =max.cardinal.things:打兰= 的废水。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "回收：此物品会收集、净化并储存穿戴者高达 =max.cardinal= 打兰 的废水。",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', 'Lase (=radius.things:charge=)'), ('Context', 'LightManip Lase ActivatedAbility Button')), 1),), '#text')",
     "source": "Lase (=radius.things:charge=)",
-    "translation": "激光照射（=radius.things:电荷=）",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "激光照射（=radius= 电荷）",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -3673,27 +3921,27 @@
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=subject.Does:discharge= =amount.things:unit= of electrical charge!'), ('Context', 'Elec Gen Discharge Message')), 1),), '#text')",
     "source": "=subject.Does:discharge= =amount.things:unit= of electrical charge!",
-    "translation": "=subject.Does:discharge= =amount.things:单位= 电荷！",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=subject.Does:discharge= =amount= 单位 电荷！",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=subject.Does:drink= the juice from =object.the.name= and recharge =amount.things:unit= of electrical charge.'), ('Context', 'Elec Gen DrinkCharge')), 1),), '#text')",
     "source": "=subject.Does:drink= the juice from =object.the.name= and recharge =amount.things:unit= of electrical charge.",
-    "translation": "=subject.Does:drink= 了 =object.the.name= 的电流，并恢复 =amount.things:单位= 电荷。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=subject.Does:drink= 了 =object.the.name= 的电流，并恢复 =amount= 单位 电荷。",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=subject.Does:recharge= =amount.things:unit= of electrical charge from the damage.'), ('Context', 'Elec Gen Damage Recharge')), 1),), '#text')",
     "source": "=subject.Does:recharge= =amount.things:unit= of electrical charge from the damage.",
-    "translation": "=subject.Does:recharge= 从伤害中恢复 =amount.things:单位= 电荷。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=subject.Does:recharge= 从伤害中恢复 =amount= 单位 电荷。",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -3721,11 +3969,27 @@
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "cn_id_fallback",
+    "path": "((('string', (('ID', 'You may not =verb= more than =range.cardinal.things:square=!'), ('Context', 'Jump Fail above maximum range')), 1),), '#text')",
+    "source": "You may not =verb= more than =range.cardinal.things:square=!",
+    "translation": "你不能 =verb= 超过 =range.cardinal= 格！",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "cn_id_fallback",
+    "path": "((('string', (('ID', 'You must =verb= at least =range.cardinal.things:square=!'), ('Context', 'Jump Fail below minimum range')), 1),), '#text')",
+    "source": "You must =verb= at least =range.cardinal.things:square=!",
+    "translation": "你必须至少 =verb= =range.cardinal= 格！",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', 'You cure the =result.pluralize:poison= coursing through =object.the.name= with a balm made from =cure.a.name:single=.'), ('Context', 'Campfire NostrumsTreatPoison')), 1),), '#text')",
     "source": "You cure the =result.pluralize:poison= coursing through =object.the.name= with a balm made from =cure.a.name:single=.",
-    "translation": "你用由 =cure.a.name:single= 制成的药膏治好了 =object.the.name= 体内流窜的 =result.pluralize:毒素=。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "你用由 =cure.a.name:single= 制成的药膏治好了 =object.the.name= 体内流窜的 毒素。",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -3742,6 +4006,22 @@
     "source": "=amount|color#amountColor= =amount.pluralize:serving= of =ingredientDisplayName=",
     "translation": "=amount|color#amountColor= 份 =ingredientDisplayName=",
     "classification": "grammar_omission_or_structure_difference_needs_context_review"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "manual",
+    "path": "((('string', (('ID', '[=charges|color:C= cooking =charges.pluralize:serving=]'), ('Context', 'PreparedCookingIngredient DisplayName Tag Serving Count')), 1),), '#text')",
+    "source": "[=charges|color:C= cooking =charges.pluralize:serving=]",
+    "translation": "[烹饪 =charges|color:C= 份]",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "template_or_symbol",
+    "path": "((('string', (('ID', '[=servings|color:C= =servings.pluralize:serving=] =times.x.multiple='), ('Context', 'PreparedCookingIngredient Stacker Display')), 1),), '#text')",
+    "source": "[=servings|color:C= =servings.pluralize:serving=] =times.x.multiple=",
+    "translation": "[=servings|color:C= 份] =times.x.multiple=",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -3801,6 +4081,14 @@
   },
   {
     "file": "Strings.example.xml",
+    "status": "manual",
+    "path": "((('string', (('ID', 'mod items with the =mods.andList= =mods.pluralize:mod='), ('Context', \"Disassembly learn to mod ('You may now' fragment)\")), 1),), '#text')",
+    "source": "mod items with the =mods.andList= =mods.pluralize:mod=",
+    "translation": "用 =mods.andList= 项改造 改装物品",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
     "status": "existing_cn",
     "path": "((('string', (('ID', 'Eureka! You may now =fragments.andList=... and were able to work out how without needing to destroy =object.isplural:these:this one=!'), ('Context', 'Disassembly learned message')), 1),), '#text')",
     "source": "Eureka! You may now =fragments.andList=... and were able to work out how without needing to destroy =object.isplural:these:this one=!",
@@ -3809,11 +4097,27 @@
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
+    "path": "((('string', (('ID', 'Disassembled =done.things:item= of =wanted=...'), ('Context', 'Disassembly Loading Status Bar')), 1),), '#text')",
+    "source": "Disassembled =done.things:item= of =wanted=...",
+    "translation": "已拆解 =wanted= 个中的 =done= 件物品……",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=amount.signed= =amount.pluralize:level='), ('Context', 'Unit Gain Level')), 1),), '#text')",
     "source": "=amount.signed= =amount.pluralize:level=",
-    "translation": "=amount.signed= =amount.pluralize:等级=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=amount.signed= 等级",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "reviewed_unit_literal",
+    "path": "((('string', (('ID', 'That is out of range! (=range.things:square=)'), ('Context', 'Generic out of range error popup message')), 1),), '#text')",
+    "source": "That is out of range! (=range.things:square=)",
+    "translation": "超出范围！（=range= 格）",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -3833,27 +4137,27 @@
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', 'It will be finished in =duration.cardinal= =duration.pluralize:day=.'), ('Context', 'Golem Quest Shaping Duration Days')), 1),), '#text')",
     "source": "It will be finished in =duration.cardinal= =duration.pluralize:day=.",
-    "translation": "它将在 =duration.cardinal= =duration.pluralize:天= 后完成。",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "它将在 =duration.cardinal= 天 后完成。",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=cooldown.things:round='), ('Context', 'Replacer =ActivatedAbilityEntry.cooldown.rounds=')), 1),), '#text')",
     "source": "=cooldown.things:round=",
-    "translation": "=cooldown.things:回合=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=cooldown= 回合",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=days.cardinal= =days.pluralize:day='), ('Context', 'Replacer =mound.complete.days=')), 1),), '#text')",
     "source": "=days.cardinal= =days.pluralize:day=",
-    "translation": "=days.cardinal= =days.pluralize:天=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=days.cardinal= 天",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -4028,8 +4332,8 @@
     "status": "manual",
     "path": "((('string', (('ID', '=amount|color#amountColor= =amount.pluralize:dram= of =liquid.name='), ('Context', 'Base Liquid - drams of liquid template with color')), 1),), '#text')",
     "source": "=amount|color#amountColor= =amount.pluralize:dram= of =liquid.name=",
-    "translation": "=amount|color#amountColor= =amount.pluralize:打兰= 的 =liquid.name=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=amount|color#amountColor= 打兰 的 =liquid.name=",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -4044,40 +4348,40 @@
     "status": "manual",
     "path": "((('string', (('ID', '=amount.cardinal|color#amountColor= =amount.pluralize:dram= of =liquid.name='), ('Context', 'Base Liquid - cardinal drams of liquid template with color')), 1),), '#text')",
     "source": "=amount.cardinal|color#amountColor= =amount.pluralize:dram= of =liquid.name=",
-    "translation": "=amount.cardinal|color#amountColor= =amount.pluralize:打兰= 的 =liquid.name=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=amount.cardinal|color#amountColor= 打兰 的 =liquid.name=",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
     "status": "manual",
     "path": "((('string', (('ID', '=amount.cardinal= =amount.pluralize:dram= of =liquid.name='), ('Context', 'Base Liquid - cardinal drams of liquid template no color')), 1),), '#text')",
     "source": "=amount.cardinal= =amount.pluralize:dram= of =liquid.name=",
-    "translation": "=amount.cardinal= =amount.pluralize:打兰= 的 =liquid.name=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=amount.cardinal= 打兰 的 =liquid.name=",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
     "status": "manual",
     "path": "((('string', (('ID', '=amount:D6= =amount.pluralize:dram= of =container.liquid.name='), ('Context', 'Liquid Volume - drams of liquid template (for sorting)')), 1),), '#text')",
     "source": "=amount:D6= =amount.pluralize:dram= of =container.liquid.name=",
-    "translation": "=amount:D6= =amount.pluralize:打兰= 的 =container.liquid.name=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=amount:D6= 打兰 的 =container.liquid.name=",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
     "status": "manual",
     "path": "((('string', (('ID', '=amount|rules= =amount.pluralize:dram= of =container.liquid.name='), ('Context', 'Liquid Volume - drams of liquid template')), 1),), '#text')",
     "source": "=amount|rules= =amount.pluralize:dram= of =container.liquid.name=",
-    "translation": "=amount|rules= =amount.pluralize:打兰= 的 =container.liquid.name=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=amount|rules= 打兰 的 =container.liquid.name=",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
     "status": "manual",
     "path": "((('string', (('ID', '=amount= =amount.pluralize:dram= of =container.liquid.name='), ('Context', 'Liquid Volume - drams of liquid template (no rules)')), 1),), '#text')",
     "source": "=amount= =amount.pluralize:dram= of =container.liquid.name=",
-    "translation": "=amount= =amount.pluralize:打兰= 的 =container.liquid.name=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=amount= 打兰 的 =container.liquid.name=",
+    "classification": "reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -4161,11 +4465,27 @@
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "manual",
+    "path": "((('string', (('ID', 'First and foremost, let us lament the =killedList.pluralize:death= of our =killedList.pluralize:friend=: =killedList.andList:noSerial=. The loss to us is incalculable.\\n\\nBeyond that,'), ('Context', 'ScriptCallToArms Result Conversation Killed List')), 1),), 'Value')",
+    "source": "First and foremost, let us lament the =killedList.pluralize:death= of our =killedList.pluralize:friend=: =killedList.andList:noSerial=. The loss to us is incalculable.\n\nBeyond that,",
+    "translation": "首先，让我们哀悼 死亡 的 朋友：=killedList.andList:noSerial=。这对我们是无法估量的损失。\n\n此外，",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "manual",
+    "path": "((('string', (('ID', '=chromelings.cardinal.no|initCap.if#noKilled= =chromelings.pluralize:robot= perished, =books.cardinal.no= =books.pluralize:book was:books were= burned, =bookshelves.cardinal.no= =bookshelves.pluralize:bookshelf was:bookshelves were= destroyed, =crops.cardinal.no= =crops.pluralize:crop was:crops were= ruined, =gadgets.cardinal.no= =gadgets.pluralize:gadget was:gadgets were= shattered, and =furniture.cardinal.no= =furniture.pluralize:piece= of furniture =furniture.pluralize:was:were= destroyed.'), ('Context', 'ScriptCallToArms Result Conversation Damage Report')), 1),), '#text')",
+    "source": "=chromelings.cardinal.no|initCap.if#noKilled= =chromelings.pluralize:robot= perished, =books.cardinal.no= =books.pluralize:book was:books were= burned, =bookshelves.cardinal.no= =bookshelves.pluralize:bookshelf was:bookshelves were= destroyed, =crops.cardinal.no= =crops.pluralize:crop was:crops were= ruined, =gadgets.cardinal.no= =gadgets.pluralize:gadget was:gadgets were= shattered, and =furniture.cardinal.no= =furniture.pluralize:piece= of furniture =furniture.pluralize:was:were= destroyed.",
+    "translation": "=chromelings.cardinal.no|initCap.if#noKilled= 台机器人 被摧毁，=books.cardinal.no= =books.pluralize:book was:books were= 被焚毁，=bookshelves.cardinal.no= =bookshelves.pluralize:bookshelf was:bookshelves were= 被毁坏，=crops.cardinal.no= =crops.pluralize:crop was:crops were= 遭到破坏，=gadgets.cardinal.no= =gadgets.pluralize:gadget was:gadgets were= 被砸碎，=furniture.cardinal.no= 件 家具 =furniture.pluralize:was:were= 被毁坏。",
+    "classification": "reviewed_literal_unit_operation"
+  },
+  {
+    "file": "Strings.example.xml",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=level.things:stratum= =underground.if:deep:high='), ('Context', 'ZoneManager StrataText')), 1),), '#text')",
     "source": "=level.things:stratum= =underground.if:deep:high=",
-    "translation": "=level.things:地层= =underground.if:深:高=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=level= 地层 =underground.if:深:高=",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   },
   {
     "file": "Strings.example.xml",
@@ -4177,10 +4497,10 @@
   },
   {
     "file": "Strings.example.xml",
-    "status": "existing_cn",
+    "status": "reviewed_unit_literal",
     "path": "((('string', (('ID', '=name=, =level.things:stratum= =underground.if:deep:high='), ('Context', 'ZoneManager Zone Name, append strata level')), 1),), '#text')",
     "source": "=name=, =level.things:stratum= =underground.if:deep:high=",
-    "translation": "=name=，=level.things:地层= =underground.if:深:高=",
-    "classification": "same_variable_heads_translated_parameters_or_filters"
+    "translation": "=name=，=level= 地层 =underground.if:深:高=",
+    "classification": "inherited_difference_plus_reviewed_literal_unit_operation"
   }
 ]

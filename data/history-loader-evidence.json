@@ -1,0 +1,311 @@
+{
+  "artifact": "Assembly-CSharp.dll",
+  "sha256": "a348819a26f57beaaebbeca17957a0393026e69859c07f38036dc4fbab6491d8",
+  "interpretation": "All mod JSON files beginning historyspice. are parsed; a string lang field unequal to ActiveLanguage is skipped before merge. A key ending = replaces its target, while an ordinary array is appended. Therefore historyspice.CN.json with lang CN and = suffixes safely targets CN only.",
+  "methods": [
+    {
+      "declaring_type": "HistoryKit.HistoricSpice",
+      "name": "Init",
+      "metadata_token": "0x6002120",
+      "anchors": [
+        {
+          "offset": 95,
+          "opcode": "ldloc.s",
+          "operand": "local(0x0008)"
+        },
+        {
+          "offset": 97,
+          "opcode": "ldfld",
+          "operand": "Type"
+        },
+        {
+          "offset": 102,
+          "opcode": "ldc.i4.2",
+          "operand": null
+        },
+        {
+          "offset": 103,
+          "opcode": "bne.un",
+          "operand": "244"
+        },
+        {
+          "offset": 108,
+          "opcode": "ldloc.s",
+          "operand": "local(0x0008)"
+        },
+        {
+          "offset": 110,
+          "opcode": "ldfld",
+          "operand": "Name"
+        },
+        {
+          "offset": 115,
+          "opcode": "ldstr",
+          "operand": "historyspice."
+        },
+        {
+          "offset": 120,
+          "opcode": "callvirt",
+          "operand": "StartsWith"
+        },
+        {
+          "offset": 125,
+          "opcode": "brfalse.s",
+          "operand": "244"
+        },
+        {
+          "offset": 127,
+          "opcode": "ldloc.s",
+          "operand": "local(0x0008)"
+        },
+        {
+          "offset": 129,
+          "opcode": "ldfld",
+          "operand": "OriginalName"
+        },
+        {
+          "offset": 134,
+          "opcode": "call",
+          "operand": "ReadAllText"
+        },
+        {
+          "offset": 139,
+          "opcode": "call",
+          "operand": "Parse"
+        },
+        {
+          "offset": 144,
+          "opcode": "stloc.s",
+          "operand": "local(0x0009)"
+        },
+        {
+          "offset": 146,
+          "opcode": "ldloc.s",
+          "operand": "local(0x0009)"
+        },
+        {
+          "offset": 148,
+          "opcode": "ldstr",
+          "operand": "lang"
+        },
+        {
+          "offset": 153,
+          "opcode": "callvirt",
+          "operand": "get_Item"
+        },
+        {
+          "offset": 158,
+          "opcode": "stloc.s",
+          "operand": "local(0x000A)"
+        },
+        {
+          "offset": 160,
+          "opcode": "ldloc.s",
+          "operand": "local(0x000A)"
+        },
+        {
+          "offset": 162,
+          "opcode": "callvirt",
+          "operand": "get_Type"
+        },
+        {
+          "offset": 167,
+          "opcode": "ldc.i4.8",
+          "operand": null
+        },
+        {
+          "offset": 168,
+          "opcode": "bne.un.s",
+          "operand": "191"
+        },
+        {
+          "offset": 170,
+          "opcode": "ldloc.s",
+          "operand": "local(0x000A)"
+        },
+        {
+          "offset": 172,
+          "opcode": "call",
+          "operand": "op_Explicit"
+        },
+        {
+          "offset": 177,
+          "opcode": "call",
+          "operand": "get_ActiveLanguage"
+        },
+        {
+          "offset": 182,
+          "opcode": "call",
+          "operand": "op_Inequality"
+        },
+        {
+          "offset": 187,
+          "opcode": "brfalse.s",
+          "operand": "191"
+        },
+        {
+          "offset": 189,
+          "opcode": "leave.s",
+          "operand": "244"
+        },
+        {
+          "offset": 191,
+          "opcode": "ldloc.0",
+          "operand": null
+        },
+        {
+          "offset": 192,
+          "opcode": "ldstr",
+          "operand": "spice"
+        },
+        {
+          "offset": 197,
+          "opcode": "callvirt",
+          "operand": "get_Item"
+        },
+        {
+          "offset": 202,
+          "opcode": "castclass",
+          "operand": "token(0x010001E1)"
+        },
+        {
+          "offset": 207,
+          "opcode": "ldloc.s",
+          "operand": "local(0x0009)"
+        },
+        {
+          "offset": 209,
+          "opcode": "ldstr",
+          "operand": "spice"
+        },
+        {
+          "offset": 214,
+          "opcode": "callvirt",
+          "operand": "get_Item"
+        },
+        {
+          "offset": 219,
+          "opcode": "castclass",
+          "operand": "token(0x010001E1)"
+        },
+        {
+          "offset": 224,
+          "opcode": "call",
+          "operand": "MergeModJson"
+        },
+        {
+          "offset": 229,
+          "opcode": "leave.s",
+          "operand": "244"
+        }
+      ]
+    },
+    {
+      "declaring_type": "HistoryKit.HistoricSpice",
+      "name": "MergeModJson",
+      "metadata_token": "0x6002125",
+      "anchors": [
+        {
+          "offset": 36,
+          "opcode": "ldloc.1",
+          "operand": null
+        },
+        {
+          "offset": 37,
+          "opcode": "callvirt",
+          "operand": "get_Name"
+        },
+        {
+          "offset": 42,
+          "opcode": "ldstr",
+          "operand": "="
+        },
+        {
+          "offset": 47,
+          "opcode": "callvirt",
+          "operand": "EndsWith"
+        },
+        {
+          "offset": 52,
+          "opcode": "brfalse.s",
+          "operand": "93"
+        },
+        {
+          "offset": 54,
+          "opcode": "ldarg.0",
+          "operand": null
+        },
+        {
+          "offset": 55,
+          "opcode": "ldloc.1",
+          "operand": null
+        },
+        {
+          "offset": 56,
+          "opcode": "callvirt",
+          "operand": "get_Name"
+        },
+        {
+          "offset": 61,
+          "opcode": "stloc.2",
+          "operand": null
+        },
+        {
+          "offset": 62,
+          "opcode": "ldloc.2",
+          "operand": null
+        },
+        {
+          "offset": 63,
+          "opcode": "ldc.i4.0",
+          "operand": null
+        },
+        {
+          "offset": 64,
+          "opcode": "ldloc.2",
+          "operand": null
+        },
+        {
+          "offset": 65,
+          "opcode": "callvirt",
+          "operand": "get_Length"
+        },
+        {
+          "offset": 70,
+          "opcode": "ldc.i4.1",
+          "operand": null
+        },
+        {
+          "offset": 71,
+          "opcode": "sub",
+          "operand": null
+        },
+        {
+          "offset": 72,
+          "opcode": "callvirt",
+          "operand": "Substring"
+        },
+        {
+          "offset": 77,
+          "opcode": "ldloc.1",
+          "operand": null
+        },
+        {
+          "offset": 78,
+          "opcode": "callvirt",
+          "operand": "get_Value"
+        },
+        {
+          "offset": 83,
+          "opcode": "callvirt",
+          "operand": "set_Item"
+        },
+        {
+          "offset": 88,
+          "opcode": "br",
+          "operand": "284"
+        }
+      ]
+    }
+  ]
+}

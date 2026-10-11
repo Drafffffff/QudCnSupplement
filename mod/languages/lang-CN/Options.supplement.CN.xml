@@ -60,7 +60,7 @@
   <option ID="OptionPromptFavoriteRecipe" DisplayText="提示收藏新的烹饪食谱" Category="提示" />
   <option ID="OptionTextBuilderDebug" DisplayText="启用 文本构建器 泄漏分析">
     <helptext>
-      大多数形式的 文本构建器 都需要释放，才能正确释放其池化资源；通常应使用 using 语句/声明。
+      大多数形式的 文本构建器 都需要释放，才能正确释放其池化资源；通常应使用 资源管理 语句/声明。
       如果漏掉了某个 文本构建器 的释放，会打印错误；启用此选项后，该错误会包含遗漏释放位置的堆栈跟踪。
       </helptext>
   </option>

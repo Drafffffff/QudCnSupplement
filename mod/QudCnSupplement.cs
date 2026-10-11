@@ -240,7 +240,7 @@ public static class QudCnSupplement
             "Textures/UI/item.png", "C:/Game/HistorySpice.json", "[x2] [7]"
         };
         int diagnosticPassed = 0;
-        foreach (string sample in codeOnly) if (!NeedsReview(sample)) diagnosticPassed++;
+        foreach (string sample in codeOnly) { if (!NeedsReview(sample)) diagnosticPassed++; else Diagnostic("SELFTEST_DIAGNOSTIC_FAIL", sample); }
         if (NeedsReview("你 equip the 火把")) diagnosticPassed++;
         UnityEngine.Debug.Log("[QudCnSupplement] diagnostics=" + diagnosticPassed + "/" + (codeOnly.Length + 1));
         int combinations = 0;
@@ -268,8 +268,8 @@ public static class QudCnSupplement
         visible = Regex.Replace(visible, @"\{\{[^{}|]*\|", "").Replace("}}", "");
         visible = Regex.Replace(visible, @"<[^>]*>", "");
         visible = Regex.Replace(visible, @"[&^][A-Za-z]", "");
-        visible = Regex.Replace(visible, @"(?:https?://|[A-Za-z]:[\\/]|/)[^\s<>]+", "");
         visible = Regex.Replace(visible, @"\b[\w.\-/]+\.(?:xml|json|png|ogg|wav|dll|cs|txt)\b", "", RegexOptions.IgnoreCase);
+        visible = Regex.Replace(visible, @"(?:https?://|[A-Za-z]:[\\/]|/)[^\s<>]+", "");
         visible = Regex.Replace(visible, @"\b(?:AV|DV|MA|PV|XP|HP|SP|MP|FPS|CPU|GPU|UI|ID|CN|TRUE|FALSE|NULL)\b", "");
         visible = Regex.Replace(visible, @"\b[xX]\d+\b", "");
         return English.IsMatch(visible);

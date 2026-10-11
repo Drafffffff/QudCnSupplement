@@ -1,0 +1,18 @@
+--log start--
+[2026-10-11T21:27:09] BuildLogger initialized...
+[2026-10-11T21:27:10] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T21:27:10] ==== BUILDING MODS ====
+[2026-10-11T21:27:10] Defined symbol: VERSION_1_1
+[2026-10-11T21:27:10] Defined symbol: BUILD_2_0_212
+[2026-10-11T21:27:10] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T21:27:10] Loading path: /
+[2026-10-11T21:27:10] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T21:27:10] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T21:27:10] Loading path: /
+[2026-10-11T21:27:10] Compiling 2 files...
+[2026-10-11T21:27:11] Success :)
+[2026-10-11T21:27:11] Location: /home/bazzite/.config/unity3d/Freehold Games/CavesOfQud/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T21:27:11] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T21:27:11] ==== FINAL LOAD ORDER ====
+[2026-10-11T21:27:11] 1: QudSimplifiedChinese
+[2026-10-11T21:27:11] 2: QudCnSupplement

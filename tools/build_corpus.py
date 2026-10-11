@@ -40,8 +40,20 @@ def translate_visible_glossary(file,source,target,glossary):
     if file=='Options.example.xml' and re.search(r'^[-A-Za-z0-9.% ]+\|',target):
         return ','.join(a.split('|',1)[0]+'|'+rewrite(a.split('|',1)[1]) if '|' in a else a for a in target.split(','))
     result=rewrite(target)
-    for a,b in {'.pluralize:dram=':'.pluralize:打兰=','.things:dram=':'.things:打兰='}.items():result=result.replace(a,b)
     return result
+
+def literal_unit_operations(target,units):
+    changes=[]
+    def replace(m):
+        base,operation,word=m.groups()
+        unit=units.get(word)
+        if unit is None and re.search(r'[\u3400-\u9fff]',word):unit=word
+        if unit is None:return m.group()
+        replacement=unit if operation=='pluralize' else '='+base+'= '+unit
+        changes.append({'removed_token':m.group(),'replacement':replacement,'operation':operation,'variable_base':base,'quantity_token_added':None if operation=='pluralize' else '='+base+'=','literal_unit':unit})
+        return replacement
+    result=re.sub(r'=([A-Za-z][^=\n:]*?)\.(pluralize|things):([^=:\n|]+)=',replace,target)
+    return result,changes
 
 def token_shape(token):
     # Selector arguments are display text; variable/operator heads are structural.
@@ -65,7 +77,14 @@ def retained_type(row):
     if re.search(r'\.(?:xml|cs|csproj|txt|log)\b|https?://|\b(?:XML|CPU|LED|ASCII|ID|CP|MP|pt|ms)\b',s):return 'technical_name_path_unit_or_abbreviation'
     if re.search(r'\b(?:Alt|Shift|Enter|Space|Escape|ESC|PgUp|PgDown)\b|~Cmd|~UI|{{hotkey\|',s):return 'command_token_or_key_label'
     if '=@' in s or '@their@' in s or '*material*' in s:return 'runtime_placeholder_other_syntax'
-    if f=='Books.example.xml':return 'literary_proper_name_or_coinage_needs_editorial_review'
+    if f=='Books.example.xml':return 'calendar_notation_roman_number_or_machine_name'
+    if f=='Naming.example.xml':return 'procedural_naming_or_identifier'
+    if f in {'Creatures.example.xml','HiddenObjects.example.xml','Worlds.example.xml'} and s in {'xe/xem/xyr','qe/qem/qyr','1-FF','0lam','vqvtl 3'}:return 'pronoun_set_key_or_machine_identifier'
+    if '~' in s or '{{W|[' in s or 'Tab' in s or "l'ook" in s:return 'command_token_or_key_label'
+    if s.startswith('=') and not s.endswith('='):return 'partial_runtime_template_from_source'
+    if 'support@' in s:return 'original_contact_address'
+    if f=='Manual.example.xml':return 'command_token_or_key_label'
+    if f=='Options.example.xml':return 'technical_name_path_unit_or_abbreviation'
     return 'proper_name_coinage_or_literal_needs_context_review'
 
 def dump(path,data):path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
@@ -76,6 +95,8 @@ def main():
     convert=OpenCC('t2s').convert; manual=json.loads((ROOT/'data/manual-translations.json').read_text())
     overrides={(x['file'],x['path']):x for x in json.loads((ROOT/'data/manual-overrides.json').read_text())}
     glossary=json.loads((ROOT/'data/glossary-visible.json').read_text())
+    units=json.loads((ROOT/'data/literal-units.json').read_text())
+    unit_audit=[]
     documents=[]; bytext={}; cnid={}; twid={}; snapshots={}
     for path in sorted(base.glob('*.xml')):
         root=ET.parse(path).getroot(); sf,sn=fields(root)
@@ -117,6 +138,11 @@ def main():
             if expanded!=translated:
                 translated=expanded
                 if status=='existing_cn':status='reviewed_glossary'
+            unit_baseline=translated
+            translated,unit_changes=literal_unit_operations(translated,units)
+            if unit_changes:
+                unit_audit.append({'file':path.name,'path':repr(k),'source':source,'baseline_translation':unit_baseline,'translation':translated,'changes':unit_changes,'baseline_tokens':dict(tokens(unit_baseline)),'final_tokens':dict(tokens(translated))})
+                if status=='existing_cn':status='reviewed_unit_literal'
             if current is None or translated!=current:chosen[k]=translated
             if latin(translated):mixed.append({'file':path.name,'path':repr(k),'source':source,'translation':translated})
             if translated!=source and tokens(source)!=tokens(translated):token_warnings.append({'file':path.name,'status':status,'path':repr(k),'source':source,'translation':translated})
@@ -149,10 +175,26 @@ def main():
         prune(result);result.set('Lang','CN');result.set('Encoding','utf-8')
         ET.indent(result,space='  ');ET.ElementTree(result).write(outdir/path.name.replace('.example.xml','.supplement.CN.xml'),encoding='utf-8',xml_declaration=True)
     data=ROOT/'data';dump(data/'audit-fields.json',audit);dump(data/'unresolved.json',unresolved);dump(data/'existing-mixed-latin.json',mixed);dump(data/'token-warnings.json',token_warnings);dump(data/'snapshot-sha256.json',snapshots)
-    for row in token_warnings:row['classification']=classify_tokens(row['source'],row['translation'])
+    unit_lookup={(x['file'],x['path']):x for x in unit_audit}
+    for row in token_warnings:
+        unit_row=unit_lookup.get((row['file'],row['path']))
+        if unit_row:row['classification']='reviewed_literal_unit_operation' if tokens(row['source'])==tokens(unit_row['baseline_translation']) else 'inherited_difference_plus_reviewed_literal_unit_operation'
+        else:row['classification']=classify_tokens(row['source'],row['translation'])
     for row in mixed:row['retained_type']=retained_type(row)
     dump(data/'token-warnings.json',token_warnings);dump(data/'existing-mixed-latin.json',mixed)
     dump(data/'review-classification.json',{'token_differences':dict(collections.Counter(x['classification'] for x in token_warnings)),'retained_latin':dict(collections.Counter(x['retained_type'] for x in mixed)),'note':'Classifier documents a review queue; it does not certify semantic correctness or prove every remaining Latin fragment is required.'})
-    summary={'scope':'Nonempty ▶-marked fields in official ExampleLanguage XML 2.0.212.31; excludes runtime C#, historyspice JSON, procedural syllable semantics, translations already wrong/mixed and strings absent from the official export. Coverage is field availability, not full-game translation quality.','mode':'Incremental XML with Lang=CN; requires original CN pack and later load order.','total_source_fields':len(audit),'statuses':dict(counts),'emitted_fields':sum(x['emitted'] for x in audit),'unresolved_fields':len(unresolved),'existing_mixed_latin_fields':len(mixed),'placeholder_warning_fields':len(token_warnings),'xml_files':len(list(outdir.glob('*.xml'))),'collection_policy':'Load=Replace collections include unchanged existing CN siblings to preserve the entire collection.'}
+    dump(data/'unit-operation-audit.json',{'runtime_evidence':'Actual game Grammar.Pluralize("打兰") returns "打兰s". Single noun pluralize operations are rendered as literal Chinese units; things retains its numeric variable.','entries':unit_audit})
+    unit_index={(x['file'],x['path']):x for x in unit_audit}
+    new_differences=[];checked_new=0
+    for row in audit:
+        if row['status'] not in {'manual','tw_converted','cn_text_reuse','cn_id_fallback','template_or_symbol','identifier_or_key_label','procedural_name_syllable'}:continue
+        checked_new+=1;a=tokens(row['source']);b=tokens(row['translation'])
+        if a==b:continue
+        change=unit_index.get((row['file'],row['path']))
+        baseline=tokens(change['baseline_translation']) if change else b
+        new_differences.append({'file':row['file'],'path':row['path'],'status':row['status'],'exact_source_tokens':dict(a),'exact_translation_tokens':dict(b),'approved_exact_unit_operation_only':a==baseline,'runtime_confirmation_required':False})
+    dump(data/'new-translation-token-audit.json',{'checked_fields':checked_new,'difference_fields':len(new_differences),'unapproved_difference_fields':sum(not x['approved_exact_unit_operation_only'] for x in new_differences),'differences':new_differences})
+    dump(data/'selector-parameter-allowlist.json',{'scope':'Retired: engine appends s to Chinese single-argument noun pluralization. No selector substitutions are allowed by this file; see unit-operation-audit.json for exact literal-operation replacements.','entries':[]})
+    summary={'scope':'Nonempty ▶-marked fields in official ExampleLanguage XML 2.0.212.31; excludes runtime C#, historyspice JSON, procedural syllable semantics, translations already wrong/mixed and strings absent from the official export. Coverage is field availability, not full-game translation quality.','mode':'Incremental XML with Lang=CN; requires original CN pack and later load order.','total_source_fields':len(audit),'statuses':dict(counts),'emitted_fields':sum(x['emitted'] for x in audit),'unresolved_fields':len(unresolved),'existing_mixed_latin_fields':len(mixed),'residual_latin_fields_all_final_values':len(mixed),'residual_latin_scope':'Includes all final existing, reused, converted and manual values; residual does not mean untranslated prose.','placeholder_warning_fields':len(token_warnings),'xml_files':len(list(outdir.glob('*.xml'))),'literal_unit_operation_fields':len(unit_audit),'collection_policy':'Load=Replace collections include unchanged existing CN siblings to preserve the entire collection.'}
     dump(data/'coverage-summary.json',summary);print(json.dumps(summary,ensure_ascii=False,indent=2))
 if __name__=='__main__':main()

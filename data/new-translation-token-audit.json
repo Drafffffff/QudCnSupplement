@@ -1,0 +1,683 @@
+{
+  "checked_fields": 5354,
+  "difference_fields": 43,
+  "unapproved_difference_fields": 0,
+  "differences": [
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', ' [=turns.things:turn=]'), ('Context', 'Ability bar, skill cooldown update')), 1),), 'Value')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=turns.things:turn=": 1
+      },
+      "exact_translation_tokens": {
+        "=turns=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'Waiting for =turns.things:turn=...'), ('Context', 'Core Wait Turns - Bottom Status Bar')), 1),), '#text')",
+      "status": "cn_id_fallback",
+      "exact_source_tokens": {
+        "=turns.things:turn=": 1
+      },
+      "exact_translation_tokens": {
+        "=turns=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'Resting until morning... (=turns.things:turn=)'), ('Context', 'Core Rest until morning - Bottom bar')), 1),), '#text')",
+      "status": "cn_id_fallback",
+      "exact_source_tokens": {
+        "=turns.things:turn=": 1
+      },
+      "exact_translation_tokens": {
+        "=turns=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You scored {{C|=score=}} =score.pluralize:point=.'), ('Context', 'Core GameEnd Score')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=score=": 1,
+        "=score.pluralize:point=": 1
+      },
+      "exact_translation_tokens": {
+        "=score=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You survived for {{C|=turns=}} =turns.pluralize:turn=.'), ('Context', 'Core GameEnd Turns')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=turns=": 1,
+        "=turns.pluralize:turn=": 1
+      },
+      "exact_translation_tokens": {
+        "=turns=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You found {{C|=lairs=}} =lairs.pluralize:lair=.'), ('Context', 'Core GameEnd Lairs')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=lairs=": 1,
+        "=lairs.pluralize:lair=": 1
+      },
+      "exact_translation_tokens": {
+        "=lairs=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You named {{C|=items=}} =items.pluralize:item=.'), ('Context', 'Core GameEnd Named Items')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=items=": 1,
+        "=items.pluralize:item=": 1
+      },
+      "exact_translation_tokens": {
+        "=items=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You generated {{C|=artifacts=}} storied =artifacts.pluralize:item=.'), ('Context', 'Core GameEnd Artifacts')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=artifacts=": 1,
+        "=artifacts.pluralize:item=": 1
+      },
+      "exact_translation_tokens": {
+        "=artifacts=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=trader.The.name= =trader.verb:pony= up =give= =give.pluralize:dram= of fresh water to even up the trade.'), ('Context', 'XRLUITradeUI Trader Pony Up')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=trader.The.name=": 1,
+        "=trader.verb:pony=": 1,
+        "=give=": 1,
+        "=give.pluralize:dram=": 1
+      },
+      "exact_translation_tokens": {
+        "=trader.The.name=": 1,
+        "=trader.verb:pony=": 1,
+        "=give=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You muse over the =numShared.pluralize:secret= with =object.name|strip= and gain some insight.'), ('Context', 'Conversation GiveReshephSecret Popup')), 1),), '#text')",
+      "status": "manual",
+      "exact_source_tokens": {
+        "=numShared.pluralize:secret=": 1,
+        "=object.name|strip=": 1
+      },
+      "exact_translation_tokens": {
+        "=object.name|strip=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=tier.signed= =tier.pluralize:rank= to =mutationName=.'), ('Context', 'ProceduralCookingEffectUnitMutation Description - Mutation bonus levels')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=tier.signed=": 1,
+        "=tier.pluralize:rank=": 1,
+        "=mutationName=": 1
+      },
+      "exact_translation_tokens": {
+        "=tier.signed=": 1,
+        "=mutationName=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'dominated (=duration.things:turn= remaining)'), ('Context', 'Dominated Effect Description')), 1),), '#text')",
+      "status": "manual",
+      "exact_source_tokens": {
+        "=duration.things:turn=": 1
+      },
+      "exact_translation_tokens": {
+        "=duration=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.This= =subject.descriptiveCategory|pluralize#subject= =subject.verb:bear= the =names.pluralize:mark= of =names.andList=.'), ('Context', 'MakersMark - Description message')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=subject.This=": 1,
+        "=subject.descriptiveCategory|pluralize#subject=": 1,
+        "=subject.verb:bear=": 1,
+        "=names.pluralize:mark=": 1,
+        "=names.andList=": 1
+      },
+      "exact_translation_tokens": {
+        "=subject.This=": 1,
+        "=subject.descriptiveCategory|pluralize#subject=": 1,
+        "=subject.verb:bear=": 1,
+        "=names.andList=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You may Proselytize =amount.cardinal= fewer =amount.pluralize:follower=.'), ('Context', 'CompanionCapacity RulesPostfix Proselytized Fewer')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=amount.cardinal=": 1,
+        "=amount.pluralize:follower=": 1
+      },
+      "exact_translation_tokens": {
+        "=amount.cardinal=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You may Proselytize =amount.cardinal= additional =amount.pluralize:follower=.'), ('Context', 'CompanionCapacity RulesPostfix Proselytized Additional')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=amount.cardinal=": 1,
+        "=amount.pluralize:follower=": 1
+      },
+      "exact_translation_tokens": {
+        "=amount.cardinal=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You may Beguile =amount.cardinal= fewer =amount.pluralize:follower=.'), ('Context', 'CompanionCapacity RulesPostfix Beguiled Fewer')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=amount.cardinal=": 1,
+        "=amount.pluralize:follower=": 1
+      },
+      "exact_translation_tokens": {
+        "=amount.cardinal=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You may Beguile =amount.cardinal= additional =amount.pluralize:follower=.'), ('Context', 'CompanionCapacity RulesPostfix Beguiled Additional')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=amount.cardinal=": 1,
+        "=amount.pluralize:follower=": 1
+      },
+      "exact_translation_tokens": {
+        "=amount.cardinal=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'When equipped or implanted, and powered, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix EquippedOrImplanted Powered')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=power.things:unit=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "exact_translation_tokens": {
+        "=power=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'When equipped or implanted, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix EquippedOrImplanted')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=power.things:unit=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "exact_translation_tokens": {
+        "=power=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'When equipped and powered, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix Equipped Powered')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=power.things:unit=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "exact_translation_tokens": {
+        "=power=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'When equipped, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix Equipped')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=power.things:unit=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "exact_translation_tokens": {
+        "=power=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'When implanted and powered, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix Implanted Powered')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=power.things:unit=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "exact_translation_tokens": {
+        "=power=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'When implanted, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix Implanted')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=power.things:unit=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "exact_translation_tokens": {
+        "=power=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'When powered, provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix Powered')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=power.things:unit=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "exact_translation_tokens": {
+        "=power=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'Provides =power.things:unit= of compute power to the local lattice. =part.statusSummary|addParens='), ('Context', 'ComputeNode RulesPostfix Passive/Always')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=power.things:unit=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "exact_translation_tokens": {
+        "=power=": 1,
+        "=part.statusSummary|addParens=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=tier.signed= =tier.pluralize:level= to =mutation=.'), ('Context', 'FollowersGetTeleport GetDetails MutationImproved')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=tier.signed=": 1,
+        "=tier.pluralize:level=": 1,
+        "=mutation=": 1
+      },
+      "exact_translation_tokens": {
+        "=tier.signed=": 1,
+        "=mutation=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does:collect= =transfer.things:dram= of =snapshotLiquidName= =subject.from.container.direction#volume#snapshotDir= =containers.ifAny:in ==containers.properAndList=.'), ('Context', 'LiquidVolume Collect')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=subject.Does:collect=": 1,
+        "=transfer.things:dram=": 1,
+        "=snapshotLiquidName=": 1,
+        "=subject.from.container.direction#volume#snapshotDir=": 1,
+        "=containers.ifAny:in =": 1,
+        "=containers.properAndList=": 1
+      },
+      "exact_translation_tokens": {
+        "=subject.Does:collect=": 1,
+        "=transfer=": 1,
+        "=snapshotLiquidName=": 1,
+        "=subject.from.container.direction#volume#snapshotDir=": 1,
+        "=containers.ifAny:in =": 1,
+        "=containers.properAndList=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', \"=subject.Doesly:permanently:drain= =object.the.name's= =stat.narration= by =amount.things:point=!\"), ('Context', 'SapOnPenetration PermanentlyDrainMessage')), 1),), '#text')",
+      "status": "manual",
+      "exact_source_tokens": {
+        "=subject.Doesly:permanently:drain=": 1,
+        "=object.the.name's=": 1,
+        "=stat.narration=": 1,
+        "=amount.things:point=": 1
+      },
+      "exact_translation_tokens": {
+        "=subject.Doesly:permanently:drain=": 1,
+        "=object.the.name's=": 1,
+        "=stat.narration=": 1,
+        "=amount=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=owner.Does:transfer= =amount.things:dram= of =liquid.name|strip= to =host.aForNPCSubject.name#owner=.'), ('Context', 'ModLiquidCooled Transfer Message')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=owner.Does:transfer=": 1,
+        "=amount.things:dram=": 1,
+        "=liquid.name|strip=": 1,
+        "=host.aForNPCSubject.name#owner=": 1
+      },
+      "exact_translation_tokens": {
+        "=owner.Does:transfer=": 1,
+        "=amount=": 1,
+        "=liquid.name|strip=": 1,
+        "=host.aForNPCSubject.name#owner=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', \"Recycling: This item collects, purifies, and stores up to =max.cardinal.things:dram= of the wearer's wastewater.\"), ('Context', 'ModRecycling Description With Liquid Volume')), 1),), '#text')",
+      "status": "tw_converted",
+      "exact_source_tokens": {
+        "=max.cardinal.things:dram=": 1
+      },
+      "exact_translation_tokens": {
+        "=max.cardinal=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You may not =verb= more than =range.cardinal.things:square=!'), ('Context', 'Jump Fail above maximum range')), 1),), '#text')",
+      "status": "cn_id_fallback",
+      "exact_source_tokens": {
+        "=verb=": 1,
+        "=range.cardinal.things:square=": 1
+      },
+      "exact_translation_tokens": {
+        "=verb=": 1,
+        "=range.cardinal=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'You must =verb= at least =range.cardinal.things:square=!'), ('Context', 'Jump Fail below minimum range')), 1),), '#text')",
+      "status": "cn_id_fallback",
+      "exact_source_tokens": {
+        "=verb=": 1,
+        "=range.cardinal.things:square=": 1
+      },
+      "exact_translation_tokens": {
+        "=verb=": 1,
+        "=range.cardinal=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '[=charges|color:C= cooking =charges.pluralize:serving=]'), ('Context', 'PreparedCookingIngredient DisplayName Tag Serving Count')), 1),), '#text')",
+      "status": "manual",
+      "exact_source_tokens": {
+        "=charges|color:C=": 1,
+        "=charges.pluralize:serving=": 1
+      },
+      "exact_translation_tokens": {
+        "=charges|color:C=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '[=servings|color:C= =servings.pluralize:serving=] =times.x.multiple='), ('Context', 'PreparedCookingIngredient Stacker Display')), 1),), '#text')",
+      "status": "template_or_symbol",
+      "exact_source_tokens": {
+        "=servings|color:C=": 1,
+        "=servings.pluralize:serving=": 1,
+        "=times.x.multiple=": 1
+      },
+      "exact_translation_tokens": {
+        "=servings|color:C=": 1,
+        "=times.x.multiple=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'mod items with the =mods.andList= =mods.pluralize:mod='), ('Context', \"Disassembly learn to mod ('You may now' fragment)\")), 1),), '#text')",
+      "status": "manual",
+      "exact_source_tokens": {
+        "=mods.andList=": 1,
+        "=mods.pluralize:mod=": 1
+      },
+      "exact_translation_tokens": {
+        "=mods.andList=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=amount|color#amountColor= =amount.pluralize:dram= of =liquid.name='), ('Context', 'Base Liquid - drams of liquid template with color')), 1),), '#text')",
+      "status": "manual",
+      "exact_source_tokens": {
+        "=amount|color#amountColor=": 1,
+        "=amount.pluralize:dram=": 1,
+        "=liquid.name=": 1
+      },
+      "exact_translation_tokens": {
+        "=amount|color#amountColor=": 1,
+        "=liquid.name=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=amount.cardinal|color#amountColor= =amount.pluralize:dram= of =liquid.name='), ('Context', 'Base Liquid - cardinal drams of liquid template with color')), 1),), '#text')",
+      "status": "manual",
+      "exact_source_tokens": {
+        "=amount.cardinal|color#amountColor=": 1,
+        "=amount.pluralize:dram=": 1,
+        "=liquid.name=": 1
+      },
+      "exact_translation_tokens": {
+        "=amount.cardinal|color#amountColor=": 1,
+        "=liquid.name=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=amount.cardinal= =amount.pluralize:dram= of =liquid.name='), ('Context', 'Base Liquid - cardinal drams of liquid template no color')), 1),), '#text')",
+      "status": "manual",
+      "exact_source_tokens": {
+        "=amount.cardinal=": 1,
+        "=amount.pluralize:dram=": 1,
+        "=liquid.name=": 1
+      },
+      "exact_translation_tokens": {
+        "=amount.cardinal=": 1,
+        "=liquid.name=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=amount:D6= =amount.pluralize:dram= of =container.liquid.name='), ('Context', 'Liquid Volume - drams of liquid template (for sorting)')), 1),), '#text')",
+      "status": "manual",
+      "exact_source_tokens": {
+        "=amount:D6=": 1,
+        "=amount.pluralize:dram=": 1,
+        "=container.liquid.name=": 1
+      },
+      "exact_translation_tokens": {
+        "=amount:D6=": 1,
+        "=container.liquid.name=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=amount|rules= =amount.pluralize:dram= of =container.liquid.name='), ('Context', 'Liquid Volume - drams of liquid template')), 1),), '#text')",
+      "status": "manual",
+      "exact_source_tokens": {
+        "=amount|rules=": 1,
+        "=amount.pluralize:dram=": 1,
+        "=container.liquid.name=": 1
+      },
+      "exact_translation_tokens": {
+        "=amount|rules=": 1,
+        "=container.liquid.name=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=amount= =amount.pluralize:dram= of =container.liquid.name='), ('Context', 'Liquid Volume - drams of liquid template (no rules)')), 1),), '#text')",
+      "status": "manual",
+      "exact_source_tokens": {
+        "=amount=": 1,
+        "=amount.pluralize:dram=": 1,
+        "=container.liquid.name=": 1
+      },
+      "exact_translation_tokens": {
+        "=amount=": 1,
+        "=container.liquid.name=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'First and foremost, let us lament the =killedList.pluralize:death= of our =killedList.pluralize:friend=: =killedList.andList:noSerial=. The loss to us is incalculable.\\n\\nBeyond that,'), ('Context', 'ScriptCallToArms Result Conversation Killed List')), 1),), 'Value')",
+      "status": "manual",
+      "exact_source_tokens": {
+        "=killedList.pluralize:death=": 1,
+        "=killedList.pluralize:friend=": 1,
+        "=killedList.andList:noSerial=": 1
+      },
+      "exact_translation_tokens": {
+        "=killedList.andList:noSerial=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=chromelings.cardinal.no|initCap.if#noKilled= =chromelings.pluralize:robot= perished, =books.cardinal.no= =books.pluralize:book was:books were= burned, =bookshelves.cardinal.no= =bookshelves.pluralize:bookshelf was:bookshelves were= destroyed, =crops.cardinal.no= =crops.pluralize:crop was:crops were= ruined, =gadgets.cardinal.no= =gadgets.pluralize:gadget was:gadgets were= shattered, and =furniture.cardinal.no= =furniture.pluralize:piece= of furniture =furniture.pluralize:was:were= destroyed.'), ('Context', 'ScriptCallToArms Result Conversation Damage Report')), 1),), '#text')",
+      "status": "manual",
+      "exact_source_tokens": {
+        "=chromelings.cardinal.no|initCap.if#noKilled=": 1,
+        "=chromelings.pluralize:robot=": 1,
+        "=books.cardinal.no=": 1,
+        "=books.pluralize:book was:books were=": 1,
+        "=bookshelves.cardinal.no=": 1,
+        "=bookshelves.pluralize:bookshelf was:bookshelves were=": 1,
+        "=crops.cardinal.no=": 1,
+        "=crops.pluralize:crop was:crops were=": 1,
+        "=gadgets.cardinal.no=": 1,
+        "=gadgets.pluralize:gadget was:gadgets were=": 1,
+        "=furniture.cardinal.no=": 1,
+        "=furniture.pluralize:piece=": 1,
+        "=furniture.pluralize:was:were=": 1
+      },
+      "exact_translation_tokens": {
+        "=chromelings.cardinal.no|initCap.if#noKilled=": 1,
+        "=books.cardinal.no=": 1,
+        "=books.pluralize:book was:books were=": 1,
+        "=bookshelves.cardinal.no=": 1,
+        "=bookshelves.pluralize:bookshelf was:bookshelves were=": 1,
+        "=crops.cardinal.no=": 1,
+        "=crops.pluralize:crop was:crops were=": 1,
+        "=gadgets.cardinal.no=": 1,
+        "=gadgets.pluralize:gadget was:gadgets were=": 1,
+        "=furniture.cardinal.no=": 1,
+        "=furniture.pluralize:was:were=": 1
+      },
+      "approved_exact_unit_operation_only": true,
+      "runtime_confirmation_required": false
+    }
+  ]
+}
