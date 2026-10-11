@@ -195,6 +195,7 @@
   </object>
   <object Name="ReactiveTraumaPlate" Load="Merge">
     <part Name="CyberneticsBaseItem" BehaviorDescription="中和一次会造成致命伤害，或至少造成你最大 生命 50% 伤害的伤害来源。这个植入物会在过程中被摧毁。" />
+    <part Name="LifeSaver" LethalMessage="=subject.Name=的 =object.name= 向外 迸裂，摧毁 =objpronouns.reflexive= 以防止潜在致命伤害。" MaxHitpointsThresholdMessage="=subject.Name=的 =object.name= 向外 迸裂，摧毁 =objpronouns.reflexive= 以防止灾难性伤害。" />
   </object>
   <object Name="BiodynamicPowerPlant" Load="Merge">
     <part Name="CyberneticsBaseItem" BehaviorDescription="每回合向可接入机载供能系统的已装备物品持续提供 5000 单位充能，例如带有 接线 改造的物品。" />

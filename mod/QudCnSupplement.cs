@@ -31,7 +31,10 @@ public static class QudCnSupplement
         initialized = true;
         var harmony = new Harmony(HarmonyId);
         SelfTest();
-        int count = 0;
+        int count = QudCnHud.Install(harmony);
+        count += QudCnBooks.Install(harmony);
+        count += QudCnGrammar.Install(harmony);
+        count += QudCnRuntimeVerbs.Install(harmony);
         count += Patch(harmony, "XRL.Messages.MessageQueue", delegate(MethodInfo m) {
             var p = m.GetParameters();
             return (m.Name == "Add" || m.Name == "AddPlayerMessage") && p.Length > 0 && p[0].ParameterType == typeof(string);
@@ -53,10 +56,11 @@ public static class QudCnSupplement
             return m.Name == "set_text";
         }, "DisplayPrefix", null);
         // These delegates generate pronouns for rendered templates, not object names or saved data.
-        count += Patch(harmony, "XRL.World.Text.Delegates.GameObjectReplacers", delegate(MethodInfo m) {
-            return m.ReturnType == typeof(string) && (m.Name == "Subjective" || m.Name == "Objective" ||
-                m.Name == "Possessive" || m.Name == "SubstantivePossessive" || m.Name == "Reflexive");
-        }, null, "TemplatePronounPostfix");
+        foreach (string typeName in new[] { "XRL.World.Text.Delegates.GameObjectReplacers", "XRL.World.Text.Delegates.GenderedNounReplacers" })
+            count += Patch(harmony, typeName, delegate(MethodInfo m) {
+                return m.ReturnType == typeof(string) && (m.Name == "Subjective" || m.Name == "Objective" ||
+                    m.Name == "Possessive" || m.Name == "SubstantivePossessive" || m.Name == "Reflexive");
+            }, null, "TemplatePronounPostfix");
         // Effect labels are translated at their semantic source. Character and place names
         // never pass through this hook, unlike global display-name word substitutions.
         foreach (var type in typeof(XRL.World.Effect).Assembly.GetTypes())
@@ -165,12 +169,12 @@ public static class QudCnSupplement
     {
         if (!IsChinese || __args.Length == 0) return;
         var text = __args[0] as string;
-        if (text != null) { __args[0] = TranslateExact(text); return; }
+        if (text != null) { __args[0] = QudCnHud.Translate(text); return; }
         var buffer = __args[0] as StringBuilder;
         if (buffer != null)
         {
             string before = buffer.ToString();
-            string after = TranslateExact(before);
+            string after = QudCnHud.Translate(before);
             // Do not mutate shared StringBuilder arguments used by game code.
             if (after != before) __args[0] = new StringBuilder(after);
         }

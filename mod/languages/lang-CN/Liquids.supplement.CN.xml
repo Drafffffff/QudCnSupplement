@@ -1,8 +1,27 @@
 <?xml version='1.0' encoding='utf-8'?>
 <liquids Lang="CN" Encoding="utf-8">
+  <liquid Name="Gel">
+    <slipperyMessage>{{Y|=subject.The.name=在凝胶上滑倒了！}}</slipperyMessage>
+  </liquid>
+  <liquid Name="Ink">
+    <slipperyMessage>{{K|=subject.The.name=在墨水上滑倒了！}}</slipperyMessage>
+  </liquid>
+  <liquid Name="Oil">
+    <slipperyMessage>{{C|=subject.The.name=在油上滑倒了！}}</slipperyMessage>
+  </liquid>
+  <liquid Name="Slime">
+    <slipperyMessage>{{slimy|=subject.The.name=在史莱姆上滑倒了！}}</slipperyMessage>
+  </liquid>
   <liquid Name="Sunslag">
     <part Name="SunSlagOnDrink">
       <muralText>看哪，=player.name= 劈开城邦的骨骼，饮下它们的骨髓！我们的 萨阿德，被城邦的命血迅捷化吧！</muralText>
+      <gospelText>穿行于 =terrain.t= 时，=player.name= 在 =landmark.nearest= 的一家酒馆停留。在那里，=player.subjective= 赢下一场赌局，得意地喝下一打兰日渣。=player.Subjective=  迅捷化，并以不可追踪的步速离开了酒馆。</gospelText>
+    </part>
+  </liquid>
+  <liquid Name="Water">
+    <slipperyMessage>{{C|=subject.The.name=在冰上滑倒了！}}</slipperyMessage>
+    <part Name="WaterHydration">
+      <amphibiousMessage>=subject.The.name=把水倒在=subject.itself=身上！</amphibiousMessage>
     </part>
   </liquid>
 </liquids>

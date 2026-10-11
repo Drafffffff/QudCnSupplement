@@ -1,6 +1,6 @@
 {
-  "checked_fields": 5354,
-  "difference_fields": 43,
+  "checked_fields": 5146,
+  "difference_fields": 37,
   "unapproved_difference_fields": 0,
   "differences": [
     {
@@ -114,24 +114,6 @@
     },
     {
       "file": "Strings.example.xml",
-      "path": "((('string', (('ID', '=trader.The.name= =trader.verb:pony= up =give= =give.pluralize:dram= of fresh water to even up the trade.'), ('Context', 'XRLUITradeUI Trader Pony Up')), 1),), '#text')",
-      "status": "tw_converted",
-      "exact_source_tokens": {
-        "=trader.The.name=": 1,
-        "=trader.verb:pony=": 1,
-        "=give=": 1,
-        "=give.pluralize:dram=": 1
-      },
-      "exact_translation_tokens": {
-        "=trader.The.name=": 1,
-        "=trader.verb:pony=": 1,
-        "=give=": 1
-      },
-      "approved_exact_unit_operation_only": true,
-      "runtime_confirmation_required": false
-    },
-    {
-      "file": "Strings.example.xml",
       "path": "((('string', (('ID', 'You muse over the =numShared.pluralize:secret= with =object.name|strip= and gain some insight.'), ('Context', 'Conversation GiveReshephSecret Popup')), 1),), '#text')",
       "status": "manual",
       "exact_source_tokens": {
@@ -169,26 +151,6 @@
       },
       "exact_translation_tokens": {
         "=duration=": 1
-      },
-      "approved_exact_unit_operation_only": true,
-      "runtime_confirmation_required": false
-    },
-    {
-      "file": "Strings.example.xml",
-      "path": "((('string', (('ID', '=subject.This= =subject.descriptiveCategory|pluralize#subject= =subject.verb:bear= the =names.pluralize:mark= of =names.andList=.'), ('Context', 'MakersMark - Description message')), 1),), '#text')",
-      "status": "tw_converted",
-      "exact_source_tokens": {
-        "=subject.This=": 1,
-        "=subject.descriptiveCategory|pluralize#subject=": 1,
-        "=subject.verb:bear=": 1,
-        "=names.pluralize:mark=": 1,
-        "=names.andList=": 1
-      },
-      "exact_translation_tokens": {
-        "=subject.This=": 1,
-        "=subject.descriptiveCategory|pluralize#subject=": 1,
-        "=subject.verb:bear=": 1,
-        "=names.andList=": 1
       },
       "approved_exact_unit_operation_only": true,
       "runtime_confirmation_required": false
@@ -387,67 +349,6 @@
     },
     {
       "file": "Strings.example.xml",
-      "path": "((('string', (('ID', '=subject.Does:collect= =transfer.things:dram= of =snapshotLiquidName= =subject.from.container.direction#volume#snapshotDir= =containers.ifAny:in ==containers.properAndList=.'), ('Context', 'LiquidVolume Collect')), 1),), '#text')",
-      "status": "tw_converted",
-      "exact_source_tokens": {
-        "=subject.Does:collect=": 1,
-        "=transfer.things:dram=": 1,
-        "=snapshotLiquidName=": 1,
-        "=subject.from.container.direction#volume#snapshotDir=": 1,
-        "=containers.ifAny:in =": 1,
-        "=containers.properAndList=": 1
-      },
-      "exact_translation_tokens": {
-        "=subject.Does:collect=": 1,
-        "=transfer=": 1,
-        "=snapshotLiquidName=": 1,
-        "=subject.from.container.direction#volume#snapshotDir=": 1,
-        "=containers.ifAny:in =": 1,
-        "=containers.properAndList=": 1
-      },
-      "approved_exact_unit_operation_only": true,
-      "runtime_confirmation_required": false
-    },
-    {
-      "file": "Strings.example.xml",
-      "path": "((('string', (('ID', \"=subject.Doesly:permanently:drain= =object.the.name's= =stat.narration= by =amount.things:point=!\"), ('Context', 'SapOnPenetration PermanentlyDrainMessage')), 1),), '#text')",
-      "status": "manual",
-      "exact_source_tokens": {
-        "=subject.Doesly:permanently:drain=": 1,
-        "=object.the.name's=": 1,
-        "=stat.narration=": 1,
-        "=amount.things:point=": 1
-      },
-      "exact_translation_tokens": {
-        "=subject.Doesly:permanently:drain=": 1,
-        "=object.the.name's=": 1,
-        "=stat.narration=": 1,
-        "=amount=": 1
-      },
-      "approved_exact_unit_operation_only": true,
-      "runtime_confirmation_required": false
-    },
-    {
-      "file": "Strings.example.xml",
-      "path": "((('string', (('ID', '=owner.Does:transfer= =amount.things:dram= of =liquid.name|strip= to =host.aForNPCSubject.name#owner=.'), ('Context', 'ModLiquidCooled Transfer Message')), 1),), '#text')",
-      "status": "tw_converted",
-      "exact_source_tokens": {
-        "=owner.Does:transfer=": 1,
-        "=amount.things:dram=": 1,
-        "=liquid.name|strip=": 1,
-        "=host.aForNPCSubject.name#owner=": 1
-      },
-      "exact_translation_tokens": {
-        "=owner.Does:transfer=": 1,
-        "=amount=": 1,
-        "=liquid.name|strip=": 1,
-        "=host.aForNPCSubject.name#owner=": 1
-      },
-      "approved_exact_unit_operation_only": true,
-      "runtime_confirmation_required": false
-    },
-    {
-      "file": "Strings.example.xml",
       "path": "((('string', (('ID', \"Recycling: This item collects, purifies, and stores up to =max.cardinal.things:dram= of the wearer's wastewater.\"), ('Context', 'ModRecycling Description With Liquid Volume')), 1),), '#text')",
       "status": "tw_converted",
       "exact_source_tokens": {
@@ -640,41 +541,6 @@
       },
       "exact_translation_tokens": {
         "=killedList.andList:noSerial=": 1
-      },
-      "approved_exact_unit_operation_only": true,
-      "runtime_confirmation_required": false
-    },
-    {
-      "file": "Strings.example.xml",
-      "path": "((('string', (('ID', '=chromelings.cardinal.no|initCap.if#noKilled= =chromelings.pluralize:robot= perished, =books.cardinal.no= =books.pluralize:book was:books were= burned, =bookshelves.cardinal.no= =bookshelves.pluralize:bookshelf was:bookshelves were= destroyed, =crops.cardinal.no= =crops.pluralize:crop was:crops were= ruined, =gadgets.cardinal.no= =gadgets.pluralize:gadget was:gadgets were= shattered, and =furniture.cardinal.no= =furniture.pluralize:piece= of furniture =furniture.pluralize:was:were= destroyed.'), ('Context', 'ScriptCallToArms Result Conversation Damage Report')), 1),), '#text')",
-      "status": "manual",
-      "exact_source_tokens": {
-        "=chromelings.cardinal.no|initCap.if#noKilled=": 1,
-        "=chromelings.pluralize:robot=": 1,
-        "=books.cardinal.no=": 1,
-        "=books.pluralize:book was:books were=": 1,
-        "=bookshelves.cardinal.no=": 1,
-        "=bookshelves.pluralize:bookshelf was:bookshelves were=": 1,
-        "=crops.cardinal.no=": 1,
-        "=crops.pluralize:crop was:crops were=": 1,
-        "=gadgets.cardinal.no=": 1,
-        "=gadgets.pluralize:gadget was:gadgets were=": 1,
-        "=furniture.cardinal.no=": 1,
-        "=furniture.pluralize:piece=": 1,
-        "=furniture.pluralize:was:were=": 1
-      },
-      "exact_translation_tokens": {
-        "=chromelings.cardinal.no|initCap.if#noKilled=": 1,
-        "=books.cardinal.no=": 1,
-        "=books.pluralize:book was:books were=": 1,
-        "=bookshelves.cardinal.no=": 1,
-        "=bookshelves.pluralize:bookshelf was:bookshelves were=": 1,
-        "=crops.cardinal.no=": 1,
-        "=crops.pluralize:crop was:crops were=": 1,
-        "=gadgets.cardinal.no=": 1,
-        "=gadgets.pluralize:gadget was:gadgets were=": 1,
-        "=furniture.cardinal.no=": 1,
-        "=furniture.pluralize:was:were=": 1
       },
       "approved_exact_unit_operation_only": true,
       "runtime_confirmation_required": false

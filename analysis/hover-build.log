@@ -1,0 +1,1118 @@
+[2026-10-11T21:05:17] BuildLogger initialized...
+[2026-10-11T21:05:17] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T21:05:17] ==== BUILDING MODS ====
+[2026-10-11T21:05:17] Defined symbol: VERSION_1_1
+[2026-10-11T21:05:17] Defined symbol: BUILD_2_0_212
+[2026-10-11T21:05:17] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T21:05:17] Loading path: /
+[2026-10-11T21:05:17] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T21:05:17] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T21:05:17] Loading path: /
+[2026-10-11T21:05:17] Compiling 2 files...
+[2026-10-11T21:05:18] Success :)
+[2026-10-11T21:05:18] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T21:05:18] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T21:05:18] ==== FINAL LOAD ORDER ====
+[2026-10-11T21:05:18] 1: QudSimplifiedChinese
+[2026-10-11T21:05:18] 2: QudCnSupplement
+[2026-10-11T21:08:32] BuildLogger initialized...
+[2026-10-11T21:08:33] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T21:08:33] ==== BUILDING MODS ====
+[2026-10-11T21:08:33] Defined symbol: VERSION_1_1
+[2026-10-11T21:08:33] Defined symbol: BUILD_2_0_212
+[2026-10-11T21:08:33] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T21:08:33] Loading path: /
+[2026-10-11T21:08:33] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T21:08:33] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T21:08:33] Loading path: /
+[2026-10-11T21:08:33] Compiling 2 files...
+[2026-10-11T21:08:34] Success :)
+[2026-10-11T21:08:34] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T21:08:34] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T21:08:34] === CN RUNTIME QA PROBE ===
+[2026-10-11T21:08:34] Loading path: /
+[2026-10-11T21:08:34] Compiling 1 file...
+[2026-10-11T21:08:36] Success :)
+[2026-10-11T21:08:36] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T21:08:36] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T21:08:36] ==== FINAL LOAD ORDER ====
+[2026-10-11T21:08:36] 1: QudSimplifiedChinese
+[2026-10-11T21:08:36] 2: QudCnSupplement
+[2026-10-11T21:08:36] 3: QudCnTestProbe
+[2026-10-11T21:10:31] BuildLogger initialized...
+[2026-10-11T21:10:31] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T21:10:31] ==== BUILDING MODS ====
+[2026-10-11T21:10:31] Defined symbol: VERSION_1_1
+[2026-10-11T21:10:31] Defined symbol: BUILD_2_0_212
+[2026-10-11T21:10:31] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T21:10:31] Loading path: /
+[2026-10-11T21:10:31] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T21:10:31] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T21:10:31] Loading path: /
+[2026-10-11T21:10:31] Compiling 2 files...
+[2026-10-11T21:10:32] Success :)
+[2026-10-11T21:10:32] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T21:10:32] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T21:10:32] === CN RUNTIME QA PROBE ===
+[2026-10-11T21:10:32] Loading path: /
+[2026-10-11T21:10:32] Compiling 1 file...
+[2026-10-11T21:10:35] Success :)
+[2026-10-11T21:10:35] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T21:10:35] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T21:10:35] ==== FINAL LOAD ORDER ====
+[2026-10-11T21:10:35] 1: QudSimplifiedChinese
+[2026-10-11T21:10:35] 2: QudCnSupplement
+[2026-10-11T21:10:35] 3: QudCnTestProbe
+[2026-10-11T21:21:48] BuildLogger initialized...
+[2026-10-11T21:21:48] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T21:21:48] ==== BUILDING MODS ====
+[2026-10-11T21:21:48] Defined symbol: VERSION_1_1
+[2026-10-11T21:21:48] Defined symbol: BUILD_2_0_212
+[2026-10-11T21:21:48] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T21:21:48] Loading path: /
+[2026-10-11T21:21:48] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T21:21:48] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T21:21:48] Loading path: /
+[2026-10-11T21:21:48] Compiling 2 files...
+[2026-10-11T21:21:50] Success :)
+[2026-10-11T21:21:50] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T21:21:50] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T21:21:50] === CN RUNTIME QA PROBE ===
+[2026-10-11T21:21:50] Loading path: /
+[2026-10-11T21:21:50] Compiling 1 file...
+[2026-10-11T21:21:52] Success :)
+[2026-10-11T21:21:52] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T21:21:52] == COMPILER WARNINGS ==
+[2026-10-11T21:21:52] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,318): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T21:21:52] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T21:21:52] ==== FINAL LOAD ORDER ====
+[2026-10-11T21:21:52] 1: QudSimplifiedChinese
+[2026-10-11T21:21:52] 2: QudCnSupplement
+[2026-10-11T21:21:52] 3: QudCnTestProbe
+[2026-10-11T21:25:35] BuildLogger initialized...
+[2026-10-11T21:25:35] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T21:25:35] ==== BUILDING MODS ====
+[2026-10-11T21:25:36] Defined symbol: VERSION_1_1
+[2026-10-11T21:25:36] Defined symbol: BUILD_2_0_212
+[2026-10-11T21:25:36] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T21:25:36] Loading path: /
+[2026-10-11T21:25:36] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T21:25:36] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T21:25:36] Loading path: /
+[2026-10-11T21:25:36] Compiling 2 files...
+[2026-10-11T21:25:36] Success :)
+[2026-10-11T21:25:36] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T21:25:36] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T21:25:36] === CN RUNTIME QA PROBE ===
+[2026-10-11T21:25:36] Loading path: /
+[2026-10-11T21:25:36] Compiling 1 file...
+[2026-10-11T21:25:39] Success :)
+[2026-10-11T21:25:39] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T21:25:39] == COMPILER WARNINGS ==
+[2026-10-11T21:25:39] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,318): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T21:25:39] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10542,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T21:25:39] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T21:25:39] ==== FINAL LOAD ORDER ====
+[2026-10-11T21:25:39] 1: QudSimplifiedChinese
+[2026-10-11T21:25:39] 2: QudCnSupplement
+[2026-10-11T21:25:39] 3: QudCnTestProbe
+[2026-10-11T21:26:28] BuildLogger initialized...
+[2026-10-11T21:26:28] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T21:26:28] ==== BUILDING MODS ====
+[2026-10-11T21:26:28] Defined symbol: VERSION_1_1
+[2026-10-11T21:26:28] Defined symbol: BUILD_2_0_212
+[2026-10-11T21:26:28] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T21:26:28] Loading path: /
+[2026-10-11T21:26:28] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T21:26:28] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T21:26:28] Loading path: /
+[2026-10-11T21:26:28] Compiling 2 files...
+[2026-10-11T21:26:29] Success :)
+[2026-10-11T21:26:29] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T21:26:29] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T21:26:29] === CN RUNTIME QA PROBE ===
+[2026-10-11T21:26:29] Loading path: /
+[2026-10-11T21:26:29] Compiling 1 file...
+[2026-10-11T21:26:31] Success :)
+[2026-10-11T21:26:31] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T21:26:31] == COMPILER WARNINGS ==
+[2026-10-11T21:26:31] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,318): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T21:26:31] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10542,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T21:26:31] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T21:26:31] ==== FINAL LOAD ORDER ====
+[2026-10-11T21:26:31] 1: QudSimplifiedChinese
+[2026-10-11T21:26:31] 2: QudCnSupplement
+[2026-10-11T21:26:31] 3: QudCnTestProbe
+[2026-10-11T21:45:26] BuildLogger initialized...
+[2026-10-11T21:45:26] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T21:45:26] ==== BUILDING MODS ====
+[2026-10-11T21:45:26] Defined symbol: VERSION_1_1
+[2026-10-11T21:45:26] Defined symbol: BUILD_2_0_212
+[2026-10-11T21:45:26] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T21:45:26] Loading path: /
+[2026-10-11T21:45:26] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T21:45:26] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T21:45:26] Loading path: /
+[2026-10-11T21:45:26] Compiling 2 files...
+[2026-10-11T21:45:27] Success :)
+[2026-10-11T21:45:27] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T21:45:27] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T21:45:27] === CN RUNTIME QA PROBE ===
+[2026-10-11T21:45:27] Loading path: /
+[2026-10-11T21:45:27] Compiling 1 file...
+[2026-10-11T21:45:30] Success :)
+[2026-10-11T21:45:30] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T21:45:30] == COMPILER WARNINGS ==
+[2026-10-11T21:45:30] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,459): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T21:45:30] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10542,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T21:45:30] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T21:45:30] ==== FINAL LOAD ORDER ====
+[2026-10-11T21:45:30] 1: QudSimplifiedChinese
+[2026-10-11T21:45:30] 2: QudCnSupplement
+[2026-10-11T21:45:30] 3: QudCnTestProbe
+[2026-10-11T21:48:42] BuildLogger initialized...
+[2026-10-11T21:48:42] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T21:48:42] ==== BUILDING MODS ====
+[2026-10-11T21:48:42] Defined symbol: VERSION_1_1
+[2026-10-11T21:48:42] Defined symbol: BUILD_2_0_212
+[2026-10-11T21:48:42] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T21:48:42] Loading path: /
+[2026-10-11T21:48:42] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T21:48:42] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T21:48:42] Loading path: /
+[2026-10-11T21:48:42] Compiling 2 files...
+[2026-10-11T21:48:43] Success :)
+[2026-10-11T21:48:43] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T21:48:43] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T21:48:43] === CN RUNTIME QA PROBE ===
+[2026-10-11T21:48:43] Loading path: /
+[2026-10-11T21:48:43] Compiling 1 file...
+[2026-10-11T21:48:46] Success :)
+[2026-10-11T21:48:46] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T21:48:46] == COMPILER WARNINGS ==
+[2026-10-11T21:48:46] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,459): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T21:48:46] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10542,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T21:48:46] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T21:48:46] ==== FINAL LOAD ORDER ====
+[2026-10-11T21:48:46] 1: QudSimplifiedChinese
+[2026-10-11T21:48:46] 2: QudCnSupplement
+[2026-10-11T21:48:46] 3: QudCnTestProbe
+[2026-10-11T21:50:18] BuildLogger initialized...
+[2026-10-11T21:50:18] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T21:50:18] ==== BUILDING MODS ====
+[2026-10-11T21:50:18] Defined symbol: VERSION_1_1
+[2026-10-11T21:50:18] Defined symbol: BUILD_2_0_212
+[2026-10-11T21:50:18] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T21:50:18] Loading path: /
+[2026-10-11T21:50:18] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T21:50:18] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T21:50:18] Loading path: /
+[2026-10-11T21:50:18] Compiling 2 files...
+[2026-10-11T21:50:19] Success :)
+[2026-10-11T21:50:19] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T21:50:19] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T21:50:19] === CN RUNTIME QA PROBE ===
+[2026-10-11T21:50:19] Loading path: /
+[2026-10-11T21:50:19] Compiling 1 file...
+[2026-10-11T21:50:22] Success :)
+[2026-10-11T21:50:22] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T21:50:22] == COMPILER WARNINGS ==
+[2026-10-11T21:50:22] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,459): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T21:50:22] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10542,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T21:50:22] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T21:50:22] ==== FINAL LOAD ORDER ====
+[2026-10-11T21:50:22] 1: QudSimplifiedChinese
+[2026-10-11T21:50:22] 2: QudCnSupplement
+[2026-10-11T21:50:22] 3: QudCnTestProbe
+[2026-10-11T22:12:21] BuildLogger initialized...
+[2026-10-11T22:12:22] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T22:12:22] ==== BUILDING MODS ====
+[2026-10-11T22:12:22] Defined symbol: VERSION_1_1
+[2026-10-11T22:12:22] Defined symbol: BUILD_2_0_212
+[2026-10-11T22:12:22] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T22:12:22] Loading path: /
+[2026-10-11T22:12:22] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T22:12:22] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T22:12:22] Loading path: /
+[2026-10-11T22:12:22] Compiling 2 files...
+[2026-10-11T22:12:23] Success :)
+[2026-10-11T22:12:23] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T22:12:23] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T22:12:23] === CN RUNTIME QA PROBE ===
+[2026-10-11T22:12:23] Loading path: /
+[2026-10-11T22:12:23] Compiling 2 files...
+[2026-10-11T22:12:25] Success :)
+[2026-10-11T22:12:25] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T22:12:25] == COMPILER WARNINGS ==
+[2026-10-11T22:12:25] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,459): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T22:12:25] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10542,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T22:12:25] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T22:12:25] ==== FINAL LOAD ORDER ====
+[2026-10-11T22:12:25] 1: QudSimplifiedChinese
+[2026-10-11T22:12:25] 2: QudCnSupplement
+[2026-10-11T22:12:25] 3: QudCnTestProbe
+[2026-10-11T22:22:21] BuildLogger initialized...
+[2026-10-11T22:22:22] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T22:22:22] ==== BUILDING MODS ====
+[2026-10-11T22:22:22] Defined symbol: VERSION_1_1
+[2026-10-11T22:22:22] Defined symbol: BUILD_2_0_212
+[2026-10-11T22:22:22] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T22:22:22] Loading path: /
+[2026-10-11T22:22:22] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T22:22:22] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T22:22:22] Loading path: /
+[2026-10-11T22:22:22] Compiling 4 files...
+[2026-10-11T22:22:23] Success :)
+[2026-10-11T22:22:23] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T22:22:23] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T22:22:23] === CN RUNTIME QA PROBE ===
+[2026-10-11T22:22:23] Loading path: /
+[2026-10-11T22:22:23] Compiling 2 files...
+[2026-10-11T22:22:25] Success :)
+[2026-10-11T22:22:25] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T22:22:25] == COMPILER WARNINGS ==
+[2026-10-11T22:22:25] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,621): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T22:22:25] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10542,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T22:22:25] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T22:22:25] ==== FINAL LOAD ORDER ====
+[2026-10-11T22:22:25] 1: QudSimplifiedChinese
+[2026-10-11T22:22:25] 2: QudCnSupplement
+[2026-10-11T22:22:25] 3: QudCnTestProbe
+[2026-10-11T22:23:39] BuildLogger initialized...
+[2026-10-11T22:23:39] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T22:23:39] ==== BUILDING MODS ====
+[2026-10-11T22:23:39] Defined symbol: VERSION_1_1
+[2026-10-11T22:23:39] Defined symbol: BUILD_2_0_212
+[2026-10-11T22:23:39] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T22:23:39] Loading path: /
+[2026-10-11T22:23:39] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T22:23:39] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T22:23:39] Loading path: /
+[2026-10-11T22:23:39] Compiling 4 files...
+[2026-10-11T22:23:40] Success :)
+[2026-10-11T22:23:40] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T22:23:40] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T22:23:40] === CN RUNTIME QA PROBE ===
+[2026-10-11T22:23:40] Loading path: /
+[2026-10-11T22:23:40] Compiling 2 files...
+[2026-10-11T22:23:42] Success :)
+[2026-10-11T22:23:42] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T22:23:42] == COMPILER WARNINGS ==
+[2026-10-11T22:23:42] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,621): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T22:23:42] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10542,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T22:23:42] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T22:23:42] ==== FINAL LOAD ORDER ====
+[2026-10-11T22:23:42] 1: QudSimplifiedChinese
+[2026-10-11T22:23:42] 2: QudCnSupplement
+[2026-10-11T22:23:42] 3: QudCnTestProbe
+[2026-10-11T22:24:56] BuildLogger initialized...
+[2026-10-11T22:24:57] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T22:24:57] ==== BUILDING MODS ====
+[2026-10-11T22:24:57] Defined symbol: VERSION_1_1
+[2026-10-11T22:24:57] Defined symbol: BUILD_2_0_212
+[2026-10-11T22:24:57] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T22:24:57] Loading path: /
+[2026-10-11T22:24:57] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T22:24:57] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T22:24:57] Loading path: /
+[2026-10-11T22:24:57] Compiling 4 files...
+[2026-10-11T22:24:57] Success :)
+[2026-10-11T22:24:57] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T22:24:57] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T22:24:57] === CN RUNTIME QA PROBE ===
+[2026-10-11T22:24:57] Loading path: /
+[2026-10-11T22:24:57] Compiling 2 files...
+[2026-10-11T22:25:00] Success :)
+[2026-10-11T22:25:00] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T22:25:00] == COMPILER WARNINGS ==
+[2026-10-11T22:25:00] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,621): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T22:25:00] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10542,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T22:25:00] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T22:25:00] ==== FINAL LOAD ORDER ====
+[2026-10-11T22:25:00] 1: QudSimplifiedChinese
+[2026-10-11T22:25:00] 2: QudCnSupplement
+[2026-10-11T22:25:00] 3: QudCnTestProbe
+[2026-10-11T22:30:15] BuildLogger initialized...
+[2026-10-11T22:30:16] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T22:30:16] ==== BUILDING MODS ====
+[2026-10-11T22:30:16] Defined symbol: VERSION_1_1
+[2026-10-11T22:30:16] Defined symbol: BUILD_2_0_212
+[2026-10-11T22:30:16] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T22:30:16] Loading path: /
+[2026-10-11T22:30:16] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T22:30:16] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T22:30:16] Loading path: /
+[2026-10-11T22:30:16] Compiling 6 files...
+[2026-10-11T22:30:17] Success :)
+[2026-10-11T22:30:17] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T22:30:17] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T22:30:17] === CN RUNTIME QA PROBE ===
+[2026-10-11T22:30:17] Loading path: /
+[2026-10-11T22:30:17] Compiling 3 files...
+[2026-10-11T22:30:19] Failure :(
+[2026-10-11T22:30:19] == COMPILER ERRORS ==
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/BookProbe.cs(88,102): error CS1009: Unrecognized escape sequence
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12857,2): error CS1513: } expected
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6,1): error CS0103: The name 'Check1' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7,1): error CS0103: The name 'Check2' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8,1): error CS0103: The name 'Check3' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9,1): error CS0103: The name 'Check4' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10,1): error CS0103: The name 'Check5' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11,1): error CS0103: The name 'Check6' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12,1): error CS0103: The name 'Check7' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(13,1): error CS0103: The name 'Check8' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(14,1): error CS0103: The name 'Check9' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(15,1): error CS0103: The name 'Check10' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(16,1): error CS0103: The name 'Check11' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(17,1): error CS0103: The name 'Check12' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(18,1): error CS0103: The name 'Check13' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(19,1): error CS0103: The name 'Check14' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(20,1): error CS0103: The name 'Check15' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(21,1): error CS0103: The name 'Check16' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(22,1): error CS0103: The name 'Check17' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(23,1): error CS0103: The name 'Check18' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(24,1): error CS0103: The name 'Check19' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(25,1): error CS0103: The name 'Check20' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(26,1): error CS0103: The name 'Check21' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(27,1): error CS0103: The name 'Check22' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(28,1): error CS0103: The name 'Check23' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(29,1): error CS0103: The name 'Check24' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(30,1): error CS0103: The name 'Check25' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(31,1): error CS0103: The name 'Check26' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(32,1): error CS0103: The name 'Check27' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(33,1): error CS0103: The name 'Check28' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(34,1): error CS0103: The name 'Check29' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(35,1): error CS0103: The name 'Check30' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(36,1): error CS0103: The name 'Check31' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(37,1): error CS0103: The name 'Check32' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(38,1): error CS0103: The name 'Check33' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(39,1): error CS0103: The name 'Check34' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(40,1): error CS0103: The name 'Check35' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(41,1): error CS0103: The name 'Check36' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(42,1): error CS0103: The name 'Check37' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(43,1): error CS0103: The name 'Check38' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(44,1): error CS0103: The name 'Check39' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(45,1): error CS0103: The name 'Check40' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(46,1): error CS0103: The name 'Check41' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(47,1): error CS0103: The name 'Check42' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(48,1): error CS0103: The name 'Check43' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(49,1): error CS0103: The name 'Check44' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(50,1): error CS0103: The name 'Check45' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(51,1): error CS0103: The name 'Check46' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(52,1): error CS0103: The name 'Check47' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(53,1): error CS0103: The name 'Check48' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(54,1): error CS0103: The name 'Check49' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(55,1): error CS0103: The name 'Check50' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(56,1): error CS0103: The name 'Check51' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(57,1): error CS0103: The name 'Check52' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(58,1): error CS0103: The name 'Check53' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(59,1): error CS0103: The name 'Check54' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(60,1): error CS0103: The name 'Check55' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(61,1): error CS0103: The name 'Check56' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(62,1): error CS0103: The name 'Check57' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(63,1): error CS0103: The name 'Check58' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(64,1): error CS0103: The name 'Check59' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(65,1): error CS0103: The name 'Check60' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(66,1): error CS0103: The name 'Check61' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(67,1): error CS0103: The name 'Check62' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(68,1): error CS0103: The name 'Check63' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(69,1): error CS0103: The name 'Check64' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(70,1): error CS0103: The name 'Check65' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(71,1): error CS0103: The name 'Check66' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(72,1): error CS0103: The name 'Check67' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(73,1): error CS0103: The name 'Check68' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(74,1): error CS0103: The name 'Check69' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(75,1): error CS0103: The name 'Check70' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(76,1): error CS0103: The name 'Check71' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(77,1): error CS0103: The name 'Check72' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(78,1): error CS0103: The name 'Check73' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(79,1): error CS0103: The name 'Check74' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(80,1): error CS0103: The name 'Check75' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(81,1): error CS0103: The name 'Check76' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(82,1): error CS0103: The name 'Check77' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(83,1): error CS0103: The name 'Check78' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(84,1): error CS0103: The name 'Check79' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(85,1): error CS0103: The name 'Check80' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(86,1): error CS0103: The name 'Check81' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(87,1): error CS0103: The name 'Check82' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(88,1): error CS0103: The name 'Check83' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(89,1): error CS0103: The name 'Check84' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(90,1): error CS0103: The name 'Check85' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(91,1): error CS0103: The name 'Check86' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(92,1): error CS0103: The name 'Check87' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(93,1): error CS0103: The name 'Check88' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(94,1): error CS0103: The name 'Check89' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(95,1): error CS0103: The name 'Check90' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(96,1): error CS0103: The name 'Check91' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(97,1): error CS0103: The name 'Check92' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(98,1): error CS0103: The name 'Check93' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(99,1): error CS0103: The name 'Check94' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(100,1): error CS0103: The name 'Check95' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(101,1): error CS0103: The name 'Check96' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(102,1): error CS0103: The name 'Check97' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(103,1): error CS0103: The name 'Check98' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(104,1): error CS0103: The name 'Check99' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(105,1): error CS0103: The name 'Check100' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(106,1): error CS0103: The name 'Check101' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(107,1): error CS0103: The name 'Check102' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(108,90): error CS0103: The name 'TestMessageQueue' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(108,110): error CS0103: The name 'TestHistory' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(108,125): error CS0103: The name 'TestPronouns' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(108,141): error CS0103: The name 'TestGrammar' does not exist in the current context
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12834,13): error CS0128: A local variable or function named 'TestGrammar' is already defined in this scope
+[2026-10-11T22:30:19] == COMPILER WARNINGS ==
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(225,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(349,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(473,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(597,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(721,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(845,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(969,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1093,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1217,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1341,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1465,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1589,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1713,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1837,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1961,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2085,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2209,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2333,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2457,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2581,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2705,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2829,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2953,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3077,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3201,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3325,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3449,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3573,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3697,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3821,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3945,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4069,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4193,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4317,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4441,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4565,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4689,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4813,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4937,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5061,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5185,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5309,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5433,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5557,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5681,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5805,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5929,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6053,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6177,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6301,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6425,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6549,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6673,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6797,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6921,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7045,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7169,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7293,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7417,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7541,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7665,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7789,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7913,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8037,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8161,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8285,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8409,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8533,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8657,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8781,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8905,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9029,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9153,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9277,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9401,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9525,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9649,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9773,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9897,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10021,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10145,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10269,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10393,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10517,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10641,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10765,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10889,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11013,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11137,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11261,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11385,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11509,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11633,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11757,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11881,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12005,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12129,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12253,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12377,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12501,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12625,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12749,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12784,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12793,621): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12809,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12849,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12769,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12734,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12757,13): warning CS8321: The local function 'Check102' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12793,13): warning CS8321: The local function 'TestMessageQueue' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12794,13): warning CS8321: The local function 'TestHistory' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12814,13): warning CS8321: The local function 'TestPronouns' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12834,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12610,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12633,13): warning CS8321: The local function 'Check101' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12486,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12509,13): warning CS8321: The local function 'Check100' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12362,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12385,13): warning CS8321: The local function 'Check99' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12238,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12261,13): warning CS8321: The local function 'Check98' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12114,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12137,13): warning CS8321: The local function 'Check97' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11990,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(12013,13): warning CS8321: The local function 'Check96' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11866,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11889,13): warning CS8321: The local function 'Check95' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11742,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11765,13): warning CS8321: The local function 'Check94' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11618,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11641,13): warning CS8321: The local function 'Check93' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11494,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11517,13): warning CS8321: The local function 'Check92' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11370,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11393,13): warning CS8321: The local function 'Check91' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11246,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11269,13): warning CS8321: The local function 'Check90' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11122,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11145,13): warning CS8321: The local function 'Check89' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10998,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(11021,13): warning CS8321: The local function 'Check88' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10874,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10897,13): warning CS8321: The local function 'Check87' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10750,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10773,13): warning CS8321: The local function 'Check86' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10626,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10649,13): warning CS8321: The local function 'Check85' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10502,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10525,13): warning CS8321: The local function 'Check84' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10378,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10401,13): warning CS8321: The local function 'Check83' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10254,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10277,13): warning CS8321: The local function 'Check82' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10130,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10153,13): warning CS8321: The local function 'Check81' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10006,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10029,13): warning CS8321: The local function 'Check80' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9882,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9905,13): warning CS8321: The local function 'Check79' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9758,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9781,13): warning CS8321: The local function 'Check78' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9634,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9657,13): warning CS8321: The local function 'Check77' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9510,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9533,13): warning CS8321: The local function 'Check76' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9386,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9409,13): warning CS8321: The local function 'Check75' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9262,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9285,13): warning CS8321: The local function 'Check74' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9138,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9161,13): warning CS8321: The local function 'Check73' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9014,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(9037,13): warning CS8321: The local function 'Check72' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8890,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8913,13): warning CS8321: The local function 'Check71' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8766,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8789,13): warning CS8321: The local function 'Check70' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8642,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8665,13): warning CS8321: The local function 'Check69' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8518,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8541,13): warning CS8321: The local function 'Check68' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8394,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8417,13): warning CS8321: The local function 'Check67' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8270,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8293,13): warning CS8321: The local function 'Check66' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8146,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8169,13): warning CS8321: The local function 'Check65' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8022,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(8045,13): warning CS8321: The local function 'Check64' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7898,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7921,13): warning CS8321: The local function 'Check63' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7774,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7797,13): warning CS8321: The local function 'Check62' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7650,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7673,13): warning CS8321: The local function 'Check61' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7526,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7549,13): warning CS8321: The local function 'Check60' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7402,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7425,13): warning CS8321: The local function 'Check59' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7278,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7301,13): warning CS8321: The local function 'Check58' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7154,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7177,13): warning CS8321: The local function 'Check57' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7030,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(7053,13): warning CS8321: The local function 'Check56' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6906,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6929,13): warning CS8321: The local function 'Check55' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6782,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6805,13): warning CS8321: The local function 'Check54' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6658,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6681,13): warning CS8321: The local function 'Check53' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6534,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6557,13): warning CS8321: The local function 'Check52' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6410,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6433,13): warning CS8321: The local function 'Check51' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6286,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6309,13): warning CS8321: The local function 'Check50' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6162,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6185,13): warning CS8321: The local function 'Check49' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6038,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(6061,13): warning CS8321: The local function 'Check48' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5914,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5937,13): warning CS8321: The local function 'Check47' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5790,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5813,13): warning CS8321: The local function 'Check46' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5666,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5689,13): warning CS8321: The local function 'Check45' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5542,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5565,13): warning CS8321: The local function 'Check44' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5418,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5441,13): warning CS8321: The local function 'Check43' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5294,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5317,13): warning CS8321: The local function 'Check42' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5170,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5193,13): warning CS8321: The local function 'Check41' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5046,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(5069,13): warning CS8321: The local function 'Check40' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4922,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4945,13): warning CS8321: The local function 'Check39' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4798,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4821,13): warning CS8321: The local function 'Check38' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4674,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4697,13): warning CS8321: The local function 'Check37' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4550,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4573,13): warning CS8321: The local function 'Check36' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4426,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4449,13): warning CS8321: The local function 'Check35' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4302,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4325,13): warning CS8321: The local function 'Check34' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4178,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4201,13): warning CS8321: The local function 'Check33' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4054,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(4077,13): warning CS8321: The local function 'Check32' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3930,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3953,13): warning CS8321: The local function 'Check31' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3806,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3829,13): warning CS8321: The local function 'Check30' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3682,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3705,13): warning CS8321: The local function 'Check29' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3558,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3581,13): warning CS8321: The local function 'Check28' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3434,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3457,13): warning CS8321: The local function 'Check27' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3310,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3333,13): warning CS8321: The local function 'Check26' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3186,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3209,13): warning CS8321: The local function 'Check25' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3062,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(3085,13): warning CS8321: The local function 'Check24' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2938,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2961,13): warning CS8321: The local function 'Check23' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2814,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2837,13): warning CS8321: The local function 'Check22' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2690,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2713,13): warning CS8321: The local function 'Check21' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2566,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2589,13): warning CS8321: The local function 'Check20' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2442,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2465,13): warning CS8321: The local function 'Check19' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2318,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2341,13): warning CS8321: The local function 'Check18' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2194,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2217,13): warning CS8321: The local function 'Check17' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2070,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(2093,13): warning CS8321: The local function 'Check16' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1946,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1969,13): warning CS8321: The local function 'Check15' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1822,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1845,13): warning CS8321: The local function 'Check14' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1698,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1721,13): warning CS8321: The local function 'Check13' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1574,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1597,13): warning CS8321: The local function 'Check12' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1450,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1473,13): warning CS8321: The local function 'Check11' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1326,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1349,13): warning CS8321: The local function 'Check10' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1202,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1225,13): warning CS8321: The local function 'Check9' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1078,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(1101,13): warning CS8321: The local function 'Check8' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(954,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(977,13): warning CS8321: The local function 'Check7' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(830,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(853,13): warning CS8321: The local function 'Check6' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(706,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(729,13): warning CS8321: The local function 'Check5' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(582,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(605,13): warning CS8321: The local function 'Check4' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(458,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(481,13): warning CS8321: The local function 'Check3' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(334,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(357,13): warning CS8321: The local function 'Check2' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(210,13): warning CS8321: The local function 'TestGrammar' is declared but never used
+[2026-10-11T22:30:19] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(233,13): warning CS8321: The local function 'Check1' is declared but never used
+[2026-10-11T22:30:19] ==== FINAL LOAD ORDER ====
+[2026-10-11T22:30:19] 1: QudSimplifiedChinese
+[2026-10-11T22:30:19] 2: QudCnSupplement
+[2026-10-11T22:31:27] BuildLogger initialized...
+[2026-10-11T22:31:27] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T22:31:27] ==== BUILDING MODS ====
+[2026-10-11T22:31:27] Defined symbol: VERSION_1_1
+[2026-10-11T22:31:27] Defined symbol: BUILD_2_0_212
+[2026-10-11T22:31:27] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T22:31:27] Loading path: /
+[2026-10-11T22:31:27] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T22:31:27] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T22:31:27] Loading path: /
+[2026-10-11T22:31:27] Compiling 6 files...
+[2026-10-11T22:31:28] Success :)
+[2026-10-11T22:31:28] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T22:31:28] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T22:31:28] === CN RUNTIME QA PROBE ===
+[2026-10-11T22:31:28] Loading path: /
+[2026-10-11T22:31:28] Compiling 3 files...
+[2026-10-11T22:31:31] Success :)
+[2026-10-11T22:31:31] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T22:31:31] == COMPILER WARNINGS ==
+[2026-10-11T22:31:31] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,621): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T22:31:31] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10542,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T22:31:31] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10582,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:31:31] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T22:31:31] ==== FINAL LOAD ORDER ====
+[2026-10-11T22:31:31] 1: QudSimplifiedChinese
+[2026-10-11T22:31:31] 2: QudCnSupplement
+[2026-10-11T22:31:31] 3: QudCnTestProbe
+[2026-10-11T22:35:12] BuildLogger initialized...
+[2026-10-11T22:35:12] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T22:35:12] ==== BUILDING MODS ====
+[2026-10-11T22:35:12] Defined symbol: VERSION_1_1
+[2026-10-11T22:35:12] Defined symbol: BUILD_2_0_212
+[2026-10-11T22:35:12] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T22:35:12] Loading path: /
+[2026-10-11T22:35:12] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T22:35:12] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T22:35:12] Loading path: /
+[2026-10-11T22:35:12] Compiling 6 files...
+[2026-10-11T22:35:13] Success :)
+[2026-10-11T22:35:13] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T22:35:13] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T22:35:13] === CN RUNTIME QA PROBE ===
+[2026-10-11T22:35:13] Loading path: /
+[2026-10-11T22:35:13] Compiling 3 files...
+[2026-10-11T22:35:16] Success :)
+[2026-10-11T22:35:16] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T22:35:16] == COMPILER WARNINGS ==
+[2026-10-11T22:35:16] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,621): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T22:35:16] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10542,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T22:35:16] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10586,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:35:16] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10588,116): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:35:16] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T22:35:16] ==== FINAL LOAD ORDER ====
+[2026-10-11T22:35:16] 1: QudSimplifiedChinese
+[2026-10-11T22:35:16] 2: QudCnSupplement
+[2026-10-11T22:35:16] 3: QudCnTestProbe
+[2026-10-11T22:40:02] BuildLogger initialized...
+[2026-10-11T22:40:02] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T22:40:02] ==== BUILDING MODS ====
+[2026-10-11T22:40:02] Defined symbol: VERSION_1_1
+[2026-10-11T22:40:02] Defined symbol: BUILD_2_0_212
+[2026-10-11T22:40:02] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T22:40:02] Loading path: /
+[2026-10-11T22:40:02] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T22:40:02] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T22:40:02] Loading path: /
+[2026-10-11T22:40:02] Compiling 6 files...
+[2026-10-11T22:40:03] Success :)
+[2026-10-11T22:40:03] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T22:40:03] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T22:40:03] === CN RUNTIME QA PROBE ===
+[2026-10-11T22:40:03] Loading path: /
+[2026-10-11T22:40:03] Compiling 3 files...
+[2026-10-11T22:40:06] Success :)
+[2026-10-11T22:40:06] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T22:40:06] == COMPILER WARNINGS ==
+[2026-10-11T22:40:06] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,621): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T22:40:06] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10542,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T22:40:06] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10589,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:40:06] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10591,116): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:40:06] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T22:40:06] ==== FINAL LOAD ORDER ====
+[2026-10-11T22:40:06] 1: QudSimplifiedChinese
+[2026-10-11T22:40:06] 2: QudCnSupplement
+[2026-10-11T22:40:06] 3: QudCnTestProbe
+[2026-10-11T22:42:22] BuildLogger initialized...
+[2026-10-11T22:42:22] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T22:42:22] ==== BUILDING MODS ====
+[2026-10-11T22:42:22] Defined symbol: VERSION_1_1
+[2026-10-11T22:42:22] Defined symbol: BUILD_2_0_212
+[2026-10-11T22:42:22] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T22:42:22] Loading path: /
+[2026-10-11T22:42:22] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T22:42:22] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T22:42:22] Loading path: /
+[2026-10-11T22:42:22] Compiling 6 files...
+[2026-10-11T22:42:23] Success :)
+[2026-10-11T22:42:23] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T22:42:23] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T22:42:23] === CN RUNTIME QA PROBE ===
+[2026-10-11T22:42:23] Loading path: /
+[2026-10-11T22:42:23] Compiling 3 files...
+[2026-10-11T22:42:27] Success :)
+[2026-10-11T22:42:27] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T22:42:27] == COMPILER WARNINGS ==
+[2026-10-11T22:42:27] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,621): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T22:42:27] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10542,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T22:42:27] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10589,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:42:27] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10591,116): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:42:27] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T22:42:27] ==== FINAL LOAD ORDER ====
+[2026-10-11T22:42:27] 1: QudSimplifiedChinese
+[2026-10-11T22:42:27] 2: QudCnSupplement
+[2026-10-11T22:42:27] 3: QudCnTestProbe
+[2026-10-11T22:47:15] BuildLogger initialized...
+[2026-10-11T22:47:16] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T22:47:16] ==== BUILDING MODS ====
+[2026-10-11T22:47:16] Defined symbol: VERSION_1_1
+[2026-10-11T22:47:16] Defined symbol: BUILD_2_0_212
+[2026-10-11T22:47:16] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T22:47:16] Loading path: /
+[2026-10-11T22:47:16] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T22:47:16] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T22:47:16] Loading path: /
+[2026-10-11T22:47:16] Compiling 7 files...
+[2026-10-11T22:47:17] Success :)
+[2026-10-11T22:47:17] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T22:47:17] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T22:47:17] === CN RUNTIME QA PROBE ===
+[2026-10-11T22:47:17] Loading path: /
+[2026-10-11T22:47:17] Compiling 4 files...
+[2026-10-11T22:47:20] Success :)
+[2026-10-11T22:47:20] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T22:47:20] == COMPILER WARNINGS ==
+[2026-10-11T22:47:20] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,621): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T22:47:20] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10542,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T22:47:20] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10578,18): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T22:47:20] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10593,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:47:20] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10595,116): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:47:20] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T22:47:20] ==== FINAL LOAD ORDER ====
+[2026-10-11T22:47:20] 1: QudSimplifiedChinese
+[2026-10-11T22:47:20] 2: QudCnSupplement
+[2026-10-11T22:47:20] 3: QudCnTestProbe
+[2026-10-11T22:50:38] BuildLogger initialized...
+[2026-10-11T22:50:39] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T22:50:39] ==== BUILDING MODS ====
+[2026-10-11T22:50:39] Defined symbol: VERSION_1_1
+[2026-10-11T22:50:39] Defined symbol: BUILD_2_0_212
+[2026-10-11T22:50:39] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T22:50:39] Loading path: /
+[2026-10-11T22:50:39] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T22:50:39] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T22:50:39] Loading path: /
+[2026-10-11T22:50:39] Compiling 7 files...
+[2026-10-11T22:50:40] Success :)
+[2026-10-11T22:50:40] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T22:50:40] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T22:50:40] === CN RUNTIME QA PROBE ===
+[2026-10-11T22:50:40] Loading path: /
+[2026-10-11T22:50:40] Compiling 4 files...
+[2026-10-11T22:50:43] Success :)
+[2026-10-11T22:50:43] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T22:50:43] == COMPILER WARNINGS ==
+[2026-10-11T22:50:43] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,621): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T22:50:43] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10542,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T22:50:43] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10578,18): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T22:50:43] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10593,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:50:43] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10595,116): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:50:43] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T22:50:43] ==== FINAL LOAD ORDER ====
+[2026-10-11T22:50:43] 1: QudSimplifiedChinese
+[2026-10-11T22:50:43] 2: QudCnSupplement
+[2026-10-11T22:50:43] 3: QudCnTestProbe
+[2026-10-11T22:50:54] BuildLogger initialized...
+[2026-10-11T22:50:55] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T22:50:55] ==== BUILDING MODS ====
+[2026-10-11T22:50:55] Defined symbol: VERSION_1_1
+[2026-10-11T22:50:55] Defined symbol: BUILD_2_0_212
+[2026-10-11T22:50:55] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T22:50:55] Loading path: /
+[2026-10-11T22:50:55] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T22:50:55] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T22:50:55] Loading path: /
+[2026-10-11T22:50:55] Compiling 7 files...
+[2026-10-11T22:50:56] Success :)
+[2026-10-11T22:50:56] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T22:50:56] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T22:50:56] === CN RUNTIME QA PROBE ===
+[2026-10-11T22:50:56] Loading path: /
+[2026-10-11T22:50:56] Compiling 4 files...
+[2026-10-11T22:50:59] Success :)
+[2026-10-11T22:50:59] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T22:50:59] == COMPILER WARNINGS ==
+[2026-10-11T22:50:59] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,621): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T22:50:59] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10542,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T22:50:59] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10578,18): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T22:50:59] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10593,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:50:59] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10595,116): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:50:59] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T22:50:59] ==== FINAL LOAD ORDER ====
+[2026-10-11T22:50:59] 1: QudSimplifiedChinese
+[2026-10-11T22:50:59] 2: QudCnSupplement
+[2026-10-11T22:50:59] 3: QudCnTestProbe
+[2026-10-11T22:51:35] BuildLogger initialized...
+[2026-10-11T22:51:36] ==== RESOLVING DEPENDENCIES ====
+[2026-10-11T22:51:36] ==== BUILDING MODS ====
+[2026-10-11T22:51:36] Defined symbol: VERSION_1_1
+[2026-10-11T22:51:36] Defined symbol: BUILD_2_0_212
+[2026-10-11T22:51:36] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-11T22:51:36] Loading path: /
+[2026-10-11T22:51:36] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-11T22:51:36] === CAVES OF QUD 简体中文补充 ===
+[2026-10-11T22:51:36] Loading path: /
+[2026-10-11T22:51:36] Compiling 7 files...
+[2026-10-11T22:51:36] Success :)
+[2026-10-11T22:51:36] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-11T22:51:36] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-11T22:51:36] === CN RUNTIME QA PROBE ===
+[2026-10-11T22:51:36] Loading path: /
+[2026-10-11T22:51:36] Compiling 4 files...
+[2026-10-11T22:51:40] Success :)
+[2026-10-11T22:51:40] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-11T22:51:40] == COMPILER WARNINGS ==
+[2026-10-11T22:51:40] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10526,621): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T22:51:40] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10542,25): warning CS0618: 'HistoricStringExpander.ExpandString(string, Random)' is obsolete: 'Use "=spice:query=".StartReplacer() syntax.'
+[2026-10-11T22:51:40] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10578,18): warning CS0618: 'Grammar.Pluralize(string)' is obsolete: 'Use =|pluralize='
+[2026-10-11T22:51:40] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10593,16): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:51:40] <...>/CavesOfQud/Mods/QudCnTestProbe/Probe.cs(10595,116): warning CS0618: 'Grammar.MakeAndList(IReadOnlyList<string>, bool)' is obsolete: 'use Translator.MakeAndList'
+[2026-10-11T22:51:40] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-11T22:51:40] ==== FINAL LOAD ORDER ====
+[2026-10-11T22:51:40] 1: QudSimplifiedChinese
+[2026-10-11T22:51:40] 2: QudCnSupplement
+[2026-10-11T22:51:40] 3: QudCnTestProbe
+

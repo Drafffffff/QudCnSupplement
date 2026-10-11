@@ -1,0 +1,1637 @@
+[
+  {
+    "source": "{{rules|熊}} 有兴趣交易关于 灵液商人的位置和蜂蜜 渗泣点的位置 的秘密。 他们也有兴趣听取关于他们自己的传闻。",
+    "paths": [
+      "Factions/Scroller/Item Scroller/Scroll View/Viewport/Content/#17 FactionsScrollerLine/Details/Text3",
+      "Factions/Scroller/Item Scroller/Scroll View/Viewport/Content/#16 FactionsScrollerLine/Details/Text3",
+      "Factions/Scroller/Item Scroller/Scroll View/Viewport/Content/#15 FactionsScrollerLine/Details/Text3",
+      "Factions/Scroller/Item Scroller/Scroll View/Viewport/Content/#14 FactionsScrollerLine/Details/Text3",
+      "Factions/Scroller/Item Scroller/Scroll View/Viewport/Content/#13 FactionsScrollerLine/Details/Text3",
+      "Factions/Scroller/Item Scroller/Scroll View/Viewport/Content/#12 FactionsScrollerLine/Details/Text3",
+      "Factions/Scroller/Item Scroller/Scroll View/Viewport/Content/#11 FactionsScrollerLine/Details/Text3",
+      "Factions/Scroller/Item Scroller/Scroll View/Viewport/Content/#10 FactionsScrollerLine/Details/Text3",
+      "Factions/Scroller/Item Scroller/Scroll View/Viewport/Content/#9 FactionsScrollerLine/Details/Text3",
+      "Factions/Scroller/Item Scroller/Scroll View/Viewport/Content/#8 FactionsScrollerLine/Details/Text3",
+      "Factions/Scroller/Item Scroller/Scroll View/Viewport/Content/#7 FactionsScrollerLine/Details/Text3",
+      "Factions/Scroller/Item Scroller/Scroll View/Viewport/Content/#6 FactionsScrollerLine/Details/Text3",
+      "Factions/Scroller/Item Scroller/Scroll View/Viewport/Content/#5 FactionsScrollerLine/Details/Text3",
+      "Factions/Scroller/Item Scroller/Scroll View/Viewport/Content/#4 FactionsScrollerLine/Details/Text3",
+      "Factions/Scroller/Item Scroller/Scroll View/Viewport/Content/#3 FactionsScrollerLine/Details/Text3",
+      "Factions/Scroller/Item Scroller/Scroll View/Viewport/Content/#2 FactionsScrollerLine/Details/Text3",
+      "Factions/Scroller/Item Scroller/Scroll View/Viewport/Content/#1 FactionsScrollerLine/Details/Text3",
+      "Factions/Scroller/Item Scroller/Scroll View/Viewport/Content/#0 FactionsScrollerLine/Details/Text3"
+    ]
+  },
+  {
+    "source": "label",
+    "paths": [
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/#17 FactionsScrollerLine/Contents/Faction/Text",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/#16 FactionsScrollerLine/Contents/Faction/Text",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/#15 FactionsScrollerLine/Contents/Faction/Text",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/#14 FactionsScrollerLine/Contents/Faction/Text",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/#13 FactionsScrollerLine/Contents/Faction/Text",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/#12 FactionsScrollerLine/Contents/Faction/Text",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/#11 FactionsScrollerLine/Contents/Faction/Text",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/#10 FactionsScrollerLine/Contents/Faction/Text",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/#9 FactionsScrollerLine/Contents/Faction/Text",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/#8 FactionsScrollerLine/Contents/Faction/Text",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/#7 FactionsScrollerLine/Contents/Faction/Text",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/#6 FactionsScrollerLine/Contents/Faction/Text",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/#5 FactionsScrollerLine/Contents/Faction/Text",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/#4 FactionsScrollerLine/Contents/Faction/Text",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/#3 FactionsScrollerLine/Contents/Faction/Text",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/#2 FactionsScrollerLine/Contents/Faction/Text",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/#1 FactionsScrollerLine/Contents/Faction/Text",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/#0 FactionsScrollerLine/Contents/Faction/Text"
+    ]
+  },
+  {
+    "source": "MA: 99",
+    "paths": [
+      "UI Manager/PlayerStatusBar/Top/TopLeft/StatusBarStatBlock (1)/StatusBarStatBlockTextTemplate(Clone)"
+    ]
+  },
+  {
+    "source": "DV: 99",
+    "paths": [
+      "UI Manager/PlayerStatusBar/Top/TopLeft/StatusBarStatBlock (1)/StatusBarStatBlockTextTemplate(Clone)"
+    ]
+  },
+  {
+    "source": "AV: 99",
+    "paths": [
+      "UI Manager/PlayerStatusBar/Top/TopLeft/StatusBarStatBlock (1)/StatusBarStatBlockTextTemplate(Clone)"
+    ]
+  },
+  {
+    "source": "MO: 99",
+    "paths": [
+      "UI Manager/PlayerStatusBar/Top/TopLeft/StatusBarStatBlock (1)/StatusBarStatBlockTextTemplate(Clone)"
+    ]
+  },
+  {
+    "source": "SP: 99",
+    "paths": [
+      "UI Manager/PlayerStatusBar/Top/TopLeft/StatusBarStatBlock (1)/StatusBarStatBlockTextTemplate(Clone)"
+    ]
+  },
+  {
+    "source": "%WoundLevel%",
+    "paths": [
+      "UI Manager/Tooltip Container/PolatLooker/VLayout/GameObject (1)/WoundLevel",
+      "UI Manager/Tooltip Container/DualPolatLooker/VLayout/GameObject (1)/WoundLevel",
+      "DualPolatLooker/VLayout/GameObject (1)/WoundLevel",
+      "PolatLooker/VLayout/GameObject (1)/WoundLevel"
+    ]
+  },
+  {
+    "source": "%LongDescription%",
+    "paths": [
+      "UI Manager/Tooltip Container/PolatLooker/VLayout/Scroll View/Viewport/Content/LongDescription",
+      "UI Manager/Tooltip Container/DualPolatLooker/VLayout/Scroll View/Viewport/Content/LongDescription",
+      "DualPolatLooker/VLayout/Scroll View/Viewport/Content/LongDescription",
+      "PolatLooker/VLayout/Scroll View/Viewport/Content/LongDescription"
+    ]
+  },
+  {
+    "source": "%ConText%\\n",
+    "paths": [
+      "UI Manager/Tooltip Container/PolatLooker/VLayout/SubHeader",
+      "PolatLooker/VLayout/SubHeader"
+    ]
+  },
+  {
+    "source": "%DisplayName%",
+    "paths": [
+      "UI Manager/Tooltip Container/PolatLooker/VLayout/DisplayName",
+      "UI Manager/Tooltip Container/DualPolatLooker/VLayout/GameObject (2)/DisplayName",
+      "DualPolatLooker/VLayout/GameObject (2)/DisplayName",
+      "PolatLooker/VLayout/DisplayName"
+    ]
+  },
+  {
+    "source": "%WoundLevel2%",
+    "paths": [
+      "UI Manager/Tooltip Container/DualPolatLooker/VLayout (1)/GameObject (1)/WoundLevel",
+      "DualPolatLooker/VLayout (1)/GameObject (1)/WoundLevel"
+    ]
+  },
+  {
+    "source": "%LongDescription2%",
+    "paths": [
+      "UI Manager/Tooltip Container/DualPolatLooker/VLayout (1)/Scroll View/Viewport/Content/LongDescription",
+      "DualPolatLooker/VLayout (1)/Scroll View/Viewport/Content/LongDescription"
+    ]
+  },
+  {
+    "source": "%ConText2%",
+    "paths": [
+      "UI Manager/Tooltip Container/DualPolatLooker/VLayout (1)/GameObject (2)/SubHeader",
+      "DualPolatLooker/VLayout (1)/GameObject (2)/SubHeader"
+    ]
+  },
+  {
+    "source": "%DisplayName2%",
+    "paths": [
+      "UI Manager/Tooltip Container/DualPolatLooker/VLayout (1)/GameObject (2)/DisplayName",
+      "DualPolatLooker/VLayout (1)/GameObject (2)/DisplayName"
+    ]
+  },
+  {
+    "source": "Equipped Item",
+    "paths": [
+      "UI Manager/Tooltip Container/DualPolatLooker/VLayout (1)/GameObject (2)/Text (TMP) (1)",
+      "DualPolatLooker/VLayout (1)/GameObject (2)/Text (TMP) (1)"
+    ]
+  },
+  {
+    "source": "%ConText%",
+    "paths": [
+      "UI Manager/Tooltip Container/DualPolatLooker/VLayout/GameObject (2)/SubHeader",
+      "DualPolatLooker/VLayout/GameObject (2)/SubHeader"
+    ]
+  },
+  {
+    "source": "This Item",
+    "paths": [
+      "UI Manager/Tooltip Container/DualPolatLooker/VLayout/GameObject (2)/Text (TMP)",
+      "DualPolatLooker/VLayout/GameObject (2)/Text (TMP)"
+    ]
+  },
+  {
+    "source": "%BodyText%",
+    "paths": [
+      "UI Manager/Tooltip Container/PolatTip/BodyText",
+      "PolatTip/BodyText"
+    ]
+  },
+  {
+    "source": "{{W|[arrows]}} nav\\n",
+    "paths": [
+      "KeyMenuOption/Title",
+      "OptionsRow/OptionsComboBoxRow/Options/KeyMenuOption/Title",
+      "UI Manager/CyberneticsTerminal/SafeArea/Background/Outer VLayout/KeyMenuOptionBar/Container/KeyMenuOption/Title",
+      "UI Manager/PickGameObject/SafeArea/Background/Outer VLayout/KeyMenuOptionBar/Container/KeyMenuOption/Title",
+      "SavesScroller/SafeArea/HLayout (reverse for z stack)/VLayout/VLayout/KeyMenuOptionBar/Container/KeyMenuOption/Title",
+      "UI Manager/Chargen/Overlay/KeyDescriptions/MenuBar/Container/KeyMenuOption/Title",
+      "KeybindsScroller/SafeArea/HLayout (order reversed for z level stacking)/VLayout/VLayout/KeyMenuOptionBar/Container/KeyMenuOption/Title",
+      "UI Manager/GameSummary/SafeArea/VLayout/ScrollerLayout/KeyMenuOptionBar/Container/KeyMenuOption/Title",
+      "UI Manager/MainMenu/KeyMenuOptionBar/Container/KeyMenuOption/Title",
+      "OptionsScreen/SafeArea/HLayout (order reversed for z level stacking)/VLayout/VLayout/KeyMenuOptionBar/Container/KeyMenuOption/Title",
+      "Scroll View/Viewport/Content/Container/OptionsRow/OptionsComboBoxRow/Options/KeyMenuOption/Title",
+      "SavesScroller/SafeArea/HLayout/VLayout/VLayout/KeyMenuOptionBar/Container/KeyMenuOption/Title",
+      "HLayout (order reversed for z level stacking)/VLayout/padding/RightSide/OptionsRow/OptionsComboBoxRow/Options/KeyMenuOption/Title",
+      "UI Manager/Chargen/Overlay/KeyDescriptions/InfoBar/Container/KeyMenuOption/Title",
+      "Trade/SafeArea/Background/Outer VLayout/FilterBar/KeyMenuOptionBar/Container/KeyMenuOption/Title",
+      "UI Manager/AskNumber/SafeArea/Background/Outer VLayout/KeyMenuOptionBar/Container/KeyMenuOption/Title",
+      "Scroller/SafeArea/HLayout/VLayout/VLayout/KeyMenuOptionBar/Container/KeyMenuOption/Title",
+      "UI Manager/Book/SafeArea/Background/Outer VLayout/KeyMenuOptionBar/Container/KeyMenuOption/Title",
+      "UI Manager/StatusScreens/SafeArea/Background/Outer VLayout/KeyMenuOptionBar/Container/KeyMenuOption/Title",
+      "UI Manager/AbilityManagerScreen/SafeArea/Background/VLayout/KeyMenuOptionBar/Container/KeyMenuOption/Title",
+      "HelpScreen/SafeArea/HLayout (order reversed for z level stacking)/VLayout/VLayout/KeyMenuOptionBar/Container/KeyMenuOption/Title"
+    ]
+  },
+  {
+    "source": "Size:",
+    "paths": [
+      "ModMenuLine/Horiz/Right Side/Horiz (1)/s/Header"
+    ]
+  },
+  {
+    "source": "[20 lbs.]",
+    "paths": [
+      "EquipmentScrollerLine/RightFloatSeperator/CategoryWeightText",
+      "InventoryScrollerLine/RightFloatSeperator/CategoryWeightText",
+      "EquipmentScrollerLine/RightFloatSeperator/ItemWeightText",
+      "InventoryScrollerLine/RightFloatSeperator/ItemWeightText"
+    ]
+  },
+  {
+    "source": "abcdefghi",
+    "paths": [
+      "SkillsAndPowersScrollerLine/Skill/TextBackground/RightText",
+      "SkillsAndPowersScrollerLine/Power/Text",
+      "SkillsAndPowersScrollerLine/Skill/TextBackground/Text",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/SkillsAndPowersScrollerLine/Skill/TextBackground/RightText",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/SkillsAndPowersScrollerLine (1)/Skill/TextBackground/Text",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/SkillsAndPowersScrollerLine (2)/Skill/TextBackground/Text",
+      "SkillsAndPowers/Scroller/Item Scroller/Scroll View/Viewport/Content/SkillsAndPowersScrollerLine/Power/Text",
+      "SkillsAndPowers/Scroller/Item Scroller/Scroll View/Viewport/Content/SkillsAndPowersScrollerLine (2)/Power/Text",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/SkillsAndPowersScrollerLine/Skill/TextBackground/Text",
+      "SkillsAndPowers/Scroller/Item Scroller/Scroll View/Viewport/Content/SkillsAndPowersScrollerLine (1)/Power/Text",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/SkillsAndPowersScrollerLine (2)/Skill/TextBackground/RightText",
+      "Scroller/Item Scroller/Scroll View/Viewport/Content/SkillsAndPowersScrollerLine (1)/Skill/TextBackground/RightText"
+    ]
+  },
+  {
+    "source": "{{y|revisit epilogue}}",
+    "paths": [
+      "HighScoresRow/GameObject/Tags/Revisit Coda Button/tct",
+      "Scores Scroll View/Viewport/Content/Container/HighScoresRow (1)/GameObject/Tags/Revisit Coda Button/tct",
+      "Scores Scroll View/Viewport/Content/Container/HighScoresRow (2)/GameObject/Tags/Revisit Coda Button/tct",
+      "Scores Scroll View/Viewport/Content/Container/HighScoresRow/GameObject/Tags/Revisit Coda Button/tct"
+    ]
+  },
+  {
+    "source": "{{C|STATUS}}",
+    "paths": [
+      "OptionsRow/OptionsCheckboxRow/Description",
+      "CyberneticsTerminalRow/leftpad /HeaderRow/Description",
+      "OptionsRow/OptionsCategoryRow/Description",
+      "HelpRow/leftpad /HeaderRow/Description",
+      "KeybindsRow/HeaderRow/Description",
+      "OptionsRow/OptionsMenuButtonRow/Description",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/OptionsRow/OptionsCategoryRow/Description",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/OptionsRow/OptionsMenuButtonRow/Description",
+      "VLayout/Scroll View/Viewport/Content/Container/HelpRow (3)/leftpad /HeaderRow/Description",
+      "OptionsScreen/SafeArea/HLayout (order reversed for z level stacking)/VLayout/padding/RightSide/OptionsRow/OptionsCheckboxRow/Description",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/KeybindsRow (1)/HeaderRow/Description",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/OptionsRow/OptionsCheckboxRow/Description",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/KeybindsRow (3)/HeaderRow/Description",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/KeybindsRow (2)/HeaderRow/Description",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/KeybindsRow/HeaderRow/Description",
+      "VLayout/Scroll View/Viewport/Content/Container/HelpRow/leftpad /HeaderRow/Description",
+      "OptionsScreen/SafeArea/HLayout (order reversed for z level stacking)/VLayout/padding/RightSide/OptionsRow/OptionsMenuButtonRow/Description",
+      "OptionsScreen/SafeArea/HLayout (order reversed for z level stacking)/VLayout/padding/RightSide/OptionsRow/OptionsCategoryRow/Description",
+      "Display Scroller Left/Item Scroller/Scroll View/Viewport/Content/CyberneticsTerminalRow/leftpad /HeaderRow/Description"
+    ]
+  },
+  {
+    "source": "{{y|1)}} {{C|gnarf}}",
+    "paths": [
+      "SteamScoreRow/GameObject/Tags/TextLine1",
+      "VLayout/Scores Scroll View/Viewport/Content/Container/SteamScoreRow/GameObject/Tags/TextLine1"
+    ]
+  },
+  {
+    "source": "{{c|None}}",
+    "paths": [
+      "KeybindsRow/KeybindRow/KeybindBox (3)/Bind1",
+      "KeybindsRow/KeybindRow/KeybindBox/Bind1",
+      "KeybindsRow/KeybindRow/KeybindBox (1)/Bind1",
+      "KeybindsRow/KeybindRow/KeybindBox (2)/Bind1",
+      "VLayout/Scroll View/Viewport/Content/Container/KeybindsRow (1)/KeybindRow/KeybindBox (3)/Bind1",
+      "VLayout/Scroll View/Viewport/Content/Container/KeybindsRow (3)/KeybindRow/KeybindBox/Bind1",
+      "VLayout/Scroll View/Viewport/Content/Container/KeybindsRow/KeybindRow/KeybindBox/Bind1",
+      "VLayout/Scroll View/Viewport/Content/Container/KeybindsRow (2)/KeybindRow/KeybindBox/Bind1",
+      "VLayout/Scroll View/Viewport/Content/Container/KeybindsRow (1)/KeybindRow/KeybindBox/Bind1",
+      "VLayout/Scroll View/Viewport/Content/Container/KeybindsRow (3)/KeybindRow/KeybindBox (3)/Bind1",
+      "VLayout/Scroll View/Viewport/Content/Container/KeybindsRow/KeybindRow/KeybindBox (3)/Bind1",
+      "VLayout/Scroll View/Viewport/Content/Container/KeybindsRow (2)/KeybindRow/KeybindBox (3)/Bind1",
+      "VLayout/Scroll View/Viewport/Content/Container/KeybindsRow/KeybindRow/KeybindBox (2)/Bind1",
+      "VLayout/Scroll View/Viewport/Content/Container/KeybindsRow (2)/KeybindRow/KeybindBox (2)/Bind1",
+      "VLayout/Scroll View/Viewport/Content/Container/KeybindsRow (3)/KeybindRow/KeybindBox (2)/Bind1",
+      "VLayout/Scroll View/Viewport/Content/Container/KeybindsRow (1)/KeybindRow/KeybindBox (1)/Bind1",
+      "VLayout/Scroll View/Viewport/Content/Container/KeybindsRow/KeybindRow/KeybindBox (1)/Bind1",
+      "VLayout/Scroll View/Viewport/Content/Container/KeybindsRow (2)/KeybindRow/KeybindBox (1)/Bind1",
+      "VLayout/Scroll View/Viewport/Content/Container/KeybindsRow (3)/KeybindRow/KeybindBox (1)/Bind1",
+      "VLayout/Scroll View/Viewport/Content/Container/KeybindsRow (1)/KeybindRow/KeybindBox (2)/Bind1"
+    ]
+  },
+  {
+    "source": "Testing option",
+    "paths": [
+      "OptionsRow/OptionsComboBoxRow/Description",
+      "OptionsRow/OptionsSliderRow/Description",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/OptionsRow/OptionsSliderRow/Description",
+      "OptionsScreen/SafeArea/HLayout (order reversed for z level stacking)/VLayout/padding/RightSide/OptionsRow/OptionsComboBoxRow/Description",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/OptionsRow/OptionsComboBoxRow/Description",
+      "OptionsScreen/SafeArea/HLayout (order reversed for z level stacking)/VLayout/padding/RightSide/OptionsRow/OptionsSliderRow/Description"
+    ]
+  },
+  {
+    "source": "{{C|score}}",
+    "paths": [
+      "SteamScoreRow/GameObject/Tags/TextLine2",
+      "VLayout/Scores Scroll View/Viewport/Content/Container/SteamScoreRow/GameObject/Tags/TextLine2"
+    ]
+  },
+  {
+    "source": "New Game",
+    "paths": [
+      "LargeMainMenuOption",
+      "UI Manager/MainMenu/LeftPanel/SafeArea/Scroll View/Viewport/Content/Container/LargeMainMenuOption",
+      "UI Manager/MainMenu/CenterPanel/SafeArea/Frame/Border/Container/LargeMainMenuOption",
+      "UI Manager/MainMenu/CenterPanel/SafeArea/Frame/Border/Container/LargeMainMenuOption",
+      "UI Manager/MainMenu/CenterPanel/SafeArea/Frame/Border/Container/LargeMainMenuOption (3)",
+      "UI Manager/MainMenu/CenterPanel/SafeArea/Frame/Border/Container/LargeMainMenuOption (1)",
+      "UI Manager/MainMenu/CenterPanel/SafeArea/Frame/Border/Container/LargeMainMenuOption (2)",
+      "UI Manager/MainMenu/LeftPanel/SafeArea/Scroll View/Viewport/Content/Container/LargeMainMenuOption",
+      "UI Manager/MainMenu/LeftPanel/SafeArea/Scroll View/Viewport/Content/Container/LargeMainMenuOption (1)"
+    ]
+  },
+  {
+    "source": "short",
+    "paths": [
+      "ObjectFinderLine/MainText"
+    ]
+  },
+  {
+    "source": "0 bytes",
+    "paths": [
+      "ModMenuLine/Horiz/Right Side/Horiz (1)/s/Value"
+    ]
+  },
+  {
+    "source": "small option",
+    "paths": [
+      "SmallMainMenuOption"
+    ]
+  },
+  {
+    "source": "<X> Photonic Eignblah",
+    "paths": [
+      "TinkeringBitsScrollerLine/Number",
+      "TinkeringBitsScrollerLine/Text"
+    ]
+  },
+  {
+    "source": "Apple Matz",
+    "paths": [
+      "JournalScrollerLine/TextLayout/HeaderRow/Header",
+      "EntryScroller/Item Scroller/Scroll View/Viewport/Content/JournalScrollerLine (1)/TextLayout/HeaderRow/Header",
+      "EntryScroller/Item Scroller/Scroll View/Viewport/Content/JournalScrollerLine (3)/TextLayout/HeaderRow/Header",
+      "EntryScroller/Item Scroller/Scroll View/Viewport/Content/JournalScrollerLine (4)/TextLayout/HeaderRow/Header",
+      "EntryScroller/Item Scroller/Scroll View/Viewport/Content/JournalScrollerLine (10)/TextLayout/HeaderRow/Header",
+      "EntryScroller/Item Scroller/Scroll View/Viewport/Content/JournalScrollerLine/TextLayout/HeaderRow/Header",
+      "EntryScroller/Item Scroller/Scroll View/Viewport/Content/JournalScrollerLine (2)/TextLayout/HeaderRow/Header",
+      "EntryScroller/Item Scroller/Scroll View/Viewport/Content/JournalScrollerLine (8)/TextLayout/HeaderRow/Header",
+      "EntryScroller/Item Scroller/Scroll View/Viewport/Content/JournalScrollerLine (7)/TextLayout/HeaderRow/Header",
+      "EntryScroller/Item Scroller/Scroll View/Viewport/Content/JournalScrollerLine (5)/TextLayout/HeaderRow/Header",
+      "EntryScroller/Item Scroller/Scroll View/Viewport/Content/JournalScrollerLine (9)/TextLayout/HeaderRow/Header",
+      "EntryScroller/Item Scroller/Scroll View/Viewport/Content/JournalScrollerLine (6)/TextLayout/HeaderRow/Header"
+    ]
+  },
+  {
+    "source": "ST:99",
+    "paths": [
+      "StatusBarStatBlockTextTemplate"
+    ]
+  },
+  {
+    "source": "{{C|MISSILE WEAPONS |12 lbs.|}}",
+    "paths": [
+      "InventoryItemScrollerLine/Modes/Category/Text",
+      "EquipmentPaperdollScrollerLine/Modes/Category/Text",
+      "EquipmentPaperdoll/Item Scroller/Scroll View/Viewport/Content/EquipmentPaperdollScrollerLine/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (14)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (8)/Modes/Category/Text",
+      "Trade Scroller Right/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (2)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (22)/Modes/Category/Text",
+      "Inventory Item Scroller/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (1)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (13)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (5)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (15)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (2)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (4)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (21)/Modes/Category/Text",
+      "EquipmentPaperdoll/Item Scroller/Scroll View/Viewport/Content/EquipmentPaperdollScrollerLine (2)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (12)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine/Modes/Category/Text",
+      "EquipmentPaperdoll/Item Scroller/Scroll View/Viewport/Content/EquipmentPaperdollScrollerLine (1)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (19)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (3)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (17)/Modes/Category/Text",
+      "Trade Scroller Right/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (11)/Modes/Category/Text",
+      "Trade Scroller Right/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (3)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (9)/Modes/Category/Text",
+      "Inventory Item Scroller/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (2)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (3)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (1)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (10)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (1)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (2)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (20)/Modes/Category/Text",
+      "Trade Scroller Right/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (1)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (7)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (6)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (23)/Modes/Category/Text",
+      "Inventory Item Scroller/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (3)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (16)/Modes/Category/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (18)/Modes/Category/Text",
+      "Inventory Item Scroller/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine/Modes/Category/Text"
+    ]
+  },
+  {
+    "source": "MISSILE WEAPONS",
+    "paths": [
+      "TradeItemScrollerLine/Modes/Category/Text"
+    ]
+  },
+  {
+    "source": "MISSILE WEAPONS |12 lbs.|",
+    "paths": [
+      "EquipmentScrollerLine/Modes/Category/Text",
+      "InventoryScrollerLine/Modes/Category/Text"
+    ]
+  },
+  {
+    "source": "Some Ability Name {{W|<W>}}",
+    "paths": [
+      "AbilityManagerLine/Text",
+      "Background/VLayout/MainArea/Left Side/Scroll View/Viewport/Content/AbilityManagerLine/Text"
+    ]
+  },
+  {
+    "source": "{{c|Actions}}",
+    "paths": [
+      "LeftSideCategory/Category",
+      "UI Manager/HelpScreen/SafeArea/HLayout (order reversed for z level stacking)/CategorysContainer/LeftSideCategory/Category",
+      "UI Manager/HelpScreen/SafeArea/HLayout (order reversed for z level stacking)/CategorysContainer/LeftSideCategory (1)/Category",
+      "UI Manager/Keybinds/KeybindsScroller/SafeArea/HLayout (order reversed for z level stacking)/CategorysContainer/LeftSideCategory (2)/Category",
+      "UI Manager/HighScoresScreen/SavesScroller/SafeArea/HLayout (reverse for z stack)/CategorysContainer/LeftSideCategory (2)/Category",
+      "UI Manager/OptionsScreen/SafeArea/HLayout (order reversed for z level stacking)/CategorysContainer/LeftSideCategory (2)/Category",
+      "UI Manager/OptionsScreen/SafeArea/HLayout (order reversed for z level stacking)/CategorysContainer/LeftSideCategory/Category",
+      "UI Manager/HighScoresScreen/SavesScroller/SafeArea/HLayout (reverse for z stack)/CategorysContainer/LeftSideCategory/Category",
+      "UI Manager/OptionsScreen/SafeArea/HLayout (order reversed for z level stacking)/CategorysContainer/LeftSideCategory (1)/Category",
+      "UI Manager/Keybinds/KeybindsScroller/SafeArea/HLayout (order reversed for z level stacking)/CategorysContainer/LeftSideCategory/Category",
+      "UI Manager/HelpScreen/SafeArea/HLayout (order reversed for z level stacking)/CategorysContainer/LeftSideCategory (2)/Category",
+      "UI Manager/HighScoresScreen/SavesScroller/SafeArea/HLayout (reverse for z stack)/CategorysContainer/LeftSideCategory (1)/Category",
+      "UI Manager/Keybinds/KeybindsScroller/SafeArea/HLayout (order reversed for z level stacking)/CategorysContainer/LeftSideCategory (1)/Category"
+    ]
+  },
+  {
+    "source": "[-] DECODING THE SIGNAL",
+    "paths": [
+      "QuestsScrollerLine/Background/Title Text",
+      "Quests/List Scroller/Item Scroller/Scroll View/Viewport/Content/QuestsScrollerLine/Background/Title Text",
+      "Quests/List Scroller/Item Scroller/Scroll View/Viewport/Content/QuestsScrollerLine (2)/Background/Title Text",
+      "Quests/List Scroller/Item Scroller/Scroll View/Viewport/Content/QuestsScrollerLine (1)/Background/Title Text"
+    ]
+  },
+  {
+    "source": "What's Eating the Watervine?",
+    "paths": [
+      "MessageLogScrollerLine/Text",
+      "Screens/MessageLog/Scroller/Item Scroller/Scroll View/Viewport/Content/MessageLogScrollerLine (1)/Text",
+      "Screens/MessageLog/Scroller/Item Scroller/Scroll View/Viewport/Content/MessageLogScrollerLine/Text",
+      "Screens/MessageLog/Scroller/Item Scroller/Scroll View/Viewport/Content/MessageLogScrollerLine (2)/Text"
+    ]
+  },
+  {
+    "source": "Horns [5]",
+    "paths": [
+      "CharacterEffectScrollerLine/Text",
+      "CharacterMutationScrollerLine/Text"
+    ]
+  },
+  {
+    "source": "Tinkering Data",
+    "paths": [
+      "TinkeringScrollerLine/Text",
+      "TinkeringScrollerLine/CategoryText"
+    ]
+  },
+  {
+    "source": "RESHEPH",
+    "paths": [
+      "JournalSultanScrollerLine/SultanImage/Text"
+    ]
+  },
+  {
+    "source": "$ Journal Stuff\\n$ Journal Stuff\\n$ Journal Stuff",
+    "paths": [
+      "JournalScrollerLine/TextLayout/Text",
+      "Horizontal Layout/EntryScroller/Item Scroller/Scroll View/Viewport/Content/JournalScrollerLine (1)/TextLayout/Text",
+      "Horizontal Layout/EntryScroller/Item Scroller/Scroll View/Viewport/Content/JournalScrollerLine (3)/TextLayout/Text",
+      "Horizontal Layout/EntryScroller/Item Scroller/Scroll View/Viewport/Content/JournalScrollerLine (4)/TextLayout/Text",
+      "Horizontal Layout/EntryScroller/Item Scroller/Scroll View/Viewport/Content/JournalScrollerLine (10)/TextLayout/Text",
+      "Horizontal Layout/EntryScroller/Item Scroller/Scroll View/Viewport/Content/JournalScrollerLine/TextLayout/Text",
+      "Horizontal Layout/EntryScroller/Item Scroller/Scroll View/Viewport/Content/JournalScrollerLine (7)/TextLayout/Text",
+      "Horizontal Layout/EntryScroller/Item Scroller/Scroll View/Viewport/Content/JournalScrollerLine (8)/TextLayout/Text",
+      "Horizontal Layout/EntryScroller/Item Scroller/Scroll View/Viewport/Content/JournalScrollerLine (5)/TextLayout/Text",
+      "Horizontal Layout/EntryScroller/Item Scroller/Scroll View/Viewport/Content/JournalScrollerLine (2)/TextLayout/Text",
+      "Horizontal Layout/EntryScroller/Item Scroller/Scroll View/Viewport/Content/JournalScrollerLine (9)/TextLayout/Text",
+      "Horizontal Layout/EntryScroller/Item Scroller/Scroll View/Viewport/Content/JournalScrollerLine (6)/TextLayout/Text"
+    ]
+  },
+  {
+    "source": "{{C|BARATHRUMITES}}",
+    "paths": [
+      "FactionsScrollerLine/Contents/Faction/Text"
+    ]
+  },
+  {
+    "source": "{{C|Last Saved}}: Saturday May 09 2021 at 19:45",
+    "paths": [
+      "HighScoresRow/GameObject/TextLine2",
+      "SaveManagementRow/GameObject/TextLine2",
+      "AchievementViewRow/Content/Date",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/SaveManagementRow (2)/GameObject/TextLine2",
+      "VLayout/VLayout/Scores Scroll View/Viewport/Content/Container/HighScoresRow (2)/GameObject/TextLine2",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/AchievementViewRow (2)/Content/Date",
+      "VLayout/VLayout/Scores Scroll View/Viewport/Content/Container/HighScoresRow (1)/GameObject/TextLine2",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/AchievementViewRow/Content/Date",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/SaveManagementRow/GameObject/TextLine2",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/SaveManagementRow (1)/GameObject/TextLine2",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/AchievementViewRow (1)/Content/Date",
+      "VLayout/VLayout/Scores Scroll View/Viewport/Content/Container/HighScoresRow/GameObject/TextLine2"
+    ]
+  },
+  {
+    "source": "Blah Blah Blah",
+    "paths": [
+      "QuestsScrollerLine/QuestGiverLayout/Image/QuestGiverText",
+      "List Scroller/Item Scroller/Scroll View/Viewport/Content/QuestsScrollerLine (1)/QuestGiverLayout/Image/QuestGiverText",
+      "List Scroller/Item Scroller/Scroll View/Viewport/Content/QuestsScrollerLine (2)/QuestGiverLayout/Image/QuestGiverText",
+      "List Scroller/Item Scroller/Scroll View/Viewport/Content/QuestsScrollerLine/QuestGiverLayout/Image/QuestGiverText"
+    ]
+  },
+  {
+    "source": "{{K|Total size: 25mb {asdbfasd-asdf-asdf-asdfasdf}",
+    "paths": [
+      "HighScoresRow/GameObject/Tags/GameObject/TextLine4",
+      "HighScoresRow/GameObject/TextLine3",
+      "SaveManagementRow/GameObject/TextLine3",
+      "Scores Scroll View/Viewport/Content/Container/HighScoresRow/GameObject/Tags/GameObject/TextLine4",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/SaveManagementRow (1)/GameObject/TextLine3",
+      "VLayout/VLayout/Scores Scroll View/Viewport/Content/Container/HighScoresRow/GameObject/TextLine3",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/SaveManagementRow/GameObject/TextLine3",
+      "Scores Scroll View/Viewport/Content/Container/HighScoresRow (1)/GameObject/Tags/GameObject/TextLine4",
+      "VLayout/VLayout/Scores Scroll View/Viewport/Content/Container/HighScoresRow (2)/GameObject/TextLine3",
+      "Scores Scroll View/Viewport/Content/Container/HighScoresRow (2)/GameObject/Tags/GameObject/TextLine4",
+      "VLayout/VLayout/Scores Scroll View/Viewport/Content/Container/HighScoresRow (1)/GameObject/TextLine3",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/SaveManagementRow (2)/GameObject/TextLine3"
+    ]
+  },
+  {
+    "source": "Unknown type",
+    "paths": [
+      "OptionsRow/Unknown",
+      "HLayout (order reversed for z level stacking)/VLayout/VLayout/Scroll View/Viewport/Content/Container/OptionsRow/Unknown",
+      "UI Manager/OptionsScreen/SafeArea/HLayout (order reversed for z level stacking)/VLayout/padding/RightSide/OptionsRow/Unknown"
+    ]
+  },
+  {
+    "source": "{{C|The Barathrumites}} are interested in trading secrets about technology and the locations of Putus Templar enclaves. They are also interested in hearing gossip that's about them.",
+    "paths": [
+      "FactionsScrollerLine/Details/Text3"
+    ]
+  },
+  {
+    "source": "{{W|Character name :: Level xx :: Mutated Human Arconaut}}",
+    "paths": [
+      "AchievementViewRow/Content/Name",
+      "HighScoresRow/GameObject/TextHeader",
+      "SaveManagementRow/GameObject/TextHeader",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/SaveManagementRow/GameObject/TextHeader",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/SaveManagementRow (1)/GameObject/TextHeader",
+      "VLayout/VLayout/Scores Scroll View/Viewport/Content/Container/HighScoresRow/GameObject/TextHeader",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/AchievementViewRow (2)/Content/Name",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/AchievementViewRow/Content/Name",
+      "VLayout/VLayout/Scores Scroll View/Viewport/Content/Container/HighScoresRow (2)/GameObject/TextHeader",
+      "VLayout/VLayout/Scores Scroll View/Viewport/Content/Container/HighScoresRow (1)/GameObject/TextHeader",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/SaveManagementRow (2)/GameObject/TextHeader",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/AchievementViewRow (1)/Content/Name"
+    ]
+  },
+  {
+    "source": "You aren't welcome in their holy places.",
+    "paths": [
+      "FactionsScrollerLine/Details/Text2"
+    ]
+  },
+  {
+    "source": "Quest Giver: ",
+    "paths": [
+      "QuestsScrollerLine/QuestGiverLayout/Image/QuestGiverTextLabel",
+      "List Scroller/Item Scroller/Scroll View/Viewport/Content/QuestsScrollerLine (1)/QuestGiverLayout/Image/QuestGiverTextLabel",
+      "List Scroller/Item Scroller/Scroll View/Viewport/Content/QuestsScrollerLine (2)/QuestGiverLayout/Image/QuestGiverTextLabel",
+      "List Scroller/Item Scroller/Scroll View/Viewport/Content/QuestsScrollerLine/QuestGiverLayout/Image/QuestGiverTextLabel"
+    ]
+  },
+  {
+    "source": "{{w|bronze}} long sword {{c|\u001a}}4 {{r|\u0003}}1d3",
+    "paths": [
+      "InventoryItemScrollerLine/Modes/Item/Text",
+      "TradeItemScrollerLine/Modes/Item/Text",
+      "EquipmentScrollerLine/Modes/Item/TextShell/BodyPartText",
+      "InventoryScrollerLine/Modes/Item/TextShell/Text",
+      "EquipmentScrollerLine/Modes/Item/ItemShell/ItemNameText",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (23)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (6)/Modes/Item/Text",
+      "Inventory Item Scroller/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (3)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (16)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (18)/Modes/Item/Text",
+      "Inventory Item Scroller/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine/Modes/Item/Text",
+      "Inventory Item Scroller/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (2)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (9)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (1)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (10)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (3)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (2)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (1)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (7)/Modes/Item/Text",
+      "Trade Scroller Right/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (1)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (20)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (12)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (21)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (3)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (19)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (11)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (17)/Modes/Item/Text",
+      "Trade Scroller Right/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine/Modes/Item/Text",
+      "Trade Scroller Right/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (3)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (14)/Modes/Item/Text",
+      "Trade Scroller Right/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (2)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (22)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (8)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (5)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (15)/Modes/Item/Text",
+      "Inventory Item Scroller/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (1)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (13)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (4)/Modes/Item/Text",
+      "Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/InventoryItemScrollerLine (2)/Modes/Item/Text"
+    ]
+  },
+  {
+    "source": "left arm hand two",
+    "paths": [
+      "EquipmentPaperdollScrollerLine/Modes/Item/Backdrop/Image/LimbText",
+      "Scroll View/Viewport/Content/EquipmentPaperdollScrollerLine (2)/Modes/Item/Backdrop/Image/LimbText",
+      "Scroll View/Viewport/Content/EquipmentPaperdollScrollerLine (1)/Modes/Item/Backdrop/Image/LimbText",
+      "Scroll View/Viewport/Content/EquipmentPaperdollScrollerLine/Modes/Item/Backdrop/Image/LimbText"
+    ]
+  },
+  {
+    "source": "[[{{W|Note to Reader}}]]\\n\\n\\nIt is often said the cure of a plague is also the cause. While there is truth to the maxim, I've found it to be well supplemented by a broader and systematic approach to treatment. The following is a record of known afflictions, their symptoms and remedies, which I have compiled from the logs and personal notes I authored during the course of my forty-year tenure as physician and apothecary to the farmstead of Kardis. Abbott Urium of the neighboring Monastery of the Illustrious Heart of Chrome has agreed to instruct the monks of the scriptorium to reproduce this text for posterity; the reader who finds use in these notes is indebted to him.\\n\\n\\n[[Beniyayut Iym]]\\n\\n\\n[[Kardis, 56 YK]]",
+    "paths": [
+      "BookScrollerLine/Text"
+    ]
+  },
+  {
+    "source": "{{C|The Barathrumites}} don't care about you, but agressive ones will attack you. {{C|The Barathrumites}} don't care about you, but agressive ones will attack you. {{C|The Barathrumites}} don't care about you, but agressive ones will attack you.",
+    "paths": [
+      "FactionsScrollerLine/Details/Text1"
+    ]
+  },
+  {
+    "source": "All",
+    "paths": [
+      "FilterBarCategoryButton/Tooltip/Text",
+      "FilterBarCategoryButton/Background/text",
+      "Trade/SafeArea/Background/Outer VLayout/CategoryHLayout/CategoryButtonContainer/FilterBarCategoryButton/Tooltip/Text",
+      "Trade/SafeArea/Background/Outer VLayout/CategoryHLayout/CategoryButtonContainer/FilterBarCategoryButton/Background/text",
+      "Trade/SafeArea/Background/Outer VLayout/CategoryHLayout/CategoryButtonContainer/FilterBarCategoryButton (1)/Tooltip/Text",
+      "Trade/SafeArea/Background/Outer VLayout/CategoryHLayout/CategoryButtonContainer/FilterBarCategoryButton (2)/Background/text",
+      "Trade/SafeArea/Background/Outer VLayout/CategoryHLayout/CategoryButtonContainer/FilterBarCategoryButton (2)/Tooltip/Text",
+      "Trade/SafeArea/Background/Outer VLayout/CategoryHLayout/CategoryButtonContainer/FilterBarCategoryButton (1)/Background/text"
+    ]
+  },
+  {
+    "source": "  [ ] Travel to Redrock\\n        Journey north of Joppa to Redrock.\\n\\n  [ ] Travel to Redrock\\n\\n  [ ] Travel to Redrock\\n\\n  [ ] Travel to Redrock",
+    "paths": [
+      "QuestsScrollerLine/QuestBodyTextLayout/QuestBodyText",
+      "Quests/List Scroller/Item Scroller/Scroll View/Viewport/Content/QuestsScrollerLine (1)/QuestBodyTextLayout/QuestBodyText",
+      "Quests/List Scroller/Item Scroller/Scroll View/Viewport/Content/QuestsScrollerLine (2)/QuestBodyTextLayout/QuestBodyText",
+      "Quests/List Scroller/Item Scroller/Scroll View/Viewport/Content/QuestsScrollerLine/QuestBodyTextLayout/QuestBodyText"
+    ]
+  },
+  {
+    "source": "{{C|Location:}} A rusted archway ........",
+    "paths": [
+      "AchievementViewRow/Content/Description",
+      "HighScoresRow/GameObject/TextLine1",
+      "SaveManagementRow/GameObject/TextLine1",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/SaveManagementRow/GameObject/TextLine1",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/AchievementViewRow/Content/Description",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/AchievementViewRow (2)/Content/Description",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/SaveManagementRow (1)/GameObject/TextLine1",
+      "VLayout/VLayout/Scores Scroll View/Viewport/Content/Container/HighScoresRow/GameObject/TextLine1",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/SaveManagementRow (2)/GameObject/TextLine1",
+      "VLayout/VLayout/Scores Scroll View/Viewport/Content/Container/HighScoresRow (2)/GameObject/TextLine1",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/AchievementViewRow (1)/Content/Description",
+      "VLayout/VLayout/Scores Scroll View/Viewport/Content/Container/HighScoresRow (1)/GameObject/TextLine1"
+    ]
+  },
+  {
+    "source": "50 lbs.",
+    "paths": [
+      "ObjectFinderLine/Right Text",
+      "Stage/Dock/Content/Item List/Scroll View/Viewport/Content/ObjectFinderLine (1)/Right Text",
+      "Stage/Dock/Content/Item List/Scroll View/Viewport/Content/ObjectFinderLine/Right Text"
+    ]
+  },
+  {
+    "source": "Location:",
+    "paths": [
+      "ModMenuLine/Horiz/Right Side/Horiz (2)/InfoChip/Header"
+    ]
+  },
+  {
+    "source": "INVENTORY && EQUIPMENT",
+    "paths": [
+      "JournalCategoryBarButton/text",
+      "StatusScreenTab/text",
+      "MessageLogCategoryBarButton/text",
+      "UI Manager/StatusScreens/SafeArea/Background/Outer VLayout/ScreenTabs/ButtonContainer/StatusScreenTab/text",
+      "UI Manager/StatusScreens/SafeArea/Background/Outer VLayout/ScreenTabs/ButtonContainer/StatusScreenTab (2)/text",
+      "UI Manager/StatusScreens/SafeArea/Background/Outer VLayout/ScreenTabs/ButtonContainer/StatusScreenTab (1)/text",
+      "UI Manager/StatusScreens/SafeArea/Background/Outer VLayout/ScreenTabs/ButtonContainer/StatusScreenTab (3)/text"
+    ]
+  },
+  {
+    "source": "STR",
+    "paths": [
+      "CharacterSmallAttributeScrollerLine/image/Attribute",
+      "CharacterAttributeScrollerLine/image/Attribute"
+    ]
+  },
+  {
+    "source": "{{r|Mods Differ}}",
+    "paths": [
+      "SaveManagementRow/GameObject/Tags/Mods Differ/tct",
+      "Scroll View/Viewport/Content/Container/SaveManagementRow (1)/GameObject/Tags/Mods Differ/tct",
+      "Scroll View/Viewport/Content/Container/SaveManagementRow/GameObject/Tags/Mods Differ/tct",
+      "Scroll View/Viewport/Content/Container/SaveManagementRow (2)/GameObject/Tags/Mods Differ/tct"
+    ]
+  },
+  {
+    "source": "{{y|Reputation: {{C|100}}}}",
+    "paths": [
+      "FactionsScrollerLine/Contents/Reputaiton/Text (1)"
+    ]
+  },
+  {
+    "source": "Testing this",
+    "paths": [
+      "SmallIconBreadcrub/Title",
+      "UI Manager/Chargen/Overlay/Breadcrumbs/Container/SmallIconBreadcrub/Title"
+    ]
+  },
+  {
+    "source": "{{y|delete}}",
+    "paths": [
+      "HighScoresRow/GameObject/Tags/Delete Button/tct",
+      "SaveManagementRow/GameObject/Tags/Delete Button/tct",
+      "Scroll View/Viewport/Content/Container/SaveManagementRow/GameObject/Tags/Delete Button/tct",
+      "Scroll View/Viewport/Content/Container/SaveManagementRow (1)/GameObject/Tags/Delete Button/tct",
+      "Scores Scroll View/Viewport/Content/Container/HighScoresRow/GameObject/Tags/Delete Button/tct",
+      "Scroll View/Viewport/Content/Container/SaveManagementRow (2)/GameObject/Tags/Delete Button/tct",
+      "Scores Scroll View/Viewport/Content/Container/HighScoresRow (2)/GameObject/Tags/Delete Button/tct",
+      "Scores Scroll View/Viewport/Content/Container/HighScoresRow (1)/GameObject/Tags/Delete Button/tct"
+    ]
+  },
+  {
+    "source": "{{C|Testing Key Description}}",
+    "paths": [
+      "KeybindsRow/KeybindRow/Description",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/KeybindsRow (3)/KeybindRow/Description",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/KeybindsRow/KeybindRow/Description",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/KeybindsRow (2)/KeybindRow/Description",
+      "VLayout/VLayout/Scroll View/Viewport/Content/Container/KeybindsRow (1)/KeybindRow/Description"
+    ]
+  },
+  {
+    "source": "[{{W|Space}}]",
+    "paths": [
+      "SavesScroller/SafeArea/HLayout/VLayout/VLayout/KeyMenuOptionBar/Container/KeyMenuOption(Clone)/Prefix",
+      "SavesScroller/SafeArea/HLayout (reverse for z stack)/VLayout/VLayout/KeyMenuOptionBar/Container/KeyMenuOption(Clone)/Prefix",
+      "SavesScroller/SafeArea/HLayout/VLayout/VLayout/KeyMenuOptionBar/Container/KeyMenuOption(Clone)/Prefix",
+      "UI Manager/MainMenu/KeyMenuOptionBar/Container/KeyMenuOption(Clone)/Prefix",
+      "UI Manager/MainMenu/KeyMenuOptionBar/Container/KeyMenuOption(Clone)/Prefix"
+    ]
+  },
+  {
+    "source": "[{{W|Esc}}]",
+    "paths": [
+      "SavesScroller/SafeArea/HLayout (reverse for z stack)/VLayout/VLayout/KeyMenuOptionBar/Container/KeyMenuOption(Clone)/Prefix"
+    ]
+  },
+  {
+    "source": "navigate",
+    "paths": [
+      "SavesScroller/SafeArea/HLayout/VLayout/VLayout/KeyMenuOptionBar/Container/KeyMenuOption(Clone)/Title",
+      "SavesScroller/SafeArea/HLayout/VLayout/VLayout/KeyMenuOptionBar/Container/KeyMenuOption(Clone)/Title",
+      "SavesScroller/SafeArea/HLayout (reverse for z stack)/VLayout/VLayout/KeyMenuOptionBar/Container/KeyMenuOption(Clone)/Title",
+      "UI Manager/MainMenu/KeyMenuOptionBar/Container/KeyMenuOption(Clone)/Title",
+      "UI Manager/MainMenu/KeyMenuOptionBar/Container/KeyMenuOption(Clone)/Title",
+      "UI Manager/MainMenu/KeyMenuOptionBar/Container/KeyMenuOption(Clone)/Title"
+    ]
+  },
+  {
+    "source": "24th of Utu Ut",
+    "paths": [
+      "UI Manager/PlayerStatusBar/Top/TopLeft/TimeText"
+    ]
+  },
+  {
+    "source": "select",
+    "paths": [
+      "SavesScroller/SafeArea/HLayout/VLayout/VLayout/KeyMenuOptionBar/Container/KeyMenuOption(Clone)/Title",
+      "SavesScroller/SafeArea/HLayout (reverse for z stack)/VLayout/VLayout/KeyMenuOptionBar/Container/KeyMenuOption(Clone)/Title",
+      "UI Manager/MainMenu/KeyMenuOptionBar/Container/KeyMenuOption(Clone)/Title",
+      "SavesScroller/SafeArea/HLayout/VLayout/VLayout/KeyMenuOptionBar/Container/KeyMenuOption(Clone)/Title",
+      "UI Manager/MainMenu/KeyMenuOptionBar/Container/KeyMenuOption(Clone)/Title",
+      "UI Manager/MainMenu/KeyMenuOptionBar/Container/KeyMenuOption(Clone)/Title"
+    ]
+  },
+  {
+    "source": "Back",
+    "paths": [
+      "SavesScroller/SafeArea/HLayout (reverse for z stack)/VLayout/VLayout/KeyMenuOptionBar/Container/KeyMenuOption(Clone)/Title",
+      "UI Manager/WaveformTest/Back/Image/Text (TMP)"
+    ]
+  },
+  {
+    "source": "[{{W|Enter}}]",
+    "paths": [
+      "UI Manager/MainMenu/KeyMenuOptionBar/Container/KeyMenuOption(Clone)/Prefix"
+    ]
+  },
+  {
+    "source": "Generate",
+    "paths": [
+      "UI Manager/WaveformTest/Panel/TileTextButton/Subtext"
+    ]
+  },
+  {
+    "source": "1.0\\n{{K|(build xxx.xxx.xxx.xxx)}}",
+    "paths": [
+      "UI Manager/MainMenu/Version"
+    ]
+  },
+  {
+    "source": "How many do you want to drop?",
+    "paths": [
+      "UI Manager/AskNumber/SafeArea/Background/Outer VLayout/GameObject/Text (TMP)"
+    ]
+  },
+  {
+    "source": "Tam, dromad merchant's inventory",
+    "paths": [
+      "UI Manager/CyberneticsTerminal/SafeArea/Background/Outer VLayout/Name Panel/Name/Text",
+      "SafeArea/Background/Outer VLayout/Screens/MessageLog/Scroller/Name Panel/Name/Text",
+      "Background/Outer VLayout/Screens/InventoryAndEquipment/Scrollers/InventoryScroller/Name Panel/Name/Text",
+      "Background/Outer VLayout/Screens/InventoryAndEquipment/Scrollers/EquipmentPaperdoll/Name Panel/Name/Text",
+      "Background/Outer VLayout/Screens/InventoryAndEquipment/Scrollers/EquipmentList/Name Panel/Name/Text",
+      "SafeArea/Background/Outer VLayout/Screens/Quests/List Scroller/Name Panel/Name/Text",
+      "UI Manager/Book/SafeArea/Background/Outer VLayout/Name Panel/Name/Text",
+      "Background/Outer VLayout/Screens/Tinkering/HorizontalScroller/DataScroller/Name Panel/Name/Text",
+      "Trade/SafeArea/Background/Outer VLayout/Trade Windows HLayout/Trade Scroller Left/Name Layout/Name Panel/Text",
+      "Trade/SafeArea/Background/Outer VLayout/Trade Windows HLayout/Trade Scroller Right/Name Layout/Name Panel/Text",
+      "SafeArea/Background/Outer VLayout/Screens/Journal/SultanScroller/Name Panel/Name/Text",
+      "Background/Outer VLayout/Screens/Journal/Horizontal Layout/EntryScroller/Name Panel/Name/Text",
+      "Background/Outer VLayout/Screens/Tinkering/HorizontalScroller/BitsScroller/Name Panel/Name/Text",
+      "SafeArea/Background/Outer VLayout/Screens/SkillsAndPowers/Scroller/Name Panel/Name/Text",
+      "Background/Outer VLayout/Screens/Tinkering/HorizontalScroller/DetailsScroller/Name Panel/Name/Text"
+    ]
+  },
+  {
+    "source": "{{R|[Unlearned]}}",
+    "paths": [
+      "Background/Outer VLayout/Screens/SkillsAndPowers/Scroll View/Viewport/Content/TextPanel/Learn Status"
+    ]
+  },
+  {
+    "source": "ABILITIES",
+    "paths": [
+      "UI Manager/AbilityBar/AbilitySection/Ability Hotbar/Hotbar Swapper/AbilityCommandText"
+    ]
+  },
+  {
+    "source": "{{W|[Esc]}} Back",
+    "paths": [
+      "UI Manager/OptionsScreen/BackButton/Text",
+      "UI Manager/AchievementView/BackButton/Text",
+      "UI Manager/HighScoresScreen/BackButton/Text",
+      "UI Manager/HelpScreen/BackButton/Text",
+      "UI Manager/Chargen/Overlay/BackButtonSm/Text",
+      "UI Manager/SaveManagement/BackButton/Text",
+      "UI Manager/Chargen/Overlay/BackButtonLg/Text"
+    ]
+  },
+  {
+    "source": "something short",
+    "paths": [
+      "Stage/Dock/Content/Item List/Scroll View/Viewport/Content/ObjectFinderLine/MainText"
+    ]
+  },
+  {
+    "source": "{{K|<search>}}",
+    "paths": [
+      "Keybinds/KeybindsScroller/SafeArea/HLayout (order reversed for z level stacking)/VLayout/padding/FrameworkSearchInput/InputBoxArea/Input Text",
+      "UI Manager/Trade/SafeArea/Background/Outer VLayout/FilterBar/FrameworkSearchInput/InputBoxArea/Input Text",
+      "OptionsScreen/SafeArea/HLayout (order reversed for z level stacking)/VLayout/padding/RightSide/FrameworkSearchInput/InputBoxArea/Input Text"
+    ]
+  },
+  {
+    "source": "Arnold Schwarzenegger's Skills",
+    "paths": [
+      "StatusScreens/SafeArea/Background/Outer VLayout/Screens/SkillsAndPowers/Skills Header/GameObject/NameBlock"
+    ]
+  },
+  {
+    "source": "[REQUIRED SKILLS]",
+    "paths": [
+      "Background/Outer VLayout/Screens/SkillsAndPowers/Scroll View/Viewport/Content/TextPanel/Required Skills Header"
+    ]
+  },
+  {
+    "source": "{{B|← 931.36 drams}}",
+    "paths": [
+      "UI Manager/Trade/SafeArea/Background/Outer VLayout/Trade Amounts/CenterGroup/RightTotalText"
+    ]
+  },
+  {
+    "source": "{{B|HORNS}}",
+    "paths": [
+      "Screens/Character/HorizontalScroller/Right Panel Outer (VLayout)/Right Panel Inner (VLayout)/Mutations and Effects Scrollers/InfoPanel/MutationHeader/MutationNameText"
+    ]
+  },
+  {
+    "source": "{{W|Trading with Mehmet}} \\n",
+    "paths": [
+      "UI Manager/CyberneticsTerminal/SafeArea/Background/Title/Text",
+      "UI Manager/StatusScreens/SafeArea/Background/Title/Text",
+      "UI Manager/Book/SafeArea/Background/Title/Text",
+      "UI Manager/Trade/SafeArea/Background/Title/Text",
+      "UI Manager/AskNumber/SafeArea/Background/Title/Text"
+    ]
+  },
+  {
+    "source": "Continue",
+    "paths": [
+      "UI Manager/TutorialManager/Highlight/Dialog/ButtonRow/Hotkey Button/Interior/Label"
+    ]
+  },
+  {
+    "source": "{{G|[Draw a Bead]}}",
+    "paths": [
+      "Background/Outer VLayout/Screens/SkillsAndPowers/Scroll View/Viewport/Content/TextPanel/Skill Requirements"
+    ]
+  },
+  {
+    "source": "Mods",
+    "paths": [
+      "UI Manager/ModManager/Outer Pad/Sample Framey Frame/PolatFrameSuperHeader/Header"
+    ]
+  },
+  {
+    "source": "{{W|[End]}} Next",
+    "paths": [
+      "UI Manager/Chargen/Overlay/NextButtonSm/Text",
+      "UI Manager/Chargen/Overlay/NextButtonLg/Text"
+    ]
+  },
+  {
+    "source": "NEAR HISTORIC",
+    "paths": [
+      "UI Manager/WorldGeneration/SafeArea/VLayout/progressBar/Progress Icons/GameObject (3)/Image (3)/Text (TMP)"
+    ]
+  },
+  {
+    "source": "<color=\"#abcdef\">ACTIVE EFFECTS: wading, defensive stance, itchy skin, and even more things that are sure to overrun this box to the right hand side</color>",
+    "paths": [
+      "UI Manager/AbilityBar/Top/Effects Area/Overflow Mask/Effects Text"
+    ]
+  },
+  {
+    "source": "[[{{W|On Ironshank}}]]\\n\\n\\nThe leg bones of patients stricken with this disease of unknown origin remain in a state of perpetual calcification. The afflicted patient will complain of aching joints and restricted movement as the rate of bone growth accelerates. Once the disease is fully blown, the bones will harden and grow at an advanced rate. The untreated patient will suffer increasingly restricted movement until the bones are fused together at the hip, knee, and ankle joints and the patient is rendered immobile. This process takes between one and two weeks.\\n\\n\\nIronshank may be suppressed in its early stages with common remedies such as yuckwheat or honey, though the more potent elixirs of the Eaters are preferable where available. Once the disease is fully blown and the patient begins to lose mobility, gel (made from desalinated amoeba slime) is the only effective treatment I've discovered. The patient should be administered a draught composed of one dram of gel and one dram of =IS1= every day until the leg joints regain their full range of motion.",
+    "paths": [
+      "Outer VLayout/Trade Windows HLayout/Trade Scroller Right/Item Scroller/Scroll View/Viewport/Content/BookScrollerLine/Text"
+    ]
+  },
+  {
+    "source": "dasflkjas d;lfkja sdl;kja sdflk\\nalsdkfja\\nsdf;kja\\nsdkl;fja\\nsdlkfjas\\nldkfjas\\nldkfja\\nsldkfja\\nsldkfjas\\nldkfjas\\nldkfja\\nsldkfjas\\nldka\\nsdkl;jf",
+    "paths": [
+      "Background/Outer VLayout/Screens/SkillsAndPowers/Scroll View/Viewport/Content/TextPanel/Details Text"
+    ]
+  },
+  {
+    "source": "Mutated Human Tinker",
+    "paths": [
+      "Background/Outer VLayout/Screens/Character/HorizontalScroller/AttributesArea/Name Panel/Name/Class Text"
+    ]
+  },
+  {
+    "source": "\"Yes, I know the secrest of the circuitry mind. It's a flaming wonder, telepath.\"",
+    "paths": [
+      "UI Manager/WorldGeneration/SafeArea/VLayout/attribution"
+    ]
+  },
+  {
+    "source": "Cold resist is a measurement of how much cold damage you ablate and how insulated you are from effects that reduce your temperature. YOur base cold resist score is 0. At 100, you are immune to cold damage and your temperature cannot be reduced.",
+    "paths": [
+      "Outer VLayout/Screens/Character/HorizontalScroller/AttributesArea/Attribute Scollers/Primary Attribute Details Pane/TextContainer/Primary Attributes Details",
+      "Outer VLayout/Screens/Character/HorizontalScroller/AttributesArea/Attribute Scollers/Secondary Attribute Details Pane/TextContainer/Secondary Attributes Details",
+      "Outer VLayout/Screens/Character/HorizontalScroller/AttributesArea/Attribute Scollers/Resistance Attribute Details Pane/TextContainer/Resistance Attributes Details"
+    ]
+  },
+  {
+    "source": "Item Description [A Sword] ++",
+    "paths": [
+      "UI Manager/PickGameObject/SafeArea/Background/Outer VLayout/ItemDescriptionText/Item Description Text",
+      "UI Manager/Trade/SafeArea/Background/Outer VLayout/ItemDescriptionText/Item Description Text"
+    ]
+  },
+  {
+    "source": "Tags (comma delimited)",
+    "paths": [
+      "UI Manager/SteamWorkshopUploader/DetailsPanel/Scroll View/Viewport/Content/TagsLabel"
+    ]
+  },
+  {
+    "source": "Skill Points: </color=\"green\">2</color>",
+    "paths": [
+      "UI Manager/StatusScreens/SafeArea/Background/Outer VLayout/Screens/SkillsAndPowers/Skills Header/SP"
+    ]
+  },
+  {
+    "source": "{{W|LOAD GAME}}",
+    "paths": [
+      "UI Manager/SaveManagement/SavesScroller/SafeArea/HLayout/VLayout/H/header"
+    ]
+  },
+  {
+    "source": "GEOLOGIC",
+    "paths": [
+      "UI Manager/WorldGeneration/SafeArea/VLayout/progressBar/Progress Icons/GameObject (1)/Image (1)/Text (TMP)"
+    ]
+  },
+  {
+    "source": "CHRONOLOGY",
+    "paths": [
+      "UI Manager/StatusScreens/SafeArea/Background/Outer VLayout/Screens/Journal/JournalHeader/Header"
+    ]
+  },
+  {
+    "source": "You embark for the Caves of Qud.\\n\\nEven more thingsEven more thingsEven more thingsEven more thingsEven more things",
+    "paths": [
+      "UI Manager/PopupMessage/MenuControll/Scroll View/Viewport/Content/Message"
+    ]
+  },
+  {
+    "source": "browse mods folder",
+    "paths": [
+      "UI Manager/SteamWorkshopUploader/Browse Button/label"
+    ]
+  },
+  {
+    "source": "Select a mod to manage it",
+    "paths": [
+      "UI Manager/SteamWorkshopUploader/SelectedModLabel"
+    ]
+  },
+  {
+    "source": "MAIN ATTRIBUTES",
+    "paths": [
+      "Outer VLayout/Screens/Character/HorizontalScroller/AttributesArea/Attribute Scollers/Primary Attributes Scroller/Main Attributes Header/Title"
+    ]
+  },
+  {
+    "source": "Mutations",
+    "paths": [
+      "HorizontalScroller/Right Panel Outer (VLayout)/Right Panel Inner (VLayout)/Mutations and Effects Scrollers/Mutations Scroller Container/MutationsScroller/Name Panel/Name/Text",
+      "HorizontalScroller/Right Panel Outer (VLayout)/Right Panel Inner (VLayout)/Mutations and Effects Scrollers/Effects Scroller Container/EffectsScroller/Name Panel/Name/Text"
+    ]
+  },
+  {
+    "source": "{{W|[]}} Back",
+    "paths": [
+      "UI Manager/Keybinds/BackButton/Text"
+    ]
+  },
+  {
+    "source": "You are dead, Rest in Peace",
+    "paths": [
+      "UI Manager/GameSummary/SafeArea/VLayout/Header/cause"
+    ]
+  },
+  {
+    "source": "scoped masterwork carbine",
+    "paths": [
+      "UI Manager/AskNumber/SafeArea/Background/Outer VLayout/Name Panel/Name/Text"
+    ]
+  },
+  {
+    "source": "Upload Content",
+    "paths": [
+      "UI Manager/SteamWorkshopUploader/DetailsPanel/Scroll View/Viewport/Content/ChangelistPanel/UploadContent"
+    ]
+  },
+  {
+    "source": "test 123412341234",
+    "paths": [
+      "UI Manager/CyberneticsTerminal/SafeArea/Background/Outer VLayout/Trade Windows HLayout/footerText"
+    ]
+  },
+  {
+    "source": "something super long with a bunch of text chaasdfj",
+    "paths": [
+      "Stage/Dock/Content/Item List/Scroll View/Viewport/Content/ObjectFinderLine (1)/MainText"
+    ]
+  },
+  {
+    "source": "two-handed folded carbide long sword",
+    "paths": [
+      "Tinkering/HorizontalScroller/DetailsScroller/Item Scroller/Scroll View/Viewport/Content/TinkeringDetailsScrollerLine/ItemName"
+    ]
+  },
+  {
+    "source": "MOD BIT COST [{{R|•}}{{B|•}}]",
+    "paths": [
+      "Tinkering/HorizontalScroller/DetailsScroller/Item Scroller/Scroll View/Viewport/Content/TinkeringDetailsScrollerLine/BitCostText"
+    ]
+  },
+  {
+    "source": "{{W|HELP}}",
+    "paths": [
+      "UI Manager/HelpScreen/SafeArea/HLayout (order reversed for z level stacking)/VLayout/padding/header"
+    ]
+  },
+  {
+    "source": " Nearby objects",
+    "paths": [
+      "UI Manager/Stage/Dock/Content/Item List/Header (1)/HeaderText"
+    ]
+  },
+  {
+    "source": "Title",
+    "paths": [
+      "UI Manager/SteamWorkshopUploader/DetailsPanel/Scroll View/Viewport/Content/TitleLabel"
+    ]
+  },
+  {
+    "source": "{{R|Dehydrated}}, {{W|Hungry}}",
+    "paths": [
+      "UI Manager/PlayerStatusBar/Top/TopLeft/FoodWaterStatus"
+    ]
+  },
+  {
+    "source": "Generate Fast",
+    "paths": [
+      "UI Manager/WaveformTest/Panel/TileTextButton (1)/Subtext"
+    ]
+  },
+  {
+    "source": "{{c|[Physical Mutation]}}",
+    "paths": [
+      "Screens/Character/HorizontalScroller/Right Panel Outer (VLayout)/Right Panel Inner (VLayout)/Mutations and Effects Scrollers/InfoPanel/MutationHeader/MutationTypeText"
+    ]
+  },
+  {
+    "source": "SECONDARY ATTRIBUTES",
+    "paths": [
+      "Outer VLayout/Screens/Character/HorizontalScroller/AttributesArea/Attribute Scollers/Secondary Attributes Scroller/Secondary Attributes Header/Title"
+    ]
+  },
+  {
+    "source": "{{B|124.00 drams →   }}",
+    "paths": [
+      "UI Manager/Trade/SafeArea/Background/Outer VLayout/Trade Amounts/CenterGroup/LeftTotalText"
+    ]
+  },
+  {
+    "source": "DEEP HISTORIC",
+    "paths": [
+      "UI Manager/WorldGeneration/SafeArea/VLayout/progressBar/Progress Icons/GameObject (2)/Image (2)/Text (TMP)"
+    ]
+  },
+  {
+    "source": ": Generating historic sites",
+    "paths": [
+      "UI Manager/WorldGeneration/SafeArea/VLayout/progressScroll/progress2",
+      "UI Manager/WorldGeneration/SafeArea/VLayout/progressScroll/progress4",
+      "UI Manager/WorldGeneration/SafeArea/VLayout/progressScroll/progress3",
+      "UI Manager/WorldGeneration/SafeArea/VLayout/progressScroll/progress1",
+      "UI Manager/WorldGeneration/SafeArea/VLayout/progressScroll/progress5"
+    ]
+  },
+  {
+    "source": ":: SP [200] ::\\n:: STAT [AGI 25] ::\\n:: COOLDOWN [50] ::",
+    "paths": [
+      "Background/Outer VLayout/Screens/SkillsAndPowers/Scroll View/Viewport/Content/TextPanel/Stat Requirements"
+    ]
+  },
+  {
+    "source": "{{C|Item Description}}",
+    "paths": [
+      "UI Manager/PickGameObject/SafeArea/Background/Outer VLayout/ItemDescriptionTitle/Header",
+      "UI Manager/Trade/SafeArea/Background/Outer VLayout/ItemDescriptionTitle/Header"
+    ]
+  },
+  {
+    "source": "RESISTANCES",
+    "paths": [
+      "Outer VLayout/Screens/Character/HorizontalScroller/AttributesArea/Attribute Scollers/Resistance Attributes Scroller/Resistances Header/Title"
+    ]
+  },
+  {
+    "source": "{{B|430 lbs.}}",
+    "paths": [
+      "Scrollers/InventoryScroller/Item Scroller/Scroll View/VBorder (1)/HBorder/T/HLayout/weightText"
+    ]
+  },
+  {
+    "source": "{{W|<}} Back",
+    "paths": [
+      "UI Manager/SteamWorkshopUploader/BackButton/Label"
+    ]
+  },
+  {
+    "source": "Description",
+    "paths": [
+      "UI Manager/SteamWorkshopUploader/DetailsPanel/Scroll View/Viewport/Content/DescriptionLabel"
+    ]
+  },
+  {
+    "source": "[fresh]",
+    "paths": [
+      "UI Manager/AbilityBar/Top/Missile Weapons Area/Missile Weapon List/MissileWeaponInfo/Text"
+    ]
+  },
+  {
+    "source": "<search>",
+    "paths": [
+      "StatusScreens/SafeArea/Background/Outer VLayout/KeyMenuOptionBar/FilterBar/FrameworkSearchInput/InputBoxArea/Input Text"
+    ]
+  },
+  {
+    "source": "{{W|ACHIEVEMENTS}}",
+    "paths": [
+      "UI Manager/AchievementView/Scroller/SafeArea/HLayout/VLayout/H/header"
+    ]
+  },
+  {
+    "source": "{{Y|{{C|í}} You travelled to the darkling stars with Barathrum. {{C|í}}}}",
+    "paths": [
+      "UI Manager/EndgameCredits/Content/Tomb/TombImage/TombText"
+    ]
+  },
+  {
+    "source": "{{W|TRADE}}",
+    "paths": [
+      "UI Manager/Trade/SafeArea/Background/Outer VLayout/Trade Amounts/CenterGroup/CenterText/CenterText"
+    ]
+  },
+  {
+    "source": "[f] fire",
+    "paths": [
+      "UI Manager/AbilityBar/Top/Missile Weapons Area/Fire Hotkey Area"
+    ]
+  },
+  {
+    "source": "Reseed To Static",
+    "paths": [
+      "UI Manager/WaveformTest/Panel/TileTextButton (2)/Subtext"
+    ]
+  },
+  {
+    "source": "{{g|RANK 3/10}}",
+    "paths": [
+      "Screens/Character/HorizontalScroller/Right Panel Outer (VLayout)/Right Panel Inner (VLayout)/Mutations and Effects Scrollers/InfoPanel/MutationHeader/Mutation RankText"
+    ]
+  },
+  {
+    "source": "SUJAWURTY DOMINISKA",
+    "paths": [
+      "UI Manager/GameSummary/SafeArea/VLayout/Header/name"
+    ]
+  },
+  {
+    "source": "test",
+    "paths": [
+      "Journal/Horizontal Layout/Map Scroller/Viewport/Map/PinPrefab/LocationDetailsLayout/LocationDetailsBackground/LocationDetailsText",
+      "UI Manager/AbilityBar/AbilitySection/Ability Hotbar/Hotbar Swapper/CycleCommandText",
+      "Screens/Quests/Map Scroller/Viewport/Map/PinPrefab/LocationDetailsLayout/LocationDetailsBackground/LocationDetailsText",
+      "Screens/Journal/Horizontal Layout/Map Scroller/Viewport/Map/PinPrefab/LocationNameLayout/LocationNameText",
+      "Outer VLayout/Screens/Quests/Map Scroller/Viewport/Map/PinPrefab/LocationNameLayout/LocationNameText"
+    ]
+  },
+  {
+    "source": "information\\n\\ngoes\\n\\nhere",
+    "paths": [
+      "HorizontalScroller/Right Panel Outer (VLayout)/Right Panel Inner (VLayout)/Mutations and Effects Scrollers/InfoPanel/Scroll View/Viewport/Content/InfoPanelText"
+    ]
+  },
+  {
+    "source": "{{W|CONTROL MAPPING}}",
+    "paths": [
+      "UI Manager/Keybinds/KeybindsScroller/SafeArea/HLayout (order reversed for z level stacking)/VLayout/padding/header"
+    ]
+  },
+  {
+    "source": "\\Mods folder mods",
+    "paths": [
+      "UI Manager/SteamWorkshopUploader/Mod title Label"
+    ]
+  },
+  {
+    "source": "A curved sword with a grey metal blade, lined with hundreds of thin, shining blue veins.\\n\\nStrength Bonus Cap: 5\\nWeapon Class: Long Blades\\nWeapon Tier: 4\\n\\nModeed[{{c|Freezing}}]: 3-5 Cold damage when powered.\\n\\nEnergy Cell: {{C|high-capacity radio-powered chem cell}} {{g|(full)}}\\n",
+    "paths": [
+      "HorizontalScroller/DetailsScroller/Item Scroller/Scroll View/Viewport/Content/TinkeringDetailsScrollerLine/ItemDescriptionContainer/ItemDescription"
+    ]
+  },
+  {
+    "source": "Item Descriptor....",
+    "paths": [
+      "UI Manager/PopupMessage/MenuControll/ContextContainer/ContextItemText"
+    ]
+  },
+  {
+    "source": "Salt Marsh, Joppa, 42 strata deep",
+    "paths": [
+      "UI Manager/PlayerStatusBar/Top/TopLeft/ZoneText"
+    ]
+  },
+  {
+    "source": " Joppa, Surface",
+    "paths": [
+      "UI Manager/Stage/Dock/Content/Minimap/Header/ZoneLabel"
+    ]
+  },
+  {
+    "source": "asdfasdf",
+    "paths": [
+      "UI Manager/AbilityBar/Top/Target Area/Target: Something something 10/10 AV 2 DV 3"
+    ]
+  },
+  {
+    "source": "\\nThe seven lords of House Isner feasted on boar gut and swilled wine from\\ngilded cups in the ivy-strewn halls of their hold. They spared no concern\\nfor temperance, for the coffers of their house had swelled with\\ngardeners' gold amassed through the sale of water drawn from the lords'\\nwells. But as the gluttonous barons counted seven amongst their clan, so\\nhad become numbered their days of debauchery when the son of a beggared\\ngardener swore a vengeful oath in the name of his father against the\\nhouse of Isner.\\n\\nThe penniless boy beseeched a gunsmith of great repute to craft for him a\\npistol of the most exquisite artistry with which he could be sure to\\nvanquish the seven lords, and in return the boy promised the smith all\\nthe spoils of the battle. The smith, who in the hazel eyes of the boy\\nbeheld the spirit of vengeance, agreed.\\n\\nAnd so the boy, armed with the masterwork pistol, cast open the doors of the\\nHall of Isner with a fury that shook their iron hinges and seized upon\\nthe supping lords. Before any of them had yet set down their gilded cups,\\nthe boy unholstered the pistol and shot dead six of the sons of Isner.\\nThe last lord rejoiced at his fortune and reached for his hip from where\\nhe would sling a pistol of his own at the spent boy.\\n     \\n",
+    "paths": [
+      "Outer VLayout/Trade Windows HLayout/Trade Scroller Left/Item Scroller/Scroll View/Viewport/Content/BookScrollerLine/Text"
+    ]
+  },
+  {
+    "source": "Include hidden files",
+    "paths": [
+      "SteamWorkshopUploader/DetailsPanel/Scroll View/Viewport/Content/ChangelistPanel/HiddenFilesToggle/HLayout/Label"
+    ]
+  },
+  {
+    "source": "\"Yes, I know the secrest of the circuitry mind. It's a flaming wonder, telepath.  \"aming wonder, telepath. ",
+    "paths": [
+      "UI Manager/WorldGeneration/SafeArea/VLayout/quote"
+    ]
+  },
+  {
+    "source": "PlayerNameThe 22ndRound",
+    "paths": [
+      "UI Manager/PlayerStatusBar/Top/TopLeft/PlayerName"
+    ]
+  },
+  {
+    "source": "The Laws of Physics Are Mere Suggestions, Vol. 1",
+    "paths": [
+      "UI Manager/Notification/Horizontal/Vertical/Title"
+    ]
+  },
+  {
+    "source": "Achievement unlocked!",
+    "paths": [
+      "UI Manager/Notification/Horizontal/Vertical/Text"
+    ]
+  },
+  {
+    "source": "str: 18 :",
+    "paths": [
+      "SafeArea/Background/Outer VLayout/Screens/SkillsAndPowers/Skills Header/GameObject/background/statBlock"
+    ]
+  },
+  {
+    "source": "select workshop image",
+    "paths": [
+      "UI Manager/SteamWorkshopUploader/DetailsPanel/Scroll View/Viewport/Content/PickImageButton/Label"
+    ]
+  },
+  {
+    "source": "COSMOLOGIC",
+    "paths": [
+      "UI Manager/WorldGeneration/SafeArea/VLayout/progressBar/Progress Icons/GameObject/Image/Text (TMP)"
+    ]
+  },
+  {
+    "source": "{{W|SELECTED ABILITY}}",
+    "paths": [
+      "UI Manager/AbilityManagerScreen/SafeArea/Background/VLayout/MainArea/Description Area/Top Header/Header"
+    ]
+  },
+  {
+    "source": "{{W|HIGH SCORES}}",
+    "paths": [
+      "UI Manager/HighScoresScreen/SavesScroller/SafeArea/HLayout (reverse for z stack)/VLayout/H/header"
+    ]
+  },
+  {
+    "source": "{{C|Category:}} Useful abilities\\n{{C|Tags:}} escape, attack\\n:: description text is cool stuff, we should put lots of it.\\n\\n{{C|:: and some is this cool cooler color}}",
+    "paths": [
+      "UI Manager/AbilityManagerScreen/SafeArea/Background/VLayout/MainArea/Description Area/hlayout/Descriptions"
+    ]
+  },
+  {
+    "source": "Modding Toolkit",
+    "paths": [
+      "UI Manager/ModToolkit/Sample Framey Frame/PolatFrameSuperHeader/Header"
+    ]
+  },
+  {
+    "source": "{{g|AFTER MOD}}",
+    "paths": [
+      "HorizontalScroller/DetailsScroller/Item Scroller/Scroll View/Viewport/Content/TinkeringDetailsScrollerLine/ModHBorder/Text (TMP)"
+    ]
+  },
+  {
+    "source": "TTest",
+    "paths": [
+      "UI Manager/WaveformTest/Panel/TileTextButton (3)/Subtext"
+    ]
+  },
+  {
+    "source": "Attribute Points: </color=\"green\">2</color>",
+    "paths": [
+      "Outer VLayout/Screens/Character/HorizontalScroller/AttributesArea/Attribute Scollers/Primary Attributes Scroller/Main Attributes Header/AP"
+    ]
+  },
+  {
+    "source": "Changelist",
+    "paths": [
+      "UI Manager/SteamWorkshopUploader/DetailsPanel/Scroll View/Viewport/Content/ChangelistPanel/ChangelistLabel"
+    ]
+  },
+  {
+    "source": "Flattening Fire",
+    "paths": [
+      "Background/Outer VLayout/Screens/SkillsAndPowers/Scroll View/Viewport/Content/TextPanel/Skill Name"
+    ]
+  },
+  {
+    "source": "{{W|OPTIONS}}",
+    "paths": [
+      "UI Manager/OptionsScreen/SafeArea/HLayout (order reversed for z level stacking)/VLayout/padding/header"
+    ]
+  },
+  {
+    "source": "KODUM MU OTURTURUM KODUM MU OTURTURUM\\nKODUM MU OTURTURUM\\nKODUM MU OTURTURUMKODUM MU OTURTURUM KODUM MU OTURTURUM\\nKODUM MU OTURTURUM\\nKODUM MU OTURTURUMKODUM MU OTURTURUM KODUM MU OTURTURUM\\nKODUM MU OTURTURUM\\nKODUM MU OTURTURUMKODUM MU OTURTURUM KODUM MU OTURTURUM\\nKODUM MU OTURTURUM\\nKODUM MU OTURTURUM",
+    "paths": [
+      "Background/Outer VLayout/Screens/Character/HorizontalScroller/AttributesArea/Name Panel/Name/Name Text"
+    ]
+  },
+  {
+    "source": "refresh",
+    "paths": [
+      "UI Manager/SteamWorkshopUploader/Refresh Mods Button/label"
+    ]
+  },
+  {
+    "source": "[r] reload",
+    "paths": [
+      "UI Manager/AbilityBar/Top/Missile Weapons Area/Reload Hotkey Area"
+    ]
+  },
+  {
+    "source": "Visibility",
+    "paths": [
+      "UI Manager/SteamWorkshopUploader/DetailsPanel/Scroll View/Viewport/Content/VisibilityLabel"
+    ]
+  },
+  {
+    "source": "In Use",
+    "paths": [
+      "UI Manager/MapEditor/FilterUsedButton/HLayout/Label"
+    ]
+  },
+  {
+    "source": "{{lacqured|lacquered}} :: Item cannot rust.",
+    "paths": [
+      "HorizontalScroller/DetailsScroller/Item Scroller/Scroll View/Viewport/Content/TinkeringDetailsScrollerLine/ModDescriptionContainer/ModDescription"
+    ]
+  },
+  {
+    "source": "{{W|Creating World}}",
+    "paths": [
+      "UI Manager/WorldGeneration/SafeArea/VLayout/header"
+    ]
+  },
+  {
+    "source": "Level: 26 ¯ HP: 185/220 ¯ XP: 500/5000 ¯ Weight: 155#",
+    "paths": [
+      "Background/Outer VLayout/Screens/Character/HorizontalScroller/AttributesArea/Name Panel/Name/Level Text"
+    ]
+  },
+  {
+    "source": "正在加载 Conversations.xml",
+    "paths": [
+      "UI Manager/LoadingStatusWindow/Background/Status"
+    ]
+  },
+  {
+    "source": "asdfasdfasdf",
+    "paths": [
+      "UI Manager/AbilityBar/Top/Target Area/Target: Something something 10/10 AV 2 DV 3 (1)"
+    ]
+  },
+  {
+    "source": "{{C|Input Type:}} {{c|Legacy}}",
+    "paths": [
+      "UI Manager/Keybinds/KeybindsScroller/SafeArea/HLayout (order reversed for z level stacking)/VLayout/InputTypeSelector/Input Type"
+    ]
+  },
+  {
+    "source": "est",
+    "paths": [
+      "Background/Outer VLayout/Screens/Journal/Horizontal Layout/Marginalia Scroller/Viewport/Content/Time",
+      "Background/Outer VLayout/Screens/Journal/Horizontal Layout/Marginalia Scroller/Viewport/Content/Text"
+    ]
+  },
+  {
+    "source": "Mutation Points: </color=\"green\">2</color>",
+    "paths": [
+      "Outer VLayout/Screens/Character/HorizontalScroller/Right Panel Outer (VLayout)/GameObject/Header Container/Main Attributes Header/MP"
+    ]
+  },
+  {
+    "source": "Click this! as dflkajs df;lkajs df;lkajsd f;lakjsd f;lkajsd f;laksjd f;lkajsd f;lkajs df;lkajsd f;lkasjd f;lkajsd f;lkasjd f;lkajsdf",
+    "paths": [
+      "UI Manager/TutorialManager/Highlight/Dialog/Row"
+    ]
+  },
+  {
+    "source": "Game Summary for BLAH BLAH\\nThis game ended\\nyou wer\\nasdklfa\\nsd;lfka\\ns;dlfka\\n;sldkf\\na;sldkf\\na;sldkf\\nas;dlkfa\\ns;ldkfa\\ns;lkd\\na;lskdf\\na;lsdkf\\na;lsdkf\\nGame Summary for BLAH BLAH\\nThis game ended\\nyou wer\\nasdklfa\\nsd;lfka\\ns;dlfka\\n;sldkf\\na;sldkf\\na;sldkf\\nas;dlkfa\\ns;ldkfa\\ns;lkd\\na;lskdf\\na;lsdkf\\na;lsdkf\\nGame Summary for BLAH BLAH\\nThis game ended\\nyou wer\\nasdklfa\\nsd;lfka\\ns;dlfka\\n;sldkf\\na;sldkf\\na;sldkf\\nas;dlkfa\\ns;ldkfa\\ns;lkd\\na;lskdf\\na;lsdkf\\na;lsdkf\\nGame Summary for BLAH BLAH\\nThis game ended\\nyou wer\\nasdklfa\\nsd;lfka\\ns;dlfka\\n;sldkf\\na;sldkf\\na;sldkf\\nas;dlkfa\\ns;ldkfa\\ns;lkd\\na;lskdf\\na;lsdkf\\na;lsdkf",
+    "paths": [
+      "UI Manager/GameSummary/SafeArea/VLayout/ScrollerLayout/Scroll View/Viewport/Content/Text"
+    ]
+  },
+  {
+    "source": "{{W|Opening Chest}} \\n",
+    "paths": [
+      "UI Manager/PickGameObject/SafeArea/Background/Title/Text"
+    ]
+  },
+  {
+    "source": "Minimap Toggle",
+    "paths": [
+      "UI Manager/PlayerStatusBar/Bottom/BottomRight/MapButton"
+    ]
+  },
+  {
+    "source": "Wait Menu",
+    "paths": [
+      "UI Manager/PlayerStatusBar/Bottom/BottomRight/RestButton"
+    ]
+  },
+  {
+    "source": "Go Down",
+    "paths": [
+      "UI Manager/PlayerStatusBar/Bottom/BottomRight/DownButton"
+    ]
+  },
+  {
+    "source": "Autoexplore",
+    "paths": [
+      "UI Manager/PlayerStatusBar/Bottom/BottomRight/ExploreButton"
+    ]
+  },
+  {
+    "source": "Move to Point of Interest",
+    "paths": [
+      "UI Manager/PlayerStatusBar/Bottom/BottomRight/POIButton"
+    ]
+  },
+  {
+    "source": "Look",
+    "paths": [
+      "UI Manager/PlayerStatusBar/Bottom/BottomRight/LookButton"
+    ]
+  },
+  {
+    "source": "Character Sheet",
+    "paths": [
+      "UI Manager/PlayerStatusBar/Bottom/BottomRight/CharSheetButton"
+    ]
+  },
+  {
+    "source": "Go Up",
+    "paths": [
+      "UI Manager/PlayerStatusBar/Bottom/BottomRight/UpButton"
+    ]
+  },
+  {
+    "source": "Window Lock Toggle",
+    "paths": [
+      "UI Manager/PlayerStatusBar/Bottom/BottomRight/WindowLockButton"
+    ]
+  },
+  {
+    "source": "System Menu",
+    "paths": [
+      "UI Manager/PlayerStatusBar/Bottom/BottomRight/SystemMenuButton"
+    ]
+  },
+  {
+    "source": "Nearby Items List Toggle",
+    "paths": [
+      "UI Manager/PlayerStatusBar/Bottom/BottomRight/FinderButton"
+    ]
+  },
+  {
+    "source": "Hello",
+    "paths": [
+      "UI Manager/GenericTooltipTrigger"
+    ]
+  }
+]

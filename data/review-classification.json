@@ -1,9 +1,10 @@
 {
   "token_differences": {
-    "grammar_omission_or_structure_difference_needs_context_review": 228,
-    "same_variable_heads_translated_parameters_or_filters": 222,
-    "reviewed_literal_unit_operation": 62,
-    "inherited_difference_plus_reviewed_literal_unit_operation": 51
+    "grammar_omission_or_structure_difference_needs_context_review": 220,
+    "reviewed_exact_template_grammar": 736,
+    "same_variable_heads_translated_parameters_or_filters": 179,
+    "reviewed_literal_unit_operation": 54,
+    "inherited_difference_plus_reviewed_literal_unit_operation": 47
   },
   "retained_latin": {
     "model_designation_or_roman_number": 73,

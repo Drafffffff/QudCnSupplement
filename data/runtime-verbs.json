@@ -1,0 +1,553 @@
+{
+  "assembly_sha256": "a348819a26f57beaaebbeca17957a0393026e69859c07f38036dc4fbab6491d8",
+  "authority": "shipped-artifact, observed CIL ldstr and call sites; no game simulation inferred",
+  "methods": [
+    {
+      "method": "XRL.World.GameObject.GenerateSpotMessage",
+      "token": "0x06006005",
+      "il_sha256": "67a61673f71338cc668f9c1ab80a711e71885c49d3f8ed579a5e278022617861"
+    },
+    {
+      "method": "XRL.World.Parts.Physics.ProcessTargetedMove",
+      "token": "0x06009060",
+      "il_sha256": "1a5bda9d8a4b323387f30203e44a43cca3307bd94ac00926e195c250f780ca0b"
+    },
+    {
+      "method": "XRL.World.Parts.FabricateFromSelf.get_UseFabricateVerb",
+      "token": "0x06009874",
+      "il_sha256": "5d747896c095c1a31ce71780ccabc6d15990003d50ece1863cd338b32a30c4a9"
+    },
+    {
+      "method": "XRL.World.Parts.FabricateFromSelf.Activate",
+      "token": "0x06009885",
+      "il_sha256": "0798a1351618bc65eea6a739a9b916d18ae4172df6d54ef6ae55dce4f35be4d9"
+    },
+    {
+      "method": "XRL.World.Parts.BootSequence..ctor",
+      "token": "0x0600a4c5",
+      "il_sha256": "0b5bbcf3fd3b32a6da49b6048622e6cc3134c7dd35f071ab8bc021d06911704d"
+    },
+    {
+      "method": "XRL.World.Parts.BootSequence.BootUI",
+      "token": "0x0600a4c8",
+      "il_sha256": "c7730b39d0e8e0c8b51dfd3d1b12d88a4a9c6eb88cfd929fddd75760efa74197"
+    },
+    {
+      "method": "XRL.World.Parts.Butcherable.get_defaultVerb",
+      "token": "0x0600a4f2",
+      "il_sha256": "9fb94001022f8316a245016269c875e6cc9ef6ca01090685080e270fb42e50ad"
+    },
+    {
+      "method": "XRL.World.Parts.Butcherable.AttemptButcher",
+      "token": "0x0600a4f8",
+      "il_sha256": "1db122eb17731264d7cd6691130a833f4b58eefbd51f45545942f1697e0200d7"
+    },
+    {
+      "method": "XRL.World.Parts.Harvestable.GetVerb",
+      "token": "0x0600a788",
+      "il_sha256": "01d089e35bda66f99e84958cad0bf6c9d6dabee2fbd5415b01d132a27d174480"
+    },
+    {
+      "method": "XRL.World.Parts.Harvestable.AttemptHarvest",
+      "token": "0x0600a78a",
+      "il_sha256": "5ff328ad78343c3412c23ddb48d9369bfd7f51e1de3b8456de640354b63f299a"
+    },
+    {
+      "method": "XRL.World.Parts.LeaksFluid..ctor",
+      "token": "0x0600ac59",
+      "il_sha256": "36acaedb3392849d711f6199eb4a6208b8ce42fd17d765f564b8738f0576c87e"
+    },
+    {
+      "method": "XRL.World.Parts.LeaksFluid.DistributeLiquid",
+      "token": "0x0600ac63",
+      "il_sha256": "07bae58f200e219d324c1466e6b21c22ce24739a2fcf5bcfa4fd9eaf9b8db3a1"
+    },
+    {
+      "method": "XRL.World.Parts.Skill.Acrobatics_Jump.Jump",
+      "token": "0x0600c0c8",
+      "il_sha256": "7a0678dc103e5043c76156702f5632d60dabae3916b5c2467b91479699a10ed6"
+    },
+    {
+      "method": "XRL.World.Parts.Mutation.LightManipulation.HandleEvent",
+      "token": "0x0600c6b4",
+      "il_sha256": "1ccb6c4a1615b0871d4bc9edae94281dbe0755bfa4f2ac7ea47fe6a5b904826b"
+    },
+    {
+      "method": "XRL.World.Parts.Mutation.LightManipulation.FireEvent",
+      "token": "0x0600c6c4",
+      "il_sha256": "13717c42108f79f3edb5ee24250891b95ad6680692f9cb75eaa811523e206b6d"
+    }
+  ],
+  "dynamic_template_fields": [
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does#verb= =object.an:withTitles= =subject.generalDirection:noHere#object=, so you refrain from =autoActDescription=.'), ('Context', 'spotmessage')), 1),), '#text')",
+      "token": "=subject.Does#verb=",
+      "translation": "=subject.Does#verb= =object.an:withTitles= =subject.generalDirection:noHere#object=，因此你放弃 =autoActDescription=。",
+      "source": "=subject.Does#verb= =object.an:withTitles= =subject.generalDirection:noHere#object=, so you refrain from =autoActDescription=.",
+      "category": "dynamic_verb",
+      "reason": "Keep for typed runtime semantic hook; localized branches already Chinese; dynamic values must preserve object/name identity"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does#verb= =object.an:withTitles= =subject.generalDirection:noHere#object= and stop =autoActDescription=.'), ('Context', 'spotmessage')), 1),), '#text')",
+      "token": "=subject.Does#verb=",
+      "translation": "=subject.Does#verb= =object.an:withTitles= =subject.generalDirection:noHere#object=，停止 =autoActDescription=。",
+      "source": "=subject.Does#verb= =object.an:withTitles= =subject.generalDirection:noHere#object= and stop =autoActDescription=.",
+      "category": "dynamic_verb",
+      "reason": "Keep for typed runtime semantic hook; localized branches already Chinese; dynamic values must preserve object/name identity"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does#verb= =object.an:withTitles:notvisible= =subject.generalDirection:noHere#object=, so you refrain from =autoActDescription=.'), ('Context', 'spotmessage')), 1),), '#text')",
+      "token": "=subject.Does#verb=",
+      "translation": "=subject.Does#verb= =object.an:withTitles:notvisible= =subject.generalDirection:noHere#object=，因此你放弃 =autoActDescription=。",
+      "source": "=subject.Does#verb= =object.an:withTitles:notvisible= =subject.generalDirection:noHere#object=, so you refrain from =autoActDescription=.",
+      "category": "dynamic_verb",
+      "reason": "Keep for typed runtime semantic hook; localized branches already Chinese; dynamic values must preserve object/name identity"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does#verb= =object.an:withTitles:notvisible= =subject.generalDirection:noHere#object= and stop =autoActDescription=.'), ('Context', 'spotmessage')), 1),), '#text')",
+      "token": "=subject.Does#verb=",
+      "translation": "=subject.Does#verb= =object.an:withTitles:notvisible= =subject.generalDirection:noHere#object=，停止 =autoActDescription=。",
+      "source": "=subject.Does#verb= =object.an:withTitles:notvisible= =subject.generalDirection:noHere#object= and stop =autoActDescription=.",
+      "category": "dynamic_verb",
+      "reason": "Keep for typed runtime semantic hook; localized branches already Chinese; dynamic values must preserve object/name identity"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does#fabricateVerb= =number.a.or.cardinal.names#sample= from =source=.'), ('Context', 'FabricateFromSelf MessageLog')), 1),), '#text')",
+      "token": "=subject.Does#fabricateVerb=",
+      "translation": "=subject.Does#fabricateVerb= 用 =source= 造出 =number.a.or.cardinal.names#sample=。",
+      "source": "=subject.Does#fabricateVerb= =number.a.or.cardinal.names#sample= from =source=.",
+      "category": "dynamic_verb",
+      "reason": "Keep for typed runtime semantic hook; localized branches already Chinese; dynamic values must preserve object/name identity"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does#verb=.'), ('Context', 'BootSequence Boot Message')), 1),), '#text')",
+      "token": "=subject.Does#verb=",
+      "translation": "=subject.Does#verb=。",
+      "source": "=subject.Does#verb=.",
+      "category": "dynamic_verb",
+      "reason": "Keep for typed runtime semantic hook; localized branches already Chinese; dynamic values must preserve object/name identity"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does#verb= =object.the.name= =subject.formatDirection:ifAny#direction= into =amount.cardinal= =result.name|pluralize=.'), ('Context', 'Butcherable Butcher Message')), 1),), '#text')",
+      "token": "=subject.Does#verb=",
+      "translation": "=subject.Does#verb= =object.the.name= =subject.formatDirection:ifAny#direction= 成 =amount.cardinal= 个 =result.name|pluralize=。",
+      "source": "=subject.Does#verb= =object.the.name= =subject.formatDirection:ifAny#direction= into =amount.cardinal= =result.name|pluralize=.",
+      "category": "dynamic_verb",
+      "reason": "Keep for typed runtime semantic hook; localized branches already Chinese; dynamic values must preserve object/name identity"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does#verb= =object.the.name= =subject.formatDirection:ifAny#direction= into =result.a.name=.'), ('Context', 'Butcherable Butcher Message Amount 1')), 1),), '#text')",
+      "token": "=subject.Does#verb=",
+      "translation": "=subject.Does#verb= =object.the.name= =subject.formatDirection:ifAny#direction= 成 =result.a.name=。",
+      "source": "=subject.Does#verb= =object.the.name= =subject.formatDirection:ifAny#direction= into =result.a.name=.",
+      "category": "dynamic_verb",
+      "reason": "Keep for typed runtime semantic hook; localized branches already Chinese; dynamic values must preserve object/name identity"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does#verb= =count==byCountSuffix=.'), ('Context', 'DeployableInfrastructure Deploy Message With MessageByCountSuffix')), 1),), '#text')",
+      "token": "=subject.Does#verb=",
+      "translation": "=subject.Does#verb= =count==byCountSuffix=。",
+      "source": "=subject.Does#verb= =count==byCountSuffix=.",
+      "category": "dynamic_verb",
+      "reason": "Keep for typed runtime semantic hook; localized branches already Chinese; dynamic values must preserve object/name identity"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does#verb= =object.the.name:single=.'), ('Context', 'DeployableInfrastructure Deploy Message')), 1),), '#text')",
+      "token": "=subject.Does#verb=",
+      "translation": "=subject.Does#verb= =object.the.name:single=。",
+      "source": "=subject.Does#verb= =object.the.name:single=.",
+      "category": "dynamic_verb",
+      "reason": "Keep for typed runtime semantic hook; localized branches already Chinese; dynamic values must preserve object/name identity"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does#verb= =object.a.name:single=.'), ('Context', 'DeployableInfraStructure Other Deploy Message')), 1),), '#text')",
+      "token": "=subject.Does#verb=",
+      "translation": "=subject.Does#verb= =object.a.name:single=。",
+      "source": "=subject.Does#verb= =object.a.name:single=.",
+      "category": "dynamic_verb",
+      "reason": "Keep for typed runtime semantic hook; localized branches already Chinese; dynamic values must preserve object/name identity"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does#verb= =object.a.name= =subject.formatDirection:ifAny#direction= into =result.a.name=.'), ('Context', 'Harvestable FromRandomTable ShowSource')), 1),), '#text')",
+      "token": "=subject.Does#verb=",
+      "translation": "=subject.Does#verb= =object.a.name= =subject.formatDirection:ifAny#direction= 进入 =result.a.name=。",
+      "source": "=subject.Does#verb= =object.a.name= =subject.formatDirection:ifAny#direction= into =result.a.name=.",
+      "category": "dynamic_verb",
+      "reason": "Keep for typed runtime semantic hook; localized branches already Chinese; dynamic values must preserve object/name identity"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does#verb= =result.a.name= =subject.from.its.direction:ifAny#direction=.'), ('Context', 'Harvestable FromRandomTable')), 1),), '#text')",
+      "token": "=subject.Does#verb=",
+      "translation": "=subject.Does#verb= =result.a.name= =subject.from.its.direction:ifAny#direction=。",
+      "source": "=subject.Does#verb= =result.a.name= =subject.from.its.direction:ifAny#direction=.",
+      "category": "dynamic_verb",
+      "reason": "Keep for typed runtime semantic hook; localized branches already Chinese; dynamic values must preserve object/name identity"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does#verb= =object.a.name= =subject.formatDirection:ifAny#direction= into =amount.a.or.cardinal.names#result=.'), ('Context', 'Harvestable ShowSource')), 1),), '#text')",
+      "token": "=subject.Does#verb=",
+      "translation": "=subject.Does#verb= 将 =object.a.name= =subject.formatDirection:ifAny#direction= 转向 =amount.a.or.cardinal.names#result=。",
+      "source": "=subject.Does#verb= =object.a.name= =subject.formatDirection:ifAny#direction= into =amount.a.or.cardinal.names#result=.",
+      "category": "dynamic_verb",
+      "reason": "Keep for typed runtime semantic hook; localized branches already Chinese; dynamic values must preserve object/name identity"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does#verb= =amount.a.or.cardinal.names#result= =subject.from.its.direction:ifAny#direction=.'), ('Context', 'Harvestable Harvest')), 1),), '#text')",
+      "token": "=subject.Does#verb=",
+      "translation": "=subject.Does#verb= =amount.a.or.cardinal.names#result= =subject.from.its.direction:ifAny#direction=。",
+      "source": "=subject.Does#verb= =amount.a.or.cardinal.names#result= =subject.from.its.direction:ifAny#direction=.",
+      "category": "dynamic_verb",
+      "reason": "Keep for typed runtime semantic hook; localized branches already Chinese; dynamic values must preserve object/name identity"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does#verb= =liquid.drams.of.liquid#volume=.'), ('Context', 'LeaksFluid TellLeakAmount')), 1),), '#text')",
+      "token": "=subject.Does#verb=",
+      "translation": "=subject.Does#verb= =liquid.drams.of.liquid#volume=。",
+      "source": "=subject.Does#verb= =liquid.drams.of.liquid#volume=.",
+      "category": "dynamic_verb",
+      "reason": "Keep for typed runtime semantic hook; localized branches already Chinese; dynamic values must preserve object/name identity"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does#verb= the laser beam!'), ('Context', 'LightManip Lase Fail refracted')), 1),), '#text')",
+      "token": "=subject.Does#verb=",
+      "translation": "=subject.Does#verb= 了激光束！",
+      "source": "=subject.Does#verb= the laser beam!",
+      "category": "dynamic_verb",
+      "reason": "Keep for typed runtime semantic hook; localized branches already Chinese; dynamic values must preserve object/name identity"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.An= =subject.verb#ArriveVerb= =subject.to.the.direction=.'),), 1),), '#text')",
+      "token": "=subject.verb#ArriveVerb=",
+      "translation": "=subject.An= =subject.verb#ArriveVerb= 到 =subject.to.the.direction=。",
+      "source": "=subject.An= =subject.verb#ArriveVerb= =subject.to.the.direction=.",
+      "category": "dynamic_verb",
+      "reason": "Keep for typed runtime semantic hook; localized branches already Chinese; dynamic values must preserve object/name identity"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does#verb= over =object.the.name=.'), ('Context', 'Jump over something')), 1),), '#text')",
+      "token": "=subject.Does#verb=",
+      "translation": "=subject.Does#verb= 越过 =object.the.name=。",
+      "source": "=subject.Does#verb= over =object.the.name=.",
+      "category": "dynamic_verb",
+      "reason": "Keep for typed runtime semantic hook; localized branches already Chinese; dynamic values must preserve object/name identity"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', '=subject.Does#verb=.'), ('Context', 'Jump subject does jump')), 1),), '#text')",
+      "token": "=subject.Does#verb=",
+      "translation": "=subject.Does#verb=。",
+      "source": "=subject.Does#verb=.",
+      "category": "dynamic_verb",
+      "reason": "Keep for typed runtime semantic hook; localized branches already Chinese; dynamic values must preserve object/name identity"
+    }
+  ],
+  "translated_default_verbs": [
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'see'), ('Context', 'spotmessage.defaultVerb')), 1),), '#text')",
+      "source": "see",
+      "translation": "看见"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'fabricate'), ('Context', 'FabricateFromSelf Default FabricateVerb')), 1),), '#text')",
+      "source": "fabricate",
+      "translation": "造出"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'beep'), ('Context', 'BootSequence Default VerbOnBootInitialized')), 1),), '#text')",
+      "source": "beep",
+      "translation": "哔哔作响"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'click'), ('Context', 'BootSequence Default VerbOnBootDone')), 1),), '#text')",
+      "source": "click",
+      "translation": "咔嗒作响"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'bloop'), ('Context', 'BootSequence Default VerbOnBootAborted')), 1),), '#text')",
+      "source": "bloop",
+      "translation": "咕噜作响"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'butcher'), ('Context', 'Butcherable default butcher verb')), 1),), '#text')",
+      "source": "butcher",
+      "translation": "屠宰"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'harvest'), ('Context', 'Harvestable DefaultVerb')), 1),), '#text')",
+      "source": "harvest",
+      "translation": "收获"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'reflect'), ('Context', 'ReflectProjectiles DefaultVerb')), 1),), '#text')",
+      "source": "reflect",
+      "translation": "反射"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'jump'), ('Context', 'Jump - Default =verb=')), 1),), '#text')",
+      "source": "jump",
+      "translation": "跳跃"
+    }
+  ],
+  "translated_configurable_fields": [
+    {
+      "file": "Creatures.example.xml",
+      "path": "((('object', (('Name', 'Cragmensch Boulderer'),), 1), ('part', (('Name', 'FabricateFromSelf'),), 1)), 'FabricateVerb')",
+      "source": "excavate",
+      "translation": "挖掘"
+    },
+    {
+      "file": "Creatures.example.xml",
+      "path": "((('object', (('Name', 'Glittermensch Boulderer'),), 1), ('part', (('Name', 'FabricateFromSelf'),), 1)), 'FabricateVerb')",
+      "source": "excavate",
+      "translation": "开掘"
+    },
+    {
+      "file": "Items.example.xml",
+      "path": "((('object', (('Name', 'Ceremonial Khopesh'),), 1), ('part', (('Name', 'BootSequence'),), 1)), 'VerbOnBootInitialized')",
+      "source": "buzz",
+      "translation": "嗡响"
+    },
+    {
+      "file": "Items.example.xml",
+      "path": "((('object', (('Name', 'Ceremonial Khopesh'),), 1), ('part', (('Name', 'BootSequence'),), 1)), 'VerbOnBootDone')",
+      "source": "hum",
+      "translation": "低鸣"
+    },
+    {
+      "file": "Items.example.xml",
+      "path": "((('object', (('Name', 'Ceremonial Khopesh'),), 1), ('part', (('Name', 'BootSequence'),), 1)), 'VerbOnBootAborted')",
+      "source": "clack",
+      "translation": "咔哒作响"
+    },
+    {
+      "file": "Items.example.xml",
+      "path": "((('object', (('Name', 'Gas Tumbler'),), 1), ('part', (('Name', 'BootSequence'),), 1)), 'VerbOnBootInitialized')",
+      "source": "whirl",
+      "translation": "旋转"
+    },
+    {
+      "file": "Items.example.xml",
+      "path": "((('object', (('Name', 'Gas Tumbler'),), 1), ('part', (('Name', 'BootSequence'),), 1)), 'VerbOnBootDone')",
+      "source": "pop",
+      "translation": "砰响"
+    },
+    {
+      "file": "Items.example.xml",
+      "path": "((('object', (('Name', 'Gas Tumbler'),), 1), ('part', (('Name', 'BootSequence'),), 1)), 'VerbOnBootAborted')",
+      "source": "sputter",
+      "translation": "噗噗作响"
+    },
+    {
+      "file": "Items.example.xml",
+      "path": "((('object', (('Name', 'Gyrocopter Backpack'),), 1), ('part', (('Name', 'BootSequence'),), 1)), 'VerbOnBootInitialized')",
+      "source": "cough",
+      "translation": "咳响"
+    },
+    {
+      "file": "Items.example.xml",
+      "path": "((('object', (('Name', 'Gyrocopter Backpack'),), 1), ('part', (('Name', 'BootSequence'),), 1)), 'VerbOnBootDone')",
+      "source": "whir",
+      "translation": "呼鸣"
+    },
+    {
+      "file": "Items.example.xml",
+      "path": "((('object', (('Name', 'Gyrocopter Backpack'),), 1), ('part', (('Name', 'BootSequence'),), 1)), 'VerbOnBootAborted')",
+      "source": "sputter",
+      "translation": "噗噗作响"
+    },
+    {
+      "file": "Items.example.xml",
+      "path": "((('object', (('Name', 'Strength Exo'),), 1), ('part', (('Name', 'BootSequence'),), 1)), 'VerbOnBootInitialized')",
+      "source": "whine",
+      "translation": "尖鸣"
+    },
+    {
+      "file": "Items.example.xml",
+      "path": "((('object', (('Name', 'Strength Exo'),), 1), ('part', (('Name', 'BootSequence'),), 1)), 'VerbOnBootDone')",
+      "source": "hum",
+      "translation": "嗡鸣"
+    },
+    {
+      "file": "Items.example.xml",
+      "path": "((('object', (('Name', 'Strength Exo'),), 1), ('part', (('Name', 'BootSequence'),), 1)), 'VerbOnBootAborted')",
+      "source": "thunk",
+      "translation": "咚响"
+    },
+    {
+      "file": "Items.example.xml",
+      "path": "((('object', (('Name', 'Witchwood Wreath'),), 1), ('part', (('Name', 'Harvestable'),), 1)), 'HarvestVerb')",
+      "source": "break down",
+      "translation": "拆解"
+    },
+    {
+      "file": "Items.example.xml",
+      "path": "((('object', (('Name', 'Mirrorshades'),), 1), ('part', (('Name', 'RefractLight'),), 1)), 'Verb')",
+      "source": "reflect",
+      "translation": "反射"
+    },
+    {
+      "file": "Items.example.xml",
+      "path": "((('object', (('Name', 'Rocket Skates'),), 1), ('part', (('Name', 'BootSequence'),), 1)), 'VerbOnBootInitialized')",
+      "source": "cough",
+      "translation": "咳响"
+    },
+    {
+      "file": "Items.example.xml",
+      "path": "((('object', (('Name', 'Rocket Skates'),), 1), ('part', (('Name', 'BootSequence'),), 1)), 'VerbOnBootDone')",
+      "source": "fwoosh",
+      "translation": "呼啸"
+    },
+    {
+      "file": "Items.example.xml",
+      "path": "((('object', (('Name', 'Rocket Skates'),), 1), ('part', (('Name', 'BootSequence'),), 1)), 'VerbOnBootAborted')",
+      "source": "sputter",
+      "translation": "噗噗作响"
+    },
+    {
+      "file": "Items.example.xml",
+      "path": "((('object', (('Name', 'TauHeadpiece'),), 1), ('part', (('Name', 'BootSequence'),), 1)), 'VerbOnBootInitialized')",
+      "source": "vibrate",
+      "translation": "振动"
+    },
+    {
+      "file": "Items.example.xml",
+      "path": "((('object', (('Name', 'TauHeadpiece'),), 1), ('part', (('Name', 'BootSequence'),), 1)), 'VerbOnBootDone')",
+      "source": "chime",
+      "translation": "鸣响"
+    },
+    {
+      "file": "Items.example.xml",
+      "path": "((('object', (('Name', 'TauHeadpiece'),), 1), ('part', (('Name', 'BootSequence'),), 1)), 'VerbOnBootAborted')",
+      "source": "still",
+      "translation": "静止"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'fabricate'), ('Context', 'FabricateFromSelf Default FabricateVerb')), 1),), '#text')",
+      "source": "fabricate",
+      "translation": "造出"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'beep'), ('Context', 'BootSequence Default VerbOnBootInitialized')), 1),), '#text')",
+      "source": "beep",
+      "translation": "哔哔作响"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'click'), ('Context', 'BootSequence Default VerbOnBootDone')), 1),), '#text')",
+      "source": "click",
+      "translation": "咔嗒作响"
+    },
+    {
+      "file": "Strings.example.xml",
+      "path": "((('string', (('ID', 'bloop'), ('Context', 'BootSequence Default VerbOnBootAborted')), 1),), '#text')",
+      "source": "bloop",
+      "translation": "咕噜作响"
+    }
+  ],
+  "runtime_word_map": {
+    "see": "看见",
+    "spot": "发现",
+    "notice": "注意到",
+    "hear": "听见",
+    "sense": "感应到",
+    "fabricate": "造出",
+    "produce": "制造",
+    "extrude": "挤出",
+    "create": "创造",
+    "generate": "生成",
+    "excavate": "挖掘",
+    "clack": "咔哒作响",
+    "whirl": "旋转",
+    "sputter": "噗噗作响",
+    "cough": "咳响",
+    "whir": "呼鸣",
+    "whine": "尖鸣",
+    "thunk": "咚响",
+    "break down": "拆解",
+    "fwoosh": "呼啸",
+    "vibrate": "振动",
+    "chime": "鸣响",
+    "still": "静止",
+    "beep": "哔哔作响",
+    "click": "咔嗒作响",
+    "bloop": "咕噜作响",
+    "hum": "嗡鸣",
+    "whirr": "呼呼作响",
+    "buzz": "嗡嗡作响",
+    "butcher": "屠宰",
+    "harvest": "收获",
+    "gather": "采集",
+    "collect": "收集",
+    "pick": "采摘",
+    "pluck": "摘取",
+    "leak": "泄漏",
+    "drip": "滴出",
+    "ooze": "渗出",
+    "seep": "渗出",
+    "spill": "溢出",
+    "pour": "倒出",
+    "reflect": "反射",
+    "refract": "折射",
+    "deflect": "偏转",
+    "scatter": "散射",
+    "absorb": "吸收",
+    "jump": "跳跃",
+    "leap": "跃起",
+    "hop": "跳起",
+    "bound": "跃进",
+    "vault": "跃过",
+    "arrive": "到达",
+    "appear": "出现",
+    "materialize": "显现",
+    "rematerialize": "重新显现",
+    "emerge": "出现",
+    "teleport": "传送",
+    "fall": "落下",
+    "land": "落地",
+    "move": "移动",
+    "walk": "行走",
+    "run": "奔跑",
+    "fly": "飞行",
+    "stumble": "踉跄",
+    "tumble": "翻滚",
+    "blink": "闪现",
+    "pop": "突然出现",
+    "phase": "相位移动"
+  },
+  "scope": "Only GameObjectReplacers.Does/Verb string output; capture actual Verb/Context parameter (fallback Context.Default for #dynamic variables) before consumption; replace only whole trailing verb/third-person form; CN only; no shared argument mutation or GameObject.GetVerb hook",
+  "limitations": [
+    "Unknown third-party configured verbs are retained and logged once, bounded to64; external mod vocabulary cannot be guaranteed.",
+    "Default/configured verbs already translated by corpus are left unchanged; dictionaries address raw English overrides.",
+    "Standalone =verb= defaults e.g Jump already use localized Strings._S contexts; no global string argument hook is installed."
+  ]
+}

@@ -96,6 +96,8 @@ def main():
     overrides={(x['file'],x['path']):x for x in json.loads((ROOT/'data/manual-overrides.json').read_text())}
     glossary=json.loads((ROOT/'data/glossary-visible.json').read_text())
     units=json.loads((ROOT/'data/literal-units.json').read_text())
+    repairs={(x['file'],x['path']):x for x in json.loads((ROOT/'data/template-repairs.json').read_text())}
+    applied_repairs=set()
     unit_audit=[]
     documents=[]; bytext={}; cnid={}; twid={}; snapshots={}
     for path in sorted(base.glob('*.xml')):
@@ -143,6 +145,10 @@ def main():
             if unit_changes:
                 unit_audit.append({'file':path.name,'path':repr(k),'source':source,'baseline_translation':unit_baseline,'translation':translated,'changes':unit_changes,'baseline_tokens':dict(tokens(unit_baseline)),'final_tokens':dict(tokens(translated))})
                 if status=='existing_cn':status='reviewed_unit_literal'
+            repair=repairs.get((path.name,repr(k)))
+            if repair:
+                if repair['source']!=source or translated not in {repair['before'],repair['after']}:raise ValueError('Template repair baseline changed: '+path.name+' '+repr(k))
+                translated=repair['after'];status='reviewed_template_grammar';applied_repairs.add((path.name,repr(k)))
             if current is None or translated!=current:chosen[k]=translated
             if latin(translated):mixed.append({'file':path.name,'path':repr(k),'source':source,'translation':translated})
             if translated!=source and tokens(source)!=tokens(translated):token_warnings.append({'file':path.name,'status':status,'path':repr(k),'source':source,'translation':translated})
@@ -174,11 +180,13 @@ def main():
             return id(e) in emitted_nodes or bool(len(e))
         prune(result);result.set('Lang','CN');result.set('Encoding','utf-8')
         ET.indent(result,space='  ');ET.ElementTree(result).write(outdir/path.name.replace('.example.xml','.supplement.CN.xml'),encoding='utf-8',xml_declaration=True)
+    if applied_repairs!=set(repairs):raise ValueError('Template repair field missing from export')
     data=ROOT/'data';dump(data/'audit-fields.json',audit);dump(data/'unresolved.json',unresolved);dump(data/'existing-mixed-latin.json',mixed);dump(data/'token-warnings.json',token_warnings);dump(data/'snapshot-sha256.json',snapshots)
     unit_lookup={(x['file'],x['path']):x for x in unit_audit}
     for row in token_warnings:
         unit_row=unit_lookup.get((row['file'],row['path']))
-        if unit_row:row['classification']='reviewed_literal_unit_operation' if tokens(row['source'])==tokens(unit_row['baseline_translation']) else 'inherited_difference_plus_reviewed_literal_unit_operation'
+        if (row['file'],row['path']) in repairs:row['classification']='reviewed_exact_template_grammar'
+        elif unit_row:row['classification']='reviewed_literal_unit_operation' if tokens(row['source'])==tokens(unit_row['baseline_translation']) else 'inherited_difference_plus_reviewed_literal_unit_operation'
         else:row['classification']=classify_tokens(row['source'],row['translation'])
     for row in mixed:row['retained_type']=retained_type(row)
     dump(data/'token-warnings.json',token_warnings);dump(data/'existing-mixed-latin.json',mixed)
@@ -195,6 +203,6 @@ def main():
         new_differences.append({'file':row['file'],'path':row['path'],'status':row['status'],'exact_source_tokens':dict(a),'exact_translation_tokens':dict(b),'approved_exact_unit_operation_only':a==baseline,'runtime_confirmation_required':False})
     dump(data/'new-translation-token-audit.json',{'checked_fields':checked_new,'difference_fields':len(new_differences),'unapproved_difference_fields':sum(not x['approved_exact_unit_operation_only'] for x in new_differences),'differences':new_differences})
     dump(data/'selector-parameter-allowlist.json',{'scope':'Retired: engine appends s to Chinese single-argument noun pluralization. No selector substitutions are allowed by this file; see unit-operation-audit.json for exact literal-operation replacements.','entries':[]})
-    summary={'scope':'Nonempty ▶-marked fields in official ExampleLanguage XML 2.0.212.31; excludes runtime C#, historyspice JSON, procedural syllable semantics, translations already wrong/mixed and strings absent from the official export. Coverage is field availability, not full-game translation quality.','mode':'Incremental XML with Lang=CN; requires original CN pack and later load order.','total_source_fields':len(audit),'statuses':dict(counts),'emitted_fields':sum(x['emitted'] for x in audit),'unresolved_fields':len(unresolved),'existing_mixed_latin_fields':len(mixed),'residual_latin_fields_all_final_values':len(mixed),'residual_latin_scope':'Includes all final existing, reused, converted and manual values; residual does not mean untranslated prose.','placeholder_warning_fields':len(token_warnings),'xml_files':len(list(outdir.glob('*.xml'))),'literal_unit_operation_fields':len(unit_audit),'collection_policy':'Load=Replace collections include unchanged existing CN siblings to preserve the entire collection.'}
+    summary={'scope':'Nonempty ▶-marked fields in official ExampleLanguage XML 2.0.212.31; excludes runtime C#, historyspice JSON, procedural syllable semantics, translations already wrong/mixed and strings absent from the official export. Coverage is field availability, not full-game translation quality.','mode':'Incremental XML with Lang=CN; requires original CN pack and later load order.','total_source_fields':len(audit),'statuses':dict(counts),'emitted_fields':sum(x['emitted'] for x in audit),'unresolved_fields':len(unresolved),'existing_mixed_latin_fields':len(mixed),'residual_latin_fields_all_final_values':len(mixed),'residual_latin_scope':'Includes all final existing, reused, converted and manual values; residual does not mean untranslated prose.','placeholder_warning_fields':len(token_warnings),'xml_files':len(list(outdir.glob('*.xml'))),'template_grammar_repaired_fields':len(applied_repairs),'literal_unit_operation_fields':len(unit_audit),'collection_policy':'Load=Replace collections include unchanged existing CN siblings to preserve the entire collection.'}
     dump(data/'coverage-summary.json',summary);print(json.dumps(summary,ensure_ascii=False,indent=2))
 if __name__=='__main__':main()

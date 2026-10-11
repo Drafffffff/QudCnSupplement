@@ -5,13 +5,14 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA = (ROOT/'mod/QudCnSupplementData.cs').read_text()
 PAIRS = re.findall(r'Tuple.Create\(new Regex\(@"((?:""|[^"])*)", RegexOptions.IgnoreCase\), "((?:\\.|[^"\\])*)"\)', DATA)
+COMPILED = [(re.compile(p,re.I),v) for p,v in PAIRS]
 def translate(s):
-    frame=re.fullmatch(r'\{\{([^{}|]+)\|(.*)\}\}(\s*\[[^\]]*\])',s,re.S)
+    frame=re.fullmatch(r'\{\{([^{}|]+)\|(.*)\}\}(\s*\[[^\]]*\])?',s,re.S)
     if frame:
         inner=translate(frame[2])
-        if inner!=frame[2]:return '{{'+frame[1]+'|'+inner+'}}'+frame[3]
-    for pattern, value in PAIRS:
-        m = re.match(pattern, s, re.I)
+        if inner!=frame[2]:return '{{'+frame[1]+'|'+inner+'}}'+(frame[3] or '')
+    for pattern, value in COMPILED:
+        m = pattern.match(s)
         if m:
             result = re.sub(r'\$(\d+)', lambda g: m.group(int(g[1])) or '', value)
             return re.sub(r'\b(?:the|a|an)\s+(?=(?:\{\{[^{}|]+\|)*[\u3400-\u9fff])', '', result, flags=re.I)
@@ -25,6 +26,38 @@ class DynamicTests(unittest.TestCase):
     def test_live_log_mixed_grammar(self):
         self.assertEqual(translate('你 take the 皮甲。'), '你拿取了皮甲。')
         self.assertEqual(translate('{{r|你 miss 使用 你的 {{w|青铜}}匕首 未命中！}} [2 对 5]'), '{{r|你用你的 {{w|青铜}}匕首攻击，但未命中！}} [2 对 5]')
+    def test_live_running_and_source_effects(self):
+        self.assertEqual(translate('你 begin 疾跑！'),'你开始疾跑！')
+        self.assertEqual(translate('你 stop 疾跑。'),'你停止疾跑。')
+        self.assertEqual(translate('{{freezing|冰封}} 熊 因 your freezing effect 受到 4 伤害'),'{{freezing|冰封}} 熊因你的冰冻效果受到4伤害')
+        for subject in ['Will', 'Hope-in-Motion', '{{R|熊}}']:
+            for verb,cn in [('begin','开始'),('begins','开始'),('began','开始'),('start','开始'),('stop','停止'),('stops','停止'),('stopped','停止')]:
+                for suffix in ['！','!','。','.','']:
+                    self.assertEqual(translate(f'{subject} {verb} 疾跑{suffix}'),f'{subject}{cn}疾跑{suffix}')
+            for possessive,zh in [('your','你的'),('his','他的'),('her','她的'),('its','它的'),('their','他们的')]:
+                for effect,cn in [('freezing','冰冻'),('burning','燃烧'),('electricity','电击')]:
+                    actual=translate(f'{subject} 因 {possessive} {effect} effect 受到 17 伤害！')
+                    self.assertEqual(actual,f'{subject}因{zh}{cn}效果受到17伤害！')
+                    self.assertEqual(translate(actual),actual)
+        self.assertEqual(translate("熊 因 Hope-in-Motion's freezing effect 受到 3 伤害。"),'熊因Hope-in-Motion的冰冻效果受到3伤害。')
+    def test_mixed_ray_anatomy(self):
+        self.assertEqual(translate('{{G|你 emit 从 你的 hands 发出一道冻结射线！}}'),'{{G|你从双手发出一道冰冻射线！}}')
+        for part,cn in [('hand','手'),('hands','双手'),('left hand','左手'),('right hand','右手'),('second left hand','第二只左手'),('eyes','双眼'),('mouth','嘴')]:
+            for ray,zh in [('冻结','冰冻'),('燃焰','火焰')]:
+                actual=translate(f'你 emit 从 你的 {part} 发出一道{ray}射线！')
+                self.assertEqual(actual,f'你从{cn}发出一道{zh}射线！')
+                self.assertEqual(translate(actual),actual)
+                self.assertEqual(translate(f'{{R|Will}} emits 从 他的 {part} 发出一道{ray}射线。'),f'{{R|Will}}从{cn}发出一道{zh}射线。')
+                self.assertEqual(translate('你 emit 从 你的 {{W|'+part+'}} 发出一道'+ray+'射线！'),'你从{{W|'+cn+'}}发出一道'+zh+'射线！')
+        self.assertEqual(translate('你 emit 出一道冻结射线！'),'你发出一道冰冻射线！')
+        self.assertEqual(translate('你 emit 发出一道电磁脉冲。'),'你发出一道电磁脉冲。')
+        self.assertEqual(translate('Hope-in-Motion emits 出研磨般的噪声。'),'Hope-in-Motion发出研磨般的噪声。')
+        self.assertEqual(translate('熊 emit 一股{{fiery|火焰羽流}}！'),'熊喷出一股{{fiery|火焰羽流}}！')
+        self.assertEqual(translate('你 emit 一股{{fiery|火焰羽流}}！'),'你喷出一股{{fiery|火焰羽流}}！')
+    def test_unknown_name_fragments_not_guessed(self):
+        for fragment in ['begin 疾跑', 'your freezing effect', 'hands', '{{G|hands}}','Will begins']:
+            self.assertEqual(translate(fragment),fragment)
+        self.assertEqual(translate('你 emit 从 你的 Hope-in-Motion 发出一道冻结射线！'),'你 emit 从 你的 Hope-in-Motion 发出一道冻结射线！')
     def test_physics_articles(self):
         for article in ['a', 'an', 'the', 'A']:
             self.assertEqual(translate(f'你经过了 {article} 铁门。'), '你经过了铁门。')

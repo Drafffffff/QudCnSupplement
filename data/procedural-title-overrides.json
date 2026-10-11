@@ -1,0 +1,15 @@
+{
+  "scope": "Exact observed MarkovBook display title only; do not apply to arbitrary text or non-Markov objects",
+  "titles": {
+    "The Orator Domineers the West": "演说家统御西方"
+  },
+  "evidence": {
+    "The Orator Domineers the West": {
+      "observed": "User screenshot Nearby objects book title",
+      "source": "Furniture.example.xml / statue of wizard / Description.Short",
+      "source_fragment": "Dagon the orator domineers the west apse with his brazen pose.",
+      "localized_description": "演说家达贡以傲慢姿态统御西侧半圆室。他的金冠在火光中灿烂闪耀。",
+      "constraint": "Translate exactly the observed title, without inserting the omitted author name or apse. Does not rewrite save data."
+    }
+  }
+}

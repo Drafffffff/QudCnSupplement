@@ -46,6 +46,49 @@ extra = [
 ]
 for pattern,value in extra:
     lines.append('Tuple.Create(new Regex(@"'+pattern+'", RegexOptions.IgnoreCase), "'+value+'"),')
+# Live MessageQueue evidence + ExampleLanguage Start/Stop Running and ray templates.
+# These rules match complete sentences, translating only grammar and typed effect/body slots.
+# They precede the upstream generic patterns, which otherwise capture English fragments.
+live = []
+def add_live(pattern, value):
+    live.append((pattern,value))
+end=r'([！!。.]?)$'
+for verb,zh in [(r'(?:begin|begins|began|start|starts|started)','开始'),(r'(?:stop|stops|stopped|cease|ceases|ceased)','停止')]:
+    for action,cn in [('running','奔跑'),('sprinting','疾跑'),('meditating','冥想'),('resting','休息'),('flying','飞行'),('swimming','游泳'),('burrowing','潜地'),('phasing','相位移动')]:
+        add_live(r'^(?:You|你)\s+'+verb+r'\s+'+action+end,'你'+zh+cn+'$1')
+        add_live(r'^(?:The )?(.+?)\s+'+verb+r'\s+'+action+end,'$1'+zh+cn+'$2')
+    add_live(r'^(?:You|你)\s+'+verb+r'\s+(.+?)'+end,'你'+zh+'$1$2')
+    add_live(r'^(?:The )?(.+?)\s+'+verb+r'\s+(.+?)'+end,'$1'+zh+'$2$3')
+# Punctuated mixed-CN damage templates. Subject is captured verbatim, including name colors.
+source_types={'freezing':'冰冻','cold':'寒冷','heat':'高温','burning':'燃烧','fire':'火焰','bleeding':'流血','poison':'中毒','acid':'酸液','electricity':'电击','falling':'坠落','thirst':'口渴','starvation':'饥饿','suffocation':'窒息'}
+for effect,cn in source_types.items():
+    for owner,poss in [(r'(?:your|你的)','你的'),(r'(?:his|他的)','他的'),(r'(?:her|她的)','她的'),(r'(?:its|它的)','它的'),(r'(?:their|他们的|她们的|它们的)','他们的'),(r'(?:the|a|an)','')]:
+        add_live(r'^(.+?)\s+因\s+'+owner+r'\s*'+effect+r'(?:\s+effect)?\s+受到\s+(\d+)\s+伤害'+end,'$1因'+poss+cn+'效果受到$2伤害$3')
+    add_live(r'^(.+?)\s+因\s+(.+?)(?:’s|\x27s|的)\s*'+effect+r'(?:\s+effect)?\s+受到\s+(\d+)\s+伤害'+end,'$1因$2的'+cn+'效果受到$3伤害$4')
+# The native ordinalName slot may contain English anatomy even when its sentence is CN.
+parts={'hand':'手','hands':'双手','left hand':'左手','right hand':'右手','foot':'脚','feet':'双脚','left foot':'左脚','right foot':'右脚','arm':'手臂','arms':'双臂','head':'头部','heads':'头部','face':'面部','mouth':'嘴','eye':'眼睛','eyes':'双眼','tail':'尾巴','stinger':'螫针','antenna':'触角','antennae':'触角','tentacle':'触手','tentacles':'触手','fin':'鳍','fins':'鳍','wing':'翅膀','wings':'双翼'}
+for ordinal,cn in [('first','第一'),('second','第二'),('third','第三'),('fourth','第四'),('fifth','第五'),('sixth','第六')]:
+    for limb in ['hand','left hand','right hand','foot','left foot','right foot','arm','head','eye','tentacle']:
+        parts[ordinal+' '+limb]=cn+'只'+parts[limb]
+for part,cn in parts.items():
+    # A literal colored body label is allowed, but arbitrary part names are not guessed.
+    part_pattern=r'(\{\{[^{}|]+\|)?'+re.escape(part)+r'(\}\})?'
+    for ray,ray_cn in [(r'(?:冻结|冰冻|霜冻)','冰冻'),(r'(?:燃焰|火焰|烈焰)','火焰')]:
+        # CN workshop's translated ray sentence with unresolved English Does and ordinalName.
+        add_live(r'^(?:You|你)\s+emit(?:s|ted)?\s+从\s+(?:your|你的)\s+'+part_pattern+r'\s+发出一道'+ray+r'射线'+end,'你从$1'+cn+'$2发出一道'+ray_cn+'射线$3')
+        add_live(r'^(?:The )?(.+?)\s+emit(?:s|ted)?\s+从\s+(?:his|her|its|their|他的|她的|它的|他们的)\s+'+part_pattern+r'\s+发出一道'+ray+r'射线'+end,'$1从$2'+cn+'$3发出一道'+ray_cn+'射线$4')
+for ray,cn in [(r'(?:冻结|冰冻|霜冻)','冰冻'),(r'(?:燃焰|火焰|烈焰)','火焰')]:
+    add_live(r'^(?:You|你)\s+emit(?:s|ted)?\s+出一道'+ray+r'射线'+end,'你发出一道'+cn+'射线$1')
+    add_live(r'^(?:The )?(.+?)\s+emit(?:s|ted)?\s+出一道'+ray+r'射线'+end,'$1发出一道'+cn+'射线$2')
+# Other same-source emit templates in the official export and installed CN patch.
+for tail,cn in [(r'一股(\{\{fiery\|火焰羽流\}\})','喷出一股$1'),(r'出研磨般的噪声','发出研磨般的噪声'),(r'(?:出一阵|发出一道)电磁脉冲','发出一道电磁脉冲'),(r'一道强力霜冻射线','发出一道强力霜冻射线'),(r'一道强力火焰射线','发出一道强力火焰射线')]:
+    # Player-only fixed grammar avoids rewriting a standalone object/name fragment.
+    has_capture=tail.startswith('一股(')
+    add_live(r'^(?:You|你)\s+emit(?:s|ted)?\s+'+tail+end,'你'+cn+('$2' if has_capture else '$1'))
+    npc_cn=cn.replace('$1','$2') if has_capture else cn
+    add_live(r'^(?:The )?(.+?)\s+emit(?:s|ted)?\s+'+tail+end,'$1'+npc_cn+('$3' if has_capture else '$2'))
+for pattern,value in live:
+    lines.append('Tuple.Create(new Regex(@"'+pattern+'", RegexOptions.IgnoreCase), "'+value+'"),')
 harmony = (UPSTREAM/'HarmonyPatches.cs').read_text()
 block = harmony[harmony.index('private static readonly List<Tuple<Regex, string>> Patterns'):harmony.index('private static readonly Regex Possessive')]
 seen=set()
@@ -95,4 +138,4 @@ for k,v in dictionary('EffectZh', cleaner):
     lines.append('  {"'+k+'", "'+chinese_only(v)+'"},')
 lines.extend(['};','}'])
 (ROOT/'mod/QudCnSupplementData.cs').write_text('\n'.join(lines)+'\n')
-print(json.dumps({'exact_ui_strings':len(phrases),'message_patterns':len(seen)+len(extra)},ensure_ascii=False))
+print(json.dumps({'exact_ui_strings':len(phrases),'message_patterns':len(seen)+len(extra)+len(live)},ensure_ascii=False))

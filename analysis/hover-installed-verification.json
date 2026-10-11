@@ -1,0 +1,12 @@
+{
+  "version": "0.1.2",
+  "file_count": 38,
+  "hash_mismatches": [],
+  "qa_installed": false,
+  "mods": [
+    "QudCnSupplement"
+  ],
+  "language": "CN",
+  "normal_save_hashes_unchanged": true,
+  "language_evidence": "normal-profile runtime initialization and visible main menu"
+}

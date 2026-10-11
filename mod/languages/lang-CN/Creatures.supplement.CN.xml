@@ -213,6 +213,7 @@
     <xtagGrammar Proper="真理" />
   </object>
   <object Name="Asphodel" Load="Merge">
+    <part Name="Description" Short="阿斯福德尔（人称可爱者）转动=pronouns.possessive=微垂的花药，摆出诱人的角度。丰收日光与穆萨果皮的一切明亮金色，都只是=pronouns.possessive=花瓣脆弱美感的点缀。=pronouns.Subjective=声称拥有黑格尔根的美学血统，而从这套论证中，又开出=pronouns.possessive=对奥蒙廊和整片林地大荫的主张。" />
     <xtagGrammar Proper="真理" />
   </object>
   <object Name="Haddas" Load="Merge">

@@ -217,6 +217,9 @@
   <object Name="Nails of Jy" Load="Merge">
     <part Name="Render" DisplayName="吉 之钉" />
   </object>
+  <object Name="Mechanical Golem" Load="Merge">
+    <part Name="Interactable" Message="=object.The.name= 太过古老且锈蚀，不能进入。" />
+  </object>
   <object Name="Chiliad Slynth Joppa" Load="Merge">
     <part Name="Render" DisplayName="斯林斯 灌溉者" />
   </object>

@@ -1,0 +1,83 @@
+[QudCnSupplement] pronouns=8/8
+[QudCnSupplement] diagnostics=8/8
+[QudCnSupplement] matrix=36/36
+[QudCnSupplement] selftest=27/27
+[QudCnSupplement] initialized; hooks=178; exact UI=774; patterns=696; language=CN
+[QudCnSupplement] BOOK_CORPUS_LOADED: LibraryCorpus.CN.json states=29384
+[CN-BOOK-QA] sample=患者全都表现出 | 长而有力的小臂因反复捏合工具的动作而绷紧。成年兴德伦的生活闲散，你也许很快会厌倦它们。这个猜想成熟为近似主人与仆人的。层压金属框架内，一枚玻璃弦月件上的光伏件排列在黑色大理石的次表面散射与细流般瑕疵。最西侧的几条会将水注入苍白沼泽。
+[CN-BOOK-QA] sample=的露线衣物 | 四台机器压机把黑色球体碾成钻石杀器。黏土被揉塑成一种设计，唤起了食客对完美球体如何扭曲周围时空的直觉。金口，由商人行会于38出版前在这座巨大而崩塌中的生命投下阴影。
+[CN-BOOK-QA] sample=观察过类人诸王自 | 锥体由黄铜腿托起。晶钢包裹着它的边缘便燃入柔和，履行树的枝头，仰望纺锤微弱的辉光没能把你的银辉之父。炽热燃酒的海洋在怪异球体内部喷溅泡沫，而球体外层则处处压着带编号的矩形金属上竖直成对排列。
+[CN-BOOK-QA] CN titles=PASS; 100/100; length=4..11
+[CN-BOOK-QA] CN sentences=PASS; 100/100
+[CN-BOOK-QA] CN paragraphs=PASS; 100/100; length=53..151
+[CN-BOOK-QA] EN chain unchanged=PASS; Of Cork Swells with Moisture
+[CN-BOOK-QA] original graph unchanged=PASS; 
+[CN-BOOK-QA] other corpus unchanged=PASS; custom English text. 
+[CN-BOOK-QA] MarkovBook blueprint=PASS; 
+[CN-BOOK-QA] observed title CN context=PASS; 演说家统御西方
+[CN-BOOK-QA] observed title EN context=PASS; The Orator Domineers the West
+[CN-BOOK-QA] non Markov title untouched=PASS; The Orator Domineers the West
+[CN-BOOK-QA] SetContents saved metadata=PASS; 100/100
+[CN-BOOK-QA] landmarks preserved=PASS; 3/3
+[CN-BOOK-QA] unknown lore not guessed=PASS; 
+[CN-BOOK-QA] Isner actual=with the {lost masterwork pistol, located somewhere near Golgotha some 3 parasangs west.} => 传说 中 {失落的大师手枪，位于Golgotha以西3帕拉桑处.}
+[CN-BOOK-QA] Isner actual=of the {lost masterwork pistol, located somewhere 9 parasangs east of Joppa, as the story goes.} => 传说 中 {失落的大师手枪，位于Joppa以东9帕拉桑处，传说如此.}
+[CN-BOOK-QA] Isner actual=to the {hiding place of the Ruin of House Isner, rumored to be stored somewhere 33 parasangs west of Omonporch.} => 传说 中 {伊斯纳家族之毁的藏匿处，传闻藏在Omonporch以西33帕拉桑处.}
+[CN-BOOK-QA] actual Isner lore translation=PASS; 200/200; dynamic landmark retained
+[QudCnSupplement] BOOK_ISNER_INJECTED: original world-specific 46 clues retained
+[CN-BOOK-QA] Isner clues injected=PASS; protected clue transitions=46
+[CN-BOOK-QA] Isner clues reachable=PASS; reachable clue successors=46
+[CN-BOOK-QA] EN graph after Isner unchanged=PASS; 
+[CN-BOOK-QA] total=17 PASS / 0 FAIL
+[CN-QA] runtime strings=10211/10211; mismatches=0
+[CN-QA] MessageQueue: 你用 你的 青铜匕首 击中(x2)，造成 3 伤害[7]
+[CN-QA] MessageQueue: &y你装备了 &W火把&y。
+[CN-QA] MessageQueue: 你经过了铁门。
+[CN-QA] MessageQueue: 道路被熟铁栅栏挡住了。
+[CN-QA] MessageQueue: 你拿取了皮甲。
+[CN-QA] MessageQueue: &r你用你的 &w青铜&r匕首攻击，但未命中！&y [2 对 5]
+[CN-QA] MessageQueue: 你开始疾跑！
+[CN-QA] MessageQueue: 你停止疾跑。
+[CN-QA] MessageQueue: &C冰封&y 熊因你的冰冻效果受到4伤害
+[CN-QA] MessageQueue: &G你从双手发出一道冰冻射线！
+[CN-QA] Chinese pluralize=打兰s
+[CN-QA] English guard=True
+[CN-QA] history=3/3; glass=玻璃; dice==spice:numbers.!random=面骰子; redirect=spice.friendOrFoe.default
+[CN-QA] history expansion=PASS; value=玻璃
+[CN-QA] template pronouns=4/4; CN=她; possessive=她的; raw=she; EN=she
+[CN-QA] list andList PASS => Will and Hope、铁门和{{W|木门}}
+[CN-QA] list orList PASS => Will and Hope、铁门或{{W|木门}}
+[CN-QA] list either.or PASS => 要么Will and Hope、铁门或{{W|木门}}
+[CN-QA] dynamic noun plural template=铁门; native=铁门s
+[CN-QA] gender pronoun=她 她的
+[CN-QA] template article=门; PASS=True
+[CN-QA] anatomy raw=hand; template=手
+[CN-QA] list outside scope=Will and Hope、铁门、和 {{W|木门}}; EN=Will and Hope、铁门、和 {{W|木门}}
+[CN-QA] grammar checks=12/12
+[CN-QA] dynamic verb beep => 门 哔哔作响
+[CN-QA] dynamic verb butcher => 门 屠宰
+[CN-QA] dynamic verb harvest => 门 收获
+[CN-QA] dynamic verb leak => 门 泄漏
+[CN-QA] dynamic verb reflect => 门 反射
+[CN-QA] dynamic verb refract => 门 折射
+[CN-QA] dynamic verb jump => 门 跳跃
+[CN-QA] dynamic verb fabricate => 门 造出
+[CN-QA] dynamic verb appear => 门 出现
+[QudCnRuntimeVerbs] REVIEW actual verb=customverb
+[CN-QA] dynamic verbs=25/25; EN=The 门 reflects
+[CN-UI-QA] inventory done
+[CN-UI-QA] tooltip PASS; source=Minimap Toggle; rendered=显示／隐藏小地图 | ; source_restored=True
+[CN-UI-QA] tooltip PASS; source=Wait Menu; rendered=等待菜单 | ; source_restored=True
+[CN-UI-QA] tooltip PASS; source=Go Down; rendered=向下走 | ; source_restored=True
+[CN-UI-QA] tooltip PASS; source=Autoexplore; rendered=自动探索 | ; source_restored=True
+[CN-UI-QA] tooltip English guard=True
+[CN-UI-QA] tooltip PASS; source=Move to Point of Interest; rendered=前往兴趣点 | ; source_restored=True
+[CN-UI-QA] tooltip PASS; source=Look; rendered=查看 | ; source_restored=True
+[CN-UI-QA] tooltip PASS; source=Character Sheet; rendered=角色面板 | ; source_restored=True
+[CN-UI-QA] tooltip PASS; source=Go Up; rendered=向上走 | ; source_restored=True
+[CN-UI-QA] tooltip PASS; source=Window Lock Toggle; rendered=锁定／解锁窗口 | ; source_restored=True
+[CN-UI-QA] tooltip PASS; source=System Menu; rendered=系统菜单 | ; source_restored=True
+[CN-UI-QA] tooltip PASS; source=Nearby Items List Toggle; rendered=显示／隐藏附近物品 | ; source_restored=True
+[CN-UI-QA] nearby header CN=True; EN restore=True
+[CN-UI-QA] HUD checks=95/95
+[CN-UI-QA] visible Autoexplore hover requested
