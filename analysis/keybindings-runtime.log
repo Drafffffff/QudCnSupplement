@@ -1,0 +1,36 @@
+FILE:build_log.txt
+[2026-10-16T23:58:39] BuildLogger initialized...
+[2026-10-16T23:58:39] ==== RESOLVING DEPENDENCIES ====
+[2026-10-16T23:58:39] ==== BUILDING MODS ====
+[2026-10-16T23:58:39] Defined symbol: VERSION_1_1
+[2026-10-16T23:58:39] Defined symbol: BUILD_2_0_212
+[2026-10-16T23:58:39] === CAVES OF QUD SIMPLIFIED CHINESE TRANSLATION ===
+[2026-10-16T23:58:39] Loading path: /
+[2026-10-16T23:58:39] Defined symbol: MOD_QUDSIMPLIFIEDCHINESE
+[2026-10-16T23:58:39] === CAVES OF QUD 简体中文补充 ===
+[2026-10-16T23:58:39] Loading path: /
+[2026-10-16T23:58:39] Compiling 7 files...
+[2026-10-16T23:58:40] Success :)
+[2026-10-16T23:58:40] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnSupplement.dll
+[2026-10-16T23:58:40] Defined symbol: MOD_QUDCNSUPPLEMENT
+[2026-10-16T23:58:40] === KEYBINDING QA ===
+[2026-10-16T23:58:40] Loading path: /
+[2026-10-16T23:58:40] Compiling 1 file...
+[2026-10-16T23:58:40] Success :)
+[2026-10-16T23:58:40] Location: /home/bazzite/qud-cn-supplement-test/ModAssemblies/QudCnTestProbe.dll
+[2026-10-16T23:58:40] Defined symbol: MOD_QUDCNTESTPROBE
+[2026-10-16T23:58:40] ==== FINAL LOAD ORDER ====
+[2026-10-16T23:58:40] 1: QudSimplifiedChinese
+[2026-10-16T23:58:40] 2: QudCnSupplement
+[2026-10-16T23:58:40] 3: QudCnTestProbe
+
+FILE:Player.log
+[QudCnSupplement] initialized; hooks=212; exact UI=774; patterns=697; language=CN
+[CN-KEY-QA] search 鼠标 rows=10
+[CN-KEY-QA] search Mouse rows=82
+[CN-KEY-QA] search 保存 rows=2
+[CN-KEY-QA] search Save rows=15
+[CN-KEY-QA] search 再生 rows=2
+[CN-KEY-QA] search Regenerate rows=10
+[CN-KEY-QA] conflict popup={{W|F5}} 已经绑定到 {{C|保存游戏}}和{{C|鼠标智能使用}}。  要改为绑定到 {{C|再生肢体}} 吗？
+[CN-KEY-QA] checks=623/623; native rows=214

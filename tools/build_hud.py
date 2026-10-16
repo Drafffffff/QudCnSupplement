@@ -3,6 +3,9 @@ import json
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 pairs=json.loads((ROOT/'data/hud-ui.json').read_text());bykey={}
+for k,v in json.loads((ROOT/'data/keybindings-ui.json').read_text()).items():
+ if k in pairs: assert pairs[k]==v
+ pairs[k]=v
 for k,v in pairs.items():
  if k.lower() in bykey:assert bykey[k.lower()][1]==v
  bykey[k.lower()]=(k,v)

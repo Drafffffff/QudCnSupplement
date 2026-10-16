@@ -1,5 +1,11 @@
 # Bazzite 实机验证记录
 
+## 0.1.4：按键映射（2026-10-16）
+
+原生 Commands.xml 中 200 种命令名称、14 个分类逐项有中文译值；39 项离线测试通过。真实游戏编译 7 个补充 C# 文件及独立 QA 探针成功。原生 QueryKeybinds / FilterItems 构建 214 行，623/623 检查通过：中文说明、英文恢复、命令 ID／分类 ID／绑定保持、中英文搜索以及冲突提示命令名称与输入列表保持。英文键帽、控制器硬件名称保留。
+
+证据：`analysis/keybindings-runtime.log`、`analysis/keybindings-tests.log`、`analysis/keybindings-main.png`、`analysis/keybindings-mouse-debug.png`。测试仅在隔离配置中打开按键映射，未更改绑定、确认冲突或加载用户角色。正式配置已安装 v0.1.4，38 个文件哈希一致、无 QA 探针；安装前后存档哈希一致，正常配置启动成功。
+
 ## 0.1.3：烹饪、交易与祝语
 
 `analysis/cooking-build.log` / `analysis/cooking-runtime.log`：正式 7 个 C# 文件、隔离 QA 6 个文件编译成功；烹饪/单位/分类 318/318，HUD 109/109，真实字符串 10,211/10,211（零差异），语法 12/12、动态动词 25/25、书籍 17 组。`analysis/cooking-tests.log` 离线 37 项全部通过。截图中的三种食材实际组成“声誉良好的杏子、好奇的一根草和大刺叶”，不再出现 a。新增三张 Steam 截图专项 17/17（姿态说明及 AddTag、称呼、日志分类、日期、英文守卫）。详见 data/COOKING_TRADE.md。

@@ -1,15 +1,15 @@
 {
-  "version": "0.1.3",
+  "version": "0.1.4",
   "destination": "/home/bazzite/.config/unity3d/Freehold Games/CavesOfQud/Mods/QudCnSupplement",
-  "backup": "/home/bazzite/.config/unity3d/Freehold Games/CavesOfQud/cn-supplement-backups/20261012-000952",
+  "backup": "/home/bazzite/.config/unity3d/Freehold Games/CavesOfQud/cn-supplement-backups/20261016-235943",
   "original_options_existed": true,
   "previous_allow_scripts": null,
   "files": {
     "LibraryCorpus.CN.json": "e760ecc9898c90592387b146c831bd1c579b1449aadadd2c948a5e68a2b5c53c",
     "QudCnBooks.cs": "bea7b8cb4be071f74e7827132bf956959c710191fb85d3eb9c08287c716f7bd8",
     "QudCnGrammar.cs": "28b6fa1755a0a14491bd2e77b86a42f9de2309bef7bdb8a8963aef86e344ed17",
-    "QudCnHud.cs": "e66f1b22a6b662eb91eb55e0560335a69851860d5c5d4343f7fa74cdb179865d",
-    "QudCnHudData.cs": "987905e445a96c3ade11b52bfe379ef41b61279890845e53bf6d8365d7b31b0b",
+    "QudCnHud.cs": "62146d0f72d606bc55a763698c15b7f4b1a3113c7f2da0865905cdcff47b67d6",
+    "QudCnHudData.cs": "5c34a152564e28c993ae5a4e6b9ffa2ad4ce32e480b8ab291ee9401482b0d1e0",
     "QudCnRuntimeVerbs.cs": "63ca1bce9c4049929629557c27a8c98f5c7aa4808bef97a12b1bfc0f05fa7f5c",
     "QudCnSupplement.cs": "bccda0acbb839c94919bc99cc6a388c3c047ee1dd04361cfcaaf0c2ae695a5d1",
     "QudCnSupplementData.cs": "8730e14c9c0bcd7d615c95fc0a1cd90f00a4f72a64f9288aa0b514364752ea4c",
@@ -42,6 +42,6 @@
     "languages/lang-CN/WorldTerrain.supplement.CN.xml": "5e48467e6882a888d0a0ef778978a27979f2607d8f65c056f67853d3742248a0",
     "languages/lang-CN/Worlds.supplement.CN.xml": "e68a1bc076c3c018bfb648e15b8b3077889bd6714c0ed148505ee94343f2245b",
     "languages/lang-CN/ZoneTerrain.supplement.CN.xml": "e3fff94af575b64797db5567a852dc196b0d578826d97466bc48dfe1e3dc4f13",
-    "manifest.json": "a86cab40b17e11e91ab72b2d057258c2b35f08b472cee12b676f4ae699a578db"
+    "manifest.json": "9e06a8dfde04c1cdeb534836c3a8b73c05633389367d8d30eaac9414f3708842"
   }
 }

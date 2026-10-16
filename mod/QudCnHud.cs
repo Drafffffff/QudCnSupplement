@@ -11,7 +11,7 @@ public static class QudCnHud
 {
     static readonly Regex Color = new Regex(@"^<color=([^>]+)>(.*)</color>$", RegexOptions.Singleline);
     static readonly Regex Markup = new Regex(@"^\{\{([^{}|]+)\|(.*)\}\}$", RegexOptions.Singleline);
-    class State { public string Original, Translated; }
+    class State { public string Original, Translated, OriginalSearch; }
     static readonly ConditionalWeakTable<object,State> States = new ConditionalWeakTable<object,State>();
     public sealed class FieldChange { public object Target; public FieldInfo Field; public string Original; }
     public static int Install(Harmony harmony)
@@ -21,6 +21,8 @@ public static class QudCnHud
         n+=Patch(harmony,"XRL.UI.UITextSkin",m=>m.Name=="SetText","UiArgsPrefix",null);
         n+=Patch(harmony,"XRL.UI.UITextSkin",m=>m.Name=="Apply","SkinPrefix",null);
         n+=Patch(harmony,"ModelShark.TooltipManager",m=>m.Name=="SetTextAndSize","TooltipPrefix","TooltipPostfix");
+        n+=Patch(harmony,"Qud.UI.KeybindsScreen",m=>m.Name=="FilterItems","KeybindingsPrefix",null);
+        n+=Patch(harmony,"XRL.World.Text.ReplaceBuilder",m=>m.Name=="SetArgument","KeybindingArgumentPrefix",null);
         return n;
     }
     static int Patch(Harmony h,string name,Predicate<MethodInfo> match,string pre,string post)
@@ -74,6 +76,48 @@ public static class QudCnHud
         if(!QudCnSupplement.IsChinese)return;
         // Only text arguments; numeric SetText parameters, field names and templates are not rewritten.
         if(__args.Length>0 && __args[0] is string)__args[0]=Translate((string)__args[0]);
+    }
+    // Localize screen-owned presentation rows before native filtering and layout.
+    // Keep CategoryId, KeyId, bindings and the shared GameCommand registry intact.
+    public static void KeybindingsPrefix(object __instance)
+    {
+        var field=AccessTools.Field(__instance.GetType(),"menuItems");
+        var rows=field==null?null:field.GetValue(__instance) as IEnumerable;
+        if(rows==null)return;
+        foreach(var row in rows)
+        {
+            if(row==null)continue;
+            var type=row.GetType();
+            var description=AccessTools.Field(type,"KeyDescription")??AccessTools.Field(type,"CategoryDescription");
+            if(description==null)continue;
+            string current=description.GetValue(row) as string;if(current==null)continue;
+            State state=States.GetValue(row,key=>new State());
+            if(state.Original==null)state.Original=current;
+            string value=QudCnSupplement.IsChinese?Translate(state.Original):state.Original;
+            description.SetValue(row,value);state.Translated=value;
+            var search=AccessTools.Field(type,"SearchWords");
+            if(search!=null)
+            {
+                if(state.OriginalSearch==null)state.OriginalSearch=search.GetValue(row) as string??"";
+                search.SetValue(row,QudCnSupplement.IsChinese?state.OriginalSearch+" "+value:state.OriginalSearch);
+            }
+        }
+    }
+    public static void KeybindingArgumentPrefix(object __instance,object[] __args)
+    {
+        if(!QudCnSupplement.IsChinese || __args.Length<2)return;
+        string key=__args[0] as string;
+        if(key!="newcommand" && key!="commandname" && key!="conflicting" && key!="commandText")return;
+        var intrinsic=AccessTools.Field(__instance.GetType(),"Intrinsic");
+        string template=intrinsic==null?null:Convert.ToString(intrinsic.GetValue(__instance));
+        if(template==null || !(template.Contains("=conflicting.andList=") || template.Contains("=commandname|color:C=") || template.Contains("=commandText|color:C=")))return;
+        var text=__args[1] as string;
+        if(text!=null){__args[1]=Translate(text);return;}
+        var list=__args[1] as IEnumerable;
+        if(key!="conflicting" || list==null)return;
+        var values=new List<string>();
+        foreach(var value in list){if(!(value is string))return;values.Add(Translate((string)value));}
+        __args[1]=values;
     }
     public static void SkinPrefix(object __instance)
     {
